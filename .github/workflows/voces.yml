@@ -1,0 +1,48 @@
+name: voces
+# Genera las voces nuevas de un contenido y las guarda en el repo (retoma si se corta).
+on:
+  workflow_dispatch:
+    inputs:
+      contenido:
+        description: "Archivo de contenido (ej. contenido/maqueta_tv.json)"
+        default: "contenido/maqueta_tv.json"
+      salida:
+        description: "Carpeta de salida (ej. voces/maqueta)"
+        default: "voces/maqueta"
+      modelo:
+        description: "Modelo de voz"
+        default: "Qwen/Qwen3-TTS-12Hz-1.7B-Base"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: voces
+  cancel-in-progress: false
+
+jobs:
+  voces:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Instalar (torch CPU)
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq sox libsox-dev
+          pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install -q qwen-tts soundfile transformers
+      - name: Generar (guarda avances cada 20 min)
+        run: |
+          git config user.name "quiensabemas-bot"
+          git config user.email "actions@users.noreply.github.com"
+          ( while sleep 1200; do git add "${{ inputs.salida }}" && git commit -qm "Voces: avance" && git pull --rebase -q && git push -q; done ) &
+          python scripts/generar_voces.py "${{ inputs.contenido }}" "${{ inputs.salida }}" --modelo "${{ inputs.modelo }}"
+      - name: Guardar
+        if: always()
+        run: |
+          git add "${{ inputs.salida }}"
+          git commit -m "Voces: ${{ inputs.salida }}" || exit 0
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
