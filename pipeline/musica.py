@@ -199,3 +199,85 @@ class Musica:
             gt = (DB(NIVEL['tema_libre']) + (DB(NIVEL['tema_voz']) - DB(NIVEL['tema_libre'])) * vz) * ref / tr_rms
             mix[st:e] += tm[:e - st] * gt.astype(np.float32)
         return mix
+
+
+# =====================================================================================
+# Música real de la Biblioteca de audio de YouTube (sin atribución, sin Content ID).
+# Los temas se guardan CIFRADOS en el repo (público) y se descifran en Actions con el secret
+# MUSICA_CLAVE: así no se redistribuyen sueltos. Carpeta descifrada: assets/musica/*.ogg
+# =====================================================================================
+import glob, os, subprocess
+
+NIVEL_REAL = dict(cama_voz=-29, cama_libre=-20, cama_reloj=-19, tema_libre=-8, tema_voz=-18)
+TEMA_SEG, FUNDE_SEG, CRUCE_SEG = 14.0, 3.0, 4.0
+
+
+def leer_audio(p):
+    raw = subprocess.run(['ffmpeg', '-v', 'error', '-i', p, '-ac', '1', '-ar', str(SR), '-f', 'f32le', '-'],
+                         check=True, capture_output=True).stdout
+    return np.frombuffer(raw, np.float32).copy()
+
+
+def carpeta_musica(raiz):
+    d = os.environ.get('QSM_MUSICA_DIR') or os.path.join(raiz, 'assets', 'musica')
+    return d if glob.glob(os.path.join(d, '*.ogg')) else None
+
+
+class MusicaArchivos:
+    """Tema de entrada/salida y cama suave con temas reales. Cada episodio: otro orden, otro tema de
+    entrada y de salida, y la cama arranca en otro punto (la semilla es el id del episodio)."""
+    def __init__(s, carpeta, semilla):
+        r = np.random.default_rng(semilla)
+        pistas = []
+        for p in sorted(glob.glob(os.path.join(carpeta, '*.ogg'))):
+            x = leer_audio(p); x /= max(1e-6, np.sqrt(np.mean(x ** 2)))   # todas al mismo volumen
+            pistas.append(x)
+        orden = list(r.permutation(len(pistas)))
+        s.entrada, s.salida = pistas[orden[0]], pistas[orden[1 % len(orden)]]
+        # lista de reproducción de la cama: todas, encadenadas con fundido cruzado, en bucle
+        c = int(CRUCE_SEG * SR); lista = pistas[orden[2 % len(orden)]][:].copy()
+        for k in orden[3:] + orden[:2]:
+            x = pistas[k]; f = np.sin(np.linspace(0, np.pi / 2, c, dtype=np.float32)) ** 2
+            lista[-c:] = lista[-c:] * (1 - f) + x[:c] * f; lista = np.concatenate([lista, x[c:]])
+        f = np.sin(np.linspace(0, np.pi / 2, c, dtype=np.float32)) ** 2   # cierre del bucle sin costura
+        lista[:c] = lista[:c] * f + lista[-c:] * (1 - f); s.lista = lista[:-c]
+        s.ini = int(r.integers(0, len(s.lista)))
+
+    def _tema(s, x):
+        n = int(TEMA_SEG * SR); y = x[:n].copy(); fd = int(FUNDE_SEG * SR)
+        y[-fd:] *= np.linspace(1, 0, fd, dtype=np.float32) ** 2
+        return y
+
+    def mezclar(s, mix, habla, relojes, temas):
+        n = len(mix); K = 240; nc = n // K + 1
+        voz = np.zeros(nc, np.float32)
+        for t0, t1, q, lv in habla: voz[int(t0 * 100):int(t1 * 100) + 1] = 1
+        if voz.any():
+            sel = np.repeat(voz[:n // K] > 0, K)[:n]; m = mix[:len(sel)][sel][::50]
+            ref = float(np.sqrt(np.mean(m ** 2))) if len(m) else 0.1
+        else: ref = 0.1
+        ref = max(ref, 0.02)
+        voz = uniform_filter1d(maximum_filter1d(voz, 35), 10)
+        reloj = np.zeros(nc, np.float32)
+        for t0, seg in relojes: reloj[int(t0 * 100):int((t0 + seg) * 100)] = 1
+        reloj = uniform_filter1d(reloj, 30)
+        gl, gv, gr = (DB(NIVEL_REAL[k]) * ref for k in ('cama_libre', 'cama_voz', 'cama_reloj'))
+        g = (gl + (gv - gl) * voz) * (1 - reloj) + gr * reloj
+        for t, cual in temas:   # la cama entra y sale en fundido alrededor de los temas
+            a = int(t * 100); b = min(nc, a + int(TEMA_SEG * 100))
+            v = np.ones(nc, np.float32); v[a:b] = 0
+            g *= uniform_filter1d(v, 200)
+        if temas and temas[0][0] < 1: g[:int(TEMA_SEG * 100)] = 0   # el programa empieza con el tema, no con la cama
+        CH = SR * 60; L = len(s.lista)
+        for a in range(0, n, CH):
+            b = min(n, a + CH); idx = np.arange(a, b)
+            gc = np.interp(idx / K, np.arange(nc), g).astype(np.float32)
+            mix[a:b] += s.lista[(idx + s.ini) % L] * gc
+        for t, cual in temas:
+            x = s._tema(s.entrada if cual == 'entrada' else s.salida)
+            st = int(t * SR); e = min(n, st + len(x))
+            if e <= st: continue
+            vz = np.interp(np.arange(st, e) / K, np.arange(nc), voz)
+            gt = (DB(NIVEL_REAL['tema_libre']) + (DB(NIVEL_REAL['tema_voz']) - DB(NIVEL_REAL['tema_libre'])) * vz) * ref
+            mix[st:e] += x[:e - st] * gt.astype(np.float32)
+        return mix
