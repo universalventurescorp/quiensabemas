@@ -18,6 +18,7 @@ NOMBRES = {'presentador': 'MAX', 'copresentadora': 'NOVA', 'anunciador': 'LA VOZ
 PREFIJO = {'presentador': 'max', 'copresentadora': 'nova'}
 # ancho en pantalla (px del video) de la pantalla/visor: fija la escala de cada personaje
 ANCHO_CARA = {'presentador': 158, 'copresentadora': 112}
+ANCHO_MAX = 470  # ancho máximo del personaje en pantalla (columna de 450 px)
 EXPRESION = {  # pose -> expresión
     'base': 'normal', 'frente': 'normal', 'senala': 'normal', 'presenta': 'normal',
     'piensa': 'piensa', 'sorpresa': 'sorpresa',
@@ -40,8 +41,9 @@ def _base(nombre, esc):
 
 
 def escala(quien, pose):
-    g = GEO[f'{PREFIJO[quien]}_{pose}']['pantalla']
-    return ANCHO_CARA[quien] / (g[2] - g[0])
+    n = f'{PREFIJO[quien]}_{pose}'; g = GEO[n]['pantalla']
+    e = ANCHO_CARA[quien] / (g[2] - g[0])
+    return min(e, ANCHO_MAX / GEO[n]['tam'][0])  # poses muy abiertas (brazos arriba) no invaden el contenido
 
 
 def _cara(quien, expr, boca, parp, w, h):
