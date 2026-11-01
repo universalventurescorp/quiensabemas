@@ -10,6 +10,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageOps
 
 sys.path.insert(0, os.path.dirname(__file__))
 from personajes import sprite, voz_sprite, NOMBRES
+from musica import Musica
 from reportlab.graphics.barcode import qrencoder as QR
 
 W, H, FPS, SR = 1920, 1080, 15, 24000
@@ -116,6 +117,58 @@ def foto(img, path, box, fondo=None, credito=None, pix=0):
         d.text((x1 - 15, y1 - 21), credito, font=f, fill=(230, 230, 230), anchor='rm')
     return img
 
+# ---------------------------------------------------------------- foto en movimiento (Ken Burns)
+CAJA_PREG = (DOCK_X + 10, 270, DOCK_X + 10 + 760, 270 + 520)
+CAJA_DATO = (DOCK_X + 10, 360, DOCK_X + 10 + 700, 360 + 500)
+KB_SEG, KB_ZOOM = 30.0, 0.14   # recorrido completo en 30 s (pregunta → reloj → respuesta → dato), zoom 14 %
+_kb_src, _kb_mask, _kb_vivo = {}, {}, [None, None]
+
+
+def _kb_grande(path, w, h):
+    k = (path, w, h)
+    if k not in _kb_src:
+        if len(_kb_src) > 6: _kb_src.clear()
+        src = Image.open(path).convert('RGB')
+        _kb_src[k] = ImageOps.fit(src, (round(w * (1 + KB_ZOOM + 0.02)), round(h * (1 + KB_ZOOM + 0.02))), Image.LANCZOS)
+    return _kb_src[k]
+
+
+def _kb_mascara(box, credito):
+    k = (box, credito)
+    if k not in _kb_mask:
+        x0, y0, x1, y1 = box; w, h = x1 - x0, y1 - y0
+        m = Image.new('L', (w, h), 0); d = ImageDraw.Draw(m); d.rounded_rectangle((0, 0, w, h), 22, fill=255)
+        if credito:  # el crédito queda fijo encima
+            tw = d.textlength(credito, font=font('Regular', 18)); d.rectangle((w - tw - 26, h - 36, w, h), fill=0)
+        _kb_mask[k] = m
+    return _kb_mask[k]
+
+
+class Movil:
+    """Escena cuya foto se mueve lento (zoom y desplazamiento). base: pantalla fija (Image) o función t→Image.
+    El movimiento sigue el reloj del episodio (t_ini) para que no salte entre escenas de la misma pregunta."""
+    def __init__(s, base, path, box, credito, semilla, t_ini, t_esc):
+        s.fn = base if callable(base) else None
+        s.z = None if s.fn else (base.size, zlib.compress(base.tobytes(), 1))
+        s.path, s.box, s.cred, s.t_ini, s.t_esc = path, box, credito, t_ini, t_esc
+        s.zin = semilla % 2 == 0; s.dx = (-1, 1)[(semilla // 2) % 2]; s.dy = (-1, 0, 1)[(semilla // 4) % 3]
+
+    def __call__(s, t):
+        if s.fn: base = s.fn(t)
+        else:
+            if _kb_vivo[0] is not s: _kb_vivo[:] = [s, Image.frombytes('RGB', s.z[0], zlib.decompress(s.z[1]))]
+            base = _kb_vivo[1]
+        x0, y0, x1, y1 = s.box; w, h = x1 - x0, y1 - y0
+        big = _kb_grande(s.path, w, h); BW, BH = big.size
+        p = min(1.0, max(0.0, (s.t_esc + t - s.t_ini) / KB_SEG)); p = 0.5 - 0.5 * np.cos(np.pi * p)
+        z = 1 + KB_ZOOM * (p if s.zin else 1 - p)
+        ww, hh = BW / z, BH / z; mx, my = (BW - ww) / 2, (BH - hh) / 2
+        cx, cy = BW / 2 + s.dx * mx * 0.9, BH / 2 + s.dy * my * 0.9
+        cuadro = big.resize((w, h), Image.BILINEAR, box=(cx - ww / 2, cy - hh / 2, cx + ww / 2, cy + hh / 2))
+        fr = base.copy(); fr.paste(cuadro, (x0, y0), _kb_mascara(s.box, s.cred))
+        return fr
+
+
 # ---------------------------------------------------------------- pantallas
 class Pantallas:
     def __init__(s, meta, url, raiz):
@@ -198,7 +251,7 @@ class Pantallas:
             f, ls, sz = fit(d, q['p'], 'Bold', W - DOCK_X - 90, 110, 60)
             lines(d, ls, f, sz, DOCK_X + (W - DOCK_X) / 2 - 20, 185, C['white'])
             p = os.path.join(s.raiz, q['img'])
-            img = foto(img, p, (DOCK_X + 10, 270, DOCK_X + 10 + 760, 270 + 520), q.get('img_fondo'), s.credito(p), pix)
+            img = foto(img, p, CAJA_PREG, q.get('img_fondo'), s.credito(p), pix)
             img = s._opciones(img, q, modo, (DOCK_X + 820, 270, W - 50, 790), 1)
         else:
             f, ls, sz = fit(d, q['p'], 'Bold', W - DOCK_X - 110, 250, 70)
@@ -227,7 +280,7 @@ class Pantallas:
         lines(d, ls, f, sz, DOCK_X + (W - DOCK_X) / 2 + 30, 240, C['white'])
         if q.get('img'):  # la foto acompaña al dato (también la de la pregunta, ya nítida)
             p = os.path.join(s.raiz, q['img'])
-            img = foto(img, p, (DOCK_X + 10, 360, DOCK_X + 10 + 700, 360 + 500), q.get('img_fondo'), s.credito(p))
+            img = foto(img, p, CAJA_DATO, q.get('img_fondo'), s.credito(p))
             bx = (DOCK_X + 760, 370, W - 50, 870)
         else:
             bx = (DOCK_X + 10, 370, W - 50, 870)
@@ -326,6 +379,7 @@ class Programa:
         s.audio = []     # (t, arr)
         s.habla = []     # (t0, t1, quien, envolvente por frame)
         s.t = 0.0
+        s.relojes, s.temas, s.musica = [], [], None   # para la música: (t, seg) del reloj y (t, cual) de los temas
 
     def sonido(s, arr, at=None, gain=1.0): s.audio.append((s.t if at is None else at, arr * gain))
 
@@ -421,6 +475,7 @@ class Programa:
         mix = np.zeros(int(SR * (total + 0.5)), np.float32)
         for at, a in s.audio:
             st = int(at * SR); e = min(len(mix), st + len(a)); mix[st:e] += a[:e - st]
+        if getattr(s, 'musica', None): s.musica.mezclar(mix, s.habla, s.relojes, s.temas)
         pk = np.abs(mix).max()
         if pk > 0.98: mix *= 0.98 / pk
         wav = os.path.join(tmp, 'audio.wav')
@@ -450,6 +505,14 @@ def main():
     ex = meta.get('extra_tts', {})
     # variantes de las frases fijas: rotan dentro del episodio y cambian de punto de partida en cada episodio
     var_dir = os.path.join(raiz, VARIANTES); semilla = sum(map(ord, meta.get('id', meta['codigo_sala']))); uso = {}
+    if not os.environ.get('QSM_SIN_MUSICA'): G.musica = Musica(semilla)
+    KB = not os.environ.get('QSM_SIN_MOVIMIENTO')
+
+    def mover(img, q, caja, t_ini):
+        """Foto con movimiento lento (no en banderas ni mientras la imagen misteriosa está pixelada)."""
+        if not KB or not q.get('img') or q.get('img_fondo') == 'blanco': return img
+        p = os.path.join(raiz, q['img'])
+        return Movil(img, p, caja, P.credito(p), q['n'] * 7 + semilla, t_ini, G.t)
 
     def variante(clave):
         if not os.path.isdir(var_dir): return None
@@ -479,7 +542,8 @@ def main():
 
     capitulos = [(0.0, 'Bienvenida')]
     # --- apertura
-    G.sonido(S['fanfare'], gain=0.8)
+    if G.musica: G.temas.append((0.0, 'entrada'))
+    else: G.sonido(S['fanfare'], gain=0.8)
     decir(P.anuncio('¡¿Quién Sabe Más?!', meta['titulo']), [('an_01_marca', ''), ('an_tema', ex.get('an_tema', ['', ''])[1])], 'anunciador', pre=0.6)
     decir(P.lobby(), [('pr_intro', ex.get('pr_intro', ['', ''])[1]), ('pr_01_celulares', '')], 'presentador', poses={'presentador': 'saluda'})
     decir(P.lobby(), [('co_intro', ex.get('co_intro', ['', ''])[1])], 'copresentadora', poses={'copresentadora': 'saluda'})
@@ -515,7 +579,11 @@ def main():
         G.escena(P.tarjeta(n, N, ronda), 1.0 if relam else 1.6, 'presentador', {'presentador': 'base'})
         t_abre = G.t
         pix0 = 34 if ronda == 'misteriosa' else 0
-        decir(P.pregunta(n, N, q, pix=pix0), [(f'{key}_pregunta', q['tp'])], 'presentador', pad=0.3, poses={'presentador': 'senala'})
+        con_foto = bool(q.get('img')) and q.get('img_modo') == 'pregunta'
+        mueve = con_foto and not pix0   # la misteriosa ya se mueve con el pixelado
+        img_p = P.pregunta(n, N, q, pix=pix0)
+        decir(mover(img_p, q, CAJA_PREG, t_abre) if mueve else img_p, [(f'{key}_pregunta', q['tp'])], 'presentador', pad=0.3,
+              poses={'presentador': 'senala'})
         if idx < 2: G.voz(voz('pr_03_segundos'), G.t + 0.1, 'presentador')
         t0 = G.t
         for sec in range(seg): G.sonido(S['tick_hi'] if sec >= seg - 3 else S['tick'], at=t0 + sec, gain=0.8)
@@ -527,22 +595,27 @@ def main():
                 RELOJ.clear()  # un solo cuadro vivo a la vez: con 90+ preguntas la memoria se llenaba
                 RELOJ[k] = P.pregunta(n, N, q, reloj=r, frac=fr, pix=px)
             return RELOJ[k]
-        G.escena(tfn, float(seg), 'presentador', {'presentador': 'piensa'})
+        G.relojes.append((t0, float(seg)))
+        G.escena(mover(tfn, q, CAJA_PREG, t_abre) if mueve else tfn, float(seg), 'presentador', {'presentador': 'piensa'})
+        t_kb = t_abre if mueve else G.t   # la misteriosa empieza a moverse recién al revelarse
         G.sonido(S['tiempo'], gain=0.7)
         tiempos.append({'n': n, 'abre': round(t_abre - t_ya, 2), 'reloj': round(t0 - t_ya, 2), 'cierra': round(G.t - t_ya, 2)})
         if relam:  # sin pausa: directo a la respuesta, sin dato curioso
             G.sonido(S['ding'], at=G.t + 0.1, gain=0.9)
-            decir(P.pregunta(n, N, q, modo='revela'), [(f'{key}_respuesta', q['tr'])], 'copresentadora', pad=0.6, pre=0.1,
+            img_r = P.pregunta(n, N, q, modo='revela')
+            decir(mover(img_r, q, CAJA_PREG, t_kb) if con_foto else img_r, [(f'{key}_respuesta', q['tr'])], 'copresentadora', pad=0.6, pre=0.1,
                   poses={'copresentadora': 'aplaude'})
         else:
-            decir(P.pregunta(n, N, q, reloj='¡YA!', frac=0), [('pr_04_tiempo', ''), ('co_08_correcta', '')], 'copresentadora', pad=0.1, pre=0.1,
+            img_y = P.pregunta(n, N, q, reloj='¡YA!', frac=0)
+            decir(mover(img_y, q, CAJA_PREG, t_kb) if con_foto else img_y, [('pr_04_tiempo', ''), ('co_08_correcta', '')], 'copresentadora', pad=0.1, pre=0.1,
                   poses={'copresentadora': 'presenta', 'presentador': 'frente'})
             G.sonido(S['ding'], at=G.t + 0.2, gain=0.9)
             dificil = (n - 1) * 3 // N >= 2
             rev = 'celebra' if n == N else ('sorpresa' if dificil and n % 2 == 0 else 'aplaude')
-            decir(P.pregunta(n, N, q, modo='revela'), [(f'{key}_respuesta', q['tr'])], 'copresentadora', pad=0.9, pre=0.2,
+            img_r = P.pregunta(n, N, q, modo='revela')
+            decir(mover(img_r, q, CAJA_PREG, t_kb) if con_foto else img_r, [(f'{key}_respuesta', q['tr'])], 'copresentadora', pad=0.9, pre=0.2,
                   poses={'copresentadora': rev})
-            decir(P.dato(n, N, q), [('co_02_dato', ''), (f'{key}_dato', q['td'])], 'copresentadora', pad=1.2,
+            decir(mover(P.dato(n, N, q), q, CAJA_DATO, t_kb if con_foto else G.t), [('co_02_dato', ''), (f'{key}_dato', q['td'])], 'copresentadora', pad=1.2,
                   poses={'copresentadora': 'presenta'})
         sig = Q[idx + 1] if idx + 1 < len(Q) else None
         if (idx + 1) % 5 == 0 and n != N and not (relam and sig and sig.get('ronda') == 'relampago'):
@@ -555,6 +628,7 @@ def main():
     G.sonido(S['fanfare'], gain=0.8)
     decir(P.rangos(len(Q)), [('co_05_felicidades', ''), ('pr_cierre', ex.get('pr_cierre', ['', ''])[1])], 'presentador', pad=3.0,
           poses={'presentador': 'celebra', 'copresentadora': 'celebra'})
+    if G.musica: G.temas.append((G.t, 'salida'))
     decir(P.final(), [('pr_12_suscribanse', ''), ('co_07_otra', ''), ('pr_13_despedida', '')], 'presentador', pad=3.0,
           poses={'presentador': 'saluda', 'copresentadora': 'saluda'})
     print(f'Duración: {G.t/60:.1f} min · escenas: {len(G.escenas)}')
