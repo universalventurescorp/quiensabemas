@@ -2,7 +2,8 @@
 Uso: python scripts/recortar_personajes.py
 Lee  assets/personajes/originales/*.png
 Deja assets/personajes/<nombre>.png (RGBA, recortado, alto máx 1200 px)
-     assets/personajes/<nombre>_cara.png (máscara L de la pantalla negra donde se dibuja la cara)
+     assets/personajes/<nombre>_cara.png (máscara L de la pantalla/visor donde se dibuja la cara)
+     assets/personajes/<nombre>_brillo.png (reflejo del vidrio, se repinta encima de la cara)
      assets/personajes/geometria.json (caja de la pantalla en cada imagen)
 """
 import glob, json, os
@@ -37,21 +38,35 @@ def chroma(rgb):
     return out
 
 
-def pantalla(rgba):
-    """Pantalla/visor: la mancha negra más grande en la mitad superior."""
+def pantalla(rgba, reflejo=True):
+    """Pantalla/visor: la mancha negra más grande en la mitad superior, más el reflejo gris
+    pegado a ella (si no, el centro queda corrido y la cara parece mirar de lado).
+    Devuelve (máscara de la cara, máscara del reflejo, caja)."""
     f = rgba.astype(np.float32); h = f.shape[0]
     lum = 0.3 * f[..., 0] + 0.59 * f[..., 1] + 0.11 * f[..., 2]
-    oscuro = (lum < 42) & (f[..., 3] > 200)
+    sat = f[..., :3].max(-1) - f[..., :3].min(-1)
+    opaco = f[..., 3] > 200
+    oscuro = (lum < 42) & opaco
     oscuro[int(h * 0.6):] = False
     oscuro = ndimage.binary_opening(oscuro, iterations=3)
     lab, n = ndimage.label(oscuro)
     tam = ndimage.sum(oscuro, lab, range(1, n + 1))
-    m = lab == (1 + int(np.argmax(tam)))
+    negro = ndimage.binary_fill_holes(lab == (1 + int(np.argmax(tam))))
+    # reflejo: gris poco saturado que toca la parte negra
+    gris = (lum < 135) & (sat < 45) & opaco & reflejo
+    gris[int(h * 0.6):] = False
+    lab, n = ndimage.label(gris | negro)
+    ids = np.unique(lab[negro]); ids = ids[ids > 0]
+    m = ndimage.binary_closing(np.isin(lab, ids), iterations=4)
     m = ndimage.binary_fill_holes(m)
+    # no crecer más allá de un margen razonable de la parte negra
+    ys, xs = np.where(negro); w0 = xs.max() - xs.min()
+    lim = np.zeros_like(m); lim[ys.min() - 5:ys.max() + 6, max(0, xs.min() - int(0.35 * w0)):xs.max() + int(0.35 * w0)] = True
+    m &= lim
     ys, xs = np.where(m)
-    # máscara suave, un poco hacia adentro para no pisar el bisel
     suave = ndimage.gaussian_filter(ndimage.binary_erosion(m, iterations=4).astype(np.float32), 2)
-    return suave, (int(xs.min()), int(ys.min()), int(xs.max()), int(ys.max()))
+    brillo = ndimage.gaussian_filter((m & ~ndimage.binary_dilation(negro, iterations=2)).astype(np.float32), 2.5)
+    return suave, brillo, (int(xs.min()), int(ys.min()), int(xs.max()), int(ys.max()))
 
 
 def main():
@@ -70,8 +85,9 @@ def main():
             out = out.resize((round(out.width * esc), round(out.height * esc)), Image.LANCZOS)
         rg = np.array(out)
         if nom != 'voz':
-            m, caja = pantalla(rg)
+            m, br, caja = pantalla(rg, reflejo=nom.startswith('nova'))  # MAX: su pantalla ya es simétrica
             Image.fromarray((m * 255).astype(np.uint8), 'L').save(os.path.join(DEST, f'{nom}_cara.png'))
+            Image.fromarray((br * 255).astype(np.uint8), 'L').save(os.path.join(DEST, f'{nom}_brillo.png'))
             geo[nom] = {'tam': [out.width, out.height], 'pantalla': caja}
         else:
             geo[nom] = {'tam': [out.width, out.height]}

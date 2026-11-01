@@ -17,7 +17,7 @@ GEO = json.load(open(os.path.join(DIR, 'geometria.json')))
 NOMBRES = {'presentador': 'MAX', 'copresentadora': 'NOVA', 'anunciador': 'LA VOZ'}
 PREFIJO = {'presentador': 'max', 'copresentadora': 'nova'}
 # ancho en pantalla (px del video) de la pantalla/visor: fija la escala de cada personaje
-ANCHO_CARA = {'presentador': 158, 'copresentadora': 112}
+ANCHO_CARA = {'presentador': 158, 'copresentadora': 130}
 ANCHO_MAX = 470  # ancho máximo del personaje en pantalla (columna de 450 px)
 EXPRESION = {  # pose -> expresión
     'base': 'normal', 'frente': 'normal', 'senala': 'normal', 'presenta': 'normal',
@@ -36,8 +36,10 @@ def poses(quien):
 def _base(nombre, esc):
     im = Image.open(os.path.join(DIR, nombre + '.png')).convert('RGBA')
     m = Image.open(os.path.join(DIR, nombre + '_cara.png')).convert('L')
+    pb = os.path.join(DIR, nombre + '_brillo.png')
+    br = Image.open(pb).convert('L') if os.path.exists(pb) else Image.new('L', im.size, 0)
     w, h = round(im.width * esc), round(im.height * esc)
-    return im.resize((w, h), Image.LANCZOS), m.resize((w, h), Image.LANCZOS)
+    return im.resize((w, h), Image.LANCZOS), m.resize((w, h), Image.LANCZOS), br.resize((w, h), Image.LANCZOS)
 
 
 def escala(quien, pose):
@@ -110,7 +112,7 @@ def sprite(quien, pose='base', boca=0, parp=False):
     """Devuelve (imagen RGBA, (cx, cy) centro de la pantalla en la imagen)."""
     nombre = f'{PREFIJO[quien]}_{pose}'
     esc = escala(quien, pose)
-    im, mask = _base(nombre, esc)
+    im, mask, brillo = _base(nombre, esc)
     x0, y0, x1, y1 = [round(v * esc) for v in GEO[nombre]['pantalla']]
     w, h = x1 - x0, y1 - y0
     cara = _cara(quien, EXPRESION.get(pose, 'normal'), boca, parp, w, h)
@@ -120,6 +122,9 @@ def sprite(quien, pose='base', boca=0, parp=False):
     lay.paste(tinte, (x0, y0)); lay.alpha_composite(cara, (x0, y0))
     a = ImageChops.multiply(lay.getchannel('A'), mask); lay.putalpha(a)
     out = Image.alpha_composite(im, lay)
+    # el reflejo del vidrio vuelve encima de la cara (se ve detrás del visor)
+    refl = im.copy(); refl.putalpha(brillo.point(lambda v: int(v * 0.6)))
+    out.alpha_composite(refl)
     return out, ((x0 + x1) / 2, (y0 + y1) / 2)
 
 
