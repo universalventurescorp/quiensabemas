@@ -97,6 +97,16 @@ jobs:
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN_QSM: ${{ secrets.YT_REFRESH_TOKEN_QSM }}
         run: python scripts/subir_youtube.py trabajo/episodio.json trabajo/video.mp4 trabajo/video.tiempos.json trabajo/miniatura.jpg
+      - name: Shorts «¿La sabes en 5 segundos?» (2 por episodio, 4 el maratón)
+        continue-on-error: true
+        run: python pipeline/shorts.py --contenido trabajo/episodio.json --voces voces_ep --salida trabajo/shorts
+      - name: Subir los Shorts EN PRIVADO (con enlace al episodio)
+        continue-on-error: true
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN_QSM: ${{ secrets.YT_REFRESH_TOKEN_QSM }}
+        run: python scripts/subir_shorts.py trabajo/episodio.json trabajo/shorts/shorts.json
       - name: Registrar (banco de preguntas, archivo de la web, publicados)
         run: |
           python scripts/exportar_episodio.py trabajo/episodio.json trabajo/video.tiempos.json
