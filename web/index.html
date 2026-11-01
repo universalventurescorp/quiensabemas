@@ -137,6 +137,9 @@ button:focus-visible, input:focus-visible { outline: 3px solid var(--oro); outli
 .demo .tit { font-weight: 700; color: var(--oro); text-transform: uppercase; letter-spacing: .08em; font-size: .72rem; }
 .demo .pantalla { font-weight: 600; }
 .demo .fila .mini { flex: 1; }
+.pasos ol { margin: 0; padding-left: 1.2em; display: flex; flex-direction: column; gap: 6px; color: var(--tenue); }
+.pasos b { color: inherit; }
+a.btn { display: block; text-align: center; text-decoration: none; box-sizing: border-box; }
 </style>
 </head>
 <body>
@@ -150,7 +153,8 @@ button:focus-visible, input:focus-visible { outline: 3px solid var(--oro); outli
 const EP_DEMO = /*EP_DEMO*/null;
 const PROD = /quiensabemastv\.pages\.dev$/.test(location.hostname);
 const DEMO = !PROD;
-const SALA = ((new URLSearchParams(location.search).get('sala')) || (EP_DEMO && EP_DEMO.sala) || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
+const limpiarSala = x => (x || '').toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 12);
+let SALA = limpiarSala(new URLSearchParams(location.search).get('sala'));
 const CANAL = 'https://www.youtube.com/@QuienSabeMasTV';
 const RANGOS = [[0.34, 'Aprendiz curioso'], [0.67, 'Sabelotodo en camino'], [0.91, 'Experto'], [1.01, '¡GENIO TOTAL!']];
 
@@ -273,13 +277,43 @@ function cerrarPregunta(x) {
 function pintar() {
   const v = S.vista;
   if (v === 'cargando') $app.innerHTML = cabecera() + `<p class="sub">Abriendo la sala…</p>`;
-  else if (v === 'sin-sala') $app.innerHTML = cabecera() + `<div class="bloque"><h2>Esta sala no existe</h2><p class="sub">Revisa el código que aparece en la esquina del video y vuelve a escanear el QR.</p></div>`;
+  else if (v === 'portada') vistaPortada();
   else if (v === 'inicio') vistaInicio();
   else if (v === 'unirse') vistaUnirse();
   else vistaJuego();
 }
 function cabecera() {
   return `<div class="marca"><span class="logo">¿Quién Sabe Más?</span>${S.ep ? `<span class="chip">Sala <b>${esc(S.ep.sala)}</b></span>` : ''}</div>` + (DEMO ? barraDemo() : '');
+}
+function vistaPortada() {
+  $app.innerHTML = cabecera() + `
+    <div><p class="sub">El concurso que se juega desde el sofá</p><h1>Juega con el video desde tu celular</h1></div>
+    <div class="bloque">
+      <label for="sala">Código de sala</label>
+      <p class="nota">Está en la esquina del video, junto al QR.</p>
+      <input type="text" id="sala" class="codigo" maxlength="12" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="MUNDO" value="${esc(S.salaEscrita || '')}">
+      ${S.error ? `<p class="error">${esc(S.error)}</p>` : ''}
+    </div>
+    <button class="btn" id="b-sala">Entrar a la sala</button>
+    <div class="bloque pasos">
+      <h2>Cómo se juega</h2>
+      <ol>
+        <li>Pon un episodio de <b>¿Quién Sabe Más?</b> en la tele.</li>
+        <li>Escanea el QR o escribe aquí el código de sala.</li>
+        <li>Uno crea el grupo, los demás entran con su código y… ¡a ver quién sabe más!</li>
+      </ol>
+    </div>
+    <a class="btn sec" href="${CANAL}?sub_confirmation=1" target="_blank" rel="noopener">Ver los episodios en YouTube</a>`;
+  const inp = document.getElementById('sala');
+  inp.addEventListener('input', borrarError);
+  inp.addEventListener('keydown', e => { if (e.key === 'Enter') entrarSala(inp.value); });
+  on('b-sala', () => entrarSala(inp.value));
+}
+function borrarError() { if (!S.error) return; S.error = ''; const e = document.querySelector('.error'); if (e) e.remove(); }
+function entrarSala(x) {
+  S.salaEscrita = x; const c = limpiarSala(x);
+  if (c.length < 2) { S.error = 'Escribe el código de sala que ves en el video.'; return pintar(); }
+  SALA = c; S.error = ''; cargarSala(true);
 }
 function vistaInicio() {
   $app.innerHTML = cabecera() + `
@@ -293,6 +327,7 @@ function vistaInicio() {
     <button class="btn" id="b-crear">Crear grupo</button>
     <div class="fila"><button class="btn sec" id="b-unirse">Tengo un código</button><button class="btn sec" id="b-solo">Jugar solo</button></div>
     <p class="nota">Juegan todos frente a la misma tele. Uno crea el grupo y los demás entran con su código.</p>`;
+  document.getElementById('apodo').addEventListener('input', borrarError);
   on('b-crear', crearGrupo); on('b-solo', jugarSolo);
   on('b-unirse', () => { if (validarApodo()) { S.vista = 'unirse'; pintar(); } });
 }
@@ -451,15 +486,16 @@ document.addEventListener('click', e => {
 if (DEMO) setInterval(() => { const el = document.querySelector('.demo .pantalla'); if (el && S.vista === 'juego') { const tmp = document.createElement('div'); tmp.innerHTML = barraDemo(); el.textContent = tmp.querySelector('.pantalla').textContent; } }, 500);
 
 /* ------------------------------------------------------------------ arranque */
-(async function arrancar() {
-  S.apodo = leer('apodo', ''); S.vista = 'cargando'; pintar();
+async function cargarSala(desdePortada) {
+  S.vista = 'cargando'; S.ep = null; pintar();
+  const noExiste = () => { S.vista = 'portada'; S.error = SALA ? `No encontramos la sala «${SALA}». Revisa el código en la esquina del video.` : ''; pintar(); };
+  if (!SALA) { S.vista = 'portada'; return pintar(); }
   try {
-    if (DEMO) S.ep = EP_DEMO;
-    else {
-      const r = await fetch('/episodios/' + SALA + '.json'); if (!r.ok) throw 0; S.ep = await r.json();
-    }
-  } catch (e) { S.vista = 'sin-sala'; return pintar(); }
-  if (!S.ep) { S.vista = 'sin-sala'; return pintar(); }
+    if (DEMO) { if (!EP_DEMO || SALA !== EP_DEMO.sala) throw 0; S.ep = EP_DEMO; }
+    else { const r = await fetch('/episodios/' + SALA + '.json'); if (!r.ok) throw 0; S.ep = await r.json(); }
+  } catch (e) { return noExiste(); }
+  if (!S.ep) return noExiste();
+  if (desdePortada && !DEMO) { try { history.replaceState(null, '', '?sala=' + SALA); } catch (e) {} }
   // volver a la partida si se recargó la página
   const ses = leer('sesion', null);
   if (!DEMO && ses && ses.sala === S.ep.sala && ses.codigo) {
@@ -467,7 +503,8 @@ if (DEMO) setInterval(() => { const el = document.querySelector('.demo .pantalla
           aplicarEstado(await API.llamar('estado?codigo=' + S.codigo)); S.vista = 'juego'; return pintar(); } catch (e) {}
   }
   S.vista = 'inicio'; pintar();
-})();
+}
+S.apodo = leer('apodo', ''); cargarSala(false);
 </script>
 
 </body>
