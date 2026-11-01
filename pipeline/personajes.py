@@ -75,6 +75,8 @@ def _eje(nombre):
 
 
 EJE = {k: _eje(k) for k in GEO if k != 'voz'}
+# ajustes elegidos a ojo por el dueño del canal (las manos tapan el visor y engañan la medida)
+EJE['nova_sorpresa'] = (8.0, round(EJE['nova_sorpresa'][1] - 0.02, 3), EJE['nova_sorpresa'][2])
 
 
 def _corte_cintura(nombre):
