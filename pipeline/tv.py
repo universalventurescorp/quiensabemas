@@ -146,6 +146,7 @@ class Pantallas:
         d.text((x, 600), 'Sala', font=font('Medium', 32), fill=C['dimtxt'], anchor='lm')
         img = caja(img, (x, 630, x + 400, 740), 22, (255, 255, 255)); d = ImageDraw.Draw(img)
         d.text((x + 200, 686), s.m['codigo_sala'], font=font('Bold', 76), fill=C['ink'], anchor='mm')
+        d.text((780, 780), 'quiensabemastv.pages.dev', font=font('Medium', 34), fill=C['white'], anchor='mm')
         d.text((W / 2 + 200, 850), '¿Sin celular? Anota tus aciertos en un papel y juega igual.', font=font('Regular', 36), fill=C['dimtxt'], anchor='mm')
         if cuenta is not None:
             d.ellipse((W - 220, 860, W - 80, 1000), fill=C['gold'])

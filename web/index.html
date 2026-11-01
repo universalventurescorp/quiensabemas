@@ -291,7 +291,7 @@ function vistaPortada() {
     <div class="bloque">
       <label for="sala">Código de sala</label>
       <p class="nota">Está en la esquina del video, junto al QR.</p>
-      <input type="text" id="sala" class="codigo" maxlength="12" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="MUNDO" value="${esc(S.salaEscrita || '')}">
+      <input type="text" id="sala" class="codigo" maxlength="12" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="Código" value="${esc(S.salaEscrita || '')}">
       ${S.error ? `<p class="error">${esc(S.error)}</p>` : ''}
     </div>
     <button class="btn" id="b-sala">Entrar a la sala</button>
@@ -325,7 +325,7 @@ function vistaInicio() {
       ${S.error ? `<p class="error">${esc(S.error)}</p>` : ''}
     </div>
     <button class="btn" id="b-crear">Crear grupo</button>
-    <div class="fila"><button class="btn sec" id="b-unirse">Tengo un código</button><button class="btn sec" id="b-solo">Jugar solo</button></div>
+    <div class="fila"><button class="btn sec" id="b-unirse">Unirme a un grupo</button><button class="btn sec" id="b-solo">Jugar solo</button></div>
     <p class="nota">Juegan todos frente a la misma tele. Uno crea el grupo y los demás entran con su código.</p>`;
   document.getElementById('apodo').addEventListener('input', borrarError);
   on('b-crear', crearGrupo); on('b-solo', jugarSolo);
@@ -352,7 +352,7 @@ function vistaJuego() {
   if (f.tipo === 'espera') {
     cuerpo = `
       ${S.modo === 'grupo' ? `<div class="bloque"><p class="sub" style="text-align:center">Código del grupo</p><div class="codigo-grande">${esc(S.codigo)}</div>
-        <p class="nota" style="text-align:center">Los demás tocan «Tengo un código» y lo escriben.</p>
+        <p class="nota" style="text-align:center">Los demás tocan «Unirme a un grupo» y lo escriben.</p>
         <ul class="jugadores">${S.jugadores.map(j => `<li class="${j === S.apodo ? 'yo' : ''}">${esc(j)}</li>`).join('')}</ul></div>` : ''}
       <div class="aviso"><div class="tele-icono" aria-hidden="true"></div><h2>Mira la tele</h2>
         <p class="sub">Cuando el presentador diga <b>«¡YA!»</b>, toca EMPEZAR. ${S.modo === 'grupo' ? 'Basta con que lo toque una persona del grupo.' : ''}</p></div>
