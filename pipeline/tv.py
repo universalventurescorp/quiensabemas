@@ -4,7 +4,7 @@ Uso:
   python3 pipeline/tv.py --contenido contenido/maqueta_tv.json --banco banco --voces voces/maqueta --out salida/maqueta.mp4
 Las voces que falten quedan en silencio (sirve para maquetas).
 """
-import argparse, json, os, subprocess, wave, sys
+import argparse, json, os, subprocess, wave, sys, zlib
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageOps
 
@@ -332,7 +332,17 @@ class Programa:
 
     def escena(s, img, dur, quien=None, poses=None):
         """poses: {quien: pose}. Si habla otro personaje que está en poses, se cambia a él."""
+        if isinstance(img, Image.Image):  # comprimida: un maratón tiene miles de pantallas y no caben en memoria
+            img = ('z', img.size, zlib.compress(img.tobytes(), 1))
         s.escenas.append((s.t, dur, img, quien, poses or {})); s.t += dur
+
+    def cuadro(s, ei, t):
+        """Pantalla base de la escena ei en el instante t (se descomprime una vez por escena)."""
+        t0, dur, img, quien, poses = s.escenas[ei]
+        if callable(img): return img(t - t0)
+        if getattr(s, '_vivo', (None,))[0] != ei:
+            s._vivo = (ei, Image.frombytes('RGB', img[1], zlib.decompress(img[2])))
+        return s._vivo[1]
 
     def voz(s, arr, at, quien):
         s.audio.append((at, arr))
@@ -385,7 +395,7 @@ class Programa:
             t = k / FPS
             while ei + 1 < len(s.escenas) and t >= s.escenas[ei + 1][0]: ei += 1
             t0, dur, img, quien, poses = s.escenas[ei]
-            base = img(t - t0) if callable(img) else img
+            base = s.cuadro(ei, t)
             if quien:
                 h = s.hablante(t)
                 if h and h != quien and h in poses: quien = h
@@ -396,17 +406,17 @@ class Programa:
                     k = int(t * FPS) + (17 if quien == 'copresentadora' else 0)
                     key = (id(base), quien, pose, s.boca(t, quien), (k % 61) in (0, 1) or (k % 167) in (0, 1),
                            round(4 * np.sin(2 * np.pi * t / 3.4)))
-                if key not in cache:
-                    if len(cache) > 300: cache.clear()
+                if key not in cache or cache[key][0] is not base:
+                    if len(cache) > 90: cache.clear()
                     fr = base.copy(); s.personaje(fr, quien, pose, t)
-                    cache[key] = fr.tobytes()
-                ff.stdin.write(cache[key])
+                    cache[key] = (base, fr.tobytes())
+                ff.stdin.write(cache[key][1])
             else:
                 key = ('b', id(base))
-                if key not in cache:
-                    if len(cache) > 200: cache.clear()
-                    cache[key] = base.tobytes()
-                ff.stdin.write(cache[key])
+                if key not in cache or cache[key][0] is not base:
+                    if len(cache) > 60: cache.clear()
+                    cache[key] = (base, base.tobytes())
+                ff.stdin.write(cache[key][1])
         ff.stdin.close(); ff.wait()
         mix = np.zeros(int(SR * (total + 0.5)), np.float32)
         for at, a in s.audio:
@@ -484,7 +494,7 @@ def main():
     tiempos = []
     bloque = 10 if len(Q) <= 120 else 25
 
-    previa = None
+    previa = None; RELOJ = {}
     for idx, q in enumerate(Q):
         n = q['n']; key = f'q{n:02d}'; ronda = q.get('ronda')
         if ronda == 'misteriosa' and not (q.get('img') and q.get('img_modo') == 'pregunta'): ronda = None  # sin foto no hay misterio
@@ -509,14 +519,14 @@ def main():
         if idx < 2: G.voz(voz('pr_03_segundos'), G.t + 0.1, 'presentador')
         t0 = G.t
         for sec in range(seg): G.sonido(S['tick_hi'] if sec >= seg - 3 else S['tick'], at=t0 + sec, gain=0.8)
-        cache = {}
-        def tfn(t, q=q, n=n, cache=cache, seg=seg, pix0=pix0):
+        def tfn(t, q=q, n=n, seg=seg, pix0=pix0):
             r = max(1, seg - int(t)); fr = round((1 - t / seg) * 40) / 40
             px = round(pix0 * (r - 1) / (seg - 1)) if pix0 else 0  # se aclara segundo a segundo
-            if (r, fr) not in cache:
-                if len(cache) > 60: cache.clear()
-                cache[(r, fr)] = P.pregunta(n, N, q, reloj=r, frac=fr, pix=px)
-            return cache[(r, fr)]
+            k = (n, r, fr)
+            if k not in RELOJ:
+                RELOJ.clear()  # un solo cuadro vivo a la vez: con 90+ preguntas la memoria se llenaba
+                RELOJ[k] = P.pregunta(n, N, q, reloj=r, frac=fr, pix=px)
+            return RELOJ[k]
         G.escena(tfn, float(seg), 'presentador', {'presentador': 'piensa'})
         G.sonido(S['tiempo'], gain=0.7)
         tiempos.append({'n': n, 'abre': round(t_abre - t_ya, 2), 'reloj': round(t0 - t_ya, 2), 'cierra': round(G.t - t_ya, 2)})
@@ -524,18 +534,18 @@ def main():
             G.sonido(S['ding'], at=G.t + 0.1, gain=0.9)
             decir(P.pregunta(n, N, q, modo='revela'), [(f'{key}_respuesta', q['tr'])], 'copresentadora', pad=0.6, pre=0.1,
                   poses={'copresentadora': 'aplaude'})
-            continue
-        decir(P.pregunta(n, N, q, reloj='¡YA!', frac=0), [('pr_04_tiempo', ''), ('co_08_correcta', '')], 'copresentadora', pad=0.1, pre=0.1,
-              poses={'copresentadora': 'presenta', 'presentador': 'frente'})
-        G.sonido(S['ding'], at=G.t + 0.2, gain=0.9)
-        dificil = (n - 1) * 3 // N >= 2
-        rev = 'celebra' if n == N else ('sorpresa' if dificil and n % 2 == 0 else 'aplaude')
-        decir(P.pregunta(n, N, q, modo='revela'), [(f'{key}_respuesta', q['tr'])], 'copresentadora', pad=0.9, pre=0.2,
-              poses={'copresentadora': rev})
-        decir(P.dato(n, N, q), [('co_02_dato', ''), (f'{key}_dato', q['td'])], 'copresentadora', pad=1.2,
-              poses={'copresentadora': 'presenta'})
+        else:
+            decir(P.pregunta(n, N, q, reloj='¡YA!', frac=0), [('pr_04_tiempo', ''), ('co_08_correcta', '')], 'copresentadora', pad=0.1, pre=0.1,
+                  poses={'copresentadora': 'presenta', 'presentador': 'frente'})
+            G.sonido(S['ding'], at=G.t + 0.2, gain=0.9)
+            dificil = (n - 1) * 3 // N >= 2
+            rev = 'celebra' if n == N else ('sorpresa' if dificil and n % 2 == 0 else 'aplaude')
+            decir(P.pregunta(n, N, q, modo='revela'), [(f'{key}_respuesta', q['tr'])], 'copresentadora', pad=0.9, pre=0.2,
+                  poses={'copresentadora': rev})
+            decir(P.dato(n, N, q), [('co_02_dato', ''), (f'{key}_dato', q['td'])], 'copresentadora', pad=1.2,
+                  poses={'copresentadora': 'presenta'})
         sig = Q[idx + 1] if idx + 1 < len(Q) else None
-        if (idx + 1) % 5 == 0 and n != N and not (sig and sig.get('ronda') == 'relampago' and ronda == 'relampago'):
+        if (idx + 1) % 5 == 0 and n != N and not (relam and sig and sig.get('ronda') == 'relampago'):
             charla = [(c, ex[c][1]) for c in (f'charla{n:02d}_pr', f'charla{n:02d}_co') if c in ex]
             decir(P.tabla(n, N), charla or [('pr_08_tabla', '')], 'presentador', pad=2.5,
                   poses={'presentador': 'base', 'copresentadora': 'presenta'})

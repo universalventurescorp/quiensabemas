@@ -162,7 +162,7 @@ class Corto(tv.Programa):
             t = k / FPS
             while ei + 1 < len(s.escenas) and t >= s.escenas[ei + 1][0]: ei += 1
             t0, dur, img, quien, poses = s.escenas[ei]
-            base = img(t - t0) if callable(img) else img
+            base = s.cuadro(ei, t)
             if quien:
                 h = s.hablante(t)
                 if h and h != quien and h in poses: quien = h
@@ -170,10 +170,10 @@ class Corto(tv.Programa):
                 kk = int(t * FPS) + (17 if quien == 'copresentadora' else 0)
                 key = (id(base), quien, pose, s.boca(t, quien), (kk % 61) in (0, 1) or (kk % 167) in (0, 1),
                        round(3 * np.sin(2 * np.pi * t / 3.4)), int(t * 10) % 12 if quien == 'anunciador' else 0)
-                if key not in cache:
-                    if len(cache) > 200: cache.clear()
-                    fr = base.copy(); s.personaje(fr, quien, pose, t); cache[key] = fr.tobytes()
-                ff.stdin.write(cache[key])
+                if key not in cache or cache[key][0] is not base:
+                    if len(cache) > 90: cache.clear()
+                    fr = base.copy(); s.personaje(fr, quien, pose, t); cache[key] = (base, fr.tobytes())
+                ff.stdin.write(cache[key][1])
             else:
                 ff.stdin.write(base.tobytes())
         ff.stdin.close(); ff.wait()

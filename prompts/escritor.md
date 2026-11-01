@@ -68,6 +68,19 @@ Campos de cada pregunta:
   - Para banderas usa `"bandera": "jp"` (código ISO de 2 letras) con `img_modo` `"pregunta"`, en vez de `img_q`.
 - `tema`: una palabra (geografía, historia, ciencia, animales, comida, deportes, arte…).
 
+### Rondas especiales (campo `ronda`)
+
+Para que cada episodio tenga ritmo y no se sienta igual, mezcla estas rondas. Las preguntas de una misma ronda van **seguidas** (LA VOZ la anuncia una sola vez al empezar). Las demás preguntas no llevan `ronda`.
+
+- `"ronda": "misteriosa"` — **Imagen misteriosa**: la foto empieza pixelada y se aclara con el reloj. Solo para preguntas donde la foto ES la pregunta (`img_q` o `bandera` + `"img_modo": "pregunta"`): lugares famosos, animales, platos, banderas, objetos. Bloques de 3.
+- `"ronda": "vf"` — **Verdadero o falso**: `"o": ["Verdadero", "Falso"]` (siempre en ese orden) y `c` 0 o 1, repartiendo más o menos mitad y mitad. `p` es una afirmación (no pregunta), sorprendente pero comprobable, ideal mitos famosos («La Gran Muralla se ve desde la Luna»). `tp`: «¿Verdadero o falso? <afirmación>». `tr`: «¡Verdadero! …» o «¡Falso! …». Bloques de 3.
+- `"ronda": "relampago"` — **Ronda relámpago**: 5 preguntas seguidas con solo 5 segundos, sin dato curioso en pantalla (igual escribe `d` y `td` cortos). Preguntas fáciles o medias, muy cortas (`p` máx. 60 caracteres, opciones de 1–2 palabras). `tr` de 1 a 3 palabras («¡Ocho!»). Sin foto. Exactamente 5 por bloque.
+
+Cuántas por episodio:
+- `normal` (90): 2 bloques de imagen misteriosa, 2 de verdadero o falso y 1 ronda relámpago (≈ 17 preguntas especiales); el resto, preguntas normales.
+- `maraton` (340): por cada 50 preguntas, 1 bloque de cada ronda.
+- Ninguna ronda especial en las 5 primeras preguntas ni en la pregunta final. Separa los bloques especiales con al menos 5 preguntas normales. La relámpago ocupa exactamente un grupo de 5 entre dos charlas (por ejemplo, de la 41 a la 45); la charla que la sigue debe comentar lo rápida que fue.
+
 `extra_tts` (diálogos propios del episodio, para que cada video suene distinto):
 - `an_tema`: LA VOZ anuncia el tema. `pr_intro`: MAX saluda y presenta el reto del día (2 frases, con energía; puede mencionar cuántas preguntas son). `co_intro`: NOVA se suma con algo simpático sobre el tema (1–2 frases).
 - `co_fama`: NOVA felicita a los mejores jugadores del episodio anterior (sin nombres: aparecen en pantalla).
