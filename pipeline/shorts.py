@@ -65,7 +65,7 @@ class Vertical:
         return img
 
     def opciones(s, img, q, modo, box, cols):
-        x0, y0, x1, y1 = box; g = 22; rows = 4 // cols
+        x0, y0, x1, y1 = box; g = 22; rows = -(-len(q['o']) // cols)
         bw = (x1 - x0 - g * (cols - 1)) / cols; bh = (y1 - y0 - g * (rows - 1)) / rows
         for i, txt in enumerate(q['o']):
             col, L = OPC[i]; x = x0 + (i % cols) * (bw + g); y = y0 + (i // cols) * (bh + g)
@@ -194,7 +194,7 @@ def elegir(Q, n, ya=()):
     """Preguntas medias/difíciles, cortas y que quepan en vertical; prioriza las que tienen foto."""
     N = len(Q)
     def puntaje(q):
-        if q['n'] in ya or len(q['p']) > 110 or max(len(o) for o in q['o']) > 34: return -1
+        if q['n'] in ya or q.get('ronda') == 'relampago' or len(q['p']) > 110 or max(len(o) for o in q['o']) > 34: return -1
         s = 2 if q.get('img_modo') == 'pregunta' else (1 if q.get('img') else 0)
         s += 2 if (q['n'] - 1) * 3 // N >= 1 else 0
         return s

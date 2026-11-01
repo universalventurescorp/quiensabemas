@@ -56,8 +56,15 @@ def revisar(path):
             if parecidas(k, k2):
                 problemas.append(f"P{q['n']}: repite la P{n2} de este mismo episodio"); break
         vistas.append((q['n'], k))
-        if len(q['o']) != 4 or not (0 <= q['c'] < 4): problemas.append(f"P{q['n']}: debe tener 4 opciones y c entre 0 y 3")
-        if len(set(norm(o) for o in q['o'])) < 4: problemas.append(f"P{q['n']}: opciones repetidas")
+        if q.get('ronda') == 'vf':
+            if q['o'] != ['Verdadero', 'Falso'] or q['c'] not in (0, 1):
+                problemas.append(f"P{q['n']}: verdadero o falso debe tener o = [\"Verdadero\", \"Falso\"] y c 0 o 1")
+        else:
+            if len(q['o']) != 4 or not (0 <= q['c'] < 4): problemas.append(f"P{q['n']}: debe tener 4 opciones y c entre 0 y 3")
+            if len(set(norm(o) for o in q['o'])) < 4: problemas.append(f"P{q['n']}: opciones repetidas")
+        if q.get('ronda') == 'misteriosa' and not ((q.get('img_q') or q.get('bandera') or q.get('img')) and q.get('img_modo') == 'pregunta'):
+            problemas.append(f"P{q['n']}: imagen misteriosa necesita img_q (o bandera) e img_modo \"pregunta\"")
+        if q.get('ronda') not in (None, 'misteriosa', 'vf', 'relampago'): problemas.append(f"P{q['n']}: ronda desconocida")
     print(f"{path}: {len(ep['preguntas'])} preguntas · banco con {len(previas)} · problemas: {len(problemas)}")
     for x in problemas: print('  -', x)
     return not problemas

@@ -27,6 +27,12 @@ C = dict(bg1=(18, 12, 52), bg2=(62, 26, 120), white=(255, 255, 255), dim=(64, 56
 OPC = [((231, 76, 60), 'A'), ((47, 128, 237), 'B'), ((240, 170, 20), 'C'), ((39, 174, 96), 'D')]
 NIVEL = [('FÁCIL', (39, 174, 96)), ('MEDIA', (242, 153, 30)), ('DIFÍCIL', (231, 76, 60))]
 DOCK_X = 450  # columna izquierda reservada para el personaje
+# rondas especiales: rótulo de la tarjeta, anuncio de LA VOZ y subtítulo
+RONDA = {'misteriosa': ('IMAGEN MISTERIOSA', (142, 68, 173)), 'vf': ('VERDADERO O FALSO', (22, 160, 133)),
+         'relampago': ('RONDA RELÁMPAGO', (231, 76, 60))}
+ANUNCIO = {'misteriosa': ('an_07_misteriosa', '¡Imagen misteriosa!', 'La foto se aclara con el reloj'),
+           'vf': ('an_08_vf', '¡Verdadero o falso!', 'Solo dos opciones… ¿cuál será?'),
+           'relampago': ('an_05_relampago', '¡Ronda relámpago!', 'Cinco preguntas · cinco segundos · ¡sin pausa!')}
 
 # ---------------------------------------------------------------- escenario
 def escenario():
@@ -90,7 +96,7 @@ def caja(img, box, r, fill, outline=None, width=0, sombra=True):
     ImageDraw.Draw(img).rounded_rectangle(box, r, fill=fill, outline=outline, width=width)
     return img.convert('RGB')
 
-def foto(img, path, box, fondo=None, credito=None):
+def foto(img, path, box, fondo=None, credito=None, pix=0):
     x0, y0, x1, y1 = box; w, h = x1 - x0, y1 - y0
     img = caja(img, (x0 - 10, y0 - 10, x1 + 10, y1 + 10), 30, (255, 255, 255))
     src = Image.open(path).convert('RGB')
@@ -99,6 +105,8 @@ def foto(img, path, box, fondo=None, credito=None):
         can.paste(src, ((w - src.width) // 2, (h - src.height) // 2)); src = can
     else:
         src = ImageOps.fit(src, (w, h), Image.LANCZOS)
+    if pix > 1:  # imagen misteriosa: bloques grandes que se achican con el reloj
+        src = src.resize((max(1, w // pix), max(1, h // pix)), Image.BILINEAR).resize((w, h), Image.NEAREST)
     mask = Image.new('L', (w, h), 0); ImageDraw.Draw(mask).rounded_rectangle((0, 0, w, h), 22, fill=255)
     img.paste(src, (x0, y0), mask)
     if credito:
@@ -153,10 +161,11 @@ class Pantallas:
             d.text((W - 150, 932), str(cuenta), font=font('Bold', 80), fill=C['ink'], anchor='mm')
         return img
 
-    def tarjeta(s, n, total):
+    def tarjeta(s, n, total, ronda=None):
         img = s.barra(s.bg.copy()); d = ImageDraw.Draw(img)
-        nv = NIVEL[min(2, (n - 1) * 3 // total)]; cx = DOCK_X + (W - DOCK_X) / 2
-        d.rounded_rectangle((cx - 150, 300, cx + 150, 370), 35, fill=nv[1])
+        nv = RONDA.get(ronda) or NIVEL[min(2, (n - 1) * 3 // total)]; cx = DOCK_X + (W - DOCK_X) / 2
+        hw = max(150, d.textlength(nv[0], font=font('Bold', 40)) / 2 + 40)
+        d.rounded_rectangle((cx - hw, 300, cx + hw, 370), 35, fill=nv[1])
         d.text((cx, 336), nv[0], font=font('Bold', 40), fill=C['white'], anchor='mm')
         d.text((cx, 530), f'PREGUNTA {n}', font=font('Bold', 150), fill=C['white'], anchor='mm')
         d.text((cx, 670), f'de {total}', font=font('Medium', 56), fill=C['dimtxt'], anchor='mm')
@@ -164,7 +173,7 @@ class Pantallas:
 
     def _opciones(s, img, q, modo, box, cols):
         x0, y0, x1, y1 = box; g = 26
-        rows = 4 // cols; bw = (x1 - x0 - g * (cols - 1)) / cols; bh = (y1 - y0 - g * (rows - 1)) / rows
+        rows = -(-len(q['o']) // cols); bw = (x1 - x0 - g * (cols - 1)) / cols; bh = (y1 - y0 - g * (rows - 1)) / rows
         for i, txt in enumerate(q['o']):
             col, L = OPC[i]; x = x0 + (i % cols) * (bw + g); y = y0 + (i // cols) * (bh + g)
             ok = i == q['c']; apag = modo == 'revela' and not ok
@@ -182,19 +191,20 @@ class Pantallas:
                 d.line([(cx - 17, cy + 1), (cx - 5, cy + 15), (cx + 18, cy - 14)], fill=col, width=10, joint='curve')
         return img
 
-    def pregunta(s, n, total, q, modo='normal', reloj=None, frac=None):
+    def pregunta(s, n, total, q, modo='normal', reloj=None, frac=None, pix=0):
         img = s.barra(s.bg.copy(), f'Pregunta {n} de {total}'); d = ImageDraw.Draw(img)
         con_foto = q.get('img') and q.get('img_modo') == 'pregunta'
         if con_foto:
             f, ls, sz = fit(d, q['p'], 'Bold', W - DOCK_X - 90, 110, 60)
             lines(d, ls, f, sz, DOCK_X + (W - DOCK_X) / 2 - 20, 185, C['white'])
             p = os.path.join(s.raiz, q['img'])
-            img = foto(img, p, (DOCK_X + 10, 270, DOCK_X + 10 + 760, 270 + 520), q.get('img_fondo'), s.credito(p))
+            img = foto(img, p, (DOCK_X + 10, 270, DOCK_X + 10 + 760, 270 + 520), q.get('img_fondo'), s.credito(p), pix)
             img = s._opciones(img, q, modo, (DOCK_X + 820, 270, W - 50, 790), 1)
         else:
             f, ls, sz = fit(d, q['p'], 'Bold', W - DOCK_X - 110, 250, 70)
             lines(d, ls, f, sz, DOCK_X + (W - DOCK_X) / 2 - 20, 300, C['white'])
-            img = s._opciones(img, q, modo, (DOCK_X + 10, 460, W - 50, 830), 2)
+            box = (DOCK_X + 10, 500, W - 50, 800) if len(q['o']) == 2 else (DOCK_X + 10, 460, W - 50, 830)
+            img = s._opciones(img, q, modo, box, 2)
         d = ImageDraw.Draw(img)
         if frac is not None:
             yb = 900; x0b, x1b = DOCK_X + 10, W - 230
@@ -474,31 +484,47 @@ def main():
     tiempos = []
     bloque = 10 if len(Q) <= 120 else 25
 
+    previa = None
     for idx, q in enumerate(Q):
-        n = q['n']; key = f'q{n:02d}'
+        n = q['n']; key = f'q{n:02d}'; ronda = q.get('ronda')
+        if ronda == 'misteriosa' and not (q.get('img') and q.get('img_modo') == 'pregunta'): ronda = None  # sin foto no hay misterio
+        relam = ronda == 'relampago'; seg = 5 if relam else 10
         if idx % bloque == 0:
             fin = Q[min(len(Q), idx + bloque) - 1]['n']
             capitulos.append((G.t, f'Preguntas {n} a {fin}' if fin != n else f'Pregunta {n}'))
         if n == N:
             capitulos.append((G.t, 'Pregunta final'))
             G.sonido(S['fanfare'], gain=0.7); decir(P.anuncio('¡Pregunta final!'), [('an_03_final', '')], 'anunciador', pad=0.5, pre=0.3)
+        elif ronda in ANUNCIO and ronda != previa:
+            clave_an, grande, chico = ANUNCIO[ronda]
+            if relam: capitulos.append((G.t, 'Ronda relámpago'))
+            G.sonido(S['fanfare'], gain=0.6)
+            decir(P.anuncio(grande, chico), [(clave_an, grande)], 'anunciador', pad=0.8, pre=0.3)
+        previa = ronda
         G.sonido(S['whoosh'], gain=0.8)
-        G.escena(P.tarjeta(n, N), 1.6, 'presentador', {'presentador': 'base'})
+        G.escena(P.tarjeta(n, N, ronda), 1.0 if relam else 1.6, 'presentador', {'presentador': 'base'})
         t_abre = G.t
-        decir(P.pregunta(n, N, q), [(f'{key}_pregunta', q['tp'])], 'presentador', pad=0.3, poses={'presentador': 'senala'})
+        pix0 = 34 if ronda == 'misteriosa' else 0
+        decir(P.pregunta(n, N, q, pix=pix0), [(f'{key}_pregunta', q['tp'])], 'presentador', pad=0.3, poses={'presentador': 'senala'})
         if idx < 2: G.voz(voz('pr_03_segundos'), G.t + 0.1, 'presentador')
         t0 = G.t
-        for sec in range(10): G.sonido(S['tick_hi'] if sec >= 7 else S['tick'], at=t0 + sec, gain=0.8)
+        for sec in range(seg): G.sonido(S['tick_hi'] if sec >= seg - 3 else S['tick'], at=t0 + sec, gain=0.8)
         cache = {}
-        def tfn(t, q=q, n=n, cache=cache):
-            r = max(1, 10 - int(t)); fr = round((1 - t / 10) * 40) / 40
+        def tfn(t, q=q, n=n, cache=cache, seg=seg, pix0=pix0):
+            r = max(1, seg - int(t)); fr = round((1 - t / seg) * 40) / 40
+            px = round(pix0 * (r - 1) / (seg - 1)) if pix0 else 0  # se aclara segundo a segundo
             if (r, fr) not in cache:
                 if len(cache) > 60: cache.clear()
-                cache[(r, fr)] = P.pregunta(n, N, q, reloj=r, frac=fr)
+                cache[(r, fr)] = P.pregunta(n, N, q, reloj=r, frac=fr, pix=px)
             return cache[(r, fr)]
-        G.escena(tfn, 10.0, 'presentador', {'presentador': 'piensa'})
+        G.escena(tfn, float(seg), 'presentador', {'presentador': 'piensa'})
         G.sonido(S['tiempo'], gain=0.7)
         tiempos.append({'n': n, 'abre': round(t_abre - t_ya, 2), 'reloj': round(t0 - t_ya, 2), 'cierra': round(G.t - t_ya, 2)})
+        if relam:  # sin pausa: directo a la respuesta, sin dato curioso
+            G.sonido(S['ding'], at=G.t + 0.1, gain=0.9)
+            decir(P.pregunta(n, N, q, modo='revela'), [(f'{key}_respuesta', q['tr'])], 'copresentadora', pad=0.6, pre=0.1,
+                  poses={'copresentadora': 'aplaude'})
+            continue
         decir(P.pregunta(n, N, q, reloj='¡YA!', frac=0), [('pr_04_tiempo', ''), ('co_08_correcta', '')], 'copresentadora', pad=0.1, pre=0.1,
               poses={'copresentadora': 'presenta', 'presentador': 'frente'})
         G.sonido(S['ding'], at=G.t + 0.2, gain=0.9)
@@ -508,7 +534,8 @@ def main():
               poses={'copresentadora': rev})
         decir(P.dato(n, N, q), [('co_02_dato', ''), (f'{key}_dato', q['td'])], 'copresentadora', pad=1.2,
               poses={'copresentadora': 'presenta'})
-        if (idx + 1) % 5 == 0 and n != N:
+        sig = Q[idx + 1] if idx + 1 < len(Q) else None
+        if (idx + 1) % 5 == 0 and n != N and not (sig and sig.get('ronda') == 'relampago' and ronda == 'relampago'):
             charla = [(c, ex[c][1]) for c in (f'charla{n:02d}_pr', f'charla{n:02d}_co') if c in ex]
             decir(P.tabla(n, N), charla or [('pr_08_tabla', '')], 'presentador', pad=2.5,
                   poses={'presentador': 'base', 'copresentadora': 'presenta'})
