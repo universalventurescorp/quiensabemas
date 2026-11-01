@@ -24,6 +24,11 @@ EXPRESION = {  # pose -> expresión
     'piensa': 'piensa', 'sorpresa': 'sorpresa',
     'saluda': 'feliz', 'celebra': 'feliz', 'celebra2': 'feliz', 'aplaude': 'feliz',
 }
+# giro de la cabeza en cada pose (0 = de frente, + = mira hacia la derecha de la pantalla).
+# La cara se corre hacia ese lado y el ojo lejano se achica, para que vaya con el casco y el cuerpo.
+GIRO = {'nova_base': 0.5, 'nova_presenta': 0.5, 'nova_aplaude': 0.45, 'nova_saluda': 0.45, 'nova_sorpresa': 0.9,
+        'nova_celebra': 0.2, 'max_base': 0.35, 'max_senala': 0.35, 'max_saluda': 0.35, 'max_piensa': 0.35,
+        'max_celebra': 0.3, 'max_celebra2': 0.3, 'max_frente': 0.0}
 LUZ = {'presentador': (120, 235, 255), 'copresentadora': (150, 205, 255)}
 
 
@@ -48,7 +53,7 @@ def escala(quien, pose):
     return min(e, ANCHO_MAX / GEO[n]['tam'][0])  # poses muy abiertas (brazos arriba) no invaden el contenido
 
 
-def _cara(quien, expr, boca, parp, w, h):
+def _cara(quien, expr, boca, parp, w, h, giro=0.0):
     """Dibuja la cara en un lienzo w×h (coordenadas 0..1 dentro de la caja de la pantalla). Devuelve RGBA."""
     S = 3; W, H = w * S, h * S
     lay = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
@@ -56,10 +61,14 @@ def _cara(quien, expr, boca, parp, w, h):
     max_ = quien == 'presentador'
     # ojos
     ey = H * (0.40 if max_ else 0.42); ex = W * (0.26 if max_ else 0.24)
-    ew, eh = W * (0.085 if max_ else 0.075), H * (0.15 if max_ else 0.11)
+    ew0, eh = W * (0.085 if max_ else 0.075), H * (0.15 if max_ else 0.11)
     lw = int(W * 0.035)
+    cx0 = W / 2 + giro * W * 0.09          # la cara se corre hacia donde mira el casco
+    ex *= 1 - 0.12 * abs(giro)             # en perspectiva los ojos quedan más juntos
     for sx in (-1, 1):
-        cx = W / 2 + sx * ex
+        lejos = sx * giro > 0              # el ojo del lado al que gira queda más lejos: más angosto
+        ew = ew0 * ((1 - 0.28 * abs(giro)) if lejos else (1 + 0.04 * abs(giro)))
+        cx = cx0 + sx * ex
         if parp:
             d.line((cx - ew, ey, cx + ew, ey), fill=col, width=lw)
         elif expr == 'feliz':
@@ -78,24 +87,24 @@ def _cara(quien, expr, boca, parp, w, h):
     # mejillas (feliz)
     if expr == 'feliz' and not parp:
         for sx in (-1, 1):
-            cx = W / 2 + sx * ex * 1.25
+            cx = cx0 + sx * ex * 1.25; ew = ew0 * ((1 - 0.35 * abs(giro)) if sx * giro > 0 else 1)
             d.ellipse((cx - ew, ey + eh * 1.1, cx + ew, ey + eh * 1.6), fill=(255, 130, 200, 110))
     # boca
-    my = H * (0.70 if max_ else 0.72); mw = W * (0.16 if max_ else 0.12)
+    my = H * (0.70 if max_ else 0.72); mw = W * (0.16 if max_ else 0.12) * (1 - 0.12 * abs(giro)); X = cx0
     if boca == 0:
         if expr == 'sorpresa':
-            r = mw * 0.35; d.ellipse((W / 2 - r, my - r, W / 2 + r, my + r * 1.3), outline=col, width=lw)
+            r = mw * 0.35; d.ellipse((X - r, my - r, X + r, my + r * 1.3), outline=col, width=lw)
         elif expr == 'piensa':
-            pts = [(W / 2 - mw * 0.7 + i * mw * 0.35, my + (6 if i % 2 else -6) * S) for i in range(5)]
+            pts = [(X - mw * 0.7 + i * mw * 0.35, my + (6 if i % 2 else -6) * S) for i in range(5)]
             d.line(pts, fill=col, width=lw, joint='curve')
         else:
-            d.arc((W / 2 - mw, my - mw * 0.75, W / 2 + mw, my + mw * 0.45), 25, 155, fill=col, width=lw)
+            d.arc((X - mw, my - mw * 0.75, X + mw, my + mw * 0.45), 25, 155, fill=col, width=lw)
     else:
         ab = H * (0.035 + 0.045 * boca)  # apertura según nivel
         bw = mw * (0.95 - 0.06 * boca)
-        d.rounded_rectangle((W / 2 - bw, my - ab * 0.35, W / 2 + bw, my + ab), min(bw, ab), fill=col)
+        d.rounded_rectangle((X - bw, my - ab * 0.35, X + bw, my + ab), min(bw, ab), fill=col)
         if boca >= 2:
-            d.rounded_rectangle((W / 2 - bw * 0.55, my + ab * 0.35, W / 2 + bw * 0.55, my + ab * 0.85), ab * 0.3,
+            d.rounded_rectangle((X - bw * 0.55, my + ab * 0.35, X + bw * 0.55, my + ab * 0.85), ab * 0.3,
                                 fill=(255, 120, 170, 210))
     # brillo (glow) y líneas de TV en MAX
     glow = lay.filter(ImageFilter.GaussianBlur(S * 5))
@@ -115,7 +124,7 @@ def sprite(quien, pose='base', boca=0, parp=False):
     im, mask, brillo = _base(nombre, esc)
     x0, y0, x1, y1 = [round(v * esc) for v in GEO[nombre]['pantalla']]
     w, h = x1 - x0, y1 - y0
-    cara = _cara(quien, EXPRESION.get(pose, 'normal'), boca, parp, w, h)
+    cara = _cara(quien, EXPRESION.get(pose, 'normal'), boca, parp, w, h, GIRO.get(nombre, 0.0))
     # tono de pantalla encendida + cara, recortado por la máscara del visor
     lay = Image.new('RGBA', im.size, (0, 0, 0, 0))
     tinte = Image.new('RGBA', (w, h), LUZ[quien][:3] + (26,))
