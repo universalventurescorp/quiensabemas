@@ -1,0 +1,370 @@
+{
+ "pr_01_celulares__0": {
+  "voz": "presentador",
+  "texto": "¡Saquen sus celulares y escaneen el código de la pantalla! Cuando yo diga ¡ya!, uno del grupo toca empezar."
+ },
+ "pr_01_celulares__1": {
+  "voz": "presentador",
+  "texto": "Celulares en mano: escaneen el código, pongan su apodo y esperen mi señal para tocar empezar."
+ },
+ "pr_01_celulares__2": {
+  "voz": "presentador",
+  "texto": "¿Listos? Escaneen el código de la pantalla. Cuando escuchen ¡ya!, toquen empezar en el celular."
+ },
+ "pr_01_celulares__3": {
+  "voz": "presentador",
+  "texto": "Escaneen el código, armen su grupo y atentos: al oír ¡ya!, alguien toca empezar."
+ },
+ "pr_01_celulares__4": {
+  "voz": "presentador",
+  "texto": "Saquen el celular, escaneen y escriban su apodo. ¿Sin celular? Anoten sus aciertos en un papel."
+ },
+ "pr_01_celulares__5": {
+  "voz": "presentador",
+  "texto": "Muy bien, familia: escaneen el código. Uno crea el grupo y los demás entran con el código de cuatro letras."
+ },
+ "pr_02_empezamos__0": {
+  "voz": "presentador",
+  "texto": "¿Ya están todos? Tres, dos, uno… ¡Ya!"
+ },
+ "pr_02_empezamos__1": {
+  "voz": "presentador",
+  "texto": "Muy bien, ¡a jugar! Tres, dos, uno… ¡Ya!"
+ },
+ "pr_02_empezamos__2": {
+  "voz": "presentador",
+  "texto": "¡Que empiece la partida! Tres, dos, uno… ¡Ya!"
+ },
+ "pr_02_empezamos__3": {
+  "voz": "presentador",
+  "texto": "Celulares listos… tres, dos, uno… ¡Ya!"
+ },
+ "pr_02_empezamos__4": {
+  "voz": "presentador",
+  "texto": "¿Preparados? ¡Arrancamos! Tres, dos, uno… ¡Ya!"
+ },
+ "pr_02_empezamos__5": {
+  "voz": "presentador",
+  "texto": "Esto empieza ahora mismo. Tres, dos, uno… ¡Ya!"
+ },
+ "pr_03_segundos__0": {
+  "voz": "presentador",
+  "texto": "Tienen diez segundos."
+ },
+ "pr_03_segundos__1": {
+  "voz": "presentador",
+  "texto": "Diez segundos, ¡corre el reloj!"
+ },
+ "pr_03_segundos__2": {
+  "voz": "presentador",
+  "texto": "El reloj ya está corriendo: diez segundos."
+ },
+ "pr_03_segundos__3": {
+  "voz": "presentador",
+  "texto": "Piénsenlo bien… tienen diez segundos."
+ },
+ "pr_03_segundos__4": {
+  "voz": "presentador",
+  "texto": "Diez segundos para responder."
+ },
+ "pr_03_segundos__5": {
+  "voz": "presentador",
+  "texto": "¡Rápido, que el reloj no espera!"
+ },
+ "pr_04_tiempo__0": {
+  "voz": "presentador",
+  "texto": "¡Tiempo!"
+ },
+ "pr_04_tiempo__1": {
+  "voz": "presentador",
+  "texto": "¡Se acabó el tiempo!"
+ },
+ "pr_04_tiempo__2": {
+  "voz": "presentador",
+  "texto": "¡Tiempo! Manos arriba."
+ },
+ "pr_04_tiempo__3": {
+  "voz": "presentador",
+  "texto": "¡Y se acabó!"
+ },
+ "pr_04_tiempo__4": {
+  "voz": "presentador",
+  "texto": "¡Tiempo, tiempo!"
+ },
+ "pr_04_tiempo__5": {
+  "voz": "presentador",
+  "texto": "¡Ahí está! Se terminó el tiempo."
+ },
+ "pr_04_tiempo__6": {
+  "voz": "presentador",
+  "texto": "¡Ya no hay más tiempo!"
+ },
+ "pr_04_tiempo__7": {
+  "voz": "presentador",
+  "texto": "¡Tiempo cumplido!"
+ },
+ "pr_04_tiempo__8": {
+  "voz": "presentador",
+  "texto": "¡Alto ahí, se acabó el tiempo!"
+ },
+ "pr_04_tiempo__9": {
+  "voz": "presentador",
+  "texto": "¡Se acabó! Veamos."
+ },
+ "co_08_correcta__0": {
+  "voz": "copresentadora",
+  "texto": "La respuesta correcta es…"
+ },
+ "co_08_correcta__1": {
+  "voz": "copresentadora",
+  "texto": "Y la respuesta es…"
+ },
+ "co_08_correcta__2": {
+  "voz": "copresentadora",
+  "texto": "Veamos… la correcta es…"
+ },
+ "co_08_correcta__3": {
+  "voz": "copresentadora",
+  "texto": "La respuesta que buscábamos es…"
+ },
+ "co_08_correcta__4": {
+  "voz": "copresentadora",
+  "texto": "Atención, la respuesta es…"
+ },
+ "co_08_correcta__5": {
+  "voz": "copresentadora",
+  "texto": "¿Acertaron? La respuesta es…"
+ },
+ "co_08_correcta__6": {
+  "voz": "copresentadora",
+  "texto": "Redoble de tambores… la respuesta es…"
+ },
+ "co_08_correcta__7": {
+  "voz": "copresentadora",
+  "texto": "Y la correcta es…"
+ },
+ "co_08_correcta__8": {
+  "voz": "copresentadora",
+  "texto": "Vamos a ver… la respuesta es…"
+ },
+ "co_08_correcta__9": {
+  "voz": "copresentadora",
+  "texto": "Aquí va la respuesta…"
+ },
+ "co_02_dato__0": {
+  "voz": "copresentadora",
+  "texto": "Dato curioso:"
+ },
+ "co_02_dato__1": {
+  "voz": "copresentadora",
+  "texto": "¿Sabían esto?"
+ },
+ "co_02_dato__2": {
+  "voz": "copresentadora",
+  "texto": "Les cuento algo curioso:"
+ },
+ "co_02_dato__3": {
+  "voz": "copresentadora",
+  "texto": "Un dato para lucirse en la cena:"
+ },
+ "co_02_dato__4": {
+  "voz": "copresentadora",
+  "texto": "Y un dato que pocos conocen:"
+ },
+ "co_02_dato__5": {
+  "voz": "copresentadora",
+  "texto": "Escuchen esto:"
+ },
+ "co_02_dato__6": {
+  "voz": "copresentadora",
+  "texto": "Dato curioso del día:"
+ },
+ "co_02_dato__7": {
+  "voz": "copresentadora",
+  "texto": "Para que lo cuenten después:"
+ },
+ "co_02_dato__8": {
+  "voz": "copresentadora",
+  "texto": "Esto les va a sorprender:"
+ },
+ "co_02_dato__9": {
+  "voz": "copresentadora",
+  "texto": "Un detalle interesante:"
+ },
+ "pr_08_tabla__0": {
+  "voz": "presentador",
+  "texto": "Veamos cómo va la tabla."
+ },
+ "pr_08_tabla__1": {
+  "voz": "presentador",
+  "texto": "Miren sus celulares: ¿cómo va el grupo?"
+ },
+ "pr_08_tabla__2": {
+  "voz": "presentador",
+  "texto": "Pausa rápida para revisar posiciones."
+ },
+ "pr_08_tabla__3": {
+  "voz": "presentador",
+  "texto": "¿Quién va ganando en su sala? Revisen el celular."
+ },
+ "pr_08_tabla__4": {
+  "voz": "presentador",
+  "texto": "Hora de mirar la tabla."
+ },
+ "pr_08_tabla__5": {
+  "voz": "presentador",
+  "texto": "¡Esto está reñido! Revisen sus puestos."
+ },
+ "pr_08_tabla__6": {
+  "voz": "presentador",
+  "texto": "Cuenten sus aciertos, que seguimos en un momento."
+ },
+ "pr_08_tabla__7": {
+  "voz": "presentador",
+  "texto": "¿Cómo van? Miren el ranking en el celular."
+ },
+ "an_03_final__0": {
+  "voz": "anunciador",
+  "texto": "¡Atención! ¡Llegó la pregunta final!"
+ },
+ "an_03_final__1": {
+  "voz": "anunciador",
+  "texto": "¡Última pregunta de la partida!"
+ },
+ "an_03_final__2": {
+  "voz": "anunciador",
+  "texto": "¡Esta es la pregunta final!"
+ },
+ "an_03_final__3": {
+  "voz": "anunciador",
+  "texto": "¡Todo se decide aquí: la pregunta final!"
+ },
+ "an_03_final__4": {
+  "voz": "anunciador",
+  "texto": "¡Llegamos a la pregunta definitiva!"
+ },
+ "an_03_final__5": {
+  "voz": "anunciador",
+  "texto": "¡La última! ¡A darlo todo!"
+ },
+ "an_04_ganador__0": {
+  "voz": "anunciador",
+  "texto": "¡Y el ganador de esta partida es…! Mírenlo en su celular."
+ },
+ "an_04_ganador__1": {
+  "voz": "anunciador",
+  "texto": "¡Tenemos ganador! Revisen el celular."
+ },
+ "an_04_ganador__2": {
+  "voz": "anunciador",
+  "texto": "¿Quién ganó en tu sala? ¡Míralo en el celular!"
+ },
+ "an_04_ganador__3": {
+  "voz": "anunciador",
+  "texto": "¡Se terminó la partida! El campeón aparece en sus celulares."
+ },
+ "an_04_ganador__4": {
+  "voz": "anunciador",
+  "texto": "¡Y el que más sabe es…! Revisen sus celulares."
+ },
+ "an_04_ganador__5": {
+  "voz": "anunciador",
+  "texto": "¡Partida terminada! ¿Quién quedó primero en tu grupo?"
+ },
+ "co_05_felicidades__0": {
+  "voz": "copresentadora",
+  "texto": "¡Felicidades al ganador!"
+ },
+ "co_05_felicidades__1": {
+  "voz": "copresentadora",
+  "texto": "¡Aplausos para quien quedó primero!"
+ },
+ "co_05_felicidades__2": {
+  "voz": "copresentadora",
+  "texto": "¡Bien jugado, campeón!"
+ },
+ "co_05_felicidades__3": {
+  "voz": "copresentadora",
+  "texto": "¡Felicitaciones a todos, qué partida!"
+ },
+ "co_05_felicidades__4": {
+  "voz": "copresentadora",
+  "texto": "¡Un aplauso para el que más sabe!"
+ },
+ "co_05_felicidades__5": {
+  "voz": "copresentadora",
+  "texto": "¡Qué gran partida, felicidades!"
+ },
+ "pr_12_suscribanse__0": {
+  "voz": "presentador",
+  "texto": "Si les gustó, suscríbanse para la próxima partida."
+ },
+ "pr_12_suscribanse__1": {
+  "voz": "presentador",
+  "texto": "Suscríbanse y activen la campanita: hay partida nueva casi todos los días."
+ },
+ "pr_12_suscribanse__2": {
+  "voz": "presentador",
+  "texto": "¿Les gustó? Suscríbanse para jugar otra vez muy pronto."
+ },
+ "pr_12_suscribanse__3": {
+  "voz": "presentador",
+  "texto": "No se pierdan la próxima: suscríbanse al canal."
+ },
+ "pr_12_suscribanse__4": {
+  "voz": "presentador",
+  "texto": "Si se divirtieron, suscríbanse y compartan el juego."
+ },
+ "pr_12_suscribanse__5": {
+  "voz": "presentador",
+  "texto": "Suscríbanse, que mañana hay más preguntas."
+ },
+ "co_07_otra__0": {
+  "voz": "copresentadora",
+  "texto": "¿Quieren otra partida? Elijan el siguiente juego en el canal."
+ },
+ "co_07_otra__1": {
+  "voz": "copresentadora",
+  "texto": "¿Una más? En el canal hay más partidas esperándolos."
+ },
+ "co_07_otra__2": {
+  "voz": "copresentadora",
+  "texto": "Si se quedaron con ganas, hay otra partida en el canal."
+ },
+ "co_07_otra__3": {
+  "voz": "copresentadora",
+  "texto": "Busquen la siguiente partida en el canal y sigan jugando."
+ },
+ "co_07_otra__4": {
+  "voz": "copresentadora",
+  "texto": "¿Revancha? Elijan otro juego en el canal."
+ },
+ "co_07_otra__5": {
+  "voz": "copresentadora",
+  "texto": "La próxima partida ya los espera en el canal."
+ },
+ "pr_13_despedida__0": {
+  "voz": "presentador",
+  "texto": "¡Nos vemos en la próxima partida!"
+ },
+ "pr_13_despedida__1": {
+  "voz": "presentador",
+  "texto": "¡Hasta la próxima, familia!"
+ },
+ "pr_13_despedida__2": {
+  "voz": "presentador",
+  "texto": "¡Chau, chau! Nos vemos pronto."
+ },
+ "pr_13_despedida__3": {
+  "voz": "presentador",
+  "texto": "¡Gracias por jugar! Hasta la próxima."
+ },
+ "pr_13_despedida__4": {
+  "voz": "presentador",
+  "texto": "¡Nos vemos en la siguiente partida!"
+ },
+ "pr_13_despedida__5": {
+  "voz": "presentador",
+  "texto": "¡Hasta pronto, y que gane el que más sabe!"
+ }
+}
