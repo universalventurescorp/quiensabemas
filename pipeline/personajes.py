@@ -24,11 +24,24 @@ EXPRESION = {  # pose -> expresión
     'piensa': 'piensa', 'sorpresa': 'sorpresa',
     'saluda': 'feliz', 'celebra': 'feliz', 'celebra2': 'feliz', 'aplaude': 'feliz',
 }
-# giro de la cabeza en cada pose (0 = de frente, + = mira hacia la derecha de la pantalla).
-# La cara se corre hacia ese lado y el ojo lejano se achica, para que vaya con el casco y el cuerpo.
-GIRO = {'nova_base': 0.5, 'nova_presenta': 0.5, 'nova_aplaude': 0.45, 'nova_saluda': 0.45, 'nova_sorpresa': 0.9,
-        'nova_celebra': 0.2, 'max_base': 0.35, 'max_senala': 0.35, 'max_saluda': 0.35, 'max_piensa': 0.35,
-        'max_celebra': 0.3, 'max_celebra2': 0.3, 'max_frente': 0.0}
+# giro de la cabeza de NOVA en cada pose, medido con el MENTÓN: la parte de abajo del visor marca el eje real
+# de la cabeza (va con el cuello y el tronco). La cara se centra sobre ese eje y el ojo lejano se achica un poco.
+# MAX no lleva giro: su cara siempre se vio bien.
+DESPLAZA = 0.09  # desplazamiento máximo de la cara (fracción del ancho del visor) cuando giro = 1
+
+
+def _giro_por_menton(nombre):
+    if not nombre.startswith('nova_'): return 0.0
+    m = np.array(Image.open(os.path.join(DIR, nombre + '_cara.png')).convert('L')) > 128
+    ys, xs = np.nonzero(m)
+    if not len(xs): return 0.0
+    y0, y1 = ys.min(), ys.max(); menton = xs[ys >= y0 + 0.9 * (y1 - y0)].mean()
+    x0, _, x1, _ = GEO[nombre]['pantalla']
+    g = (menton - (x0 + x1) / 2) / (DESPLAZA * (x1 - x0))
+    return float(np.clip(round(g, 2), -1, 1)) if abs(g) > 0.1 else 0.0
+
+
+GIRO = {k: _giro_por_menton(k) for k in GEO if k != 'voz'}
 LUZ = {'presentador': (120, 235, 255), 'copresentadora': (150, 205, 255)}
 
 
@@ -63,7 +76,7 @@ def _cara(quien, expr, boca, parp, w, h, giro=0.0):
     ey = H * (0.40 if max_ else 0.42); ex = W * (0.26 if max_ else 0.24)
     ew0, eh = W * (0.085 if max_ else 0.075), H * (0.15 if max_ else 0.11)
     lw = int(W * 0.035)
-    cx0 = W / 2 + giro * W * 0.09          # la cara se corre hacia donde mira el casco
+    cx0 = W / 2 + giro * W * DESPLAZA          # la cara se corre hacia donde mira el casco
     ex *= 1 - 0.12 * abs(giro)             # en perspectiva los ojos quedan más juntos
     for sx in (-1, 1):
         lejos = sx * giro > 0              # el ojo del lado al que gira queda más lejos: más angosto
