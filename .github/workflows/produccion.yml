@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: produccion
@@ -113,6 +114,9 @@ jobs:
           git add publicados web/episodios banco/preguntas.jsonl contenido/cola
           git commit -m "Producido $ID (subido en privado)" || exit 0
           for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
+      - name: Publicar la sala del episodio en la web
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: gh workflow run web.yml --ref main -R "${{ github.repository }}"
       - name: Guardar el video por si hay que reintentar la subida
         if: failure()
         uses: actions/upload-artifact@v4
