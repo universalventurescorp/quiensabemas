@@ -366,5 +366,53 @@
  "pr_13_despedida__5": {
   "voz": "presentador",
   "texto": "¡Hasta pronto, y que gane el que más sabe!"
+ },
+ "an_07_misteriosa__0": {
+  "voz": "anunciador",
+  "texto": "¡Imagen misteriosa!"
+ },
+ "an_07_misteriosa__1": {
+  "voz": "anunciador",
+  "texto": "¡Llegó la imagen misteriosa!"
+ },
+ "an_07_misteriosa__2": {
+  "voz": "anunciador",
+  "texto": "¡Atención! ¡Imagen misteriosa!"
+ },
+ "an_07_misteriosa__3": {
+  "voz": "anunciador",
+  "texto": "¡Es hora de la imagen misteriosa!"
+ },
+ "an_08_vf__0": {
+  "voz": "anunciador",
+  "texto": "¡Verdadero o falso!"
+ },
+ "an_08_vf__1": {
+  "voz": "anunciador",
+  "texto": "¡Ronda de verdadero o falso!"
+ },
+ "an_08_vf__2": {
+  "voz": "anunciador",
+  "texto": "¡Atención! ¡Verdadero o falso!"
+ },
+ "an_08_vf__3": {
+  "voz": "anunciador",
+  "texto": "¡Llegó el verdadero o falso!"
+ },
+ "an_05_relampago__0": {
+  "voz": "anunciador",
+  "texto": "¡Ronda relámpago!"
+ },
+ "an_05_relampago__1": {
+  "voz": "anunciador",
+  "texto": "¡Atención! ¡Ronda relámpago!"
+ },
+ "an_05_relampago__2": {
+  "voz": "anunciador",
+  "texto": "¡Llegó la ronda relámpago!"
+ },
+ "an_05_relampago__3": {
+  "voz": "anunciador",
+  "texto": "¡Prepárense! ¡Ronda relámpago!"
  }
 }
