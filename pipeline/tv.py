@@ -9,7 +9,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageOps
 
 sys.path.insert(0, os.path.dirname(__file__))
-from personajes import sprite, NOMBRES
+from personajes import sprite, voz_sprite, NOMBRES
 from reportlab.graphics.barcode import qrencoder as QR
 
 W, H, FPS, SR = 1920, 1080, 15, 24000
@@ -26,7 +26,7 @@ C = dict(bg1=(18, 12, 52), bg2=(62, 26, 120), white=(255, 255, 255), dim=(64, 56
          gold=(255, 200, 40), ink=(26, 18, 64), red=(231, 76, 60))
 OPC = [((231, 76, 60), 'A'), ((47, 128, 237), 'B'), ((240, 170, 20), 'C'), ((39, 174, 96), 'D')]
 NIVEL = [('FÁCIL', (39, 174, 96)), ('MEDIA', (242, 153, 30)), ('DIFÍCIL', (231, 76, 60))]
-DOCK_X = 400  # columna izquierda reservada para el personaje
+DOCK_X = 450  # columna izquierda reservada para el personaje
 
 # ---------------------------------------------------------------- escenario
 def escenario():
@@ -303,21 +303,48 @@ class Programa:
 
     def sonido(s, arr, at=None, gain=1.0): s.audio.append((s.t if at is None else at, arr * gain))
 
-    def escena(s, img, dur, quien=None):
-        s.escenas.append((s.t, dur, img, quien)); s.t += dur
+    def escena(s, img, dur, quien=None, poses=None):
+        """poses: {quien: pose}. Si habla otro personaje que está en poses, se cambia a él."""
+        s.escenas.append((s.t, dur, img, quien, poses or {})); s.t += dur
 
     def voz(s, arr, at, quien):
         s.audio.append((at, arr))
         hop = SR // FPS; n = max(1, len(arr) // hop)
         env = np.array([np.sqrt(np.mean(arr[i * hop:(i + 1) * hop] ** 2) + 1e-9) for i in range(n)])
-        s.habla.append((at, at + len(arr) / SR, quien, env))
+        ref = max(np.percentile(env, 92), 1e-4)
+        lv = np.clip(np.round(env / ref * 4), 0, 4).astype(int); lv[env < 0.012] = 0
+        s.habla.append((at, at + len(arr) / SR, quien, lv))
 
     def boca(s, t, quien):
-        for t0, t1, q, env in s.habla:
+        for t0, t1, q, lv in s.habla:
             if q == quien and t0 <= t < t1:
-                v = env[min(len(env) - 1, int((t - t0) * FPS))]
-                return 0 if v < 0.02 else (1 if v < 0.07 else 2)
+                return int(lv[min(len(lv) - 1, int((t - t0) * FPS))])
         return 0
+
+    def hablante(s, t):
+        for t0, t1, q, lv in s.habla:
+            if t0 <= t < t1: return q
+        return None
+
+    def personaje(s, fr, quien, pose, t):
+        """Pega el personaje (o LA VOZ) en la columna izquierda del cuadro fr."""
+        b = s.boca(t, quien)
+        if quien == 'anunciador':
+            sp = voz_sprite(b, int(t * 10) % 12 if b else 0)
+            fr.paste(sp, (DOCK_X // 2 - sp.width // 2, 600 - sp.height // 2), sp)
+            return
+        k = int(t * FPS) + (17 if quien == 'copresentadora' else 0)
+        parp = (k % 61) in (0, 1) or (k % 167) in (0, 1)
+        bob = round(4 * np.sin(2 * np.pi * t / 3.4))
+        sp, (cx, cy) = sprite(quien, pose, b, parp)
+        cyp = (650 if quien == 'presentador' else 610) + bob
+        x = round(DOCK_X / 2 - cx); y = round(cyp - cy)
+        if x < 0: x = 0
+        if x + sp.width > DOCK_X + 30: x = max(0, DOCK_X + 30 - sp.width)
+        fr.paste(sp, (x, y), sp)
+        d = ImageDraw.Draw(fr); cxn = DOCK_X / 2
+        d.rounded_rectangle((cxn - 85, H - 92, cxn + 85, H - 40), 26, fill=C['gold'])
+        d.text((cxn, H - 66), NOMBRES[quien], font=font('Bold', 32), fill=C['ink'], anchor='mm')
 
     def render(s, out, tmp):
         os.makedirs(tmp, exist_ok=True)
@@ -330,23 +357,21 @@ class Programa:
         for k in range(nfr):
             t = k / FPS
             while ei + 1 < len(s.escenas) and t >= s.escenas[ei + 1][0]: ei += 1
-            t0, dur, img, quien = s.escenas[ei]
+            t0, dur, img, quien, poses = s.escenas[ei]
             base = img(t - t0) if callable(img) else img
             if quien:
-                b = s.boca(t, quien); parp = (int(t * FPS) % 52) in (0, 1)
-                key = (id(base), quien, b, parp)
+                h = s.hablante(t)
+                if h and h != quien and h in poses: quien = h
+                pose = poses.get(quien, 'base')
+                if quien == 'anunciador':
+                    b = s.boca(t, quien); key = (id(base), quien, b, int(t * 10) % 12 if b else 0)
+                else:
+                    k = int(t * FPS) + (17 if quien == 'copresentadora' else 0)
+                    key = (id(base), quien, pose, s.boca(t, quien), (k % 61) in (0, 1) or (k % 167) in (0, 1),
+                           round(4 * np.sin(2 * np.pi * t / 3.4)))
                 if key not in cache:
-                    if len(cache) > 200: cache.clear()
-                    fr = base.copy()
-                    if quien == 'anunciador':
-                        sp = sprite(quien, b, parp, 520); fr.paste(sp, (40, H - sp.height - 30), sp)
-                    else:
-                        sp = sprite(quien, b, parp, 470); x = (DOCK_X - sp.width) // 2 - 10
-                        d = ImageDraw.Draw(fr)
-                        d.ellipse((x + 20, H - 70, x + sp.width - 20, H - 10), fill=(10, 6, 30))
-                        fr.paste(sp, (x, H - sp.height - 40), sp)
-                        d.rounded_rectangle((x + sp.width / 2 - 80, H - 100, x + sp.width / 2 + 80, H - 48), 26, fill=C['gold'])
-                        d.text((x + sp.width / 2, H - 74), NOMBRES[quien], font=font('Bold', 32), fill=C['ink'], anchor='mm')
+                    if len(cache) > 300: cache.clear()
+                    fr = base.copy(); s.personaje(fr, quien, pose, t)
                     cache[key] = fr.tobytes()
                 ff.stdin.write(cache[key])
             else:
@@ -386,32 +411,32 @@ def main():
             if d and os.path.exists(f'{d}/{clave}.wav'): return load_wav(f'{d}/{clave}.wav')
         faltan.append(clave); return np.zeros(int(SR * max(1.0, len(est) / 15)), np.float32)
 
-    def decir(img, clips, quien_pantalla=None, pad=0.35, pre=0.0):
+    def decir(img, clips, quien_pantalla=None, pad=0.35, pre=0.0, poses=None):
         """clips: lista de (clave, texto_estimado). Cada clip anima a su personaje."""
         t = G.t + pre
         for clave, est in clips:
             arr = voz(clave, est); who = VOZ_DE.get(clave[:2], 'presentador')
             if clave.startswith('q'): who = 'presentador' if clave.endswith('_pregunta') else 'copresentadora'
             G.voz(arr, t, who); t += len(arr) / SR + 0.12
-        G.escena(img, t - G.t + pad, quien_pantalla)
+        G.escena(img, t - G.t + pad, quien_pantalla, poses)
 
     ex = meta.get('extra_tts', {})
     # --- apertura
     G.sonido(S['fanfare'], gain=0.8)
     decir(P.anuncio('¡¿Quién Sabe Más?!', meta['titulo']), [('an_01_marca', ''), ('an_tema', ex.get('an_tema', ['', ''])[1])], 'anunciador', pre=0.6)
-    decir(P.lobby(), [('pr_intro', ex.get('pr_intro', ['', ''])[1]), ('pr_01_celulares', '')], 'presentador')
-    decir(P.lobby(), [('co_intro', ex.get('co_intro', ['', ''])[1])], 'copresentadora')
+    decir(P.lobby(), [('pr_intro', ex.get('pr_intro', ['', ''])[1]), ('pr_01_celulares', '')], 'presentador', poses={'presentador': 'saluda'})
+    decir(P.lobby(), [('co_intro', ex.get('co_intro', ['', ''])[1])], 'copresentadora', poses={'copresentadora': 'saluda'})
     for i in range(a.lobby):
-        G.sonido(S['tick'], at=G.t, gain=0.6); G.escena(P.lobby(cuenta=a.lobby - i), 1.0)
-    decir(P.anuncio('¡Empezamos!'), [('pr_02_empezamos', '')], 'presentador')
+        G.sonido(S['tick'], at=G.t, gain=0.6); G.escena(P.lobby(cuenta=a.lobby - i), 1.0, 'presentador', {'presentador': 'frente'})
+    decir(P.anuncio('¡Empezamos!'), [('pr_02_empezamos', '')], 'presentador', poses={'presentador': 'celebra2'})
 
     for q in Q:
         n = q['n']; key = f'q{n:02d}'
         if n == N:
             G.sonido(S['fanfare'], gain=0.7); decir(P.anuncio('¡Pregunta final!'), [('an_03_final', '')], 'anunciador', pad=0.5, pre=0.3)
         G.sonido(S['whoosh'], gain=0.8)
-        decir(P.tarjeta(n, N), [(f'pr_n{n:02d}', '')], 'presentador', pad=0.4, pre=0.2)
-        decir(P.pregunta(n, N, q), [(f'{key}_pregunta', q['tp'])], 'presentador', pad=0.3)
+        decir(P.tarjeta(n, N), [(f'pr_n{n:02d}', '')], 'presentador', pad=0.4, pre=0.2, poses={'presentador': 'base'})
+        decir(P.pregunta(n, N, q), [(f'{key}_pregunta', q['tp'])], 'presentador', pad=0.3, poses={'presentador': 'senala'})
         if n <= 2: G.voz(voz('pr_03_segundos'), G.t + 0.1, 'presentador')
         t0 = G.t
         for sec in range(10): G.sonido(S['tick_hi'] if sec >= 7 else S['tick'], at=t0 + sec, gain=0.8)
@@ -420,19 +445,26 @@ def main():
             r = max(1, 10 - int(t)); fr = round((1 - t / 10) * 40) / 40
             if (r, fr) not in cache: cache[(r, fr)] = P.pregunta(n, N, q, reloj=r, frac=fr)
             return cache[(r, fr)]
-        G.escena(tfn, 10.0, 'presentador')
+        G.escena(tfn, 10.0, 'presentador', {'presentador': 'piensa'})
         G.sonido(S['tiempo'], gain=0.7)
-        decir(P.pregunta(n, N, q, reloj='¡YA!', frac=0), [('pr_04_tiempo', ''), ('co_08_correcta', '')], 'copresentadora', pad=0.1, pre=0.1)
+        decir(P.pregunta(n, N, q, reloj='¡YA!', frac=0), [('pr_04_tiempo', ''), ('co_08_correcta', '')], 'copresentadora', pad=0.1, pre=0.1,
+              poses={'copresentadora': 'presenta', 'presentador': 'frente'})
         G.sonido(S['ding'], at=G.t + 0.2, gain=0.9)
-        decir(P.pregunta(n, N, q, modo='revela'), [(f'{key}_respuesta', q['tr'])], 'copresentadora', pad=0.9, pre=0.2)
-        decir(P.dato(n, N, q), [('co_02_dato', ''), (f'{key}_dato', q['td'])], 'copresentadora', pad=1.2)
+        dificil = (n - 1) * 3 // N >= 2
+        rev = 'celebra' if n == N else ('sorpresa' if dificil and n % 2 == 0 else 'aplaude')
+        decir(P.pregunta(n, N, q, modo='revela'), [(f'{key}_respuesta', q['tr'])], 'copresentadora', pad=0.9, pre=0.2,
+              poses={'copresentadora': rev})
+        decir(P.dato(n, N, q), [('co_02_dato', ''), (f'{key}_dato', q['td'])], 'copresentadora', pad=1.2,
+              poses={'copresentadora': 'presenta'})
         if n % 5 == 0 and n != N:
-            decir(P.tabla(n, N), [('pr_08_tabla', '')], 'presentador', pad=3.0)
+            decir(P.tabla(n, N), [('pr_08_tabla', '')], 'presentador', pad=3.0, poses={'presentador': 'base'})
     # --- cierre
     decir(P.anuncio('¡Y el ganador es…!', 'Míralo en tu celular'), [('an_04_ganador', '')], 'anunciador', pad=0.8)
     G.sonido(S['fanfare'], gain=0.8)
-    decir(P.rangos(), [('co_05_felicidades', ''), ('pr_cierre', ex.get('pr_cierre', ['', ''])[1])], 'presentador', pad=3.0)
-    decir(P.final(), [('pr_12_suscribanse', ''), ('co_07_otra', ''), ('pr_13_despedida', '')], 'presentador', pad=3.0)
+    decir(P.rangos(), [('co_05_felicidades', ''), ('pr_cierre', ex.get('pr_cierre', ['', ''])[1])], 'presentador', pad=3.0,
+          poses={'presentador': 'celebra', 'copresentadora': 'celebra'})
+    decir(P.final(), [('pr_12_suscribanse', ''), ('co_07_otra', ''), ('pr_13_despedida', '')], 'presentador', pad=3.0,
+          poses={'presentador': 'saluda', 'copresentadora': 'saluda'})
     print(f'Duración: {G.t/60:.1f} min · escenas: {len(G.escenas)}')
     if faltan: print('Voces faltantes (silencio):', faltan)
     os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
