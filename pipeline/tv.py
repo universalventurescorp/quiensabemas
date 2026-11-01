@@ -137,7 +137,7 @@ class Pantallas:
         d.text((W / 2, 225), s.m['titulo'], font=font('Medium', 48), fill=C['white'], anchor='mm')
         img = caja(img, (560, 300, 1000, 740), 28, (255, 255, 255)); img.paste(s.qr_l, (580, 320))
         d = ImageDraw.Draw(img); x = 1060
-        for i, t in enumerate(['Escanea el código', 'Escribe tu apodo', '¡Responde rápido!']):
+        for i, t in enumerate(['Escanea el código', 'Escribe tu apodo', 'Al oír «¡YA!» toca EMPEZAR']):
             d.ellipse((x, 330 + i * 80, x + 56, 386 + i * 80), fill=C['gold'])
             d.text((x + 28, 358 + i * 80), str(i + 1), font=font('Bold', 34), fill=C['ink'], anchor='mm')
             d.text((x + 76, 358 + i * 80), t, font=font('Medium', 42), fill=C['white'], anchor='lm')
@@ -428,7 +428,9 @@ def main():
     decir(P.lobby(), [('co_intro', ex.get('co_intro', ['', ''])[1])], 'copresentadora', poses={'copresentadora': 'saluda'})
     for i in range(a.lobby):
         G.sonido(S['tick'], at=G.t, gain=0.6); G.escena(P.lobby(cuenta=a.lobby - i), 1.0, 'presentador', {'presentador': 'frente'})
-    decir(P.anuncio('¡Empezamos!'), [('pr_02_empezamos', '')], 'presentador', poses={'presentador': 'celebra2'})
+    t_ya = G.t  # referencia de sincronía: el celular cuenta desde aquí (toque en EMPEZAR)
+    decir(P.anuncio('¡YA!', 'Toca EMPEZAR en tu celular'), [('pr_02_empezamos', '')], 'presentador', poses={'presentador': 'celebra2'})
+    tiempos = []
 
     for q in Q:
         n = q['n']; key = f'q{n:02d}'
@@ -436,6 +438,7 @@ def main():
             G.sonido(S['fanfare'], gain=0.7); decir(P.anuncio('¡Pregunta final!'), [('an_03_final', '')], 'anunciador', pad=0.5, pre=0.3)
         G.sonido(S['whoosh'], gain=0.8)
         decir(P.tarjeta(n, N), [(f'pr_n{n:02d}', '')], 'presentador', pad=0.4, pre=0.2, poses={'presentador': 'base'})
+        t_abre = G.t
         decir(P.pregunta(n, N, q), [(f'{key}_pregunta', q['tp'])], 'presentador', pad=0.3, poses={'presentador': 'senala'})
         if n <= 2: G.voz(voz('pr_03_segundos'), G.t + 0.1, 'presentador')
         t0 = G.t
@@ -447,6 +450,7 @@ def main():
             return cache[(r, fr)]
         G.escena(tfn, 10.0, 'presentador', {'presentador': 'piensa'})
         G.sonido(S['tiempo'], gain=0.7)
+        tiempos.append({'n': n, 'abre': round(t_abre - t_ya, 2), 'reloj': round(t0 - t_ya, 2), 'cierra': round(G.t - t_ya, 2)})
         decir(P.pregunta(n, N, q, reloj='¡YA!', frac=0), [('pr_04_tiempo', ''), ('co_08_correcta', '')], 'copresentadora', pad=0.1, pre=0.1,
               poses={'copresentadora': 'presenta', 'presentador': 'frente'})
         G.sonido(S['ding'], at=G.t + 0.2, gain=0.9)
@@ -466,6 +470,9 @@ def main():
     decir(P.final(), [('pr_12_suscribanse', ''), ('co_07_otra', ''), ('pr_13_despedida', '')], 'presentador', pad=3.0,
           poses={'presentador': 'saluda', 'copresentadora': 'saluda'})
     print(f'Duración: {G.t/60:.1f} min · escenas: {len(G.escenas)}')
+    sync = {'sala': meta['codigo_sala'], 'titulo': meta['titulo'], 'total': N, 'ya': round(t_ya, 2), 'duracion': round(G.t, 2), 'tiempos': tiempos}
+    os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
+    json.dump(sync, open(os.path.splitext(a.out)[0] + '.tiempos.json', 'w'), ensure_ascii=False, indent=1)
     if faltan: print('Voces faltantes (silencio):', faltan)
     os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
     G.render(a.out, a.tmp); print('OK', a.out)
