@@ -113,11 +113,13 @@ class Pantallas:
     def __init__(s, meta, url, raiz):
         s.m = meta; s.raiz = raiz; s.bg = escenario()
         s.qr_s = qr_img(url, 140); s.qr_l = qr_img(url, 400)
-        cred = os.path.join(raiz, 'assets', 'maqueta', 'creditos.json')
-        s.cred = json.load(open(cred)) if os.path.exists(cred) else {}
+        s._cred = {}
 
     def credito(s, path):
-        c = s.cred.get(os.path.basename(path))
+        dd = os.path.dirname(os.path.abspath(path))  # cada carpeta de fotos trae su creditos.json
+        if dd not in s._cred:
+            f = os.path.join(dd, 'creditos.json'); s._cred[dd] = json.load(open(f)) if os.path.exists(f) else {}
+        c = s._cred[dd].get(os.path.basename(path))
         if not c: return None
         autor = c['autor'].split('\n')[0][:40] or 'Wikimedia Commons'
         return f"Foto: {autor} · {c['licencia']}"
@@ -243,17 +245,31 @@ class Pantallas:
         if chico: d.text((W / 2 + 230, 760), chico, font=font('Medium', 48), fill=C['white'], anchor='mm')
         return img
 
-    def rangos(s):
+    def rangos(s, total=30):
         img = s.barra(s.bg.copy()); d = ImageDraw.Draw(img); cx = DOCK_X + (W - DOCK_X) / 2
         d.text((cx, 200), '¿Qué tan genio eres?', font=font('Bold', 84), fill=C['gold'], anchor='mm')
-        filas = [('0 – 10', 'Aprendiz curioso', (47, 128, 237)), ('11 – 20', 'Sabelotodo en camino', (39, 174, 96)),
-                 ('21 – 27', 'Experto', (240, 170, 20)), ('28 – 30', '¡GENIO TOTAL!', (231, 76, 60))]
-        for i, (r, t, col) in enumerate(filas):
+        lo = 0
+        for i, (lim, t, col) in enumerate(RANGOS):
+            hi = min(total, int(lim * total - 1e-9)) if lim <= 1 else total
+            r = f'{lo} – {hi}' if hi > lo else f'{hi}'
+            lo = hi + 1
             y = 310 + i * 140
             img = caja(img, (DOCK_X + 80, y, W - 120, y + 115), 26, col); d = ImageDraw.Draw(img)
             d.text((DOCK_X + 130, y + 57), r, font=font('Bold', 52), fill=C['white'], anchor='lm')
-            d.text((DOCK_X + 520, y + 57), t, font=font('Bold', 52), fill=C['white'], anchor='lm')
+            d.text((DOCK_X + 560, y + 57), t, font=font('Bold', 52), fill=C['white'], anchor='lm')
         d.text((cx, 900), '¡Cuéntanos tu puntaje en los comentarios!', font=font('Medium', 42), fill=C['white'], anchor='mm')
+        return img
+
+    def fama(s, nombres, de=''):
+        img = s.barra(s.bg.copy()); d = ImageDraw.Draw(img); cx = DOCK_X + (W - DOCK_X) / 2
+        d.text((cx, 200), 'Salón de la fama', font=font('Bold', 92), fill=C['gold'], anchor='mm')
+        if de: d.text((cx, 290), f'Los mejores de «{de}»', font=font('Medium', 40), fill=C['dimtxt'], anchor='mm')
+        for i, nom in enumerate(nombres[:5]):
+            y = 360 + i * 115
+            img = caja(img, (DOCK_X + 160, y, W - 200, y + 95), 26, (255, 255, 255) if i else C['gold']); d = ImageDraw.Draw(img)
+            d.text((DOCK_X + 220, y + 48), f'{i + 1}', font=font('Bold', 54), fill=C['ink'], anchor='mm')
+            d.text((DOCK_X + 290, y + 48), str(nom)[:14], font=font('Bold', 54), fill=C['ink'], anchor='lm')
+        d.text((cx, 970), 'Juega desde tu celular y sal aquí la próxima vez', font=font('Medium', 38), fill=C['white'], anchor='mm')
         return img
 
     def final(s):
@@ -394,6 +410,11 @@ class Programa:
                         '-shortest', '-movflags', '+faststart', out], check=True)
 
 # ---------------------------------------------------------------- guion del programa
+RANGOS = [(0.34, 'Aprendiz curioso', (47, 128, 237)), (0.67, 'Sabelotodo en camino', (39, 174, 96)),
+          (0.91, 'Experto', (240, 170, 20)), (1.01, '¡GENIO TOTAL!', (231, 76, 60))]  # mismo criterio que la web
+VARIANTES = 'banco/var'
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--contenido', required=True); ap.add_argument('--banco', default='banco')
@@ -405,48 +426,74 @@ def main():
     P = Pantallas(meta, f"https://quiensabemastv.pages.dev/?sala={meta['codigo_sala']}", raiz)
     G = Programa(); S = sfx(); faltan = []
     VOZ_DE = {'pr': 'presentador', 'co': 'copresentadora', 'an': 'anunciador'}
+    ex = meta.get('extra_tts', {})
+    # variantes de las frases fijas: rotan dentro del episodio y cambian de punto de partida en cada episodio
+    var_dir = os.path.join(raiz, VARIANTES); semilla = sum(map(ord, meta.get('id', meta['codigo_sala']))); uso = {}
+
+    def variante(clave):
+        if not os.path.isdir(var_dir): return None
+        n = len([f for f in os.listdir(var_dir) if f.startswith(clave + '__') and f.endswith('.wav')])
+        if not n: return None
+        k = (semilla + uso.get(clave, 0) * 7) % n; uso[clave] = uso.get(clave, 0) + 1
+        return f'{var_dir}/{clave}__{k}.wav'
 
     def voz(clave, est=''):
+        v = variante(clave)
+        if v and os.path.exists(v): return load_wav(v)
         for d in (a.voces, a.banco):
             if d and os.path.exists(f'{d}/{clave}.wav'): return load_wav(f'{d}/{clave}.wav')
         faltan.append(clave); return np.zeros(int(SR * max(1.0, len(est) / 15)), np.float32)
+
+    def quien(clave):
+        if clave.startswith('q'): return 'presentador' if clave.endswith('_pregunta') else 'copresentadora'
+        if clave in ex: return ex[clave][0]
+        return VOZ_DE.get(clave[:2], 'presentador')
 
     def decir(img, clips, quien_pantalla=None, pad=0.35, pre=0.0, poses=None):
         """clips: lista de (clave, texto_estimado). Cada clip anima a su personaje."""
         t = G.t + pre
         for clave, est in clips:
-            arr = voz(clave, est); who = VOZ_DE.get(clave[:2], 'presentador')
-            if clave.startswith('q'): who = 'presentador' if clave.endswith('_pregunta') else 'copresentadora'
-            G.voz(arr, t, who); t += len(arr) / SR + 0.12
+            arr = voz(clave, est); G.voz(arr, t, quien(clave)); t += len(arr) / SR + 0.12
         G.escena(img, t - G.t + pad, quien_pantalla, poses)
 
-    ex = meta.get('extra_tts', {})
+    capitulos = [(0.0, 'Bienvenida')]
     # --- apertura
     G.sonido(S['fanfare'], gain=0.8)
     decir(P.anuncio('¡¿Quién Sabe Más?!', meta['titulo']), [('an_01_marca', ''), ('an_tema', ex.get('an_tema', ['', ''])[1])], 'anunciador', pre=0.6)
     decir(P.lobby(), [('pr_intro', ex.get('pr_intro', ['', ''])[1]), ('pr_01_celulares', '')], 'presentador', poses={'presentador': 'saluda'})
     decir(P.lobby(), [('co_intro', ex.get('co_intro', ['', ''])[1])], 'copresentadora', poses={'copresentadora': 'saluda'})
+    if meta.get('fama'):
+        capitulos.append((G.t, 'Salón de la fama'))
+        decir(P.fama(meta['fama'], meta.get('fama_de', '')), [('co_fama', ex.get('co_fama', ['', ''])[1])], 'copresentadora', pad=4.0,
+              poses={'copresentadora': 'aplaude'})
     for i in range(a.lobby):
         G.sonido(S['tick'], at=G.t, gain=0.6); G.escena(P.lobby(cuenta=a.lobby - i), 1.0, 'presentador', {'presentador': 'frente'})
-    t_ya = G.t  # referencia de sincronía: el celular cuenta desde aquí (toque en EMPEZAR)
     decir(P.anuncio('¡YA!', 'Toca EMPEZAR en tu celular'), [('pr_02_empezamos', '')], 'presentador', poses={'presentador': 'celebra2'})
+    t_ya = G.t - 0.35  # referencia de sincronía: justo cuando el presentador dice «¡Ya!»
     tiempos = []
+    bloque = 10 if len(Q) <= 120 else 25
 
-    for q in Q:
+    for idx, q in enumerate(Q):
         n = q['n']; key = f'q{n:02d}'
+        if idx % bloque == 0:
+            fin = Q[min(len(Q), idx + bloque) - 1]['n']
+            capitulos.append((G.t, f'Preguntas {n} a {fin}' if fin != n else f'Pregunta {n}'))
         if n == N:
+            capitulos.append((G.t, 'Pregunta final'))
             G.sonido(S['fanfare'], gain=0.7); decir(P.anuncio('¡Pregunta final!'), [('an_03_final', '')], 'anunciador', pad=0.5, pre=0.3)
         G.sonido(S['whoosh'], gain=0.8)
-        decir(P.tarjeta(n, N), [(f'pr_n{n:02d}', '')], 'presentador', pad=0.4, pre=0.2, poses={'presentador': 'base'})
+        G.escena(P.tarjeta(n, N), 1.6, 'presentador', {'presentador': 'base'})
         t_abre = G.t
         decir(P.pregunta(n, N, q), [(f'{key}_pregunta', q['tp'])], 'presentador', pad=0.3, poses={'presentador': 'senala'})
-        if n <= 2: G.voz(voz('pr_03_segundos'), G.t + 0.1, 'presentador')
+        if idx < 2: G.voz(voz('pr_03_segundos'), G.t + 0.1, 'presentador')
         t0 = G.t
         for sec in range(10): G.sonido(S['tick_hi'] if sec >= 7 else S['tick'], at=t0 + sec, gain=0.8)
         cache = {}
         def tfn(t, q=q, n=n, cache=cache):
             r = max(1, 10 - int(t)); fr = round((1 - t / 10) * 40) / 40
-            if (r, fr) not in cache: cache[(r, fr)] = P.pregunta(n, N, q, reloj=r, frac=fr)
+            if (r, fr) not in cache:
+                if len(cache) > 60: cache.clear()
+                cache[(r, fr)] = P.pregunta(n, N, q, reloj=r, frac=fr)
             return cache[(r, fr)]
         G.escena(tfn, 10.0, 'presentador', {'presentador': 'piensa'})
         G.sonido(S['tiempo'], gain=0.7)
@@ -460,21 +507,25 @@ def main():
               poses={'copresentadora': rev})
         decir(P.dato(n, N, q), [('co_02_dato', ''), (f'{key}_dato', q['td'])], 'copresentadora', pad=1.2,
               poses={'copresentadora': 'presenta'})
-        if n % 5 == 0 and n != N:
-            decir(P.tabla(n, N), [('pr_08_tabla', '')], 'presentador', pad=3.0, poses={'presentador': 'base'})
+        if (idx + 1) % 5 == 0 and n != N:
+            charla = [(c, ex[c][1]) for c in (f'charla{n:02d}_pr', f'charla{n:02d}_co') if c in ex]
+            decir(P.tabla(n, N), charla or [('pr_08_tabla', '')], 'presentador', pad=2.5,
+                  poses={'presentador': 'base', 'copresentadora': 'presenta'})
     # --- cierre
+    capitulos.append((G.t, 'Resultados'))
     decir(P.anuncio('¡Y el ganador es…!', 'Míralo en tu celular'), [('an_04_ganador', '')], 'anunciador', pad=0.8)
     G.sonido(S['fanfare'], gain=0.8)
-    decir(P.rangos(), [('co_05_felicidades', ''), ('pr_cierre', ex.get('pr_cierre', ['', ''])[1])], 'presentador', pad=3.0,
+    decir(P.rangos(len(Q)), [('co_05_felicidades', ''), ('pr_cierre', ex.get('pr_cierre', ['', ''])[1])], 'presentador', pad=3.0,
           poses={'presentador': 'celebra', 'copresentadora': 'celebra'})
     decir(P.final(), [('pr_12_suscribanse', ''), ('co_07_otra', ''), ('pr_13_despedida', '')], 'presentador', pad=3.0,
           poses={'presentador': 'saluda', 'copresentadora': 'saluda'})
     print(f'Duración: {G.t/60:.1f} min · escenas: {len(G.escenas)}')
-    sync = {'sala': meta['codigo_sala'], 'titulo': meta['titulo'], 'total': N, 'ya': round(t_ya, 2), 'duracion': round(G.t, 2), 'tiempos': tiempos}
+    sync = {'sala': meta['codigo_sala'], 'titulo': meta['titulo'], 'total': N, 'ya': round(t_ya, 2), 'duracion': round(G.t, 2),
+            'tiempos': tiempos, 'capitulos': [[round(t, 1), c] for t, c in capitulos], 'faltan': sorted(set(faltan))}
     os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
     json.dump(sync, open(os.path.splitext(a.out)[0] + '.tiempos.json', 'w'), ensure_ascii=False, indent=1)
-    if faltan: print('Voces faltantes (silencio):', faltan)
-    os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
+    if faltan: print('Voces faltantes (silencio):', sorted(set(faltan)))
+    if os.environ.get('QSM_SOLO_TIEMPOS'): return
     G.render(a.out, a.tmp); print('OK', a.out)
 
 if __name__ == '__main__':
