@@ -42,6 +42,23 @@ def _giro_por_menton(nombre):
 
 
 GIRO = {k: _giro_por_menton(k) for k in GEO if k != 'voz'}
+
+
+def _corte_cintura(nombre):
+    """Fila (en px del PNG original) donde empiezan a verse las piernas bajo el saco de NOVA.
+    Desde ahí hacia abajo el personaje se desvanece: en un canal familiar no deben verse."""
+    if not nombre.startswith('nova_'): return None
+    a = np.array(Image.open(os.path.join(DIR, nombre + '.png')).convert('RGBA')).astype(int)
+    A = a[:, :, 3] > 128; r, g, b = a[:, :, 0], a[:, :, 1], a[:, :, 2]
+    piel = A & (r > 140) & (r >= b - 30) & (g < r)
+    x0, y0, x1, y1 = GEO[nombre]['pantalla']; cx = (x0 + x1) // 2
+    for y in range(y1 + 250, a.shape[0]):
+        if piel[y, max(0, cx - 90):cx + 150].sum() > 6: return y - 45
+    return None
+
+
+CORTE = {k: _corte_cintura(k) for k in GEO if k != 'voz'}
+FUNDIDO = 60  # px del PNG original en que se desvanece
 LUZ = {'presentador': (120, 235, 255), 'copresentadora': (150, 205, 255)}
 
 
@@ -147,6 +164,13 @@ def sprite(quien, pose='base', boca=0, parp=False):
     # el reflejo del vidrio vuelve encima de la cara (se ve detrás del visor)
     refl = im.copy(); refl.putalpha(brillo.point(lambda v: int(v * 0.6)))
     out.alpha_composite(refl)
+    c = CORTE.get(nombre)
+    if c:  # desvanecer desde la cintura hacia abajo
+        y0c, y1c = round((c - FUNDIDO) * esc), round(c * esc)
+        col = np.ones(out.height, np.float32)
+        col[y0c:y1c] = np.linspace(1, 0, max(1, y1c - y0c)); col[y1c:] = 0
+        al = (np.array(out.getchannel('A')).astype(np.float32) * col[:, None]).astype(np.uint8)
+        out.putalpha(Image.fromarray(al))
     return out, ((x0 + x1) / 2, (y0 + y1) / 2)
 
 
