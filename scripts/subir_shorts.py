@@ -12,6 +12,17 @@ RAIZ = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 CANAL = '@quiensabemastv'
 
 
+def programada(fecha, hora, dias=0):
+    """Fecha de publicación automática en UTC (RFC 3339) si está activada en contenido/calendario.json; si no, None."""
+    import datetime as dt
+    cal = json.load(open(os.path.join(RAIZ, 'contenido', 'calendario.json'), encoding='utf-8')).get('publicacion', {})
+    if not cal.get('automatica') or not fecha: return None
+    h, m = map(int, hora.split(':'))
+    t = dt.datetime.fromisoformat(fecha) + dt.timedelta(days=dias, hours=h + 5, minutes=m)  # Lima = UTC-5
+    ahora = dt.datetime.utcnow() + dt.timedelta(minutes=30)
+    return max(t, ahora).strftime('%Y-%m-%dT%H:%M:%SZ')
+
+
 def main(ep_path, shorts_path):
     ep = json.load(open(ep_path, encoding='utf-8')); sh = json.load(open(shorts_path, encoding='utf-8'))
     pub_f = os.path.join(RAIZ, 'publicados', f"{ep['id']}.json")
@@ -27,7 +38,8 @@ def main(ep_path, shorts_path):
     if not any((c['snippet'].get('customUrl') or '').lower() == CANAL for c in ch):
         sys.exit(f'La llave no corresponde a {CANAL}: no subo nada.')
     subidos = pub.get('shorts', [])
-    for s in sh['shorts']:
+    horas = json.load(open(os.path.join(RAIZ, 'contenido', 'calendario.json'))).get('publicacion', {}).get('shorts', ['12:00', '20:00'])
+    for k, s in enumerate(sh['shorts']):
         if s.get('faltan') or s['duracion'] > 60:
             print(f"Short de la pregunta {s['n']} NO se sube: faltan voces o dura más de 60 s"); continue
         q = preg.get(s['n'], {})
@@ -48,6 +60,8 @@ def main(ep_path, shorts_path):
                             'tags': ['trivia', 'quiz', 'cultura general', 'shorts', 'Quién Sabe Más'],
                             'defaultLanguage': 'es', 'defaultAudioLanguage': 'es'},
                 'status': {'privacyStatus': 'private', 'selfDeclaredMadeForKids': False, 'embeddable': True}}
+        cuando = programada(ep.get('fecha'), horas[k % len(horas)], k // len(horas))  # maratón: 2 el sábado, 2 el domingo
+        if cuando: body['status']['publishAt'] = cuando
         try:
             req = yt.videos().insert(part='snippet,status', body=body, media_body=MediaFileUpload(s['archivo'], resumable=True))
             resp = None

@@ -12,6 +12,17 @@ RAIZ = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 CANAL = '@quiensabemastv'
 
 
+def programada(fecha, hora, dias=0):
+    """Fecha de publicación automática en UTC (RFC 3339) si está activada en contenido/calendario.json; si no, None."""
+    import datetime as dt
+    cal = json.load(open(os.path.join(RAIZ, 'contenido', 'calendario.json'), encoding='utf-8')).get('publicacion', {})
+    if not cal.get('automatica') or not fecha: return None
+    h, m = map(int, hora.split(':'))
+    t = dt.datetime.fromisoformat(fecha) + dt.timedelta(days=dias, hours=h + 5, minutes=m)  # Lima = UTC-5
+    ahora = dt.datetime.utcnow() + dt.timedelta(minutes=30)
+    return max(t, ahora).strftime('%Y-%m-%dT%H:%M:%SZ')
+
+
 def hms(t):
     t = int(t); h, r = divmod(t, 3600); m, s = divmod(r, 60)
     return f'{h}:{m:02d}:{s:02d}' if h else f'{m}:{s:02d}'
@@ -57,6 +68,8 @@ def main(ep_path, video, sync_path, miniatura=None):
                     'defaultLanguage': 'es', 'defaultAudioLanguage': 'es'},
         'status': {'privacyStatus': 'private', 'selfDeclaredMadeForKids': False, 'embeddable': True},
     }
+    cuando = programada(ep.get('fecha'), json.load(open(os.path.join(RAIZ, 'contenido', 'calendario.json'))).get('publicacion', {}).get('episodio', '17:00'))
+    if cuando: body['status']['publishAt'] = cuando; print('Se publicará solo:', cuando, 'UTC')
     req = yt.videos().insert(part='snippet,status', body=body, media_body=MediaFileUpload(video, chunksize=64 * 1024 * 1024, resumable=True))
     resp = None; t0 = time.time()
     while resp is None:
@@ -68,7 +81,7 @@ def main(ep_path, video, sync_path, miniatura=None):
         except Exception as e: print('No se pudo poner la miniatura:', e)
     os.makedirs(os.path.join(RAIZ, 'publicados'), exist_ok=True)
     json.dump({'id': ep['id'], 'video': vid, 'titulo': ep['titulo'], 'sala': ep['codigo_sala'], 'formato': ep.get('formato', 'normal'),
-               'duracion': sync['duracion'], 'subido': time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime()), 'privacidad': 'private'},
+               'duracion': sync['duracion'], 'subido': time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime()), 'privacidad': 'private', 'publica': cuando},
               open(os.path.join(RAIZ, 'publicados', f"{ep['id']}.json"), 'w'), ensure_ascii=False, indent=1)
 
 
