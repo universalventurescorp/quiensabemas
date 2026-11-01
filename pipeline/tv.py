@@ -505,7 +505,7 @@ def main():
     ex = meta.get('extra_tts', {})
     # variantes de las frases fijas: rotan dentro del episodio y cambian de punto de partida en cada episodio
     var_dir = os.path.join(raiz, VARIANTES); semilla = sum(map(ord, meta.get('id', meta['codigo_sala']))); uso = {}
-    if not os.environ.get('QSM_SIN_MUSICA'): G.musica = Musica(semilla)
+    if os.environ.get('QSM_MUSICA'): G.musica = Musica(semilla)  # apagada: se activa cuando haya temas de la Biblioteca de audio
     KB = not os.environ.get('QSM_SIN_MOVIMIENTO')
 
     def mover(img, q, caja, t_ini):

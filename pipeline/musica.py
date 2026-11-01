@@ -5,6 +5,8 @@
 - Tensión durante el reloj: pulso grave por segundo que se acelera en los 3 últimos.
 - Ducking: la cama baja cuando habla alguien y sube en los silencios.
 Uso desde tv.py:  M = Musica(semilla); M.mezclar(mix, habla, relojes, temas)
+APAGADA por defecto (al usuario no le gustó cómo suena la síntesis): tv.py solo la usa con QSM_MUSICA=1.
+Plan: reemplazar las secciones/tema por temas de la Biblioteca de audio de YouTube y conservar el ducking.
 """
 import numpy as np
 from scipy.ndimage import maximum_filter1d, uniform_filter1d
