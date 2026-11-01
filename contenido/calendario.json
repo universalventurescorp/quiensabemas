@@ -1,6 +1,6 @@
 {
  "_nota": "Formato de cada día de la semana (1 = lunes … 7 = domingo). El escritor crea los episodios según esta tabla; la producción sube uno por noche, en privado.",
- "inicio": "2026-11-09",
+ "inicio": "2026-11-02",
  "dias": {
   "1": "normal",
   "2": "normal",
