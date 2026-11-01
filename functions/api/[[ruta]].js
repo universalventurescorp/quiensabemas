@@ -3,7 +3,9 @@
 // Rutas: POST grupo · POST unir · POST control · POST marcador · GET estado?codigo= · GET fama?sala=
 
 const LETRAS = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; // sin I, O, 0, 1 para no confundir
-const PROHIBIDAS = /(puta|puto|mierda|verga|pene|culo|coño|pinga|cabr[oó]n|marica|maric[oó]n|chucha|ctm|conchatu|nazi|hitler)/i;
+const PROHIBIDAS = /(\bput[aoi]|mierd|\bverg|\bpene\b|\bculo|\bcono\b|pinga|cabron|maric|chucha|\bctm\b|conchatu|\bnazi|hitler|porno|\bsexo|\bpoto\b|\bcaca\b)/;
+const normalizar = t => t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+  .replace(/0/g, 'o').replace(/1/g, 'i').replace(/3/g, 'e').replace(/4/g, 'a').replace(/5/g, 's').replace(/\$/g, 's').replace(/[^a-z ]/g, ' ');
 
 const json = (data, status = 200) => new Response(JSON.stringify(data), {
   status, headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' },
@@ -44,7 +46,7 @@ export async function onRequest({ request, env, params }) {
     const codigo = limpiarCodigo(c.codigo);
     const apodo = String(c.apodo || '').trim().replace(/\s+/g, ' ').slice(0, 14);
     if (apodo.length < 2) return error('Escribe un apodo de al menos 2 letras.');
-    if (PROHIBIDAS.test(apodo)) return error('Elige otro apodo, por favor.');
+    if (PROHIBIDAS.test(normalizar(apodo)) || PROHIBIDAS.test(normalizar(apodo).replace(/ /g, ''))) return error('Elige otro apodo, por favor.');
     const g = await db.prepare('SELECT codigo FROM grupos WHERE codigo = ?').bind(codigo).first();
     if (!g) return error('No encontramos ese grupo. Revisa el código.', 404);
     const n = await db.prepare('SELECT COUNT(*) AS n FROM jugadores WHERE codigo = ?').bind(codigo).first('n');
