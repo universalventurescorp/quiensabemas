@@ -8,7 +8,7 @@ Público: familias hispanohablantes de todo el mundo (Perú, México, Colombia, 
 
 1. Lee `contenido/calendario.json` (formatos por día de la semana y metas) y los episodios en `contenido/cola/`.
 2. Mantén la cola con **al menos 4 episodios por delante** de hoy. Crea los que falten con su fecha, formato e id siguiente (`ep001`, `ep002`…), y continúa los que estén `"estado": "en_proceso"`.
-3. Escribe **como máximo 130 preguntas nuevas** en esta ejecución (si un episodio necesita más, déjalo `en_proceso` y lo sigues mañana). Un episodio pasa a `"listo"` solo cuando tiene todas sus preguntas, su `extra_tts` completo y pasa la revisión.
+3. Escribe **como máximo 140 preguntas nuevas** en esta ejecución (si un episodio necesita más, déjalo `en_proceso` y lo sigues mañana). Un episodio pasa a `"listo"` solo cuando tiene todas sus preguntas, su `extra_tts` completo y pasa la revisión.
 4. Después de escribir, ejecuta `python scripts/banco.py revisar contenido/cola/<archivo>.json` para cada archivo que tocaste. Si reporta repetidas o errores, **reemplaza esas preguntas por otras nuevas** y vuelve a revisar hasta que salga sin problemas.
 5. No toques nada fuera de `contenido/cola/` y `contenido/calendario.json`. No hagas commit: el flujo lo hace después.
 
@@ -31,13 +31,13 @@ Público: familias hispanohablantes de todo el mundo (Perú, México, Colombia, 
  "estado": "en_proceso",
  "codigo_sala": "VOLCAN",
  "titulo": "Volcanes, montañas y desiertos",
- "titulo_youtube": "¿Cuánto sabes de la Tierra? 90 preguntas para jugar en familia | ¿Quién Sabe Más?",
+ "titulo_youtube": "¿Cuánto sabes de la Tierra? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
  "descripcion": "Dos o tres frases atractivas sobre el episodio.",
  "tags": ["volcanes", "geografía", "trivia en familia"],
  "tema_miniatura": "VOLCANES Y DESIERTOS",
- "reto_miniatura": "¿Llegas a la 90?",
- "objetivo_preguntas": 90,
- "total_anunciado": 90,
+ "reto_miniatura": "¿Llegas a la 100?",
+ "objetivo_preguntas": 100,
+ "total_anunciado": 100,
  "preguntas": [
   {"n": 1, "tema": "geografía", "p": "¿En qué país está este volcán?", "o": ["Japón", "Chile", "Italia", "Perú"], "c": 0,
    "img_q": "Mount Fuji", "img_modo": "pregunta",
@@ -77,8 +77,8 @@ Para que cada episodio tenga ritmo y no se sienta igual, mezcla estas rondas. La
 - `"ronda": "relampago"` — **Ronda relámpago**: 5 preguntas seguidas con solo 5 segundos, sin dato curioso en pantalla (igual escribe `d` y `td` cortos). Preguntas fáciles o medias, muy cortas (`p` máx. 60 caracteres, opciones de 1–2 palabras). `tr` de 1 a 3 palabras («¡Ocho!»). Sin foto. Exactamente 5 por bloque.
 
 Cuántas por episodio:
-- `normal` (90): 2 bloques de imagen misteriosa, 2 de verdadero o falso y 1 ronda relámpago (≈ 17 preguntas especiales); el resto, preguntas normales.
-- `maraton` (340): por cada 50 preguntas, 1 bloque de cada ronda.
+- `normal` (100): 2 bloques de imagen misteriosa, 2 de verdadero o falso y 1 ronda relámpago (≈ 17 preguntas especiales); el resto, preguntas normales.
+- `maraton` (370): por cada 50 preguntas, 1 bloque de cada ronda.
 - Ninguna ronda especial en las 5 primeras preguntas ni en la pregunta final. Separa los bloques especiales con al menos 5 preguntas normales. La relámpago ocupa exactamente un grupo de 5 entre dos charlas (por ejemplo, de la 41 a la 45); la charla que la sigue debe comentar lo rápida que fue.
 
 `extra_tts` (diálogos propios del episodio, para que cada video suene distinto):
@@ -90,7 +90,7 @@ Cuántas por episodio:
 
 ## Formatos
 
-- `normal`: 90 preguntas (unos 55 minutos). `codigo_sala`: 4 a 8 letras/números en mayúsculas relacionadas con el tema, único en toda la cola y en `publicados/`.
-- `maraton`: 340 preguntas (unas 3 h 20 min), temas variados en bloques; título y miniatura dicen que es una maratón de 3 horas. Por su tamaño se escribe a lo largo de varios días.
+- `normal`: 100 preguntas (unos 60 minutos; incluye margen de seguridad para que nunca baje de 45). `codigo_sala`: 4 a 8 letras/números en mayúsculas relacionadas con el tema, único en toda la cola y en `publicados/`.
+- `maraton`: 370 preguntas (unas 3 h 30 min; margen para que nunca baje de 3 horas), temas variados en bloques; título y miniatura dicen que es una maratón de 3 horas. Por su tamaño se escribe a lo largo de varios días.
 
 Antes de terminar, deja un resumen breve en la salida: qué episodios tocaste, cuántas preguntas escribiste y cuáles quedaron listos.

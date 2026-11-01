@@ -10,8 +10,17 @@
   "6": "maraton",
   "7": null
  },
- "objetivo": {"normal": 90, "maraton": 340},
+ "objetivo": {
+  "normal": 100,
+  "maraton": 370
+ },
  "especiales": [
-  {"desde": "2026-12-20", "hasta": "2027-01-02", "formato": "maraton", "tema": "Navidad y Año Nuevo: juegos para la familia reunida"}
- ]
+  {
+   "desde": "2026-12-20",
+   "hasta": "2027-01-02",
+   "formato": "maraton",
+   "tema": "Navidad y Año Nuevo: juegos para la familia reunida"
+  }
+ ],
+ "_duracion": "Medido con las voces reales (1-nov-2026): normal 100 preguntas ≈ 60 min (peor caso ≈ 55); maratón 370 ≈ 3 h 33 (peor caso ≈ 3 h 16). Margen para no bajar nunca de 45 min / 3 h (mínimos del control de calidad)."
 }

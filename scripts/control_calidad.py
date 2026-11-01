@@ -4,7 +4,7 @@ Revisa: duración mínima del formato, voces completas, audio presente y con vol
 """
 import json, re, subprocess, sys
 
-MINIMO = {'normal': 45 * 60, 'maraton': 3 * 3600, 'maqueta': 60}  # el maratón se programa en 3 h 20 min
+MINIMO = {'normal': 45 * 60, 'maraton': 3 * 3600, 'maqueta': 60}  # con margen: normal se programa en ~60 min (100 preguntas) y el maratón en ~3 h 30 (370)
 
 
 def ff(*args):
