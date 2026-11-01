@@ -225,10 +225,9 @@ class Pantallas:
         d.text((DOCK_X + 80, 240), L, font=font('Bold', 50), fill=col, anchor='mm')
         f, ls, sz = fit(d, q['o'][q['c']], 'Bold', W - DOCK_X - 300, 110, 70)
         lines(d, ls, f, sz, DOCK_X + (W - DOCK_X) / 2 + 30, 240, C['white'])
-        foto_rev = q.get('img') and q.get('img_modo') == 'revela'
-        if foto_rev:
+        if q.get('img'):  # la foto acompaña al dato (también la de la pregunta, ya nítida)
             p = os.path.join(s.raiz, q['img'])
-            img = foto(img, p, (DOCK_X + 10, 360, DOCK_X + 10 + 700, 360 + 500), None, s.credito(p))
+            img = foto(img, p, (DOCK_X + 10, 360, DOCK_X + 10 + 700, 360 + 500), q.get('img_fondo'), s.credito(p))
             bx = (DOCK_X + 760, 370, W - 50, 870)
         else:
             bx = (DOCK_X + 10, 370, W - 50, 870)
@@ -380,8 +379,9 @@ class Programa:
         if x + sp.width > DOCK_X + 30: x = max(0, DOCK_X + 30 - sp.width)
         fr.paste(sp, (x, y), sp)
         d = ImageDraw.Draw(fr); cxn = DOCK_X / 2
-        d.rounded_rectangle((cxn - 85, H - 92, cxn + 85, H - 40), 26, fill=C['gold'])
-        d.text((cxn, H - 66), NOMBRES[quien], font=font('Bold', 32), fill=C['ink'], anchor='mm')
+        # más arriba: abajo lo tapa la barra de reproducción de YouTube
+        d.rounded_rectangle((cxn - 85, H - 156, cxn + 85, H - 104), 26, fill=C['gold'])
+        d.text((cxn, H - 130), NOMBRES[quien], font=font('Bold', 32), fill=C['ink'], anchor='mm')
 
     def render(s, out, tmp):
         os.makedirs(tmp, exist_ok=True)
