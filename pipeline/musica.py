@@ -208,7 +208,7 @@ class Musica:
 # =====================================================================================
 import glob, os, subprocess
 
-NIVEL_REAL = dict(cama_voz=-23, cama_libre=-14, cama_reloj=-13, tema_libre=-4, tema_voz=-13)  # +6 dB (pedido del usuario, 1-nov)
+NIVEL_REAL = dict(cama_voz=-18, cama_libre=-9, cama_reloj=-8, tema_libre=-1, tema_voz=-9)  # +11 dB vs inicial (pedido del usuario, 1-nov)
 TEMA_SEG, FUNDE_SEG, CRUCE_SEG = 14.0, 3.0, 4.0
 
 
