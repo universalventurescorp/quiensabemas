@@ -85,6 +85,17 @@ jobs:
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
           pip install -q numpy pillow scipy reportlab google-api-python-client google-auth
+      - name: Descifrar la música (Biblioteca de audio de YouTube; sin la clave sale sin música)
+        env: { MUSICA_CLAVE: "${{ secrets.MUSICA_CLAVE }}" }
+        run: |
+          if [ -n "$MUSICA_CLAVE" ]; then
+            mkdir -p assets/musica
+            printf '%s' "$MUSICA_CLAVE" > /tmp/clave
+            openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -pass file:/tmp/clave -in assets/musica.enc | tar -x -C assets/musica && ls assets/musica || echo "::warning::No se pudo descifrar la música: el episodio sale sin música"
+            rm -f /tmp/clave
+          else
+            echo "::warning::Falta el secret MUSICA_CLAVE: el episodio sale sin música"
+          fi
       - name: Montar el video
         run: python pipeline/tv.py --contenido trabajo/episodio.json --voces voces_ep --out trabajo/video.mp4 --tmp tmp
       - name: Miniatura
