@@ -10,7 +10,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageOps
 
 sys.path.insert(0, os.path.dirname(__file__))
 from personajes import sprite, voz_sprite, NOMBRES
-from musica import Musica
+from musica import Musica, MusicaArchivos, carpeta_musica
 from reportlab.graphics.barcode import qrencoder as QR
 
 W, H, FPS, SR = 1920, 1080, 15, 24000
@@ -505,7 +505,9 @@ def main():
     ex = meta.get('extra_tts', {})
     # variantes de las frases fijas: rotan dentro del episodio y cambian de punto de partida en cada episodio
     var_dir = os.path.join(raiz, VARIANTES); semilla = sum(map(ord, meta.get('id', meta['codigo_sala']))); uso = {}
-    if os.environ.get('QSM_MUSICA'): G.musica = Musica(semilla)  # apagada: se activa cuando haya temas de la Biblioteca de audio
+    cm = carpeta_musica(raiz)   # temas de la Biblioteca de audio de YouTube (si están descifrados)
+    if cm and not os.environ.get('QSM_SIN_MUSICA'): G.musica = MusicaArchivos(cm, semilla)
+    elif os.environ.get('QSM_MUSICA_SINTE'): G.musica = Musica(semilla)
     KB = not os.environ.get('QSM_SIN_MOVIMIENTO')
 
     def mover(img, q, caja, t_ini):
