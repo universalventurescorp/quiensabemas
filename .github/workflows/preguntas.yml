@@ -25,6 +25,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}   # sin esto la acción pide un token OIDC y falla
           prompt: |
             Lee y sigue al pie de la letra las instrucciones de prompts/escritor.md. Usa el comando date para saber la fecha de hoy.
           claude_args: >-
