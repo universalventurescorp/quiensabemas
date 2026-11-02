@@ -10,6 +10,6 @@ jobs:
       - env: { MUSICA_CLAVE: "${{ secrets.MUSICA_CLAVE }}" }
         run: |
           test -n "$MUSICA_CLAVE" || { echo "Falta el secret MUSICA_CLAVE"; exit 1; }
-          mkdir -p m && printf '%s' "$MUSICA_CLAVE" > /tmp/clave
+          mkdir -p m && printf '%s' "$MUSICA_CLAVE" | tr -d '[:space:]' > /tmp/clave
           openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -pass file:/tmp/clave -in assets/musica.enc | tar -x -C m
           ls -la m && test "$(ls m/*.ogg | wc -l)" -ge 5 && echo "MUSICA OK"

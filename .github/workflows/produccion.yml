@@ -90,7 +90,7 @@ jobs:
         run: |
           if [ -n "$MUSICA_CLAVE" ]; then
             mkdir -p assets/musica
-            printf '%s' "$MUSICA_CLAVE" > /tmp/clave
+            printf '%s' "$MUSICA_CLAVE" | tr -d '[:space:]' > /tmp/clave
             openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -pass file:/tmp/clave -in assets/musica.enc | tar -x -C assets/musica && ls assets/musica || echo "::warning::No se pudo descifrar la música: el episodio sale sin música"
             rm -f /tmp/clave
           else
