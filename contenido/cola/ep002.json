@@ -1,0 +1,17 @@
+{
+ "id": "ep002",
+ "fecha": "2026-11-03",
+ "formato": "normal",
+ "estado": "en_proceso",
+ "codigo_sala": "FIERAS",
+ "titulo": "Reino animal: fieras, aves y bichos",
+ "titulo_youtube": "¿Cuánto sabes de animales? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
+ "descripcion": "",
+ "tags": [],
+ "tema_miniatura": "REINO ANIMAL",
+ "reto_miniatura": "¿Cuántos animales conoces?",
+ "objetivo_preguntas": 100,
+ "total_anunciado": 100,
+ "preguntas": [],
+ "extra_tts": {}
+}

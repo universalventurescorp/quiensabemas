@@ -1,0 +1,17 @@
+{
+ "id": "ep003",
+ "fecha": "2026-11-04",
+ "formato": "normal",
+ "estado": "en_proceso",
+ "codigo_sala": "MAPAMUNDI",
+ "titulo": "El mundo en mapas: países, capitales y banderas",
+ "titulo_youtube": "¿Cuánto sabes de geografía? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
+ "descripcion": "",
+ "tags": [],
+ "tema_miniatura": "GEOGRAFÍA",
+ "reto_miniatura": "¿Conoces el mundo?",
+ "objetivo_preguntas": 100,
+ "total_anunciado": 100,
+ "preguntas": [],
+ "extra_tts": {}
+}

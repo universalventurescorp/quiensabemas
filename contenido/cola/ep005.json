@@ -1,0 +1,17 @@
+{
+ "id": "ep005",
+ "fecha": "2026-11-06",
+ "formato": "normal",
+ "estado": "en_proceso",
+ "codigo_sala": "SABORES",
+ "titulo": "Sabores del mundo: comidas, frutas y cocina",
+ "titulo_youtube": "¿Cuánto sabes de comida? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
+ "descripcion": "",
+ "tags": [],
+ "tema_miniatura": "SABORES DEL MUNDO",
+ "reto_miniatura": "¿Te da hambre o te da la respuesta?",
+ "objetivo_preguntas": 100,
+ "total_anunciado": 100,
+ "preguntas": [],
+ "extra_tts": {}
+}

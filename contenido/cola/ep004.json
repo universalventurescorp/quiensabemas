@@ -1,0 +1,17 @@
+{
+ "id": "ep004",
+ "fecha": "2026-11-05",
+ "formato": "normal",
+ "estado": "en_proceso",
+ "codigo_sala": "FARAONES",
+ "titulo": "Historia: de faraones a astronautas",
+ "titulo_youtube": "¿Cuánto sabes de historia? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
+ "descripcion": "",
+ "tags": [],
+ "tema_miniatura": "HISTORIA",
+ "reto_miniatura": "¿Eres un crack de la historia?",
+ "objetivo_preguntas": 100,
+ "total_anunciado": 100,
+ "preguntas": [],
+ "extra_tts": {}
+}
