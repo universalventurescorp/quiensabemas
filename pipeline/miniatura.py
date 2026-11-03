@@ -72,15 +72,16 @@ def sombra(capa, rad=16, alfa=150, dy=12):
 
 
 # ------------------------------------------------------------ personajes grandes
-def busto(quien, pose, ancho_cara):
+def busto(quien, pose, ancho_cara, expr=None):
     """El mismo sprite del programa, pero dibujado a más resolución para la miniatura."""
-    orig = personajes.escala
+    orig, orig_e = personajes.escala, dict(personajes.EXPRESION)
+    if expr: personajes.EXPRESION[pose] = expr
     try:
         n = f'{personajes.PREFIJO[quien]}_{pose}'; g = personajes.GEO[n]['pantalla']
         personajes.escala = lambda q, p: ancho_cara / (g[2] - g[0])
         im, c = personajes.sprite.__wrapped__(quien, pose, 0, False)
     finally:
-        personajes.escala = orig
+        personajes.escala = orig; personajes.EXPRESION.clear(); personajes.EXPRESION.update(orig_e)
     return im, c
 
 
