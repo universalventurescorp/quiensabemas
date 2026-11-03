@@ -1,0 +1,17 @@
+{
+ "id": "ep006",
+ "fecha": "2026-11-07",
+ "formato": "maraton",
+ "estado": "en_proceso",
+ "codigo_sala": "MARATON1",
+ "titulo": "Gran maratón de 3 horas: 370 preguntas de todo el mundo",
+ "titulo_youtube": "MARATÓN de 3 HORAS: 370 preguntas para jugar en familia | ¿Quién Sabe Más?",
+ "descripcion": "",
+ "tags": [],
+ "tema_miniatura": "MARATÓN 3 HORAS",
+ "reto_miniatura": "¿Aguantas las 370?",
+ "objetivo_preguntas": 370,
+ "total_anunciado": 370,
+ "preguntas": [],
+ "extra_tts": {}
+}
