@@ -1,0 +1,17 @@
+{
+ "id": "ep008",
+ "fecha": "2026-11-10",
+ "formato": "normal",
+ "estado": "en_proceso",
+ "codigo_sala": "ARTISTAS",
+ "titulo": "Arte, música y cine: de Frida a Mickey",
+ "titulo_youtube": "¿Cuánto sabes de arte, música y cine? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
+ "descripcion": "",
+ "tags": [],
+ "tema_miniatura": "ARTE, MÚSICA Y CINE",
+ "reto_miniatura": "¿Eres un artista de la trivia?",
+ "objetivo_preguntas": 100,
+ "total_anunciado": 100,
+ "preguntas": [],
+ "extra_tts": {}
+}
