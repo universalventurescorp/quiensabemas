@@ -249,6 +249,7 @@ class MusicaArchivos:
         return y
 
     def mezclar(s, mix, habla, relojes, temas):
+        if os.environ.get('QSM_MUSICA_ALTA'): return s.mezclar_alta(mix, habla)
         n = len(mix); K = 240; nc = n // K + 1
         voz = np.zeros(nc, np.float32)
         for t0, t1, q, lv in habla: voz[int(t0 * 100):int(t1 * 100) + 1] = 1
@@ -281,3 +282,27 @@ class MusicaArchivos:
             gt = (DB(NIVEL_REAL['tema_libre']) + (DB(NIVEL_REAL['tema_voz']) - DB(NIVEL_REAL['tema_libre'])) * vz) * ref
             mix[st:e] += x[:e - st] * gt.astype(np.float32)
         return mix
+
+
+# PRUEBA (6-nov-2026, pedido del usuario): música ALTA y constante todo el video, sin bajar cuando hablan,
+# sin pausas y sin temas de entrada/salida aparte. Solo se activa con QSM_MUSICA_ALTA=1 (workflow prueba_musica_alta).
+NIVEL_ALTA_DB = float(os.environ.get('QSM_MUSICA_ALTA_DB', '-3'))   # respecto al volumen de la voz
+
+
+def _mezclar_alta(s, mix, habla):
+    n = len(mix); K = 240; nc = n // K + 1
+    voz = np.zeros(nc, bool)
+    for t0, t1, q, lv in habla: voz[int(t0 * 100):int(t1 * 100) + 1] = True
+    sel = np.repeat(voz[:n // K], K)[:n]; m = mix[:len(sel)][sel][::50]
+    ref = max(float(np.sqrt(np.mean(m ** 2))) if len(m) else 0.1, 0.02)
+    g = DB(NIVEL_ALTA_DB) * ref; L = len(s.lista); fd = int(2 * SR)
+    CH = SR * 60
+    for a in range(0, n, CH):
+        b = min(n, a + CH); idx = np.arange(a, b)
+        mix[a:b] += s.lista[(idx + s.ini) % L] * np.float32(g)
+    mix[:fd] -= s.lista[(np.arange(fd) + s.ini) % L] * np.float32(g) * (1 - np.linspace(0, 1, fd, dtype=np.float32))
+    mix[n - fd:] -= s.lista[(np.arange(n - fd, n) + s.ini) % L] * np.float32(g) * np.linspace(0, 1, fd, dtype=np.float32)
+    return mix
+
+
+MusicaArchivos.mezclar_alta = _mezclar_alta
