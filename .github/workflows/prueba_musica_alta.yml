@@ -117,9 +117,7 @@ jobs:
               subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', str(s), '-i', 'trabajo/video.mp4', '-frames:v', '1', '-vf', 'scale=960:-1', f'/tmp/diag/{k}.jpg'])
           EOF
           cd /tmp/diag && ls
-          cd $GITHUB_WORKSPACE
+          git init -q && git checkout -q -b d
           git config user.name "quiensabemas-bot"; git config user.email "actions@users.noreply.github.com"
-          git fetch -q origin diag-prueba 2>/dev/null && git checkout -q -B diag-prueba origin/diag-prueba || git checkout -q --orphan diag-prueba
-          git rm -rq --cached . 2>/dev/null || true
-          mkdir -p prueba && cp /tmp/diag/* prueba/ 2>/dev/null || true
-          git add -f prueba && git commit -qm "Diagnóstico de la prueba ${{ github.run_id }}" && git push -q -f origin HEAD:diag-prueba-${{ inputs.rivalidad && 'rival' || 'base' }} || true
+          git add . && git commit -qm "Diagnóstico de la prueba ${{ github.run_id }}"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" d:diag-prueba-${{ inputs.rivalidad && 'rival' || 'base' }}
