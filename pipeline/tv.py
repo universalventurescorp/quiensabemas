@@ -567,17 +567,33 @@ def main():
     # --- apertura
     if G.musica: G.temas.append((0.0, 'entrada'))
     else: G.sonido(S['fanfare'], gain=0.8)
-    decir(P.anuncio('¡¿Quién Sabe Más?!', meta['titulo']), [('an_01_marca', ''), ('an_tema', ex.get('an_tema', ['', ''])[1])], 'anunciador', pre=0.6)
-    decir(P.lobby(), [('pr_intro', ex.get('pr_intro', ['', ''])[1]), ('pr_01_celulares', '')], 'presentador', poses={'presentador': 'saluda'})
-    decir(P.lobby(), [('co_intro', ex.get('co_intro', ['', ''])[1])], 'copresentadora', poses={'copresentadora': 'saluda'})
-    if meta.get('fama'):
+    RAPIDO = bool(os.environ.get('QSM_ARRANQUE_RAPIDO'))   # PRUEBA: la pregunta 1 en los primeros segundos
+
+    def como_jugar():
+        """Arranque rápido: la explicación del QR y el salón de la fama van después de la pregunta 3."""
+        decir(P.lobby(), [('pr_01_celulares', '')], 'presentador', pad=0.6, poses={'presentador': 'saluda'})
+        decir(P.lobby(), [('co_06_sincelular', '')], 'copresentadora', pad=1.5, poses={'copresentadora': 'saluda'})
+        if meta.get('fama'):   # sin capítulo propio: YouTube exige capítulos de 10 s o más
+            decir(P.fama(meta['fama'], meta.get('fama_de', '')), [('co_fama', ex.get('co_fama', ['', ''])[1])], 'copresentadora', pad=2.0,
+                  poses={'copresentadora': 'aplaude'})
+
+    if RAPIDO:
+        decir(P.anuncio('¡¿Quién Sabe Más?!', meta['titulo']), [('an_01_marca', '')], 'anunciador', pad=0.2, pre=0.3)
+    else:
+      decir(P.anuncio('¡¿Quién Sabe Más?!', meta['titulo']), [('an_01_marca', ''), ('an_tema', ex.get('an_tema', ['', ''])[1])], 'anunciador', pre=0.6)
+    if not RAPIDO:
+     decir(P.lobby(), [('pr_intro', ex.get('pr_intro', ['', ''])[1]), ('pr_01_celulares', '')], 'presentador', poses={'presentador': 'saluda'})
+     decir(P.lobby(), [('co_intro', ex.get('co_intro', ['', ''])[1])], 'copresentadora', poses={'copresentadora': 'saluda'})
+    if meta.get('fama') and not RAPIDO:
         capitulos.append((G.t, 'Salón de la fama'))
         decir(P.fama(meta['fama'], meta.get('fama_de', '')), [('co_fama', ex.get('co_fama', ['', ''])[1])], 'copresentadora', pad=4.0,
               poses={'copresentadora': 'aplaude'})
-    for i in range(a.lobby):
+    if RAPIDO: t_ya = G.t
+    else:
+     for i in range(a.lobby):
         G.sonido(S['tick'], at=G.t, gain=0.6); G.escena(P.lobby(cuenta=a.lobby - i), 1.0, 'presentador', {'presentador': 'frente'})
-    decir(P.anuncio('¡YA!', 'Toca EMPEZAR en tu celular'), [('pr_02_empezamos', '')], 'presentador', poses={'presentador': 'celebra2'})
-    t_ya = G.t - 0.35  # referencia de sincronía: justo cuando el presentador dice «¡Ya!»
+     decir(P.anuncio('¡YA!', 'Toca EMPEZAR en tu celular'), [('pr_02_empezamos', '')], 'presentador', poses={'presentador': 'celebra2'})
+     t_ya = G.t - 0.35  # referencia de sincronía: justo cuando el presentador dice «¡Ya!»
     tiempos = []
     bloque = 10 if len(Q) <= 120 else 25
 
@@ -640,6 +656,7 @@ def main():
                   poses={'copresentadora': rev})
             decir(mover(P.dato(n, N, q), q, CAJA_DATO, t_kb if con_foto else G.t), [('co_02_dato', ''), (f'{key}_dato', q['td'])], 'copresentadora', pad=1.2,
                   poses={'copresentadora': 'presenta'})
+        if RAPIDO and idx == 2: como_jugar()
         sig = Q[idx + 1] if idx + 1 < len(Q) else None
         if (idx + 1) % 5 == 0 and n != N and not (relam and sig and sig.get('ronda') == 'relampago'):
             charla = [(c, ex[c][1]) for c in (f'charla{n:02d}_pr', f'charla{n:02d}_co') if c in ex]
@@ -654,6 +671,8 @@ def main():
     if G.musica: G.temas.append((G.t, 'salida'))
     decir(P.final(), [('pr_12_suscribanse', ''), ('co_07_otra', ''), ('pr_13_despedida', '')], 'presentador', pad=3.0,
           poses={'presentador': 'saluda', 'copresentadora': 'saluda'})
+    if RAPIDO and len(capitulos) > 1 and capitulos[1][0] < 10:   # la pregunta 1 arranca enseguida: su capítulo empieza en 0:00
+        capitulos = [(0.0, capitulos[1][1])] + capitulos[2:]
     print(f'Duración: {G.t/60:.1f} min · escenas: {len(G.escenas)}')
     sync = {'sala': meta['codigo_sala'], 'titulo': meta['titulo'], 'total': N, 'ya': round(t_ya, 2), 'duracion': round(G.t, 2),
             'tiempos': tiempos, 'capitulos': [[round(t, 1), c] for t, c in capitulos], 'faltan': sorted(set(faltan))}

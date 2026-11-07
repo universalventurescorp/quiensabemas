@@ -14,6 +14,9 @@ on:
       subtitulos:
         description: "Subtítulos karaoke (1 = sí, vacío = no)"
         default: "1"
+      arranque:
+        description: "Arranque rápido: pregunta 1 en los primeros segundos, QR tras la pregunta 3 (1 = sí)"
+        default: "1"
 
 permissions:
   contents: read
@@ -62,7 +65,7 @@ jobs:
           print(ep['titulo_youtube'])
           EOF
       - name: Montar el video (música alta constante)
-        env: { QSM_MUSICA_ALTA: "1", QSM_MUSICA_ALTA_DB: "${{ inputs.nivel_db }}", QSM_SUBTITULOS: "${{ inputs.subtitulos }}" }
+        env: { QSM_MUSICA_ALTA: "1", QSM_MUSICA_ALTA_DB: "${{ inputs.nivel_db }}", QSM_SUBTITULOS: "${{ inputs.subtitulos }}", QSM_ARRANQUE_RAPIDO: "${{ inputs.arranque }}" }
         run: python pipeline/tv.py --contenido trabajo/episodio.json --voces voces_ep --out trabajo/video.mp4 --tmp tmp
       - name: Miniatura
         run: python pipeline/miniatura.py trabajo/episodio.json trabajo/miniatura.jpg
