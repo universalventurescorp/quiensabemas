@@ -1,0 +1,25 @@
+{
+ "_nota": "PRUEBA «MAX contra NOVA» (6-nov-2026): apuestas después del «¡Tiempo!», anuncio inicial y final con penitencia. Se generan con voces.yml contenido=contenido/rivalidad.json salida=banco/rival",
+ "variantes": {
+  "an_rival": ["anunciador", [
+   "¡Hoy compiten MAX contra NOVA… y tú contra los dos!",
+   "¡MAX contra NOVA! Y tú… ¿les vas a ganar a los dos?"
+  ]],
+  "pr_apuesta_A": ["presentador", ["Yo voy con la A.", "¡La A, segurísimo!", "Yo dije la A."]],
+  "pr_apuesta_B": ["presentador", ["Yo voy con la B.", "¡La B, segurísimo!", "Yo dije la B."]],
+  "pr_apuesta_C": ["presentador", ["Yo voy con la C.", "¡La C, segurísimo!", "Yo dije la C."]],
+  "pr_apuesta_D": ["presentador", ["Yo voy con la D.", "¡La D, segurísimo!", "Yo dije la D."]],
+  "co_apuesta_A": ["copresentadora", ["Yo, la A.", "¡Para mí es la A!", "Mmm… la A."]],
+  "co_apuesta_B": ["copresentadora", ["Yo, la B.", "¡Para mí es la B!", "Mmm… la B."]],
+  "co_apuesta_C": ["copresentadora", ["Yo, la C.", "¡Para mí es la C!", "Mmm… la C."]],
+  "co_apuesta_D": ["copresentadora", ["Yo, la D.", "¡Para mí es la D!", "Mmm… la D."]],
+  "pr_gana_final": ["presentador", [
+   "¡Gané yo! NOVA, ya sabes: te toca bailar en el próximo episodio. ¿Y tú? ¿Nos ganaste a los dos? Escríbelo en los comentarios."
+  ]],
+  "co_gana_final": ["copresentadora", [
+   "¡Gané yo! MAX, te toca contar un chiste malo en el próximo episodio. ¿Y tú? ¿Nos ganaste a los dos? Escríbelo en los comentarios."
+  ]],
+  "pr_revancha": ["presentador", ["¡Exijo revancha en el próximo episodio!"]],
+  "co_revancha": ["copresentadora", ["¡Quiero la revancha en el próximo episodio!"]]
+ }
+}
