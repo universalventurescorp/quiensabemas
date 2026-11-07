@@ -1,0 +1,122 @@
+{
+ "an_rival__0": {
+  "voz": "anunciador",
+  "texto": "¡Hoy compiten MAX contra NOVA… y tú contra los dos!"
+ },
+ "an_rival__1": {
+  "voz": "anunciador",
+  "texto": "¡MAX contra NOVA! Y tú… ¿les vas a ganar a los dos?"
+ },
+ "pr_apuesta_A__0": {
+  "voz": "presentador",
+  "texto": "Yo voy con la A."
+ },
+ "pr_apuesta_A__1": {
+  "voz": "presentador",
+  "texto": "¡La A, segurísimo!"
+ },
+ "pr_apuesta_A__2": {
+  "voz": "presentador",
+  "texto": "Yo dije la A."
+ },
+ "pr_apuesta_B__0": {
+  "voz": "presentador",
+  "texto": "Yo voy con la B."
+ },
+ "pr_apuesta_B__1": {
+  "voz": "presentador",
+  "texto": "¡La B, segurísimo!"
+ },
+ "pr_apuesta_B__2": {
+  "voz": "presentador",
+  "texto": "Yo dije la B."
+ },
+ "pr_apuesta_C__0": {
+  "voz": "presentador",
+  "texto": "Yo voy con la C."
+ },
+ "pr_apuesta_C__1": {
+  "voz": "presentador",
+  "texto": "¡La C, segurísimo!"
+ },
+ "pr_apuesta_C__2": {
+  "voz": "presentador",
+  "texto": "Yo dije la C."
+ },
+ "pr_apuesta_D__0": {
+  "voz": "presentador",
+  "texto": "Yo voy con la D."
+ },
+ "pr_apuesta_D__1": {
+  "voz": "presentador",
+  "texto": "¡La D, segurísimo!"
+ },
+ "pr_apuesta_D__2": {
+  "voz": "presentador",
+  "texto": "Yo dije la D."
+ },
+ "co_apuesta_A__0": {
+  "voz": "copresentadora",
+  "texto": "Yo, la A."
+ },
+ "co_apuesta_A__1": {
+  "voz": "copresentadora",
+  "texto": "¡Para mí es la A!"
+ },
+ "co_apuesta_A__2": {
+  "voz": "copresentadora",
+  "texto": "Mmm… la A."
+ },
+ "co_apuesta_B__0": {
+  "voz": "copresentadora",
+  "texto": "Yo, la B."
+ },
+ "co_apuesta_B__1": {
+  "voz": "copresentadora",
+  "texto": "¡Para mí es la B!"
+ },
+ "co_apuesta_B__2": {
+  "voz": "copresentadora",
+  "texto": "Mmm… la B."
+ },
+ "co_apuesta_C__0": {
+  "voz": "copresentadora",
+  "texto": "Yo, la C."
+ },
+ "co_apuesta_C__1": {
+  "voz": "copresentadora",
+  "texto": "¡Para mí es la C!"
+ },
+ "co_apuesta_C__2": {
+  "voz": "copresentadora",
+  "texto": "Mmm… la C."
+ },
+ "co_apuesta_D__0": {
+  "voz": "copresentadora",
+  "texto": "Yo, la D."
+ },
+ "co_apuesta_D__1": {
+  "voz": "copresentadora",
+  "texto": "¡Para mí es la D!"
+ },
+ "co_apuesta_D__2": {
+  "voz": "copresentadora",
+  "texto": "Mmm… la D."
+ },
+ "pr_gana_final__0": {
+  "voz": "presentador",
+  "texto": "¡Gané yo! NOVA, ya sabes: te toca bailar en el próximo episodio. ¿Y tú? ¿Nos ganaste a los dos? Escríbelo en los comentarios."
+ },
+ "co_gana_final__0": {
+  "voz": "copresentadora",
+  "texto": "¡Gané yo! MAX, te toca contar un chiste malo en el próximo episodio. ¿Y tú? ¿Nos ganaste a los dos? Escríbelo en los comentarios."
+ },
+ "pr_revancha__0": {
+  "voz": "presentador",
+  "texto": "¡Exijo revancha en el próximo episodio!"
+ },
+ "co_revancha__0": {
+  "voz": "copresentadora",
+  "texto": "¡Quiero la revancha en el próximo episodio!"
+ }
+}
