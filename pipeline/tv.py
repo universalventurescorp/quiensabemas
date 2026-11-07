@@ -29,6 +29,7 @@ C = dict(bg1=(18, 12, 52), bg2=(62, 26, 120), white=(255, 255, 255), dim=(64, 56
 OPC = [((231, 76, 60), 'A'), ((47, 128, 237), 'B'), ((240, 170, 20), 'C'), ((39, 174, 96), 'D')]
 NIVEL = [('FÁCIL', (39, 174, 96)), ('MEDIA', (242, 153, 30)), ('DIFÍCIL', (231, 76, 60))]
 DOCK_X = 450  # columna izquierda reservada para el personaje
+RIVAL_COL = (90, 215, 255)   # celeste de NOVA
 # rondas especiales: rótulo de la tarjeta, anuncio de LA VOZ y subtítulo
 RONDA = {'misteriosa': ('IMAGEN MISTERIOSA', (142, 68, 173)), 'vf': ('VERDADERO O FALSO', (22, 160, 133)),
          'relampago': ('RONDA RELÁMPAGO', (231, 76, 60))}
@@ -186,9 +187,15 @@ class Pantallas:
         autor = c['autor'].split('\n')[0][:40] or 'Wikimedia Commons'
         return f"Foto: {autor} · {c['licencia']}"
 
-    def barra(s, img, etiqueta=None):
+    def barra(s, img, etiqueta=None, marcador=None):
         d = ImageDraw.Draw(img)
         d.text((50, 58), '¿Quién Sabe Más?', font=font('Bold', 38), fill=C['gold'], anchor='lm')
+        if marcador:   # PRUEBA «MAX contra NOVA»: marcador en la barra de arriba
+            x = 470
+            for nom, pts, col in (('MAX', marcador[0], C['gold']), ('NOVA', marcador[1], RIVAL_COL)):
+                f = font('Bold', 30); tw = d.textlength(f'{nom} {pts}', font=f)
+                d.rounded_rectangle((x, 36, x + tw + 36, 80), 22, fill=col)
+                d.text((x + 18 + tw / 2, 58), f'{nom} {pts}', font=f, fill=C['ink'], anchor='mm'); x += tw + 52
         if etiqueta: d.text((W / 2 + 120, 58), etiqueta, font=font('Medium', 32), fill=C['white'], anchor='mm')
         img.paste(s.qr_s, (W - 50 - 140, 18))
         d.text((W - 210, 46), 'Juega en', font=font('Medium', 22), fill=C['dimtxt'], anchor='rm')
@@ -267,6 +274,19 @@ class Pantallas:
             if modo == 'revela' and ok:
                 kx, ky = x + bw - 48, y + 48; d.ellipse((kx - 34, ky - 34, kx + 34, ky + 34), fill=C['white'])
                 d.line([(kx - 17, ky + 1), (kx - 5, ky + 15), (kx + 18, ky - 14)], fill=col, width=10, joint='curve')
+            img = s._fichas(img, i, x, y, bw)
+        return img
+
+    def _fichas(s, img, i, x, y, bw):
+        """Fichas MAX / NOVA sobre la alternativa que eligió cada uno."""
+        ap = getattr(s, '_apuestas', None)
+        if not ap: return img
+        quienes = [(n, c) for n, c, k in (('MAX', C['gold'], 'presentador'), ('NOVA', RIVAL_COL, 'copresentadora')) if ap.get(k) == i]
+        d = ImageDraw.Draw(img); xr = x + bw - 14
+        for nom, col in reversed(quienes):
+            f = font('Bold', 34); tw = d.textlength(nom, font=f)
+            d.rounded_rectangle((xr - tw - 36, y - 28, xr, y + 22), 25, fill=col, outline=C['white'], width=4)
+            d.text((xr - tw / 2 - 18, y - 3), nom, font=f, fill=C['ink'], anchor='mm'); xr -= tw + 46
         return img
 
     def _opciones(s, img, q, modo, box, cols):
@@ -287,10 +307,12 @@ class Pantallas:
             if modo == 'revela' and ok:
                 cx = x + bw - 52; d.ellipse((cx - 34, cy - 34, cx + 34, cy + 34), fill=C['white'])
                 d.line([(cx - 17, cy + 1), (cx - 5, cy + 15), (cx + 18, cy - 14)], fill=col, width=10, joint='curve')
+            img = s._fichas(img, i, x, y, bw)
         return img
 
-    def pregunta(s, n, total, q, modo='normal', reloj=None, frac=None, pix=0):
-        img = s.barra(s.bg.copy(), f'Pregunta {n} de {total}'); d = ImageDraw.Draw(img)
+    def pregunta(s, n, total, q, modo='normal', reloj=None, frac=None, pix=0, marcador=None, apuestas=None):
+        s._apuestas = apuestas
+        img = s.barra(s.bg.copy(), f'Pregunta {n} de {total}', marcador); d = ImageDraw.Draw(img)
         con_foto = q.get('img') and q.get('img_modo') == 'pregunta'
         if con_foto:
             f, ls, sz = fit(d, q['p'], 'Bold', W - DOCK_X - 90, 110, 60)
@@ -319,8 +341,8 @@ class Pantallas:
             d.text((cx, cy + 2), str(reloj), font=font('Bold', 84 if isinstance(reloj, int) else 40), fill=C['white'], anchor='mm')
         return img
 
-    def dato(s, n, total, q):
-        img = s.barra(s.bg.copy(), f'Pregunta {n} de {total}'); d = ImageDraw.Draw(img)
+    def dato(s, n, total, q, marcador=None):
+        img = s.barra(s.bg.copy(), f'Pregunta {n} de {total}', marcador); d = ImageDraw.Draw(img)
         col, L = OPC[q['c']]
         img = caja(img, (DOCK_X + 10, 180, W - 50, 300), 30, col, outline=C['white'], width=6); d = ImageDraw.Draw(img)
         d.ellipse((DOCK_X + 40, 200, DOCK_X + 120, 280), fill=C['white'])
@@ -570,7 +592,8 @@ def main():
         fd = os.path.join(raiz, 'fuentes')
         G.subs = Subtitulos(W, H, FPS, os.path.join(fd, 'Poppins-Black.ttf'), FONT % 'Bold', DOCK_X + 20, W - 250, 985)
     TXT = {}
-    for f in (os.path.join(raiz, 'banco', 'indice.json'), os.path.join(var_dir, 'indice.json')):
+    rival_dir = os.path.join(raiz, 'banco', 'rival')
+    for f in (os.path.join(raiz, 'banco', 'indice.json'), os.path.join(var_dir, 'indice.json'), os.path.join(rival_dir, 'indice.json')):
         if os.path.exists(f): TXT.update({k: v.get('texto', '') for k, v in json.load(open(f, encoding='utf-8')).items()})
     # sin subtítulo: lo que ya sale escrito grande en pantalla (pregunta, dato curioso y los anuncios)
     # lo que ya está escrito en pantalla mientras suena cada clip: esas palabras no se subtitulan (sí las que faltan)
@@ -595,11 +618,13 @@ def main():
         return Movil(img, p, caja, P.credito(p), q['n'] * 7 + semilla, t_ini, G.t)
 
     def variante(clave):
-        if not os.path.isdir(var_dir): return None
-        n = len([f for f in os.listdir(var_dir) if f.startswith(clave + '__') and f.endswith('.wav')])
-        if not n: return None
-        k = (semilla + uso.get(clave, 0) * 7) % n; uso[clave] = uso.get(clave, 0) + 1
-        return f'{var_dir}/{clave}__{k}.wav'
+        for vd in (var_dir, rival_dir):
+            if not os.path.isdir(vd): continue
+            n = len([f for f in os.listdir(vd) if f.startswith(clave + '__') and f.endswith('.wav')])
+            if not n: continue
+            k = (semilla + uso.get(clave, 0) * 7) % n; uso[clave] = uso.get(clave, 0) + 1
+            return f'{vd}/{clave}__{k}.wav'
+        return None
 
     def voz(clave, est=''):
         v = variante(clave)
@@ -628,6 +653,17 @@ def main():
     if G.musica: G.temas.append((0.0, 'entrada'))
     else: G.sonido(S['fanfare'], gain=0.8)
     RAPIDO = bool(os.environ.get('QSM_ARRANQUE_RAPIDO'))   # PRUEBA: la pregunta 1 en los primeros segundos
+    RIVAL = bool(os.environ.get('QSM_RIVALIDAD')) and os.path.isdir(rival_dir)   # PRUEBA: MAX contra NOVA
+    import random as _rnd
+    rr = _rnd.Random(semilla * 31 + 7); pts = [0, 0]   # [MAX, NOVA]
+    MC = lambda: tuple(pts) if RIVAL else None
+
+    def apostar(q):
+        """Cada uno elige: aciertan ~70 % de las veces (algo menos en las difíciles); si fallan, otra al azar."""
+        dif = (q['n'] - 1) * 3 // N; out = {}
+        for k, p in (('presentador', [0.85, 0.72, 0.58][dif]), ('copresentadora', [0.85, 0.72, 0.6][dif])):
+            out[k] = q['c'] if rr.random() < p else rr.choice([i for i in range(len(q['o'])) if i != q['c']])
+        return out
 
     def como_jugar():
         """Arranque rápido: la explicación del QR y el salón de la fama van después de la pregunta 3."""
@@ -639,6 +675,7 @@ def main():
 
     if RAPIDO:
         decir(P.anuncio('¡¿Quién Sabe Más?!', meta['titulo']), [('an_01_marca', '')], 'anunciador', pad=0.2, pre=0.3)
+        if RIVAL: decir(P.anuncio('MAX contra NOVA', '…y tú contra los dos'), [('an_rival', '')], 'anunciador', pad=0.3)
     else:
       decir(P.anuncio('¡¿Quién Sabe Más?!', meta['titulo']), [('an_01_marca', ''), ('an_tema', ex.get('an_tema', ['', ''])[1])], 'anunciador', pre=0.6)
     if not RAPIDO:
@@ -680,19 +717,19 @@ def main():
         pix0 = 34 if ronda == 'misteriosa' else 0
         con_foto = bool(q.get('img')) and q.get('img_modo') == 'pregunta'
         mueve = con_foto and not pix0   # la misteriosa ya se mueve con el pixelado
-        img_p = P.pregunta(n, N, q, pix=pix0)
+        img_p = P.pregunta(n, N, q, pix=pix0, marcador=MC())
         decir(mover(img_p, q, CAJA_PREG, t_abre) if mueve else img_p, [(f'{key}_pregunta', q['tp'])], 'presentador', pad=0.3,
               poses={'presentador': 'senala'})
         if idx < 2: G.voz(voz('pr_03_segundos'), G.t + 0.1, 'presentador')
         t0 = G.t
         for sec in range(seg): G.sonido(S['tick_hi'] if sec >= seg - 3 else S['tick'], at=t0 + sec, gain=0.8)
-        def tfn(t, q=q, n=n, seg=seg, pix0=pix0):
+        def tfn(t, q=q, n=n, seg=seg, pix0=pix0, mc=MC()):
             r = max(1, seg - int(t)); fr = round((1 - t / seg) * 40) / 40
             px = round(pix0 * (r - 1) / (seg - 1)) if pix0 else 0  # se aclara segundo a segundo
             k = (n, r, fr)
             if k not in RELOJ:
                 RELOJ.clear()  # un solo cuadro vivo a la vez: con 90+ preguntas la memoria se llenaba
-                RELOJ[k] = P.pregunta(n, N, q, reloj=r, frac=fr, pix=px)
+                RELOJ[k] = P.pregunta(n, N, q, reloj=r, frac=fr, pix=px, marcador=mc)
             return RELOJ[k]
         G.relojes.append((t0, float(seg)))
         G.escena(mover(tfn, q, CAJA_PREG, t_abre) if mueve else tfn, float(seg), 'presentador', {'presentador': 'piensa'})
@@ -701,20 +738,33 @@ def main():
         tiempos.append({'n': n, 'abre': round(t_abre - t_ya, 2), 'reloj': round(t0 - t_ya, 2), 'cierra': round(G.t - t_ya, 2)})
         if relam:  # sin pausa: directo a la respuesta, sin dato curioso
             G.sonido(S['ding'], at=G.t + 0.1, gain=0.9)
-            img_r = P.pregunta(n, N, q, modo='revela')
+            img_r = P.pregunta(n, N, q, modo='revela', marcador=MC())
             decir(mover(img_r, q, CAJA_PREG, t_kb) if con_foto else img_r, [(f'{key}_respuesta', q['tr'])], 'copresentadora', pad=0.6, pre=0.1,
                   poses={'copresentadora': 'aplaude'})
         else:
-            img_y = P.pregunta(n, N, q, reloj='¡YA!', frac=0)
-            decir(mover(img_y, q, CAJA_PREG, t_kb) if con_foto else img_y, [('pr_04_tiempo', ''), ('co_08_correcta', '')], 'copresentadora', pad=0.1, pre=0.1,
-                  poses={'copresentadora': 'presenta', 'presentador': 'frente'})
+            img_y = P.pregunta(n, N, q, reloj='¡YA!', frac=0, marcador=MC())
+            ap = None
+            if RIVAL:   # después del «¡Tiempo!»: cada uno dice qué eligió (el espectador ya respondió)
+                ap = apostar(q); L = 'ABCD'
+                decir(mover(img_y, q, CAJA_PREG, t_kb) if con_foto else img_y, [('pr_04_tiempo', '')], 'presentador', pad=0.05, pre=0.1,
+                      poses={'presentador': 'frente'})
+                img_a = P.pregunta(n, N, q, reloj='¡YA!', frac=0, marcador=MC(), apuestas=ap)
+                decir(mover(img_a, q, CAJA_PREG, t_kb) if con_foto else img_a,
+                      [(f"pr_apuesta_{L[ap['presentador']]}", ''), (f"co_apuesta_{L[ap['copresentadora']]}", ''), ('co_08_correcta', '')],
+                      'presentador', pad=0.1, poses={'presentador': 'senala', 'copresentadora': 'presenta'})
+                img_y = img_a
+            else:
+                decir(mover(img_y, q, CAJA_PREG, t_kb) if con_foto else img_y, [('pr_04_tiempo', ''), ('co_08_correcta', '')], 'copresentadora', pad=0.1, pre=0.1,
+                      poses={'copresentadora': 'presenta', 'presentador': 'frente'})
+            if ap:
+                pts[0] += ap['presentador'] == q['c']; pts[1] += ap['copresentadora'] == q['c']
             G.sonido(S['ding'], at=G.t + 0.2, gain=0.9)
             dificil = (n - 1) * 3 // N >= 2
             rev = 'celebra' if n == N else ('sorpresa' if dificil and n % 2 == 0 else 'aplaude')
-            img_r = P.pregunta(n, N, q, modo='revela')
+            img_r = P.pregunta(n, N, q, modo='revela', marcador=MC(), apuestas=ap)
             decir(mover(img_r, q, CAJA_PREG, t_kb) if con_foto else img_r, [(f'{key}_respuesta', q['tr'])], 'copresentadora', pad=0.9, pre=0.2,
                   poses={'copresentadora': rev})
-            decir(mover(P.dato(n, N, q), q, CAJA_DATO, t_kb if con_foto else G.t), [('co_02_dato', ''), (f'{key}_dato', q['td'])], 'copresentadora', pad=1.2,
+            decir(mover(P.dato(n, N, q, marcador=MC()), q, CAJA_DATO, t_kb if con_foto else G.t), [('co_02_dato', ''), (f'{key}_dato', q['td'])], 'copresentadora', pad=1.2,
                   poses={'copresentadora': 'presenta'})
         if RAPIDO and idx == 2: como_jugar()
         sig = Q[idx + 1] if idx + 1 < len(Q) else None
@@ -728,6 +778,16 @@ def main():
     G.sonido(S['fanfare'], gain=0.8)
     decir(P.rangos(len(Q)), [('co_05_felicidades', ''), ('pr_cierre', ex.get('pr_cierre', ['', ''])[1])], 'presentador', pad=3.0,
           poses={'presentador': 'celebra', 'copresentadora': 'celebra'})
+    if RIVAL:
+        if pts[0] == pts[1]: pts[1] += 1   # sin empates: siempre hay revancha
+        gana_max = pts[0] > pts[1]
+        capitulos.append((G.t, 'MAX contra NOVA: resultado'))
+        G.sonido(S['fanfare'], gain=0.7)
+        decir(P.anuncio(f"¡Ganó {'MAX' if gana_max else 'NOVA'}!", f'MAX {pts[0]}  ·  NOVA {pts[1]}'),
+              [('pr_gana_final' if gana_max else 'co_gana_final', ''), ('co_revancha' if gana_max else 'pr_revancha', '')],
+              'presentador' if gana_max else 'copresentadora', pad=1.5,
+              poses={'presentador': 'celebra' if gana_max else 'piensa', 'copresentadora': 'sorpresa' if gana_max else 'celebra'})
+        print(f'MAX contra NOVA: {pts[0]} - {pts[1]}')
     if G.musica: G.temas.append((G.t, 'salida'))
     decir(P.final(), [('pr_12_suscribanse', ''), ('co_07_otra', ''), ('pr_13_despedida', '')], 'presentador', pad=3.0,
           poses={'presentador': 'saluda', 'copresentadora': 'saluda'})

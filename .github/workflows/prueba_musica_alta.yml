@@ -17,6 +17,9 @@ on:
       arranque:
         description: "Arranque rápido: pregunta 1 en los primeros segundos, QR tras la pregunta 3 (1 = sí)"
         default: "1"
+      rivalidad:
+        description: "MAX contra NOVA (1 = sí; necesita banco/rival)"
+        default: ""
       solo_fotos:
         description: "1 = solo buscar fotos y dejar la hoja en diag-prueba (sin video)"
         default: ""
@@ -29,7 +32,7 @@ permissions:
   actions: read
 
 concurrency:
-  group: produccion
+  group: prueba-${{ github.run_id }}
   cancel-in-progress: false
 
 jobs:
@@ -74,14 +77,14 @@ jobs:
           import json
           p = 'trabajo/episodio.json'; ep = json.load(open(p, encoding='utf-8'))
           base = ep.get('titulo_youtube') or f"¿Quién Sabe Más? {ep['titulo']}"
-          ep['titulo_youtube'] = ('PRUEBA ' + ('SUBTÍTULOS · ' if '${{ inputs.subtitulos }}' else 'MÚSICA ALTA · ') + base)[:100]
+          ep['titulo_youtube'] = ('PRUEBA ' + ('MAX VS NOVA · ' if '${{ inputs.rivalidad }}' else 'SUBTÍTULOS · ' if '${{ inputs.subtitulos }}' else 'MÚSICA ALTA · ') + base)[:100]
           ep['fecha'] = None
           json.dump(ep, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
           print(ep['titulo_youtube'])
           EOF
       - name: Montar el video (música alta constante)
         if: inputs.solo_fotos != '1'
-        env: { QSM_MUSICA_ALTA: "1", QSM_MUSICA_ALTA_DB: "${{ inputs.nivel_db }}", QSM_SUBTITULOS: "${{ inputs.subtitulos }}", QSM_ARRANQUE_RAPIDO: "${{ inputs.arranque }}" }
+        env: { QSM_MUSICA_ALTA: "1", QSM_MUSICA_ALTA_DB: "${{ inputs.nivel_db }}", QSM_SUBTITULOS: "${{ inputs.subtitulos }}", QSM_ARRANQUE_RAPIDO: "${{ inputs.arranque }}", QSM_RIVALIDAD: "${{ inputs.rivalidad }}" }
         run: python pipeline/tv.py --contenido trabajo/episodio.json --voces voces_ep --out trabajo/video.mp4 --tmp tmp
       - name: Miniatura (collage)
         if: inputs.solo_fotos != '1'
@@ -119,4 +122,4 @@ jobs:
           git fetch -q origin diag-prueba 2>/dev/null && git checkout -q -B diag-prueba origin/diag-prueba || git checkout -q --orphan diag-prueba
           git rm -rq --cached . 2>/dev/null || true
           mkdir -p prueba && cp /tmp/diag/* prueba/ 2>/dev/null || true
-          git add -f prueba && git commit -qm "Diagnóstico de la prueba ${{ github.run_id }}" && git push -q -f origin diag-prueba || true
+          git add -f prueba && git commit -qm "Diagnóstico de la prueba ${{ github.run_id }}" && git push -q -f origin HEAD:diag-prueba-${{ inputs.rivalidad && 'rival' || 'base' }} || true
