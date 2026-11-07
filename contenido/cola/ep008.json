@@ -2,161 +2,1859 @@
  "id": "ep008",
  "fecha": "2026-11-10",
  "formato": "normal",
- "estado": "listo",
+ "estado": "producido",
  "codigo_sala": "ARTISTAS",
  "titulo": "Arte, música y cine: de Frida a Mickey",
  "titulo_youtube": "¿Cuánto sabes de arte, música y cine? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
  "descripcion": "Cien preguntas de arte, música y cine para jugar en familia frente a la tele: pintores famosos, instrumentos, películas y mucho más. Con imágenes misteriosas, verdadero o falso y una ronda relámpago. ¿Eres un artista de la trivia? ¡Cuéntanos tu puntaje en los comentarios!",
- "tags": ["arte", "música", "cine", "pintores famosos", "instrumentos musicales", "películas", "trivia en familia", "preguntas y respuestas", "juego para la tele"],
+ "tags": [
+  "arte",
+  "música",
+  "cine",
+  "pintores famosos",
+  "instrumentos musicales",
+  "películas",
+  "trivia en familia",
+  "preguntas y respuestas",
+  "juego para la tele"
+ ],
  "tema_miniatura": "ARTE, MÚSICA Y CINE",
  "reto_miniatura": "¿Eres un artista de la trivia?",
  "objetivo_preguntas": 100,
  "total_anunciado": 100,
  "preguntas": [
-  {"n": 1, "tema": "música", "p": "¿Cuántas notas musicales forman la escala básica: do, re, mi, fa…?", "o": ["Cinco", "Siete", "Nueve", "Doce"], "c": 1, "d": "Son do, re, mi, fa, sol, la y si.", "tp": "¿Cuántas notas musicales forman la escala básica: do, re, mi, fa y las demás? ¿Cinco, siete, nueve o doce?", "tr": "¡Siete!", "td": "Son do, re, mi, fa, sol, la y si."},
-  {"n": 2, "tema": "arte", "p": "¿Qué dos colores se mezclan en pintura para obtener el verde?", "o": ["Azul y amarillo", "Rojo y azul", "Rojo y amarillo", "Blanco y negro"], "c": 0, "d": "El azul con el amarillo forma el verde; el rojo con el azul, el morado.", "tp": "¿Qué dos colores se mezclan en pintura para obtener el verde? ¿Azul y amarillo, rojo y azul, rojo y amarillo, o blanco y negro?", "tr": "¡Azul y amarillo!", "td": "El azul con el amarillo forma el verde; el rojo con el azul forma el morado."},
-  {"n": 3, "tema": "cine", "p": "¿Cómo se llama el ratón más famoso de Disney?", "o": ["Jerry", "Speedy", "Mickey Mouse", "Remy"], "c": 2, "d": "Mickey debutó con sonido en «Steamboat Willie», de 1928.", "tp": "¿Cómo se llama el ratón más famoso de Disney? ¿Jerry, Speedy, Mickey Mouse o Remy?", "tr": "¡Mickey Mouse!", "td": "Mickey debutó con sonido en «Steamboat Willie», un corto de mil novecientos veintiocho."},
-  {"n": 4, "tema": "música", "p": "¿Qué instrumento de cuerda se toca con un arco?", "o": ["Flauta", "Tambor", "Trompeta", "Violín"], "c": 3, "d": "El arco del violín lleva crines de caballo.", "tp": "¿Qué instrumento de cuerda se toca con un arco? ¿Flauta, tambor, trompeta o violín?", "tr": "¡El violín!", "td": "El arco del violín lleva crines de caballo.", "img_q": "Violin", "img_modo": "revela"},
-  {"n": 5, "tema": "arte", "p": "¿Cómo se llama un cuadro donde el pintor se retrata a sí mismo?", "o": ["Bodegón", "Paisaje", "Mural", "Autorretrato"], "c": 3, "d": "Rembrandt y Frida Kahlo pintaron muchísimos autorretratos.", "tp": "¿Cómo se llama un cuadro donde el pintor se retrata a sí mismo? ¿Bodegón, autorretrato, paisaje o mural?", "tr": "¡Autorretrato!", "td": "Rembrandt y Frida Kahlo pintaron muchísimos autorretratos."},
-  {"n": 6, "tema": "cine", "p": "¿De qué color es el ogro Shrek?", "o": ["Azul", "Naranja", "Gris", "Verde"], "c": 3, "d": "La primera película de Shrek se estrenó en 2001.", "tp": "¿De qué color es el ogro Shrek? ¿Azul, naranja, gris o verde?", "tr": "¡Verde!", "td": "La primera película de Shrek se estrenó en dos mil uno."},
-  {"n": 7, "tema": "música", "p": "¿Qué instrumento se toca golpeando con baquetas?", "o": ["Violín", "Guitarra", "Batería", "Arpa"], "c": 2, "d": "Una batería reúne tambores y platillos.", "tp": "¿Qué instrumento se toca golpeando con baquetas? ¿Violín, guitarra, batería o arpa?", "tr": "¡La batería!", "td": "Una batería reúne tambores y platillos que se tocan con baquetas.", "img_q": "Drum kit", "img_modo": "revela"},
-  {"n": 8, "tema": "cine", "p": "¿Qué animal es Nemo en la película de Pixar?", "o": ["Pez payaso", "Tiburón", "Delfín", "Tortuga"], "c": 0, "d": "Nemo vive en una anémona de mar.", "tp": "¿Qué animal es Nemo en la película de Pixar? ¿Pez payaso, tiburón, delfín o tortuga?", "tr": "¡Un pez payaso!", "td": "Nemo vive en una anémona de mar."},
-  {"n": 9, "tema": "arte", "p": "¿Cómo se llama la tabla donde el pintor mezcla sus colores?", "o": ["Bandeja", "Pizarra", "Cuaderno", "Paleta"], "c": 3, "d": "La paleta suele tener un agujero para el pulgar.", "tp": "¿Cómo se llama la tabla donde el pintor mezcla sus colores? ¿Bandeja, paleta, pizarra o cuaderno?", "tr": "¡La paleta!", "td": "La paleta suele tener un agujero para el pulgar.", "img_q": "Paint palette", "img_modo": "revela"},
-  {"n": 10, "tema": "perú", "p": "¿Cuál es el baile peruano que se baila en pareja con pañuelos?", "o": ["Tango", "Bachata", "Polka", "Marinera"], "c": 3, "d": "La marinera es conocida como «la reina de los bailes peruanos».", "tp": "¿Cuál es el baile peruano que se baila en pareja con pañuelos? ¿Tango, bachata, polka o marinera?", "tr": "¡La marinera!", "td": "La marinera es conocida como la reina de los bailes peruanos."},
-  {"n": 11, "tema": "arte", "ronda": "misteriosa", "p": "¿Qué famoso edificio es este?", "o": ["Alhambra", "Palacio Real", "Sagrada Familia", "Catedral de Burgos"], "c": 2, "img_q": "Sagrada Familia Barcelona", "img_modo": "pregunta", "d": "Empezó a construirse en 1882 y todavía sigue en obras.", "tp": "¿Qué famoso edificio es este? ¿La Alhambra, el Palacio Real, la Sagrada Familia o la Catedral de Burgos?", "tr": "¡La Sagrada Familia!", "td": "Empezó a construirse en mil ochocientos ochenta y dos y todavía sigue en obras."},
-  {"n": 12, "tema": "música", "ronda": "misteriosa", "p": "¿Cómo se llama este instrumento?", "o": ["Lira", "Banjo", "Mandolina", "Arpa"], "c": 3, "img_q": "Concert harp", "img_modo": "pregunta", "d": "El arpa es uno de los instrumentos más antiguos que existen.", "tp": "¿Cómo se llama este instrumento? ¿Lira, banjo, mandolina o arpa?", "tr": "¡El arpa!", "td": "El arpa es uno de los instrumentos más antiguos que existen."},
-  {"n": 13, "tema": "arte", "ronda": "misteriosa", "p": "¿Qué famosa pintura es esta?", "o": ["El beso", "El grito", "Las meninas", "Los girasoles"], "c": 1, "img_q": "The Scream Munch 1893", "img_modo": "pregunta", "d": "Edvard Munch pintó varias versiones de «El grito» entre 1893 y 1910.", "tp": "¿Qué famosa pintura es esta? ¿El beso, el grito, las meninas o los girasoles?", "tr": "¡El grito!", "td": "Edvard Munch pintó varias versiones de El grito entre mil ochocientos noventa y tres y mil novecientos diez."},
-  {"n": 14, "tema": "cine", "p": "¿Qué fiesta mexicana celebra la película «Coco»?", "o": ["Carnaval", "Halloween", "Navidad", "Día de Muertos"], "c": 3, "d": "«Coco» se estrenó en 2017 y se inspira en tradiciones de México.", "tp": "¿Qué fiesta mexicana celebra la película Coco? ¿Carnaval, Halloween, Navidad o Día de Muertos?", "tr": "¡El Día de Muertos!", "td": "Coco se estrenó en dos mil diecisiete y se inspira en tradiciones de México."},
-  {"n": 15, "tema": "música", "p": "¿Qué instrumento peruano es una caja de madera donde se sienta quien lo toca?", "o": ["Quena", "Charango", "Cajón", "Bombo"], "c": 2, "d": "Nació entre comunidades afroperuanas y hoy se toca en todo el mundo.", "tp": "¿Qué instrumento peruano es una caja de madera donde se sienta quien lo toca? ¿Quena, charango, cajón o bombo?", "tr": "¡El cajón!", "td": "Nació entre comunidades afroperuanas y hoy se toca en todo el mundo.", "img_q": "Cajón peruano", "img_modo": "revela"},
-  {"n": 16, "tema": "arte", "p": "¿Qué pintor español creó el famoso cuadro «Guernica»?", "o": ["Picasso", "Dalí", "Goya", "Miró"], "c": 0, "d": "Picasso lo pintó en 1937 y mide casi 8 metros de largo.", "tp": "¿Qué pintor español creó el famoso cuadro Guernica? ¿Picasso, Dalí, Goya o Miró?", "tr": "¡Picasso!", "td": "Picasso lo pintó en mil novecientos treinta y siete y mide casi ocho metros de largo."},
-  {"n": 17, "tema": "cine", "p": "¿Cómo se llama el robot de Pixar que limpia la Tierra?", "o": ["R2-D2", "WALL·E", "Baymax", "Bumblebee"], "c": 1, "d": "«WALL·E» se estrenó en 2008.", "tp": "¿Cómo se llama el robot de Pixar que limpia la Tierra? ¿R2-D2, Wall-E, Baymax o Bumblebee?", "tr": "¡WALL·E!", "td": "Wall-E se estrenó en dos mil ocho."},
-  {"n": 18, "tema": "música", "p": "¿Cómo se llama la persona que dirige una orquesta?", "o": ["Solista", "Locutor", "Productor", "Director"], "c": 3, "d": "El director usa una batuta para marcar el ritmo.", "tp": "¿Cómo se llama la persona que dirige una orquesta? ¿Solista, locutor, productor o director?", "tr": "¡El director!", "td": "El director usa una batuta para marcar el ritmo."},
-  {"n": 19, "tema": "arte", "p": "¿De qué país es la pintora Frida Kahlo?", "o": ["México", "Colombia", "Chile", "España"], "c": 0, "d": "Frida Kahlo nació en 1907 en Coyoacán, México.", "tp": "¿De qué país es la pintora Frida Kahlo? ¿México, Colombia, Chile o España?", "tr": "¡México!", "td": "Frida Kahlo nació en mil novecientos siete en Coyoacán, México."},
-  {"n": 20, "tema": "cine", "p": "¿En qué ciudad está Hollywood, la capital del cine?", "o": ["Nueva York", "Miami", "Los Ángeles", "Chicago"], "c": 2, "d": "Hollywood es un barrio de Los Ángeles, California.", "tp": "¿En qué ciudad está Hollywood, la capital del cine? ¿Nueva York, Miami, Los Ángeles o Chicago?", "tr": "¡Los Ángeles!", "td": "Hollywood es un barrio de Los Ángeles, en California.", "img_q": "Hollywood Sign", "img_modo": "revela"},
-  {"n": 21, "tema": "música", "ronda": "vf", "p": "El violonchelo es más pequeño que el violín.", "o": ["Verdadero", "Falso"], "c": 1, "d": "El violonchelo es mucho más grande y se toca sentado.", "tp": "¿Verdadero o falso? El violonchelo es más pequeño que el violín.", "tr": "¡Falso! Es bastante más grande.", "td": "El violonchelo es mucho más grande y se toca sentado."},
-  {"n": 22, "tema": "arte", "ronda": "vf", "p": "La Mona Lisa se exhibe en el Museo del Louvre, en París.", "o": ["Verdadero", "Falso"], "c": 0, "d": "Es una de las obras más visitadas del mundo.", "tp": "¿Verdadero o falso? La Mona Lisa se exhibe en el Museo del Louvre, en París.", "tr": "¡Verdadero! Allí la visitan millones de personas.", "td": "Es una de las obras más visitadas del mundo."},
-  {"n": 23, "tema": "cine", "ronda": "vf", "p": "«Frozen» es una película de Pixar.", "o": ["Verdadero", "Falso"], "c": 1, "d": "«Frozen» es de Walt Disney Animation Studios, no de Pixar.", "tp": "¿Verdadero o falso? Frozen es una película de Pixar.", "tr": "¡Falso! Es de Walt Disney Animation Studios.", "td": "Frozen es de Walt Disney Animation Studios, no de Pixar."},
-  {"n": 24, "tema": "música", "p": "¿De qué país era la banda The Beatles?", "o": ["Estados Unidos", "Irlanda", "Australia", "Reino Unido"], "c": 3, "d": "Se formaron en Liverpool, Inglaterra, en 1960.", "tp": "¿De qué país era la banda The Beatles? ¿Estados Unidos, Irlanda, Australia o Reino Unido?", "tr": "¡Reino Unido!", "td": "Se formaron en Liverpool, Inglaterra, en mil novecientos sesenta."},
-  {"n": 25, "tema": "arte", "p": "¿Qué pintor es famoso por sus relojes derretidos?", "o": ["Salvador Dalí", "Joan Miró", "Diego Velázquez", "Francisco de Goya"], "c": 0, "d": "«La persistencia de la memoria» de Dalí es de 1931.", "tp": "¿Qué pintor es famoso por sus relojes derretidos? ¿Salvador Dalí, Joan Miró, Diego Velázquez o Francisco de Goya?", "tr": "¡Salvador Dalí!", "td": "La persistencia de la memoria, de Dalí, es de mil novecientos treinta y uno."},
-  {"n": 26, "tema": "cine", "p": "¿Qué oso, llegado del Perú, vive en Londres y come mermelada?", "o": ["Baloo", "Paddington", "Winnie Pooh", "Yogui"], "c": 1, "d": "Paddington viene del «Perú más profundo», según su historia.", "tp": "¿Qué oso, llegado del Perú, vive en Londres y come mermelada? ¿Baloo, Paddington, Winnie Pooh o Yogui?", "tr": "¡Paddington!", "td": "Paddington viene del Perú más profundo, según su historia."},
-  {"n": 27, "tema": "perú", "p": "¿Quién compuso el vals «La flor de la canela»?", "o": ["Yma Sumac", "Eva Ayllón", "Chabuca Granda", "Susana Baca"], "c": 2, "d": "Es un vals peruano que le canta a una mujer limeña.", "tp": "¿Quién compuso el vals La flor de la canela? ¿Yma Sumac, Eva Ayllón, Chabuca Granda o Susana Baca?", "tr": "¡Chabuca Granda!", "td": "Es un vals peruano que le canta a una mujer limeña."},
-  {"n": 28, "tema": "arte", "p": "¿Qué técnica de pintura usa agua y deja colores transparentes?", "o": ["Acuarela", "Óleo", "Carboncillo", "Pastel"], "c": 0, "d": "La acuarela se diluye con agua y se seca rápido.", "tp": "¿Qué técnica de pintura usa agua y deja colores transparentes? ¿Acuarela, óleo, carboncillo o pastel?", "tr": "¡La acuarela!", "td": "La acuarela se diluye con agua y se seca rápido.", "img_q": "Watercolor painting landscape", "img_modo": "revela"},
-  {"n": 29, "tema": "cine", "p": "¿En qué película animada aparece un león llamado Simba?", "o": ["Madagascar", "Tarzán", "Bambi", "El rey león"], "c": 3, "d": "«El rey león» se estrenó en 1994.", "tp": "¿En qué película animada aparece un león llamado Simba? ¿Madagascar, El rey león, Tarzán o Bambi?", "tr": "¡El rey león!", "td": "El rey león se estrenó en mil novecientos noventa y cuatro."},
-  {"n": 30, "tema": "música", "p": "¿Qué género musical nació en Jamaica y es famoso por Bob Marley?", "o": ["Salsa", "Bolero", "Bossa nova", "Reggae"], "c": 3, "d": "Bob Marley llevó el reggae a todo el mundo.", "tp": "¿Qué género musical nació en Jamaica y es famoso por Bob Marley? ¿Salsa, bolero, bossa nova o reggae?", "tr": "¡El reggae!", "td": "Bob Marley llevó el reggae a todo el mundo."},
-  {"n": 31, "tema": "arte", "p": "¿Qué artista colombiano es famoso por sus figuras redondas y gorditas?", "o": ["Rufino Tamayo", "Wifredo Lam", "Fernando Botero", "Joaquín Torres García"], "c": 2, "d": "Fernando Botero nació en Medellín, Colombia.", "tp": "¿Qué artista colombiano es famoso por sus figuras redondas y gorditas? ¿Rufino Tamayo, Wifredo Lam, Fernando Botero o Joaquín Torres García?", "tr": "¡Fernando Botero!", "td": "Fernando Botero nació en Medellín, Colombia.", "img_q": "Botero sculpture Medellín", "img_modo": "revela"},
-  {"n": 32, "tema": "cine", "p": "¿Qué personaje de «Star Wars» dice «Yo soy tu padre»?", "o": ["Palpatine", "Darth Vader", "Kylo Ren", "Yoda"], "c": 1, "d": "La frase es de «El imperio contraataca», de 1980.", "tp": "¿Qué personaje de Star Wars dice: yo soy tu padre? ¿Palpatine, Darth Vader, Kylo Ren o Yoda?", "tr": "¡Darth Vader!", "td": "La frase es de El imperio contraataca, de mil novecientos ochenta."},
-  {"n": 33, "tema": "música", "p": "¿De qué país es la samba, ritmo estrella del carnaval de Río?", "o": ["Cuba", "Brasil", "Portugal", "Argentina"], "c": 1, "d": "Río de Janeiro celebra el carnaval con desfiles de samba.", "tp": "¿De qué país es la samba, ritmo estrella del carnaval de Río? ¿Cuba, Brasil, Portugal o Argentina?", "tr": "¡Brasil!", "td": "Río de Janeiro celebra el carnaval con desfiles de samba."},
-  {"n": 34, "tema": "arte", "p": "¿Qué arquitecto catalán diseñó la Sagrada Familia?", "o": ["Santiago Calatrava", "Pablo Picasso", "Salvador Dalí", "Antoni Gaudí"], "c": 3, "d": "Gaudí trabajó en la Sagrada Familia durante más de 40 años.", "tp": "¿Qué arquitecto catalán diseñó la Sagrada Familia? ¿Santiago Calatrava, Pablo Picasso, Salvador Dalí o Antoni Gaudí?", "tr": "¡Antoni Gaudí!", "td": "Gaudí trabajó en la Sagrada Familia durante más de cuarenta años."},
-  {"n": 35, "tema": "cine", "p": "¿Qué estudio creó «Toy Story», la primera película animada por computadora?", "o": ["DreamWorks", "Pixar", "Illumination", "Ghibli"], "c": 1, "d": "«Toy Story» (1995) fue el primer largometraje totalmente animado por computadora.", "tp": "¿Qué estudio creó Toy Story, la primera película animada por computadora? ¿DreamWorks, Pixar, Illumination o Ghibli?", "tr": "¡Pixar!", "td": "Toy Story, de mil novecientos noventa y cinco, fue el primer largometraje totalmente animado por computadora."},
-  {"n": 36, "tema": "música", "p": "¿Cuántos músicos forman un quinteto?", "o": ["Tres", "Cuatro", "Cinco", "Seis"], "c": 2, "d": "Un trío tiene 3 músicos, un cuarteto 4 y un quinteto 5.", "tp": "¿Cuántos músicos forman un quinteto? ¿Tres, cuatro, cinco o seis?", "tr": "¡Cinco!", "td": "Un trío tiene tres músicos, un cuarteto cuatro y un quinteto cinco."},
-  {"n": 37, "tema": "arte", "p": "¿En qué ciudad está el Rijksmuseum, que guarda «La ronda de noche»?", "o": ["Ámsterdam", "Bruselas", "Viena", "Berlín"], "c": 0, "d": "Rembrandt pintó «La ronda de noche» en 1642.", "tp": "¿En qué ciudad está el Rijksmuseum, que guarda La ronda de noche? ¿Ámsterdam, Bruselas, Viena o Berlín?", "tr": "¡Ámsterdam!", "td": "Rembrandt pintó La ronda de noche en mil seiscientos cuarenta y dos.", "img_q": "Rijksmuseum Amsterdam", "img_modo": "revela"},
-  {"n": 38, "tema": "cine", "p": "¿Cómo se llama la ciudad donde vive Batman?", "o": ["Metrópolis", "Springfield", "Ciudad Gótica", "Nueva Babilonia"], "c": 2, "d": "Su nombre en inglés es Gotham City.", "tp": "¿Cómo se llama la ciudad donde vive Batman? ¿Metrópolis, Springfield, Ciudad Gótica o Nueva Babilonia?", "tr": "¡Ciudad Gótica!", "td": "Su nombre en inglés es Gotham City."},
-  {"n": 39, "tema": "música", "p": "¿Qué compositor escribió la «Pequeña serenata nocturna»?", "o": ["Bach", "Chopin", "Vivaldi", "Mozart"], "c": 3, "d": "Mozart compuso más de 600 obras y murió a los 35 años.", "tp": "¿Qué compositor escribió la Pequeña serenata nocturna? ¿Bach, Mozart, Chopin o Vivaldi?", "tr": "¡Mozart!", "td": "Mozart compuso más de seiscientas obras y murió a los treinta y cinco años."},
-  {"n": 40, "tema": "arte", "p": "¿Qué pintor español pintó «Las meninas»?", "o": ["Goya", "El Greco", "Murillo", "Velázquez"], "c": 3, "d": "Velázquez pintó «Las meninas» en 1656; hoy está en el Museo del Prado.", "tp": "¿Qué pintor español pintó Las meninas? ¿Goya, El Greco, Murillo o Velázquez?", "tr": "¡Velázquez!", "td": "Velázquez pintó Las meninas en mil seiscientos cincuenta y seis; hoy está en el Museo del Prado.", "img_q": "Las Meninas Velázquez", "img_modo": "revela"},
-  {"n": 41, "tema": "música", "ronda": "relampago", "p": "¿Cuántas cuerdas tiene un violín?", "o": ["Dos", "Cuatro", "Seis", "Ocho"], "c": 1, "d": "Tiene cuatro cuerdas.", "tp": "¿Cuántas cuerdas tiene un violín? ¿Dos, cuatro, seis u ocho?", "tr": "¡Cuatro!", "td": "Tiene cuatro cuerdas."},
-  {"n": 42, "tema": "arte", "ronda": "relampago", "p": "¿Qué color sale de mezclar rojo y azul?", "o": ["Verde", "Naranja", "Café", "Morado"], "c": 3, "d": "Rojo y azul dan morado.", "tp": "¿Qué color sale de mezclar rojo y azul? ¿Verde, naranja, café o morado?", "tr": "¡Morado!", "td": "Rojo y azul dan morado."},
-  {"n": 43, "tema": "cine", "ronda": "relampago", "p": "¿Qué princesa perdió una zapatilla de cristal?", "o": ["Cenicienta", "Bella", "Aurora", "Ariel"], "c": 0, "d": "La perdió al huir del baile.", "tp": "¿Qué princesa perdió una zapatilla de cristal? ¿Cenicienta, Bella, Aurora o Ariel?", "tr": "¡Cenicienta!", "td": "La perdió al huir del baile."},
-  {"n": 44, "tema": "cine", "ronda": "relampago", "p": "¿Qué animal es Dumbo?", "o": ["Ratón", "Mono", "Elefante", "Oso"], "c": 2, "d": "Vuela moviendo sus enormes orejas.", "tp": "¿Qué animal es Dumbo? ¿Ratón, mono, elefante u oso?", "tr": "¡Elefante!", "td": "Vuela moviendo sus enormes orejas."},
-  {"n": 45, "tema": "cine", "ronda": "relampago", "p": "¿Cómo se llama el vaquero de Toy Story?", "o": ["Buzz", "Rex", "Slinky", "Woody"], "c": 3, "d": "Woody es amigo de Buzz Lightyear.", "tp": "¿Cómo se llama el vaquero de Toy Story? ¿Buzz, Rex, Slinky o Woody?", "tr": "¡Woody!", "td": "Woody es amigo de Buzz Lightyear."},
-  {"n": 46, "tema": "cine", "p": "¿Cómo se llama la heroína de Disney que navega por el océano con el semidiós Maui?", "o": ["Mérida", "Moana", "Mulán", "Pocahontas"], "c": 1, "d": "«Moana» se estrenó en 2016 y se inspira en culturas del Pacífico.", "tp": "¿Cómo se llama la heroína de Disney que navega por el océano con el semidiós Maui? ¿Mérida, Moana, Mulán o Pocahontas?", "tr": "¡Moana!", "td": "Moana se estrenó en dos mil dieciséis y se inspira en culturas del Pacífico."},
-  {"n": 47, "tema": "arte", "p": "¿Cómo se llama el arte de escribir de forma muy bella a mano?", "o": ["Caligrafía", "Heráldica", "Cerámica", "Tapicería"], "c": 0, "d": "En China y Japón la caligrafía se considera un arte mayor.", "tp": "¿Cómo se llama el arte de escribir de forma muy bella a mano? ¿Caligrafía, heráldica, cerámica o tapicería?", "tr": "¡La caligrafía!", "td": "En China y Japón la caligrafía se considera un arte mayor."},
-  {"n": 48, "tema": "música", "p": "¿Qué instrumento gigante de tubos, teclas y pedales suena en las catedrales?", "o": ["Acordeón", "Gaita", "Órgano", "Tuba"], "c": 2, "d": "Algunos órganos tienen miles de tubos.", "tp": "¿Qué instrumento gigante de tubos, teclas y pedales suena en las catedrales? ¿Acordeón, gaita, órgano o tuba?", "tr": "¡El órgano!", "td": "Algunos órganos tienen miles de tubos.", "img_q": "Pipe organ church", "img_modo": "revela"},
-  {"n": 49, "tema": "cine", "p": "¿Qué director creó «Tiburón» y «E.T., el extraterrestre»?", "o": ["Steven Spielberg", "George Lucas", "Tim Burton", "James Cameron"], "c": 0, "d": "«E.T.» se estrenó en 1982 y su bicicleta voladora es inolvidable.", "tp": "¿Qué director creó Tiburón y E.T., el extraterrestre? ¿Steven Spielberg, George Lucas, Tim Burton o James Cameron?", "tr": "¡Steven Spielberg!", "td": "E.T. se estrenó en mil novecientos ochenta y dos y su bicicleta voladora es inolvidable."},
-  {"n": 50, "tema": "arte", "p": "¿Qué técnica forma imágenes con piezas pequeñas de piedra o vidrio?", "o": ["Collage", "Grabado", "Mosaico", "Fresco"], "c": 2, "d": "Los romanos decoraron casas y templos con mosaicos.", "tp": "¿Qué técnica forma imágenes con piezas pequeñas de piedra o vidrio? ¿Collage, grabado, mosaico o fresco?", "tr": "¡El mosaico!", "td": "Los romanos decoraron casas y templos con mosaicos.", "img_q": "Roman mosaic", "img_modo": "revela"},
-  {"n": 51, "tema": "música", "p": "¿En qué país nació la cumbia?", "o": ["Cuba", "México", "Bolivia", "Colombia"], "c": 3, "d": "Nació en la costa caribe colombiana y se extendió por América.", "tp": "¿En qué país nació la cumbia? ¿Cuba, México, Bolivia o Colombia?", "tr": "¡Colombia!", "td": "Nació en la costa caribe colombiana y se extendió por toda América."},
-  {"n": 52, "tema": "perú", "p": "¿Cuál es un baile típico de los Andes peruanos?", "o": ["Vals", "Huayno", "Festejo", "Polka"], "c": 1, "d": "El huayno se baila con zapateo al son de quena, charango y arpa.", "tp": "¿Cuál es un baile típico de los Andes peruanos? ¿Vals, huayno, festejo o polka?", "tr": "¡El huayno!", "td": "El huayno se baila con zapateo al son de quena, charango y arpa."},
-  {"n": 53, "tema": "arte", "p": "¿Qué museo de Nueva York tiene un edificio en espiral diseñado por Frank Lloyd Wright?", "o": ["MoMA", "The Met", "Guggenheim", "Whitney"], "c": 2, "d": "El Guggenheim de Nueva York se inauguró en 1959.", "tp": "¿Qué museo de Nueva York tiene un edificio en espiral diseñado por Frank Lloyd Wright? ¿MoMA, The Met, Guggenheim o Whitney?", "tr": "¡El Guggenheim!", "td": "El Guggenheim de Nueva York se inauguró en mil novecientos cincuenta y nueve.", "img_q": "Guggenheim Museum New York", "img_modo": "revela"},
-  {"n": 54, "tema": "cine", "p": "¿Qué película de 1939 tiene a Dorothy y un camino de baldosas amarillas?", "o": ["El mago de Oz", "Peter Pan", "Alicia", "Pinocho"], "c": 0, "d": "En la película, el mundo de Oz pasa del blanco y negro al color.", "tp": "¿Qué película de mil novecientos treinta y nueve tiene a Dorothy y un camino de baldosas amarillas? ¿El mago de Oz, Peter Pan, Alicia o Pinocho?", "tr": "¡El mago de Oz!", "td": "En la película, el mundo de Oz pasa del blanco y negro al color."},
-  {"n": 55, "tema": "música", "p": "¿Quién escribió la canción «Gracias a la vida»?", "o": ["Mercedes Sosa", "Gloria Estefan", "Chavela Vargas", "Violeta Parra"], "c": 3, "d": "Violeta Parra, de Chile, la escribió y Mercedes Sosa la hizo célebre.", "tp": "¿Quién escribió la canción Gracias a la vida? ¿Mercedes Sosa, Gloria Estefan, Chavela Vargas o Violeta Parra?", "tr": "¡Violeta Parra!", "td": "Violeta Parra, de Chile, la escribió y Mercedes Sosa la hizo célebre."},
-  {"n": 56, "tema": "música", "ronda": "vf", "p": "Beethoven siguió componiendo aunque se quedó sordo.", "o": ["Verdadero", "Falso"], "c": 0, "d": "Compuso obras maestras cuando ya casi no oía nada.", "tp": "¿Verdadero o falso? Beethoven siguió componiendo aunque se quedó sordo.", "tr": "¡Verdadero! Compuso obras maestras casi sin oír.", "td": "Compuso obras maestras cuando ya casi no oía nada."},
-  {"n": 57, "tema": "música", "ronda": "vf", "p": "El flamenco nació en el norte de España, en Galicia.", "o": ["Verdadero", "Falso"], "c": 1, "d": "El flamenco nació en Andalucía, en el sur de España.", "tp": "¿Verdadero o falso? El flamenco nació en el norte de España, en Galicia.", "tr": "¡Falso! Nació en Andalucía, en el sur.", "td": "El flamenco nació en Andalucía, en el sur de España."},
-  {"n": 58, "tema": "arte", "ronda": "vf", "p": "Claude Monet pintó muchas veces los nenúfares de su jardín.", "o": ["Verdadero", "Falso"], "c": 0, "d": "Pintó más de 200 cuadros de nenúfares en su jardín de Giverny.", "tp": "¿Verdadero o falso? Claude Monet pintó muchas veces los nenúfares de su jardín.", "tr": "¡Verdadero! Pintó más de doscientos cuadros de nenúfares.", "td": "Pintó más de doscientos cuadros de nenúfares en su jardín de Giverny."},
-  {"n": 59, "tema": "música", "p": "¿Quién compuso «Las cuatro estaciones»?", "o": ["Bach", "Vivaldi", "Haydn", "Verdi"], "c": 1, "d": "Vivaldi era de Venecia y lo apodaron «el cura rojo» por su pelo.", "tp": "¿Quién compuso Las cuatro estaciones? ¿Bach, Vivaldi, Haydn o Verdi?", "tr": "¡Vivaldi!", "td": "Vivaldi era de Venecia y lo apodaron el cura rojo por su pelo."},
-  {"n": 60, "tema": "cine", "p": "¿Qué estudio de animación japonés hizo «El viaje de Chihiro»?", "o": ["Pixar", "Toei", "Studio Ghibli", "Sunrise"], "c": 2, "d": "Ganó el Óscar a mejor película animada en 2003.", "tp": "¿Qué estudio de animación japonés hizo El viaje de Chihiro? ¿Pixar, Toei, Studio Ghibli o Sunrise?", "tr": "¡Studio Ghibli!", "td": "Ganó el Óscar a mejor película animada en dos mil tres."},
-  {"n": 61, "tema": "arte", "p": "¿Qué pintor muralista mexicano se casó con Frida Kahlo?", "o": ["Rufino Tamayo", "David A. Siqueiros", "José C. Orozco", "Diego Rivera"], "c": 3, "d": "Diego Rivera y Frida Kahlo se casaron en 1929.", "tp": "¿Qué pintor muralista mexicano se casó con Frida Kahlo? ¿Rufino Tamayo, David Siqueiros, José Clemente Orozco o Diego Rivera?", "tr": "¡Diego Rivera!", "td": "Diego Rivera y Frida Kahlo se casaron en mil novecientos veintinueve."},
-  {"n": 62, "tema": "música", "p": "¿Qué pequeña guitarra andina de diez cuerdas es típica de Perú y Bolivia?", "o": ["Charango", "Ukelele", "Laúd", "Bandurria"], "c": 0, "d": "Sus diez cuerdas van en cinco pares.", "tp": "¿Qué pequeña guitarra andina de diez cuerdas es típica de Perú y Bolivia? ¿Charango, ukelele, laúd o bandurria?", "tr": "¡El charango!", "td": "Sus diez cuerdas van agrupadas en cinco pares.", "img_q": "Charango", "img_modo": "revela"},
-  {"n": 63, "tema": "cine", "p": "¿Qué película cuenta la historia de un barco que choca con un iceberg en 1912?", "o": ["Poseidón", "Titanic", "Avatar", "Moby Dick"], "c": 1, "d": "«Titanic» se estrenó en 1997 y ganó once premios Óscar.", "tp": "¿Qué película cuenta la historia de un barco que choca con un iceberg en mil novecientos doce? ¿Poseidón, Titanic, Avatar o Moby Dick?", "tr": "¡Titanic!", "td": "Titanic se estrenó en mil novecientos noventa y siete y ganó once premios Óscar."},
-  {"n": 64, "tema": "arte", "p": "¿Cómo se llama el estilo de Picasso con figuras hechas de formas geométricas?", "o": ["Barroco", "Fauvismo", "Cubismo", "Realismo"], "c": 2, "d": "Picasso y Georges Braque lo crearon a comienzos del siglo XX.", "tp": "¿Cómo se llama el estilo de Picasso con figuras hechas de formas geométricas? ¿Barroco, fauvismo, cubismo o realismo?", "tr": "¡El cubismo!", "td": "Picasso y Georges Braque lo crearon a comienzos del siglo veinte."},
-  {"n": 65, "tema": "música", "p": "¿Qué instrumento tocaba el gran jazzista Louis Armstrong?", "o": ["Trompeta", "Clarinete", "Piano", "Trombón"], "c": 0, "d": "Louis Armstrong fue un gigante del jazz y su voz era inconfundible.", "tp": "¿Qué instrumento tocaba el gran jazzista Louis Armstrong? ¿Trompeta, clarinete, piano o trombón?", "tr": "¡La trompeta!", "td": "Louis Armstrong fue un gigante del jazz y su voz era inconfundible."},
-  {"n": 66, "tema": "música", "ronda": "misteriosa", "p": "¿Qué instrumento de viento es este?", "o": ["Clarinete", "Fagot", "Saxofón", "Oboe"], "c": 2, "img_q": "Saxophone", "img_modo": "pregunta", "d": "Adolphe Sax lo inventó en Bélgica a mediados del siglo XIX.", "tp": "¿Cómo se llama este instrumento? ¿Clarinete, fagot, saxofón u oboe?", "tr": "¡El saxofón!", "td": "Adolphe Sax lo inventó en Bélgica a mediados del siglo diecinueve."},
-  {"n": 67, "tema": "arte", "ronda": "misteriosa", "p": "¿Cómo se titula esta pintura tan famosa?", "o": ["La lechera", "La joven de la perla", "La ronda de noche", "Las espigadoras"], "c": 1, "img_q": "Girl with a Pearl Earring Vermeer", "img_modo": "pregunta", "d": "Vermeer la pintó hacia 1665 en los Países Bajos.", "tp": "¿Qué famosa pintura es esta? ¿La lechera, la joven de la perla, la ronda de noche o las espigadoras?", "tr": "¡La joven de la perla!", "td": "Vermeer la pintó hacia mil seiscientos sesenta y cinco en los Países Bajos."},
-  {"n": 68, "tema": "arte", "ronda": "misteriosa", "p": "¿Qué famosa estatua es esta?", "o": ["Esfinge de Guiza", "Moái de Rapa Nui", "Estatua de la Libertad", "Cristo Redentor"], "c": 3, "img_q": "Christ the Redeemer Rio de Janeiro", "img_modo": "pregunta", "d": "Mide 30 metros de alto, sin contar su base de 8 metros.", "tp": "¿Qué famosa estatua es esta? ¿La Esfinge de Guiza, un moái de Rapa Nui, la Estatua de la Libertad o el Cristo Redentor?", "tr": "¡El Cristo Redentor!", "td": "Mide treinta metros de alto, sin contar su base de ocho metros."},
-  {"n": 69, "tema": "música", "p": "¿Qué compositor ruso escribió el ballet «El lago de los cisnes»?", "o": ["Chaikovski", "Stravinski", "Rajmáninov", "Mussorgski"], "c": 0, "d": "El ballet se estrenó en Moscú en 1877.", "tp": "¿Qué compositor ruso escribió el ballet El lago de los cisnes? ¿Chaikovski, Stravinski, Rajmáninov o Mussorgski?", "tr": "¡Chaikovski!", "td": "El ballet se estrenó en Moscú en mil ochocientos setenta y siete."},
-  {"n": 70, "tema": "cine", "p": "¿Cómo se llama la industria de cine de la India, con sede en Bombay?", "o": ["Nollywood", "Hollywood", "Cinecittà", "Bollywood"], "c": 3, "d": "El nombre mezcla «Bombay» y «Hollywood».", "tp": "¿Cómo se llama la industria de cine de la India, con sede en Bombay? ¿Nollywood, Bollywood, Hollywood o Cinecittà?", "tr": "¡Bollywood!", "td": "El nombre mezcla Bombay y Hollywood."},
-  {"n": 71, "tema": "arte", "p": "¿A qué movimiento artístico pertenece Claude Monet?", "o": ["Surrealismo", "Pop art", "Impresionismo", "Cubismo"], "c": 2, "d": "El nombre viene de su cuadro «Impresión, sol naciente».", "tp": "¿A qué movimiento artístico pertenece Claude Monet? ¿Surrealismo, pop art, impresionismo o cubismo?", "tr": "¡El impresionismo!", "td": "El nombre viene de su cuadro Impresión, sol naciente.", "img_q": "Impression, Sunrise Monet", "img_modo": "revela"},
-  {"n": 72, "tema": "música", "p": "¿En qué país nació el compositor Mozart?", "o": ["Alemania", "Italia", "Austria", "Hungría"], "c": 2, "d": "Mozart nació en Salzburgo en 1756.", "tp": "¿En qué país nació el compositor Mozart? ¿Alemania, Italia, Austria o Hungría?", "tr": "¡Austria!", "td": "Mozart nació en Salzburgo en mil setecientos cincuenta y seis."},
-  {"n": 73, "tema": "cine", "p": "¿Qué director mexicano hizo «El laberinto del fauno»?", "o": ["Alfonso Cuarón", "Guillermo del Toro", "Alejandro G. Iñárritu", "Carlos Reygadas"], "c": 1, "d": "Se estrenó en 2006 y ganó tres premios Óscar.", "tp": "¿Qué director mexicano hizo El laberinto del fauno? ¿Alfonso Cuarón, Guillermo del Toro, Alejandro González Iñárritu o Carlos Reygadas?", "tr": "¡Guillermo del Toro!", "td": "Se estrenó en dos mil seis y ganó tres premios Óscar."},
-  {"n": 74, "tema": "perú", "p": "¿En qué ciudad peruana está el Museo Larco, famoso por su arte antiguo?", "o": ["Cusco", "Arequipa", "Lima", "Trujillo"], "c": 2, "d": "Guarda miles de piezas de cerámica y oro del Perú antiguo.", "tp": "¿En qué ciudad peruana está el Museo Larco, famoso por su arte antiguo? ¿Cusco, Arequipa, Lima o Trujillo?", "tr": "¡Lima!", "td": "Guarda miles de piezas de cerámica y oro del Perú antiguo."},
-  {"n": 75, "tema": "arte", "p": "¿Qué escultor francés creó la obra «El pensador»?", "o": ["Auguste Rodin", "Edgar Degas", "Henri Matisse", "Camille Claudel"], "c": 0, "d": "La escultura original mide más de 1,80 metros.", "tp": "¿Qué escultor francés creó la obra El pensador? ¿Auguste Rodin, Edgar Degas, Henri Matisse o Camille Claudel?", "tr": "¡Auguste Rodin!", "td": "La escultura original mide más de un metro ochenta.", "img_q": "The Thinker Rodin", "img_modo": "revela"},
-  {"n": 76, "tema": "música", "p": "¿Qué instrumento inventó Cristofori en Italia hacia el año 1700?", "o": ["Clavicémbalo", "Piano", "Acordeón", "Órgano"], "c": 1, "d": "Su nombre completo era «clavicémbalo con piano y forte».", "tp": "¿Qué instrumento inventó Cristofori en Italia hacia el año mil setecientos? ¿Clavicémbalo, piano, acordeón u órgano?", "tr": "¡El piano!", "td": "Su nombre completo era clavicémbalo con piano y forte."},
-  {"n": 77, "tema": "cine", "p": "¿De qué país es «Parásitos», primera cinta no inglesa en ganar el Óscar a mejor película?", "o": ["China", "Japón", "Corea del Sur", "Tailandia"], "c": 2, "d": "«Parásitos» ganó el Óscar a mejor película en 2020.", "tp": "¿De qué país es Parásitos, la primera película de habla no inglesa en ganar el Óscar a mejor película? ¿China, Japón, Corea del Sur o Tailandia?", "tr": "¡Corea del Sur!", "td": "Parásitos ganó el Óscar a mejor película en dos mil veinte."},
-  {"n": 78, "tema": "arte", "p": "¿De qué país era el pintor Oswaldo Guayasamín?", "o": ["Perú", "Ecuador", "Bolivia", "Venezuela"], "c": 1, "d": "Dejó su obra en la Capilla del Hombre, en Quito.", "tp": "¿De qué país era el pintor Oswaldo Guayasamín? ¿Perú, Ecuador, Bolivia o Venezuela?", "tr": "¡Ecuador!", "td": "Dejó su obra en la Capilla del Hombre, en Quito."},
-  {"n": 79, "tema": "música", "p": "¿Qué cantante cubana, «la reina de la salsa», gritaba «¡Azúcar!»?", "o": ["Celia Cruz", "La Lupe", "Gloria Estefan", "Olga Guillot"], "c": 0, "d": "Celia Cruz nació en La Habana y ganó varios premios Grammy.", "tp": "¿Qué cantante cubana, la reina de la salsa, gritaba azúcar? ¿Celia Cruz, La Lupe, Gloria Estefan u Olga Guillot?", "tr": "¡Celia Cruz!", "td": "Celia Cruz nació en La Habana y ganó varios premios Grammy."},
-  {"n": 80, "tema": "cine", "p": "¿Cuál fue el primer largometraje animado de Disney, estrenado en 1937?", "o": ["Pinocho", "Bambi", "Fantasía", "Blancanieves"], "c": 3, "d": "Se estrenó en diciembre de 1937 en Los Ángeles.", "tp": "¿Cuál fue el primer largometraje animado de Disney, estrenado en mil novecientos treinta y siete? ¿Pinocho, Bambi, Fantasía o Blancanieves?", "tr": "¡Blancanieves!", "td": "Se estrenó en diciembre de mil novecientos treinta y siete en Los Ángeles."},
-  {"n": 81, "tema": "arte", "p": "¿Qué arquitecto diseñó el Museo Guggenheim de Bilbao?", "o": ["Zaha Hadid", "Frank Gehry", "Norman Foster", "Le Corbusier"], "c": 1, "d": "Se inauguró en 1997 y está cubierto de láminas de titanio.", "tp": "¿Qué arquitecto diseñó el Museo Guggenheim de Bilbao? ¿Zaha Hadid, Frank Gehry, Norman Foster o Le Corbusier?", "tr": "¡Frank Gehry!", "td": "Se inauguró en mil novecientos noventa y siete y está cubierto de láminas de titanio.", "img_q": "Guggenheim Museum Bilbao", "img_modo": "revela"},
-  {"n": 82, "tema": "música", "p": "¿Cuántas sinfonías compuso Beethoven?", "o": ["Siete", "Doce", "Quince", "Nueve"], "c": 3, "d": "La última incluye el famoso «Himno a la alegría».", "tp": "¿Cuántas sinfonías compuso Beethoven? ¿Siete, doce, quince o nueve?", "tr": "¡Nueve!", "td": "La última incluye el famoso Himno a la alegría."},
-  {"n": 83, "tema": "cine", "p": "En «Intensa-Mente», ¿qué emoción es de color amarillo?", "o": ["Tristeza", "Furia", "Alegría", "Temor"], "c": 2, "d": "La película es de 2015 y ocurre dentro de la mente de una niña.", "tp": "En Intensa-Mente, ¿qué emoción es de color amarillo? ¿Tristeza, furia, alegría o temor?", "tr": "¡Alegría!", "td": "La película es de dos mil quince y ocurre dentro de la mente de una niña."},
-  {"n": 84, "tema": "arte", "p": "¿En qué país están las cuevas de Altamira, con pinturas de bisontes de la Edad de Piedra?", "o": ["Francia", "Italia", "Portugal", "España"], "c": 3, "d": "Las cuevas están en Cantabria, al norte de España.", "tp": "¿En qué país están las cuevas de Altamira, con pinturas de bisontes de la Edad de Piedra? ¿Francia, Italia, Portugal o España?", "tr": "¡España!", "td": "Las cuevas están en Cantabria, al norte de España.", "img_q": "Cave of Altamira bison", "img_modo": "revela"},
-  {"n": 85, "tema": "música", "p": "¿Qué ciudad de Estados Unidos es conocida como la cuna del jazz?", "o": ["Nueva Orleans", "Chicago", "Nueva York", "Memphis"], "c": 0, "d": "Allí se mezclaron ritmos africanos y europeos hacia 1900.", "tp": "¿Qué ciudad de Estados Unidos es conocida como la cuna del jazz? ¿Nueva Orleans, Chicago, Nueva York o Memphis?", "tr": "¡Nueva Orleans!", "td": "Allí se mezclaron ritmos africanos y europeos hacia mil novecientos."},
-  {"n": 86, "tema": "cine", "p": "¿En qué ciudad francesa se entrega la Palma de Oro?", "o": ["Venecia", "Berlín", "Toronto", "Cannes"], "c": 3, "d": "La Palma de Oro es el premio principal del Festival de Cannes.", "tp": "¿En qué ciudad francesa se entrega la Palma de Oro? ¿Venecia, Cannes, Berlín o Toronto?", "tr": "¡Cannes!", "td": "La Palma de Oro es el premio principal del Festival de Cannes."},
-  {"n": 87, "tema": "arte", "p": "¿De qué país es el artista Hokusai, autor de «La gran ola de Kanagawa»?", "o": ["China", "Corea", "Japón", "Vietnam"], "c": 2, "d": "Hokusai creó su famosa ola hacia 1831.", "tp": "¿De qué país es el artista Hokusai, autor de La gran ola de Kanagawa? ¿China, Corea, Japón o Vietnam?", "tr": "¡Japón!", "td": "Hokusai creó su famosa ola hacia mil ochocientos treinta y uno.", "img_q": "The Great Wave off Kanagawa", "img_modo": "revela"},
-  {"n": 88, "tema": "música", "p": "¿Qué compositor francés escribió la ópera «Carmen»?", "o": ["Bizet", "Verdi", "Puccini", "Rossini"], "c": 0, "d": "«Carmen» se estrenó en París en 1875.", "tp": "¿Qué compositor francés escribió la ópera Carmen? ¿Bizet, Verdi, Puccini o Rossini?", "tr": "¡Bizet!", "td": "Carmen se estrenó en París en mil ochocientos setenta y cinco."},
-  {"n": 89, "tema": "cine", "p": "¿En qué año se estrenó «El cantor de jazz», la primera película con diálogos grabados?", "o": ["1907", "1927", "1947", "1967"], "c": 1, "d": "Marcó el comienzo del cine sonoro.", "tp": "¿En qué año se estrenó El cantor de jazz, la primera película con diálogos grabados? ¿Mil novecientos siete, mil novecientos veintisiete, mil novecientos cuarenta y siete o mil novecientos sesenta y siete?", "tr": "¡Mil novecientos veintisiete!", "td": "Marcó el comienzo del cine sonoro."},
-  {"n": 90, "tema": "perú", "p": "¿Qué danza andina, Patrimonio de la UNESCO, se baila con dos hojas de metal?", "o": ["Wititi", "Diablada", "Danza de las tijeras", "Huaylas"], "c": 2, "d": "Se baila con arpa y violín en Ayacucho, Apurímac y Huancavelica.", "tp": "¿Qué danza andina del Perú, Patrimonio de la UNESCO, se baila con dos hojas de metal? ¿Wititi, diablada, danza de las tijeras o huaylas?", "tr": "¡La danza de las tijeras!", "td": "Se baila con arpa y violín en Ayacucho, Apurímac y Huancavelica."},
-  {"n": 91, "tema": "arte", "p": "¿Qué estilo del siglo XVII, con fuertes luces y sombras, usó Caravaggio?", "o": ["Gótico", "Barroco", "Románico", "Neoclasicismo"], "c": 1, "d": "Caravaggio usaba contrastes dramáticos de luz y sombra.", "tp": "¿Qué estilo del siglo diecisiete, con fuertes luces y sombras, usó Caravaggio? ¿Gótico, barroco, románico o neoclasicismo?", "tr": "¡El barroco!", "td": "Caravaggio usaba contrastes dramáticos de luz y sombra.", "img_q": "Caravaggio Supper at Emmaus", "img_modo": "revela"},
-  {"n": 92, "tema": "música", "p": "¿De qué animal se usaba el caparazón para hacer algunos charangos?", "o": ["Armadillo", "Tortuga", "Cangrejo", "Caracol"], "c": 0, "d": "Usaban el caparazón del quirquincho, un armadillo andino.", "tp": "¿De qué animal se usaba el caparazón para hacer algunos charangos? ¿Armadillo, tortuga, cangrejo o caracol?", "tr": "¡El armadillo!", "td": "Usaban el caparazón del quirquincho, un armadillo andino."},
-  {"n": 93, "tema": "cine", "p": "¿Qué actor del cine mudo creó a «Charlot», con bastón y sombrero hongo?", "o": ["Buster Keaton", "Harold Lloyd", "Charles Chaplin", "Stan Laurel"], "c": 2, "d": "Charlot también lucía un bigotito pequeño y zapatos enormes.", "tp": "¿Qué actor del cine mudo creó a Charlot, con bastón y sombrero hongo? ¿Buster Keaton, Harold Lloyd, Charles Chaplin o Stan Laurel?", "tr": "¡Charles Chaplin!", "td": "Charlot también lucía un bigotito pequeño y zapatos enormes."},
-  {"n": 94, "tema": "arte", "p": "¿Qué pintor austriaco usó láminas de oro en su cuadro «El beso»?", "o": ["Egon Schiele", "Oskar Kokoschka", "Paul Klee", "Gustav Klimt"], "c": 3, "d": "Klimt pintó «El beso» hacia 1908 y hoy está en Viena.", "tp": "¿Qué pintor austriaco usó láminas de oro en su cuadro El beso? ¿Egon Schiele, Oskar Kokoschka, Paul Klee o Gustav Klimt?", "tr": "¡Gustav Klimt!", "td": "Klimt pintó El beso hacia mil novecientos ocho y hoy está en Viena.", "img_q": "The Kiss Klimt", "img_modo": "revela"},
-  {"n": 95, "tema": "música", "p": "¿Quién fabricó los famosos violines «Stradivarius»?", "o": ["Antonio Stradivari", "Giuseppe Guarneri", "Nicolò Amati", "Niccolò Paganini"], "c": 0, "d": "Trabajó en Cremona, Italia, hace más de 300 años.", "tp": "¿Quién fabricó los famosos violines Stradivarius? ¿Antonio Stradivari, Giuseppe Guarneri, Nicolò Amati o Niccolò Paganini?", "tr": "¡Antonio Stradivari!", "td": "Trabajó en Cremona, Italia, hace más de trescientos años."},
-  {"n": 96, "tema": "cine", "p": "¿Quién compuso la música de «Star Wars», «Tiburón» y «E.T.»?", "o": ["Hans Zimmer", "John Williams", "Ennio Morricone", "Howard Shore"], "c": 1, "d": "John Williams ha ganado muchísimos premios Óscar y Grammy.", "tp": "¿Quién compuso la música de Star Wars, Tiburón y E.T.? ¿Hans Zimmer, John Williams, Ennio Morricone o Howard Shore?", "tr": "¡John Williams!", "td": "John Williams ha ganado muchísimos premios Óscar y Grammy."},
-  {"n": 97, "tema": "arte", "p": "¿En qué ciudad italiana está pintada «La última cena» de Leonardo da Vinci?", "o": ["Roma", "Florencia", "Milán", "Venecia"], "c": 2, "d": "Está pintada en la pared de un convento: Santa Maria delle Grazie.", "tp": "¿En qué ciudad italiana está pintada La última cena de Leonardo da Vinci? ¿Roma, Florencia, Milán o Venecia?", "tr": "¡Milán!", "td": "Está pintada en la pared de un convento llamado Santa Maria delle Grazie.", "img_q": "The Last Supper Leonardo da Vinci", "img_modo": "revela"},
-  {"n": 98, "tema": "música", "p": "¿Cuántas cuerdas tiene un arpa de concierto?", "o": ["27", "47", "64", "88"], "c": 1, "d": "Un arpa de concierto tiene 47 cuerdas y siete pedales.", "tp": "¿Cuántas cuerdas tiene un arpa de concierto? ¿Veintisiete, cuarenta y siete, sesenta y cuatro u ochenta y ocho?", "tr": "¡Cuarenta y siete!", "td": "Un arpa de concierto tiene cuarenta y siete cuerdas y siete pedales."},
-  {"n": 99, "tema": "cine", "p": "¿En qué año se entregaron los primeros premios Óscar?", "o": ["1912", "1929", "1945", "1960"], "c": 1, "d": "La primera ceremonia fue en 1929, en un hotel de Hollywood.", "tp": "¿En qué año se entregaron los primeros premios Óscar? ¿Mil novecientos doce, mil novecientos veintinueve, mil novecientos cuarenta y cinco o mil novecientos sesenta?", "tr": "¡Mil novecientos veintinueve!", "td": "La primera ceremonia fue en mil novecientos veintinueve, en un hotel de Hollywood."},
-  {"n": 100, "tema": "arte", "p": "¿En qué año fue robada la Mona Lisa del Louvre, para aparecer dos años después en Italia?", "o": ["1811", "1911", "1951", "1991"], "c": 1, "d": "Un empleado del museo la robó en 1911 y la recuperaron en 1913.", "tp": "¿En qué año fue robada la Mona Lisa del Louvre, para aparecer dos años después en Italia? ¿Mil ochocientos once, mil novecientos once, mil novecientos cincuenta y uno o mil novecientos noventa y uno?", "tr": "¡Mil novecientos once!", "td": "Un empleado del museo la robó en mil novecientos once y la recuperaron en mil novecientos trece."}
+  {
+   "n": 1,
+   "tema": "música",
+   "p": "¿Cuántas notas musicales forman la escala básica: do, re, mi, fa…?",
+   "o": [
+    "Cinco",
+    "Siete",
+    "Nueve",
+    "Doce"
+   ],
+   "c": 1,
+   "d": "Son do, re, mi, fa, sol, la y si.",
+   "tp": "¿Cuántas notas musicales forman la escala básica: do, re, mi, fa y las demás? ¿Cinco, siete, nueve o doce?",
+   "tr": "¡Siete!",
+   "td": "Son do, re, mi, fa, sol, la y si."
+  },
+  {
+   "n": 2,
+   "tema": "arte",
+   "p": "¿Qué dos colores se mezclan en pintura para obtener el verde?",
+   "o": [
+    "Azul y amarillo",
+    "Rojo y azul",
+    "Rojo y amarillo",
+    "Blanco y negro"
+   ],
+   "c": 0,
+   "d": "El azul con el amarillo forma el verde; el rojo con el azul, el morado.",
+   "tp": "¿Qué dos colores se mezclan en pintura para obtener el verde? ¿Azul y amarillo, rojo y azul, rojo y amarillo, o blanco y negro?",
+   "tr": "¡Azul y amarillo!",
+   "td": "El azul con el amarillo forma el verde; el rojo con el azul forma el morado."
+  },
+  {
+   "n": 3,
+   "tema": "cine",
+   "p": "¿Cómo se llama el ratón más famoso de Disney?",
+   "o": [
+    "Jerry",
+    "Speedy",
+    "Mickey Mouse",
+    "Remy"
+   ],
+   "c": 2,
+   "d": "Mickey debutó con sonido en «Steamboat Willie», de 1928.",
+   "tp": "¿Cómo se llama el ratón más famoso de Disney? ¿Jerry, Speedy, Mickey Mouse o Remy?",
+   "tr": "¡Mickey Mouse!",
+   "td": "Mickey debutó con sonido en «Steamboat Willie», un corto de mil novecientos veintiocho."
+  },
+  {
+   "n": 4,
+   "tema": "música",
+   "p": "¿Qué instrumento de cuerda se toca con un arco?",
+   "o": [
+    "Flauta",
+    "Tambor",
+    "Trompeta",
+    "Violín"
+   ],
+   "c": 3,
+   "d": "El arco del violín lleva crines de caballo.",
+   "tp": "¿Qué instrumento de cuerda se toca con un arco? ¿Flauta, tambor, trompeta o violín?",
+   "tr": "¡El violín!",
+   "td": "El arco del violín lleva crines de caballo.",
+   "img_q": "Violin",
+   "img_modo": "revela"
+  },
+  {
+   "n": 5,
+   "tema": "arte",
+   "p": "¿Cómo se llama un cuadro donde el pintor se retrata a sí mismo?",
+   "o": [
+    "Bodegón",
+    "Paisaje",
+    "Mural",
+    "Autorretrato"
+   ],
+   "c": 3,
+   "d": "Rembrandt y Frida Kahlo pintaron muchísimos autorretratos.",
+   "tp": "¿Cómo se llama un cuadro donde el pintor se retrata a sí mismo? ¿Bodegón, autorretrato, paisaje o mural?",
+   "tr": "¡Autorretrato!",
+   "td": "Rembrandt y Frida Kahlo pintaron muchísimos autorretratos."
+  },
+  {
+   "n": 6,
+   "tema": "cine",
+   "p": "¿De qué color es el ogro Shrek?",
+   "o": [
+    "Azul",
+    "Naranja",
+    "Gris",
+    "Verde"
+   ],
+   "c": 3,
+   "d": "La primera película de Shrek se estrenó en 2001.",
+   "tp": "¿De qué color es el ogro Shrek? ¿Azul, naranja, gris o verde?",
+   "tr": "¡Verde!",
+   "td": "La primera película de Shrek se estrenó en dos mil uno."
+  },
+  {
+   "n": 7,
+   "tema": "música",
+   "p": "¿Qué instrumento se toca golpeando con baquetas?",
+   "o": [
+    "Violín",
+    "Guitarra",
+    "Batería",
+    "Arpa"
+   ],
+   "c": 2,
+   "d": "Una batería reúne tambores y platillos.",
+   "tp": "¿Qué instrumento se toca golpeando con baquetas? ¿Violín, guitarra, batería o arpa?",
+   "tr": "¡La batería!",
+   "td": "Una batería reúne tambores y platillos que se tocan con baquetas.",
+   "img_q": "Drum kit",
+   "img_modo": "revela"
+  },
+  {
+   "n": 8,
+   "tema": "cine",
+   "p": "¿Qué animal es Nemo en la película de Pixar?",
+   "o": [
+    "Pez payaso",
+    "Tiburón",
+    "Delfín",
+    "Tortuga"
+   ],
+   "c": 0,
+   "d": "Nemo vive en una anémona de mar.",
+   "tp": "¿Qué animal es Nemo en la película de Pixar? ¿Pez payaso, tiburón, delfín o tortuga?",
+   "tr": "¡Un pez payaso!",
+   "td": "Nemo vive en una anémona de mar."
+  },
+  {
+   "n": 9,
+   "tema": "arte",
+   "p": "¿Cómo se llama la tabla donde el pintor mezcla sus colores?",
+   "o": [
+    "Bandeja",
+    "Pizarra",
+    "Cuaderno",
+    "Paleta"
+   ],
+   "c": 3,
+   "d": "La paleta suele tener un agujero para el pulgar.",
+   "tp": "¿Cómo se llama la tabla donde el pintor mezcla sus colores? ¿Bandeja, paleta, pizarra o cuaderno?",
+   "tr": "¡La paleta!",
+   "td": "La paleta suele tener un agujero para el pulgar.",
+   "img_q": "Paint palette",
+   "img_modo": "revela"
+  },
+  {
+   "n": 10,
+   "tema": "perú",
+   "p": "¿Cuál es el baile peruano que se baila en pareja con pañuelos?",
+   "o": [
+    "Tango",
+    "Bachata",
+    "Polka",
+    "Marinera"
+   ],
+   "c": 3,
+   "d": "La marinera es conocida como «la reina de los bailes peruanos».",
+   "tp": "¿Cuál es el baile peruano que se baila en pareja con pañuelos? ¿Tango, bachata, polka o marinera?",
+   "tr": "¡La marinera!",
+   "td": "La marinera es conocida como la reina de los bailes peruanos."
+  },
+  {
+   "n": 11,
+   "tema": "arte",
+   "ronda": "misteriosa",
+   "p": "¿Qué famoso edificio es este?",
+   "o": [
+    "Alhambra",
+    "Palacio Real",
+    "Sagrada Familia",
+    "Catedral de Burgos"
+   ],
+   "c": 2,
+   "img_q": "Sagrada Familia Barcelona",
+   "img_modo": "pregunta",
+   "d": "Empezó a construirse en 1882 y todavía sigue en obras.",
+   "tp": "¿Qué famoso edificio es este? ¿La Alhambra, el Palacio Real, la Sagrada Familia o la Catedral de Burgos?",
+   "tr": "¡La Sagrada Familia!",
+   "td": "Empezó a construirse en mil ochocientos ochenta y dos y todavía sigue en obras."
+  },
+  {
+   "n": 12,
+   "tema": "música",
+   "ronda": "misteriosa",
+   "p": "¿Cómo se llama este instrumento?",
+   "o": [
+    "Lira",
+    "Banjo",
+    "Mandolina",
+    "Arpa"
+   ],
+   "c": 3,
+   "img_q": "Concert harp",
+   "img_modo": "pregunta",
+   "d": "El arpa es uno de los instrumentos más antiguos que existen.",
+   "tp": "¿Cómo se llama este instrumento? ¿Lira, banjo, mandolina o arpa?",
+   "tr": "¡El arpa!",
+   "td": "El arpa es uno de los instrumentos más antiguos que existen."
+  },
+  {
+   "n": 13,
+   "tema": "arte",
+   "ronda": "misteriosa",
+   "p": "¿Qué famosa pintura es esta?",
+   "o": [
+    "El beso",
+    "El grito",
+    "Las meninas",
+    "Los girasoles"
+   ],
+   "c": 1,
+   "img_q": "The Scream Munch 1893",
+   "img_modo": "pregunta",
+   "d": "Edvard Munch pintó varias versiones de «El grito» entre 1893 y 1910.",
+   "tp": "¿Qué famosa pintura es esta? ¿El beso, el grito, las meninas o los girasoles?",
+   "tr": "¡El grito!",
+   "td": "Edvard Munch pintó varias versiones de El grito entre mil ochocientos noventa y tres y mil novecientos diez."
+  },
+  {
+   "n": 14,
+   "tema": "cine",
+   "p": "¿Qué fiesta mexicana celebra la película «Coco»?",
+   "o": [
+    "Carnaval",
+    "Halloween",
+    "Navidad",
+    "Día de Muertos"
+   ],
+   "c": 3,
+   "d": "«Coco» se estrenó en 2017 y se inspira en tradiciones de México.",
+   "tp": "¿Qué fiesta mexicana celebra la película Coco? ¿Carnaval, Halloween, Navidad o Día de Muertos?",
+   "tr": "¡El Día de Muertos!",
+   "td": "Coco se estrenó en dos mil diecisiete y se inspira en tradiciones de México."
+  },
+  {
+   "n": 15,
+   "tema": "música",
+   "p": "¿Qué instrumento peruano es una caja de madera donde se sienta quien lo toca?",
+   "o": [
+    "Quena",
+    "Charango",
+    "Cajón",
+    "Bombo"
+   ],
+   "c": 2,
+   "d": "Nació entre comunidades afroperuanas y hoy se toca en todo el mundo.",
+   "tp": "¿Qué instrumento peruano es una caja de madera donde se sienta quien lo toca? ¿Quena, charango, cajón o bombo?",
+   "tr": "¡El cajón!",
+   "td": "Nació entre comunidades afroperuanas y hoy se toca en todo el mundo.",
+   "img_q": "Cajón peruano",
+   "img_modo": "revela"
+  },
+  {
+   "n": 16,
+   "tema": "arte",
+   "p": "¿Qué pintor español creó el famoso cuadro «Guernica»?",
+   "o": [
+    "Picasso",
+    "Dalí",
+    "Goya",
+    "Miró"
+   ],
+   "c": 0,
+   "d": "Picasso lo pintó en 1937 y mide casi 8 metros de largo.",
+   "tp": "¿Qué pintor español creó el famoso cuadro Guernica? ¿Picasso, Dalí, Goya o Miró?",
+   "tr": "¡Picasso!",
+   "td": "Picasso lo pintó en mil novecientos treinta y siete y mide casi ocho metros de largo."
+  },
+  {
+   "n": 17,
+   "tema": "cine",
+   "p": "¿Cómo se llama el robot de Pixar que limpia la Tierra?",
+   "o": [
+    "R2-D2",
+    "WALL·E",
+    "Baymax",
+    "Bumblebee"
+   ],
+   "c": 1,
+   "d": "«WALL·E» se estrenó en 2008.",
+   "tp": "¿Cómo se llama el robot de Pixar que limpia la Tierra? ¿R2-D2, Wall-E, Baymax o Bumblebee?",
+   "tr": "¡WALL·E!",
+   "td": "Wall-E se estrenó en dos mil ocho."
+  },
+  {
+   "n": 18,
+   "tema": "música",
+   "p": "¿Cómo se llama la persona que dirige una orquesta?",
+   "o": [
+    "Solista",
+    "Locutor",
+    "Productor",
+    "Director"
+   ],
+   "c": 3,
+   "d": "El director usa una batuta para marcar el ritmo.",
+   "tp": "¿Cómo se llama la persona que dirige una orquesta? ¿Solista, locutor, productor o director?",
+   "tr": "¡El director!",
+   "td": "El director usa una batuta para marcar el ritmo."
+  },
+  {
+   "n": 19,
+   "tema": "arte",
+   "p": "¿De qué país es la pintora Frida Kahlo?",
+   "o": [
+    "México",
+    "Colombia",
+    "Chile",
+    "España"
+   ],
+   "c": 0,
+   "d": "Frida Kahlo nació en 1907 en Coyoacán, México.",
+   "tp": "¿De qué país es la pintora Frida Kahlo? ¿México, Colombia, Chile o España?",
+   "tr": "¡México!",
+   "td": "Frida Kahlo nació en mil novecientos siete en Coyoacán, México."
+  },
+  {
+   "n": 20,
+   "tema": "cine",
+   "p": "¿En qué ciudad está Hollywood, la capital del cine?",
+   "o": [
+    "Nueva York",
+    "Miami",
+    "Los Ángeles",
+    "Chicago"
+   ],
+   "c": 2,
+   "d": "Hollywood es un barrio de Los Ángeles, California.",
+   "tp": "¿En qué ciudad está Hollywood, la capital del cine? ¿Nueva York, Miami, Los Ángeles o Chicago?",
+   "tr": "¡Los Ángeles!",
+   "td": "Hollywood es un barrio de Los Ángeles, en California.",
+   "img_q": "Hollywood Sign",
+   "img_modo": "revela"
+  },
+  {
+   "n": 21,
+   "tema": "música",
+   "ronda": "vf",
+   "p": "El violonchelo es más pequeño que el violín.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "El violonchelo es mucho más grande y se toca sentado.",
+   "tp": "¿Verdadero o falso? El violonchelo es más pequeño que el violín.",
+   "tr": "¡Falso! Es bastante más grande.",
+   "td": "El violonchelo es mucho más grande y se toca sentado."
+  },
+  {
+   "n": 22,
+   "tema": "arte",
+   "ronda": "vf",
+   "p": "La Mona Lisa se exhibe en el Museo del Louvre, en París.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Es una de las obras más visitadas del mundo.",
+   "tp": "¿Verdadero o falso? La Mona Lisa se exhibe en el Museo del Louvre, en París.",
+   "tr": "¡Verdadero! Allí la visitan millones de personas.",
+   "td": "Es una de las obras más visitadas del mundo."
+  },
+  {
+   "n": 23,
+   "tema": "cine",
+   "ronda": "vf",
+   "p": "«Frozen» es una película de Pixar.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "«Frozen» es de Walt Disney Animation Studios, no de Pixar.",
+   "tp": "¿Verdadero o falso? Frozen es una película de Pixar.",
+   "tr": "¡Falso! Es de Walt Disney Animation Studios.",
+   "td": "Frozen es de Walt Disney Animation Studios, no de Pixar."
+  },
+  {
+   "n": 24,
+   "tema": "música",
+   "p": "¿De qué país era la banda The Beatles?",
+   "o": [
+    "Estados Unidos",
+    "Irlanda",
+    "Australia",
+    "Reino Unido"
+   ],
+   "c": 3,
+   "d": "Se formaron en Liverpool, Inglaterra, en 1960.",
+   "tp": "¿De qué país era la banda The Beatles? ¿Estados Unidos, Irlanda, Australia o Reino Unido?",
+   "tr": "¡Reino Unido!",
+   "td": "Se formaron en Liverpool, Inglaterra, en mil novecientos sesenta."
+  },
+  {
+   "n": 25,
+   "tema": "arte",
+   "p": "¿Qué pintor es famoso por sus relojes derretidos?",
+   "o": [
+    "Salvador Dalí",
+    "Joan Miró",
+    "Diego Velázquez",
+    "Francisco de Goya"
+   ],
+   "c": 0,
+   "d": "«La persistencia de la memoria» de Dalí es de 1931.",
+   "tp": "¿Qué pintor es famoso por sus relojes derretidos? ¿Salvador Dalí, Joan Miró, Diego Velázquez o Francisco de Goya?",
+   "tr": "¡Salvador Dalí!",
+   "td": "La persistencia de la memoria, de Dalí, es de mil novecientos treinta y uno."
+  },
+  {
+   "n": 26,
+   "tema": "cine",
+   "p": "¿Qué oso, llegado del Perú, vive en Londres y come mermelada?",
+   "o": [
+    "Baloo",
+    "Paddington",
+    "Winnie Pooh",
+    "Yogui"
+   ],
+   "c": 1,
+   "d": "Paddington viene del «Perú más profundo», según su historia.",
+   "tp": "¿Qué oso, llegado del Perú, vive en Londres y come mermelada? ¿Baloo, Paddington, Winnie Pooh o Yogui?",
+   "tr": "¡Paddington!",
+   "td": "Paddington viene del Perú más profundo, según su historia."
+  },
+  {
+   "n": 27,
+   "tema": "perú",
+   "p": "¿Quién compuso el vals «La flor de la canela»?",
+   "o": [
+    "Yma Sumac",
+    "Eva Ayllón",
+    "Chabuca Granda",
+    "Susana Baca"
+   ],
+   "c": 2,
+   "d": "Es un vals peruano que le canta a una mujer limeña.",
+   "tp": "¿Quién compuso el vals La flor de la canela? ¿Yma Sumac, Eva Ayllón, Chabuca Granda o Susana Baca?",
+   "tr": "¡Chabuca Granda!",
+   "td": "Es un vals peruano que le canta a una mujer limeña."
+  },
+  {
+   "n": 28,
+   "tema": "arte",
+   "p": "¿Qué técnica de pintura usa agua y deja colores transparentes?",
+   "o": [
+    "Acuarela",
+    "Óleo",
+    "Carboncillo",
+    "Pastel"
+   ],
+   "c": 0,
+   "d": "La acuarela se diluye con agua y se seca rápido.",
+   "tp": "¿Qué técnica de pintura usa agua y deja colores transparentes? ¿Acuarela, óleo, carboncillo o pastel?",
+   "tr": "¡La acuarela!",
+   "td": "La acuarela se diluye con agua y se seca rápido.",
+   "img_q": "Watercolor painting landscape",
+   "img_modo": "revela"
+  },
+  {
+   "n": 29,
+   "tema": "cine",
+   "p": "¿En qué película animada aparece un león llamado Simba?",
+   "o": [
+    "Madagascar",
+    "Tarzán",
+    "Bambi",
+    "El rey león"
+   ],
+   "c": 3,
+   "d": "«El rey león» se estrenó en 1994.",
+   "tp": "¿En qué película animada aparece un león llamado Simba? ¿Madagascar, El rey león, Tarzán o Bambi?",
+   "tr": "¡El rey león!",
+   "td": "El rey león se estrenó en mil novecientos noventa y cuatro."
+  },
+  {
+   "n": 30,
+   "tema": "música",
+   "p": "¿Qué género musical nació en Jamaica y es famoso por Bob Marley?",
+   "o": [
+    "Salsa",
+    "Bolero",
+    "Bossa nova",
+    "Reggae"
+   ],
+   "c": 3,
+   "d": "Bob Marley llevó el reggae a todo el mundo.",
+   "tp": "¿Qué género musical nació en Jamaica y es famoso por Bob Marley? ¿Salsa, bolero, bossa nova o reggae?",
+   "tr": "¡El reggae!",
+   "td": "Bob Marley llevó el reggae a todo el mundo."
+  },
+  {
+   "n": 31,
+   "tema": "arte",
+   "p": "¿Qué artista colombiano es famoso por sus figuras redondas y gorditas?",
+   "o": [
+    "Rufino Tamayo",
+    "Wifredo Lam",
+    "Fernando Botero",
+    "Joaquín Torres García"
+   ],
+   "c": 2,
+   "d": "Fernando Botero nació en Medellín, Colombia.",
+   "tp": "¿Qué artista colombiano es famoso por sus figuras redondas y gorditas? ¿Rufino Tamayo, Wifredo Lam, Fernando Botero o Joaquín Torres García?",
+   "tr": "¡Fernando Botero!",
+   "td": "Fernando Botero nació en Medellín, Colombia.",
+   "img_q": "Botero sculpture Medellín",
+   "img_modo": "revela"
+  },
+  {
+   "n": 32,
+   "tema": "cine",
+   "p": "¿Qué personaje de «Star Wars» dice «Yo soy tu padre»?",
+   "o": [
+    "Palpatine",
+    "Darth Vader",
+    "Kylo Ren",
+    "Yoda"
+   ],
+   "c": 1,
+   "d": "La frase es de «El imperio contraataca», de 1980.",
+   "tp": "¿Qué personaje de Star Wars dice: yo soy tu padre? ¿Palpatine, Darth Vader, Kylo Ren o Yoda?",
+   "tr": "¡Darth Vader!",
+   "td": "La frase es de El imperio contraataca, de mil novecientos ochenta."
+  },
+  {
+   "n": 33,
+   "tema": "música",
+   "p": "¿De qué país es la samba, ritmo estrella del carnaval de Río?",
+   "o": [
+    "Cuba",
+    "Brasil",
+    "Portugal",
+    "Argentina"
+   ],
+   "c": 1,
+   "d": "Río de Janeiro celebra el carnaval con desfiles de samba.",
+   "tp": "¿De qué país es la samba, ritmo estrella del carnaval de Río? ¿Cuba, Brasil, Portugal o Argentina?",
+   "tr": "¡Brasil!",
+   "td": "Río de Janeiro celebra el carnaval con desfiles de samba."
+  },
+  {
+   "n": 34,
+   "tema": "arte",
+   "p": "¿Qué arquitecto catalán diseñó la Sagrada Familia?",
+   "o": [
+    "Santiago Calatrava",
+    "Pablo Picasso",
+    "Salvador Dalí",
+    "Antoni Gaudí"
+   ],
+   "c": 3,
+   "d": "Gaudí trabajó en la Sagrada Familia durante más de 40 años.",
+   "tp": "¿Qué arquitecto catalán diseñó la Sagrada Familia? ¿Santiago Calatrava, Pablo Picasso, Salvador Dalí o Antoni Gaudí?",
+   "tr": "¡Antoni Gaudí!",
+   "td": "Gaudí trabajó en la Sagrada Familia durante más de cuarenta años."
+  },
+  {
+   "n": 35,
+   "tema": "cine",
+   "p": "¿Qué estudio creó «Toy Story», la primera película animada por computadora?",
+   "o": [
+    "DreamWorks",
+    "Pixar",
+    "Illumination",
+    "Ghibli"
+   ],
+   "c": 1,
+   "d": "«Toy Story» (1995) fue el primer largometraje totalmente animado por computadora.",
+   "tp": "¿Qué estudio creó Toy Story, la primera película animada por computadora? ¿DreamWorks, Pixar, Illumination o Ghibli?",
+   "tr": "¡Pixar!",
+   "td": "Toy Story, de mil novecientos noventa y cinco, fue el primer largometraje totalmente animado por computadora."
+  },
+  {
+   "n": 36,
+   "tema": "música",
+   "p": "¿Cuántos músicos forman un quinteto?",
+   "o": [
+    "Tres",
+    "Cuatro",
+    "Cinco",
+    "Seis"
+   ],
+   "c": 2,
+   "d": "Un trío tiene 3 músicos, un cuarteto 4 y un quinteto 5.",
+   "tp": "¿Cuántos músicos forman un quinteto? ¿Tres, cuatro, cinco o seis?",
+   "tr": "¡Cinco!",
+   "td": "Un trío tiene tres músicos, un cuarteto cuatro y un quinteto cinco."
+  },
+  {
+   "n": 37,
+   "tema": "arte",
+   "p": "¿En qué ciudad está el Rijksmuseum, que guarda «La ronda de noche»?",
+   "o": [
+    "Ámsterdam",
+    "Bruselas",
+    "Viena",
+    "Berlín"
+   ],
+   "c": 0,
+   "d": "Rembrandt pintó «La ronda de noche» en 1642.",
+   "tp": "¿En qué ciudad está el Rijksmuseum, que guarda La ronda de noche? ¿Ámsterdam, Bruselas, Viena o Berlín?",
+   "tr": "¡Ámsterdam!",
+   "td": "Rembrandt pintó La ronda de noche en mil seiscientos cuarenta y dos.",
+   "img_q": "Rijksmuseum Amsterdam",
+   "img_modo": "revela"
+  },
+  {
+   "n": 38,
+   "tema": "cine",
+   "p": "¿Cómo se llama la ciudad donde vive Batman?",
+   "o": [
+    "Metrópolis",
+    "Springfield",
+    "Ciudad Gótica",
+    "Nueva Babilonia"
+   ],
+   "c": 2,
+   "d": "Su nombre en inglés es Gotham City.",
+   "tp": "¿Cómo se llama la ciudad donde vive Batman? ¿Metrópolis, Springfield, Ciudad Gótica o Nueva Babilonia?",
+   "tr": "¡Ciudad Gótica!",
+   "td": "Su nombre en inglés es Gotham City."
+  },
+  {
+   "n": 39,
+   "tema": "música",
+   "p": "¿Qué compositor escribió la «Pequeña serenata nocturna»?",
+   "o": [
+    "Bach",
+    "Chopin",
+    "Vivaldi",
+    "Mozart"
+   ],
+   "c": 3,
+   "d": "Mozart compuso más de 600 obras y murió a los 35 años.",
+   "tp": "¿Qué compositor escribió la Pequeña serenata nocturna? ¿Bach, Mozart, Chopin o Vivaldi?",
+   "tr": "¡Mozart!",
+   "td": "Mozart compuso más de seiscientas obras y murió a los treinta y cinco años."
+  },
+  {
+   "n": 40,
+   "tema": "arte",
+   "p": "¿Qué pintor español pintó «Las meninas»?",
+   "o": [
+    "Goya",
+    "El Greco",
+    "Murillo",
+    "Velázquez"
+   ],
+   "c": 3,
+   "d": "Velázquez pintó «Las meninas» en 1656; hoy está en el Museo del Prado.",
+   "tp": "¿Qué pintor español pintó Las meninas? ¿Goya, El Greco, Murillo o Velázquez?",
+   "tr": "¡Velázquez!",
+   "td": "Velázquez pintó Las meninas en mil seiscientos cincuenta y seis; hoy está en el Museo del Prado.",
+   "img_q": "Las Meninas Velázquez",
+   "img_modo": "revela"
+  },
+  {
+   "n": 41,
+   "tema": "música",
+   "ronda": "relampago",
+   "p": "¿Cuántas cuerdas tiene un violín?",
+   "o": [
+    "Dos",
+    "Cuatro",
+    "Seis",
+    "Ocho"
+   ],
+   "c": 1,
+   "d": "Tiene cuatro cuerdas.",
+   "tp": "¿Cuántas cuerdas tiene un violín? ¿Dos, cuatro, seis u ocho?",
+   "tr": "¡Cuatro!",
+   "td": "Tiene cuatro cuerdas."
+  },
+  {
+   "n": 42,
+   "tema": "arte",
+   "ronda": "relampago",
+   "p": "¿Qué color sale de mezclar rojo y azul?",
+   "o": [
+    "Verde",
+    "Naranja",
+    "Café",
+    "Morado"
+   ],
+   "c": 3,
+   "d": "Rojo y azul dan morado.",
+   "tp": "¿Qué color sale de mezclar rojo y azul? ¿Verde, naranja, café o morado?",
+   "tr": "¡Morado!",
+   "td": "Rojo y azul dan morado."
+  },
+  {
+   "n": 43,
+   "tema": "cine",
+   "ronda": "relampago",
+   "p": "¿Qué princesa perdió una zapatilla de cristal?",
+   "o": [
+    "Cenicienta",
+    "Bella",
+    "Aurora",
+    "Ariel"
+   ],
+   "c": 0,
+   "d": "La perdió al huir del baile.",
+   "tp": "¿Qué princesa perdió una zapatilla de cristal? ¿Cenicienta, Bella, Aurora o Ariel?",
+   "tr": "¡Cenicienta!",
+   "td": "La perdió al huir del baile."
+  },
+  {
+   "n": 44,
+   "tema": "cine",
+   "ronda": "relampago",
+   "p": "¿Qué animal es Dumbo?",
+   "o": [
+    "Ratón",
+    "Mono",
+    "Elefante",
+    "Oso"
+   ],
+   "c": 2,
+   "d": "Vuela moviendo sus enormes orejas.",
+   "tp": "¿Qué animal es Dumbo? ¿Ratón, mono, elefante u oso?",
+   "tr": "¡Elefante!",
+   "td": "Vuela moviendo sus enormes orejas."
+  },
+  {
+   "n": 45,
+   "tema": "cine",
+   "ronda": "relampago",
+   "p": "¿Cómo se llama el vaquero de Toy Story?",
+   "o": [
+    "Buzz",
+    "Rex",
+    "Slinky",
+    "Woody"
+   ],
+   "c": 3,
+   "d": "Woody es amigo de Buzz Lightyear.",
+   "tp": "¿Cómo se llama el vaquero de Toy Story? ¿Buzz, Rex, Slinky o Woody?",
+   "tr": "¡Woody!",
+   "td": "Woody es amigo de Buzz Lightyear."
+  },
+  {
+   "n": 46,
+   "tema": "cine",
+   "p": "¿Cómo se llama la heroína de Disney que navega por el océano con el semidiós Maui?",
+   "o": [
+    "Mérida",
+    "Moana",
+    "Mulán",
+    "Pocahontas"
+   ],
+   "c": 1,
+   "d": "«Moana» se estrenó en 2016 y se inspira en culturas del Pacífico.",
+   "tp": "¿Cómo se llama la heroína de Disney que navega por el océano con el semidiós Maui? ¿Mérida, Moana, Mulán o Pocahontas?",
+   "tr": "¡Moana!",
+   "td": "Moana se estrenó en dos mil dieciséis y se inspira en culturas del Pacífico."
+  },
+  {
+   "n": 47,
+   "tema": "arte",
+   "p": "¿Cómo se llama el arte de escribir de forma muy bella a mano?",
+   "o": [
+    "Caligrafía",
+    "Heráldica",
+    "Cerámica",
+    "Tapicería"
+   ],
+   "c": 0,
+   "d": "En China y Japón la caligrafía se considera un arte mayor.",
+   "tp": "¿Cómo se llama el arte de escribir de forma muy bella a mano? ¿Caligrafía, heráldica, cerámica o tapicería?",
+   "tr": "¡La caligrafía!",
+   "td": "En China y Japón la caligrafía se considera un arte mayor."
+  },
+  {
+   "n": 48,
+   "tema": "música",
+   "p": "¿Qué instrumento gigante de tubos, teclas y pedales suena en las catedrales?",
+   "o": [
+    "Acordeón",
+    "Gaita",
+    "Órgano",
+    "Tuba"
+   ],
+   "c": 2,
+   "d": "Algunos órganos tienen miles de tubos.",
+   "tp": "¿Qué instrumento gigante de tubos, teclas y pedales suena en las catedrales? ¿Acordeón, gaita, órgano o tuba?",
+   "tr": "¡El órgano!",
+   "td": "Algunos órganos tienen miles de tubos.",
+   "img_q": "Pipe organ church",
+   "img_modo": "revela"
+  },
+  {
+   "n": 49,
+   "tema": "cine",
+   "p": "¿Qué director creó «Tiburón» y «E.T., el extraterrestre»?",
+   "o": [
+    "Steven Spielberg",
+    "George Lucas",
+    "Tim Burton",
+    "James Cameron"
+   ],
+   "c": 0,
+   "d": "«E.T.» se estrenó en 1982 y su bicicleta voladora es inolvidable.",
+   "tp": "¿Qué director creó Tiburón y E.T., el extraterrestre? ¿Steven Spielberg, George Lucas, Tim Burton o James Cameron?",
+   "tr": "¡Steven Spielberg!",
+   "td": "E.T. se estrenó en mil novecientos ochenta y dos y su bicicleta voladora es inolvidable."
+  },
+  {
+   "n": 50,
+   "tema": "arte",
+   "p": "¿Qué técnica forma imágenes con piezas pequeñas de piedra o vidrio?",
+   "o": [
+    "Collage",
+    "Grabado",
+    "Mosaico",
+    "Fresco"
+   ],
+   "c": 2,
+   "d": "Los romanos decoraron casas y templos con mosaicos.",
+   "tp": "¿Qué técnica forma imágenes con piezas pequeñas de piedra o vidrio? ¿Collage, grabado, mosaico o fresco?",
+   "tr": "¡El mosaico!",
+   "td": "Los romanos decoraron casas y templos con mosaicos.",
+   "img_q": "Roman mosaic",
+   "img_modo": "revela"
+  },
+  {
+   "n": 51,
+   "tema": "música",
+   "p": "¿En qué país nació la cumbia?",
+   "o": [
+    "Cuba",
+    "México",
+    "Bolivia",
+    "Colombia"
+   ],
+   "c": 3,
+   "d": "Nació en la costa caribe colombiana y se extendió por América.",
+   "tp": "¿En qué país nació la cumbia? ¿Cuba, México, Bolivia o Colombia?",
+   "tr": "¡Colombia!",
+   "td": "Nació en la costa caribe colombiana y se extendió por toda América."
+  },
+  {
+   "n": 52,
+   "tema": "perú",
+   "p": "¿Cuál es un baile típico de los Andes peruanos?",
+   "o": [
+    "Vals",
+    "Huayno",
+    "Festejo",
+    "Polka"
+   ],
+   "c": 1,
+   "d": "El huayno se baila con zapateo al son de quena, charango y arpa.",
+   "tp": "¿Cuál es un baile típico de los Andes peruanos? ¿Vals, huayno, festejo o polka?",
+   "tr": "¡El huayno!",
+   "td": "El huayno se baila con zapateo al son de quena, charango y arpa."
+  },
+  {
+   "n": 53,
+   "tema": "arte",
+   "p": "¿Qué museo de Nueva York tiene un edificio en espiral diseñado por Frank Lloyd Wright?",
+   "o": [
+    "MoMA",
+    "The Met",
+    "Guggenheim",
+    "Whitney"
+   ],
+   "c": 2,
+   "d": "El Guggenheim de Nueva York se inauguró en 1959.",
+   "tp": "¿Qué museo de Nueva York tiene un edificio en espiral diseñado por Frank Lloyd Wright? ¿MoMA, The Met, Guggenheim o Whitney?",
+   "tr": "¡El Guggenheim!",
+   "td": "El Guggenheim de Nueva York se inauguró en mil novecientos cincuenta y nueve.",
+   "img_q": "Guggenheim Museum New York",
+   "img_modo": "revela"
+  },
+  {
+   "n": 54,
+   "tema": "cine",
+   "p": "¿Qué película de 1939 tiene a Dorothy y un camino de baldosas amarillas?",
+   "o": [
+    "El mago de Oz",
+    "Peter Pan",
+    "Alicia",
+    "Pinocho"
+   ],
+   "c": 0,
+   "d": "En la película, el mundo de Oz pasa del blanco y negro al color.",
+   "tp": "¿Qué película de mil novecientos treinta y nueve tiene a Dorothy y un camino de baldosas amarillas? ¿El mago de Oz, Peter Pan, Alicia o Pinocho?",
+   "tr": "¡El mago de Oz!",
+   "td": "En la película, el mundo de Oz pasa del blanco y negro al color."
+  },
+  {
+   "n": 55,
+   "tema": "música",
+   "p": "¿Quién escribió la canción «Gracias a la vida»?",
+   "o": [
+    "Mercedes Sosa",
+    "Gloria Estefan",
+    "Chavela Vargas",
+    "Violeta Parra"
+   ],
+   "c": 3,
+   "d": "Violeta Parra, de Chile, la escribió y Mercedes Sosa la hizo célebre.",
+   "tp": "¿Quién escribió la canción Gracias a la vida? ¿Mercedes Sosa, Gloria Estefan, Chavela Vargas o Violeta Parra?",
+   "tr": "¡Violeta Parra!",
+   "td": "Violeta Parra, de Chile, la escribió y Mercedes Sosa la hizo célebre."
+  },
+  {
+   "n": 56,
+   "tema": "música",
+   "ronda": "vf",
+   "p": "Beethoven siguió componiendo aunque se quedó sordo.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Compuso obras maestras cuando ya casi no oía nada.",
+   "tp": "¿Verdadero o falso? Beethoven siguió componiendo aunque se quedó sordo.",
+   "tr": "¡Verdadero! Compuso obras maestras casi sin oír.",
+   "td": "Compuso obras maestras cuando ya casi no oía nada."
+  },
+  {
+   "n": 57,
+   "tema": "música",
+   "ronda": "vf",
+   "p": "El flamenco nació en el norte de España, en Galicia.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "El flamenco nació en Andalucía, en el sur de España.",
+   "tp": "¿Verdadero o falso? El flamenco nació en el norte de España, en Galicia.",
+   "tr": "¡Falso! Nació en Andalucía, en el sur.",
+   "td": "El flamenco nació en Andalucía, en el sur de España."
+  },
+  {
+   "n": 58,
+   "tema": "arte",
+   "ronda": "vf",
+   "p": "Claude Monet pintó muchas veces los nenúfares de su jardín.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Pintó más de 200 cuadros de nenúfares en su jardín de Giverny.",
+   "tp": "¿Verdadero o falso? Claude Monet pintó muchas veces los nenúfares de su jardín.",
+   "tr": "¡Verdadero! Pintó más de doscientos cuadros de nenúfares.",
+   "td": "Pintó más de doscientos cuadros de nenúfares en su jardín de Giverny."
+  },
+  {
+   "n": 59,
+   "tema": "música",
+   "p": "¿Quién compuso «Las cuatro estaciones»?",
+   "o": [
+    "Bach",
+    "Vivaldi",
+    "Haydn",
+    "Verdi"
+   ],
+   "c": 1,
+   "d": "Vivaldi era de Venecia y lo apodaron «el cura rojo» por su pelo.",
+   "tp": "¿Quién compuso Las cuatro estaciones? ¿Bach, Vivaldi, Haydn o Verdi?",
+   "tr": "¡Vivaldi!",
+   "td": "Vivaldi era de Venecia y lo apodaron el cura rojo por su pelo."
+  },
+  {
+   "n": 60,
+   "tema": "cine",
+   "p": "¿Qué estudio de animación japonés hizo «El viaje de Chihiro»?",
+   "o": [
+    "Pixar",
+    "Toei",
+    "Studio Ghibli",
+    "Sunrise"
+   ],
+   "c": 2,
+   "d": "Ganó el Óscar a mejor película animada en 2003.",
+   "tp": "¿Qué estudio de animación japonés hizo El viaje de Chihiro? ¿Pixar, Toei, Studio Ghibli o Sunrise?",
+   "tr": "¡Studio Ghibli!",
+   "td": "Ganó el Óscar a mejor película animada en dos mil tres."
+  },
+  {
+   "n": 61,
+   "tema": "arte",
+   "p": "¿Qué pintor muralista mexicano se casó con Frida Kahlo?",
+   "o": [
+    "Rufino Tamayo",
+    "David A. Siqueiros",
+    "José C. Orozco",
+    "Diego Rivera"
+   ],
+   "c": 3,
+   "d": "Diego Rivera y Frida Kahlo se casaron en 1929.",
+   "tp": "¿Qué pintor muralista mexicano se casó con Frida Kahlo? ¿Rufino Tamayo, David Siqueiros, José Clemente Orozco o Diego Rivera?",
+   "tr": "¡Diego Rivera!",
+   "td": "Diego Rivera y Frida Kahlo se casaron en mil novecientos veintinueve."
+  },
+  {
+   "n": 62,
+   "tema": "música",
+   "p": "¿Qué pequeña guitarra andina de diez cuerdas es típica de Perú y Bolivia?",
+   "o": [
+    "Charango",
+    "Ukelele",
+    "Laúd",
+    "Bandurria"
+   ],
+   "c": 0,
+   "d": "Sus diez cuerdas van en cinco pares.",
+   "tp": "¿Qué pequeña guitarra andina de diez cuerdas es típica de Perú y Bolivia? ¿Charango, ukelele, laúd o bandurria?",
+   "tr": "¡El charango!",
+   "td": "Sus diez cuerdas van agrupadas en cinco pares.",
+   "img_q": "Charango",
+   "img_modo": "revela"
+  },
+  {
+   "n": 63,
+   "tema": "cine",
+   "p": "¿Qué película cuenta la historia de un barco que choca con un iceberg en 1912?",
+   "o": [
+    "Poseidón",
+    "Titanic",
+    "Avatar",
+    "Moby Dick"
+   ],
+   "c": 1,
+   "d": "«Titanic» se estrenó en 1997 y ganó once premios Óscar.",
+   "tp": "¿Qué película cuenta la historia de un barco que choca con un iceberg en mil novecientos doce? ¿Poseidón, Titanic, Avatar o Moby Dick?",
+   "tr": "¡Titanic!",
+   "td": "Titanic se estrenó en mil novecientos noventa y siete y ganó once premios Óscar."
+  },
+  {
+   "n": 64,
+   "tema": "arte",
+   "p": "¿Cómo se llama el estilo de Picasso con figuras hechas de formas geométricas?",
+   "o": [
+    "Barroco",
+    "Fauvismo",
+    "Cubismo",
+    "Realismo"
+   ],
+   "c": 2,
+   "d": "Picasso y Georges Braque lo crearon a comienzos del siglo XX.",
+   "tp": "¿Cómo se llama el estilo de Picasso con figuras hechas de formas geométricas? ¿Barroco, fauvismo, cubismo o realismo?",
+   "tr": "¡El cubismo!",
+   "td": "Picasso y Georges Braque lo crearon a comienzos del siglo veinte."
+  },
+  {
+   "n": 65,
+   "tema": "música",
+   "p": "¿Qué instrumento tocaba el gran jazzista Louis Armstrong?",
+   "o": [
+    "Trompeta",
+    "Clarinete",
+    "Piano",
+    "Trombón"
+   ],
+   "c": 0,
+   "d": "Louis Armstrong fue un gigante del jazz y su voz era inconfundible.",
+   "tp": "¿Qué instrumento tocaba el gran jazzista Louis Armstrong? ¿Trompeta, clarinete, piano o trombón?",
+   "tr": "¡La trompeta!",
+   "td": "Louis Armstrong fue un gigante del jazz y su voz era inconfundible."
+  },
+  {
+   "n": 66,
+   "tema": "música",
+   "ronda": "misteriosa",
+   "p": "¿Qué instrumento de viento es este?",
+   "o": [
+    "Clarinete",
+    "Fagot",
+    "Saxofón",
+    "Oboe"
+   ],
+   "c": 2,
+   "img_q": "Saxophone",
+   "img_modo": "pregunta",
+   "d": "Adolphe Sax lo inventó en Bélgica a mediados del siglo XIX.",
+   "tp": "¿Cómo se llama este instrumento? ¿Clarinete, fagot, saxofón u oboe?",
+   "tr": "¡El saxofón!",
+   "td": "Adolphe Sax lo inventó en Bélgica a mediados del siglo diecinueve."
+  },
+  {
+   "n": 67,
+   "tema": "arte",
+   "ronda": "misteriosa",
+   "p": "¿Cómo se titula esta pintura tan famosa?",
+   "o": [
+    "La lechera",
+    "La joven de la perla",
+    "La ronda de noche",
+    "Las espigadoras"
+   ],
+   "c": 1,
+   "img_q": "Girl with a Pearl Earring Vermeer",
+   "img_modo": "pregunta",
+   "d": "Vermeer la pintó hacia 1665 en los Países Bajos.",
+   "tp": "¿Qué famosa pintura es esta? ¿La lechera, la joven de la perla, la ronda de noche o las espigadoras?",
+   "tr": "¡La joven de la perla!",
+   "td": "Vermeer la pintó hacia mil seiscientos sesenta y cinco en los Países Bajos."
+  },
+  {
+   "n": 68,
+   "tema": "arte",
+   "ronda": "misteriosa",
+   "p": "¿Qué famosa estatua es esta?",
+   "o": [
+    "Esfinge de Guiza",
+    "Moái de Rapa Nui",
+    "Estatua de la Libertad",
+    "Cristo Redentor"
+   ],
+   "c": 3,
+   "img_q": "Christ the Redeemer Rio de Janeiro",
+   "img_modo": "pregunta",
+   "d": "Mide 30 metros de alto, sin contar su base de 8 metros.",
+   "tp": "¿Qué famosa estatua es esta? ¿La Esfinge de Guiza, un moái de Rapa Nui, la Estatua de la Libertad o el Cristo Redentor?",
+   "tr": "¡El Cristo Redentor!",
+   "td": "Mide treinta metros de alto, sin contar su base de ocho metros."
+  },
+  {
+   "n": 69,
+   "tema": "música",
+   "p": "¿Qué compositor ruso escribió el ballet «El lago de los cisnes»?",
+   "o": [
+    "Chaikovski",
+    "Stravinski",
+    "Rajmáninov",
+    "Mussorgski"
+   ],
+   "c": 0,
+   "d": "El ballet se estrenó en Moscú en 1877.",
+   "tp": "¿Qué compositor ruso escribió el ballet El lago de los cisnes? ¿Chaikovski, Stravinski, Rajmáninov o Mussorgski?",
+   "tr": "¡Chaikovski!",
+   "td": "El ballet se estrenó en Moscú en mil ochocientos setenta y siete."
+  },
+  {
+   "n": 70,
+   "tema": "cine",
+   "p": "¿Cómo se llama la industria de cine de la India, con sede en Bombay?",
+   "o": [
+    "Nollywood",
+    "Hollywood",
+    "Cinecittà",
+    "Bollywood"
+   ],
+   "c": 3,
+   "d": "El nombre mezcla «Bombay» y «Hollywood».",
+   "tp": "¿Cómo se llama la industria de cine de la India, con sede en Bombay? ¿Nollywood, Bollywood, Hollywood o Cinecittà?",
+   "tr": "¡Bollywood!",
+   "td": "El nombre mezcla Bombay y Hollywood."
+  },
+  {
+   "n": 71,
+   "tema": "arte",
+   "p": "¿A qué movimiento artístico pertenece Claude Monet?",
+   "o": [
+    "Surrealismo",
+    "Pop art",
+    "Impresionismo",
+    "Cubismo"
+   ],
+   "c": 2,
+   "d": "El nombre viene de su cuadro «Impresión, sol naciente».",
+   "tp": "¿A qué movimiento artístico pertenece Claude Monet? ¿Surrealismo, pop art, impresionismo o cubismo?",
+   "tr": "¡El impresionismo!",
+   "td": "El nombre viene de su cuadro Impresión, sol naciente.",
+   "img_q": "Impression, Sunrise Monet",
+   "img_modo": "revela"
+  },
+  {
+   "n": 72,
+   "tema": "música",
+   "p": "¿En qué país nació el compositor Mozart?",
+   "o": [
+    "Alemania",
+    "Italia",
+    "Austria",
+    "Hungría"
+   ],
+   "c": 2,
+   "d": "Mozart nació en Salzburgo en 1756.",
+   "tp": "¿En qué país nació el compositor Mozart? ¿Alemania, Italia, Austria o Hungría?",
+   "tr": "¡Austria!",
+   "td": "Mozart nació en Salzburgo en mil setecientos cincuenta y seis."
+  },
+  {
+   "n": 73,
+   "tema": "cine",
+   "p": "¿Qué director mexicano hizo «El laberinto del fauno»?",
+   "o": [
+    "Alfonso Cuarón",
+    "Guillermo del Toro",
+    "Alejandro G. Iñárritu",
+    "Carlos Reygadas"
+   ],
+   "c": 1,
+   "d": "Se estrenó en 2006 y ganó tres premios Óscar.",
+   "tp": "¿Qué director mexicano hizo El laberinto del fauno? ¿Alfonso Cuarón, Guillermo del Toro, Alejandro González Iñárritu o Carlos Reygadas?",
+   "tr": "¡Guillermo del Toro!",
+   "td": "Se estrenó en dos mil seis y ganó tres premios Óscar."
+  },
+  {
+   "n": 74,
+   "tema": "perú",
+   "p": "¿En qué ciudad peruana está el Museo Larco, famoso por su arte antiguo?",
+   "o": [
+    "Cusco",
+    "Arequipa",
+    "Lima",
+    "Trujillo"
+   ],
+   "c": 2,
+   "d": "Guarda miles de piezas de cerámica y oro del Perú antiguo.",
+   "tp": "¿En qué ciudad peruana está el Museo Larco, famoso por su arte antiguo? ¿Cusco, Arequipa, Lima o Trujillo?",
+   "tr": "¡Lima!",
+   "td": "Guarda miles de piezas de cerámica y oro del Perú antiguo."
+  },
+  {
+   "n": 75,
+   "tema": "arte",
+   "p": "¿Qué escultor francés creó la obra «El pensador»?",
+   "o": [
+    "Auguste Rodin",
+    "Edgar Degas",
+    "Henri Matisse",
+    "Camille Claudel"
+   ],
+   "c": 0,
+   "d": "La escultura original mide más de 1,80 metros.",
+   "tp": "¿Qué escultor francés creó la obra El pensador? ¿Auguste Rodin, Edgar Degas, Henri Matisse o Camille Claudel?",
+   "tr": "¡Auguste Rodin!",
+   "td": "La escultura original mide más de un metro ochenta.",
+   "img_q": "The Thinker Rodin",
+   "img_modo": "revela"
+  },
+  {
+   "n": 76,
+   "tema": "música",
+   "p": "¿Qué instrumento inventó Cristofori en Italia hacia el año 1700?",
+   "o": [
+    "Clavicémbalo",
+    "Piano",
+    "Acordeón",
+    "Órgano"
+   ],
+   "c": 1,
+   "d": "Su nombre completo era «clavicémbalo con piano y forte».",
+   "tp": "¿Qué instrumento inventó Cristofori en Italia hacia el año mil setecientos? ¿Clavicémbalo, piano, acordeón u órgano?",
+   "tr": "¡El piano!",
+   "td": "Su nombre completo era clavicémbalo con piano y forte."
+  },
+  {
+   "n": 77,
+   "tema": "cine",
+   "p": "¿De qué país es «Parásitos», primera cinta no inglesa en ganar el Óscar a mejor película?",
+   "o": [
+    "China",
+    "Japón",
+    "Corea del Sur",
+    "Tailandia"
+   ],
+   "c": 2,
+   "d": "«Parásitos» ganó el Óscar a mejor película en 2020.",
+   "tp": "¿De qué país es Parásitos, la primera película de habla no inglesa en ganar el Óscar a mejor película? ¿China, Japón, Corea del Sur o Tailandia?",
+   "tr": "¡Corea del Sur!",
+   "td": "Parásitos ganó el Óscar a mejor película en dos mil veinte."
+  },
+  {
+   "n": 78,
+   "tema": "arte",
+   "p": "¿De qué país era el pintor Oswaldo Guayasamín?",
+   "o": [
+    "Perú",
+    "Ecuador",
+    "Bolivia",
+    "Venezuela"
+   ],
+   "c": 1,
+   "d": "Dejó su obra en la Capilla del Hombre, en Quito.",
+   "tp": "¿De qué país era el pintor Oswaldo Guayasamín? ¿Perú, Ecuador, Bolivia o Venezuela?",
+   "tr": "¡Ecuador!",
+   "td": "Dejó su obra en la Capilla del Hombre, en Quito."
+  },
+  {
+   "n": 79,
+   "tema": "música",
+   "p": "¿Qué cantante cubana, «la reina de la salsa», gritaba «¡Azúcar!»?",
+   "o": [
+    "Celia Cruz",
+    "La Lupe",
+    "Gloria Estefan",
+    "Olga Guillot"
+   ],
+   "c": 0,
+   "d": "Celia Cruz nació en La Habana y ganó varios premios Grammy.",
+   "tp": "¿Qué cantante cubana, la reina de la salsa, gritaba azúcar? ¿Celia Cruz, La Lupe, Gloria Estefan u Olga Guillot?",
+   "tr": "¡Celia Cruz!",
+   "td": "Celia Cruz nació en La Habana y ganó varios premios Grammy."
+  },
+  {
+   "n": 80,
+   "tema": "cine",
+   "p": "¿Cuál fue el primer largometraje animado de Disney, estrenado en 1937?",
+   "o": [
+    "Pinocho",
+    "Bambi",
+    "Fantasía",
+    "Blancanieves"
+   ],
+   "c": 3,
+   "d": "Se estrenó en diciembre de 1937 en Los Ángeles.",
+   "tp": "¿Cuál fue el primer largometraje animado de Disney, estrenado en mil novecientos treinta y siete? ¿Pinocho, Bambi, Fantasía o Blancanieves?",
+   "tr": "¡Blancanieves!",
+   "td": "Se estrenó en diciembre de mil novecientos treinta y siete en Los Ángeles."
+  },
+  {
+   "n": 81,
+   "tema": "arte",
+   "p": "¿Qué arquitecto diseñó el Museo Guggenheim de Bilbao?",
+   "o": [
+    "Zaha Hadid",
+    "Frank Gehry",
+    "Norman Foster",
+    "Le Corbusier"
+   ],
+   "c": 1,
+   "d": "Se inauguró en 1997 y está cubierto de láminas de titanio.",
+   "tp": "¿Qué arquitecto diseñó el Museo Guggenheim de Bilbao? ¿Zaha Hadid, Frank Gehry, Norman Foster o Le Corbusier?",
+   "tr": "¡Frank Gehry!",
+   "td": "Se inauguró en mil novecientos noventa y siete y está cubierto de láminas de titanio.",
+   "img_q": "Guggenheim Museum Bilbao",
+   "img_modo": "revela"
+  },
+  {
+   "n": 82,
+   "tema": "música",
+   "p": "¿Cuántas sinfonías compuso Beethoven?",
+   "o": [
+    "Siete",
+    "Doce",
+    "Quince",
+    "Nueve"
+   ],
+   "c": 3,
+   "d": "La última incluye el famoso «Himno a la alegría».",
+   "tp": "¿Cuántas sinfonías compuso Beethoven? ¿Siete, doce, quince o nueve?",
+   "tr": "¡Nueve!",
+   "td": "La última incluye el famoso Himno a la alegría."
+  },
+  {
+   "n": 83,
+   "tema": "cine",
+   "p": "En «Intensa-Mente», ¿qué emoción es de color amarillo?",
+   "o": [
+    "Tristeza",
+    "Furia",
+    "Alegría",
+    "Temor"
+   ],
+   "c": 2,
+   "d": "La película es de 2015 y ocurre dentro de la mente de una niña.",
+   "tp": "En Intensa-Mente, ¿qué emoción es de color amarillo? ¿Tristeza, furia, alegría o temor?",
+   "tr": "¡Alegría!",
+   "td": "La película es de dos mil quince y ocurre dentro de la mente de una niña."
+  },
+  {
+   "n": 84,
+   "tema": "arte",
+   "p": "¿En qué país están las cuevas de Altamira, con pinturas de bisontes de la Edad de Piedra?",
+   "o": [
+    "Francia",
+    "Italia",
+    "Portugal",
+    "España"
+   ],
+   "c": 3,
+   "d": "Las cuevas están en Cantabria, al norte de España.",
+   "tp": "¿En qué país están las cuevas de Altamira, con pinturas de bisontes de la Edad de Piedra? ¿Francia, Italia, Portugal o España?",
+   "tr": "¡España!",
+   "td": "Las cuevas están en Cantabria, al norte de España.",
+   "img_q": "Cave of Altamira bison",
+   "img_modo": "revela"
+  },
+  {
+   "n": 85,
+   "tema": "música",
+   "p": "¿Qué ciudad de Estados Unidos es conocida como la cuna del jazz?",
+   "o": [
+    "Nueva Orleans",
+    "Chicago",
+    "Nueva York",
+    "Memphis"
+   ],
+   "c": 0,
+   "d": "Allí se mezclaron ritmos africanos y europeos hacia 1900.",
+   "tp": "¿Qué ciudad de Estados Unidos es conocida como la cuna del jazz? ¿Nueva Orleans, Chicago, Nueva York o Memphis?",
+   "tr": "¡Nueva Orleans!",
+   "td": "Allí se mezclaron ritmos africanos y europeos hacia mil novecientos."
+  },
+  {
+   "n": 86,
+   "tema": "cine",
+   "p": "¿En qué ciudad francesa se entrega la Palma de Oro?",
+   "o": [
+    "Venecia",
+    "Berlín",
+    "Toronto",
+    "Cannes"
+   ],
+   "c": 3,
+   "d": "La Palma de Oro es el premio principal del Festival de Cannes.",
+   "tp": "¿En qué ciudad francesa se entrega la Palma de Oro? ¿Venecia, Cannes, Berlín o Toronto?",
+   "tr": "¡Cannes!",
+   "td": "La Palma de Oro es el premio principal del Festival de Cannes."
+  },
+  {
+   "n": 87,
+   "tema": "arte",
+   "p": "¿De qué país es el artista Hokusai, autor de «La gran ola de Kanagawa»?",
+   "o": [
+    "China",
+    "Corea",
+    "Japón",
+    "Vietnam"
+   ],
+   "c": 2,
+   "d": "Hokusai creó su famosa ola hacia 1831.",
+   "tp": "¿De qué país es el artista Hokusai, autor de La gran ola de Kanagawa? ¿China, Corea, Japón o Vietnam?",
+   "tr": "¡Japón!",
+   "td": "Hokusai creó su famosa ola hacia mil ochocientos treinta y uno.",
+   "img_q": "The Great Wave off Kanagawa",
+   "img_modo": "revela"
+  },
+  {
+   "n": 88,
+   "tema": "música",
+   "p": "¿Qué compositor francés escribió la ópera «Carmen»?",
+   "o": [
+    "Bizet",
+    "Verdi",
+    "Puccini",
+    "Rossini"
+   ],
+   "c": 0,
+   "d": "«Carmen» se estrenó en París en 1875.",
+   "tp": "¿Qué compositor francés escribió la ópera Carmen? ¿Bizet, Verdi, Puccini o Rossini?",
+   "tr": "¡Bizet!",
+   "td": "Carmen se estrenó en París en mil ochocientos setenta y cinco."
+  },
+  {
+   "n": 89,
+   "tema": "cine",
+   "p": "¿En qué año se estrenó «El cantor de jazz», la primera película con diálogos grabados?",
+   "o": [
+    "1907",
+    "1927",
+    "1947",
+    "1967"
+   ],
+   "c": 1,
+   "d": "Marcó el comienzo del cine sonoro.",
+   "tp": "¿En qué año se estrenó El cantor de jazz, la primera película con diálogos grabados? ¿Mil novecientos siete, mil novecientos veintisiete, mil novecientos cuarenta y siete o mil novecientos sesenta y siete?",
+   "tr": "¡Mil novecientos veintisiete!",
+   "td": "Marcó el comienzo del cine sonoro."
+  },
+  {
+   "n": 90,
+   "tema": "perú",
+   "p": "¿Qué danza andina, Patrimonio de la UNESCO, se baila con dos hojas de metal?",
+   "o": [
+    "Wititi",
+    "Diablada",
+    "Danza de las tijeras",
+    "Huaylas"
+   ],
+   "c": 2,
+   "d": "Se baila con arpa y violín en Ayacucho, Apurímac y Huancavelica.",
+   "tp": "¿Qué danza andina del Perú, Patrimonio de la UNESCO, se baila con dos hojas de metal? ¿Wititi, diablada, danza de las tijeras o huaylas?",
+   "tr": "¡La danza de las tijeras!",
+   "td": "Se baila con arpa y violín en Ayacucho, Apurímac y Huancavelica."
+  },
+  {
+   "n": 91,
+   "tema": "arte",
+   "p": "¿Qué estilo del siglo XVII, con fuertes luces y sombras, usó Caravaggio?",
+   "o": [
+    "Gótico",
+    "Barroco",
+    "Románico",
+    "Neoclasicismo"
+   ],
+   "c": 1,
+   "d": "Caravaggio usaba contrastes dramáticos de luz y sombra.",
+   "tp": "¿Qué estilo del siglo diecisiete, con fuertes luces y sombras, usó Caravaggio? ¿Gótico, barroco, románico o neoclasicismo?",
+   "tr": "¡El barroco!",
+   "td": "Caravaggio usaba contrastes dramáticos de luz y sombra.",
+   "img_q": "Caravaggio Supper at Emmaus",
+   "img_modo": "revela"
+  },
+  {
+   "n": 92,
+   "tema": "música",
+   "p": "¿De qué animal se usaba el caparazón para hacer algunos charangos?",
+   "o": [
+    "Armadillo",
+    "Tortuga",
+    "Cangrejo",
+    "Caracol"
+   ],
+   "c": 0,
+   "d": "Usaban el caparazón del quirquincho, un armadillo andino.",
+   "tp": "¿De qué animal se usaba el caparazón para hacer algunos charangos? ¿Armadillo, tortuga, cangrejo o caracol?",
+   "tr": "¡El armadillo!",
+   "td": "Usaban el caparazón del quirquincho, un armadillo andino."
+  },
+  {
+   "n": 93,
+   "tema": "cine",
+   "p": "¿Qué actor del cine mudo creó a «Charlot», con bastón y sombrero hongo?",
+   "o": [
+    "Buster Keaton",
+    "Harold Lloyd",
+    "Charles Chaplin",
+    "Stan Laurel"
+   ],
+   "c": 2,
+   "d": "Charlot también lucía un bigotito pequeño y zapatos enormes.",
+   "tp": "¿Qué actor del cine mudo creó a Charlot, con bastón y sombrero hongo? ¿Buster Keaton, Harold Lloyd, Charles Chaplin o Stan Laurel?",
+   "tr": "¡Charles Chaplin!",
+   "td": "Charlot también lucía un bigotito pequeño y zapatos enormes."
+  },
+  {
+   "n": 94,
+   "tema": "arte",
+   "p": "¿Qué pintor austriaco usó láminas de oro en su cuadro «El beso»?",
+   "o": [
+    "Egon Schiele",
+    "Oskar Kokoschka",
+    "Paul Klee",
+    "Gustav Klimt"
+   ],
+   "c": 3,
+   "d": "Klimt pintó «El beso» hacia 1908 y hoy está en Viena.",
+   "tp": "¿Qué pintor austriaco usó láminas de oro en su cuadro El beso? ¿Egon Schiele, Oskar Kokoschka, Paul Klee o Gustav Klimt?",
+   "tr": "¡Gustav Klimt!",
+   "td": "Klimt pintó El beso hacia mil novecientos ocho y hoy está en Viena.",
+   "img_q": "The Kiss Klimt",
+   "img_modo": "revela"
+  },
+  {
+   "n": 95,
+   "tema": "música",
+   "p": "¿Quién fabricó los famosos violines «Stradivarius»?",
+   "o": [
+    "Antonio Stradivari",
+    "Giuseppe Guarneri",
+    "Nicolò Amati",
+    "Niccolò Paganini"
+   ],
+   "c": 0,
+   "d": "Trabajó en Cremona, Italia, hace más de 300 años.",
+   "tp": "¿Quién fabricó los famosos violines Stradivarius? ¿Antonio Stradivari, Giuseppe Guarneri, Nicolò Amati o Niccolò Paganini?",
+   "tr": "¡Antonio Stradivari!",
+   "td": "Trabajó en Cremona, Italia, hace más de trescientos años."
+  },
+  {
+   "n": 96,
+   "tema": "cine",
+   "p": "¿Quién compuso la música de «Star Wars», «Tiburón» y «E.T.»?",
+   "o": [
+    "Hans Zimmer",
+    "John Williams",
+    "Ennio Morricone",
+    "Howard Shore"
+   ],
+   "c": 1,
+   "d": "John Williams ha ganado muchísimos premios Óscar y Grammy.",
+   "tp": "¿Quién compuso la música de Star Wars, Tiburón y E.T.? ¿Hans Zimmer, John Williams, Ennio Morricone o Howard Shore?",
+   "tr": "¡John Williams!",
+   "td": "John Williams ha ganado muchísimos premios Óscar y Grammy."
+  },
+  {
+   "n": 97,
+   "tema": "arte",
+   "p": "¿En qué ciudad italiana está pintada «La última cena» de Leonardo da Vinci?",
+   "o": [
+    "Roma",
+    "Florencia",
+    "Milán",
+    "Venecia"
+   ],
+   "c": 2,
+   "d": "Está pintada en la pared de un convento: Santa Maria delle Grazie.",
+   "tp": "¿En qué ciudad italiana está pintada La última cena de Leonardo da Vinci? ¿Roma, Florencia, Milán o Venecia?",
+   "tr": "¡Milán!",
+   "td": "Está pintada en la pared de un convento llamado Santa Maria delle Grazie.",
+   "img_q": "The Last Supper Leonardo da Vinci",
+   "img_modo": "revela"
+  },
+  {
+   "n": 98,
+   "tema": "música",
+   "p": "¿Cuántas cuerdas tiene un arpa de concierto?",
+   "o": [
+    "27",
+    "47",
+    "64",
+    "88"
+   ],
+   "c": 1,
+   "d": "Un arpa de concierto tiene 47 cuerdas y siete pedales.",
+   "tp": "¿Cuántas cuerdas tiene un arpa de concierto? ¿Veintisiete, cuarenta y siete, sesenta y cuatro u ochenta y ocho?",
+   "tr": "¡Cuarenta y siete!",
+   "td": "Un arpa de concierto tiene cuarenta y siete cuerdas y siete pedales."
+  },
+  {
+   "n": 99,
+   "tema": "cine",
+   "p": "¿En qué año se entregaron los primeros premios Óscar?",
+   "o": [
+    "1912",
+    "1929",
+    "1945",
+    "1960"
+   ],
+   "c": 1,
+   "d": "La primera ceremonia fue en 1929, en un hotel de Hollywood.",
+   "tp": "¿En qué año se entregaron los primeros premios Óscar? ¿Mil novecientos doce, mil novecientos veintinueve, mil novecientos cuarenta y cinco o mil novecientos sesenta?",
+   "tr": "¡Mil novecientos veintinueve!",
+   "td": "La primera ceremonia fue en mil novecientos veintinueve, en un hotel de Hollywood."
+  },
+  {
+   "n": 100,
+   "tema": "arte",
+   "p": "¿En qué año fue robada la Mona Lisa del Louvre, para aparecer dos años después en Italia?",
+   "o": [
+    "1811",
+    "1911",
+    "1951",
+    "1991"
+   ],
+   "c": 1,
+   "d": "Un empleado del museo la robó en 1911 y la recuperaron en 1913.",
+   "tp": "¿En qué año fue robada la Mona Lisa del Louvre, para aparecer dos años después en Italia? ¿Mil ochocientos once, mil novecientos once, mil novecientos cincuenta y uno o mil novecientos noventa y uno?",
+   "tr": "¡Mil novecientos once!",
+   "td": "Un empleado del museo la robó en mil novecientos once y la recuperaron en mil novecientos trece."
+  }
  ],
  "extra_tts": {
-  "an_tema": ["anunciador", "Hoy jugamos: ¡arte, música y cine!"],
-  "pr_intro": ["presentador", "¡Hola, familia! Hoy tenemos cien preguntas de arte, música y cine. ¿Están listos para subirse al escenario?"],
-  "co_intro": ["copresentadora", "Habrá pinceles, guitarras y estrellas de la pantalla grande, desde Frida hasta Mickey. ¡Que gane quien más sabe!"],
-  "co_fama": ["copresentadora", "Y un aplauso enorme a los mejores jugadores del episodio anterior, cuyos nombres ya aparecen en pantalla. ¡Hoy pueden superarlos!"],
-  "charla05_pr": ["presentador", "¡Cinco preguntas y ya sonó la primera nota! ¿Cómo van los puntajes?"],
-  "charla05_co": ["copresentadora", "Miren el ranking en el celular, familia: ¡alguien ya va en primer lugar!"],
-  "charla10_pr": ["presentador", "¡Diez! Prepárense, que ahora vienen tres imágenes misteriosas."],
-  "charla10_co": ["copresentadora", "Tranquilos, se aclaran con el reloj. Es como ver cine sin los lentes puestos."],
-  "charla15_pr": ["presentador", "¿Vieron el arpa pixelada? Parecía un videojuego de los años ochenta."],
-  "charla15_co": ["copresentadora", "Y el cajón peruano suena mejor que cualquier videojuego, MAX."],
-  "charla20_pr": ["presentador", "¡Veinte preguntas! Ya me siento director de cine, solo me falta el megáfono."],
-  "charla20_co": ["copresentadora", "Pues dirige tu atención al ranking del celular. Ahora vienen tres de verdadero o falso."],
-  "charla25_pr": ["presentador", "Los relojes derretidos de Dalí me recuerdan a mí con tanto calor y tantos nervios."],
-  "charla25_co": ["copresentadora", "Respira, MAX. Todavía queda mucho espectáculo. ¡Revisen quién lidera el ranking!"],
-  "charla30_pr": ["presentador", "¡Treinta preguntas! Ya estoy moviendo los pies al ritmo del reggae."],
-  "charla30_co": ["copresentadora", "Tus pies son ruedas, MAX, así que solo patinas. ¿Ya vieron los puntajes en el celular?"],
-  "charla35_pr": ["presentador", "Treinta y cinco preguntas y yo ya quiero palomitas de maíz."],
-  "charla35_co": ["copresentadora", "Las palomitas no entran en tus circuitos, MAX. Mejor mira el ranking."],
-  "charla40_pr": ["presentador", "¡Cuarenta! Llegó la hora de la velocidad: ¡viene la ronda relámpago!"],
-  "charla40_co": ["copresentadora", "Cinco preguntas, cinco segundos cada una. ¡Dedos listos en el celular!"],
-  "charla45_pr": ["presentador", "¡Uf, qué rápido pasó eso! Mis circuitos casi echan chispas."],
-  "charla45_co": ["copresentadora", "Así es la ronda relámpago, MAX: ni un parpadeo. Cuarenta y cinco listas, ¡sigan sumando!"],
-  "charla50_pr": ["presentador", "¡Cincuenta! Ya estamos en la mitad del concierto."],
-  "charla50_co": ["copresentadora", "Y todavía faltan los mejores números. Familia, ¿ya compararon puntajes?"],
-  "charla55_pr": ["presentador", "Esa canción de Violeta Parra me emocionó tanto que casi lloro aceite."],
-  "charla55_co": ["copresentadora", "Qué dulce, MAX. Pero cuidado, que ahora vienen tres de verdadero o falso."],
-  "charla60_pr": ["presentador", "Verdadero o falso, ¿mentiras de museo? Yo casi caigo en una."],
-  "charla60_co": ["copresentadora", "Cuando dudes, confía en tu instinto. Sesenta preguntas listas, ¡a revisar el ranking!"],
-  "charla65_pr": ["presentador", "Sesenta y cinco preguntas y nadie se ha rendido. ¡Qué público tan valiente!"],
-  "charla65_co": ["copresentadora", "Ahora mira bien, MAX: vienen tres imágenes misteriosas que se van aclarando."],
-  "charla70_pr": ["presentador", "El Cristo Redentor pixelado parecía un fantasma de abrazos."],
-  "charla70_co": ["copresentadora", "Pero el reloj lo fue aclarando. ¡Setenta preguntas y ya falta poco para el final!"],
-  "charla75_pr": ["presentador", "Setenta y cinco preguntas. Mis baterías están al cien por ciento."],
-  "charla75_co": ["copresentadora", "Tus baterías sí, pero ¿y tu memoria para películas? ¡Falta el tramo final!"],
-  "charla80_pr": ["presentador", "Mozart, Rodin, Celia Cruz… ¡esto ya parece una gala de premios!"],
-  "charla80_co": ["copresentadora", "Y la alfombra roja es su sala, familia. Ochenta preguntas: ¡miren el ranking!"],
-  "charla85_pr": ["presentador", "¡Ochenta y cinco! Ya huelo los aplausos del gran final."],
-  "charla85_co": ["copresentadora", "Todavía quedan quince preguntas difíciles, MAX. Concéntrate como un director de orquesta."],
-  "charla90_pr": ["presentador", "Noventa preguntas y yo sin pedir pausa. ¡Soy un robot de espectáculo!"],
-  "charla90_co": ["copresentadora", "Quedan solo diez. Revisen el ranking, que la pelea por el primer lugar está reñida."],
-  "charla95_pr": ["presentador", "¡Noventa y cinco! Ya viene la pregunta final y se me pone la piel de lata de gallina."],
-  "charla95_co": ["copresentadora", "Una pista: será una historia digna de película. ¡Atentos, familia!"],
-  "pr_cierre": ["presentador", "¡Terminamos, familia! Cuéntennos en los comentarios cuántos puntos hicieron y suscríbanse para el próximo episodio."]
+  "an_tema": [
+   "anunciador",
+   "Hoy jugamos: ¡arte, música y cine!"
+  ],
+  "pr_intro": [
+   "presentador",
+   "¡Hola, familia! Hoy tenemos cien preguntas de arte, música y cine. ¿Están listos para subirse al escenario?"
+  ],
+  "co_intro": [
+   "copresentadora",
+   "Habrá pinceles, guitarras y estrellas de la pantalla grande, desde Frida hasta Mickey. ¡Que gane quien más sabe!"
+  ],
+  "co_fama": [
+   "copresentadora",
+   "Y un aplauso enorme a los mejores jugadores del episodio anterior, cuyos nombres ya aparecen en pantalla. ¡Hoy pueden superarlos!"
+  ],
+  "charla05_pr": [
+   "presentador",
+   "¡Cinco preguntas y ya sonó la primera nota! ¿Cómo van los puntajes?"
+  ],
+  "charla05_co": [
+   "copresentadora",
+   "Miren el ranking en el celular, familia: ¡alguien ya va en primer lugar!"
+  ],
+  "charla10_pr": [
+   "presentador",
+   "¡Diez! Prepárense, que ahora vienen tres imágenes misteriosas."
+  ],
+  "charla10_co": [
+   "copresentadora",
+   "Tranquilos, se aclaran con el reloj. Es como ver cine sin los lentes puestos."
+  ],
+  "charla15_pr": [
+   "presentador",
+   "¿Vieron el arpa pixelada? Parecía un videojuego de los años ochenta."
+  ],
+  "charla15_co": [
+   "copresentadora",
+   "Y el cajón peruano suena mejor que cualquier videojuego, MAX."
+  ],
+  "charla20_pr": [
+   "presentador",
+   "¡Veinte preguntas! Ya me siento director de cine, solo me falta el megáfono."
+  ],
+  "charla20_co": [
+   "copresentadora",
+   "Pues dirige tu atención al ranking del celular. Ahora vienen tres de verdadero o falso."
+  ],
+  "charla25_pr": [
+   "presentador",
+   "Los relojes derretidos de Dalí me recuerdan a mí con tanto calor y tantos nervios."
+  ],
+  "charla25_co": [
+   "copresentadora",
+   "Respira, MAX. Todavía queda mucho espectáculo. ¡Revisen quién lidera el ranking!"
+  ],
+  "charla30_pr": [
+   "presentador",
+   "¡Treinta preguntas! Ya estoy moviendo los pies al ritmo del reggae."
+  ],
+  "charla30_co": [
+   "copresentadora",
+   "Tus pies son ruedas, MAX, así que solo patinas. ¿Ya vieron los puntajes en el celular?"
+  ],
+  "charla35_pr": [
+   "presentador",
+   "Treinta y cinco preguntas y yo ya quiero palomitas de maíz."
+  ],
+  "charla35_co": [
+   "copresentadora",
+   "Las palomitas no entran en tus circuitos, MAX. Mejor mira el ranking."
+  ],
+  "charla40_pr": [
+   "presentador",
+   "¡Cuarenta! Llegó la hora de la velocidad: ¡viene la ronda relámpago!"
+  ],
+  "charla40_co": [
+   "copresentadora",
+   "Cinco preguntas, cinco segundos cada una. ¡Dedos listos en el celular!"
+  ],
+  "charla45_pr": [
+   "presentador",
+   "¡Uf, qué rápido pasó eso! Mis circuitos casi echan chispas."
+  ],
+  "charla45_co": [
+   "copresentadora",
+   "Así es la ronda relámpago, MAX: ni un parpadeo. Cuarenta y cinco listas, ¡sigan sumando!"
+  ],
+  "charla50_pr": [
+   "presentador",
+   "¡Cincuenta! Ya estamos en la mitad del concierto."
+  ],
+  "charla50_co": [
+   "copresentadora",
+   "Y todavía faltan los mejores números. Familia, ¿ya compararon puntajes?"
+  ],
+  "charla55_pr": [
+   "presentador",
+   "Esa canción de Violeta Parra me emocionó tanto que casi lloro aceite."
+  ],
+  "charla55_co": [
+   "copresentadora",
+   "Qué dulce, MAX. Pero cuidado, que ahora vienen tres de verdadero o falso."
+  ],
+  "charla60_pr": [
+   "presentador",
+   "Verdadero o falso, ¿mentiras de museo? Yo casi caigo en una."
+  ],
+  "charla60_co": [
+   "copresentadora",
+   "Cuando dudes, confía en tu instinto. Sesenta preguntas listas, ¡a revisar el ranking!"
+  ],
+  "charla65_pr": [
+   "presentador",
+   "Sesenta y cinco preguntas y nadie se ha rendido. ¡Qué público tan valiente!"
+  ],
+  "charla65_co": [
+   "copresentadora",
+   "Ahora mira bien, MAX: vienen tres imágenes misteriosas que se van aclarando."
+  ],
+  "charla70_pr": [
+   "presentador",
+   "El Cristo Redentor pixelado parecía un fantasma de abrazos."
+  ],
+  "charla70_co": [
+   "copresentadora",
+   "Pero el reloj lo fue aclarando. ¡Setenta preguntas y ya falta poco para el final!"
+  ],
+  "charla75_pr": [
+   "presentador",
+   "Setenta y cinco preguntas. Mis baterías están al cien por ciento."
+  ],
+  "charla75_co": [
+   "copresentadora",
+   "Tus baterías sí, pero ¿y tu memoria para películas? ¡Falta el tramo final!"
+  ],
+  "charla80_pr": [
+   "presentador",
+   "Mozart, Rodin, Celia Cruz… ¡esto ya parece una gala de premios!"
+  ],
+  "charla80_co": [
+   "copresentadora",
+   "Y la alfombra roja es su sala, familia. Ochenta preguntas: ¡miren el ranking!"
+  ],
+  "charla85_pr": [
+   "presentador",
+   "¡Ochenta y cinco! Ya huelo los aplausos del gran final."
+  ],
+  "charla85_co": [
+   "copresentadora",
+   "Todavía quedan quince preguntas difíciles, MAX. Concéntrate como un director de orquesta."
+  ],
+  "charla90_pr": [
+   "presentador",
+   "Noventa preguntas y yo sin pedir pausa. ¡Soy un robot de espectáculo!"
+  ],
+  "charla90_co": [
+   "copresentadora",
+   "Quedan solo diez. Revisen el ranking, que la pelea por el primer lugar está reñida."
+  ],
+  "charla95_pr": [
+   "presentador",
+   "¡Noventa y cinco! Ya viene la pregunta final y se me pone la piel de lata de gallina."
+  ],
+  "charla95_co": [
+   "copresentadora",
+   "Una pista: será una historia digna de película. ¡Atentos, familia!"
+  ],
+  "pr_cierre": [
+   "presentador",
+   "¡Terminamos, familia! Cuéntennos en los comentarios cuántos puntos hicieron y suscríbanse para el próximo episodio."
+  ]
  }
 }
