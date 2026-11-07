@@ -1,0 +1,23 @@
+{
+ "id": "ep008",
+ "titulo": "Arte, música y cine: de Frida a Mickey",
+ "total": 100,
+ "shorts": [
+  {
+   "archivo": "trabajo/shorts/short_1.mp4",
+   "n": 37,
+   "pregunta": "¿En qué ciudad está el Rijksmuseum, que guarda «La ronda de noche»?",
+   "duracion": 48.4,
+   "faltan": [],
+   "fotos": true
+  },
+  {
+   "archivo": "trabajo/shorts/short_2.mp4",
+   "n": 47,
+   "pregunta": "¿Cómo se llama el arte de escribir de forma muy bella a mano?",
+   "duracion": 43.7,
+   "faltan": [],
+   "fotos": true
+  }
+ ]
+}
