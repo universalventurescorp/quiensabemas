@@ -130,7 +130,7 @@ def abanico(lienzo, fotos):
 
 
 # ------------------------------------------------------------ plantilla
-def componer(ep):
+def componer(ep, voz=False):
     maraton = ep.get('formato') == 'maraton'
     total = ep.get('total_anunciado') or len(ep['preguntas'])
     reto = (ep.get('reto_miniatura') or '').strip()
@@ -153,6 +153,10 @@ def componer(ep):
         tarj = marco_foto(p, fondo, fw, fh) if p else sin_foto(fw + 24, fh + 24)
         lienzo.alpha_composite(sombra(tarj, 18, 170, 14), (34, 92))
 
+    # 4.ª variante (PRUEBA): LA VOZ brillando como un sol detrás de MAX y NOVA
+    if voz:
+        v = personajes.voz_sprite(4, 3, 700)
+        lienzo.alpha_composite(v.resize((380, 380), Image.LANCZOS), (840, -95))
     # presentadores de busto, celebrando (como la foto de perfil)
     max_, (mx, my) = busto('presentador', 'celebra2', 225)
     nova, (nx, ny) = busto('copresentadora', 'aplaude', 185)
@@ -260,6 +264,8 @@ def main():
     ep = json.load(open(args[0], encoding='utf-8'))
     mini = (componer_collage(ep) if os.environ.get('QSM_MINI_COLLAGE') else None) or componer(ep)
     mini.save(args[1], quality=92)
+    if os.environ.get('QSM_MINI_BARAJA'):   # PRUEBA: 4.ª miniatura con LA VOZ, para el Test & Compare
+        componer(ep, voz=True).save(os.path.splitext(args[1])[0] + '_voz.jpg', quality=92)
     if '--feed' in sys.argv:
         prueba_feed(mini, sys.argv[sys.argv.index('--feed') + 1])
     print('OK', args[1])
