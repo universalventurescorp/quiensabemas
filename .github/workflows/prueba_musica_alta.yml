@@ -10,7 +10,10 @@ on:
         default: "42230384210"
       nivel_db:
         description: "Volumen de la música respecto a la voz (0 = igual que la voz, -3 = un poco debajo)"
-        default: "-3"
+        default: "1"
+      subtitulos:
+        description: "Subtítulos karaoke (1 = sí, vacío = no)"
+        default: "1"
 
 permissions:
   contents: read
@@ -44,19 +47,22 @@ jobs:
           printf '%s' "$MUSICA_CLAVE" | tr -d '[:space:]' > /tmp/clave
           openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -pass file:/tmp/clave -in assets/musica.enc | tar -x -C assets/musica
           rm -f /tmp/clave; ls assets/musica/*.ogg
+      - name: Letra gruesa para los subtítulos (Poppins Black, licencia OFL)
+        run: |
+          test -f fuentes/Poppins-Black.ttf || curl -sSfL -o fuentes/Poppins-Black.ttf https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Black.ttf || echo "::warning::Sin Poppins Black: se usa Bold"
       - name: Título de prueba
         run: |
           python - <<'EOF'
           import json
           p = 'trabajo/episodio.json'; ep = json.load(open(p, encoding='utf-8'))
           base = ep.get('titulo_youtube') or f"¿Quién Sabe Más? {ep['titulo']}"
-          ep['titulo_youtube'] = ('PRUEBA MÚSICA ALTA · ' + base)[:100]
+          ep['titulo_youtube'] = ('PRUEBA ' + ('SUBTÍTULOS · ' if '${{ inputs.subtitulos }}' else 'MÚSICA ALTA · ') + base)[:100]
           ep['fecha'] = None
           json.dump(ep, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
           print(ep['titulo_youtube'])
           EOF
       - name: Montar el video (música alta constante)
-        env: { QSM_MUSICA_ALTA: "1", QSM_MUSICA_ALTA_DB: "${{ inputs.nivel_db }}" }
+        env: { QSM_MUSICA_ALTA: "1", QSM_MUSICA_ALTA_DB: "${{ inputs.nivel_db }}", QSM_SUBTITULOS: "${{ inputs.subtitulos }}" }
         run: python pipeline/tv.py --contenido trabajo/episodio.json --voces voces_ep --out trabajo/video.mp4 --tmp tmp
       - name: Miniatura
         run: python pipeline/miniatura.py trabajo/episodio.json trabajo/miniatura.jpg

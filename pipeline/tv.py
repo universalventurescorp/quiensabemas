@@ -11,6 +11,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageOps
 sys.path.insert(0, os.path.dirname(__file__))
 from personajes import sprite, voz_sprite, NOMBRES
 from musica import Musica, MusicaArchivos, carpeta_musica
+from subtitulos import Subtitulos
 from reportlab.graphics.barcode import qrencoder as QR
 
 W, H, FPS, SR = 1920, 1080, 15, 24000
@@ -379,6 +380,7 @@ class Programa:
         s.audio = []     # (t, arr)
         s.habla = []     # (t0, t1, quien, envolvente por frame)
         s.t = 0.0
+        s.subs = None   # subtítulos karaoke (QSM_SUBTITULOS=1)
         s.relojes, s.temas, s.musica = [], [], None   # para la música: (t, seg) del reloj y (t, cual) de los temas
 
     def sonido(s, arr, at=None, gain=1.0): s.audio.append((s.t if at is None else at, arr * gain))
@@ -397,13 +399,14 @@ class Programa:
             s._vivo = (ei, Image.frombytes('RGB', img[1], zlib.decompress(img[2])))
         return s._vivo[1]
 
-    def voz(s, arr, at, quien):
+    def voz(s, arr, at, quien, texto=None):
         s.audio.append((at, arr))
         hop = SR // FPS; n = max(1, len(arr) // hop)
         env = np.array([np.sqrt(np.mean(arr[i * hop:(i + 1) * hop] ** 2) + 1e-9) for i in range(n)])
         ref = max(np.percentile(env, 92), 1e-4)
         lv = np.clip(np.round(env / ref * 4), 0, 4).astype(int); lv[env < 0.012] = 0
         s.habla.append((at, at + len(arr) / SR, quien, lv))
+        if s.subs and texto: s.subs.agregar(at, lv, quien, texto)
 
     def boca(s, t, quien):
         for t0, t1, q, lv in s.habla:
@@ -445,8 +448,10 @@ class Programa:
                                '-r', str(FPS), '-i', '-', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20',
                                '-pix_fmt', 'yuv420p', '-r', '30', vid], stdin=subprocess.PIPE)
         ei = 0; cache = {}
+        if s.subs: s.subs.cerrar()
         for k in range(nfr):
             t = k / FPS
+            st = s.subs.estado(t) if s.subs else None
             while ei + 1 < len(s.escenas) and t >= s.escenas[ei + 1][0]: ei += 1
             t0, dur, img, quien, poses = s.escenas[ei]
             base = s.cuadro(ei, t)
@@ -460,16 +465,20 @@ class Programa:
                     k = int(t * FPS) + (17 if quien == 'copresentadora' else 0)
                     key = (id(base), quien, pose, s.boca(t, quien), (k % 61) in (0, 1) or (k % 167) in (0, 1),
                            round(4 * np.sin(2 * np.pi * t / 3.4)))
+                key = key + (st,)
                 if key not in cache or cache[key][0] is not base:
                     if len(cache) > 90: cache.clear()
                     fr = base.copy(); s.personaje(fr, quien, pose, t)
+                    if st: s.subs.dibujar(fr, st)
                     cache[key] = (base, fr.tobytes())
                 ff.stdin.write(cache[key][1])
             else:
-                key = ('b', id(base))
+                key = ('b', id(base), st)
                 if key not in cache or cache[key][0] is not base:
                     if len(cache) > 60: cache.clear()
-                    cache[key] = (base, base.tobytes())
+                    if st:
+                        fr = base.copy(); s.subs.dibujar(fr, st); cache[key] = (base, fr.tobytes())
+                    else: cache[key] = (base, base.tobytes())
                 ff.stdin.write(cache[key][1])
         ff.stdin.close(); ff.wait()
         mix = np.zeros(int(SR * (total + 0.5)), np.float32)
@@ -509,6 +518,15 @@ def main():
     if cm and not os.environ.get('QSM_SIN_MUSICA'): G.musica = MusicaArchivos(cm, semilla)
     elif os.environ.get('QSM_MUSICA_SINTE'): G.musica = Musica(semilla)
     KB = not os.environ.get('QSM_SIN_MOVIMIENTO')
+    if os.environ.get('QSM_SUBTITULOS'):
+        fd = os.path.join(raiz, 'fuentes')
+        G.subs = Subtitulos(W, H, FPS, os.path.join(fd, 'Poppins-Black.ttf'), FONT % 'Bold', DOCK_X + 20, W - 250, 985)
+    TXT = {}
+    for f in (os.path.join(raiz, 'banco', 'indice.json'), os.path.join(var_dir, 'indice.json')):
+        if os.path.exists(f): TXT.update({k: v.get('texto', '') for k, v in json.load(open(f, encoding='utf-8')).items()})
+    # sin subtítulo: lo que ya sale escrito grande en pantalla (pregunta, dato curioso y los anuncios)
+    SIN_SUB = lambda c: c.endswith('_pregunta') or c.endswith('_dato') or (c.startswith('an_') and c != 'an_tema')
+    dicho = {}
 
     def mover(img, q, caja, t_ini):
         """Foto con movimiento lento (no en banderas ni mientras la imagen misteriosa está pixelada)."""
@@ -525,7 +543,9 @@ def main():
 
     def voz(clave, est=''):
         v = variante(clave)
-        if v and os.path.exists(v): return load_wav(v)
+        if v and os.path.exists(v):
+            dicho['t'] = TXT.get(os.path.basename(v)[:-4]) or TXT.get(clave) or est; return load_wav(v)
+        dicho['t'] = (ex[clave][1] if clave in ex else '') or est or TXT.get(clave, '')
         for d in (a.voces, a.banco):
             if d and os.path.exists(f'{d}/{clave}.wav'): return load_wav(f'{d}/{clave}.wav')
         faltan.append(clave); return np.zeros(int(SR * max(1.0, len(est) / 15)), np.float32)
@@ -539,7 +559,8 @@ def main():
         """clips: lista de (clave, texto_estimado). Cada clip anima a su personaje."""
         t = G.t + pre
         for clave, est in clips:
-            arr = voz(clave, est); G.voz(arr, t, quien(clave)); t += len(arr) / SR + 0.12
+            arr = voz(clave, est); G.voz(arr, t, quien(clave), None if SIN_SUB(clave) else dicho.get('t'))
+            t += len(arr) / SR + 0.12
         G.escena(img, t - G.t + pad, quien_pantalla, poses)
 
     capitulos = [(0.0, 'Bienvenida')]
