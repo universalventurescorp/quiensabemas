@@ -1,0 +1,15 @@
+name: probar_musica
+# Solo comprueba que la clave MUSICA_CLAVE descifra la música (no produce ni sube nada).
+on: { workflow_dispatch: {} }
+jobs:
+  probar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - env: { MUSICA_CLAVE: "${{ secrets.MUSICA_CLAVE }}" }
+        run: |
+          test -n "$MUSICA_CLAVE" || { echo "Falta el secret MUSICA_CLAVE"; exit 1; }
+          mkdir -p m && printf '%s' "$MUSICA_CLAVE" | tr -d '[:space:]' > /tmp/clave
+          openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -pass file:/tmp/clave -in assets/musica.enc | tar -x -C m
+          ls -la m && test "$(ls m/*.ogg | wc -l)" -ge 5 && echo "MUSICA OK"

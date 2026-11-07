@@ -1,0 +1,1877 @@
+{
+ "id": "ep003",
+ "fecha": "2026-11-04",
+ "formato": "normal",
+ "estado": "producido",
+ "codigo_sala": "MAPAMUNDI",
+ "titulo": "El mundo en mapas: países, capitales y banderas",
+ "titulo_youtube": "¿Cuánto sabes de geografía? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
+ "descripcion": "Cien preguntas de geografía para jugar frente a la tele con toda la familia: países, capitales, mares, montañas y banderas misteriosas, con verdadero o falso y una ronda relámpago. ¿Conoces el mundo?",
+ "tags": [
+  "geografía",
+  "capitales del mundo",
+  "banderas",
+  "trivia en familia",
+  "preguntas y respuestas",
+  "quiz en español",
+  "juegos para la tele",
+  "¿quién sabe más?"
+ ],
+ "tema_miniatura": "GEOGRAFÍA",
+ "reto_miniatura": "¿Conoces el mundo?",
+ "objetivo_preguntas": 100,
+ "total_anunciado": 100,
+ "preguntas": [
+  {
+   "n": 1,
+   "tema": "geografía",
+   "p": "¿Cuál es la capital de Japón?",
+   "o": [
+    "Osaka",
+    "Tokio",
+    "Kioto",
+    "Seúl"
+   ],
+   "c": 1,
+   "d": "Tokio es una de las ciudades más pobladas del mundo.",
+   "tp": "¿Cuál es la capital de Japón? ¿Osaka, Tokio, Kioto o Seúl?",
+   "tr": "¡Tokio!",
+   "td": "Tokio es una de las ciudades más pobladas del mundo."
+  },
+  {
+   "n": 2,
+   "tema": "perú",
+   "p": "¿Cuál es la capital del Perú?",
+   "o": [
+    "Lima",
+    "Cusco",
+    "Arequipa",
+    "Trujillo"
+   ],
+   "c": 0,
+   "img_q": "Plaza Mayor de Lima",
+   "img_modo": "revela",
+   "d": "Lima fue fundada en 1535 por Francisco Pizarro.",
+   "tp": "¿Cuál es la capital del Perú? ¿Lima, Cusco, Arequipa o Trujillo?",
+   "tr": "¡Lima!",
+   "td": "Lima fue fundada en mil quinientos treinta y cinco por Francisco Pizarro."
+  },
+  {
+   "n": 3,
+   "tema": "latinoamérica",
+   "p": "¿Cuál es la capital de México?",
+   "o": [
+    "Guadalajara",
+    "Monterrey",
+    "Ciudad de México",
+    "Puebla"
+   ],
+   "c": 2,
+   "d": "La Ciudad de México se levanta sobre Tenochtitlan, la antigua capital azteca.",
+   "tp": "¿Cuál es la capital de México? ¿Guadalajara, Monterrey, Ciudad de México o Puebla?",
+   "tr": "¡La Ciudad de México!",
+   "td": "La Ciudad de México se levanta sobre Tenochtitlan, la antigua capital azteca."
+  },
+  {
+   "n": 4,
+   "tema": "latinoamérica",
+   "p": "¿Cuál es la capital de Colombia?",
+   "o": [
+    "Medellín",
+    "Cali",
+    "Cartagena",
+    "Bogotá"
+   ],
+   "c": 3,
+   "d": "Bogotá está a unos 2.600 metros de altura.",
+   "tp": "¿Cuál es la capital de Colombia? ¿Medellín, Cali, Cartagena o Bogotá?",
+   "tr": "¡Bogotá!",
+   "td": "Bogotá está a unos dos mil seiscientos metros de altura."
+  },
+  {
+   "n": 5,
+   "tema": "geografía",
+   "p": "¿Cuál es la capital de Alemania?",
+   "o": [
+    "Múnich",
+    "Berlín",
+    "Hamburgo",
+    "Fráncfort"
+   ],
+   "c": 1,
+   "d": "Berlín estuvo dividida por un muro de 1961 a 1989.",
+   "tp": "¿Cuál es la capital de Alemania? ¿Múnich, Berlín, Hamburgo o Fráncfort?",
+   "tr": "¡Berlín!",
+   "td": "Berlín estuvo dividida por un muro de mil novecientos sesenta y uno a mil novecientos ochenta y nueve."
+  },
+  {
+   "n": 6,
+   "tema": "geografía",
+   "p": "¿Cuál es el país más pequeño del mundo?",
+   "o": [
+    "Mónaco",
+    "San Marino",
+    "Vaticano",
+    "Malta"
+   ],
+   "c": 2,
+   "d": "La Ciudad del Vaticano ocupa menos de medio kilómetro cuadrado.",
+   "tp": "¿Cuál es el país más pequeño del mundo? ¿Mónaco, San Marino, el Vaticano o Malta?",
+   "tr": "¡El Vaticano!",
+   "td": "La Ciudad del Vaticano ocupa menos de medio kilómetro cuadrado."
+  },
+  {
+   "n": 7,
+   "tema": "geografía",
+   "p": "¿Cuál es el continente más grande?",
+   "o": [
+    "América",
+    "Asia",
+    "África",
+    "Europa"
+   ],
+   "c": 1,
+   "d": "Asia ocupa casi un tercio de la tierra firme del planeta.",
+   "tp": "¿Cuál es el continente más grande? ¿América, Asia, África o Europa?",
+   "tr": "¡Asia!",
+   "td": "Asia ocupa casi un tercio de la tierra firme del planeta."
+  },
+  {
+   "n": 8,
+   "tema": "geografía",
+   "p": "¿Cuál es el continente más frío?",
+   "o": [
+    "Europa",
+    "Asia",
+    "Antártida",
+    "América del Norte"
+   ],
+   "c": 2,
+   "d": "El hielo de la Antártida guarda la mayor parte del agua dulce del planeta.",
+   "tp": "¿Cuál es el continente más frío? ¿Europa, Asia, la Antártida o América del Norte?",
+   "tr": "¡La Antártida!",
+   "td": "El hielo de la Antártida guarda la mayor parte del agua dulce del planeta."
+  },
+  {
+   "n": 9,
+   "tema": "geografía",
+   "p": "¿En qué ciudad está la Estatua de la Libertad?",
+   "o": [
+    "Washington",
+    "Nueva York",
+    "Boston",
+    "Chicago"
+   ],
+   "c": 1,
+   "img_q": "Statue of Liberty",
+   "img_modo": "revela",
+   "d": "Fue un regalo de Francia a Estados Unidos y se inauguró en 1886.",
+   "tp": "¿En qué ciudad está la Estatua de la Libertad? ¿Washington, Nueva York, Boston o Chicago?",
+   "tr": "¡Nueva York!",
+   "td": "Fue un regalo de Francia a Estados Unidos y se inauguró en mil ochocientos ochenta y seis."
+  },
+  {
+   "n": 10,
+   "tema": "latinoamérica",
+   "p": "¿Cuál es la capital de Cuba?",
+   "o": [
+    "Santiago de Cuba",
+    "Varadero",
+    "La Habana",
+    "Camagüey"
+   ],
+   "c": 2,
+   "d": "La Habana fue fundada en 1519 y su centro histórico es Patrimonio de la Humanidad.",
+   "tp": "¿Cuál es la capital de Cuba? ¿Santiago de Cuba, Varadero, La Habana o Camagüey?",
+   "tr": "¡La Habana!",
+   "td": "La Habana fue fundada en mil quinientos diecinueve y su centro histórico es Patrimonio de la Humanidad."
+  },
+  {
+   "n": 11,
+   "tema": "geografía",
+   "ronda": "misteriosa",
+   "p": "¿Qué país tiene esta bandera?",
+   "o": [
+    "Italia",
+    "México",
+    "Irlanda",
+    "Hungría"
+   ],
+   "c": 1,
+   "bandera": "mx",
+   "img_modo": "pregunta",
+   "d": "El escudo de la bandera mexicana muestra un águila sobre un nopal.",
+   "tp": "Miren bien la foto. ¿Qué país tiene esta bandera? ¿Italia, México, Irlanda o Hungría?",
+   "tr": "¡México!",
+   "td": "El escudo de la bandera mexicana muestra un águila sobre un nopal."
+  },
+  {
+   "n": 12,
+   "tema": "geografía",
+   "ronda": "misteriosa",
+   "p": "¿Reconoces esta bandera? ¿De qué país es?",
+   "o": [
+    "Uruguay",
+    "Honduras",
+    "Guatemala",
+    "Argentina"
+   ],
+   "c": 3,
+   "bandera": "ar",
+   "img_modo": "pregunta",
+   "d": "El Sol de Mayo de la bandera argentina tiene 32 rayos.",
+   "tp": "¿Reconoces esta bandera? ¿De qué país es? ¿Uruguay, Honduras, Guatemala o Argentina?",
+   "tr": "¡Argentina!",
+   "td": "El Sol de Mayo de la bandera argentina tiene treinta y dos rayos."
+  },
+  {
+   "n": 13,
+   "tema": "perú",
+   "ronda": "misteriosa",
+   "p": "¿En qué país ondea esta bandera?",
+   "o": [
+    "Canadá",
+    "Austria",
+    "Perú",
+    "Líbano"
+   ],
+   "c": 2,
+   "bandera": "pe",
+   "img_modo": "pregunta",
+   "d": "La bandera del Perú tiene tres franjas verticales: roja, blanca y roja.",
+   "tp": "¿En qué país ondea esta bandera? ¿Canadá, Austria, Perú o Líbano?",
+   "tr": "¡Perú!",
+   "td": "La bandera del Perú tiene tres franjas verticales: roja, blanca y roja."
+  },
+  {
+   "n": 14,
+   "tema": "geografía",
+   "p": "¿Qué océano separa América de Europa y África?",
+   "o": [
+    "Índico",
+    "Pacífico",
+    "Atlántico",
+    "Ártico"
+   ],
+   "c": 2,
+   "d": "El Atlántico es el segundo océano más grande del planeta.",
+   "tp": "¿Qué océano separa América de Europa y África? ¿Índico, Pacífico, Atlántico o Ártico?",
+   "tr": "¡El Atlántico!",
+   "td": "El Atlántico es el segundo océano más grande del planeta."
+  },
+  {
+   "n": 15,
+   "tema": "latinoamérica",
+   "p": "¿Qué canal une los océanos Atlántico y Pacífico en América?",
+   "o": [
+    "Canal de Suez",
+    "Canal de Panamá",
+    "Canal de la Mancha",
+    "Canal de Corinto"
+   ],
+   "c": 1,
+   "img_q": "Panama Canal",
+   "img_modo": "revela",
+   "d": "Se inauguró en 1914 y ahorra a los barcos un larguísimo viaje alrededor de Sudamérica.",
+   "tp": "¿Qué canal une los océanos Atlántico y Pacífico en América? ¿Canal de Suez, Canal de Panamá, Canal de la Mancha o Canal de Corinto?",
+   "tr": "¡El Canal de Panamá!",
+   "td": "Se inauguró en mil novecientos catorce y ahorra a los barcos un larguísimo viaje alrededor de Sudamérica."
+  },
+  {
+   "n": 16,
+   "tema": "latinoamérica",
+   "p": "¿Cuál es la capital de Chile?",
+   "o": [
+    "Valparaíso",
+    "Lima",
+    "Concepción",
+    "Santiago"
+   ],
+   "c": 3,
+   "d": "Santiago está rodeada por la cordillera de los Andes.",
+   "tp": "¿Cuál es la capital de Chile? ¿Valparaíso, Lima, Concepción o Santiago?",
+   "tr": "¡Santiago!",
+   "td": "Santiago está rodeada por la cordillera de los Andes."
+  },
+  {
+   "n": 17,
+   "tema": "geografía",
+   "p": "¿Cuál es la capital de Italia?",
+   "o": [
+    "Roma",
+    "Milán",
+    "Venecia",
+    "Nápoles"
+   ],
+   "c": 0,
+   "img_q": "Colosseum",
+   "img_modo": "revela",
+   "d": "Roma es conocida como la Ciudad Eterna.",
+   "tp": "¿Cuál es la capital de Italia? ¿Roma, Milán, Venecia o Nápoles?",
+   "tr": "¡Roma!",
+   "td": "Roma es conocida como la Ciudad Eterna."
+  },
+  {
+   "n": 18,
+   "tema": "geografía",
+   "p": "¿Qué país europeo es famoso por sus tulipanes, molinos y canales?",
+   "o": [
+    "Bélgica",
+    "Dinamarca",
+    "Países Bajos",
+    "Suecia"
+   ],
+   "c": 2,
+   "img_q": "Tulip fields in the Netherlands",
+   "img_modo": "revela",
+   "d": "Buena parte del país está a nivel del mar o incluso por debajo.",
+   "tp": "¿Qué país europeo es famoso por sus tulipanes, molinos y canales? ¿Bélgica, Dinamarca, Países Bajos o Suecia?",
+   "tr": "¡Países Bajos!",
+   "td": "Buena parte del país está a nivel del mar o incluso por debajo."
+  },
+  {
+   "n": 19,
+   "tema": "geografía",
+   "p": "¿Cuál es la capital de Estados Unidos?",
+   "o": [
+    "Washington D. C.",
+    "Nueva York",
+    "Los Ángeles",
+    "Chicago"
+   ],
+   "c": 0,
+   "d": "Lleva el nombre de George Washington, el primer presidente del país.",
+   "tp": "¿Cuál es la capital de Estados Unidos? ¿Washington D. C., Nueva York, Los Ángeles o Chicago?",
+   "tr": "¡Washington D. C.!",
+   "td": "Lleva el nombre de George Washington, el primer presidente del país."
+  },
+  {
+   "n": 20,
+   "tema": "latinoamérica",
+   "p": "¿Cuál es el país más grande de América Latina?",
+   "o": [
+    "Argentina",
+    "Brasil",
+    "México",
+    "Colombia"
+   ],
+   "c": 1,
+   "d": "Brasil ocupa casi la mitad de América del Sur.",
+   "tp": "¿Cuál es el país más grande de América Latina? ¿Argentina, Brasil, México o Colombia?",
+   "tr": "¡Brasil!",
+   "td": "Brasil ocupa casi la mitad de América del Sur."
+  },
+  {
+   "n": 21,
+   "tema": "geografía",
+   "ronda": "vf",
+   "p": "Rusia tiene once husos horarios.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Su territorio es tan ancho que, de un extremo al otro, hay diez horas de diferencia.",
+   "tp": "¿Verdadero o falso? Rusia tiene once husos horarios.",
+   "tr": "¡Verdadero! Hay diez horas de diferencia entre sus extremos.",
+   "td": "Su territorio es tan ancho que, de un extremo al otro, hay diez horas de diferencia."
+  },
+  {
+   "n": 22,
+   "tema": "geografía",
+   "ronda": "vf",
+   "p": "El Polo Norte está sobre tierra firme.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "El Polo Norte está en medio del océano Ártico, sobre hielo flotante.",
+   "tp": "¿Verdadero o falso? El Polo Norte está sobre tierra firme.",
+   "tr": "¡Falso! Está sobre hielo flotante.",
+   "td": "El Polo Norte está en medio del océano Ártico, sobre hielo flotante."
+  },
+  {
+   "n": 23,
+   "tema": "geografía",
+   "ronda": "vf",
+   "p": "Sudáfrica tiene tres capitales.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Pretoria, Ciudad del Cabo y Bloemfontein se reparten el gobierno, el parlamento y la justicia.",
+   "tp": "¿Verdadero o falso? Sudáfrica tiene tres capitales.",
+   "tr": "¡Verdadero! Tres ciudades se reparten el poder.",
+   "td": "Pretoria, Ciudad del Cabo y Bloemfontein se reparten el gobierno, el parlamento y la justicia."
+  },
+  {
+   "n": 24,
+   "tema": "latinoamérica",
+   "p": "¿Cuál es la capital de Ecuador?",
+   "o": [
+    "Guayaquil",
+    "Cuenca",
+    "Quito",
+    "Loja"
+   ],
+   "c": 2,
+   "d": "Quito está a unos 2.850 metros de altura, una de las capitales más altas del mundo.",
+   "tp": "¿Cuál es la capital de Ecuador? ¿Guayaquil, Cuenca, Quito o Loja?",
+   "tr": "¡Quito!",
+   "td": "Quito está a unos dos mil ochocientos cincuenta metros de altura, una de las capitales más altas del mundo."
+  },
+  {
+   "n": 25,
+   "tema": "latinoamérica",
+   "p": "¿Cuál es la capital de Venezuela?",
+   "o": [
+    "Maracaibo",
+    "Caracas",
+    "Valencia",
+    "Barquisimeto"
+   ],
+   "c": 1,
+   "d": "Caracas está en un valle junto al cerro El Ávila.",
+   "tp": "¿Cuál es la capital de Venezuela? ¿Maracaibo, Caracas, Valencia o Barquisimeto?",
+   "tr": "¡Caracas!",
+   "td": "Caracas está en un valle junto al cerro El Ávila."
+  },
+  {
+   "n": 26,
+   "tema": "geografía",
+   "p": "¿Cuál es la capital del Reino Unido?",
+   "o": [
+    "Dublín",
+    "Edimburgo",
+    "Mánchester",
+    "Londres"
+   ],
+   "c": 3,
+   "img_q": "Tower Bridge",
+   "img_modo": "revela",
+   "d": "Londres está a orillas del río Támesis.",
+   "tp": "¿Cuál es la capital del Reino Unido? ¿Dublín, Edimburgo, Mánchester o Londres?",
+   "tr": "¡Londres!",
+   "td": "Londres está a orillas del río Támesis."
+  },
+  {
+   "n": 27,
+   "tema": "geografía",
+   "p": "¿Qué país queda justo al norte de Estados Unidos?",
+   "o": [
+    "Canadá",
+    "México",
+    "Cuba",
+    "Groenlandia"
+   ],
+   "c": 0,
+   "d": "Canadá es el segundo país más grande del mundo.",
+   "tp": "¿Qué país queda justo al norte de Estados Unidos? ¿Canadá, México, Cuba o Groenlandia?",
+   "tr": "¡Canadá!",
+   "td": "Canadá es el segundo país más grande del mundo."
+  },
+  {
+   "n": 28,
+   "tema": "geografía",
+   "p": "¿Cuál es la capital de Portugal?",
+   "o": [
+    "Oporto",
+    "Madrid",
+    "Lisboa",
+    "Faro"
+   ],
+   "c": 2,
+   "d": "Lisboa es una de las ciudades más antiguas de Europa occidental.",
+   "tp": "¿Cuál es la capital de Portugal? ¿Oporto, Madrid, Lisboa o Faro?",
+   "tr": "¡Lisboa!",
+   "td": "Lisboa es una de las ciudades más antiguas de Europa occidental."
+  },
+  {
+   "n": 29,
+   "tema": "geografía",
+   "p": "¿En qué país está la ciudad de Marrakech?",
+   "o": [
+    "Egipto",
+    "Marruecos",
+    "Túnez",
+    "Argelia"
+   ],
+   "c": 1,
+   "d": "Marrakech es famosa por su plaza Jemaa el-Fna y sus mercados.",
+   "tp": "¿En qué país está la ciudad de Marrakech? ¿Egipto, Marruecos, Túnez o Argelia?",
+   "tr": "¡Marruecos!",
+   "td": "Marrakech es famosa por su plaza Jemaa el-Fna y sus mercados."
+  },
+  {
+   "n": 30,
+   "tema": "geografía",
+   "p": "¿Qué mar separa el sur de Europa del norte de África?",
+   "o": [
+    "Mar Rojo",
+    "Mar Negro",
+    "Mar Caspio",
+    "Mar Mediterráneo"
+   ],
+   "c": 3,
+   "d": "«Mediterráneo» significa «en medio de las tierras».",
+   "tp": "¿Qué mar separa el sur de Europa del norte de África? ¿Mar Rojo, mar Negro, mar Caspio o mar Mediterráneo?",
+   "tr": "¡El mar Mediterráneo!",
+   "td": "Mediterráneo significa en medio de las tierras."
+  },
+  {
+   "n": 31,
+   "tema": "geografía",
+   "p": "¿Cuál es la capital de China?",
+   "o": [
+    "Shanghái",
+    "Hong Kong",
+    "Pekín",
+    "Cantón"
+   ],
+   "c": 2,
+   "img_q": "Forbidden City",
+   "img_modo": "revela",
+   "d": "En Pekín está la Ciudad Prohibida, un enorme palacio con casi mil edificios.",
+   "tp": "¿Cuál es la capital de China? ¿Shanghái, Hong Kong, Pekín o Cantón?",
+   "tr": "¡Pekín!",
+   "td": "En Pekín está la Ciudad Prohibida, un enorme palacio con casi mil edificios."
+  },
+  {
+   "n": 32,
+   "tema": "geografía",
+   "p": "¿Cuál es la capital de Canadá?",
+   "o": [
+    "Toronto",
+    "Ottawa",
+    "Montreal",
+    "Vancouver"
+   ],
+   "c": 1,
+   "d": "Ottawa fue elegida capital por la reina Victoria en 1857.",
+   "tp": "¿Cuál es la capital de Canadá? ¿Toronto, Ottawa, Montreal o Vancouver?",
+   "tr": "¡Ottawa!",
+   "td": "Ottawa fue elegida capital por la reina Victoria en mil ochocientos cincuenta y siete."
+  },
+  {
+   "n": 33,
+   "tema": "geografía",
+   "p": "¿Cuál es la capital de Turquía?",
+   "o": [
+    "Estambul",
+    "Izmir",
+    "Antalya",
+    "Ankara"
+   ],
+   "c": 3,
+   "d": "Estambul es la ciudad más grande, pero la capital es Ankara.",
+   "tp": "¿Cuál es la capital de Turquía? ¿Estambul, Izmir, Antalya o Ankara?",
+   "tr": "¡Ankara!",
+   "td": "Estambul es la ciudad más grande, pero la capital es Ankara."
+  },
+  {
+   "n": 34,
+   "tema": "geografía",
+   "p": "¿Cuál es la capital de Suiza?",
+   "o": [
+    "Zúrich",
+    "Ginebra",
+    "Berna",
+    "Basilea"
+   ],
+   "c": 2,
+   "d": "Zúrich es más grande, pero la capital de Suiza es Berna.",
+   "tp": "¿Cuál es la capital de Suiza? ¿Zúrich, Ginebra, Berna o Basilea?",
+   "tr": "¡Berna!",
+   "td": "Zúrich es más grande, pero la capital de Suiza es Berna."
+  },
+  {
+   "n": 35,
+   "tema": "geografía",
+   "p": "¿De qué país africano es capital Nairobi?",
+   "o": [
+    "Tanzania",
+    "Kenia",
+    "Etiopía",
+    "Uganda"
+   ],
+   "c": 1,
+   "d": "Kenia es famoso por sus safaris y la reserva del Masái Mara.",
+   "tp": "¿De qué país africano es capital Nairobi? ¿Tanzania, Kenia, Etiopía o Uganda?",
+   "tr": "¡Kenia!",
+   "td": "Kenia es famoso por sus safaris y la reserva del Masái Mara."
+  },
+  {
+   "n": 36,
+   "tema": "geografía",
+   "p": "¿Cuál es la capital de Nueva Zelanda?",
+   "o": [
+    "Wellington",
+    "Auckland",
+    "Christchurch",
+    "Queenstown"
+   ],
+   "c": 0,
+   "d": "Auckland es la ciudad más grande, pero la capital es Wellington.",
+   "tp": "¿Cuál es la capital de Nueva Zelanda? ¿Wellington, Auckland, Christchurch o Queenstown?",
+   "tr": "¡Wellington!",
+   "td": "Auckland es la ciudad más grande, pero la capital es Wellington."
+  },
+  {
+   "n": 37,
+   "tema": "geografía",
+   "p": "¿Cuál es la isla más grande del mundo?",
+   "o": [
+    "Madagascar",
+    "Groenlandia",
+    "Borneo",
+    "Nueva Guinea"
+   ],
+   "c": 1,
+   "img_q": "Greenland",
+   "img_modo": "revela",
+   "d": "Groenlandia es una enorme isla casi cubierta por hielo.",
+   "tp": "¿Cuál es la isla más grande del mundo? ¿Madagascar, Groenlandia, Borneo o Nueva Guinea?",
+   "tr": "¡Groenlandia!",
+   "td": "Groenlandia es una enorme isla casi cubierta por hielo."
+  },
+  {
+   "n": 38,
+   "tema": "geografía",
+   "p": "¿Cuál es el país más grande de África?",
+   "o": [
+    "Egipto",
+    "Sudán",
+    "Libia",
+    "Argelia"
+   ],
+   "c": 3,
+   "d": "Gran parte de Argelia es desierto del Sahara.",
+   "tp": "¿Cuál es el país más grande de África? ¿Egipto, Sudán, Libia o Argelia?",
+   "tr": "¡Argelia!",
+   "td": "Gran parte de Argelia es desierto del Sahara."
+  },
+  {
+   "n": 39,
+   "tema": "geografía",
+   "p": "¿Qué cordillera separa Europa de Asia?",
+   "o": [
+    "Alpes",
+    "Urales",
+    "Cárpatos",
+    "Pirineos"
+   ],
+   "c": 1,
+   "d": "Los montes Urales atraviesan Rusia de norte a sur.",
+   "tp": "¿Qué cordillera separa Europa de Asia? ¿Alpes, Urales, Cárpatos o Pirineos?",
+   "tr": "¡Los montes Urales!",
+   "td": "Los montes Urales atraviesan Rusia de norte a sur."
+  },
+  {
+   "n": 40,
+   "tema": "geografía",
+   "p": "¿Cuál es el lago más grande de África?",
+   "o": [
+    "Tanganica",
+    "Chad",
+    "Victoria",
+    "Malaui"
+   ],
+   "c": 2,
+   "d": "El lago Victoria lo comparten Uganda, Kenia y Tanzania.",
+   "tp": "¿Cuál es el lago más grande de África? ¿Tanganica, Chad, Victoria o Malaui?",
+   "tr": "¡El lago Victoria!",
+   "td": "El lago Victoria lo comparten Uganda, Kenia y Tanzania."
+  },
+  {
+   "n": 41,
+   "tema": "geografía",
+   "ronda": "relampago",
+   "p": "¿Cuál es la capital de España?",
+   "o": [
+    "Barcelona",
+    "Sevilla",
+    "Valencia",
+    "Madrid"
+   ],
+   "c": 3,
+   "d": "Madrid es una de las capitales más altas de Europa.",
+   "tp": "¿Cuál es la capital de España? ¿Barcelona, Sevilla, Valencia o Madrid?",
+   "tr": "¡Madrid!",
+   "td": "Madrid es una de las capitales más altas de Europa."
+  },
+  {
+   "n": 42,
+   "tema": "geografía",
+   "ronda": "relampago",
+   "p": "¿Qué océano lleva el nombre de la India?",
+   "o": [
+    "Índico",
+    "Atlántico",
+    "Ártico",
+    "Pacífico"
+   ],
+   "c": 0,
+   "d": "El Índico es el tercer océano más grande.",
+   "tp": "¿Qué océano lleva el nombre de la India? ¿Índico, Atlántico, Ártico o Pacífico?",
+   "tr": "¡Índico!",
+   "td": "El Índico es el tercer océano más grande."
+  },
+  {
+   "n": 43,
+   "tema": "geografía",
+   "ronda": "relampago",
+   "p": "¿Qué país tiene una hoja de arce en su bandera?",
+   "o": [
+    "Suecia",
+    "Japón",
+    "Chile",
+    "Canadá"
+   ],
+   "c": 3,
+   "d": "La hoja de arce roja es el símbolo de Canadá.",
+   "tp": "¿Qué país tiene una hoja de arce en su bandera? ¿Suecia, Japón, Chile o Canadá?",
+   "tr": "¡Canadá!",
+   "td": "La hoja de arce roja es el símbolo de Canadá."
+  },
+  {
+   "n": 44,
+   "tema": "geografía",
+   "ronda": "relampago",
+   "p": "¿Cuál es el continente más pequeño?",
+   "o": [
+    "Europa",
+    "Oceanía",
+    "Antártida",
+    "África"
+   ],
+   "c": 1,
+   "d": "Oceanía incluye Australia, Nueva Zelanda y miles de islas.",
+   "tp": "¿Cuál es el continente más pequeño? ¿Europa, Oceanía, Antártida o África?",
+   "tr": "¡Oceanía!",
+   "td": "Oceanía incluye Australia, Nueva Zelanda y miles de islas."
+  },
+  {
+   "n": 45,
+   "tema": "geografía",
+   "ronda": "relampago",
+   "p": "¿Cuál es la capital de Brasil?",
+   "o": [
+    "Río",
+    "São Paulo",
+    "Brasilia",
+    "Salvador"
+   ],
+   "c": 2,
+   "d": "Brasilia se inauguró en 1960 y se construyó desde cero.",
+   "tp": "¿Cuál es la capital de Brasil? ¿Río, São Paulo, Brasilia o Salvador?",
+   "tr": "¡Brasilia!",
+   "td": "Brasilia se inauguró en mil novecientos sesenta y se construyó desde cero."
+  },
+  {
+   "n": 46,
+   "tema": "geografía",
+   "p": "¿Qué río atraviesa la ciudad de París?",
+   "o": [
+    "Támesis",
+    "Rin",
+    "Danubio",
+    "Sena"
+   ],
+   "c": 3,
+   "img_q": "Seine river Paris",
+   "img_modo": "revela",
+   "d": "El Sena desemboca en el canal de la Mancha.",
+   "tp": "¿Qué río atraviesa la ciudad de París? ¿Támesis, Rin, Danubio o Sena?",
+   "tr": "¡El Sena!",
+   "td": "El Sena desemboca en el canal de la Mancha."
+  },
+  {
+   "n": 47,
+   "tema": "geografía",
+   "p": "¿Cuál es el río más largo de Europa?",
+   "o": [
+    "Danubio",
+    "Rin",
+    "Dniéper",
+    "Volga"
+   ],
+   "c": 3,
+   "d": "El Volga mide unos 3.500 kilómetros y desemboca en el mar Caspio.",
+   "tp": "¿Cuál es el río más largo de Europa? ¿Danubio, Rin, Dniéper o Volga?",
+   "tr": "¡El Volga!",
+   "td": "El Volga mide unos tres mil quinientos kilómetros y desemboca en el mar Caspio."
+  },
+  {
+   "n": 48,
+   "tema": "geografía",
+   "p": "¿Cuál es la capital de Tailandia?",
+   "o": [
+    "Bangkok",
+    "Hanói",
+    "Manila",
+    "Yakarta"
+   ],
+   "c": 0,
+   "img_q": "Grand Palace Bangkok",
+   "img_modo": "revela",
+   "d": "El nombre completo de Bangkok en tailandés es uno de los más largos del mundo.",
+   "tp": "¿Cuál es la capital de Tailandia? ¿Bangkok, Hanói, Manila o Yakarta?",
+   "tr": "¡Bangkok!",
+   "td": "El nombre completo de Bangkok en tailandés es uno de los más largos del mundo."
+  },
+  {
+   "n": 49,
+   "tema": "geografía",
+   "p": "¿Entre qué dos países está el desierto de Gobi?",
+   "o": [
+    "India y Pakistán",
+    "Irán e Irak",
+    "Mongolia y China",
+    "Rusia y Kazajistán"
+   ],
+   "c": 2,
+   "img_q": "Gobi Desert",
+   "img_modo": "revela",
+   "d": "El Gobi es un desierto frío: en invierno puede nevar.",
+   "tp": "¿Entre qué dos países está el desierto de Gobi? ¿India y Pakistán, Irán e Irak, Mongolia y China, o Rusia y Kazajistán?",
+   "tr": "¡Mongolia y China!",
+   "td": "El Gobi es un desierto frío: en invierno puede nevar."
+  },
+  {
+   "n": 50,
+   "tema": "geografía",
+   "p": "¿Cuál es la ciudad más poblada de Australia?",
+   "o": [
+    "Melbourne",
+    "Sídney",
+    "Brisbane",
+    "Perth"
+   ],
+   "c": 1,
+   "d": "Sídney es la más poblada, pero la capital del país es otra ciudad.",
+   "tp": "¿Cuál es la ciudad más poblada de Australia? ¿Melbourne, Sídney, Brisbane o Perth?",
+   "tr": "¡Sídney!",
+   "td": "Sídney es la más poblada, pero la capital del país es otra ciudad."
+  },
+  {
+   "n": 51,
+   "tema": "geografía",
+   "p": "¿Qué estrecho separa Asia de América por el norte?",
+   "o": [
+    "Magallanes",
+    "Ormuz",
+    "Malaca",
+    "Bering"
+   ],
+   "c": 3,
+   "d": "En su parte más estrecha mide menos de 100 kilómetros.",
+   "tp": "¿Qué estrecho separa Asia de América por el norte? ¿Magallanes, Ormuz, Malaca o Bering?",
+   "tr": "¡El estrecho de Bering!",
+   "td": "En su parte más estrecha mide menos de cien kilómetros."
+  },
+  {
+   "n": 52,
+   "tema": "geografía",
+   "p": "¿Cuál es el lago más grande del mundo por superficie?",
+   "o": [
+    "Superior",
+    "Victoria",
+    "Caspio",
+    "Baikal"
+   ],
+   "c": 2,
+   "d": "Se llama mar, pero es un lago sin salida al océano.",
+   "tp": "¿Cuál es el lago más grande del mundo por superficie? ¿Superior, Victoria, Caspio o Baikal?",
+   "tr": "¡El mar Caspio!",
+   "td": "Se llama mar, pero es un lago sin salida al océano."
+  },
+  {
+   "n": 53,
+   "tema": "latinoamérica",
+   "p": "¿Qué dos países comparten las cataratas del Iguazú?",
+   "o": [
+    "Argentina y Brasil",
+    "Perú y Bolivia",
+    "Chile y Argentina",
+    "Brasil y Uruguay"
+   ],
+   "c": 0,
+   "img_q": "Iguazu Falls",
+   "img_modo": "revela",
+   "d": "Tiene más de 250 saltos de agua en medio de la selva.",
+   "tp": "¿Qué dos países comparten las cataratas del Iguazú? ¿Argentina y Brasil, Perú y Bolivia, Chile y Argentina, o Brasil y Uruguay?",
+   "tr": "¡Argentina y Brasil!",
+   "td": "Tiene más de doscientos cincuenta saltos de agua en medio de la selva."
+  },
+  {
+   "n": 54,
+   "tema": "latinoamérica",
+   "p": "¿Cuál es la capital constitucional de Bolivia?",
+   "o": [
+    "La Paz",
+    "Sucre",
+    "Santa Cruz",
+    "Cochabamba"
+   ],
+   "c": 1,
+   "d": "La Paz es la sede del gobierno, pero Sucre es la capital constitucional.",
+   "tp": "¿Cuál es la capital constitucional de Bolivia? ¿La Paz, Sucre, Santa Cruz o Cochabamba?",
+   "tr": "¡Sucre!",
+   "td": "La Paz es la sede del gobierno, pero Sucre es la capital constitucional."
+  },
+  {
+   "n": 55,
+   "tema": "geografía",
+   "p": "¿Cuál es el país con más habitantes de África?",
+   "o": [
+    "Etiopía",
+    "Egipto",
+    "Nigeria",
+    "Sudáfrica"
+   ],
+   "c": 2,
+   "d": "En Nigeria viven más de 200 millones de personas.",
+   "tp": "¿Cuál es el país con más habitantes de África? ¿Etiopía, Egipto, Nigeria o Sudáfrica?",
+   "tr": "¡Nigeria!",
+   "td": "En Nigeria viven más de doscientos millones de personas."
+  },
+  {
+   "n": 56,
+   "tema": "geografía",
+   "ronda": "misteriosa",
+   "p": "¿Qué país representa esta bandera?",
+   "o": [
+    "Japón",
+    "China",
+    "Corea del Sur",
+    "Vietnam"
+   ],
+   "c": 2,
+   "bandera": "kr",
+   "img_modo": "pregunta",
+   "d": "Su círculo rojo y azul se llama taegeuk y está rodeado por 4 trigramas negros.",
+   "tp": "¿Qué país representa esta bandera? ¿Japón, China, Corea del Sur o Vietnam?",
+   "tr": "¡Corea del Sur!",
+   "td": "Su círculo rojo y azul se llama taegeuk y está rodeado por cuatro trigramas negros."
+  },
+  {
+   "n": 57,
+   "tema": "geografía",
+   "ronda": "misteriosa",
+   "p": "¿En qué país está esta isla de casas blancas y cúpulas azules?",
+   "o": [
+    "Italia",
+    "Grecia",
+    "Croacia",
+    "Portugal"
+   ],
+   "c": 1,
+   "img_q": "Santorini Oia",
+   "img_modo": "pregunta",
+   "d": "Santorini nació de una enorme erupción volcánica hace unos 3.600 años.",
+   "tp": "¿En qué país está esta isla de casas blancas y cúpulas azules? ¿Italia, Grecia, Croacia o Portugal?",
+   "tr": "¡Grecia! Es la isla de Santorini.",
+   "td": "Santorini nació de una enorme erupción volcánica hace unos tres mil seiscientos años."
+  },
+  {
+   "n": 58,
+   "tema": "latinoamérica",
+   "ronda": "misteriosa",
+   "p": "¿En qué ciudad está esta famosa estatua?",
+   "o": [
+    "Río de Janeiro",
+    "São Paulo",
+    "Lima",
+    "Buenos Aires"
+   ],
+   "c": 0,
+   "img_q": "Christ the Redeemer statue",
+   "img_modo": "pregunta",
+   "d": "El Cristo Redentor mide 30 metros, sin contar su base.",
+   "tp": "¿En qué ciudad está esta famosa estatua? ¿Río de Janeiro, São Paulo, Lima o Buenos Aires?",
+   "tr": "¡Río de Janeiro! Es el Cristo Redentor.",
+   "td": "El Cristo Redentor mide treinta metros, sin contar su base."
+  },
+  {
+   "n": 59,
+   "tema": "geografía",
+   "p": "¿Cuál es la montaña más alta de África?",
+   "o": [
+    "Kenia",
+    "Atlas",
+    "Ruwenzori",
+    "Kilimanjaro"
+   ],
+   "c": 3,
+   "img_q": "Mount Kilimanjaro",
+   "img_modo": "revela",
+   "d": "El Kilimanjaro está en Tanzania y mide unos 5.895 metros.",
+   "tp": "¿Cuál es la montaña más alta de África? ¿Kenia, Atlas, Ruwenzori o Kilimanjaro?",
+   "tr": "¡El Kilimanjaro!",
+   "td": "El Kilimanjaro está en Tanzania y mide unos cinco mil ochocientos noventa y cinco metros."
+  },
+  {
+   "n": 60,
+   "tema": "geografía",
+   "p": "¿Qué ciudad japonesa fue capital imperial durante más de mil años?",
+   "o": [
+    "Osaka",
+    "Kioto",
+    "Nagoya",
+    "Hiroshima"
+   ],
+   "c": 1,
+   "img_q": "Kinkaku-ji",
+   "img_modo": "revela",
+   "d": "Kioto tiene unos 2.000 templos y santuarios.",
+   "tp": "¿Qué ciudad japonesa fue capital imperial durante más de mil años? ¿Osaka, Kioto, Nagoya o Hiroshima?",
+   "tr": "¡Kioto!",
+   "td": "Kioto tiene unos dos mil templos y santuarios."
+  },
+  {
+   "n": 61,
+   "tema": "geografía",
+   "p": "¿Cuál es la capital de Marruecos?",
+   "o": [
+    "Casablanca",
+    "Tánger",
+    "Rabat",
+    "Fez"
+   ],
+   "c": 2,
+   "d": "Rabat tiene una torre inconclusa del siglo XII llamada Torre Hassan.",
+   "tp": "¿Cuál es la capital de Marruecos? ¿Casablanca, Tánger, Rabat o Fez?",
+   "tr": "¡Rabat!",
+   "td": "Rabat tiene una torre inconclusa del siglo doce llamada Torre Hassan."
+  },
+  {
+   "n": 62,
+   "tema": "geografía",
+   "p": "¿Qué ciudad es famosa por sus canales y sus góndolas?",
+   "o": [
+    "Venecia",
+    "Ámsterdam",
+    "Brujas",
+    "Estocolmo"
+   ],
+   "c": 0,
+   "img_q": "Grand Canal Venice",
+   "img_modo": "revela",
+   "d": "Venecia está construida sobre más de 100 islas pequeñas.",
+   "tp": "¿Qué ciudad es famosa por sus canales y sus góndolas? ¿Venecia, Ámsterdam, Brujas o Estocolmo?",
+   "tr": "¡Venecia!",
+   "td": "Venecia está construida sobre más de cien islas pequeñas."
+  },
+  {
+   "n": 63,
+   "tema": "geografía",
+   "p": "¿Qué cordillera separa Francia de España?",
+   "o": [
+    "Los Pirineos",
+    "Los Alpes",
+    "Los Cárpatos",
+    "Los Urales"
+   ],
+   "c": 0,
+   "d": "Entre ellos queda el pequeño país de Andorra.",
+   "tp": "¿Qué cordillera separa Francia de España? ¿Los Pirineos, los Alpes, los Cárpatos o los Urales?",
+   "tr": "¡Los Pirineos!",
+   "td": "Entre ellos queda el pequeño país de Andorra."
+  },
+  {
+   "n": 64,
+   "tema": "geografía",
+   "p": "¿Cuál es la capital de Egipto?",
+   "o": [
+    "Alejandría",
+    "Luxor",
+    "El Cairo",
+    "Asuán"
+   ],
+   "c": 2,
+   "d": "El Cairo está a orillas del río Nilo.",
+   "tp": "¿Cuál es la capital de Egipto? ¿Alejandría, Luxor, El Cairo o Asuán?",
+   "tr": "¡El Cairo!",
+   "td": "El Cairo está a orillas del río Nilo."
+  },
+  {
+   "n": 65,
+   "tema": "latinoamérica",
+   "p": "¿Cuál de estos países sudamericanos no tiene costa?",
+   "o": [
+    "Uruguay",
+    "Ecuador",
+    "Paraguay",
+    "Perú"
+   ],
+   "c": 2,
+   "d": "Paraguay y Bolivia son los dos países sin mar de Sudamérica.",
+   "tp": "¿Cuál de estos países sudamericanos no tiene costa? ¿Uruguay, Ecuador, Paraguay o Perú?",
+   "tr": "¡Paraguay!",
+   "td": "Paraguay y Bolivia son los dos países sin mar de Sudamérica."
+  },
+  {
+   "n": 66,
+   "tema": "geografía",
+   "p": "¿Cuál es la capital de Rusia?",
+   "o": [
+    "San Petersburgo",
+    "Kazán",
+    "Novosibirsk",
+    "Moscú"
+   ],
+   "c": 3,
+   "img_q": "Saint Basil's Cathedral",
+   "img_modo": "revela",
+   "d": "En Moscú están el Kremlin y la Plaza Roja.",
+   "tp": "¿Cuál es la capital de Rusia? ¿San Petersburgo, Kazán, Novosibirsk o Moscú?",
+   "tr": "¡Moscú!",
+   "td": "En Moscú están el Kremlin y la Plaza Roja."
+  },
+  {
+   "n": 67,
+   "tema": "geografía",
+   "p": "¿Qué famoso cañón de Estados Unidos fue tallado por el río Colorado?",
+   "o": [
+    "El Gran Cañón",
+    "Monument Valley",
+    "El Valle de la Muerte",
+    "Yosemite"
+   ],
+   "c": 0,
+   "img_q": "Grand Canyon",
+   "img_modo": "revela",
+   "d": "El Gran Cañón mide unos 446 kilómetros de largo.",
+   "tp": "¿Qué famoso cañón de Estados Unidos fue tallado por el río Colorado? ¿El Gran Cañón, Monument Valley, el Valle de la Muerte o Yosemite?",
+   "tr": "¡El Gran Cañón!",
+   "td": "El Gran Cañón mide unos cuatrocientos cuarenta y seis kilómetros de largo."
+  },
+  {
+   "n": 68,
+   "tema": "perú",
+   "p": "¿En qué región del Perú está el Cañón del Colca, famoso por sus cóndores?",
+   "o": [
+    "Cusco",
+    "Arequipa",
+    "Puno",
+    "Ayacucho"
+   ],
+   "c": 1,
+   "img_q": "Colca Canyon",
+   "img_modo": "revela",
+   "d": "Desde el mirador Cruz del Cóndor se ve volar a estas enormes aves.",
+   "tp": "¿En qué región del Perú está el Cañón del Colca, famoso por sus cóndores? ¿Cusco, Arequipa, Puno o Ayacucho?",
+   "tr": "¡Arequipa!",
+   "td": "Desde el mirador Cruz del Cóndor se ve volar a estas enormes aves."
+  },
+  {
+   "n": 69,
+   "tema": "geografía",
+   "p": "¿Qué país tiene una bandera de dos triángulos apilados?",
+   "o": [
+    "Nepal",
+    "Bután",
+    "Sri Lanka",
+    "Camboya"
+   ],
+   "c": 0,
+   "d": "La bandera de Nepal es la única del mundo que no es un cuadrilátero.",
+   "tp": "¿Qué país tiene una bandera de dos triángulos apilados? ¿Nepal, Bután, Sri Lanka o Camboya?",
+   "tr": "¡Nepal!",
+   "td": "La bandera de Nepal es la única del mundo que no es un cuadrilátero."
+  },
+  {
+   "n": 70,
+   "tema": "geografía",
+   "p": "¿Cuál es el río más largo de Asia?",
+   "o": [
+    "Río Amarillo",
+    "Yangtsé",
+    "Ganges",
+    "Mekong"
+   ],
+   "c": 1,
+   "d": "El Yangtsé mide unos 6.300 kilómetros y cruza China.",
+   "tp": "¿Cuál es el río más largo de Asia? ¿Río Amarillo, Yangtsé, Ganges o Mekong?",
+   "tr": "¡El Yangtsé!",
+   "td": "El Yangtsé mide unos seis mil trescientos kilómetros y cruza China."
+  },
+  {
+   "n": 71,
+   "tema": "geografía",
+   "ronda": "vf",
+   "p": "El desierto más grande del mundo es el Sahara.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "El más grande es la Antártida, un desierto de hielo.",
+   "tp": "¿Verdadero o falso? El desierto más grande del mundo es el Sahara.",
+   "tr": "¡Falso! El mayor desierto es la Antártida.",
+   "td": "El más grande es la Antártida, un desierto de hielo."
+  },
+  {
+   "n": 72,
+   "tema": "geografía",
+   "ronda": "vf",
+   "p": "Mónaco es más pequeño que el Central Park de Nueva York.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Mónaco mide unos 2 km² y el Central Park, unos 3,4 km².",
+   "tp": "¿Verdadero o falso? Mónaco es más pequeño que el Central Park de Nueva York.",
+   "tr": "¡Verdadero! Un país entero en menos espacio que un parque.",
+   "td": "Mónaco mide unos dos kilómetros cuadrados y el Central Park, unos tres coma cuatro."
+  },
+  {
+   "n": 73,
+   "tema": "geografía",
+   "ronda": "vf",
+   "p": "Los Alpes están todos dentro de un solo país.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Los Alpes cruzan 8 países, entre ellos Suiza, Austria e Italia.",
+   "tp": "¿Verdadero o falso? Los Alpes están todos dentro de un solo país.",
+   "tr": "¡Falso! Cruzan ocho países.",
+   "td": "Los Alpes cruzan ocho países, entre ellos Suiza, Austria e Italia."
+  },
+  {
+   "n": 74,
+   "tema": "geografía",
+   "p": "¿Cuál es la montaña más alta de América?",
+   "o": [
+    "Huascarán",
+    "Denali",
+    "Chimborazo",
+    "Aconcagua"
+   ],
+   "c": 3,
+   "img_q": "Aconcagua",
+   "img_modo": "revela",
+   "d": "El Aconcagua, en Argentina, mide casi 7.000 metros.",
+   "tp": "¿Cuál es la montaña más alta de América? ¿Huascarán, Denali, Chimborazo o Aconcagua?",
+   "tr": "¡El Aconcagua!",
+   "td": "El Aconcagua, en Argentina, mide casi siete mil metros."
+  },
+  {
+   "n": 75,
+   "tema": "geografía",
+   "p": "¿Qué país ocupa por sí solo todo un continente?",
+   "o": [
+    "Australia",
+    "Groenlandia",
+    "Islandia",
+    "Madagascar"
+   ],
+   "c": 0,
+   "d": "Australia es a la vez un país, una isla enorme y un continente.",
+   "tp": "¿Qué país ocupa por sí solo todo un continente? ¿Australia, Groenlandia, Islandia o Madagascar?",
+   "tr": "¡Australia!",
+   "td": "Australia es a la vez un país, una isla enorme y un continente."
+  },
+  {
+   "n": 76,
+   "tema": "geografía",
+   "p": "¿Qué río recorre más países que ningún otro en el mundo?",
+   "o": [
+    "Nilo",
+    "Rin",
+    "Danubio",
+    "Amazonas"
+   ],
+   "c": 2,
+   "d": "El Danubio atraviesa o bordea 10 países, más que cualquier otro río.",
+   "tp": "¿Qué río recorre más países que ningún otro en el mundo? ¿Nilo, Rin, Danubio o Amazonas?",
+   "tr": "¡El Danubio!",
+   "td": "El Danubio atraviesa o bordea diez países, más que cualquier otro río."
+  },
+  {
+   "n": 77,
+   "tema": "latinoamérica",
+   "p": "¿Cuál es el país más pequeño de América del Sur?",
+   "o": [
+    "Uruguay",
+    "Surinam",
+    "Guyana",
+    "Paraguay"
+   ],
+   "c": 1,
+   "d": "En Surinam se habla neerlandés, algo único en Sudamérica.",
+   "tp": "¿Cuál es el país más pequeño de América del Sur? ¿Uruguay, Surinam, Guyana o Paraguay?",
+   "tr": "¡Surinam!",
+   "td": "En Surinam se habla neerlandés, algo único en Sudamérica."
+  },
+  {
+   "n": 78,
+   "tema": "idiomas",
+   "p": "¿Qué país del mundo tiene más de 800 idiomas diferentes?",
+   "o": [
+    "India",
+    "Nigeria",
+    "Indonesia",
+    "Papúa Nueva Guinea"
+   ],
+   "c": 3,
+   "d": "Se hablan más de 800 idiomas en un país de unos 10 millones de personas.",
+   "tp": "¿Qué país del mundo tiene más de ochocientos idiomas diferentes? ¿India, Nigeria, Indonesia o Papúa Nueva Guinea?",
+   "tr": "¡Papúa Nueva Guinea!",
+   "td": "Se hablan más de ochocientos idiomas en un país de unos diez millones de personas."
+  },
+  {
+   "n": 79,
+   "tema": "latinoamérica",
+   "p": "¿Cuál es la ciudad más poblada de Sudamérica?",
+   "o": [
+    "Buenos Aires",
+    "Lima",
+    "São Paulo",
+    "Bogotá"
+   ],
+   "c": 2,
+   "d": "São Paulo tiene más de 11 millones de habitantes en la ciudad misma.",
+   "tp": "¿Cuál es la ciudad más poblada de Sudamérica? ¿Buenos Aires, Lima, São Paulo o Bogotá?",
+   "tr": "¡São Paulo!",
+   "td": "São Paulo tiene más de once millones de habitantes en la ciudad misma."
+  },
+  {
+   "n": 80,
+   "tema": "perú",
+   "p": "¿Qué río peruano se une al Ucayali para formar el Amazonas?",
+   "o": [
+    "Marañón",
+    "Huallaga",
+    "Urubamba",
+    "Madre de Dios"
+   ],
+   "c": 0,
+   "d": "Los dos ríos se juntan cerca de Nauta, en la selva peruana, y nace el Amazonas.",
+   "tp": "¿Qué río peruano se une al Ucayali para formar el Amazonas? ¿Marañón, Huallaga, Urubamba o Madre de Dios?",
+   "tr": "¡El Marañón!",
+   "td": "Los dos ríos se juntan cerca de Nauta, en la selva peruana, y nace el Amazonas."
+  },
+  {
+   "n": 81,
+   "tema": "geografía",
+   "p": "¿Qué mar es tan salado que las personas flotan en él sin esfuerzo?",
+   "o": [
+    "Mar Rojo",
+    "Mar Caspio",
+    "Mar Báltico",
+    "Mar Muerto"
+   ],
+   "c": 3,
+   "img_q": "Floating in the Dead Sea",
+   "img_modo": "revela",
+   "d": "Sus orillas están a más de 400 metros bajo el nivel del mar, el punto más bajo de tierra firme.",
+   "tp": "¿Qué mar es tan salado que las personas flotan en él sin esfuerzo? ¿Mar Rojo, mar Caspio, mar Báltico o mar Muerto?",
+   "tr": "¡El mar Muerto!",
+   "td": "Sus orillas están a más de cuatrocientos metros bajo el nivel del mar, el punto más bajo de tierra firme."
+  },
+  {
+   "n": 82,
+   "tema": "historia",
+   "p": "¿Qué país africano tiene más pirámides que Egipto?",
+   "o": [
+    "Etiopía",
+    "Sudán",
+    "Libia",
+    "Chad"
+   ],
+   "c": 1,
+   "img_q": "Pyramids of Meroë",
+   "img_modo": "revela",
+   "d": "Las pirámides de Sudán son más pequeñas y las construyó el reino de Kush.",
+   "tp": "¿Qué país africano tiene más pirámides que Egipto? ¿Etiopía, Sudán, Libia o Chad?",
+   "tr": "¡Sudán!",
+   "td": "Las pirámides de Sudán son más pequeñas y las construyó el reino de Kush."
+  },
+  {
+   "n": 83,
+   "tema": "geografía",
+   "p": "¿En qué país está el fiordo de Geiranger, Patrimonio de la Humanidad?",
+   "o": [
+    "Islandia",
+    "Finlandia",
+    "Suecia",
+    "Noruega"
+   ],
+   "c": 3,
+   "img_q": "Geirangerfjord",
+   "img_modo": "revela",
+   "d": "Los fiordos son antiguos valles excavados por glaciares y llenos de agua de mar.",
+   "tp": "¿En qué país está el fiordo de Geiranger, Patrimonio de la Humanidad? ¿Islandia, Finlandia, Suecia o Noruega?",
+   "tr": "¡Noruega!",
+   "td": "Los fiordos son antiguos valles excavados por glaciares y llenos de agua de mar."
+  },
+  {
+   "n": 84,
+   "tema": "latinoamérica",
+   "p": "¿Cuál es la capital de Costa Rica?",
+   "o": [
+    "San José",
+    "Tegucigalpa",
+    "Managua",
+    "San Salvador"
+   ],
+   "c": 0,
+   "d": "San José está en un valle a más de 1.000 metros de altura.",
+   "tp": "¿Cuál es la capital de Costa Rica? ¿San José, Tegucigalpa, Managua o San Salvador?",
+   "tr": "¡San José!",
+   "td": "San José está en un valle a más de mil metros de altura."
+  },
+  {
+   "n": 85,
+   "tema": "latinoamérica",
+   "p": "¿Qué isla del Caribe comparten Haití y la República Dominicana?",
+   "o": [
+    "Jamaica",
+    "Puerto Rico",
+    "La Española",
+    "Trinidad"
+   ],
+   "c": 2,
+   "img_q": "Santo Domingo Colonial Zone",
+   "img_modo": "revela",
+   "d": "En esta isla está Santo Domingo, la ciudad europea más antigua de América.",
+   "tp": "¿Qué isla del Caribe comparten Haití y la República Dominicana? ¿Jamaica, Puerto Rico, La Española o Trinidad?",
+   "tr": "¡La Española!",
+   "td": "En esta isla está Santo Domingo, la ciudad europea más antigua de América."
+  },
+  {
+   "n": 86,
+   "tema": "latinoamérica",
+   "p": "¿Qué río marca gran parte de la frontera entre México y Estados Unidos?",
+   "o": [
+    "Colorado",
+    "Misisipi",
+    "Hudson",
+    "Río Bravo"
+   ],
+   "c": 3,
+   "d": "En México se llama río Bravo y en Estados Unidos, Río Grande.",
+   "tp": "¿Qué río marca gran parte de la frontera entre México y Estados Unidos? ¿Colorado, Misisipi, Hudson o río Bravo?",
+   "tr": "¡El río Bravo!",
+   "td": "En México se llama río Bravo y en Estados Unidos, Río Grande."
+  },
+  {
+   "n": 87,
+   "tema": "geografía",
+   "p": "¿Cuál es la montaña más alta de los Alpes?",
+   "o": [
+    "Matterhorn",
+    "Mont Blanc",
+    "Eiger",
+    "Monte Rosa"
+   ],
+   "c": 1,
+   "img_q": "Mont Blanc massif",
+   "img_modo": "revela",
+   "d": "El Mont Blanc mide casi 4.800 metros y está en la frontera entre Francia e Italia.",
+   "tp": "¿Cuál es la montaña más alta de los Alpes? ¿Matterhorn, Mont Blanc, Eiger o Monte Rosa?",
+   "tr": "¡El Mont Blanc!",
+   "td": "El Mont Blanc mide casi cuatro mil ochocientos metros y está en la frontera entre Francia e Italia."
+  },
+  {
+   "n": 88,
+   "tema": "geografía",
+   "p": "¿Qué estrecho divide a la ciudad de Estambul entre Europa y Asia?",
+   "o": [
+    "Bósforo",
+    "Dardanelos",
+    "Ormuz",
+    "Mesina"
+   ],
+   "c": 0,
+   "img_q": "Bosphorus Bridge",
+   "img_modo": "revela",
+   "d": "El Bósforo une el mar Negro con el mar de Mármara.",
+   "tp": "¿Qué estrecho divide a la ciudad de Estambul entre Europa y Asia? ¿Bósforo, Dardanelos, Ormuz o Mesina?",
+   "tr": "¡El Bósforo!",
+   "td": "El Bósforo une el mar Negro con el mar de Mármara."
+  },
+  {
+   "n": 89,
+   "tema": "idiomas",
+   "p": "¿Cuál es el país de habla hispana con más superficie?",
+   "o": [
+    "México",
+    "Colombia",
+    "Argentina",
+    "España"
+   ],
+   "c": 2,
+   "d": "Argentina ocupa casi 2,8 millones de kilómetros cuadrados.",
+   "tp": "¿Cuál es el país de habla hispana con más superficie? ¿México, Colombia, Argentina o España?",
+   "tr": "¡Argentina!",
+   "td": "Argentina ocupa casi dos coma ocho millones de kilómetros cuadrados."
+  },
+  {
+   "n": 90,
+   "tema": "historia",
+   "p": "¿En qué país africano está la antigua ciudad de Tombuctú?",
+   "o": [
+    "Mali",
+    "Níger",
+    "Senegal",
+    "Chad"
+   ],
+   "c": 0,
+   "img_q": "Timbuktu Djinguereber Mosque",
+   "img_modo": "revela",
+   "d": "Tombuctú fue un gran centro de comercio y de estudio en el borde del Sahara.",
+   "tp": "¿En qué país africano está la antigua ciudad de Tombuctú? ¿Mali, Níger, Senegal o Chad?",
+   "tr": "¡Mali!",
+   "td": "Tombuctú fue un gran centro de comercio y de estudio en el borde del Sahara."
+  },
+  {
+   "n": 91,
+   "tema": "historia",
+   "p": "¿Qué país se llamó Persia hasta 1935?",
+   "o": [
+    "Irak",
+    "Afganistán",
+    "Turquía",
+    "Irán"
+   ],
+   "c": 3,
+   "d": "Los antiguos persas tuvieron uno de los mayores imperios de la historia.",
+   "tp": "¿Qué país se llamó Persia hasta mil novecientos treinta y cinco? ¿Irak, Afganistán, Turquía o Irán?",
+   "tr": "¡Irán!",
+   "td": "Los antiguos persas tuvieron uno de los mayores imperios de la historia."
+  },
+  {
+   "n": 92,
+   "tema": "geografía",
+   "p": "¿Qué país tiene más husos horarios gracias a sus territorios de ultramar?",
+   "o": [
+    "Rusia",
+    "Estados Unidos",
+    "Reino Unido",
+    "Francia"
+   ],
+   "c": 3,
+   "d": "Francia tiene 12 husos horarios, contando islas lejanas como Tahití.",
+   "tp": "¿Qué país tiene más husos horarios gracias a sus territorios de ultramar? ¿Rusia, Estados Unidos, Reino Unido o Francia?",
+   "tr": "¡Francia!",
+   "td": "Francia tiene doce husos horarios, contando islas lejanas como Tahití."
+  },
+  {
+   "n": 93,
+   "tema": "geografía",
+   "p": "¿De qué país europeo es capital Liubliana?",
+   "o": [
+    "Eslovaquia",
+    "Eslovenia",
+    "Croacia",
+    "Serbia"
+   ],
+   "c": 1,
+   "d": "Eslovenia va de los Alpes al mar Adriático en un país pequeño.",
+   "tp": "¿De qué país europeo es capital Liubliana? ¿Eslovaquia, Eslovenia, Croacia o Serbia?",
+   "tr": "¡Eslovenia!",
+   "td": "Eslovenia va de los Alpes al mar Adriático en un país pequeño."
+  },
+  {
+   "n": 94,
+   "tema": "historia",
+   "p": "¿Qué estrecho del sur de Chile lleva el nombre de un explorador portugués?",
+   "o": [
+    "Beagle",
+    "Drake",
+    "Magallanes",
+    "Bering"
+   ],
+   "c": 2,
+   "d": "Fernando de Magallanes lo cruzó en 1520 durante el primer viaje alrededor del mundo.",
+   "tp": "¿Qué estrecho del sur de Chile lleva el nombre de un explorador portugués? ¿Beagle, Drake, Magallanes o Bering?",
+   "tr": "¡El estrecho de Magallanes!",
+   "td": "Fernando de Magallanes lo cruzó en mil quinientos veinte durante el primer viaje alrededor del mundo."
+  },
+  {
+   "n": 95,
+   "tema": "geografía",
+   "p": "¿Qué dos países africanos comparten las cataratas Victoria?",
+   "o": [
+    "Zambia y Zimbabue",
+    "Kenia y Tanzania",
+    "Angola y Namibia",
+    "Egipto y Sudán"
+   ],
+   "c": 0,
+   "img_q": "Victoria Falls",
+   "img_modo": "revela",
+   "d": "Los pueblos locales las llaman «Mosi-oa-Tunya»: «el humo que truena».",
+   "tp": "¿Qué dos países africanos comparten las cataratas Victoria? ¿Zambia y Zimbabue, Kenia y Tanzania, Angola y Namibia, o Egipto y Sudán?",
+   "tr": "¡Zambia y Zimbabue!",
+   "td": "Los pueblos locales las llaman Mosi-oa-Tunya, que significa el humo que truena."
+  },
+  {
+   "n": 96,
+   "tema": "perú",
+   "p": "¿Cuál es el departamento más extenso del Perú?",
+   "o": [
+    "Cusco",
+    "Ucayali",
+    "Madre de Dios",
+    "Loreto"
+   ],
+   "c": 3,
+   "d": "Loreto ocupa más de la cuarta parte del territorio peruano.",
+   "tp": "¿Cuál es el departamento más extenso del Perú? ¿Cusco, Ucayali, Madre de Dios o Loreto?",
+   "tr": "¡Loreto!",
+   "td": "Loreto ocupa más de la cuarta parte del territorio peruano."
+  },
+  {
+   "n": 97,
+   "tema": "perú",
+   "p": "¿Cuál es la montaña más alta del Perú?",
+   "o": [
+    "Alpamayo",
+    "Coropuna",
+    "Huascarán",
+    "Yerupajá"
+   ],
+   "c": 2,
+   "img_q": "Huascarán",
+   "img_modo": "revela",
+   "d": "El Huascarán mide 6.768 metros y está en la Cordillera Blanca, en Áncash.",
+   "tp": "¿Cuál es la montaña más alta del Perú? ¿Alpamayo, Coropuna, Huascarán o Yerupajá?",
+   "tr": "¡El Huascarán!",
+   "td": "El Huascarán mide seis mil setecientos sesenta y ocho metros y está en la Cordillera Blanca, en Áncash."
+  },
+  {
+   "n": 98,
+   "tema": "geografía",
+   "p": "¿Qué dos océanos se juntan cerca del cabo de Hornos, al sur de Chile?",
+   "o": [
+    "Índico y Pacífico",
+    "Atlántico y Pacífico",
+    "Ártico y Atlántico",
+    "Índico y Atlántico"
+   ],
+   "c": 1,
+   "d": "Durante siglos fue una ruta temida por los marineros por sus tormentas y olas gigantes.",
+   "tp": "¿Qué dos océanos se juntan cerca del cabo de Hornos, al sur de Chile? ¿Índico y Pacífico, Atlántico y Pacífico, Ártico y Atlántico, o Índico y Atlántico?",
+   "tr": "¡Atlántico y Pacífico!",
+   "td": "Durante siglos fue una ruta temida por los marineros por sus tormentas y olas gigantes."
+  },
+  {
+   "n": 99,
+   "tema": "geografía",
+   "p": "¿Cuál es el único mar del mundo que no tiene costas?",
+   "o": [
+    "Mar Muerto",
+    "Mar Rojo",
+    "Mar de los Sargazos",
+    "Mar Negro"
+   ],
+   "c": 2,
+   "img_q": "Sargassum seaweed",
+   "img_modo": "revela",
+   "d": "Está en el Atlántico y sus límites son corrientes marinas, no tierra.",
+   "tp": "¿Cuál es el único mar del mundo que no tiene costas? ¿Mar Muerto, mar Rojo, mar de los Sargazos o mar Negro?",
+   "tr": "¡El mar de los Sargazos!",
+   "td": "Está en el Atlántico y sus límites son corrientes marinas, no tierra."
+  },
+  {
+   "n": 100,
+   "tema": "geografía",
+   "p": "¿Qué país del mundo tiene más islas?",
+   "o": [
+    "Suecia",
+    "Indonesia",
+    "Canadá",
+    "Filipinas"
+   ],
+   "c": 0,
+   "img_q": "Stockholm archipelago",
+   "img_modo": "revela",
+   "d": "Suecia tiene unas 267.000 islas, casi todas pequeñas y sin habitantes.",
+   "tp": "Última pregunta. ¿Qué país del mundo tiene más islas? ¿Suecia, Indonesia, Canadá o Filipinas?",
+   "tr": "¡Suecia! Tiene más de doscientas mil islas.",
+   "td": "Suecia tiene unas doscientas sesenta y siete mil islas, casi todas pequeñas y sin habitantes."
+  }
+ ],
+ "extra_tts": {
+  "an_tema": [
+   "anunciador",
+   "Hoy jugamos: ¡el mundo en mapas! Países, capitales y banderas."
+  ],
+  "pr_intro": [
+   "presentador",
+   "¡Hola, familia! Hoy les traigo cien preguntas de geografía para dar la vuelta al mundo sin salir del sillón. ¿Listos para el reto?"
+  ],
+  "co_intro": [
+   "copresentadora",
+   "Prepárense, porque hoy habrá banderas misteriosas, mitos del mapa y hasta una ronda relámpago. ¡Saquen los celulares y a viajar!"
+  ],
+  "co_fama": [
+   "copresentadora",
+   "Antes de empezar, un aplauso enorme para los mejores jugadores del episodio anterior. ¡Hoy pueden superarlos!"
+  ],
+  "charla05_pr": [
+   "presentador",
+   "¡Cinco preguntas y ya visitamos varias capitales! ¿Cómo van esos celulares?"
+  ],
+  "charla05_co": [
+   "copresentadora",
+   "Yo voy de maravilla. Revisen el ranking en el celular, ¡hay mucha pelea arriba!"
+  ],
+  "charla10_pr": [
+   "presentador",
+   "¿Sabían que el Vaticano es el país más pequeño? ¡Cabe entero dentro de mi circuito!"
+  ],
+  "charla10_co": [
+   "copresentadora",
+   "Y tú cabes en cualquier lado, MAX. Ahora vienen las banderas misteriosas, ¡ojos bien abiertos!"
+  ],
+  "charla15_pr": [
+   "presentador",
+   "¡Esas banderas misteriosas se aclaraban poco a poco! Yo ya las veía borrosas desde el principio."
+  ],
+  "charla15_co": [
+   "copresentadora",
+   "Normal, MAX, eres un robot. Dime, ¿quién en casa acertó primero la bandera del Perú?"
+  ],
+  "charla20_pr": [
+   "presentador",
+   "Canal de Panamá, tulipanes, Brasil... ¡qué viaje llevamos!"
+  ],
+  "charla20_co": [
+   "copresentadora",
+   "Ahora viene el verdadero o falso. Cuidado, que los mitos del mapa engañan a cualquiera."
+  ],
+  "charla25_pr": [
+   "presentador",
+   "¡Tres verdaderos o falsos seguidos! Yo dudé con el Polo Norte, no lo voy a negar."
+  ],
+  "charla25_co": [
+   "copresentadora",
+   "Yo también, MAX. Sudáfrica con tres capitales sorprende a todos. ¡Miren cómo va el ranking!"
+  ],
+  "charla30_pr": [
+   "presentador",
+   "Ya cruzamos el Mediterráneo y seguimos de largo. ¡Esto es un crucero sin mareos!"
+  ],
+  "charla30_co": [
+   "copresentadora",
+   "Hasta ahora todo es fácil, pero se vienen las capitales traicioneras. ¡Atentos!"
+  ],
+  "charla35_pr": [
+   "presentador",
+   "¡Ankara, Berna, Nairobi! Mis circuitos casi se confunden con tantas capitales."
+  ],
+  "charla35_co": [
+   "copresentadora",
+   "A mí me gustó Estambul: es la más grande, pero no es la capital. ¡Cuántos caen en esa trampa!"
+  ],
+  "charla40_pr": [
+   "presentador",
+   "Cuarenta preguntas y seguimos de pie. Antes de lo que viene, estiren esos dedos."
+  ],
+  "charla40_co": [
+   "copresentadora",
+   "¡Sí! Cinco preguntas con solo cinco segundos cada una. ¡Rápidos como un rayo!"
+  ],
+  "charla45_pr": [
+   "presentador",
+   "¡Qué relámpago! Apenas parpadeé y ya habían pasado las cinco preguntas."
+  ],
+  "charla45_co": [
+   "copresentadora",
+   "Así es, MAX. Si acertaron las cinco, ¡son campeones de la velocidad! Respiren y sigamos."
+  ],
+  "charla50_pr": [
+   "presentador",
+   "¡Llegamos a la mitad del viaje! Llevamos Madrid, el Sena y hasta el desierto de Gobi."
+  ],
+  "charla50_co": [
+   "copresentadora",
+   "¡Y falta la otra mitad! Miren el ranking del celular: ¿quién va primero en casa?"
+  ],
+  "charla55_pr": [
+   "presentador",
+   "Sucre o La Paz: ¡Bolivia tiene dos capitales y yo ya tengo dos dudas!"
+  ],
+  "charla55_co": [
+   "copresentadora",
+   "La Paz es el gobierno y Sucre, la capital constitucional. Y ahora, ¡más imágenes misteriosas!"
+  ],
+  "charla60_pr": [
+   "presentador",
+   "¡Una isla griega, el Cristo Redentor y hasta Kioto! Mis sensores de viajero están encendidos."
+  ],
+  "charla60_co": [
+   "copresentadora",
+   "Y ahora la dificultad sube un poquito. ¡Cuidado con los ríos largos y los cañones!"
+  ],
+  "charla65_pr": [
+   "presentador",
+   "Paraguay sin mar, Rabat como capital... ¡aprendí más que en toda mi fábrica!"
+  ],
+  "charla65_co": [
+   "copresentadora",
+   "Qué bueno, MAX. ¡Aprender jugando es lo mejor! Sigan atentos al ranking."
+  ],
+  "charla70_pr": [
+   "presentador",
+   "¡Dos triángulos para una bandera! Nepal siempre sorprende en las fiestas familiares."
+  ],
+  "charla70_co": [
+   "copresentadora",
+   "Ahora llega otro verdadero o falso. Tres mitos del mapa para poner a prueba a toda la familia."
+  ],
+  "charla75_pr": [
+   "presentador",
+   "¡Los Alpes cruzan ocho países! Y yo creyendo que eran de uno solo."
+  ],
+  "charla75_co": [
+   "copresentadora",
+   "Y Mónaco es más chico que un parque. ¡Qué mapa tan lleno de sorpresas!"
+  ],
+  "charla80_pr": [
+   "presentador",
+   "Surinam, São Paulo, el Marañón... ¡casi no puedo pronunciar tantos nombres!"
+  ],
+  "charla80_co": [
+   "copresentadora",
+   "Pues practícalos, MAX. Mientras tanto, las familias de arriba en el ranking se están luciendo."
+  ],
+  "charla85_pr": [
+   "presentador",
+   "Un mar tan salado que flotas, y pirámides en Sudán. ¡Quiero ir a todos lados!"
+  ],
+  "charla85_co": [
+   "copresentadora",
+   "Primero termina el juego, MAX. Quedan quince preguntas y las más difíciles. ¡Fuerza, familia!"
+  ],
+  "charla90_pr": [
+   "presentador",
+   "Tombuctú, Costa Rica, el río Bravo... ¡este viaje no para!"
+  ],
+  "charla90_co": [
+   "copresentadora",
+   "Y pensar que ya llevamos noventa preguntas. ¡Qué buenos jugadores! Quedan solo diez."
+  ],
+  "charla95_pr": [
+   "presentador",
+   "Persia, Liubliana, Magallanes... ¡me sudan los engranajes de tanto viajar!"
+  ],
+  "charla95_co": [
+   "copresentadora",
+   "Quedan cinco preguntas y la última es de las más sorprendentes. ¡Concentración!"
+  ],
+  "pr_cierre": [
+   "presentador",
+   "¡Eso fue todo, familia! Cuéntennos en los comentarios cuántas respuestas acertaron, y ¡nos vemos mañana con un nuevo reto!"
+  ]
+ }
+}

@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+tmp/
+salida/
+*.mp4
+
+# música descifrada: nunca subirla suelta (repo público)
+assets/musica/

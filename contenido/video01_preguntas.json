@@ -1,0 +1,426 @@
+{
+ "titulo": "Cultura general: Perú y el mundo",
+ "codigo_sala": "PERU",
+ "preguntas": [
+  {
+   "p": "¿Cuál es la capital del Perú?",
+   "o": [
+    "Cusco",
+    "Lima",
+    "Arequipa",
+    "Trujillo"
+   ],
+   "c": 1,
+   "d": "Francisco Pizarro la fundó en 1535 con el nombre de Ciudad de los Reyes.",
+   "tp": "¿Cuál es la capital del Perú? ¿Cusco, Lima, Arequipa o Trujillo?",
+   "tr": "¡Lima!",
+   "td": "Francisco Pizarro la fundó en mil quinientos treinta y cinco, con el nombre de Ciudad de los Reyes."
+  },
+  {
+   "p": "¿Cuál es el océano más grande del mundo?",
+   "o": [
+    "Atlántico",
+    "Índico",
+    "Ártico",
+    "Pacífico"
+   ],
+   "c": 3,
+   "d": "El Pacífico es tan grande que todos los continentes juntos cabrían dentro de él.",
+   "tp": "¿Cuál es el océano más grande del mundo? ¿Atlántico, Índico, Ártico o Pacífico?",
+   "tr": "¡El océano Pacífico!",
+   "td": "El Pacífico es tan grande, que todos los continentes juntos cabrían dentro de él."
+  },
+  {
+   "p": "¿Qué lugar del Perú es una de las Nuevas Siete Maravillas del Mundo?",
+   "o": [
+    "Machu Picchu",
+    "Chan Chan",
+    "Caral",
+    "Kuélap"
+   ],
+   "c": 0,
+   "d": "Fue elegida en 2007 en una votación mundial con millones de votos.",
+   "tp": "¿Qué lugar del Perú es una de las Nuevas Siete Maravillas del Mundo? ¿Machu Picchu, Chan Chan, Caral o Kuélap?",
+   "tr": "¡Machu Picchu!",
+   "td": "Fue elegida en el año dos mil siete, en una votación mundial con millones de votos."
+  },
+  {
+   "p": "¿En qué país están las pirámides de Guiza?",
+   "o": [
+    "México",
+    "Grecia",
+    "Egipto",
+    "India"
+   ],
+   "c": 2,
+   "d": "La Gran Pirámide fue la construcción más alta del mundo durante casi 4.000 años.",
+   "tp": "¿En qué país están las pirámides de Guiza? ¿México, Grecia, Egipto o India?",
+   "tr": "¡Egipto!",
+   "td": "La Gran Pirámide fue la construcción más alta del mundo durante casi cuatro mil años."
+  },
+  {
+   "p": "¿Qué plato peruano se prepara con pescado crudo marinado en limón?",
+   "o": [
+    "Ají de gallina",
+    "Ceviche",
+    "Lomo saltado",
+    "Causa"
+   ],
+   "c": 1,
+   "d": "En 2023 la UNESCO lo declaró Patrimonio Cultural Inmaterial de la Humanidad.",
+   "tp": "¿Qué plato peruano se prepara con pescado crudo marinado en limón? ¿Ají de gallina, ceviche, lomo saltado o causa?",
+   "tr": "¡El ceviche!",
+   "td": "En el año dos mil veintitrés, la UNESCO lo declaró Patrimonio Cultural Inmaterial de la Humanidad."
+  },
+  {
+   "p": "¿Cuál es el planeta más grande del sistema solar?",
+   "o": [
+    "Saturno",
+    "Tierra",
+    "Neptuno",
+    "Júpiter"
+   ],
+   "c": 3,
+   "d": "Dentro de Júpiter cabrían más de 1.300 planetas como la Tierra.",
+   "tp": "¿Cuál es el planeta más grande del sistema solar? ¿Saturno, Tierra, Neptuno o Júpiter?",
+   "tr": "¡Júpiter!",
+   "td": "Dentro de Júpiter cabrían más de mil trescientos planetas como la Tierra."
+  },
+  {
+   "p": "¿Qué lago comparten el Perú y Bolivia?",
+   "o": [
+    "Titicaca",
+    "Junín",
+    "Parinacochas",
+    "Maracaibo"
+   ],
+   "c": 0,
+   "d": "Está a unos 3.800 metros de altura y es el lago navegable más alto del mundo.",
+   "tp": "¿Qué lago comparten el Perú y Bolivia? ¿Titicaca, Junín, Parinacochas o Maracaibo?",
+   "tr": "¡El lago Titicaca!",
+   "td": "Está a unos tres mil ochocientos metros de altura, y es el lago navegable más alto del mundo."
+  },
+  {
+   "p": "¿Qué país le regaló la Estatua de la Libertad a Estados Unidos?",
+   "o": [
+    "Inglaterra",
+    "España",
+    "Francia",
+    "Italia"
+   ],
+   "c": 2,
+   "d": "Su estructura interna la diseñó Gustave Eiffel, el mismo de la Torre Eiffel.",
+   "tp": "¿Qué país le regaló la Estatua de la Libertad a Estados Unidos? ¿Inglaterra, España, Francia o Italia?",
+   "tr": "¡Francia!",
+   "td": "Su estructura interna la diseñó Gustave Eiffel, el mismo de la Torre Eiffel."
+  },
+  {
+   "p": "¿Qué animal aparece en el escudo nacional del Perú?",
+   "o": [
+    "Cóndor",
+    "Llama",
+    "Alpaca",
+    "Vicuña"
+   ],
+   "c": 3,
+   "d": "Su lana es una de las fibras naturales más finas del mundo.",
+   "tp": "¿Qué animal aparece en el escudo nacional del Perú? ¿Cóndor, llama, alpaca o vicuña?",
+   "tr": "¡La vicuña!",
+   "td": "Su lana es una de las fibras naturales más finas del mundo."
+  },
+  {
+   "p": "¿En qué año llegó Cristóbal Colón a América?",
+   "o": [
+    "1492",
+    "1532",
+    "1821",
+    "1453"
+   ],
+   "c": 0,
+   "d": "Colón murió creyendo que había llegado a Asia.",
+   "tp": "¿En qué año llegó Cristóbal Colón a América? ¿Mil cuatrocientos noventa y dos, mil quinientos treinta y dos, mil ochocientos veintiuno, o mil cuatrocientos cincuenta y tres?",
+   "tr": "¡En mil cuatrocientos noventa y dos!",
+   "td": "Colón murió creyendo que había llegado a Asia."
+  },
+  {
+   "p": "¿En qué año se proclamó la independencia del Perú?",
+   "o": [
+    "1810",
+    "1821",
+    "1824",
+    "1879"
+   ],
+   "c": 1,
+   "d": "San Martín la proclamó en Lima el 28 de julio; se consolidó con la batalla de Ayacucho en 1824.",
+   "tp": "¿En qué año se proclamó la independencia del Perú? ¿Mil ochocientos diez, mil ochocientos veintiuno, mil ochocientos veinticuatro, o mil ochocientos setenta y nueve?",
+   "tr": "¡En mil ochocientos veintiuno!",
+   "td": "San Martín la proclamó en Lima el veintiocho de julio, y se consolidó con la batalla de Ayacucho, en mil ochocientos veinticuatro."
+  },
+  {
+   "p": "¿Cuál es el órgano más grande del cuerpo humano?",
+   "o": [
+    "El hígado",
+    "El cerebro",
+    "La piel",
+    "Los pulmones"
+   ],
+   "c": 2,
+   "d": "En un adulto, la piel puede pesar alrededor de 4 kilos.",
+   "tp": "¿Cuál es el órgano más grande del cuerpo humano? ¿El hígado, el cerebro, la piel o los pulmones?",
+   "tr": "¡La piel!",
+   "td": "En un adulto, la piel puede pesar alrededor de cuatro kilos."
+  },
+  {
+   "p": "¿Qué escritor peruano ganó el Premio Nobel de Literatura?",
+   "o": [
+    "César Vallejo",
+    "José María Arguedas",
+    "Mario Vargas Llosa",
+    "Ciro Alegría"
+   ],
+   "c": 2,
+   "d": "Lo ganó en 2010. Su primera novela, «La ciudad y los perros», ocurre en el Colegio Militar Leoncio Prado.",
+   "tp": "¿Qué escritor peruano ganó el Premio Nobel de Literatura? ¿César Vallejo, José María Arguedas, Mario Vargas Llosa o Ciro Alegría?",
+   "tr": "¡Mario Vargas Llosa!",
+   "td": "Lo ganó en el año dos mil diez. Su primera novela, La ciudad y los perros, ocurre en el Colegio Militar Leoncio Prado."
+  },
+  {
+   "p": "¿Qué país tiene más habitantes en el mundo?",
+   "o": [
+    "China",
+    "Estados Unidos",
+    "Indonesia",
+    "India"
+   ],
+   "c": 3,
+   "d": "Según la ONU, India superó a China en 2023.",
+   "tp": "¿Qué país tiene más habitantes en el mundo? ¿China, Estados Unidos, Indonesia o India?",
+   "tr": "¡India!",
+   "td": "Según la ONU, India superó a China en el año dos mil veintitrés."
+  },
+  {
+   "p": "¿Cuál es el río más caudaloso del mundo?",
+   "o": [
+    "Nilo",
+    "Amazonas",
+    "Misisipi",
+    "Yangtsé"
+   ],
+   "c": 1,
+   "d": "Nace en los Andes del Perú y lleva al mar cerca de una quinta parte del agua dulce de todos los ríos del planeta.",
+   "tp": "¿Cuál es el río más caudaloso del mundo? ¿Nilo, Amazonas, Misisipi o Yangtsé?",
+   "tr": "¡El Amazonas!",
+   "td": "Nace en los Andes del Perú, y lleva al mar cerca de una quinta parte del agua dulce de todos los ríos del planeta."
+  },
+  {
+   "p": "¿En qué año llegó el ser humano a la Luna?",
+   "o": [
+    "1959",
+    "1969",
+    "1975",
+    "1981"
+   ],
+   "c": 1,
+   "d": "Neil Armstrong fue el primero en pisarla. Sus huellas siguen ahí porque en la Luna no hay viento.",
+   "tp": "¿En qué año llegó el ser humano a la Luna? ¿Mil novecientos cincuenta y nueve, mil novecientos sesenta y nueve, mil novecientos setenta y cinco, o mil novecientos ochenta y uno?",
+   "tr": "¡En mil novecientos sesenta y nueve!",
+   "td": "Neil Armstrong fue el primero en pisarla. Sus huellas siguen ahí, porque en la Luna no hay viento."
+  },
+  {
+   "p": "¿Qué cultura construyó Chan Chan, cerca de Trujillo?",
+   "o": [
+    "Inca",
+    "Mochica",
+    "Chimú",
+    "Nazca"
+   ],
+   "c": 2,
+   "d": "Es la ciudad de barro más grande de América antigua.",
+   "tp": "¿Qué cultura construyó Chan Chan, cerca de Trujillo? ¿Inca, Mochica, Chimú o Nazca?",
+   "tr": "¡La cultura Chimú!",
+   "td": "Es la ciudad de barro más grande de América antigua."
+  },
+  {
+   "p": "¿Cuál es el país más grande del mundo por territorio?",
+   "o": [
+    "Canadá",
+    "China",
+    "Estados Unidos",
+    "Rusia"
+   ],
+   "c": 3,
+   "d": "Es tan ancho que tiene 11 husos horarios.",
+   "tp": "¿Cuál es el país más grande del mundo por territorio? ¿Canadá, China, Estados Unidos o Rusia?",
+   "tr": "¡Rusia!",
+   "td": "Es tan ancho, que tiene once husos horarios."
+  },
+  {
+   "p": "¿Qué gobernante inca fue capturado por los españoles en Cajamarca?",
+   "o": [
+    "Atahualpa",
+    "Huáscar",
+    "Pachacútec",
+    "Manco Cápac"
+   ],
+   "c": 0,
+   "d": "Ofreció llenar un cuarto de oro y dos de plata a cambio de su libertad. El Cuarto del Rescate aún se puede visitar.",
+   "tp": "¿Qué gobernante inca fue capturado por los españoles en Cajamarca? ¿Atahualpa, Huáscar, Pachacútec o Manco Cápac?",
+   "tr": "¡Atahualpa!",
+   "td": "Ofreció llenar un cuarto de oro y dos de plata a cambio de su libertad. El Cuarto del Rescate todavía se puede visitar."
+  },
+  {
+   "p": "¿Quién pintó «La noche estrellada»?",
+   "o": [
+    "Pablo Picasso",
+    "Vincent van Gogh",
+    "Claude Monet",
+    "Salvador Dalí"
+   ],
+   "c": 1,
+   "d": "La pintó en 1889 mientras estaba internado en un sanatorio en Francia.",
+   "tp": "¿Quién pintó La noche estrellada? ¿Pablo Picasso, Vincent van Gogh, Claude Monet o Salvador Dalí?",
+   "tr": "¡Vincent van Gogh!",
+   "td": "La pintó en mil ochocientos ochenta y nueve, mientras estaba internado en un sanatorio en Francia."
+  },
+  {
+   "p": "¿Cuál es la montaña más alta del Perú?",
+   "o": [
+    "Misti",
+    "Alpamayo",
+    "Huascarán",
+    "Salkantay"
+   ],
+   "c": 2,
+   "d": "Supera los 6.700 metros y es la montaña más alta de toda la zona tropical del planeta.",
+   "tp": "¿Cuál es la montaña más alta del Perú? ¿Misti, Alpamayo, Huascarán o Salkantay?",
+   "tr": "¡El Huascarán!",
+   "td": "Supera los seis mil setecientos metros, y es la montaña más alta de toda la zona tropical del planeta."
+  },
+  {
+   "p": "¿Qué gas abunda más en el aire que respiramos?",
+   "o": [
+    "Oxígeno",
+    "Nitrógeno",
+    "Dióxido de carbono",
+    "Hidrógeno"
+   ],
+   "c": 1,
+   "d": "El nitrógeno es cerca del 78 % del aire. El oxígeno, apenas el 21 %.",
+   "tp": "¿Qué gas abunda más en el aire que respiramos? ¿Oxígeno, nitrógeno, dióxido de carbono o hidrógeno?",
+   "tr": "¡El nitrógeno!",
+   "td": "El nitrógeno es cerca del setenta y ocho por ciento del aire. El oxígeno, apenas el veintiuno."
+  },
+  {
+   "p": "¿Cuál es la ciudad más antigua de América, ubicada en Supe, Lima?",
+   "o": [
+    "Pachacámac",
+    "Caral",
+    "Chavín",
+    "Tiahuanaco"
+   ],
+   "c": 1,
+   "d": "Tiene unos 5.000 años: es tan antigua como las pirámides de Egipto.",
+   "tp": "¿Cuál es la ciudad más antigua de América, ubicada en Supe, Lima? ¿Pachacámac, Caral, Chavín o Tiahuanaco?",
+   "tr": "¡Caral!",
+   "td": "Tiene unos cinco mil años. Es tan antigua como las pirámides de Egipto."
+  },
+  {
+   "p": "¿Cuál es la capital de Australia?",
+   "o": [
+    "Sídney",
+    "Melbourne",
+    "Canberra",
+    "Perth"
+   ],
+   "c": 2,
+   "d": "Se construyó como capital para no elegir entre Sídney y Melbourne, que se disputaban el puesto.",
+   "tp": "¿Cuál es la capital de Australia? ¿Sídney, Melbourne, Canberra o Perth?",
+   "tr": "¡Canberra!",
+   "td": "Se construyó como capital para no elegir entre Sídney y Melbourne, que se disputaban el puesto."
+  },
+  {
+   "p": "¿Qué investigadora alemana dedicó su vida a estudiar las Líneas de Nazca?",
+   "o": [
+    "María Reiche",
+    "Marie Curie",
+    "Ana Frank",
+    "Jane Goodall"
+   ],
+   "c": 0,
+   "d": "Era matemática, llegó al Perú en 1932 y pasó más de 50 años cuidando las líneas.",
+   "tp": "¿Qué investigadora alemana dedicó su vida a estudiar las Líneas de Nazca? ¿María Reiche, Marie Curie, Ana Frank o Jane Goodall?",
+   "tr": "¡María Reiche!",
+   "td": "Era matemática, llegó al Perú en mil novecientos treinta y dos, y pasó más de cincuenta años cuidando las líneas."
+  },
+  {
+   "p": "¿Cuál es el desierto no polar más seco del mundo?",
+   "o": [
+    "Sahara",
+    "Atacama",
+    "Gobi",
+    "Sechura"
+   ],
+   "c": 1,
+   "d": "Hay lugares del Atacama donde nunca se ha registrado lluvia.",
+   "tp": "¿Cuál es el desierto no polar más seco del mundo? ¿Sahara, Atacama, Gobi o Sechura?",
+   "tr": "¡El desierto de Atacama!",
+   "td": "Hay lugares del Atacama donde nunca se ha registrado lluvia."
+  },
+  {
+   "p": "¿Qué pionero peruano de la era espacial aparece en el billete de 100 soles?",
+   "o": [
+    "Pedro Paulet",
+    "Jorge Chávez",
+    "Santiago Antúnez de Mayolo",
+    "Daniel Alcides Carrión"
+   ],
+   "c": 0,
+   "d": "Según sus escritos, en 1895 ya probaba un motor de cohete de combustible líquido.",
+   "tp": "¿Qué pionero peruano de la era espacial aparece en el billete de cien soles? ¿Pedro Paulet, Jorge Chávez, Santiago Antúnez de Mayolo, o Daniel Alcides Carrión?",
+   "tr": "¡Pedro Paulet!",
+   "td": "Según sus escritos, en mil ochocientos noventa y cinco ya probaba un motor de cohete de combustible líquido."
+  },
+  {
+   "p": "¿Qué arqueólogo peruano descubrió la tumba del Señor de Sipán?",
+   "o": [
+    "Julio C. Tello",
+    "Ruth Shady",
+    "Federico Kauffmann",
+    "Walter Alva"
+   ],
+   "c": 3,
+   "d": "Fue en 1987, en Lambayeque. Es uno de los hallazgos arqueológicos más importantes del siglo XX.",
+   "tp": "¿Qué arqueólogo peruano descubrió la tumba del Señor de Sipán? ¿Julio César Tello, Ruth Shady, Federico Kauffmann, o Walter Alva?",
+   "tr": "¡Walter Alva!",
+   "td": "Fue en mil novecientos ochenta y siete, en Lambayeque. Es uno de los hallazgos arqueológicos más importantes del siglo veinte."
+  },
+  {
+   "p": "¿Cuántos huesos tiene el cuerpo de un adulto?",
+   "o": [
+    "106",
+    "206",
+    "306",
+    "256"
+   ],
+   "c": 1,
+   "d": "Un bebé nace con unos 300, pero muchos se van uniendo al crecer.",
+   "tp": "¿Cuántos huesos tiene el cuerpo de un adulto? ¿Ciento seis, doscientos seis, trescientos seis, o doscientos cincuenta y seis?",
+   "tr": "¡Doscientos seis!",
+   "td": "Un bebé nace con unos trescientos, pero muchos se van uniendo al crecer."
+  },
+  {
+   "p": "¿Cuántos países independientes hay en Sudamérica?",
+   "o": [
+    "10",
+    "11",
+    "12",
+    "13"
+   ],
+   "c": 2,
+   "d": "La Guayana Francesa también está en Sudamérica, pero es parte de Francia.",
+   "tp": "¿Cuántos países independientes hay en Sudamérica? ¿Diez, once, doce o trece?",
+   "tr": "¡Doce países!",
+   "td": "La Guayana Francesa también está en Sudamérica, pero es parte de Francia."
+  }
+ ]
+}

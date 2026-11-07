@@ -1,0 +1,1882 @@
+{
+ "id": "ep007",
+ "fecha": "2026-11-09",
+ "formato": "normal",
+ "estado": "producido",
+ "codigo_sala": "CIENCIA",
+ "titulo": "Ciencia, cuerpo humano y espacio",
+ "titulo_youtube": "¿Cuánto sabes de ciencia? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
+ "descripcion": "Cien preguntas de ciencia, cuerpo humano y espacio para jugar en familia frente a la tele. Con imágenes misteriosas, verdadero o falso y una ronda relámpago. ¿Eres un genio de la ciencia? ¡Cuéntanos tu puntaje en los comentarios!",
+ "tags": [
+  "ciencia",
+  "cuerpo humano",
+  "espacio",
+  "planetas",
+  "trivia en familia",
+  "preguntas y respuestas",
+  "juego para la tele"
+ ],
+ "tema_miniatura": "CIENCIA Y ESPACIO",
+ "reto_miniatura": "¿Eres un genio de la ciencia?",
+ "objetivo_preguntas": 100,
+ "total_anunciado": 100,
+ "preguntas": [
+  {
+   "n": 1,
+   "tema": "cuerpo",
+   "p": "¿Cuántos sentidos tenemos los humanos tradicionalmente?",
+   "o": [
+    "Tres",
+    "Cinco",
+    "Siete",
+    "Diez"
+   ],
+   "c": 1,
+   "d": "Son vista, oído, olfato, gusto y tacto.",
+   "tp": "¿Cuántos sentidos tenemos los humanos tradicionalmente? ¿Tres, cinco, siete o diez?",
+   "tr": "¡Cinco!",
+   "td": "Son vista, oído, olfato, gusto y tacto."
+  },
+  {
+   "n": 2,
+   "tema": "cuerpo",
+   "p": "¿Con qué órgano respiramos?",
+   "o": [
+    "Estómago",
+    "Riñones",
+    "Hígado",
+    "Pulmones"
+   ],
+   "c": 3,
+   "d": "Los pulmones llevan oxígeno a la sangre.",
+   "tp": "¿Con qué órgano respiramos? ¿Estómago, riñones, hígado o pulmones?",
+   "tr": "¡Los pulmones!",
+   "td": "Los pulmones llevan oxígeno a la sangre."
+  },
+  {
+   "n": 3,
+   "tema": "espacio",
+   "p": "¿Qué astro nos da luz y calor durante el día?",
+   "o": [
+    "El Sol",
+    "La Luna",
+    "Marte",
+    "Venus"
+   ],
+   "c": 0,
+   "d": "El Sol es una estrella.",
+   "tp": "¿Qué astro nos da luz y calor durante el día? ¿El Sol, la Luna, Marte o Venus?",
+   "tr": "¡El Sol!",
+   "td": "El Sol es una estrella."
+  },
+  {
+   "n": 4,
+   "tema": "cuerpo",
+   "p": "¿Cuántos dientes tiene un adulto con todos sus dientes?",
+   "o": [
+    "20",
+    "28",
+    "32",
+    "36"
+   ],
+   "c": 2,
+   "d": "Esos 32 incluyen cuatro muelas del juicio.",
+   "tp": "¿Cuántos dientes tiene un adulto con todos sus dientes? ¿Veinte, veintiocho, treinta y dos o treinta y seis?",
+   "tr": "¡Treinta y dos!",
+   "td": "Esos treinta y dos incluyen cuatro muelas del juicio."
+  },
+  {
+   "n": 5,
+   "tema": "cuerpo",
+   "p": "¿Qué parte del cuerpo usamos para escuchar?",
+   "o": [
+    "Ojos",
+    "Oídos",
+    "Nariz",
+    "Lengua"
+   ],
+   "c": 1,
+   "d": "Los oídos también nos ayudan a mantener el equilibrio.",
+   "tp": "¿Qué parte del cuerpo usamos para escuchar? ¿Ojos, oídos, nariz o lengua?",
+   "tr": "¡Los oídos!",
+   "td": "Los oídos también nos ayudan a mantener el equilibrio."
+  },
+  {
+   "n": 6,
+   "tema": "espacio",
+   "p": "¿Cuántos planetas tiene el sistema solar?",
+   "o": [
+    "Ocho",
+    "Nueve",
+    "Siete",
+    "Diez"
+   ],
+   "c": 0,
+   "d": "Son Mercurio, Venus, Tierra, Marte, Júpiter, Saturno, Urano y Neptuno.",
+   "tp": "¿Cuántos planetas tiene el sistema solar? ¿Ocho, nueve, siete o diez?",
+   "tr": "¡Ocho!",
+   "td": "Son Mercurio, Venus, Tierra, Marte, Júpiter, Saturno, Urano y Neptuno."
+  },
+  {
+   "n": 7,
+   "tema": "ciencia",
+   "p": "¿En qué estado del agua está el hielo?",
+   "o": [
+    "Líquido",
+    "Gaseoso",
+    "Plasma",
+    "Sólido"
+   ],
+   "c": 3,
+   "d": "Al calentarse, el hielo se derrite y pasa a líquido.",
+   "tp": "¿En qué estado del agua está el hielo? ¿Líquido, gaseoso, plasma o sólido?",
+   "tr": "¡Sólido!",
+   "td": "Al calentarse, el hielo se derrite y pasa a líquido."
+  },
+  {
+   "n": 8,
+   "tema": "ciencia",
+   "p": "¿Qué instrumento sirve para medir la temperatura?",
+   "o": [
+    "Reloj",
+    "Balanza",
+    "Termómetro",
+    "Regla"
+   ],
+   "c": 2,
+   "d": "Los hay de alcohol, de mercurio y digitales.",
+   "tp": "¿Qué instrumento sirve para medir la temperatura? ¿Reloj, balanza, termómetro o regla?",
+   "tr": "¡El termómetro!",
+   "td": "Los hay de alcohol, de mercurio y digitales."
+  },
+  {
+   "n": 9,
+   "tema": "ciencia",
+   "p": "¿Cuántos colores tiene el arcoíris tradicional?",
+   "o": [
+    "Cinco",
+    "Siete",
+    "Nueve",
+    "Seis"
+   ],
+   "c": 1,
+   "d": "Son rojo, naranja, amarillo, verde, azul, añil y violeta.",
+   "tp": "¿Cuántos colores tiene el arcoíris tradicional? ¿Cinco, siete, nueve o seis?",
+   "tr": "¡Siete!",
+   "td": "Son rojo, naranja, amarillo, verde, azul, añil y violeta."
+  },
+  {
+   "n": 10,
+   "tema": "espacio",
+   "p": "¿Cuál es el único satélite natural de la Tierra?",
+   "o": [
+    "La Luna",
+    "Fobos",
+    "Titán",
+    "Europa"
+   ],
+   "c": 0,
+   "img_q": "Full Moon",
+   "img_modo": "revela",
+   "d": "La Luna tarda unos 27 días en dar una vuelta a la Tierra.",
+   "tp": "¿Cuál es el único satélite natural de la Tierra? ¿La Luna, Fobos, Titán o Europa?",
+   "tr": "¡La Luna!",
+   "td": "La Luna tarda unos veintisiete días en dar una vuelta a la Tierra."
+  },
+  {
+   "n": 11,
+   "tema": "espacio",
+   "ronda": "misteriosa",
+   "p": "¿Qué planeta es este, famoso por sus anillos?",
+   "o": [
+    "Júpiter",
+    "Urano",
+    "Saturno",
+    "Neptuno"
+   ],
+   "c": 2,
+   "img_q": "Saturn planet",
+   "img_modo": "pregunta",
+   "d": "Sus anillos están hechos de hielo y rocas.",
+   "tp": "Miren bien la foto. ¿Qué planeta es este, famoso por sus anillos? ¿Júpiter, Urano, Saturno o Neptuno?",
+   "tr": "¡Saturno!",
+   "td": "Sus anillos están hechos de hielo y rocas."
+  },
+  {
+   "n": 12,
+   "tema": "ciencia",
+   "ronda": "misteriosa",
+   "p": "¿Cómo se llama este instrumento para ver cosas diminutas?",
+   "o": [
+    "Microscopio",
+    "Telescopio",
+    "Periscopio",
+    "Estetoscopio"
+   ],
+   "c": 0,
+   "img_q": "Optical microscope",
+   "img_modo": "pregunta",
+   "d": "Los primeros microscopios se hicieron hace más de 400 años.",
+   "tp": "¿Cómo se llama este instrumento para ver cosas diminutas? ¿Microscopio, telescopio, periscopio o estetoscopio?",
+   "tr": "¡El microscopio!",
+   "td": "Los primeros microscopios se hicieron hace más de cuatrocientos años."
+  },
+  {
+   "n": 13,
+   "tema": "naturaleza",
+   "ronda": "misteriosa",
+   "p": "¿Cómo se llama este fenómeno de luces verdes en el cielo polar?",
+   "o": [
+    "Arcoíris",
+    "Aurora boreal",
+    "Eclipse",
+    "Halo"
+   ],
+   "c": 1,
+   "img_q": "Aurora borealis",
+   "img_modo": "pregunta",
+   "d": "Ocurre cuando partículas del Sol chocan con la atmósfera.",
+   "tp": "¿Cómo se llama este fenómeno de luces verdes en el cielo polar? ¿Arcoíris, aurora boreal, eclipse o halo?",
+   "tr": "¡La aurora boreal!",
+   "td": "Ocurre cuando partículas del Sol chocan con la atmósfera."
+  },
+  {
+   "n": 14,
+   "tema": "cuerpo",
+   "p": "¿Qué órgano usamos para pensar?",
+   "o": [
+    "Corazón",
+    "Estómago",
+    "Pulmón",
+    "Cerebro"
+   ],
+   "c": 3,
+   "d": "El cerebro de un adulto pesa alrededor de 1,4 kilos.",
+   "tp": "¿Qué órgano usamos para pensar? ¿Corazón, estómago, pulmón o cerebro?",
+   "tr": "¡El cerebro!",
+   "td": "El cerebro de un adulto pesa alrededor de un kilo y cuatrocientos gramos."
+  },
+  {
+   "n": 15,
+   "tema": "ciencia",
+   "p": "¿Qué gas sacamos al respirar que las plantas usan para crecer?",
+   "o": [
+    "Oxígeno",
+    "Helio",
+    "Dióxido de carbono",
+    "Hidrógeno"
+   ],
+   "c": 2,
+   "d": "Las plantas lo usan para fabricar su alimento con la luz del Sol.",
+   "tp": "¿Qué gas sacamos al respirar que las plantas usan para crecer? ¿Oxígeno, helio, dióxido de carbono o hidrógeno?",
+   "tr": "¡El dióxido de carbono!",
+   "td": "Las plantas lo usan para fabricar su alimento con la luz del Sol."
+  },
+  {
+   "n": 16,
+   "tema": "espacio",
+   "p": "¿Cuánto tarda la Tierra en girar una vez sobre sí misma?",
+   "o": [
+    "12 horas",
+    "24 horas",
+    "365 días",
+    "30 días"
+   ],
+   "c": 1,
+   "d": "Esa vuelta forma el día y la noche.",
+   "tp": "¿Cuánto tarda la Tierra en girar una vez sobre sí misma? ¿Doce horas, veinticuatro horas, trescientos sesenta y cinco días o treinta días?",
+   "tr": "¡Veinticuatro horas!",
+   "td": "Esa vuelta forma el día y la noche."
+  },
+  {
+   "n": 17,
+   "tema": "inventos",
+   "p": "¿Qué inventor estadounidense perfeccionó la bombilla eléctrica en 1879?",
+   "o": [
+    "Thomas Edison",
+    "Nikola Tesla",
+    "Isaac Newton",
+    "Albert Einstein"
+   ],
+   "c": 0,
+   "d": "Edison probó miles de materiales para el filamento.",
+   "tp": "¿Qué inventor estadounidense perfeccionó la bombilla eléctrica en mil ochocientos setenta y nueve? ¿Thomas Edison, Nikola Tesla, Isaac Newton o Albert Einstein?",
+   "tr": "¡Thomas Edison!",
+   "td": "Edison probó miles de materiales para el filamento."
+  },
+  {
+   "n": 18,
+   "tema": "naturaleza",
+   "p": "¿Qué parte de la planta absorbe el agua del suelo?",
+   "o": [
+    "Hoja",
+    "Flor",
+    "Tallo",
+    "Raíz"
+   ],
+   "c": 3,
+   "d": "Las raíces también sostienen la planta.",
+   "tp": "¿Qué parte de la planta absorbe el agua del suelo? ¿Hoja, flor, tallo o raíz?",
+   "tr": "¡La raíz!",
+   "td": "Las raíces también sostienen la planta."
+  },
+  {
+   "n": 19,
+   "tema": "ciencia",
+   "p": "¿Cuál de estos metales es líquido a temperatura ambiente?",
+   "o": [
+    "Hierro",
+    "Cobre",
+    "Mercurio",
+    "Plomo"
+   ],
+   "c": 2,
+   "d": "El mercurio se usaba en los termómetros antiguos.",
+   "tp": "¿Cuál de estos metales es líquido a temperatura ambiente? ¿Hierro, cobre, mercurio o plomo?",
+   "tr": "¡El mercurio!",
+   "td": "El mercurio se usaba en los termómetros antiguos."
+  },
+  {
+   "n": 20,
+   "tema": "cuerpo",
+   "p": "¿Qué células de la sangre transportan el oxígeno?",
+   "o": [
+    "Plaquetas",
+    "Glóbulos rojos",
+    "Glóbulos blancos",
+    "Neuronas"
+   ],
+   "c": 1,
+   "d": "Su color rojo viene de una proteína llamada hemoglobina.",
+   "tp": "¿Qué células de la sangre transportan el oxígeno? ¿Plaquetas, glóbulos rojos, glóbulos blancos o neuronas?",
+   "tr": "¡Los glóbulos rojos!",
+   "td": "Su color rojo viene de una proteína llamada hemoglobina."
+  },
+  {
+   "n": 21,
+   "tema": "naturaleza",
+   "ronda": "vf",
+   "p": "Un rayo nunca cae dos veces en el mismo lugar.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Falso: el Empire State Building recibe rayos varias veces al año.",
+   "tp": "¿Verdadero o falso? Un rayo nunca cae dos veces en el mismo lugar.",
+   "tr": "¡Falso! El Empire State recibe rayos varias veces al año.",
+   "td": "Falso: el Empire State Building recibe rayos varias veces al año."
+  },
+  {
+   "n": 22,
+   "tema": "ciencia",
+   "ronda": "vf",
+   "p": "Los plátanos son ligeramente radiactivos.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Tienen potasio, y una parte diminuta es radiactiva. Es totalmente inofensivo.",
+   "tp": "¿Verdadero o falso? Los plátanos son ligeramente radiactivos.",
+   "tr": "¡Verdadero! Pero en una cantidad diminuta e inofensiva.",
+   "td": "Tienen potasio, y una parte diminuta es radiactiva. Es totalmente inofensivo."
+  },
+  {
+   "n": 23,
+   "tema": "cuerpo",
+   "ronda": "vf",
+   "p": "Los humanos usamos solo el 10 % del cerebro.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Falso: usamos todo el cerebro, aunque no todas las zonas a la vez.",
+   "tp": "¿Verdadero o falso? Los humanos usamos solo el diez por ciento del cerebro.",
+   "tr": "¡Falso! Usamos todo el cerebro.",
+   "td": "Falso: usamos todo el cerebro, aunque no todas las zonas a la vez."
+  },
+  {
+   "n": 24,
+   "tema": "ciencia",
+   "p": "¿Quién creó la primera vacuna, contra la viruela, en 1796?",
+   "o": [
+    "Louis Pasteur",
+    "Edward Jenner",
+    "Robert Koch",
+    "Joseph Lister"
+   ],
+   "c": 1,
+   "d": "«Vacuna» viene de «vaca»: Jenner usó el virus de la viruela vacuna.",
+   "tp": "¿Quién creó la primera vacuna, contra la viruela, en mil setecientos noventa y seis? ¿Louis Pasteur, Edward Jenner, Robert Koch o Joseph Lister?",
+   "tr": "¡Edward Jenner!",
+   "td": "La palabra vacuna viene de vaca: Jenner usó el virus de la viruela vacuna."
+  },
+  {
+   "n": 25,
+   "tema": "cuerpo",
+   "p": "¿Qué parte negra del ojo se achica cuando hay mucha luz?",
+   "o": [
+    "Córnea",
+    "Retina",
+    "Párpado",
+    "Pupila"
+   ],
+   "c": 3,
+   "img_q": "Human eye pupil",
+   "img_modo": "revela",
+   "d": "La pupila se agranda en la oscuridad para dejar entrar más luz.",
+   "tp": "¿Qué parte negra del ojo se achica cuando hay mucha luz? ¿Córnea, retina, párpado o pupila?",
+   "tr": "¡La pupila!",
+   "td": "La pupila se agranda en la oscuridad para dejar entrar más luz."
+  },
+  {
+   "n": 26,
+   "tema": "ciencia",
+   "p": "¿Qué fuerza nos mantiene pegados al suelo?",
+   "o": [
+    "Gravedad",
+    "Magnetismo",
+    "Fricción",
+    "Electricidad"
+   ],
+   "c": 0,
+   "d": "En la Luna la gravedad es unas seis veces menor que en la Tierra.",
+   "tp": "¿Qué fuerza nos mantiene pegados al suelo? ¿Gravedad, magnetismo, fricción o electricidad?",
+   "tr": "¡La gravedad!",
+   "td": "En la Luna la gravedad es unas seis veces menor que en la Tierra."
+  },
+  {
+   "n": 27,
+   "tema": "naturaleza",
+   "p": "¿Qué capa de la atmósfera nos protege de los rayos ultravioleta?",
+   "o": [
+    "Troposfera",
+    "Ionosfera",
+    "Capa de ozono",
+    "Exosfera"
+   ],
+   "c": 2,
+   "d": "El mexicano Mario Molina ganó el Nobel de Química en 1995 por estudiarla.",
+   "tp": "¿Qué capa de la atmósfera nos protege de los rayos ultravioleta? ¿Troposfera, ionosfera, capa de ozono o exosfera?",
+   "tr": "¡La capa de ozono!",
+   "td": "El mexicano Mario Molina ganó el premio Nobel de Química en mil novecientos noventa y cinco por estudiarla."
+  },
+  {
+   "n": 28,
+   "tema": "espacio",
+   "p": "¿Qué planeta se ve al amanecer como el «lucero del alba»?",
+   "o": [
+    "Marte",
+    "Mercurio",
+    "Neptuno",
+    "Venus"
+   ],
+   "c": 3,
+   "img_q": "Venus planet",
+   "img_modo": "revela",
+   "d": "Después de la Luna, Venus es el astro más brillante del cielo nocturno.",
+   "tp": "¿Qué planeta se ve al amanecer como el lucero del alba? ¿Marte, Mercurio, Neptuno o Venus?",
+   "tr": "¡Venus!",
+   "td": "Después de la Luna, Venus es el astro más brillante del cielo nocturno."
+  },
+  {
+   "n": 29,
+   "tema": "cuerpo",
+   "p": "¿Cómo se llama el instrumento del médico para escuchar el corazón?",
+   "o": [
+    "Estetoscopio",
+    "Termómetro",
+    "Otoscopio",
+    "Tensiómetro"
+   ],
+   "c": 0,
+   "img_q": "Stethoscope",
+   "img_modo": "revela",
+   "d": "El médico francés René Laënnec lo inventó en 1816.",
+   "tp": "¿Cómo se llama el instrumento del médico para escuchar el corazón? ¿Estetoscopio, termómetro, otoscopio o tensiómetro?",
+   "tr": "¡El estetoscopio!",
+   "td": "El médico francés René Laënnec lo inventó en mil ochocientos dieciséis."
+  },
+  {
+   "n": 30,
+   "tema": "ciencia",
+   "p": "¿Qué instrumento sirve para registrar los temblores de la Tierra?",
+   "o": [
+    "Barómetro",
+    "Higrómetro",
+    "Sismógrafo",
+    "Anemómetro"
+   ],
+   "c": 2,
+   "img_q": "Seismograph",
+   "img_modo": "revela",
+   "d": "El primero lo inventó un sabio chino hace casi 1.900 años.",
+   "tp": "¿Qué instrumento sirve para registrar los temblores de la Tierra? ¿Barómetro, higrómetro, sismógrafo o anemómetro?",
+   "tr": "¡El sismógrafo!",
+   "td": "El primero lo inventó un sabio chino hace casi mil novecientos años."
+  },
+  {
+   "n": 31,
+   "tema": "naturaleza",
+   "p": "¿Cómo se llama el proceso con el que las plantas fabrican su alimento con luz?",
+   "o": [
+    "Respiración",
+    "Fotosíntesis",
+    "Digestión",
+    "Germinación"
+   ],
+   "c": 1,
+   "d": "Además de alimento, las plantas liberan oxígeno en ese proceso.",
+   "tp": "¿Cómo se llama el proceso con el que las plantas fabrican su alimento con luz? ¿Respiración, fotosíntesis, digestión o germinación?",
+   "tr": "¡La fotosíntesis!",
+   "td": "Además de alimento, las plantas liberan oxígeno en ese proceso."
+  },
+  {
+   "n": 32,
+   "tema": "espacio",
+   "p": "¿Qué cuerpo del espacio muestra una cola brillante cuando se acerca al Sol?",
+   "o": [
+    "Asteroide",
+    "Meteorito",
+    "Satélite",
+    "Cometa"
+   ],
+   "c": 3,
+   "img_q": "Comet Hale-Bopp",
+   "img_modo": "revela",
+   "d": "El cometa Halley vuelve a verse desde la Tierra cada 76 años, más o menos.",
+   "tp": "¿Qué cuerpo del espacio muestra una cola brillante cuando se acerca al Sol? ¿Asteroide, meteorito, satélite o cometa?",
+   "tr": "¡El cometa!",
+   "td": "El cometa Halley vuelve a verse desde la Tierra cada setenta y seis años, más o menos."
+  },
+  {
+   "n": 33,
+   "tema": "inventos",
+   "p": "¿Qué hermanos franceses presentaron el cine al público en 1895?",
+   "o": [
+    "Hermanos Lumière",
+    "Hermanos Wright",
+    "Hermanos Grimm",
+    "Hermanos Montgolfier"
+   ],
+   "c": 0,
+   "d": "Su primera función pública fue en un café de París, en diciembre de 1895.",
+   "tp": "¿Qué hermanos franceses presentaron el cine al público en mil ochocientos noventa y cinco? ¿Los Lumière, los Wright, los Grimm o los Montgolfier?",
+   "tr": "¡Los hermanos Lumière!",
+   "td": "Su primera función pública fue en un café de París, en diciembre de mil ochocientos noventa y cinco."
+  },
+  {
+   "n": 34,
+   "tema": "cuerpo",
+   "p": "¿Cuál es el músculo más grande del cuerpo humano?",
+   "o": [
+    "Bíceps",
+    "Glúteo mayor",
+    "Cuádriceps",
+    "Deltoides"
+   ],
+   "c": 1,
+   "d": "Es el que nos ayuda a mantenernos de pie y a subir escaleras.",
+   "tp": "¿Cuál es el músculo más grande del cuerpo humano? ¿Bíceps, glúteo mayor, cuádriceps o deltoides?",
+   "tr": "¡El glúteo mayor!",
+   "td": "Es el que nos ayuda a mantenernos de pie y a subir escaleras."
+  },
+  {
+   "n": 35,
+   "tema": "animales",
+   "p": "¿Qué animal construye presas en los ríos con troncos y barro?",
+   "o": [
+    "Nutria",
+    "Castor",
+    "Capibara",
+    "Marmota"
+   ],
+   "c": 1,
+   "img_q": "Beaver dam",
+   "img_modo": "revela",
+   "d": "Sus dientes naranjas no dejan de crecer durante toda su vida.",
+   "tp": "¿Qué animal construye presas en los ríos con troncos y barro? ¿Nutria, castor, capibara o marmota?",
+   "tr": "¡El castor!",
+   "td": "Sus dientes naranjas no dejan de crecer durante toda su vida."
+  },
+  {
+   "n": 36,
+   "tema": "Perú",
+   "p": "¿Qué árbol del escudo del Perú dio la quinina contra la malaria?",
+   "o": [
+    "Caoba",
+    "Eucalipto",
+    "Cedro",
+    "Quina"
+   ],
+   "c": 3,
+   "img_q": "Cinchona tree",
+   "img_modo": "revela",
+   "d": "La quina es el árbol nacional del Perú; de su corteza se sacó la quinina.",
+   "tp": "¿Qué árbol del escudo del Perú dio la quinina contra la malaria? ¿Caoba, eucalipto, cedro o quina?",
+   "tr": "¡La quina!",
+   "td": "La quina es el árbol nacional del Perú; de su corteza se sacó la quinina."
+  },
+  {
+   "n": 37,
+   "tema": "espacio",
+   "p": "¿Qué fase de la Luna vemos cuando se ilumina completa?",
+   "o": [
+    "Luna llena",
+    "Luna nueva",
+    "Cuarto creciente",
+    "Cuarto menguante"
+   ],
+   "c": 0,
+   "d": "El ciclo completo de fases dura unos 29 días y medio.",
+   "tp": "¿Qué fase de la Luna vemos cuando se ilumina completa? ¿Luna llena, luna nueva, cuarto creciente o cuarto menguante?",
+   "tr": "¡La luna llena!",
+   "td": "El ciclo completo de fases dura unos veintinueve días y medio."
+  },
+  {
+   "n": 38,
+   "tema": "cuerpo",
+   "p": "¿Cuántas cámaras tiene el corazón humano?",
+   "o": [
+    "Dos",
+    "Tres",
+    "Cuatro",
+    "Seis"
+   ],
+   "c": 2,
+   "d": "Son dos aurículas arriba y dos ventrículos abajo.",
+   "tp": "¿Cuántas cámaras tiene el corazón humano? ¿Dos, tres, cuatro o seis?",
+   "tr": "¡Cuatro!",
+   "td": "Son dos aurículas arriba y dos ventrículos abajo."
+  },
+  {
+   "n": 39,
+   "tema": "naturaleza",
+   "p": "¿Qué tipo de roca se forma cuando la lava de un volcán se enfría?",
+   "o": [
+    "Sedimentaria",
+    "Metamórfica",
+    "Caliza",
+    "Ígnea"
+   ],
+   "c": 3,
+   "img_q": "Basalt columns",
+   "img_modo": "revela",
+   "d": "El basalto, muy común en el fondo del mar, es una roca ígnea.",
+   "tp": "¿Qué tipo de roca se forma cuando la lava de un volcán se enfría? ¿Sedimentaria, metamórfica, caliza o ígnea?",
+   "tr": "¡Ígnea!",
+   "td": "El basalto, muy común en el fondo del mar, es una roca ígnea."
+  },
+  {
+   "n": 40,
+   "tema": "inventos",
+   "p": "¿Qué inventó el húngaro László Bíró en 1938?",
+   "o": [
+    "Lápiz",
+    "Bolígrafo",
+    "Pluma fuente",
+    "Marcador"
+   ],
+   "c": 1,
+   "img_q": "Ballpoint pen",
+   "img_modo": "revela",
+   "d": "En Argentina a los bolígrafos se les dice «biromes» en su honor.",
+   "tp": "¿Qué inventó el húngaro László Bíró en mil novecientos treinta y ocho? ¿Lápiz, bolígrafo, pluma fuente o marcador?",
+   "tr": "¡El bolígrafo!",
+   "td": "En Argentina a los bolígrafos se les dice biromes en su honor."
+  },
+  {
+   "n": 41,
+   "tema": "matemáticas",
+   "ronda": "relampago",
+   "p": "¿Cuántos lados tiene un hexágono?",
+   "o": [
+    "Cinco",
+    "Seis",
+    "Siete",
+    "Ocho"
+   ],
+   "c": 1,
+   "d": "Las celdas de un panal de abejas son hexágonos.",
+   "tp": "¿Cuántos lados tiene un hexágono? ¿Cinco, seis, siete u ocho?",
+   "tr": "¡Seis!",
+   "td": "Las celdas de un panal de abejas son hexágonos."
+  },
+  {
+   "n": 42,
+   "tema": "cuerpo",
+   "ronda": "relampago",
+   "p": "¿Qué sentido usamos con la nariz?",
+   "o": [
+    "Gusto",
+    "Tacto",
+    "Olfato",
+    "Oído"
+   ],
+   "c": 2,
+   "d": "El olfato y el gusto trabajan juntos al comer.",
+   "tp": "¿Qué sentido usamos con la nariz? ¿Gusto, tacto, olfato u oído?",
+   "tr": "¡Olfato!",
+   "td": "El olfato y el gusto trabajan juntos al comer."
+  },
+  {
+   "n": 43,
+   "tema": "ciencia",
+   "ronda": "relampago",
+   "p": "¿Cuántos días tiene un año bisiesto?",
+   "o": [
+    "365",
+    "364",
+    "367",
+    "366"
+   ],
+   "c": 3,
+   "d": "Se agrega un día extra a febrero cada cuatro años.",
+   "tp": "¿Cuántos días tiene un año bisiesto? ¿Trescientos sesenta y cinco, trescientos sesenta y cuatro, trescientos sesenta y siete o trescientos sesenta y seis?",
+   "tr": "¡Trescientos sesenta y seis!",
+   "td": "Se agrega un día extra a febrero cada cuatro años."
+  },
+  {
+   "n": 44,
+   "tema": "ciencia",
+   "ronda": "relampago",
+   "p": "¿Qué metal atrae un imán?",
+   "o": [
+    "Hierro",
+    "Oro",
+    "Plata",
+    "Aluminio"
+   ],
+   "c": 0,
+   "d": "El oro y la plata no son atraídos por los imanes.",
+   "tp": "¿Qué metal atrae un imán? ¿Hierro, oro, plata o aluminio?",
+   "tr": "¡Hierro!",
+   "td": "El oro y la plata no son atraídos por los imanes."
+  },
+  {
+   "n": 45,
+   "tema": "ciencia",
+   "ronda": "relampago",
+   "p": "¿A cuántos grados Celsius hierve el agua?",
+   "o": [
+    "50",
+    "90",
+    "100",
+    "120"
+   ],
+   "c": 2,
+   "d": "Eso ocurre a nivel del mar; en las montañas hierve antes.",
+   "tp": "¿A cuántos grados Celsius hierve el agua? ¿Cincuenta, noventa, cien o ciento veinte?",
+   "tr": "¡Cien!",
+   "td": "Eso ocurre a nivel del mar; en las montañas hierve antes."
+  },
+  {
+   "n": 46,
+   "tema": "espacio",
+   "p": "¿Qué planeta tiene la Gran Mancha Roja, una tormenta gigante?",
+   "o": [
+    "Marte",
+    "Júpiter",
+    "Saturno",
+    "Neptuno"
+   ],
+   "c": 1,
+   "img_q": "Jupiter Great Red Spot",
+   "img_modo": "revela",
+   "d": "Esa tormenta es más ancha que la Tierra y lleva siglos activa.",
+   "tp": "¿Qué planeta tiene la Gran Mancha Roja, una tormenta gigante? ¿Marte, Júpiter, Saturno o Neptuno?",
+   "tr": "¡Júpiter!",
+   "td": "Esa tormenta es más ancha que la Tierra y lleva siglos activa."
+  },
+  {
+   "n": 47,
+   "tema": "cuerpo",
+   "p": "¿Cómo se llama el hueso que protege al cerebro?",
+   "o": [
+    "Fémur",
+    "Costilla",
+    "Cráneo",
+    "Esternón"
+   ],
+   "c": 2,
+   "img_q": "Human skull",
+   "img_modo": "revela",
+   "d": "El cráneo de un adulto está formado por 22 huesos unidos.",
+   "tp": "¿Cómo se llama el hueso que protege al cerebro? ¿Fémur, costilla, cráneo o esternón?",
+   "tr": "¡El cráneo!",
+   "td": "El cráneo de un adulto está formado por veintidós huesos unidos."
+  },
+  {
+   "n": 48,
+   "tema": "cuerpo",
+   "p": "¿Para qué sirven las plaquetas de la sangre?",
+   "o": [
+    "Llevan oxígeno",
+    "Ayudan a coagular",
+    "Combaten virus",
+    "Digieren comida"
+   ],
+   "c": 1,
+   "d": "Por eso una herida deja de sangrar al cabo de un rato.",
+   "tp": "¿Para qué sirven las plaquetas de la sangre? ¿Llevan oxígeno, ayudan a coagular, combaten virus o digieren comida?",
+   "tr": "¡Ayudan a coagular!",
+   "td": "Por eso una herida deja de sangrar al cabo de un rato."
+  },
+  {
+   "n": 49,
+   "tema": "espacio",
+   "p": "¿Qué observatorio de antenas, en el desierto de Atacama, estudia el universo?",
+   "o": [
+    "ALMA",
+    "Arecibo",
+    "Hubble",
+    "Kepler"
+   ],
+   "c": 0,
+   "img_q": "ALMA observatory",
+   "img_modo": "revela",
+   "d": "Está a más de 5.000 metros de altura para captar mejor las ondas del espacio.",
+   "tp": "¿Qué observatorio de antenas, en el desierto de Atacama, estudia el universo? ¿ALMA, Arecibo, Hubble o Kepler?",
+   "tr": "¡ALMA!",
+   "td": "Está a más de cinco mil metros de altura para captar mejor las ondas del espacio."
+  },
+  {
+   "n": 50,
+   "tema": "naturaleza",
+   "p": "En una tormenta, ¿qué llega primero a nosotros?",
+   "o": [
+    "El trueno",
+    "La luz del rayo",
+    "Los dos a la vez",
+    "El viento"
+   ],
+   "c": 1,
+   "d": "La luz viaja casi un millón de veces más rápido que el sonido.",
+   "tp": "En una tormenta, ¿qué llega primero a nosotros? ¿El trueno, la luz del rayo, los dos a la vez o el viento?",
+   "tr": "¡La luz del rayo!",
+   "td": "La luz viaja casi un millón de veces más rápido que el sonido."
+  },
+  {
+   "n": 51,
+   "tema": "espacio",
+   "p": "¿Cuál de estos planetas tarda más en dar una vuelta al Sol?",
+   "o": [
+    "Marte",
+    "Saturno",
+    "Neptuno",
+    "Júpiter"
+   ],
+   "c": 2,
+   "img_q": "Neptune planet",
+   "img_modo": "revela",
+   "d": "Neptuno tarda unos 165 años terrestres en completar una vuelta.",
+   "tp": "¿Cuál de estos planetas tarda más en dar una vuelta al Sol? ¿Marte, Saturno, Neptuno o Júpiter?",
+   "tr": "¡Neptuno!",
+   "td": "Neptuno tarda unos ciento sesenta y cinco años terrestres en completar una vuelta."
+  },
+  {
+   "n": 52,
+   "tema": "inventos",
+   "p": "¿Qué invento de Samuel Morse enviaba mensajes con puntos y rayas?",
+   "o": [
+    "Teléfono",
+    "Radio",
+    "Fax",
+    "Telégrafo"
+   ],
+   "c": 3,
+   "img_q": "Telegraph key",
+   "img_modo": "revela",
+   "d": "El código Morse usa una combinación de puntos y rayas para cada letra.",
+   "tp": "¿Qué invento de Samuel Morse enviaba mensajes con puntos y rayas? ¿Teléfono, radio, fax o telégrafo?",
+   "tr": "¡El telégrafo!",
+   "td": "El código Morse usa una combinación de puntos y rayas para cada letra."
+  },
+  {
+   "n": 53,
+   "tema": "cuerpo",
+   "p": "¿Qué vitamina fabrica nuestra piel gracias a la luz del Sol?",
+   "o": [
+    "Vitamina D",
+    "Vitamina C",
+    "Vitamina A",
+    "Vitamina K"
+   ],
+   "c": 0,
+   "d": "Ayuda a los huesos a absorber el calcio.",
+   "tp": "¿Qué vitamina fabrica nuestra piel gracias a la luz del Sol? ¿Vitamina D, vitamina C, vitamina A o vitamina K?",
+   "tr": "¡La vitamina D!",
+   "td": "Ayuda a los huesos a absorber el calcio."
+  },
+  {
+   "n": 54,
+   "tema": "ciencia",
+   "p": "¿Qué metal rojizo es el más usado en los cables eléctricos?",
+   "o": [
+    "Plata",
+    "Estaño",
+    "Plomo",
+    "Cobre"
+   ],
+   "c": 3,
+   "img_q": "Copper",
+   "img_modo": "revela",
+   "d": "Chile es el mayor productor de cobre del mundo.",
+   "tp": "¿Qué metal rojizo es el más usado en los cables eléctricos? ¿Plata, estaño, plomo o cobre?",
+   "tr": "¡El cobre!",
+   "td": "Chile es el mayor productor de cobre del mundo."
+  },
+  {
+   "n": 55,
+   "tema": "Perú",
+   "p": "¿Qué ciudad peruana, en plena selva, no tiene carretera que la una al resto del país?",
+   "o": [
+    "Tacna",
+    "Piura",
+    "Iquitos",
+    "Huaraz"
+   ],
+   "c": 2,
+   "img_q": "Iquitos",
+   "img_modo": "revela",
+   "d": "A Iquitos solo se llega en barco por el río Amazonas o en avión.",
+   "tp": "¿Qué ciudad peruana, en plena selva, no tiene carretera que la una al resto del país? ¿Tacna, Piura, Iquitos o Huaraz?",
+   "tr": "¡Iquitos!",
+   "td": "A Iquitos solo se llega en barco por el río Amazonas o en avión."
+  },
+  {
+   "n": 56,
+   "tema": "espacio",
+   "ronda": "vf",
+   "p": "Los astronautas crecen unos centímetros en el espacio.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Sin gravedad la columna se estira. Al volver a la Tierra recuperan su altura.",
+   "tp": "¿Verdadero o falso? Los astronautas crecen unos centímetros en el espacio.",
+   "tr": "¡Verdadero! La columna se estira sin gravedad.",
+   "td": "Sin gravedad la columna se estira. Al volver a la Tierra recuperan su altura."
+  },
+  {
+   "n": 57,
+   "tema": "espacio",
+   "ronda": "vf",
+   "p": "Las estrellas fugaces son estrellas que caen del cielo.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Falso: son pequeños fragmentos de roca que se encienden al entrar en la atmósfera.",
+   "tp": "¿Verdadero o falso? Las estrellas fugaces son estrellas que caen del cielo.",
+   "tr": "¡Falso! Son pequeñas rocas que se queman en el aire.",
+   "td": "Falso: son pequeños fragmentos de roca que se encienden al entrar en la atmósfera."
+  },
+  {
+   "n": 58,
+   "tema": "cuerpo",
+   "ronda": "vf",
+   "p": "Los gemelos idénticos tienen huellas dactilares distintas.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Tienen el mismo ADN, pero las huellas se forman antes de nacer y nunca son iguales.",
+   "tp": "¿Verdadero o falso? Los gemelos idénticos tienen huellas dactilares distintas.",
+   "tr": "¡Verdadero! Cada huella es única.",
+   "td": "Tienen el mismo ADN, pero las huellas se forman antes de nacer y nunca son iguales."
+  },
+  {
+   "n": 59,
+   "tema": "espacio",
+   "p": "¿Qué telescopio espacial lanzado en 2021 mira el universo en infrarrojo?",
+   "o": [
+    "Kepler",
+    "James Webb",
+    "Spitzer",
+    "Chandra"
+   ],
+   "c": 1,
+   "img_q": "James Webb Space Telescope",
+   "img_modo": "revela",
+   "d": "Está a unos 1,5 millones de kilómetros de la Tierra.",
+   "tp": "¿Qué telescopio espacial lanzado en dos mil veintiuno mira el universo en infrarrojo? ¿Kepler, James Webb, Spitzer o Chandra?",
+   "tr": "¡El James Webb!",
+   "td": "Está a unos un millón y medio de kilómetros de la Tierra."
+  },
+  {
+   "n": 60,
+   "tema": "cuerpo",
+   "p": "¿Qué órgano filtra la sangre y produce la orina?",
+   "o": [
+    "Hígado",
+    "Estómago",
+    "Pulmón",
+    "Riñón"
+   ],
+   "c": 3,
+   "img_q": "Kidney anatomy",
+   "img_modo": "revela",
+   "d": "Tenemos dos riñones y cada uno es del tamaño de un puño.",
+   "tp": "¿Qué órgano filtra la sangre y produce la orina? ¿Hígado, estómago, pulmón o riñón?",
+   "tr": "¡El riñón!",
+   "td": "Tenemos dos riñones y cada uno es del tamaño de un puño."
+  },
+  {
+   "n": 61,
+   "tema": "espacio",
+   "p": "¿Qué astrónomo alemán descubrió que los planetas giran en elipses?",
+   "o": [
+    "Galileo",
+    "Brahe",
+    "Kepler",
+    "Halley"
+   ],
+   "c": 2,
+   "d": "Sus tres leyes del movimiento planetario se publicaron entre 1609 y 1619.",
+   "tp": "¿Qué astrónomo alemán descubrió que los planetas giran en elipses? ¿Galileo, Brahe, Kepler o Halley?",
+   "tr": "¡Johannes Kepler!",
+   "td": "Sus tres leyes del movimiento planetario se publicaron entre mil seiscientos nueve y mil seiscientos diecinueve."
+  },
+  {
+   "n": 62,
+   "tema": "naturaleza",
+   "p": "¿Qué árbol gigante de California es de los más altos del mundo?",
+   "o": [
+    "Secuoya",
+    "Roble",
+    "Baobab",
+    "Pino"
+   ],
+   "c": 0,
+   "img_q": "Coast redwood forest",
+   "img_modo": "revela",
+   "d": "El más alto conocido, llamado Hyperion, mide casi 116 metros.",
+   "tp": "¿Qué árbol gigante de California es de los más altos del mundo? ¿Secuoya, roble, baobab o pino?",
+   "tr": "¡La secuoya!",
+   "td": "El más alto conocido, llamado Hyperion, mide casi ciento dieciséis metros."
+  },
+  {
+   "n": 63,
+   "tema": "Latinoamérica",
+   "p": "¿Qué científico argentino ganó en 1947 el primer Nobel de ciencias de Latinoamérica?",
+   "o": [
+    "Bernardo Houssay",
+    "Luis Leloir",
+    "César Milstein",
+    "René Favaloro"
+   ],
+   "c": 0,
+   "d": "Estudió cómo las hormonas de la hipófisis influyen en el azúcar de la sangre.",
+   "tp": "¿Qué científico argentino ganó en mil novecientos cuarenta y siete el primer Nobel de ciencias de Latinoamérica? ¿Bernardo Houssay, Luis Leloir, César Milstein o René Favaloro?",
+   "tr": "¡Bernardo Houssay!",
+   "td": "Estudió cómo las hormonas de la hipófisis influyen en el azúcar de la sangre."
+  },
+  {
+   "n": 64,
+   "tema": "espacio",
+   "p": "¿Qué planeta gira «acostado», con su eje casi paralelo al suelo?",
+   "o": [
+    "Neptuno",
+    "Urano",
+    "Venus",
+    "Mercurio"
+   ],
+   "c": 1,
+   "img_q": "Uranus planet",
+   "img_modo": "revela",
+   "d": "Urano está inclinado unos 98 grados, así que parece rodar alrededor del Sol.",
+   "tp": "¿Qué planeta gira acostado, con su eje casi paralelo al suelo? ¿Neptuno, Urano, Venus o Mercurio?",
+   "tr": "¡Urano!",
+   "td": "Urano está inclinado unos noventa y ocho grados, así que parece rodar alrededor del Sol."
+  },
+  {
+   "n": 65,
+   "tema": "ciencia",
+   "p": "¿Qué rayos descubrió Röntgen en 1895 para ver los huesos por dentro?",
+   "o": [
+    "Rayos gamma",
+    "Rayos láser",
+    "Rayos UV",
+    "Rayos X"
+   ],
+   "c": 3,
+   "d": "Les puso «X» porque no sabía qué eran.",
+   "tp": "¿Qué rayos descubrió Röntgen en mil ochocientos noventa y cinco para ver los huesos por dentro? ¿Rayos gamma, rayos láser, rayos ultravioleta o rayos equis?",
+   "tr": "¡Los rayos equis!",
+   "td": "Les puso equis porque no sabía qué eran."
+  },
+  {
+   "n": 66,
+   "tema": "espacio",
+   "ronda": "misteriosa",
+   "p": "¿Qué gran laboratorio orbita la Tierra con astronautas a bordo?",
+   "o": [
+    "Satélite Hubble",
+    "Transbordador",
+    "Estación espacial",
+    "Faro orbital"
+   ],
+   "c": 2,
+   "img_q": "International Space Station",
+   "img_modo": "pregunta",
+   "d": "Da una vuelta a la Tierra más o menos cada 90 minutos.",
+   "tp": "Miren bien la foto. ¿Qué gran laboratorio orbita la Tierra con astronautas a bordo? ¿Satélite Hubble, transbordador, estación espacial o faro orbital?",
+   "tr": "¡La Estación Espacial Internacional!",
+   "td": "Da una vuelta a la Tierra más o menos cada noventa minutos."
+  },
+  {
+   "n": 67,
+   "tema": "animales",
+   "ronda": "misteriosa",
+   "p": "¿Qué mamífero cubierto de escamas, que se enrolla como bola, es este?",
+   "o": [
+    "Pangolín",
+    "Armadillo",
+    "Erizo",
+    "Lagarto"
+   ],
+   "c": 0,
+   "img_q": "Pangolin",
+   "img_modo": "pregunta",
+   "d": "Es el único mamífero del mundo cubierto de escamas.",
+   "tp": "Miren bien la foto. ¿Qué mamífero cubierto de escamas, que se enrolla como bola, es este? ¿Pangolín, armadillo, erizo o lagarto?",
+   "tr": "¡El pangolín!",
+   "td": "Es el único mamífero del mundo cubierto de escamas."
+  },
+  {
+   "n": 68,
+   "tema": "ciencia",
+   "ronda": "misteriosa",
+   "p": "¿De qué dinosaurio es este esqueleto fósil?",
+   "o": [
+    "Triceratops",
+    "Tiranosaurio rex",
+    "Estegosaurio",
+    "Velociraptor"
+   ],
+   "c": 1,
+   "img_q": "Tyrannosaurus rex skeleton",
+   "img_modo": "pregunta",
+   "d": "Su mordida era de las más potentes de cualquier animal terrestre conocido.",
+   "tp": "Miren bien la foto. ¿De qué dinosaurio es este esqueleto fósil? ¿Triceratops, tiranosaurio rex, estegosaurio o velociraptor?",
+   "tr": "¡El tiranosaurio rex!",
+   "td": "Su mordida era de las más potentes de cualquier animal terrestre conocido."
+  },
+  {
+   "n": 69,
+   "tema": "espacio",
+   "p": "¿Cuál es el planeta más caliente del sistema solar?",
+   "o": [
+    "Venus",
+    "Mercurio",
+    "Marte",
+    "Júpiter"
+   ],
+   "c": 0,
+   "img_q": "Venus surface Magellan",
+   "img_modo": "revela",
+   "d": "Venus llega a unos 460 grados, más que Mercurio, por su atmósfera densa.",
+   "tp": "¿Cuál es el planeta más caliente del sistema solar? ¿Venus, Mercurio, Marte o Júpiter?",
+   "tr": "¡Venus, no Mercurio!",
+   "td": "Venus llega a unos cuatrocientos sesenta grados, más que Mercurio, por su atmósfera densa."
+  },
+  {
+   "n": 70,
+   "tema": "cuerpo",
+   "p": "¿Cuántos pares de cromosomas tiene el ser humano?",
+   "o": [
+    "12",
+    "46",
+    "23",
+    "32"
+   ],
+   "c": 2,
+   "d": "En total son 46 cromosomas: la mitad viene de cada progenitor.",
+   "tp": "¿Cuántos pares de cromosomas tiene el ser humano? ¿Doce, cuarenta y seis, veintitrés o treinta y dos?",
+   "tr": "¡Veintitrés pares!",
+   "td": "En total son cuarenta y seis cromosomas: la mitad viene de cada progenitor."
+  },
+  {
+   "n": 71,
+   "tema": "ciencia",
+   "p": "¿Qué elemento es el más abundante en la corteza terrestre?",
+   "o": [
+    "Hierro",
+    "Silicio",
+    "Aluminio",
+    "Oxígeno"
+   ],
+   "c": 3,
+   "d": "Está en rocas, arena y agua, no solo en el aire.",
+   "tp": "¿Qué elemento es el más abundante en la corteza terrestre? ¿Hierro, silicio, aluminio u oxígeno?",
+   "tr": "¡El oxígeno!",
+   "td": "Está en rocas, arena y agua, no solo en el aire."
+  },
+  {
+   "n": 72,
+   "tema": "Perú",
+   "p": "¿Qué corriente fría del Pacífico baña la costa peruana y la llena de peces?",
+   "o": [
+    "Corriente del Golfo",
+    "Corriente de Humboldt",
+    "Corriente de Kuroshio",
+    "Corriente de Labrador"
+   ],
+   "c": 1,
+   "d": "Lleva el nombre del naturalista alemán Alexander von Humboldt.",
+   "tp": "¿Qué corriente fría del Pacífico baña la costa peruana y la llena de peces? ¿Corriente del Golfo, corriente de Humboldt, corriente de Kuroshio o corriente de Labrador?",
+   "tr": "¡La corriente de Humboldt!",
+   "td": "Lleva el nombre del naturalista alemán Alexander von Humboldt."
+  },
+  {
+   "n": 73,
+   "tema": "espacio",
+   "p": "¿Cómo se llama el módulo europeo que aterrizó sobre un cometa en 2014?",
+   "o": [
+    "Pioneer",
+    "Cassini",
+    "Philae",
+    "Galileo"
+   ],
+   "c": 2,
+   "img_q": "Rosetta comet 67P",
+   "img_modo": "revela",
+   "d": "Rebotó dos veces antes de quedarse posado sobre la superficie.",
+   "tp": "¿Cómo se llama el módulo europeo que aterrizó sobre un cometa en dos mil catorce? ¿Pioneer, Cassini, Philae o Galileo?",
+   "tr": "¡Philae!",
+   "td": "Rebotó dos veces antes de quedarse posado sobre la superficie."
+  },
+  {
+   "n": 74,
+   "tema": "cuerpo",
+   "p": "¿Qué grupo de sangre se llama «donante universal»?",
+   "o": [
+    "A positivo",
+    "AB positivo",
+    "B negativo",
+    "O negativo"
+   ],
+   "c": 3,
+   "d": "Se usa en emergencias cuando no se conoce el grupo del paciente.",
+   "tp": "¿Qué grupo de sangre se llama donante universal? ¿A positivo, AB positivo, B negativo u O negativo?",
+   "tr": "¡O negativo!",
+   "td": "Se usa en emergencias cuando no se conoce el grupo del paciente."
+  },
+  {
+   "n": 75,
+   "tema": "ciencia",
+   "p": "¿A qué velocidad viaja la luz, más o menos?",
+   "o": [
+    "300.000 km por segundo",
+    "3.000 km por segundo",
+    "30.000 km por segundo",
+    "3.000.000 km por segundo"
+   ],
+   "c": 0,
+   "d": "Es la velocidad máxima posible en el universo.",
+   "tp": "¿A qué velocidad viaja la luz, más o menos? ¿Trescientos mil kilómetros por segundo, tres mil, treinta mil o tres millones de kilómetros por segundo?",
+   "tr": "¡Trescientos mil kilómetros por segundo!",
+   "td": "Es la velocidad máxima posible en el universo."
+  },
+  {
+   "n": 76,
+   "tema": "ciencia",
+   "p": "¿Qué gas, más ligero que el aire, se usa para inflar globos de fiesta?",
+   "o": [
+    "Oxígeno",
+    "Neón",
+    "Metano",
+    "Helio"
+   ],
+   "c": 3,
+   "d": "Es el segundo elemento más abundante del universo.",
+   "tp": "¿Qué gas, más ligero que el aire, se usa para inflar globos de fiesta? ¿Oxígeno, neón, metano o helio?",
+   "tr": "¡El helio!",
+   "td": "Es el segundo elemento más abundante del universo."
+  },
+  {
+   "n": 77,
+   "tema": "ciencia",
+   "p": "¿Qué instrumento mide cuánta lluvia cae?",
+   "o": [
+    "Barómetro",
+    "Pluviómetro",
+    "Termómetro",
+    "Altímetro"
+   ],
+   "c": 1,
+   "img_q": "Rain gauge",
+   "img_modo": "revela",
+   "d": "Un milímetro de lluvia equivale a un litro de agua por metro cuadrado.",
+   "tp": "¿Qué instrumento mide cuánta lluvia cae? ¿Barómetro, pluviómetro, termómetro o altímetro?",
+   "tr": "¡El pluviómetro!",
+   "td": "Un milímetro de lluvia equivale a un litro de agua por metro cuadrado."
+  },
+  {
+   "n": 78,
+   "tema": "Latinoamérica",
+   "p": "¿En qué territorio latinoamericano estuvo el radiotelescopio de Arecibo?",
+   "o": [
+    "Cuba",
+    "México",
+    "Puerto Rico",
+    "Chile"
+   ],
+   "c": 2,
+   "img_q": "Arecibo Observatory",
+   "img_modo": "revela",
+   "d": "Funcionó de 1963 a 2020 y salió en la película de James Bond «GoldenEye».",
+   "tp": "¿En qué territorio latinoamericano estuvo el radiotelescopio de Arecibo? ¿Cuba, México, Puerto Rico o Chile?",
+   "tr": "¡Puerto Rico!",
+   "td": "Funcionó de mil novecientos sesenta y tres a dos mil veinte y salió en la película de James Bond GoldenEye."
+  },
+  {
+   "n": 79,
+   "tema": "cuerpo",
+   "p": "¿Cuántos litros de sangre tiene un adulto, más o menos?",
+   "o": [
+    "2 litros",
+    "5 litros",
+    "10 litros",
+    "15 litros"
+   ],
+   "c": 1,
+   "d": "Toda esa sangre pasa por el corazón en cerca de un minuto.",
+   "tp": "¿Cuántos litros de sangre tiene un adulto, más o menos? ¿Dos, cinco, diez o quince?",
+   "tr": "¡Unos cinco litros!",
+   "td": "Toda esa sangre pasa por el corazón en cerca de un minuto."
+  },
+  {
+   "n": 80,
+   "tema": "ciencia",
+   "p": "¿Quién ordenó los elementos químicos en una tabla en 1869?",
+   "o": [
+    "Mendeléyev",
+    "Lavoisier",
+    "Bohr",
+    "Dalton"
+   ],
+   "c": 0,
+   "d": "Dejó huecos para elementos que todavía no se habían descubierto.",
+   "tp": "¿Quién ordenó los elementos químicos en una tabla en mil ochocientos sesenta y nueve? ¿Mendeléyev, Lavoisier, Bohr o Dalton?",
+   "tr": "¡Dmitri Mendeléyev!",
+   "td": "Dejó huecos para elementos que todavía no se habían descubierto."
+  },
+  {
+   "n": 81,
+   "tema": "espacio",
+   "p": "¿Cómo se llama el lugar del espacio con tanta gravedad que ni la luz escapa?",
+   "o": [
+    "Nebulosa",
+    "Supernova",
+    "Agujero negro",
+    "Púlsar"
+   ],
+   "c": 2,
+   "img_q": "Messier 87 black hole",
+   "img_modo": "revela",
+   "d": "En 2019 se publicó la primera imagen real de uno, en la galaxia M87.",
+   "tp": "¿Cómo se llama el lugar del espacio con tanta gravedad que ni la luz escapa? ¿Nebulosa, supernova, agujero negro o púlsar?",
+   "tr": "¡Un agujero negro!",
+   "td": "En dos mil diecinueve se publicó la primera imagen real de uno, en la galaxia M87."
+  },
+  {
+   "n": 82,
+   "tema": "naturaleza",
+   "p": "¿Cómo se llama la capa más externa de la Tierra, donde vivimos?",
+   "o": [
+    "Manto",
+    "Núcleo",
+    "Magma",
+    "Corteza"
+   ],
+   "c": 3,
+   "d": "Bajo los océanos mide apenas entre 5 y 10 kilómetros de grosor.",
+   "tp": "¿Cómo se llama la capa más externa de la Tierra, donde vivimos? ¿Manto, núcleo, magma o corteza?",
+   "tr": "¡La corteza!",
+   "td": "Bajo los océanos mide apenas entre cinco y diez kilómetros de grosor."
+  },
+  {
+   "n": 83,
+   "tema": "cuerpo",
+   "p": "¿Cuál es el hueso más pequeño del cuerpo, escondido en el oído?",
+   "o": [
+    "Estribo",
+    "Martillo",
+    "Yunque",
+    "Tímpano"
+   ],
+   "c": 0,
+   "d": "Mide unos 3 milímetros, menos que un grano de arroz.",
+   "tp": "¿Cuál es el hueso más pequeño del cuerpo, escondido en el oído? ¿Estribo, martillo, yunque o tímpano?",
+   "tr": "¡El estribo!",
+   "td": "Mide unos tres milímetros, menos que un grano de arroz."
+  },
+  {
+   "n": 84,
+   "tema": "ciencia",
+   "p": "¿A cuántos grados Fahrenheit se congela el agua?",
+   "o": [
+    "0 °F",
+    "32 °F",
+    "100 °F",
+    "212 °F"
+   ],
+   "c": 1,
+   "d": "En esa escala el agua hierve a 212 grados.",
+   "tp": "¿A cuántos grados Fahrenheit se congela el agua? ¿Cero, treinta y dos, cien o doscientos doce?",
+   "tr": "¡A treinta y dos grados!",
+   "td": "En esa escala el agua hierve a doscientos doce grados."
+  },
+  {
+   "n": 85,
+   "tema": "Perú",
+   "p": "¿Qué piedra sagrada de Machu Picchu se asocia a las observaciones del Sol?",
+   "o": [
+    "Sacsayhuamán",
+    "Qorikancha",
+    "Tambomachay",
+    "Intihuatana"
+   ],
+   "c": 3,
+   "img_q": "Intihuatana Machu Picchu",
+   "img_modo": "revela",
+   "d": "En quechua su nombre significa algo como «donde se ata el Sol».",
+   "tp": "¿Qué piedra sagrada de Machu Picchu se asocia a las observaciones del Sol? ¿Sacsayhuamán, Qorikancha, Tambomachay o Intihuatana?",
+   "tr": "¡El Intihuatana!",
+   "td": "En quechua su nombre significa algo como donde se ata el Sol."
+  },
+  {
+   "n": 86,
+   "tema": "espacio",
+   "p": "¿Cuántas lunas tiene Marte?",
+   "o": [
+    "Ninguna",
+    "Una",
+    "Dos",
+    "Cuatro"
+   ],
+   "c": 2,
+   "img_q": "Phobos moon",
+   "img_modo": "revela",
+   "d": "Se llaman Fobos y Deimos, y parecen papas espaciales.",
+   "tp": "¿Cuántas lunas tiene Marte? ¿Ninguna, una, dos o cuatro?",
+   "tr": "¡Dos!",
+   "td": "Se llaman Fobos y Deimos, y parecen papas espaciales."
+  },
+  {
+   "n": 87,
+   "tema": "naturaleza",
+   "p": "¿Quién propuso en 1859 la teoría de la evolución por selección natural?",
+   "o": [
+    "Pasteur",
+    "Darwin",
+    "Lamarck",
+    "Linneo"
+   ],
+   "c": 1,
+   "d": "Se inspiró en parte en lo que vio en las islas Galápagos, en Ecuador.",
+   "tp": "¿Quién propuso en mil ochocientos cincuenta y nueve la teoría de la evolución por selección natural? ¿Pasteur, Darwin, Lamarck o Linneo?",
+   "tr": "¡Charles Darwin!",
+   "td": "Se inspiró en parte en lo que vio en las islas Galápagos, en Ecuador."
+  },
+  {
+   "n": 88,
+   "tema": "ciencia",
+   "p": "¿Cuál es el mineral natural más duro que existe?",
+   "o": [
+    "Cuarzo",
+    "Topacio",
+    "Corindón",
+    "Diamante"
+   ],
+   "c": 3,
+   "img_q": "Rough diamond",
+   "img_modo": "revela",
+   "d": "Está hecho de carbono, el mismo elemento que el grafito de los lápices.",
+   "tp": "¿Cuál es el mineral natural más duro que existe? ¿Cuarzo, topacio, corindón o diamante?",
+   "tr": "¡El diamante!",
+   "td": "Está hecho de carbono, el mismo elemento que el grafito de los lápices."
+  },
+  {
+   "n": 89,
+   "tema": "cuerpo",
+   "p": "¿Qué parte del cerebro controla el equilibrio y la coordinación?",
+   "o": [
+    "Hipocampo",
+    "Cerebelo",
+    "Bulbo raquídeo",
+    "Lóbulo frontal"
+   ],
+   "c": 1,
+   "d": "Está en la parte de atrás, bajo el cerebro, y parece una pequeña coliflor.",
+   "tp": "¿Qué parte del cerebro controla el equilibrio y la coordinación? ¿Hipocampo, cerebelo, bulbo raquídeo o lóbulo frontal?",
+   "tr": "¡El cerebelo!",
+   "td": "Está en la parte de atrás, bajo el cerebro, y parece una pequeña coliflor."
+  },
+  {
+   "n": 90,
+   "tema": "espacio",
+   "p": "¿Cuál es el volcán más alto del sistema solar, ubicado en Marte?",
+   "o": [
+    "Monte Everest",
+    "Mauna Kea",
+    "Monte Olimpo",
+    "Monte Fuji"
+   ],
+   "c": 2,
+   "img_q": "Olympus Mons",
+   "img_modo": "revela",
+   "d": "Mide unos 22 kilómetros de altura, más del doble que el Everest.",
+   "tp": "¿Cuál es el volcán más alto del sistema solar, ubicado en Marte? ¿Monte Everest, Mauna Kea, Monte Olimpo o Monte Fuji?",
+   "tr": "¡El Monte Olimpo!",
+   "td": "Mide unos veintidós kilómetros de altura, más del doble que el Everest."
+  },
+  {
+   "n": 91,
+   "tema": "inventos",
+   "p": "¿Quién inventó el pararrayos hacia 1750?",
+   "o": [
+    "Edison",
+    "Volta",
+    "Faraday",
+    "Benjamin Franklin"
+   ],
+   "c": 3,
+   "d": "Lo ideó tras estudiar la electricidad de las tormentas.",
+   "tp": "¿Quién inventó el pararrayos hacia mil setecientos cincuenta? ¿Edison, Volta, Faraday o Benjamin Franklin?",
+   "tr": "¡Benjamin Franklin!",
+   "td": "Lo ideó tras estudiar la electricidad de las tormentas."
+  },
+  {
+   "n": 92,
+   "tema": "animales",
+   "p": "¿Qué ave de las Galápagos conquista pareja mostrando sus patas azules?",
+   "o": [
+    "Piquero de patas azules",
+    "Flamenco",
+    "Albatros",
+    "Pelícano"
+   ],
+   "c": 0,
+   "img_q": "Blue-footed booby",
+   "img_modo": "revela",
+   "d": "Cuanto más azules son sus patas, más atractivo resulta para la pareja.",
+   "tp": "¿Qué ave de las Galápagos conquista pareja mostrando sus patas azules? ¿Piquero de patas azules, flamenco, albatros o pelícano?",
+   "tr": "¡El piquero de patas azules!",
+   "td": "Cuanto más azules son sus patas, más atractivo resulta para la pareja."
+  },
+  {
+   "n": 93,
+   "tema": "ciencia",
+   "p": "¿Qué valor de pH tiene el agua pura, que es neutra?",
+   "o": [
+    "pH 1",
+    "pH 14",
+    "pH 7",
+    "pH 10"
+   ],
+   "c": 2,
+   "d": "Menos de 7 es ácido y más de 7 es básico.",
+   "tp": "¿Qué valor de pe hache tiene el agua pura, que es neutra? ¿Uno, catorce, siete o diez?",
+   "tr": "¡Siete!",
+   "td": "Menos de siete es ácido y más de siete es básico."
+  },
+  {
+   "n": 94,
+   "tema": "cuerpo",
+   "p": "¿Cuántos pares de costillas tiene una persona?",
+   "o": [
+    "8 pares",
+    "10 pares",
+    "14 pares",
+    "12 pares"
+   ],
+   "c": 3,
+   "d": "En total son 24 costillas que protegen el corazón y los pulmones.",
+   "tp": "¿Cuántos pares de costillas tiene una persona? ¿Ocho, diez, catorce o doce?",
+   "tr": "¡Doce pares!",
+   "td": "En total son veinticuatro costillas que protegen el corazón y los pulmones."
+  },
+  {
+   "n": 95,
+   "tema": "espacio",
+   "p": "¿Cómo se llama la luna más grande de Saturno?",
+   "o": [
+    "Encélado",
+    "Titán",
+    "Tritón",
+    "Europa"
+   ],
+   "c": 1,
+   "img_q": "Titan moon",
+   "img_modo": "revela",
+   "d": "Titán tiene una atmósfera densa y lagos de metano líquido.",
+   "tp": "¿Cómo se llama la luna más grande de Saturno? ¿Encélado, Titán, Tritón o Europa?",
+   "tr": "¡Titán!",
+   "td": "Titán tiene una atmósfera densa y lagos de metano líquido."
+  },
+  {
+   "n": 96,
+   "tema": "ciencia",
+   "p": "¿Qué fraile estudió guisantes y descubrió las leyes de la herencia?",
+   "o": [
+    "Gregor Mendel",
+    "Charles Darwin",
+    "Louis Pasteur",
+    "Robert Hooke"
+   ],
+   "c": 0,
+   "d": "Su trabajo, de 1866, pasó casi inadvertido hasta después de su muerte.",
+   "tp": "¿Qué fraile estudió guisantes y descubrió las leyes de la herencia? ¿Gregor Mendel, Charles Darwin, Louis Pasteur o Robert Hooke?",
+   "tr": "¡Gregor Mendel!",
+   "td": "Su trabajo, de mil ochocientos sesenta y seis, pasó casi inadvertido hasta después de su muerte."
+  },
+  {
+   "n": 97,
+   "tema": "espacio",
+   "p": "¿Qué proceso produce la energía del Sol al unir átomos de hidrógeno?",
+   "o": [
+    "Fisión nuclear",
+    "Combustión",
+    "Fusión nuclear",
+    "Fotosíntesis"
+   ],
+   "c": 2,
+   "d": "Cada segundo el Sol convierte unos 4 millones de toneladas de materia en energía.",
+   "tp": "¿Qué proceso produce la energía del Sol al unir átomos de hidrógeno? ¿Fisión nuclear, combustión, fusión nuclear o fotosíntesis?",
+   "tr": "¡La fusión nuclear!",
+   "td": "Cada segundo el Sol convierte unos cuatro millones de toneladas de materia en energía."
+  },
+  {
+   "n": 98,
+   "tema": "cuerpo",
+   "p": "¿Qué órgano produce la insulina, que controla el azúcar en la sangre?",
+   "o": [
+    "Hígado",
+    "Riñón",
+    "Bazo",
+    "Páncreas"
+   ],
+   "c": 3,
+   "d": "Está detrás del estómago y también ayuda a digerir los alimentos.",
+   "tp": "¿Qué órgano produce la insulina, que controla el azúcar en la sangre? ¿Hígado, riñón, bazo o páncreas?",
+   "tr": "¡El páncreas!",
+   "td": "Está detrás del estómago y también ayuda a digerir los alimentos."
+  },
+  {
+   "n": 99,
+   "tema": "espacio",
+   "p": "¿Cómo se llama la distancia que recorre la luz en un año?",
+   "o": [
+    "Unidad astronómica",
+    "Año luz",
+    "Parsec solar",
+    "Ciclo galáctico"
+   ],
+   "c": 1,
+   "d": "Equivale a casi 9,5 billones de kilómetros.",
+   "tp": "¿Cómo se llama la distancia que recorre la luz en un año? ¿Unidad astronómica, año luz, parsec solar o ciclo galáctico?",
+   "tr": "¡El año luz!",
+   "td": "Equivale a casi nueve coma cinco billones de kilómetros."
+  },
+  {
+   "n": 100,
+   "tema": "espacio",
+   "p": "¿Cuántos años tiene el universo, según la ciencia actual?",
+   "o": [
+    "1.000 millones de años",
+    "4.500 millones de años",
+    "100.000 millones de años",
+    "13.800 millones de años"
+   ],
+   "c": 3,
+   "img_q": "Hubble Ultra-Deep Field",
+   "img_modo": "revela",
+   "d": "La Tierra nació mucho después: hace unos 4.500 millones de años.",
+   "tp": "¿Cuántos años tiene el universo, según la ciencia actual? ¿Mil millones, cuatro mil quinientos millones, cien mil millones o trece mil ochocientos millones de años?",
+   "tr": "¡Unos trece mil ochocientos millones de años!",
+   "td": "La Tierra nació mucho después: hace unos cuatro mil quinientos millones de años."
+  }
+ ],
+ "extra_tts": {
+  "an_tema": [
+   "anunciador",
+   "Hoy jugamos: ¡ciencia, cuerpo humano y espacio!"
+  ],
+  "pr_intro": [
+   "presentador",
+   "¡Hola, familia! Hoy tenemos cien preguntas de ciencia, cuerpo humano y espacio. ¿Están listos para viajar de las células a las estrellas?"
+  ],
+  "co_intro": [
+   "copresentadora",
+   "Prepárense para sorpresas: hay planetas, huesos, inventos y hasta un ave con las patas azules. ¡Que gane el que más sabe!"
+  ],
+  "co_fama": [
+   "copresentadora",
+   "Y un aplauso enorme a los mejores jugadores del episodio anterior, cuyos nombres ya aparecen en pantalla. ¡Hoy pueden superarlos!"
+  ],
+  "charla05_pr": [
+   "presentador",
+   "¡Cinco preguntas y ya calentamos motores! Oídos atentos, que vienen las más curiosas."
+  ],
+  "charla05_co": [
+   "copresentadora",
+   "Y no olviden mirar el ranking en el celular: ¡alguien ya va primero!"
+  ],
+  "charla10_pr": [
+   "presentador",
+   "¡Diez preguntas! Mi circuito lunar ya está brillando de emoción."
+  ],
+  "charla10_co": [
+   "copresentadora",
+   "Tú brillas solito, MAX. Ahora vienen unas fotos misteriosas, ¡abran bien los ojos!"
+  ],
+  "charla15_pr": [
+   "presentador",
+   "¡Tres fotos misteriosas seguidas! Mi cerebro de robot casi se sobrecalienta."
+  ],
+  "charla15_co": [
+   "copresentadora",
+   "Tu cerebro es de metal, MAX. El nuestro funciona con oxígeno y buen humor."
+  ],
+  "charla20_pr": [
+   "presentador",
+   "¡Veinte preguntas! Hasta los glóbulos rojos que no tengo están aplaudiendo."
+  ],
+  "charla20_co": [
+   "copresentadora",
+   "Tú no tienes sangre, MAX, pero sí un ranking que revisar en el celular."
+  ],
+  "charla25_pr": [
+   "presentador",
+   "¡Plátanos radiactivos! Voy a mirar mi merienda con otros ojos."
+  ],
+  "charla25_co": [
+   "copresentadora",
+   "Tranquilo, MAX, es totalmente inofensivo. ¿Ya viste el ranking en tu celular?"
+  ],
+  "charla30_pr": [
+   "presentador",
+   "Con tanta gravedad, ¡no me puedo despegar de esta silla!"
+  ],
+  "charla30_co": [
+   "copresentadora",
+   "Es que tienes los pies de metal. Sigan sumando puntos, familia."
+  ],
+  "charla35_pr": [
+   "presentador",
+   "¡Treinta y cinco! Y yo que pensaba que los castores solo construían casitas."
+  ],
+  "charla35_co": [
+   "copresentadora",
+   "Son ingenieros del río, MAX. Revisen el ranking, que la pelea está reñida."
+  ],
+  "charla40_pr": [
+   "presentador",
+   "¡Cuarenta! Mi bolígrafo ya no escribe, pero mis ganas de jugar siguen intactas."
+  ],
+  "charla40_co": [
+   "copresentadora",
+   "Prepárense, que ahora viene una ronda relámpago: ¡respuestas rápidas, familia!"
+  ],
+  "charla45_pr": [
+   "presentador",
+   "¡Cinco preguntas en un abrir y cerrar de ojos! ¡Qué rápido pasó eso!"
+  ],
+  "charla45_co": [
+   "copresentadora",
+   "Rapidísimo, MAX. Si acertaron todas, ¡felicítense! Y si no, el ranking los espera."
+  ],
+  "charla50_pr": [
+   "presentador",
+   "¡Cincuenta! Ya llegamos a la mitad y nadie se ha rendido."
+  ],
+  "charla50_co": [
+   "copresentadora",
+   "Qué orgullo, familia. Y recuerden: la luz llega antes que el trueno, ¡igual que mi buen humor!"
+  ],
+  "charla55_pr": [
+   "presentador",
+   "Neptuno tarda ciento sesenta y cinco años en dar la vuelta. ¡Yo me aburriría en el camino!"
+  ],
+  "charla55_co": [
+   "copresentadora",
+   "Tú tardarías menos, MAX, con tanto cohete en los pies. Sigamos, que se pone divertido."
+  ],
+  "charla60_pr": [
+   "presentador",
+   "¡Las estrellas fugaces no son estrellas! Toda mi vida creí en un engaño."
+  ],
+  "charla60_co": [
+   "copresentadora",
+   "Pide un deseo igual, MAX. Y miren el ranking, a ver quién subió de puesto."
+  ],
+  "charla65_pr": [
+   "presentador",
+   "¡Una secuoya más alta que un edificio! Yo, con mi altura de robot, me siento chiquito."
+  ],
+  "charla65_co": [
+   "copresentadora",
+   "Pero tienes un gran corazón de latón, MAX. Ahora vienen más fotos misteriosas."
+  ],
+  "charla70_pr": [
+   "presentador",
+   "¡Un pangolín con escamas! Parece un pequeño dragón que se hace bolita."
+  ],
+  "charla70_co": [
+   "copresentadora",
+   "Y lo mejor es que existe de verdad. Ya vamos por la pregunta setenta, ¡sigan así!"
+  ],
+  "charla75_pr": [
+   "presentador",
+   "Philae rebotó dos veces antes de parar. ¡Igual que yo cuando resbalo en la pista!"
+  ],
+  "charla75_co": [
+   "copresentadora",
+   "Tú rebotas mejor que nadie, MAX. Miren el ranking para ver quién lidera."
+  ],
+  "charla80_pr": [
+   "presentador",
+   "Con helio podría hablar con voz de ardilla. ¡Voy a probarlo!"
+  ],
+  "charla80_co": [
+   "copresentadora",
+   "Mejor no, MAX, que nos dejas sin oídos. Faltan veinte para el final, ¡ánimo!"
+  ],
+  "charla85_pr": [
+   "presentador",
+   "¡Un agujero negro! Menos mal que mi pila no se acerca a uno."
+  ],
+  "charla85_co": [
+   "copresentadora",
+   "Ni lo pienses, MAX. Y ustedes, ¿cuántos aciertos llevan? ¡Cuéntenlo en familia!"
+  ],
+  "charla90_pr": [
+   "presentador",
+   "El Monte Olimpo mide más del doble que el Everest. ¡Qué montaña tan descomunal!"
+  ],
+  "charla90_co": [
+   "copresentadora",
+   "Imagina escalarlo con tus botas de robot. ¡Diez preguntas más y llegamos a la cima!"
+  ],
+  "charla95_pr": [
+   "presentador",
+   "¡Patas azules para presumir! Si yo tuviera patas, también las pintaría."
+  ],
+  "charla95_co": [
+   "copresentadora",
+   "Y tú ya tienes ruedas con luces, MAX. ¡Ya casi llegamos a la pregunta final!"
+  ],
+  "pr_cierre": [
+   "presentador",
+   "¡Terminamos, familia! Cuéntennos en los comentarios cuántos puntos hicieron y suscríbanse para el próximo episodio."
+  ]
+ }
+}

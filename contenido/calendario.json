@@ -1,0 +1,35 @@
+{
+ "_nota": "Formato de cada día de la semana (1 = lunes … 7 = domingo). El escritor crea los episodios según esta tabla; la producción sube uno por noche, en privado.",
+ "inicio": "2026-11-02",
+ "dias": {
+  "1": "normal",
+  "2": "normal",
+  "3": "normal",
+  "4": "normal",
+  "5": "normal",
+  "6": "maraton",
+  "7": null
+ },
+ "objetivo": {
+  "normal": 100,
+  "maraton": 370
+ },
+ "especiales": [
+  {
+   "desde": "2026-12-20",
+   "hasta": "2027-01-02",
+   "formato": "maraton",
+   "tema": "Navidad y Año Nuevo: juegos para la familia reunida"
+  }
+ ],
+ "_duracion": "Medido con las voces reales (1-nov-2026): normal 100 preguntas ≈ 60 min (peor caso ≈ 55); maratón 370 ≈ 3 h 33 (peor caso ≈ 3 h 16). Margen para no bajar nunca de 45 min / 3 h (mínimos del control de calidad).",
+ "publicacion": {
+  "_nota": "automatica=false: todo queda en privado y el dueño publica a mano. Con true, cada video sube programado (publishAt) y YouTube lo publica solo a esa hora (hora de Lima). Requiere que la llave de YouTube sea de un proyecto de Google AUDITADO (si no, YouTube lo deja bloqueado en privado).",
+  "automatica": false,
+  "episodio": "17:00",
+  "shorts": [
+   "12:00",
+   "20:00"
+  ]
+ }
+}

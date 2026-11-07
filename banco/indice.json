@@ -1,0 +1,238 @@
+{
+ "an_01_marca": {
+  "voz": "anunciador",
+  "texto": "¡¿Quién Sabe Más?!"
+ },
+ "an_02_bienvenida": {
+  "voz": "anunciador",
+  "texto": "¡Bienvenidos a una nueva partida de ¿Quién Sabe Más?!"
+ },
+ "an_03_final": {
+  "voz": "anunciador",
+  "texto": "¡Atención! ¡Llegó la pregunta final!"
+ },
+ "an_04_ganador": {
+  "voz": "anunciador",
+  "texto": "¡Y el ganador de esta partida es…!"
+ },
+ "an_05_relampago": {
+  "voz": "anunciador",
+  "texto": "¡Ronda relámpago!"
+ },
+ "an_06_mitad": {
+  "voz": "anunciador",
+  "texto": "¡Llegamos a la mitad del juego!"
+ },
+ "pr_01_celulares": {
+  "voz": "presentador",
+  "texto": "¡Saquen sus celulares y escaneen el código de la pantalla!"
+ },
+ "pr_02_empezamos": {
+  "voz": "presentador",
+  "texto": "¿Ya están todos? ¡Empezamos!"
+ },
+ "pr_03_segundos": {
+  "voz": "presentador",
+  "texto": "Tienen diez segundos."
+ },
+ "pr_04_tiempo": {
+  "voz": "presentador",
+  "texto": "¡Tiempo!"
+ },
+ "pr_06_muybien": {
+  "voz": "presentador",
+  "texto": "¡Muy bien!"
+ },
+ "pr_07_dolio": {
+  "voz": "presentador",
+  "texto": "Uy… eso dolió."
+ },
+ "pr_08_tabla": {
+  "voz": "presentador",
+  "texto": "Veamos cómo va la tabla."
+ },
+ "pr_09_renida": {
+  "voz": "presentador",
+  "texto": "¡Qué partida tan reñida!"
+ },
+ "pr_10_rapido": {
+  "voz": "presentador",
+  "texto": "Recuerden: mientras más rápido respondan, más puntos."
+ },
+ "pr_11_siguiente": {
+  "voz": "presentador",
+  "texto": "Siguiente pregunta."
+ },
+ "pr_12_suscribanse": {
+  "voz": "presentador",
+  "texto": "Si les gustó, suscríbanse para la próxima partida."
+ },
+ "pr_13_despedida": {
+  "voz": "presentador",
+  "texto": "¡Nos vemos en la próxima partida!"
+ },
+ "pr_n01": {
+  "voz": "presentador",
+  "texto": "Pregunta número uno."
+ },
+ "pr_n02": {
+  "voz": "presentador",
+  "texto": "Pregunta número dos."
+ },
+ "pr_n03": {
+  "voz": "presentador",
+  "texto": "Pregunta número tres."
+ },
+ "pr_n04": {
+  "voz": "presentador",
+  "texto": "Pregunta número cuatro."
+ },
+ "pr_n05": {
+  "voz": "presentador",
+  "texto": "Pregunta número cinco."
+ },
+ "pr_n06": {
+  "voz": "presentador",
+  "texto": "Pregunta número seis."
+ },
+ "pr_n07": {
+  "voz": "presentador",
+  "texto": "Pregunta número siete."
+ },
+ "pr_n08": {
+  "voz": "presentador",
+  "texto": "Pregunta número ocho."
+ },
+ "pr_n09": {
+  "voz": "presentador",
+  "texto": "Pregunta número nueve."
+ },
+ "pr_n10": {
+  "voz": "presentador",
+  "texto": "Pregunta número diez."
+ },
+ "pr_n11": {
+  "voz": "presentador",
+  "texto": "Pregunta número once."
+ },
+ "pr_n12": {
+  "voz": "presentador",
+  "texto": "Pregunta número doce."
+ },
+ "pr_n13": {
+  "voz": "presentador",
+  "texto": "Pregunta número trece."
+ },
+ "pr_n14": {
+  "voz": "presentador",
+  "texto": "Pregunta número catorce."
+ },
+ "pr_n15": {
+  "voz": "presentador",
+  "texto": "Pregunta número quince."
+ },
+ "pr_n16": {
+  "voz": "presentador",
+  "texto": "Pregunta número dieciséis."
+ },
+ "pr_n17": {
+  "voz": "presentador",
+  "texto": "Pregunta número diecisiete."
+ },
+ "pr_n18": {
+  "voz": "presentador",
+  "texto": "Pregunta número dieciocho."
+ },
+ "pr_n19": {
+  "voz": "presentador",
+  "texto": "Pregunta número diecinueve."
+ },
+ "pr_n20": {
+  "voz": "presentador",
+  "texto": "Pregunta número veinte."
+ },
+ "pr_n21": {
+  "voz": "presentador",
+  "texto": "Pregunta número veintiuno."
+ },
+ "pr_n22": {
+  "voz": "presentador",
+  "texto": "Pregunta número veintidós."
+ },
+ "pr_n23": {
+  "voz": "presentador",
+  "texto": "Pregunta número veintitrés."
+ },
+ "pr_n24": {
+  "voz": "presentador",
+  "texto": "Pregunta número veinticuatro."
+ },
+ "pr_n25": {
+  "voz": "presentador",
+  "texto": "Pregunta número veinticinco."
+ },
+ "pr_n26": {
+  "voz": "presentador",
+  "texto": "Pregunta número veintiséis."
+ },
+ "pr_n27": {
+  "voz": "presentador",
+  "texto": "Pregunta número veintisiete."
+ },
+ "pr_n28": {
+  "voz": "presentador",
+  "texto": "Pregunta número veintiocho."
+ },
+ "pr_n29": {
+  "voz": "presentador",
+  "texto": "Pregunta número veintinueve."
+ },
+ "pr_n30": {
+  "voz": "presentador",
+  "texto": "Pregunta número treinta."
+ },
+ "co_01_sabias": {
+  "voz": "copresentadora",
+  "texto": "¿Sabías que…"
+ },
+ "co_02_dato": {
+  "voz": "copresentadora",
+  "texto": "Dato curioso:"
+ },
+ "co_03_bienjugado": {
+  "voz": "copresentadora",
+  "texto": "¡Bien jugado!"
+ },
+ "co_04_cerca": {
+  "voz": "copresentadora",
+  "texto": "¡Eso estuvo cerca!"
+ },
+ "co_05_felicidades": {
+  "voz": "copresentadora",
+  "texto": "¡Felicidades al ganador!"
+ },
+ "co_06_sincelular": {
+  "voz": "copresentadora",
+  "texto": "Y recuerden: si no tienen celular, pueden jugar en voz alta."
+ },
+ "co_07_otra": {
+  "voz": "copresentadora",
+  "texto": "¿Quieren otra partida? Elijan el siguiente juego en el canal."
+ },
+ "co_08_correcta": {
+  "voz": "copresentadora",
+  "texto": "La respuesta correcta es…"
+ },
+ "co_09_respuesta_era": {
+  "voz": "copresentadora",
+  "texto": "La respuesta era…"
+ },
+ "co_10_casi_nadie": {
+  "voz": "copresentadora",
+  "texto": "¡Casi nadie la sabía!"
+ },
+ "co_11_todos": {
+  "voz": "copresentadora",
+  "texto": "¡Esa la sabían todos!"
+ }
+}

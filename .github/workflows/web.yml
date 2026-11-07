@@ -1,0 +1,42 @@
+name: web
+# Publica la web de salas en Cloudflare Pages (quiensabemastv.pages.dev) con su base D1.
+# SOLO manual: se ejecuta cuando el dueño autoriza la publicación.
+# Requiere los secretos CLOUDFLARE_API_TOKEN (permisos: Cloudflare Pages Edit + D1 Edit) y CLOUDFLARE_ACCOUNT_ID.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: web
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - name: Base de datos D1 (se crea la primera vez)
+        run: |
+          npm i -g wrangler@3 >/dev/null
+          ID=$(wrangler d1 list --json | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{const x=JSON.parse(d).find(b=>b.name==='quiensabemas');console.log(x?x.uuid:'')})")
+          if [ -z "$ID" ]; then wrangler d1 create quiensabemas; ID=$(wrangler d1 list --json | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{console.log(JSON.parse(d).find(b=>b.name==='quiensabemas').uuid)})"); fi
+          cat > wrangler.toml <<TOML
+          name = "quiensabemastv"
+          pages_build_output_dir = "web"
+          compatibility_date = "2026-06-01"
+          [[d1_databases]]
+          binding = "DB"
+          database_name = "quiensabemas"
+          database_id = "$ID"
+          TOML
+          wrangler d1 execute quiensabemas --remote --file db/schema.sql
+      - name: Publicar la web
+        run: wrangler pages deploy web --project-name quiensabemastv --branch main --commit-dirty=true

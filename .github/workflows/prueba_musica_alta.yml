@@ -1,0 +1,113 @@
+name: prueba_musica_alta
+# PRUEBA ÚNICA (6-nov-2026): vuelve a montar un episodio ya producido con la música ALTA y constante
+# (sin bajar cuando hablan). Reusa las voces de esa corrida (no las genera de nuevo), sube EN PRIVADO
+# con "PRUEBA MÚSICA ALTA ·" en el título y NO toca la cola, publicados ni la producción normal.
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: "Corrida de 'produccion' cuyas voces se reusan (los artefactos duran 3 días)"
+        default: "42230384210"
+      nivel_db:
+        description: "Volumen de la música respecto a la voz (0 = igual que la voz, -3 = un poco debajo)"
+        default: "1"
+      subtitulos:
+        description: "Subtítulos karaoke (1 = sí, vacío = no)"
+        default: "1"
+      arranque:
+        description: "Arranque rápido: pregunta 1 en los primeros segundos, QR tras la pregunta 3 (1 = sí)"
+        default: "1"
+      fotos:
+        description: "Archivo de búsquedas de fotos de las alternativas (vacío = sin fotos)"
+        default: "contenido/fotos_opciones/ep007.json"
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: produccion
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { name: trabajo, path: trabajo, run-id: "${{ inputs.run_id }}", github-token: "${{ github.token }}" }
+      - uses: actions/download-artifact@v4
+        with: { pattern: "voces-*", path: voces_ep, merge-multiple: true, run-id: "${{ inputs.run_id }}", github-token: "${{ github.token }}" }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Instalar
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg librsvg2-bin
+          pip install -q numpy pillow scipy reportlab google-api-python-client google-auth
+          pip install -q torch torchvision --index-url https://download.pytorch.org/whl/cpu
+          pip install -q open_clip_torch
+      - name: Fotos reales para las alternativas (Pixabay / Wikimedia, verificadas con CLIP)
+        if: inputs.fotos != ''
+        env: { PIXABAY_API_KEY: "${{ secrets.PIXABAY_API_KEY }}" }
+        run: python scripts/fotos_opciones.py trabajo/episodio.json "${{ inputs.fotos }}" trabajo/opciones --hoja trabajo/hoja_fotos.jpg
+      - name: Descifrar la música
+        env: { MUSICA_CLAVE: "${{ secrets.MUSICA_CLAVE }}" }
+        run: |
+          test -n "$MUSICA_CLAVE" || { echo "Falta MUSICA_CLAVE"; exit 1; }
+          mkdir -p assets/musica
+          printf '%s' "$MUSICA_CLAVE" | tr -d '[:space:]' > /tmp/clave
+          openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -pass file:/tmp/clave -in assets/musica.enc | tar -x -C assets/musica
+          rm -f /tmp/clave; ls assets/musica/*.ogg
+      - name: Letra gruesa para los subtítulos (Poppins Black, licencia OFL)
+        run: |
+          test -f fuentes/Poppins-Black.ttf || curl -sSfL -o fuentes/Poppins-Black.ttf https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Black.ttf || echo "::warning::Sin Poppins Black: se usa Bold"
+      - name: Título de prueba
+        run: |
+          python - <<'EOF'
+          import json
+          p = 'trabajo/episodio.json'; ep = json.load(open(p, encoding='utf-8'))
+          base = ep.get('titulo_youtube') or f"¿Quién Sabe Más? {ep['titulo']}"
+          ep['titulo_youtube'] = ('PRUEBA ' + ('SUBTÍTULOS · ' if '${{ inputs.subtitulos }}' else 'MÚSICA ALTA · ') + base)[:100]
+          ep['fecha'] = None
+          json.dump(ep, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+          print(ep['titulo_youtube'])
+          EOF
+      - name: Montar el video (música alta constante)
+        env: { QSM_MUSICA_ALTA: "1", QSM_MUSICA_ALTA_DB: "${{ inputs.nivel_db }}", QSM_SUBTITULOS: "${{ inputs.subtitulos }}", QSM_ARRANQUE_RAPIDO: "${{ inputs.arranque }}" }
+        run: python pipeline/tv.py --contenido trabajo/episodio.json --voces voces_ep --out trabajo/video.mp4 --tmp tmp
+      - name: Miniatura (collage)
+        env: { QSM_MINI_COLLAGE: "1" }
+        run: python pipeline/miniatura.py trabajo/episodio.json trabajo/miniatura.jpg --feed trabajo/feed.png
+      - name: Subir a YouTube EN PRIVADO
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN_QSM: ${{ secrets.YT_REFRESH_TOKEN_QSM }}
+        run: |
+          python scripts/subir_youtube.py trabajo/episodio.json trabajo/video.mp4 trabajo/video.tiempos.json trabajo/miniatura.jpg
+          cat publicados/*.json | tail -5
+      - name: Diagnóstico para revisar (rama diag-prueba)
+        if: always()
+        run: |
+          mkdir -p /tmp/diag
+          cp trabajo/hoja_fotos.jpg trabajo/miniatura.jpg trabajo/feed.png /tmp/diag/ 2>/dev/null || true
+          python - <<'EOF'
+          import json, subprocess
+          try: t = json.load(open('trabajo/video.tiempos.json'))
+          except Exception: raise SystemExit
+          ep = json.load(open('trabajo/episodio.json', encoding='utf-8'))
+          con = [q['n'] for q in ep['preguntas'] if q.get('o_img')][:4]
+          marcas = {'inicio_02s': 2, 'inicio_06s': 6}
+          for x in t['tiempos']:
+              if x['n'] in con: marcas[f"p{x['n']}_reloj"] = t['ya'] + x['reloj'] + 3; marcas[f"p{x['n']}_revela"] = t['ya'] + x['cierra'] + 3.5
+          for k, s in marcas.items():
+              subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', str(s), '-i', 'trabajo/video.mp4', '-frames:v', '1', '-vf', 'scale=960:-1', f'/tmp/diag/{k}.jpg'])
+          EOF
+          cd /tmp/diag && ls
+          cd $GITHUB_WORKSPACE
+          git config user.name "quiensabemas-bot"; git config user.email "actions@users.noreply.github.com"
+          git fetch -q origin diag-prueba 2>/dev/null && git checkout -q -B diag-prueba origin/diag-prueba || git checkout -q --orphan diag-prueba
+          git rm -rq --cached . 2>/dev/null || true
+          mkdir -p prueba && cp /tmp/diag/* prueba/ 2>/dev/null || true
+          git add -f prueba && git commit -qm "Diagnóstico de la prueba ${{ github.run_id }}" && git push -q -f origin diag-prueba || true

@@ -1,0 +1,1924 @@
+{
+ "id": "ep005",
+ "fecha": "2026-11-06",
+ "formato": "normal",
+ "estado": "producido",
+ "codigo_sala": "SABORES",
+ "titulo": "Sabores del mundo: comidas, frutas y cocina",
+ "titulo_youtube": "¿Cuánto sabes de comida? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
+ "descripcion": "Cien preguntas de comida para jugar frente a la tele con toda la familia: frutas, platos de todo el mundo, especias, postres y mucho más, con imágenes misteriosas, verdadero o falso y una ronda relámpago. ¿Te da hambre o te da la respuesta?",
+ "tags": [
+  "comida",
+  "cocina",
+  "frutas",
+  "gastronomía",
+  "trivia en familia",
+  "preguntas y respuestas",
+  "quiz en español",
+  "juegos para la tele",
+  "¿quién sabe más?"
+ ],
+ "tema_miniatura": "SABORES DEL MUNDO",
+ "reto_miniatura": "¿Te da hambre o te da la respuesta?",
+ "objetivo_preguntas": 100,
+ "total_anunciado": 100,
+ "preguntas": [
+  {
+   "n": 1,
+   "tema": "comida",
+   "p": "¿De qué color es por dentro una sandía madura?",
+   "o": [
+    "Rojo",
+    "Azul",
+    "Blanco",
+    "Morado"
+   ],
+   "c": 0,
+   "img_q": "Watermelon slice",
+   "img_modo": "revela",
+   "d": "Más del 90 % de una sandía es agua.",
+   "tp": "¿De qué color es por dentro una sandía madura? ¿Rojo, azul, blanco o morado?",
+   "tr": "¡Rojo!",
+   "td": "Más del noventa por ciento de una sandía es agua."
+  },
+  {
+   "n": 2,
+   "tema": "comida",
+   "p": "¿Qué fruta amarilla y alargada es la favorita de los monos?",
+   "o": [
+    "Pera",
+    "Plátano",
+    "Mango",
+    "Piña"
+   ],
+   "c": 1,
+   "d": "Según el país se llama plátano, banana o guineo.",
+   "tp": "¿Qué fruta amarilla y alargada es la favorita de los monos? ¿Pera, plátano, mango o piña?",
+   "tr": "¡El plátano, o banana!",
+   "td": "Según el país se llama plátano, banana o guineo."
+  },
+  {
+   "n": 3,
+   "tema": "comida",
+   "p": "¿Qué alimento sale de las vacas y sirve para hacer queso?",
+   "o": [
+    "Huevos",
+    "Harina",
+    "Leche",
+    "Miel"
+   ],
+   "c": 2,
+   "d": "Hacen falta unos 10 litros de leche para hacer 1 kilo de queso.",
+   "tp": "¿Qué alimento sale de las vacas y sirve para hacer queso? ¿Huevos, harina, leche o miel?",
+   "tr": "¡La leche!",
+   "td": "Hacen falta unos diez litros de leche para hacer un kilo de queso."
+  },
+  {
+   "n": 4,
+   "tema": "comida",
+   "p": "¿De qué cereal se hace principalmente la harina del pan?",
+   "o": [
+    "Maíz",
+    "Arroz",
+    "Avena",
+    "Trigo"
+   ],
+   "c": 3,
+   "img_q": "Wheat field",
+   "img_modo": "revela",
+   "d": "El trigo se cultiva desde hace unos 10.000 años.",
+   "tp": "¿De qué cereal se hace principalmente la harina del pan? ¿Maíz, arroz, avena o trigo?",
+   "tr": "¡El trigo!",
+   "td": "El trigo se cultiva desde hace unos diez mil años."
+  },
+  {
+   "n": 5,
+   "tema": "comida",
+   "p": "¿Qué verdura nos hace llorar cuando la cortamos?",
+   "o": [
+    "Zanahoria",
+    "Lechuga",
+    "Cebolla",
+    "Pepino"
+   ],
+   "c": 2,
+   "d": "La cebolla suelta un gas que irrita los ojos.",
+   "tp": "¿Qué verdura nos hace llorar cuando la cortamos? ¿Zanahoria, lechuga, cebolla o pepino?",
+   "tr": "¡La cebolla!",
+   "td": "La cebolla suelta un gas que irrita los ojos."
+  },
+  {
+   "n": 6,
+   "tema": "comida",
+   "p": "¿Qué fruta tiene una corona de hojas en la cabeza?",
+   "o": [
+    "Mango",
+    "Papaya",
+    "Coco",
+    "Piña"
+   ],
+   "c": 3,
+   "img_q": "Pineapple",
+   "img_modo": "revela",
+   "d": "Cada piña tarda más de un año en madurar.",
+   "tp": "¿Qué fruta tiene una corona de hojas en la cabeza? ¿Mango, papaya, coco o piña?",
+   "tr": "¡La piña!",
+   "td": "Cada piña tarda más de un año en madurar."
+  },
+  {
+   "n": 7,
+   "tema": "comida",
+   "p": "¿Qué postre frío y cremoso se sirve en cono con bolas?",
+   "o": [
+    "Flan",
+    "Helado",
+    "Gelatina",
+    "Pastel"
+   ],
+   "c": 1,
+   "d": "Se hace con leche, crema, azúcar y mucho frío.",
+   "tp": "¿Qué postre frío y cremoso se sirve en cono con bolas? ¿Flan, helado, gelatina o pastel?",
+   "tr": "¡El helado!",
+   "td": "Se hace con leche, crema, azúcar y mucho frío."
+  },
+  {
+   "n": 8,
+   "tema": "comida",
+   "p": "¿Qué obtenemos al exprimir naranjas?",
+   "o": [
+    "Mermelada",
+    "Sopa",
+    "Salsa",
+    "Jugo"
+   ],
+   "c": 3,
+   "d": "En España le dicen zumo y en América, jugo.",
+   "tp": "¿Qué obtenemos al exprimir naranjas? ¿Mermelada, sopa, salsa o jugo?",
+   "tr": "¡Jugo!",
+   "td": "En España le dicen zumo y en América, jugo."
+  },
+  {
+   "n": 9,
+   "tema": "comida",
+   "p": "¿Qué fruta roja tiene las semillitas por fuera?",
+   "o": [
+    "Uva",
+    "Cereza",
+    "Mora",
+    "Fresa"
+   ],
+   "c": 3,
+   "img_q": "Strawberry",
+   "img_modo": "revela",
+   "d": "Una fresa tiene unas 200 semillas en la superficie.",
+   "tp": "¿Qué fruta roja tiene las semillitas por fuera? ¿Uva, cereza, mora o fresa?",
+   "tr": "¡La fresa!",
+   "td": "Una fresa tiene unas doscientas semillas en la superficie."
+  },
+  {
+   "n": 10,
+   "tema": "comida",
+   "p": "¿Qué sabor tiene el limón?",
+   "o": [
+    "Dulce",
+    "Salado",
+    "Ácido",
+    "Amargo"
+   ],
+   "c": 2,
+   "d": "Su sabor ácido viene del ácido cítrico.",
+   "tp": "¿Qué sabor tiene el limón? ¿Dulce, salado, ácido o amargo?",
+   "tr": "¡Ácido!",
+   "td": "Su sabor ácido viene del ácido cítrico."
+  },
+  {
+   "n": 11,
+   "tema": "comida",
+   "ronda": "misteriosa",
+   "p": "¿Cómo se llama este plato japonés de arroz con pescado?",
+   "o": [
+    "Sushi",
+    "Tempura",
+    "Ramen",
+    "Yakitori"
+   ],
+   "c": 0,
+   "img_q": "Sushi",
+   "img_modo": "pregunta",
+   "d": "El arroz del sushi se mezcla con vinagre.",
+   "tp": "Miren bien la foto. ¿Cómo se llama este plato japonés de arroz con pescado? ¿Sushi, tempura, ramen o yakitori?",
+   "tr": "¡El sushi!",
+   "td": "El arroz del sushi se mezcla con vinagre."
+  },
+  {
+   "n": 12,
+   "tema": "comida",
+   "ronda": "misteriosa",
+   "p": "¿Cómo se llama este plato español de arroz, nacido en Valencia?",
+   "o": [
+    "Risotto",
+    "Paella",
+    "Pilaf",
+    "Biryani"
+   ],
+   "c": 1,
+   "img_q": "Paella Valenciana",
+   "img_modo": "pregunta",
+   "d": "Su nombre viene de la sartén ancha en que se cocina.",
+   "tp": "¿Cómo se llama este plato español de arroz, nacido en Valencia? ¿Risotto, paella, pilaf o biryani?",
+   "tr": "¡La paella!",
+   "td": "Su nombre viene de la sartén ancha en que se cocina."
+  },
+  {
+   "n": 13,
+   "tema": "perú",
+   "ronda": "misteriosa",
+   "p": "¿Cómo se llama este plato peruano de carne y papas fritas?",
+   "o": [
+    "Lomo saltado",
+    "Seco de cabrito",
+    "Ají de gallina",
+    "Anticuchos"
+   ],
+   "c": 0,
+   "img_q": "Lomo saltado",
+   "img_modo": "pregunta",
+   "d": "Mezcla sabores peruanos con técnicas chinas, como cocinar en wok.",
+   "tp": "¿Cómo se llama este plato peruano de carne y papas fritas? ¿Lomo saltado, seco de cabrito, ají de gallina o anticuchos?",
+   "tr": "¡El lomo saltado!",
+   "td": "Mezcla sabores peruanos con técnicas chinas, como cocinar en wok."
+  },
+  {
+   "n": 14,
+   "tema": "perú",
+   "p": "¿Qué plato peruano lleva pollo deshilachado en crema amarilla de ají?",
+   "o": [
+    "Causa limeña",
+    "Ají de gallina",
+    "Rocoto relleno",
+    "Arroz chaufa"
+   ],
+   "c": 1,
+   "img_q": "Aji de gallina",
+   "img_modo": "revela",
+   "d": "La salsa amarilla lleva ají amarillo, pan, leche y nueces.",
+   "tp": "¿Qué plato peruano lleva pollo deshilachado en crema amarilla de ají? ¿Causa limeña, ají de gallina, rocoto relleno o arroz chaufa?",
+   "tr": "¡El ají de gallina!",
+   "td": "La salsa amarilla lleva ají amarillo, pan, leche y nueces."
+  },
+  {
+   "n": 15,
+   "tema": "latinoamérica",
+   "p": "¿Con qué cereal se hacen las tortillas tradicionales de México?",
+   "o": [
+    "Trigo",
+    "Arroz",
+    "Maíz",
+    "Papa"
+   ],
+   "c": 2,
+   "img_q": "Corn tortillas",
+   "img_modo": "revela",
+   "d": "En México se cultiva maíz desde hace unos 9.000 años.",
+   "tp": "¿Con qué cereal se hacen las tortillas tradicionales de México? ¿Trigo, arroz, maíz o papa?",
+   "tr": "¡El maíz!",
+   "td": "En México se cultiva maíz desde hace unos nueve mil años."
+  },
+  {
+   "n": 16,
+   "tema": "latinoamérica",
+   "p": "¿Qué salsa verde de perejil y ajo acompaña al asado argentino?",
+   "o": [
+    "Pesto",
+    "Mayonesa",
+    "Kétchup",
+    "Chimichurri"
+   ],
+   "c": 3,
+   "img_q": "Chimichurri",
+   "img_modo": "revela",
+   "d": "El chimichurri lleva perejil, ajo, orégano y vinagre.",
+   "tp": "¿Qué salsa verde de perejil y ajo acompaña al asado argentino? ¿Pesto, mayonesa, kétchup o chimichurri?",
+   "tr": "¡El chimichurri!",
+   "td": "El chimichurri lleva perejil, ajo, orégano y vinagre."
+  },
+  {
+   "n": 17,
+   "tema": "comida",
+   "p": "¿Qué queso suave y derretido lleva la pizza margarita?",
+   "o": [
+    "Parmesano",
+    "Cheddar",
+    "Mozzarella",
+    "Gouda"
+   ],
+   "c": 2,
+   "img_q": "Mozzarella",
+   "img_modo": "revela",
+   "d": "La margarita luce los colores de la bandera de Italia: rojo, blanco y verde.",
+   "tp": "¿Qué queso suave y derretido lleva la pizza margarita? ¿Parmesano, cheddar, mozzarella o gouda?",
+   "tr": "¡La mozzarella!",
+   "td": "La margarita luce los colores de la bandera de Italia: rojo, blanco y verde."
+  },
+  {
+   "n": 18,
+   "tema": "comida",
+   "p": "¿Qué pan largo y delgado es el símbolo de Francia?",
+   "o": [
+    "Bagel",
+    "Pita",
+    "Focaccia",
+    "Baguette"
+   ],
+   "c": 3,
+   "img_q": "Baguette",
+   "img_modo": "revela",
+   "d": "En Francia es tradición comprarlo fresco todos los días.",
+   "tp": "¿Qué pan largo y delgado es el símbolo de Francia? ¿Bagel, pita, focaccia o baguette?",
+   "tr": "¡La baguette!",
+   "td": "En Francia es tradición comprarlo fresco todos los días."
+  },
+  {
+   "n": 19,
+   "tema": "comida",
+   "p": "¿Qué utensilios usan para comer en China y Japón?",
+   "o": [
+    "Cucharas",
+    "Tenedores",
+    "Palillos",
+    "Cuchillos"
+   ],
+   "c": 2,
+   "d": "Los palillos se usan desde hace miles de años.",
+   "tp": "¿Qué utensilios usan para comer en China y Japón? ¿Cucharas, tenedores, palillos o cuchillos?",
+   "tr": "¡Los palillos!",
+   "td": "Los palillos se usan desde hace miles de años."
+  },
+  {
+   "n": 20,
+   "tema": "comida",
+   "p": "¿Qué verdura naranja es la favorita de los conejos?",
+   "o": [
+    "Pimiento",
+    "Camote",
+    "Calabaza",
+    "Zanahoria"
+   ],
+   "c": 3,
+   "d": "También hay zanahorias moradas, amarillas y blancas.",
+   "tp": "¿Qué verdura naranja es la favorita de los conejos? ¿Pimiento, camote, calabaza o zanahoria?",
+   "tr": "¡La zanahoria!",
+   "td": "También hay zanahorias moradas, amarillas y blancas."
+  },
+  {
+   "n": 21,
+   "tema": "comida",
+   "ronda": "vf",
+   "p": "Los plátanos crecen en árboles.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "La planta del plátano es una hierba gigante, no un árbol.",
+   "tp": "¿Verdadero o falso? Los plátanos crecen en árboles.",
+   "tr": "¡Falso! Es una hierba gigante.",
+   "td": "La planta del plátano es una hierba gigante, no un árbol."
+  },
+  {
+   "n": 22,
+   "tema": "comida",
+   "ronda": "vf",
+   "p": "Los cacahuates o maníes maduran bajo la tierra.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Su flor se dobla hacia el suelo y el fruto madura enterrado.",
+   "tp": "¿Verdadero o falso? Los cacahuates o maníes maduran bajo la tierra.",
+   "tr": "¡Verdadero! Crecen enterrados.",
+   "td": "Su flor se dobla hacia el suelo y el fruto madura enterrado."
+  },
+  {
+   "n": 23,
+   "tema": "comida",
+   "ronda": "vf",
+   "p": "El azúcar solo se saca de la caña de azúcar.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "También se obtiene de la remolacha azucarera.",
+   "tp": "¿Verdadero o falso? El azúcar solo se saca de la caña de azúcar.",
+   "tr": "¡Falso! También sale de la remolacha.",
+   "td": "También se obtiene de la remolacha azucarera."
+  },
+  {
+   "n": 24,
+   "tema": "comida",
+   "p": "¿Qué fruta se seca al sol para hacer pasas?",
+   "o": [
+    "Ciruela",
+    "Uva",
+    "Higo",
+    "Cereza"
+   ],
+   "c": 1,
+   "d": "Hacen falta unos 4 kilos de uvas para obtener 1 kilo de pasas.",
+   "tp": "¿Qué fruta se seca al sol para hacer pasas? ¿Ciruela, uva, higo o cereza?",
+   "tr": "¡La uva!",
+   "td": "Hacen falta unos cuatro kilos de uvas para obtener un kilo de pasas."
+  },
+  {
+   "n": 25,
+   "tema": "comida",
+   "p": "¿Qué cereal se cultiva en campos inundados llamados arrozales?",
+   "o": [
+    "Trigo",
+    "Avena",
+    "Arroz",
+    "Cebada"
+   ],
+   "c": 2,
+   "img_q": "Rice terraces",
+   "img_modo": "revela",
+   "d": "El arroz es el alimento básico de más de la mitad de la humanidad.",
+   "tp": "¿Qué cereal se cultiva en campos inundados llamados arrozales? ¿Trigo, avena, arroz o cebada?",
+   "tr": "¡El arroz!",
+   "td": "El arroz es el alimento básico de más de la mitad de la humanidad."
+  },
+  {
+   "n": 26,
+   "tema": "comida",
+   "p": "¿De qué fruto se saca el aceite de oliva?",
+   "o": [
+    "Girasol",
+    "Aceituna",
+    "Coco",
+    "Maíz"
+   ],
+   "c": 1,
+   "img_q": "Olives on tree",
+   "img_modo": "revela",
+   "d": "Hacen falta varios kilos de aceitunas para obtener un solo litro de aceite.",
+   "tp": "¿De qué fruto se saca el aceite de oliva? ¿Girasol, aceituna, coco o maíz?",
+   "tr": "¡La aceituna!",
+   "td": "Hacen falta varios kilos de aceitunas para obtener un solo litro de aceite."
+  },
+  {
+   "n": 27,
+   "tema": "comida",
+   "p": "¿En qué país se come el kimchi, una col fermentada y picante?",
+   "o": [
+    "Japón",
+    "China",
+    "Tailandia",
+    "Corea del Sur"
+   ],
+   "c": 3,
+   "img_q": "Kimchi",
+   "img_modo": "revela",
+   "d": "En Corea del Sur hay cientos de tipos de kimchi.",
+   "tp": "¿En qué país se come el kimchi, una col fermentada y picante? ¿Japón, China, Tailandia o Corea del Sur?",
+   "tr": "¡Corea del Sur!",
+   "td": "En Corea del Sur hay cientos de tipos de kimchi."
+  },
+  {
+   "n": 28,
+   "tema": "comida",
+   "p": "¿Cómo se llama el pan plano de la India que se hornea en un tandoor?",
+   "o": [
+    "Pita",
+    "Tortilla",
+    "Arepa",
+    "Naan"
+   ],
+   "c": 3,
+   "img_q": "Naan bread",
+   "img_modo": "revela",
+   "d": "El tandoor es un horno de barro; la masa se pega a sus paredes.",
+   "tp": "¿Cómo se llama el pan plano de la India que se hornea en un tandoor? ¿Pita, tortilla, arepa o naan?",
+   "tr": "¡El naan!",
+   "td": "El tandoor es un horno de barro; la masa se pega a sus paredes."
+  },
+  {
+   "n": 29,
+   "tema": "latinoamérica",
+   "p": "¿Qué pan redondo de maíz se rellena en Venezuela y Colombia?",
+   "o": [
+    "Pupusa",
+    "Tortilla",
+    "Tostón",
+    "Arepa"
+   ],
+   "c": 3,
+   "img_q": "Arepa",
+   "img_modo": "revela",
+   "d": "Se rellenan con queso, carne, aguacate y mucho más.",
+   "tp": "¿Qué pan redondo de maíz se rellena en Venezuela y Colombia? ¿Pupusa, tortilla, tostón o arepa?",
+   "tr": "¡La arepa!",
+   "td": "Se rellenan con queso, carne, aguacate y mucho más."
+  },
+  {
+   "n": 30,
+   "tema": "comida",
+   "p": "¿Qué país es famoso por su jarabe de arce?",
+   "o": [
+    "Noruega",
+    "Brasil",
+    "Suiza",
+    "Canadá"
+   ],
+   "c": 3,
+   "img_q": "Maple syrup",
+   "img_modo": "revela",
+   "d": "Hacen falta unos 40 litros de savia de arce para obtener 1 litro de jarabe.",
+   "tp": "¿Qué país es famoso por su jarabe de arce? ¿Noruega, Brasil, Suiza o Canadá?",
+   "tr": "¡Canadá!",
+   "td": "Hacen falta unos cuarenta litros de savia de arce para obtener un litro de jarabe."
+  },
+  {
+   "n": 31,
+   "tema": "comida",
+   "ronda": "relampago",
+   "p": "¿Cuál es el ingrediente principal del pan?",
+   "o": [
+    "Harina",
+    "Sal",
+    "Miel",
+    "Leche"
+   ],
+   "c": 0,
+   "d": "Sin harina no hay pan.",
+   "tp": "¿Cuál es el ingrediente principal del pan? ¿Harina, sal, miel o leche?",
+   "tr": "¡Harina!",
+   "td": "Sin harina no hay pan."
+  },
+  {
+   "n": 32,
+   "tema": "comida",
+   "ronda": "relampago",
+   "p": "¿Qué sabor tiene la sal?",
+   "o": [
+    "Dulce",
+    "Salado",
+    "Ácido",
+    "Amargo"
+   ],
+   "c": 1,
+   "d": "La sal se saca de minas y del mar.",
+   "tp": "¿Qué sabor tiene la sal? ¿Dulce, salado, ácido o amargo?",
+   "tr": "¡Salado!",
+   "td": "La sal se saca de minas y del mar."
+  },
+  {
+   "n": 33,
+   "tema": "comida",
+   "ronda": "relampago",
+   "p": "¿Qué fruta es amarilla y ácida?",
+   "o": [
+    "Fresa",
+    "Uva",
+    "Limón",
+    "Cereza"
+   ],
+   "c": 2,
+   "d": "El limón es famoso por su vitamina C.",
+   "tp": "¿Qué fruta es amarilla y ácida? ¿Fresa, uva, limón o cereza?",
+   "tr": "¡Limón!",
+   "td": "El limón es famoso por su vitamina C."
+  },
+  {
+   "n": 34,
+   "tema": "comida",
+   "ronda": "relampago",
+   "p": "¿Cuántos huevos hay en una docena?",
+   "o": [
+    "Diez",
+    "Quince",
+    "Veinte",
+    "Doce"
+   ],
+   "c": 3,
+   "d": "Una docena son doce.",
+   "tp": "¿Cuántos huevos hay en una docena? ¿Diez, quince, veinte o doce?",
+   "tr": "¡Doce!",
+   "td": "Una docena son doce."
+  },
+  {
+   "n": 35,
+   "tema": "comida",
+   "ronda": "relampago",
+   "p": "¿Qué condimento es negro y pica?",
+   "o": [
+    "Canela",
+    "Orégano",
+    "Pimienta",
+    "Comino"
+   ],
+   "c": 2,
+   "d": "La pimienta negra viene de un fruto secado al sol.",
+   "tp": "¿Qué condimento es negro y pica? ¿Canela, orégano, pimienta o comino?",
+   "tr": "¡Pimienta!",
+   "td": "La pimienta negra viene de un fruto secado al sol."
+  },
+  {
+   "n": 36,
+   "tema": "perú",
+   "p": "¿Qué grano andino, rico en proteínas, es muy famoso en el Perú?",
+   "o": [
+    "Quinua",
+    "Cebada",
+    "Arroz",
+    "Soya"
+   ],
+   "c": 0,
+   "img_q": "Quinoa",
+   "img_modo": "revela",
+   "d": "La NASA la ha estudiado como alimento para viajes espaciales.",
+   "tp": "¿Qué grano andino, rico en proteínas, es muy famoso en el Perú? ¿Quinua, cebada, arroz o soya?",
+   "tr": "¡La quinua!",
+   "td": "La NASA la ha estudiado como alimento para viajes espaciales."
+  },
+  {
+   "n": 37,
+   "tema": "perú",
+   "p": "¿Con qué verduras se prepara la masa de los picarones peruanos?",
+   "o": [
+    "Papa",
+    "Zapallo y camote",
+    "Yuca",
+    "Choclo"
+   ],
+   "c": 1,
+   "img_q": "Picarones",
+   "img_modo": "revela",
+   "d": "Los picarones se fríen y se bañan con miel de chancaca.",
+   "tp": "¿Con qué verduras se prepara la masa de los picarones peruanos? ¿Papa, zapallo y camote, yuca o choclo?",
+   "tr": "¡Zapallo y camote!",
+   "td": "Los picarones se fríen y se bañan con miel de chancaca."
+  },
+  {
+   "n": 38,
+   "tema": "comida",
+   "p": "¿Qué país produce más café en el mundo?",
+   "o": [
+    "Colombia",
+    "Vietnam",
+    "Brasil",
+    "Etiopía"
+   ],
+   "c": 2,
+   "img_q": "Coffee cherries",
+   "img_modo": "revela",
+   "d": "Brasil produce alrededor de un tercio del café del planeta.",
+   "tp": "¿Qué país produce más café en el mundo? ¿Colombia, Vietnam, Brasil o Etiopía?",
+   "tr": "¡Brasil!",
+   "td": "Brasil produce alrededor de un tercio del café del planeta."
+  },
+  {
+   "n": 39,
+   "tema": "comida",
+   "p": "¿En qué país dice la leyenda que se descubrió el café?",
+   "o": [
+    "Yemen",
+    "Brasil",
+    "Colombia",
+    "Etiopía"
+   ],
+   "c": 3,
+   "d": "Según la leyenda, unas cabras que comieron sus frutos se pusieron muy activas.",
+   "tp": "¿En qué país dice la leyenda que se descubrió el café? ¿Yemen, Brasil, Colombia o Etiopía?",
+   "tr": "¡Etiopía!",
+   "td": "Según la leyenda, unas cabras que comieron sus frutos se pusieron muy activas."
+  },
+  {
+   "n": 40,
+   "tema": "comida",
+   "p": "¿Qué país es famoso por su ceremonia del té?",
+   "o": [
+    "China",
+    "Japón",
+    "India",
+    "Inglaterra"
+   ],
+   "c": 1,
+   "d": "En japonés, la ceremonia del té se llama «chanoyu».",
+   "tp": "¿Qué país es famoso por su ceremonia del té? ¿China, Japón, India o Inglaterra?",
+   "tr": "¡Japón!",
+   "td": "En japonés, la ceremonia del té se llama chanoyu."
+  },
+  {
+   "n": 41,
+   "tema": "comida",
+   "p": "¿Qué pasta italiana tiene forma de lazo?",
+   "o": [
+    "Farfalle",
+    "Penne",
+    "Fusilli",
+    "Ravioles"
+   ],
+   "c": 0,
+   "img_q": "Farfalle pasta",
+   "img_modo": "revela",
+   "d": "Farfalle significa «mariposas» en italiano.",
+   "tp": "¿Qué pasta italiana tiene forma de lazo? ¿Farfalle, penne, fusilli o ravioles?",
+   "tr": "¡Farfalle!",
+   "td": "Farfalle significa mariposas en italiano."
+  },
+  {
+   "n": 42,
+   "tema": "comida",
+   "p": "¿Qué postre italiano con café y queso mascarpone significa «anímame»?",
+   "o": [
+    "Panna cotta",
+    "Tiramisú",
+    "Cannoli",
+    "Gelato"
+   ],
+   "c": 1,
+   "img_q": "Tiramisu",
+   "img_modo": "revela",
+   "d": "Su nombre viene de «tirami su», que en italiano significa «levántame».",
+   "tp": "¿Qué postre italiano con café y queso mascarpone significa anímame? ¿Panna cotta, tiramisú, cannoli o gelato?",
+   "tr": "¡El tiramisú!",
+   "td": "Su nombre viene de tirami su, que en italiano significa levántame."
+  },
+  {
+   "n": 43,
+   "tema": "comida",
+   "p": "¿Qué fruta asiática de olor fortísimo llaman «el rey de las frutas»?",
+   "o": [
+    "Rambután",
+    "Mangostán",
+    "Durián",
+    "Lichi"
+   ],
+   "c": 2,
+   "img_q": "Durian",
+   "img_modo": "revela",
+   "d": "En algunos hoteles y trenes de Asia está prohibido llevarla por su olor.",
+   "tp": "¿Qué fruta asiática de olor fortísimo llaman el rey de las frutas? ¿Rambután, mangostán, durián o lichi?",
+   "tr": "¡El durián!",
+   "td": "En algunos hoteles y trenes de Asia está prohibido llevarla por su olor."
+  },
+  {
+   "n": 44,
+   "tema": "comida",
+   "p": "¿Qué país es famoso por la fondue de queso derretido?",
+   "o": [
+    "Bélgica",
+    "Alemania",
+    "Austria",
+    "Suiza"
+   ],
+   "c": 3,
+   "d": "Se come con trocitos de pan ensartados en un tenedor largo.",
+   "tp": "¿Qué país es famoso por la fondue de queso derretido? ¿Bélgica, Alemania, Austria o Suiza?",
+   "tr": "¡Suiza!",
+   "td": "Se come con trocitos de pan ensartados en un tenedor largo."
+  },
+  {
+   "n": 45,
+   "tema": "comida",
+   "p": "¿Qué fruto seco es el ingrediente principal del mazapán?",
+   "o": [
+    "Nuez",
+    "Almendra",
+    "Pistacho",
+    "Avellana"
+   ],
+   "c": 1,
+   "d": "El mazapán se hace con almendras molidas y azúcar.",
+   "tp": "¿Qué fruto seco es el ingrediente principal del mazapán? ¿Nuez, almendra, pistacho o avellana?",
+   "tr": "¡La almendra!",
+   "td": "El mazapán se hace con almendras molidas y azúcar."
+  },
+  {
+   "n": 46,
+   "tema": "comida",
+   "p": "¿Qué alga seca envuelve el sushi?",
+   "o": [
+    "Wakame",
+    "Kombu",
+    "Agar",
+    "Nori"
+   ],
+   "c": 3,
+   "img_q": "Nori seaweed sheets",
+   "img_modo": "revela",
+   "d": "El nori son láminas de alga secas y tostadas.",
+   "tp": "¿Qué alga seca envuelve el sushi? ¿Wakame, kombu, agar o nori?",
+   "tr": "¡El nori!",
+   "td": "El nori son láminas de alga secas y tostadas."
+  },
+  {
+   "n": 47,
+   "tema": "perú",
+   "p": "¿Qué bebida peruana se prepara con maíz morado?",
+   "o": [
+    "Emoliente",
+    "Chicha morada",
+    "Maca",
+    "Limonada"
+   ],
+   "c": 1,
+   "img_q": "Chicha morada",
+   "img_modo": "revela",
+   "d": "También lleva piña, canela y clavo de olor.",
+   "tp": "¿Qué bebida peruana se prepara con maíz morado? ¿Emoliente, chicha morada, maca o limonada?",
+   "tr": "¡La chicha morada!",
+   "td": "También lleva piña, canela y clavo de olor."
+  },
+  {
+   "n": 48,
+   "tema": "latinoamérica",
+   "p": "¿Qué infusión se toma con bombilla en Argentina, Uruguay y Paraguay?",
+   "o": [
+    "Café",
+    "Té",
+    "Mate",
+    "Chocolate"
+   ],
+   "c": 2,
+   "img_q": "Mate gourd bombilla",
+   "img_modo": "revela",
+   "d": "Se prepara con hojas secas de yerba mate.",
+   "tp": "¿Qué infusión se toma con bombilla en Argentina, Uruguay y Paraguay? ¿Café, té, mate o chocolate?",
+   "tr": "¡El mate!",
+   "td": "Se prepara con hojas secas de yerba mate."
+  },
+  {
+   "n": 49,
+   "tema": "comida",
+   "p": "¿Qué postre de huevo y leche se cubre con caramelo líquido?",
+   "o": [
+    "Gelatina",
+    "Mousse",
+    "Natilla",
+    "Flan"
+   ],
+   "c": 3,
+   "img_q": "Flan dessert",
+   "img_modo": "revela",
+   "d": "El caramelo queda arriba al voltear el flan sobre el plato.",
+   "tp": "¿Qué postre de huevo y leche se cubre con caramelo líquido? ¿Gelatina, mousse, natilla o flan?",
+   "tr": "¡El flan!",
+   "td": "El caramelo queda arriba al voltear el flan sobre el plato."
+  },
+  {
+   "n": 50,
+   "tema": "comida",
+   "p": "¿Qué dulce se hace batiendo claras de huevo con azúcar y se hornea?",
+   "o": [
+    "Turrón",
+    "Merengue",
+    "Alfajor",
+    "Bizcocho"
+   ],
+   "c": 1,
+   "img_q": "Meringue",
+   "img_modo": "revela",
+   "d": "Las claras se baten hasta quedar firmes como nieve.",
+   "tp": "¿Qué dulce se hace batiendo claras de huevo con azúcar y se hornea? ¿Turrón, merengue, alfajor o bizcocho?",
+   "tr": "¡El merengue!",
+   "td": "Las claras se baten hasta quedar firmes como nieve."
+  },
+  {
+   "n": 51,
+   "tema": "ciencia",
+   "p": "¿Qué ingrediente hace que la masa del pan crezca?",
+   "o": [
+    "Sal",
+    "Aceite",
+    "Levadura",
+    "Azúcar"
+   ],
+   "c": 2,
+   "d": "La levadura es un hongo microscópico.",
+   "tp": "¿Qué ingrediente hace que la masa del pan crezca? ¿Sal, aceite, levadura o azúcar?",
+   "tr": "¡La levadura!",
+   "td": "La levadura es un hongo microscópico."
+  },
+  {
+   "n": 52,
+   "tema": "ciencia",
+   "p": "¿Qué vitamina abunda en las naranjas y los limones?",
+   "o": [
+    "Vitamina C",
+    "Vitamina A",
+    "Vitamina D",
+    "Vitamina K"
+   ],
+   "c": 0,
+   "d": "La vitamina C ayuda a las defensas del cuerpo.",
+   "tp": "¿Qué vitamina abunda en las naranjas y los limones? ¿Vitamina C, vitamina A, vitamina D o vitamina K?",
+   "tr": "¡La vitamina C!",
+   "td": "La vitamina C ayuda a las defensas del cuerpo."
+  },
+  {
+   "n": 53,
+   "tema": "comida",
+   "p": "¿De qué país es originaria la fruta kiwi?",
+   "o": [
+    "Nueva Zelanda",
+    "Australia",
+    "China",
+    "Chile"
+   ],
+   "c": 2,
+   "img_q": "Kiwifruit",
+   "img_modo": "revela",
+   "d": "Se hizo famosa en Nueva Zelanda, que le dio su nombre actual.",
+   "tp": "¿De qué país es originaria la fruta kiwi? ¿Nueva Zelanda, Australia, China o Chile?",
+   "tr": "¡China!",
+   "td": "Se hizo famosa en Nueva Zelanda, que le dio su nombre actual."
+  },
+  {
+   "n": 54,
+   "tema": "comida",
+   "p": "¿Cuál es el cereal que más se cosecha en el mundo?",
+   "o": [
+    "Trigo",
+    "Arroz",
+    "Maíz",
+    "Cebada"
+   ],
+   "c": 2,
+   "d": "El maíz se usa para alimentar personas, animales y hacer harinas.",
+   "tp": "¿Cuál es el cereal que más se cosecha en el mundo? ¿Trigo, arroz, maíz o cebada?",
+   "tr": "¡El maíz!",
+   "td": "El maíz se usa para alimentar personas, animales y hacer harinas."
+  },
+  {
+   "n": 55,
+   "tema": "inventos",
+   "p": "¿Qué país inventó los fideos instantáneos en 1958?",
+   "o": [
+    "China",
+    "Japón",
+    "Italia",
+    "Corea"
+   ],
+   "c": 1,
+   "d": "Los inventó Momofuku Ando.",
+   "tp": "¿Qué país inventó los fideos instantáneos en mil novecientos cincuenta y ocho? ¿China, Japón, Italia o Corea?",
+   "tr": "¡Japón!",
+   "td": "Los inventó Momofuku Ando."
+  },
+  {
+   "n": 56,
+   "tema": "comida",
+   "ronda": "misteriosa",
+   "p": "¿Cómo se llama esta fruta exótica de piel rosada con escamas?",
+   "o": [
+    "Pitahaya",
+    "Rambután",
+    "Guayaba",
+    "Chirimoya"
+   ],
+   "c": 0,
+   "img_q": "Dragon fruit",
+   "img_modo": "pregunta",
+   "d": "Su pulpa blanca o roja está llena de semillitas negras.",
+   "tp": "Miren bien la foto. ¿Cómo se llama esta fruta exótica de piel rosada con escamas? ¿Pitahaya, rambután, guayaba o chirimoya?",
+   "tr": "¡La pitahaya, o fruta del dragón!",
+   "td": "Su pulpa blanca o roja está llena de semillitas negras."
+  },
+  {
+   "n": 57,
+   "tema": "comida",
+   "ronda": "misteriosa",
+   "p": "¿De qué país es este plato de fideos de arroz con cacahuates?",
+   "o": [
+    "Vietnam",
+    "Tailandia",
+    "Camboya",
+    "Indonesia"
+   ],
+   "c": 1,
+   "img_q": "Pad thai",
+   "img_modo": "pregunta",
+   "d": "El pad thai se popularizó en Tailandia hacia 1940.",
+   "tp": "¿De qué país es este plato de fideos de arroz con cacahuates? ¿Vietnam, Tailandia, Camboya o Indonesia?",
+   "tr": "¡Tailandia! Es el pad thai.",
+   "td": "El pad thai se popularizó en Tailandia hacia mil novecientos cuarenta."
+  },
+  {
+   "n": 58,
+   "tema": "comida",
+   "ronda": "misteriosa",
+   "p": "¿Cómo se llama este pan en forma de media luna?",
+   "o": [
+    "Brioche",
+    "Bagel",
+    "Pretzel",
+    "Croissant"
+   ],
+   "c": 3,
+   "img_q": "Croissant",
+   "img_modo": "pregunta",
+   "d": "En Francia lo comen sobre todo en el desayuno.",
+   "tp": "¿Cómo se llama este pan en forma de media luna? ¿Brioche, bagel, pretzel o cruasán?",
+   "tr": "¡El cruasán!",
+   "td": "En Francia lo comen sobre todo en el desayuno."
+  },
+  {
+   "n": 59,
+   "tema": "comida",
+   "p": "¿Qué fruto seco lleva el pesto genovés, junto a albahaca y ajo?",
+   "o": [
+    "Piñones",
+    "Nueces",
+    "Almendras",
+    "Maní"
+   ],
+   "c": 0,
+   "img_q": "Pesto genovese",
+   "img_modo": "revela",
+   "d": "El pesto genovés lleva albahaca, piñones, ajo, queso y aceite de oliva.",
+   "tp": "¿Qué fruto seco lleva el pesto genovés, junto a albahaca y ajo? ¿Piñones, nueces, almendras o maní?",
+   "tr": "¡Los piñones!",
+   "td": "El pesto genovés lleva albahaca, piñones, ajo, queso y aceite de oliva."
+  },
+  {
+   "n": 60,
+   "tema": "comida",
+   "p": "¿Qué es el tofu?",
+   "o": [
+    "Queso de vaca",
+    "Cuajada de soya",
+    "Pan de arroz",
+    "Gelatina de algas"
+   ],
+   "c": 1,
+   "img_q": "Tofu",
+   "img_modo": "revela",
+   "d": "El tofu se hace cuajando leche de soya.",
+   "tp": "¿Qué es el tofu? ¿Queso de vaca, cuajada de soya, pan de arroz o gelatina de algas?",
+   "tr": "¡Cuajada de soya!",
+   "td": "El tofu se hace cuajando leche de soya."
+  },
+  {
+   "n": 61,
+   "tema": "comida",
+   "p": "¿Qué país lidera el mundo en producción de aceite de oliva?",
+   "o": [
+    "Italia",
+    "Grecia",
+    "España",
+    "Túnez"
+   ],
+   "c": 2,
+   "d": "España es líder mundial en aceite de oliva desde hace décadas.",
+   "tp": "¿Qué país lidera el mundo en producción de aceite de oliva? ¿Italia, Grecia, España o Túnez?",
+   "tr": "¡España!",
+   "td": "España es líder mundial en aceite de oliva desde hace décadas."
+  },
+  {
+   "n": 62,
+   "tema": "ciencia",
+   "p": "El champiñón no es planta ni animal. ¿Qué es?",
+   "o": [
+    "Planta",
+    "Alga",
+    "Bacteria",
+    "Hongo"
+   ],
+   "c": 3,
+   "img_q": "Agaricus bisporus",
+   "img_modo": "revela",
+   "d": "Los hongos se alimentan de materia en descomposición.",
+   "tp": "El champiñón no es planta ni animal. ¿Qué es? ¿Planta, alga, bacteria u hongo?",
+   "tr": "¡Un hongo!",
+   "td": "Los hongos se alimentan de materia en descomposición."
+  },
+  {
+   "n": 63,
+   "tema": "comida",
+   "p": "¿Qué país produce más mangos en el mundo?",
+   "o": [
+    "México",
+    "Brasil",
+    "India",
+    "Tailandia"
+   ],
+   "c": 2,
+   "img_q": "Mango fruit",
+   "img_modo": "revela",
+   "d": "El mango es el fruto nacional de la India.",
+   "tp": "¿Qué país produce más mangos en el mundo? ¿México, Brasil, India o Tailandia?",
+   "tr": "¡India!",
+   "td": "El mango es el fruto nacional de la India."
+  },
+  {
+   "n": 64,
+   "tema": "comida",
+   "p": "¿De qué parte del árbol viene la canela?",
+   "o": [
+    "Hoja",
+    "Corteza",
+    "Raíz",
+    "Flor"
+   ],
+   "c": 1,
+   "img_q": "Cinnamon sticks",
+   "img_modo": "revela",
+   "d": "La corteza se enrolla al secarse y forma los palitos de canela.",
+   "tp": "¿De qué parte del árbol viene la canela? ¿Hoja, corteza, raíz o flor?",
+   "tr": "¡De la corteza!",
+   "td": "La corteza se enrolla al secarse y forma los palitos de canela."
+  },
+  {
+   "n": 65,
+   "tema": "latinoamérica",
+   "p": "¿Qué sopa bogotana lleva pollo, tres tipos de papa y guascas?",
+   "o": [
+    "Ajiaco",
+    "Sancocho",
+    "Mondongo",
+    "Cazuela"
+   ],
+   "c": 0,
+   "img_q": "Ajiaco",
+   "img_modo": "revela",
+   "d": "Suele servirse con crema, alcaparras y aguacate.",
+   "tp": "¿Qué sopa bogotana lleva pollo, tres tipos de papa y guascas? ¿Ajiaco, sancocho, mondongo o cazuela?",
+   "tr": "¡El ajiaco!",
+   "td": "Suele servirse con crema, alcaparras y aguacate."
+  },
+  {
+   "n": 66,
+   "tema": "latinoamérica",
+   "p": "¿Qué se llama «choclo» en Perú, Chile y Argentina?",
+   "o": [
+    "Papa",
+    "Frijol",
+    "Zapallo",
+    "Maíz tierno"
+   ],
+   "c": 3,
+   "img_q": "Choclo corn on the cob",
+   "img_modo": "revela",
+   "d": "En México se dice elote y en Colombia, mazorca.",
+   "tp": "¿Qué se llama choclo en Perú, Chile y Argentina? ¿Papa, frijol, zapallo o maíz tierno?",
+   "tr": "¡El maíz tierno!",
+   "td": "En México se dice elote y en Colombia, mazorca."
+  },
+  {
+   "n": 67,
+   "tema": "perú",
+   "p": "¿Cuántas variedades de papa se cultivan en el Perú, más o menos?",
+   "o": [
+    "Unas 40",
+    "Unas 400",
+    "Unas 4.000",
+    "Unas 40.000"
+   ],
+   "c": 2,
+   "img_q": "Peruvian native potatoes",
+   "img_modo": "revela",
+   "d": "Perú tiene más de 3.000 variedades nativas de papa.",
+   "tp": "¿Cuántas variedades de papa se cultivan en el Perú, más o menos? ¿Unas cuarenta, unas cuatrocientas, unas cuatro mil o unas cuarenta mil?",
+   "tr": "¡Unas cuatro mil!",
+   "td": "Perú tiene más de tres mil variedades nativas de papa."
+  },
+  {
+   "n": 68,
+   "tema": "comida",
+   "p": "¿De qué planta sale la vainilla?",
+   "o": [
+    "Una orquídea",
+    "Un cactus",
+    "Una palmera",
+    "Un helecho"
+   ],
+   "c": 0,
+   "img_q": "Vanilla planifolia flower",
+   "img_modo": "revela",
+   "d": "Es una de las especias más caras del mundo.",
+   "tp": "¿De qué planta sale la vainilla? ¿Una orquídea, un cactus, una palmera o un helecho?",
+   "tr": "¡Una orquídea!",
+   "td": "Es una de las especias más caras del mundo."
+  },
+  {
+   "n": 69,
+   "tema": "historia",
+   "p": "¿Qué usaban los aztecas como moneda?",
+   "o": [
+    "Conchas",
+    "Granos de cacao",
+    "Maíz",
+    "Plumas"
+   ],
+   "c": 1,
+   "d": "Con granos de cacao se pagaba hasta en los mercados de Tenochtitlan.",
+   "tp": "¿Qué usaban los aztecas como moneda? ¿Conchas, granos de cacao, maíz o plumas?",
+   "tr": "¡Granos de cacao!",
+   "td": "Con granos de cacao se pagaba hasta en los mercados de Tenochtitlan."
+  },
+  {
+   "n": 70,
+   "tema": "comida",
+   "p": "¿Qué queso suizo es famoso por sus agujeros?",
+   "o": [
+    "Gouda",
+    "Emmental",
+    "Brie",
+    "Parmesano"
+   ],
+   "c": 1,
+   "img_q": "Emmental cheese",
+   "img_modo": "revela",
+   "d": "Los agujeros los forma el gas que sueltan las bacterias al madurar.",
+   "tp": "¿Qué queso suizo es famoso por sus agujeros? ¿Gouda, emmental, brie o parmesano?",
+   "tr": "¡El emmental!",
+   "td": "Los agujeros los forma el gas que sueltan las bacterias al madurar."
+  },
+  {
+   "n": 71,
+   "tema": "comida",
+   "ronda": "vf",
+   "p": "La papa llegó a Europa desde América.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Los españoles la llevaron desde los Andes en el siglo XVI.",
+   "tp": "¿Verdadero o falso? La papa llegó a Europa desde América.",
+   "tr": "¡Verdadero! Viajó desde los Andes.",
+   "td": "Los españoles la llevaron desde los Andes en el siglo dieciséis."
+  },
+  {
+   "n": 72,
+   "tema": "comida",
+   "ronda": "vf",
+   "p": "La palabra «kétchup» viene de una salsa de pescado asiática.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Viene de «ke-tsiap», una salsa de pescado fermentado.",
+   "tp": "¿Verdadero o falso? La palabra kétchup viene de una salsa de pescado asiática.",
+   "tr": "¡Verdadero! Antes no llevaba tomate.",
+   "td": "Viene de ke-tsiap, una salsa de pescado fermentado."
+  },
+  {
+   "n": 73,
+   "tema": "comida",
+   "ronda": "vf",
+   "p": "Comer zanahorias te da visión nocturna.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "La vitamina A cuida la vista, pero no permite ver en la oscuridad.",
+   "tp": "¿Verdadero o falso? Comer zanahorias te da visión nocturna.",
+   "tr": "¡Falso! Es un mito muy famoso.",
+   "td": "La vitamina A cuida la vista, pero no permite ver en la oscuridad."
+  },
+  {
+   "n": 74,
+   "tema": "comida",
+   "p": "¿Qué especia da el color amarillo al curry?",
+   "o": [
+    "Pimentón",
+    "Azafrán",
+    "Canela",
+    "Cúrcuma"
+   ],
+   "c": 3,
+   "img_q": "Turmeric powder",
+   "img_modo": "revela",
+   "d": "La cúrcuma es pariente del jengibre.",
+   "tp": "¿Qué especia da el color amarillo al curry? ¿Pimentón, azafrán, canela o cúrcuma?",
+   "tr": "¡La cúrcuma!",
+   "td": "La cúrcuma es pariente del jengibre."
+  },
+  {
+   "n": 75,
+   "tema": "perú",
+   "p": "En el ceviche, ¿qué ingrediente «cocina» el pescado crudo?",
+   "o": [
+    "Fuego",
+    "Jugo de limón",
+    "Sal",
+    "Aceite"
+   ],
+   "c": 1,
+   "d": "El ácido del limón cambia la textura del pescado, como si lo cocinara.",
+   "tp": "En el ceviche, ¿qué ingrediente cocina el pescado crudo? ¿Fuego, jugo de limón, sal o aceite?",
+   "tr": "¡El jugo de limón!",
+   "td": "El ácido del limón cambia la textura del pescado, como si lo cocinara."
+  },
+  {
+   "n": 76,
+   "tema": "latinoamérica",
+   "p": "¿Cuál es el plato más típico de Brasil, con frijoles negros y carne?",
+   "o": [
+    "Feijoada",
+    "Moqueca",
+    "Churrasco",
+    "Coxinha"
+   ],
+   "c": 0,
+   "img_q": "Feijoada",
+   "img_modo": "revela",
+   "d": "Se sirve con arroz, naranja y harina de yuca tostada.",
+   "tp": "¿Cuál es el plato más típico de Brasil, con frijoles negros y carne? ¿Feijoada, moqueca, churrasco o coxinha?",
+   "tr": "¡La feijoada!",
+   "td": "Se sirve con arroz, naranja y harina de yuca tostada."
+  },
+  {
+   "n": 77,
+   "tema": "comida",
+   "p": "¿De qué país es el queso feta?",
+   "o": [
+    "Turquía",
+    "Italia",
+    "Grecia",
+    "Chipre"
+   ],
+   "c": 2,
+   "img_q": "Feta cheese",
+   "img_modo": "revela",
+   "d": "Se hace con leche de oveja y a veces con un poco de cabra.",
+   "tp": "¿De qué país es el queso feta? ¿Turquía, Italia, Grecia o Chipre?",
+   "tr": "¡Grecia!",
+   "td": "Se hace con leche de oveja y a veces con un poco de cabra."
+  },
+  {
+   "n": 78,
+   "tema": "ciencia",
+   "p": "¿Qué seres vivos microscópicos transforman la leche en yogur?",
+   "o": [
+    "Bacterias",
+    "Virus",
+    "Gusanos",
+    "Algas"
+   ],
+   "c": 0,
+   "d": "Esas bacterias fermentan el azúcar de la leche y la hacen espesa y ácida.",
+   "tp": "¿Qué seres vivos microscópicos transforman la leche en yogur? ¿Bacterias, virus, gusanos o algas?",
+   "tr": "¡Las bacterias!",
+   "td": "Esas bacterias fermentan el azúcar de la leche y la hacen espesa y ácida."
+  },
+  {
+   "n": 79,
+   "tema": "ciencia",
+   "p": "¿Qué parte de la planta es lo que comemos del brócoli?",
+   "o": [
+    "Raíces",
+    "Hojas",
+    "Tallos",
+    "Flores"
+   ],
+   "c": 3,
+   "img_q": "Broccoli",
+   "img_modo": "revela",
+   "d": "Comemos sus flores antes de que se abran.",
+   "tp": "¿Qué parte de la planta es lo que comemos del brócoli? ¿Raíces, hojas, tallos o flores?",
+   "tr": "¡Las flores!",
+   "td": "Comemos sus flores antes de que se abran."
+  },
+  {
+   "n": 80,
+   "tema": "perú",
+   "p": "¿Qué plato andino se cocina bajo tierra con piedras calientes?",
+   "o": [
+    "Pachamanca",
+    "Juane",
+    "Cau cau",
+    "Tacacho"
+   ],
+   "c": 0,
+   "img_q": "Pachamanca",
+   "img_modo": "revela",
+   "d": "Lleva carnes, papas y habas, y se tapa con tierra para cocinar.",
+   "tp": "¿Qué plato andino se cocina bajo tierra con piedras calientes? ¿Pachamanca, juane, cau cau o tacacho?",
+   "tr": "¡La pachamanca!",
+   "td": "Lleva carnes, papas y habas, y se tapa con tierra para cocinar."
+  },
+  {
+   "n": 81,
+   "tema": "ciencia",
+   "p": "¿Cómo se llama la escala que mide lo picante de un ají?",
+   "o": [
+    "Escala Richter",
+    "Escala Scoville",
+    "Escala Kelvin",
+    "Escala Celsius"
+   ],
+   "c": 1,
+   "d": "Lleva el nombre de Wilbur Scoville, que la creó en 1912.",
+   "tp": "¿Cómo se llama la escala que mide lo picante de un ají? ¿Escala Richter, escala Scoville, escala Kelvin o escala Celsius?",
+   "tr": "¡La escala Scoville!",
+   "td": "Lleva el nombre de Wilbur Scoville, que la creó en mil novecientos doce."
+  },
+  {
+   "n": 82,
+   "tema": "comida",
+   "p": "¿Cuál es la fruta más grande del mundo que crece en un árbol?",
+   "o": [
+    "Sandía",
+    "Papaya",
+    "Yaca",
+    "Coco"
+   ],
+   "c": 2,
+   "img_q": "Jackfruit",
+   "img_modo": "revela",
+   "d": "Una yaca puede pesar más de 30 kilos.",
+   "tp": "¿Cuál es la fruta más grande del mundo que crece en un árbol? ¿Sandía, papaya, yaca o coco?",
+   "tr": "¡La yaca!",
+   "td": "Una yaca puede pesar más de treinta kilos."
+  },
+  {
+   "n": 83,
+   "tema": "comida",
+   "p": "¿De qué país es el guiso goulash, con carne y pimentón?",
+   "o": [
+    "Polonia",
+    "Hungría",
+    "Rumanía",
+    "Austria"
+   ],
+   "c": 1,
+   "d": "Es un guiso de pastores húngaros, con mucho pimentón.",
+   "tp": "¿De qué país es el guiso goulash, con carne y pimentón? ¿Polonia, Hungría, Rumanía o Austria?",
+   "tr": "¡Hungría!",
+   "td": "Es un guiso de pastores húngaros, con mucho pimentón."
+  },
+  {
+   "n": 84,
+   "tema": "latinoamérica",
+   "p": "En Colombia, ¿cómo se llama el aguaymanto peruano?",
+   "o": [
+    "Granadilla",
+    "Capulí",
+    "Uchuva",
+    "Maracuyá"
+   ],
+   "c": 2,
+   "img_q": "Physalis peruviana",
+   "img_modo": "revela",
+   "d": "Se llama aguaymanto en Perú, uchuva en Colombia y physalis en Europa.",
+   "tp": "En Colombia, ¿cómo se llama el aguaymanto peruano? ¿Granadilla, capulí, uchuva o maracuyá?",
+   "tr": "¡Uchuva!",
+   "td": "Se llama aguaymanto en Perú, uchuva en Colombia y physalis en Europa."
+  },
+  {
+   "n": 85,
+   "tema": "comida",
+   "p": "¿Qué país africano produce más cacao del mundo?",
+   "o": [
+    "Costa de Marfil",
+    "Ghana",
+    "Nigeria",
+    "Kenia"
+   ],
+   "c": 0,
+   "img_q": "Cocoa pod",
+   "img_modo": "revela",
+   "d": "Más de la mitad del cacao mundial sale de África occidental.",
+   "tp": "¿Qué país africano produce más cacao del mundo? ¿Costa de Marfil, Ghana, Nigeria o Kenia?",
+   "tr": "¡Costa de Marfil!",
+   "td": "Más de la mitad del cacao mundial sale de África occidental."
+  },
+  {
+   "n": 86,
+   "tema": "ciencia",
+   "p": "¿Qué sustancia hace que el ají pique?",
+   "o": [
+    "Cafeína",
+    "Gluten",
+    "Lactosa",
+    "Capsaicina"
+   ],
+   "c": 3,
+   "img_q": "Chili peppers",
+   "img_modo": "revela",
+   "d": "Las aves no sienten el picante, así que dispersan sus semillas.",
+   "tp": "¿Qué sustancia hace que el ají pique? ¿Cafeína, gluten, lactosa o capsaicina?",
+   "tr": "¡La capsaicina!",
+   "td": "Las aves no sienten el picante, así que dispersan sus semillas."
+  },
+  {
+   "n": 87,
+   "tema": "ciencia",
+   "p": "¿Cómo se llama el quinto sabor básico, junto al dulce, salado, ácido y amargo?",
+   "o": [
+    "Picante",
+    "Astringente",
+    "Graso",
+    "Umami"
+   ],
+   "c": 3,
+   "d": "Lo descubrió el científico japonés Kikunae Ikeda en 1908.",
+   "tp": "¿Cómo se llama el quinto sabor básico, junto al dulce, salado, ácido y amargo? ¿Picante, astringente, graso o umami?",
+   "tr": "¡El umami!",
+   "td": "Lo descubrió el científico japonés Kikunae Ikeda en mil novecientos ocho."
+  },
+  {
+   "n": 88,
+   "tema": "latinoamérica",
+   "p": "¿De qué país es la bandeja paisa, con frijoles, arroz y chicharrón?",
+   "o": [
+    "Venezuela",
+    "Ecuador",
+    "Panamá",
+    "Colombia"
+   ],
+   "c": 3,
+   "img_q": "Bandeja paisa",
+   "img_modo": "revela",
+   "d": "Es el plato más típico de la región de Antioquia.",
+   "tp": "¿De qué país es la bandeja paisa, con frijoles, arroz y chicharrón? ¿Venezuela, Ecuador, Panamá o Colombia?",
+   "tr": "¡Colombia!",
+   "td": "Es el plato más típico de la región de Antioquia."
+  },
+  {
+   "n": 89,
+   "tema": "comida",
+   "p": "¿Qué hongo carísimo crece bajo tierra y se busca con perros entrenados?",
+   "o": [
+    "Níscalo",
+    "Champiñón",
+    "Trufa",
+    "Seta"
+   ],
+   "c": 2,
+   "img_q": "Black truffle",
+   "img_modo": "revela",
+   "d": "Las trufas son de los alimentos más caros del mundo.",
+   "tp": "¿Qué hongo carísimo crece bajo tierra y se busca con perros entrenados? ¿Níscalo, champiñón, trufa o seta?",
+   "tr": "¡La trufa!",
+   "td": "Las trufas son de los alimentos más caros del mundo."
+  },
+  {
+   "n": 90,
+   "tema": "historia",
+   "p": "¿Qué país europeo llevó la tempura a Japón en el siglo XVI?",
+   "o": [
+    "Holanda",
+    "España",
+    "Portugal",
+    "Francia"
+   ],
+   "c": 2,
+   "img_q": "Tempura",
+   "img_modo": "revela",
+   "d": "Los comerciantes portugueses enseñaron la fritura en masa ligera.",
+   "tp": "¿Qué país europeo llevó la tempura a Japón en el siglo dieciséis? ¿Holanda, España, Portugal o Francia?",
+   "tr": "¡Portugal!",
+   "td": "Los comerciantes portugueses enseñaron la fritura en masa ligera."
+  },
+  {
+   "n": 91,
+   "tema": "comida",
+   "p": "¿De qué árbol se sacaba originalmente la goma de mascar o chicle?",
+   "o": [
+    "Caucho",
+    "Chicozapote",
+    "Pino",
+    "Ceiba"
+   ],
+   "c": 1,
+   "d": "Los mayas ya masticaban la savia de este árbol.",
+   "tp": "¿De qué árbol se sacaba originalmente la goma de mascar o chicle? ¿Caucho, chicozapote, pino o ceiba?",
+   "tr": "¡El chicozapote!",
+   "td": "Los mayas ya masticaban la savia de este árbol."
+  },
+  {
+   "n": 92,
+   "tema": "comida",
+   "p": "¿Con qué cereal se hace el injera, el pan esponjoso de Etiopía?",
+   "o": [
+    "Teff",
+    "Trigo",
+    "Maíz",
+    "Avena"
+   ],
+   "c": 0,
+   "img_q": "Injera",
+   "img_modo": "revela",
+   "d": "El teff es uno de los granos más pequeños del mundo.",
+   "tp": "¿Con qué cereal se hace el injera, el pan esponjoso de Etiopía? ¿Teff, trigo, maíz o avena?",
+   "tr": "¡El teff!",
+   "td": "El teff es uno de los granos más pequeños del mundo."
+  },
+  {
+   "n": 93,
+   "tema": "perú",
+   "p": "¿Cómo se llama en español la kiwicha, el grano andino?",
+   "o": [
+    "Mijo",
+    "Sorgo",
+    "Amaranto",
+    "Centeno"
+   ],
+   "c": 2,
+   "img_q": "Amaranth grain",
+   "img_modo": "revela",
+   "d": "Los incas ya cultivaban kiwicha, rica en proteínas.",
+   "tp": "¿Cómo se llama en español la kiwicha, el grano andino? ¿Mijo, sorgo, amaranto o centeno?",
+   "tr": "¡Amaranto!",
+   "td": "Los incas ya cultivaban kiwicha, rica en proteínas."
+  },
+  {
+   "n": 94,
+   "tema": "comida",
+   "p": "¿En qué país se creó el primer chocolate con leche?",
+   "o": [
+    "Bélgica",
+    "Suiza",
+    "Inglaterra",
+    "Francia"
+   ],
+   "c": 1,
+   "d": "El suizo Daniel Peter lo creó hacia 1875 mezclando cacao con leche.",
+   "tp": "¿En qué país se creó el primer chocolate con leche? ¿Bélgica, Suiza, Inglaterra o Francia?",
+   "tr": "¡Suiza!",
+   "td": "El suizo Daniel Peter lo creó hacia mil ochocientos setenta y cinco mezclando cacao con leche."
+  },
+  {
+   "n": 95,
+   "tema": "comida",
+   "p": "¿Qué isla africana produce más vainilla en el mundo?",
+   "o": [
+    "Zanzíbar",
+    "Madagascar",
+    "Mauricio",
+    "Seychelles"
+   ],
+   "c": 1,
+   "d": "Madagascar produce la mayor parte de la vainilla natural del planeta.",
+   "tp": "¿Qué isla africana produce más vainilla en el mundo? ¿Zanzíbar, Madagascar, Mauricio o Seychelles?",
+   "tr": "¡Madagascar!",
+   "td": "Madagascar produce la mayor parte de la vainilla natural del planeta."
+  },
+  {
+   "n": 96,
+   "tema": "historia",
+   "p": "¿Qué buscaba Colón al intentar llegar a las Indias por mar?",
+   "o": [
+    "Té",
+    "Café",
+    "Especias",
+    "Chocolate"
+   ],
+   "c": 2,
+   "d": "La pimienta, el clavo y la canela valían muchísimo en Europa.",
+   "tp": "¿Qué buscaba Colón al intentar llegar a las Indias por mar? ¿Té, café, especias o chocolate?",
+   "tr": "¡Especias!",
+   "td": "La pimienta, el clavo y la canela valían muchísimo en Europa."
+  },
+  {
+   "n": 97,
+   "tema": "perú",
+   "p": "¿Cómo se llama la papa deshidratada con el hielo y el sol de los Andes?",
+   "o": [
+    "Chuño",
+    "Camote",
+    "Oca",
+    "Mashua"
+   ],
+   "c": 0,
+   "img_q": "Chuño",
+   "img_modo": "revela",
+   "d": "Se conserva por años: los incas guardaban así sus cosechas.",
+   "tp": "¿Cómo se llama la papa deshidratada con el hielo y el sol de los Andes? ¿Chuño, camote, oca o mashua?",
+   "tr": "¡El chuño!",
+   "td": "Se conserva por años: los incas guardaban así sus cosechas."
+  },
+  {
+   "n": 98,
+   "tema": "latinoamérica",
+   "p": "¿Cuáles son las «tres hermanas» que se siembran juntas en América?",
+   "o": [
+    "Papa, trigo y arroz",
+    "Café, cacao y té",
+    "Ají, tomate y cebolla",
+    "Maíz, frijol y calabaza"
+   ],
+   "c": 3,
+   "d": "Las tres plantas se ayudan entre sí al crecer juntas.",
+   "tp": "¿Cuáles son las tres hermanas que se siembran juntas en América? ¿Papa, trigo y arroz; café, cacao y té; ají, tomate y cebolla; o maíz, frijol y calabaza?",
+   "tr": "¡Maíz, frijol y calabaza!",
+   "td": "Las tres plantas se ayudan entre sí al crecer juntas."
+  },
+  {
+   "n": 99,
+   "tema": "comida",
+   "p": "¿De qué ciudad italiana es el panettone, el pan dulce de Navidad?",
+   "o": [
+    "Roma",
+    "Nápoles",
+    "Milán",
+    "Turín"
+   ],
+   "c": 2,
+   "img_q": "Panettone",
+   "img_modo": "revela",
+   "d": "Lleva pasas y frutas confitadas, y es muy querido también en el Perú.",
+   "tp": "¿De qué ciudad italiana es el panettone, el pan dulce de Navidad? ¿Roma, Nápoles, Milán o Turín?",
+   "tr": "¡Milán!",
+   "td": "Lleva pasas y frutas confitadas, y es muy querido también en el Perú."
+  },
+  {
+   "n": 100,
+   "tema": "ciencia",
+   "p": "¿Cuál de estas frutas NO es pariente de la rosa?",
+   "o": [
+    "Manzana",
+    "Cereza",
+    "Plátano",
+    "Frambuesa"
+   ],
+   "c": 2,
+   "d": "La manzana, la cereza y la frambuesa son de la familia de las rosas.",
+   "tp": "¿Cuál de estas frutas no es pariente de la rosa? ¿Manzana, cereza, plátano o frambuesa?",
+   "tr": "¡El plátano!",
+   "td": "La manzana, la cereza y la frambuesa son de la familia de las rosas."
+  }
+ ],
+ "extra_tts": {
+  "an_tema": [
+   "anunciador",
+   "Hoy jugamos: ¡sabores del mundo! Comidas, frutas y cocina."
+  ],
+  "pr_intro": [
+   "presentador",
+   "¡Hola, familia! Hoy les traigo cien preguntas de comida para dar la vuelta al mundo con el estómago. ¿Listos para el reto?"
+  ],
+  "co_intro": [
+   "copresentadora",
+   "Habrá frutas raras, platos famosos y hasta una ronda relámpago. Les aviso: no jueguen con hambre, ¡que se les antoja todo!"
+  ],
+  "co_fama": [
+   "copresentadora",
+   "Un aplauso para los mejores jugadores del episodio anterior. ¡Hoy pueden quedarse con el primer puesto!"
+  ],
+  "charla05_pr": [
+   "presentador",
+   "¡Cinco preguntas y ya tengo hambre! Mis circuitos piden una sandía."
+  ],
+  "charla05_co": [
+   "copresentadora",
+   "Los robots no comen, MAX. Pero miren el ranking en el celular, ¡hay mucha pelea!"
+  ],
+  "charla10_pr": [
+   "presentador",
+   "El limón es ácido y mis chistes son dulces. ¡Qué equilibrio!"
+  ],
+  "charla10_co": [
+   "copresentadora",
+   "Tus chistes tienen más sal que azúcar. Ahora vienen las imágenes misteriosas, ¡ojos bien abiertos!"
+  ],
+  "charla15_pr": [
+   "presentador",
+   "¡Esas fotos pixeladas me dieron más hambre que ver un menú borroso!"
+  ],
+  "charla15_co": [
+   "copresentadora",
+   "Se aclararon justo a tiempo, como una buena salsa. ¡Sigan jugando!"
+  ],
+  "charla20_pr": [
+   "presentador",
+   "El maíz, el trigo, el arroz... ¡ya casi armo un desayuno completo!"
+  ],
+  "charla20_co": [
+   "copresentadora",
+   "Pues guarda la servilleta, que ahora viene verdadero o falso. ¡No se dejen engañar!"
+  ],
+  "charla25_pr": [
+   "presentador",
+   "¡Los plátanos no crecen en árboles! Se me cayó el mito de la cocina."
+  ],
+  "charla25_co": [
+   "copresentadora",
+   "Y los maníes crecen bajo tierra. ¡Revisen su puesto en el ranking!"
+  ],
+  "charla30_pr": [
+   "presentador",
+   "Jarabe de arce, pan naan y arepas. ¡Qué mesa más variada!"
+  ],
+  "charla30_co": [
+   "copresentadora",
+   "Atención, que viene la ronda relámpago. ¡Cinco segundos por pregunta, sin pensarlo mucho!"
+  ],
+  "charla35_pr": [
+   "presentador",
+   "¡Uf! Fue tan rápida que casi se me quema el tostador."
+  ],
+  "charla35_co": [
+   "copresentadora",
+   "Respiren hondo, que seguimos con más sabores. ¡Aún hay muchos puntos en juego!"
+  ],
+  "charla40_pr": [
+   "presentador",
+   "Quinua, picarones y café. ¡Ya tengo desayuno, almuerzo y postre!"
+  ],
+  "charla40_co": [
+   "copresentadora",
+   "Y todo sin comer nada. ¿Cómo va tu puntaje, familia?"
+  ],
+  "charla45_pr": [
+   "presentador",
+   "El durián huele tan fuerte que casi lo percibo desde aquí."
+  ],
+  "charla45_co": [
+   "copresentadora",
+   "Pero si no tienes nariz, MAX. Sigamos con más sabores."
+  ],
+  "charla50_pr": [
+   "presentador",
+   "¡Ya vamos por la mitad del menú! Falta el plato fuerte."
+  ],
+  "charla50_co": [
+   "copresentadora",
+   "Y el postre, MAX. Echen un vistazo al ranking del celular, ¡hay empates!"
+  ],
+  "charla55_pr": [
+   "presentador",
+   "Fideos instantáneos en cinco minutos. Los inventores sí que cocinan rápido."
+  ],
+  "charla55_co": [
+   "copresentadora",
+   "Atentos, que vienen tres imágenes misteriosas más. ¡Ojo con la foto!"
+  ],
+  "charla60_pr": [
+   "presentador",
+   "Una fruta con escamas, fideos y un cruasán. ¡Qué menú tan misterioso!"
+  ],
+  "charla60_co": [
+   "copresentadora",
+   "Todo se aclaró al final, como siempre. Seguimos con más cocina."
+  ],
+  "charla65_pr": [
+   "presentador",
+   "El ajiaco, el choclo y la bandeja paisa. ¡Latinoamérica sabe rico!"
+  ],
+  "charla65_co": [
+   "copresentadora",
+   "Y el Perú tiene mucho que decir también. ¡Sigan jugando!"
+  ],
+  "charla70_pr": [
+   "presentador",
+   "Más de cuatro mil papas en el Perú. ¡Yo solo conocía la frita!"
+  ],
+  "charla70_co": [
+   "copresentadora",
+   "Atención, que ahora regresa verdadero o falso. ¡Cuidado con los mitos de la cocina!"
+  ],
+  "charla75_pr": [
+   "presentador",
+   "¡Las zanahorias no dan visión nocturna! Ya no sé qué creer."
+  ],
+  "charla75_co": [
+   "copresentadora",
+   "Cree en el ranking de tu celular, MAX. ¡Ahí no hay mitos!"
+  ],
+  "charla80_pr": [
+   "presentador",
+   "Ceviche con limón, feijoada y pachamanca. ¡Menú de campeones!"
+  ],
+  "charla80_co": [
+   "copresentadora",
+   "Nos queda el último tramo, el más picante. ¡Revisen el ranking!"
+  ],
+  "charla85_pr": [
+   "presentador",
+   "La yaca pesa más que mi caja de herramientas. ¡Qué fruta tan enorme!"
+  ],
+  "charla85_co": [
+   "copresentadora",
+   "Pues atentos, que las preguntas se ponen más difíciles."
+  ],
+  "charla90_pr": [
+   "presentador",
+   "La trufa se busca con perros. ¡Yo me ofrezco para el puesto!"
+  ],
+  "charla90_co": [
+   "copresentadora",
+   "Tú buscas chistes, MAX. Aprender jugando es el mejor truco de la tele."
+  ],
+  "charla95_pr": [
+   "presentador",
+   "Colón buscó especias y encontró un continente. ¡Qué buen error!"
+  ],
+  "charla95_co": [
+   "copresentadora",
+   "Solo faltan cinco preguntas, y la última es muy sorprendente. ¡Prepárense!"
+  ],
+  "pr_cierre": [
+   "presentador",
+   "¡Gracias por jugar, familia! Cuéntennos en los comentarios cuántos puntos hicieron hoy y desafíen a los suyos. ¡Hasta la próxima!"
+  ]
+ }
+}
