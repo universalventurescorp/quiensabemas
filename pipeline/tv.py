@@ -225,6 +225,50 @@ class Pantallas:
         d.text((cx, 670), f'de {total}', font=font('Medium', 56), fill=C['dimtxt'], anchor='mm')
         return img
 
+    _fotos = {}
+
+    def _foto_opcion(s, path, w, h, apagada):
+        k = (path, w, h, apagada)
+        if k not in s._fotos:
+            if len(s._fotos) > 64: s._fotos.clear()
+            src = Image.open(os.path.join(s.raiz, path)).convert('RGB')
+            if path.endswith('.png'):   # bandera: entera, sobre blanco
+                src.thumbnail((w - 24, h - 24), Image.LANCZOS); t = Image.new('RGB', (w, h), (255, 255, 255))
+                t.paste(src, ((w - src.width) // 2, (h - src.height) // 2)); src = t
+            else:
+                src = ImageOps.fit(src, (w, h), Image.LANCZOS, centering=(0.5, 0.38))
+            if apagada: src = Image.blend(src, Image.new('RGB', (w, h), C['ink']), 0.68)
+            m = Image.new('L', (w, h), 0); ImageDraw.Draw(m).rounded_rectangle((0, 0, w - 1, h - 1), 18, fill=255)
+            s._fotos[k] = (src, m)
+        return s._fotos[k]
+
+    def _tarjetas(s, img, q, modo, box):
+        """Alternativas como tarjetas: foto grande a la izquierda, nombre a la derecha, letra sobre la foto."""
+        x0, y0, x1, y1 = box; g = 26; n = len(q['o']); cols = 2; rows = -(-n // cols)
+        bw = (x1 - x0 - g) / cols; bh = (y1 - y0 - g * (rows - 1)) / rows
+        if n == 2: bh = min(bh * 2 + g, 420); y0 = y0 + (y1 - y0 - bh) / 2
+        for i, txt in enumerate(q['o']):
+            col, L = OPC[i]; x = x0 + (i % cols) * (bw + g); y = y0 + (i // cols) * (bh + g)
+            ok = i == q['c']; apag = modo == 'revela' and not ok
+            if modo == 'revela' and ok:
+                img = caja(img, (x - 9, y - 9, x + bw + 9, y + bh + 9), 30, col, outline=C['white'], width=8)
+            else:
+                img = caja(img, (x, y, x + bw, y + bh), 26, C['dim'] if apag else col, sombra=not apag)
+            ph = int(bh - 24); pw = int(min(bw * 0.52, ph * 1.4))
+            src, m = s._foto_opcion(q['o_img'][i], pw, ph, apag)
+            img.paste(src, (int(x + 12), int(y + 12)), m)
+            d = ImageDraw.Draw(img); r = 30; cx, cy = x + 12 + r + 10, y + 12 + r + 10
+            d.ellipse((cx - r - 4, cy - r - 4, cx + r + 4, cy + r + 4), fill=C['white'] if not apag else (96, 88, 140))
+            d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=C['dim'] if apag else col)
+            d.text((cx, cy), L, font=font('Bold', 36), fill=C['dimtxt'] if apag else C['white'], anchor='mm')
+            tx = x + 12 + pw + 24; tw = x + bw - tx - (80 if ok and modo == 'revela' else 20)
+            f, ls, sz = fit(d, txt, 'Bold', tw, bh - 40, 56, 26)
+            lines(d, ls, f, sz, 0, y + bh / 2, C['dimtxt'] if apag else C['white'], anchor='lm', x=tx)
+            if modo == 'revela' and ok:
+                kx, ky = x + bw - 48, y + 48; d.ellipse((kx - 34, ky - 34, kx + 34, ky + 34), fill=C['white'])
+                d.line([(kx - 17, ky + 1), (kx - 5, ky + 15), (kx + 18, ky - 14)], fill=col, width=10, joint='curve')
+        return img
+
     def _opciones(s, img, q, modo, box, cols):
         x0, y0, x1, y1 = box; g = 26
         rows = -(-len(q['o']) // cols); bw = (x1 - x0 - g * (cols - 1)) / cols; bh = (y1 - y0 - g * (rows - 1)) / rows
@@ -254,6 +298,10 @@ class Pantallas:
             p = os.path.join(s.raiz, q['img'])
             img = foto(img, p, CAJA_PREG, q.get('img_fondo'), s.credito(p), pix)
             img = s._opciones(img, q, modo, (DOCK_X + 820, 270, W - 50, 790), 1)
+        elif q.get('o_img'):   # PRUEBA: alternativas con foto real (tarjetas 2×2)
+            f, ls, sz = fit(d, q['p'], 'Bold', W - DOCK_X - 440, 150, 60)   # sin tocar el QR de la esquina
+            lines(d, ls, f, sz, DOCK_X + (W - DOCK_X) / 2 - 20, 215, C['white'])
+            img = s._tarjetas(img, q, modo, (DOCK_X + 10, 300, W - 50, 872))
         else:
             f, ls, sz = fit(d, q['p'], 'Bold', W - DOCK_X - 110, 250, 70)
             lines(d, ls, f, sz, DOCK_X + (W - DOCK_X) / 2 - 20, 300, C['white'])

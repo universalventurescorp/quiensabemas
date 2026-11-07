@@ -153,6 +153,64 @@ def componer(ep):
     return lienzo.convert('RGB')
 
 
+# ------------------------------------------------------------ PRUEBA: miniatura collage (6 fotos)
+def fotos_collage(ep, n=6):
+    """Las fotos de las respuestas correctas (alternativas con foto): primero Pixabay (más vistosas), luego por parecido."""
+    cred_f = os.path.join(RAIZ, 'trabajo', 'img', 'creditos.json')
+    cred = json.load(open(cred_f)) if os.path.exists(cred_f) else {}
+    cand = []
+    for q in ep['preguntas']:
+        im = q.get('o_img')
+        if not im: continue
+        p = im[q['c']]
+        if p.endswith('.png') or not os.path.exists(os.path.join(RAIZ, p)): continue
+        px = cred.get(os.path.basename(p), {}).get('fuente') == 'Pixabay'
+        cand.append((px, (q.get('o_score') or [0] * 4)[q['c']], p))
+    cand.sort(reverse=True)
+    return [p for _, _, p in cand[:n]]
+
+
+def tema_corto(ep):
+    t = ep.get('titulo_youtube') or ''
+    t = t.replace('PRUEBA SUBTÍTULOS · ', '').replace('PRUEBA MÚSICA ALTA · ', '')
+    if t.startswith('¿') and '?' in t: return t[:t.index('?') + 1].upper()
+    return ('¿CUÁNTO SABES DE ' + ep['titulo'].split(':')[0] + '?').upper()
+
+
+def componer_collage(ep):
+    fotos = fotos_collage(ep)
+    if len(fotos) < 6: return None
+    total = ep.get('total_anunciado') or len(ep['preguntas'])
+    lienzo = Image.new('RGBA', (W, H), TINTA + (255,))
+    # collage 3×2 (sin huecos, con línea blanca fina)
+    y0, y1 = 118, 590; cw, ch = W // 3, (y1 - y0) // 2
+    for i, p in enumerate(fotos[:6]):
+        im = ImageOps.fit(Image.open(os.path.join(RAIZ, p)).convert('RGB'), (cw, ch), Image.LANCZOS, centering=(0.5, 0.4))
+        im = im.point(lambda v: min(255, int(v * 1.08)))
+        lienzo.paste(im, ((i % 3) * cw, y0 + (i // 3) * ch))
+    d = ImageDraw.Draw(lienzo)
+    for k in (1, 2): d.line([(k * cw, y0), (k * cw, y1)], fill=BLANCO, width=5)
+    d.line([(0, y0 + ch), (W, y0 + ch)], fill=BLANCO, width=5)
+    # franja de arriba: el tema en letras enormes
+    d.rectangle((0, 0, W, y0), fill=ROJO); d.line([(0, y0), (W, y0)], fill=BLANCO, width=6)
+    capa = Image.new('RGBA', (W, H), (0, 0, 0, 0)); tt = tema_corto(ep); sz = 84
+    while sz > 40 and ImageDraw.Draw(capa).textlength(tt, font=tv.font('Bold', sz)) > W - 60: sz -= 4
+    texto(capa, (W / 2, y0 / 2 + 4), tt, tv.font('Bold', sz), BLANCO, borde=7, anchor='mm')
+    # franja de abajo: 100 PREGUNTAS
+    d.rectangle((0, y1, W, H), fill=TINTA); d.line([(0, y1), (W, y1)], fill=BLANCO, width=6)
+    num = str(total); fN = tv.font('Bold', 118); nw = ImageDraw.Draw(capa).textlength(num, font=fN)
+    texto(capa, (40, H - 14), num, fN, ORO, borde=8)
+    texto(capa, (40 + nw + 18, H - 30), 'PREGUNTAS', tv.font('Bold', 64), BLANCO, borde=6)
+    lienzo.alpha_composite(capa)
+    # MAX y NOVA chiquitos en la esquina de abajo a la derecha (la marca)
+    max_, (mx, my) = busto('presentador', 'celebra2', 100)
+    nova, (nx, ny) = busto('copresentadora', 'aplaude', 84)
+    lienzo.alpha_composite(sombra(nova, 14, 150, 0), (int(1205 - nx), int(585 - ny)))
+    lienzo.alpha_composite(sombra(max_, 14, 150, 0), (int(1060 - mx), int(600 - my)))
+    d = ImageDraw.Draw(lienzo); d.rectangle((0, 0, W - 1, H - 1), outline=ORO, width=8)
+    return lienzo.convert('RGB')
+
+
 def prueba_feed(mini, out):
     """Cómo se ve en el feed del celular (168×94) y en la página de inicio de escritorio (360×202)."""
     can = Image.new('RGB', (620, 260), (15, 15, 15)); d = ImageDraw.Draw(can)
@@ -166,7 +224,7 @@ def prueba_feed(mini, out):
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith('--')]
     ep = json.load(open(args[0], encoding='utf-8'))
-    mini = componer(ep)
+    mini = (componer_collage(ep) if os.environ.get('QSM_MINI_COLLAGE') else None) or componer(ep)
     mini.save(args[1], quality=92)
     if '--feed' in sys.argv:
         prueba_feed(mini, sys.argv[sys.argv.index('--feed') + 1])

@@ -40,7 +40,7 @@ def descripcion(ep, sync, creditos):
     ]
     partes += [f'{hms(t)} {c}' for t, c in sync.get('capitulos', [])]
     if creditos:
-        partes += ['', 'Créditos de las fotos (Wikimedia Commons):']
+        partes += ['', 'Créditos de las fotos:']
         for f, c in sorted(creditos.items()):
             autor = (c.get('autor') or 'Autor desconocido').split('\n')[0][:80]
             partes.append(f"• {autor} — {c.get('licencia', '')} — {c.get('pagina', '')}")
