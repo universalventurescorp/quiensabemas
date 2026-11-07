@@ -45,7 +45,7 @@ jobs:
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg librsvg2-bin
           pip install -q numpy pillow scipy reportlab google-api-python-client google-auth
-          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -q torch torchvision --index-url https://download.pytorch.org/whl/cpu
           pip install -q open_clip_torch
       - name: Fotos reales para las alternativas (Pixabay / Wikimedia, verificadas con CLIP)
         if: inputs.fotos != ''
