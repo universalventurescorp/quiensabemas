@@ -1,0 +1,130 @@
+{
+ "pr_pulla__0": {
+  "voz": "presentador",
+  "texto": "¡NOVA, eso estaba facilito!"
+ },
+ "pr_pulla__1": {
+  "voz": "presentador",
+  "texto": "Uno más para mí, NOVA. ¿Quieres que te preste mis circuitos?"
+ },
+ "pr_pulla__2": {
+  "voz": "presentador",
+  "texto": "¡Ja! Te lo dije, NOVA."
+ },
+ "pr_pulla__3": {
+  "voz": "presentador",
+  "texto": "NOVA, ¿estabas mirando las estrellas otra vez?"
+ },
+ "pr_pulla__4": {
+  "voz": "presentador",
+  "texto": "Punto para MAX. Tranquila, NOVA, todavía queda partida."
+ },
+ "pr_pulla__5": {
+  "voz": "presentador",
+  "texto": "¡Así se hace! NOVA, toma nota."
+ },
+ "co_pulla__0": {
+  "voz": "copresentadora",
+  "texto": "MAX, ¿te quedaste sin batería?"
+ },
+ "co_pulla__1": {
+  "voz": "copresentadora",
+  "texto": "¡Ay, MAX! Esa la sabía hasta mi tostadora."
+ },
+ "co_pulla__2": {
+  "voz": "copresentadora",
+  "texto": "Punto para mí. MAX, respira hondo."
+ },
+ "co_pulla__3": {
+  "voz": "copresentadora",
+  "texto": "MAX, tu foco se apagó otra vez."
+ },
+ "co_pulla__4": {
+  "voz": "copresentadora",
+  "texto": "¡Tranquilo, MAX! Todos tenemos un mal día… tú tienes varios."
+ },
+ "co_pulla__5": {
+  "voz": "copresentadora",
+  "texto": "Uno más para NOVA. ¿Lo anotas tú, MAX, o lo anoto yo?"
+ },
+ "pr_excusa__0": {
+  "voz": "presentador",
+  "texto": "Me distraje mirando el reloj…"
+ },
+ "pr_excusa__1": {
+  "voz": "presentador",
+  "texto": "¡Esa pregunta estaba mal hecha!"
+ },
+ "pr_excusa__2": {
+  "voz": "presentador",
+  "texto": "Lo hice a propósito, para darle ventaja."
+ },
+ "pr_excusa__3": {
+  "voz": "presentador",
+  "texto": "Se me cruzaron los cables, nada más."
+ },
+ "co_excusa__0": {
+  "voz": "copresentadora",
+  "texto": "Fue un error de cálculo… mínimo."
+ },
+ "co_excusa__1": {
+  "voz": "copresentadora",
+  "texto": "¡Estaba probando si me prestaban atención!"
+ },
+ "co_excusa__2": {
+  "voz": "copresentadora",
+  "texto": "Esa no cuenta, me hiciste reír."
+ },
+ "co_excusa__3": {
+  "voz": "copresentadora",
+  "texto": "Mmm… mejor sigamos."
+ },
+ "pr_ambos_mal__0": {
+  "voz": "presentador",
+  "texto": "Bueno… mejor no lo comentamos."
+ },
+ "pr_ambos_mal__1": {
+  "voz": "presentador",
+  "texto": "Esto no sale de aquí, ¿de acuerdo?"
+ },
+ "pr_ambos_mal__2": {
+  "voz": "presentador",
+  "texto": "Ustedes en casa, ¿la sabían? No nos digan."
+ },
+ "co_ambos_mal__0": {
+  "voz": "copresentadora",
+  "texto": "Ninguno de los dos… qué vergüenza."
+ },
+ "co_ambos_mal__1": {
+  "voz": "copresentadora",
+  "texto": "Hagamos como que esto no pasó."
+ },
+ "co_ambos_mal__2": {
+  "voz": "copresentadora",
+  "texto": "Familia, ustedes nos ganaron esta."
+ },
+ "pr_ambos_bien__0": {
+  "voz": "presentador",
+  "texto": "¡Empate de genios!"
+ },
+ "pr_ambos_bien__1": {
+  "voz": "presentador",
+  "texto": "Esta la sabíamos todos, ¿o no?"
+ },
+ "pr_ambos_bien__2": {
+  "voz": "presentador",
+  "texto": "Dos cerebros brillantes, NOVA."
+ },
+ "co_ambos_bien__0": {
+  "voz": "copresentadora",
+  "texto": "¡Chócala, MAX!"
+ },
+ "co_ambos_bien__1": {
+  "voz": "copresentadora",
+  "texto": "Esta vez estamos de acuerdo, MAX."
+ },
+ "co_ambos_bien__2": {
+  "voz": "copresentadora",
+  "texto": "Los dos, ¡bien! Pero esto no se acaba aquí."
+ }
+}
