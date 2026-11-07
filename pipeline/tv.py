@@ -37,6 +37,78 @@ ANUNCIO = {'misteriosa': ('an_07_misteriosa', '¡Imagen misteriosa!', 'La foto s
            'vf': ('an_08_vf', '¡Verdadero o falso!', 'Solo dos opciones… ¿cuál será?'),
            'relampago': ('an_05_relampago', '¡Ronda relámpago!', 'Cinco preguntas · cinco segundos · ¡sin pausa!')}
 
+# ---------------------------------------------------------------- PRUEBA: movimiento (entradas y revelación)
+def _sale_rebote(p):
+    c1 = 1.70158; c3 = c1 + 1
+    return 1 + c3 * (p - 1) ** 3 + c1 * (p - 1) ** 2
+
+
+def _mascara(a, b, box):
+    """Dónde la región de a difiere de b (la tarjeta o el texto, sin el fondo)."""
+    from PIL import ImageChops
+    m = ImageChops.difference(a.crop(box), b.crop(box)).convert('L').point(lambda v: 255 if v > 10 else 0)
+    return m.filter(ImageFilter.MaxFilter(5)).filter(ImageFilter.GaussianBlur(1.5))
+
+
+def _pegar(fr, full, vacio, box, escala, alfa, dy=0):
+    reg = full.crop(box); m = _mascara(full, vacio, box)
+    if alfa < 1: m = m.point(lambda v: int(v * alfa))
+    if abs(escala - 1) > 0.005:
+        w, h = max(1, int(reg.width * escala)), max(1, int(reg.height * escala))
+        reg = reg.resize((w, h), Image.BILINEAR); m = m.resize((w, h), Image.BILINEAR)
+    cx, cy = (box[0] + box[2]) / 2, (box[1] + box[3]) / 2 + dy
+    fr.paste(reg, (int(cx - reg.width / 2), int(cy - reg.height / 2)), m)
+
+
+class Entrada:
+    """La pregunta entra deslizándose y las tarjetas aparecen una por una con un pequeño rebote."""
+    def __init__(s, full, vacio, cajas, caja_txt):
+        s.full, s.vacio, s.cajas, s.txt = full, vacio, cajas, caja_txt
+        s.fin = 0.3 + 0.12 * max(0, len(cajas) - 1) + 0.34
+        s._k = None
+
+    def __call__(s, t):
+        if t >= s.fin: return s.full
+        k = int(t * FPS)
+        if s._k and s._k[0] == k: return s._k[1]
+        fr = s.vacio.copy()
+        if s.txt:
+            e = 1 - (1 - min(1, t / 0.32)) ** 3
+            _pegar(fr, s.full, s.vacio, s.txt, 1.0, e, dy=(1 - e) * 36)
+        for i, b in enumerate(s.cajas):
+            p = min(1.0, max(0.0, (t - 0.3 - 0.12 * i) / 0.32))
+            if p <= 0: continue
+            _pegar(fr, s.full, s.vacio, b, max(0.05, _sale_rebote(p)), min(1, p * 2.5))
+        s._k = (k, fr)
+        return fr
+
+
+class Revela:
+    """Fundido a la revelación, la correcta late, chispas doradas y el marcador hace «pop» si alguien sumó."""
+    def __init__(s, full, antes, vacio, caja_ok, chips, fondo, semilla=0):
+        s.full, s.antes, s.vacio, s.ok, s.chips, s.fondo = full, antes, vacio, caja_ok, chips, fondo
+        r = np.random.default_rng(semilla)
+        s.part = [(r.uniform(0, 2 * np.pi), r.uniform(280, 700), r.uniform(8, 16)) for _ in range(40)]
+        s.fin = 1.0; s._k = None
+
+    def __call__(s, t):
+        if t >= s.fin: return s.full
+        k = int(t * FPS)
+        if s._k and s._k[0] == k: return s._k[1]
+        fr = Image.blend(s.antes, s.full, min(1, t / 0.22)) if t < 0.22 and s.antes is not None else s.full.copy()
+        if s.ok and t < 0.7:
+            _pegar(fr, s.full, s.vacio, s.ok, 1 + 0.07 * np.sin(np.pi * t / 0.7), 1.0)
+        if s.ok and t < 0.95:
+            d = ImageDraw.Draw(fr); cx, cy = (s.ok[0] + s.ok[2]) / 2, (s.ok[1] + s.ok[3]) / 2; u = t / 0.95
+            for a, v, r in s.part:
+                x, y = cx + np.cos(a) * v * u, cy + np.sin(a) * v * u + 160 * u * u; rr = r * (1 - u)
+                if rr > 0.6: d.ellipse((x - rr, y - rr, x + rr, y + rr), fill=(255, 214, 90))
+        for b in s.chips:
+            if t < 0.45: _pegar(fr, s.full, s.fondo, b, 1 + 0.4 * (1 - t / 0.45) * np.sin(np.pi * min(1, t / 0.12)), 1.0)
+        s._k = (k, fr)
+        return fr
+
+
 # ---------------------------------------------------------------- escenario
 def escenario():
     y = np.linspace(0, 1, H)[:, None]; x = np.linspace(0, 1, W)[None, :]
@@ -190,11 +262,12 @@ class Pantallas:
     def barra(s, img, etiqueta=None, marcador=None):
         d = ImageDraw.Draw(img)
         d.text((50, 58), '¿Quién Sabe Más?', font=font('Bold', 38), fill=C['gold'], anchor='lm')
+        s._chips = []
         if marcador:   # PRUEBA «MAX contra NOVA»: marcador en la barra de arriba
             x = 470
             for nom, pts, col in (('MAX', marcador[0], C['gold']), ('NOVA', marcador[1], RIVAL_COL)):
                 f = font('Bold', 30); tw = d.textlength(f'{nom} {pts}', font=f)
-                d.rounded_rectangle((x, 36, x + tw + 36, 80), 22, fill=col)
+                d.rounded_rectangle((x, 36, x + tw + 36, 80), 22, fill=col); s._chips.append((int(x - 6), 30, int(x + tw + 42), 86))
                 d.text((x + 18 + tw / 2, 58), f'{nom} {pts}', font=f, fill=C['ink'], anchor='mm'); x += tw + 52
         if etiqueta: d.text((W / 2 + 120, 58), etiqueta, font=font('Medium', 32), fill=C['white'], anchor='mm')
         img.paste(s.qr_s, (W - 50 - 140, 18))
@@ -234,8 +307,8 @@ class Pantallas:
 
     _fotos = {}
 
-    def _foto_opcion(s, path, w, h, apagada):
-        k = (path, w, h, apagada)
+    def _foto_opcion(s, path, w, h, apagada, zoom=1.0):
+        zoom = round(zoom, 3); k = (path, w, h, apagada, zoom)
         if k not in s._fotos:
             if len(s._fotos) > 64: s._fotos.clear()
             src = Image.open(os.path.join(s.raiz, path)).convert('RGB')
@@ -243,7 +316,8 @@ class Pantallas:
                 src.thumbnail((w - 24, h - 24), Image.LANCZOS); t = Image.new('RGB', (w, h), (255, 255, 255))
                 t.paste(src, ((w - src.width) // 2, (h - src.height) // 2)); src = t
             else:
-                src = ImageOps.fit(src, (w, h), Image.LANCZOS, centering=(0.5, 0.38))
+                src = ImageOps.fit(src, (int(w * zoom), int(h * zoom)), Image.LANCZOS, centering=(0.5, 0.38))
+                if zoom > 1: ox, oy = (src.width - w) // 2, int((src.height - h) * 0.4); src = src.crop((ox, oy, ox + w, oy + h))
             if apagada: src = Image.blend(src, Image.new('RGB', (w, h), C['ink']), 0.68)
             m = Image.new('L', (w, h), 0); ImageDraw.Draw(m).rounded_rectangle((0, 0, w - 1, h - 1), 18, fill=255)
             s._fotos[k] = (src, m)
@@ -257,12 +331,13 @@ class Pantallas:
         for i, txt in enumerate(q['o']):
             col, L = OPC[i]; x = x0 + (i % cols) * (bw + g); y = y0 + (i // cols) * (bh + g)
             ok = i == q['c']; apag = modo == 'revela' and not ok
+            s._cajas.append((int(x - 16), int(y - 16), int(x + bw + 16), int(y + bh + 22)))
             if modo == 'revela' and ok:
                 img = caja(img, (x - 9, y - 9, x + bw + 9, y + bh + 9), 30, col, outline=C['white'], width=8)
             else:
                 img = caja(img, (x, y, x + bw, y + bh), 26, C['dim'] if apag else col, sombra=not apag)
             ph = int(bh - 24); pw = int(min(bw * 0.52, ph * 1.4))
-            src, m = s._foto_opcion(q['o_img'][i], pw, ph, apag)
+            src, m = s._foto_opcion(q['o_img'][i], pw, ph, apag, getattr(s, '_zoom', 1.0))
             img.paste(src, (int(x + 12), int(y + 12)), m)
             d = ImageDraw.Draw(img); r = 30; cx, cy = x + 12 + r + 10, y + 12 + r + 10
             d.ellipse((cx - r - 4, cy - r - 4, cx + r + 4, cy + r + 4), fill=C['white'] if not apag else (96, 88, 140))
@@ -295,6 +370,7 @@ class Pantallas:
         for i, txt in enumerate(q['o']):
             col, L = OPC[i]; x = x0 + (i % cols) * (bw + g); y = y0 + (i // cols) * (bh + g)
             ok = i == q['c']; apag = modo == 'revela' and not ok
+            if hasattr(s, '_cajas'): s._cajas.append((int(x - 16), int(y - 16), int(x + bw + 16), int(y + bh + 22)))
             if modo == 'revela' and ok:
                 img = caja(img, (x - 8, y - 8, x + bw + 8, y + bh + 8), 28, col, outline=C['white'], width=7)
             else:
@@ -310,8 +386,8 @@ class Pantallas:
             img = s._fichas(img, i, x, y + bh - 34, bw)
         return img
 
-    def pregunta(s, n, total, q, modo='normal', reloj=None, frac=None, pix=0, marcador=None, apuestas=None):
-        s._apuestas = apuestas
+    def pregunta(s, n, total, q, modo='normal', reloj=None, frac=None, pix=0, marcador=None, apuestas=None, vacio=False, zoom=1.0):
+        s._apuestas = apuestas; s._cajas = []; s._caja_txt = None; s._zoom = zoom
         img = s.barra(s.bg.copy(), f'Pregunta {n} de {total}', marcador); d = ImageDraw.Draw(img)
         con_foto = q.get('img') and q.get('img_modo') == 'pregunta'
         if con_foto:
@@ -322,13 +398,19 @@ class Pantallas:
             img = s._opciones(img, q, modo, (DOCK_X + 820, 270, W - 50, 790), 1)
         elif q.get('o_img'):   # PRUEBA: alternativas con foto real (tarjetas 2×2)
             f, ls, sz = fit(d, q['p'], 'Bold', W - DOCK_X - 440, 150, 60)   # sin tocar el QR de la esquina
-            lines(d, ls, f, sz, DOCK_X + (W - DOCK_X) / 2 - 20, 215, C['white'])
-            img = s._tarjetas(img, q, modo, (DOCK_X + 10, 300, W - 50, 872))
+            cx = DOCK_X + (W - DOCK_X) / 2 - 20; hh = len(ls) * sz * 1.18
+            s._caja_txt = (int(cx - (W - DOCK_X - 440) / 2 - 10), int(215 - hh / 2 - 14), int(cx + (W - DOCK_X - 440) / 2 + 10), int(215 + hh / 2 + 14))
+            if not vacio:
+                lines(d, ls, f, sz, cx, 215, C['white'])
+                img = s._tarjetas(img, q, modo, (DOCK_X + 10, 300, W - 50, 872))
         else:
             f, ls, sz = fit(d, q['p'], 'Bold', W - DOCK_X - 110, 250, 70)
-            lines(d, ls, f, sz, DOCK_X + (W - DOCK_X) / 2 - 20, 300, C['white'])
-            box = (DOCK_X + 10, 500, W - 50, 800) if len(q['o']) == 2 else (DOCK_X + 10, 460, W - 50, 830)
-            img = s._opciones(img, q, modo, box, 2)
+            cx = DOCK_X + (W - DOCK_X) / 2 - 20; hh = len(ls) * sz * 1.18
+            s._caja_txt = (DOCK_X + 10, int(300 - hh / 2 - 14), W - 30, int(300 + hh / 2 + 14))
+            if not vacio:
+                lines(d, ls, f, sz, cx, 300, C['white'])
+                box = (DOCK_X + 10, 500, W - 50, 800) if len(q['o']) == 2 else (DOCK_X + 10, 460, W - 50, 830)
+                img = s._opciones(img, q, modo, box, 2)
         d = ImageDraw.Draw(img)
         if frac is not None:
             yb = 900; x0b, x1b = DOCK_X + 10, W - 230
@@ -654,6 +736,8 @@ def main():
     if G.musica: G.temas.append((0.0, 'entrada'))
     else: G.sonido(S['fanfare'], gain=0.8)
     RAPIDO = bool(os.environ.get('QSM_ARRANQUE_RAPIDO'))   # PRUEBA: la pregunta 1 en los primeros segundos
+    MOV = bool(os.environ.get('QSM_MOVIMIENTO'))            # PRUEBA: entradas con rebote, zoom en fotos, revelación animada
+    ZF = 1.07 if MOV else 1.0                               # zoom final de las fotos de las tarjetas
     RIVAL = bool(os.environ.get('QSM_RIVALIDAD')) and os.path.isdir(rival_dir)   # PRUEBA: MAX contra NOVA
     import random as _rnd
     rr = _rnd.Random(semilla * 31 + 7); pts = [0, 0]   # [MAX, NOVA]
@@ -733,6 +817,9 @@ def main():
         con_foto = bool(q.get('img')) and q.get('img_modo') == 'pregunta'
         mueve = con_foto and not pix0   # la misteriosa ya se mueve con el pixelado
         img_p = P.pregunta(n, N, q, pix=pix0, marcador=MC())
+        if MOV and not mueve:
+            cj, ct = list(P._cajas), P._caja_txt
+            img_p = Entrada(img_p, P.pregunta(n, N, q, pix=pix0, marcador=MC(), vacio=True), cj, ct)
         decir(mover(img_p, q, CAJA_PREG, t_abre) if mueve else img_p, [(f'{key}_pregunta', q['tp'])], 'presentador', pad=0.3,
               poses={'presentador': 'senala'})
         if idx < 2: G.voz(voz('pr_03_segundos'), G.t + 0.1, 'presentador')
@@ -744,7 +831,7 @@ def main():
             k = (n, r, fr)
             if k not in RELOJ:
                 RELOJ.clear()  # un solo cuadro vivo a la vez: con 90+ preguntas la memoria se llenaba
-                RELOJ[k] = P.pregunta(n, N, q, reloj=r, frac=fr, pix=px, marcador=mc)
+                RELOJ[k] = P.pregunta(n, N, q, reloj=r, frac=fr, pix=px, marcador=mc, zoom=1 + (ZF - 1) * (1 - fr))
             return RELOJ[k]
         G.relojes.append((t0, float(seg)))
         G.escena(mover(tfn, q, CAJA_PREG, t_abre) if mueve else tfn, float(seg), 'presentador', {'presentador': 'piensa'})
@@ -757,13 +844,13 @@ def main():
             decir(mover(img_r, q, CAJA_PREG, t_kb) if con_foto else img_r, [(f'{key}_respuesta', q['tr'])], 'copresentadora', pad=0.6, pre=0.1,
                   poses={'copresentadora': 'aplaude'})
         else:
-            img_y = P.pregunta(n, N, q, reloj='¡YA!', frac=0, marcador=MC())
+            img_y = P.pregunta(n, N, q, reloj='¡YA!', frac=0, marcador=MC(), zoom=ZF)
             ap = None
             if RIVAL:   # después del «¡Tiempo!»: cada uno dice qué eligió (el espectador ya respondió)
                 ap = apostar(q); L = 'ABCD'
                 decir(mover(img_y, q, CAJA_PREG, t_kb) if con_foto else img_y, [('pr_04_tiempo', '')], 'presentador', pad=0.05, pre=0.1,
                       poses={'presentador': 'frente'})
-                img_a = P.pregunta(n, N, q, reloj='¡YA!', frac=0, marcador=MC(), apuestas=ap)
+                img_a = P.pregunta(n, N, q, reloj='¡YA!', frac=0, marcador=MC(), apuestas=ap, zoom=ZF)
                 decir(mover(img_a, q, CAJA_PREG, t_kb) if con_foto else img_a,
                       [(f"pr_apuesta_{L[ap['presentador']]}", ''), (f"co_apuesta_{L[ap['copresentadora']]}", ''), ('co_08_correcta', '')],
                       'presentador', pad=0.1, poses={'presentador': 'senala', 'copresentadora': 'presenta'})
@@ -776,8 +863,15 @@ def main():
             G.sonido(S['ding'], at=G.t + 0.2, gain=0.9)
             dificil = (n - 1) * 3 // N >= 2
             rev = 'celebra' if n == N else ('sorpresa' if dificil and n % 2 == 0 else 'aplaude')
-            img_r = P.pregunta(n, N, q, modo='revela', marcador=MC(), apuestas=ap)
-            decir(mover(img_r, q, CAJA_PREG, t_kb) if con_foto else img_r, [(f'{key}_respuesta', q['tr'])], 'copresentadora', pad=0.9, pre=0.2,
+            img_r = P.pregunta(n, N, q, modo='revela', marcador=MC(), apuestas=ap, zoom=ZF)
+            esc_r = img_r
+            if MOV and not con_foto:
+                cj, chips = list(P._cajas), list(P._chips)
+                sube = [chips[k] for k, w in enumerate(('presentador', 'copresentadora')) if ap and ap[w] == q['c'] and k < len(chips)]
+                vac = P.pregunta(n, N, q, modo='revela', marcador=MC(), vacio=True)
+                esc_r = Revela(img_r, img_y if isinstance(img_y, Image.Image) else None, vac, cj[q['c']] if q['c'] < len(cj) else None,
+                               sube, P.bg, semilla=n)
+            decir(mover(img_r, q, CAJA_PREG, t_kb) if con_foto else esc_r, [(f'{key}_respuesta', q['tr'])], 'copresentadora', pad=0.9, pre=0.2,
                   poses={'copresentadora': rev})
             pu = pulla(ap, q)
             if pu: decir(mover(img_r, q, CAJA_PREG, t_kb) if con_foto else img_r, pu[0], pu[1], pad=0.5, poses=pu[2])

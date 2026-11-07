@@ -23,6 +23,9 @@ on:
       comedia:
         description: "Pullas MAX/NOVA tras la revelación (1 = sí; necesita rivalidad y banco/comedia)"
         default: ""
+      movimiento:
+        description: "Entradas con rebote, zoom en fotos y revelación animada (1 = sí)"
+        default: ""
       miniatura:
         description: "collage o baraja"
         default: "collage"
@@ -83,14 +86,14 @@ jobs:
           import json
           p = 'trabajo/episodio.json'; ep = json.load(open(p, encoding='utf-8'))
           base = ep.get('titulo_youtube') or f"¿Quién Sabe Más? {ep['titulo']}"
-          ep['titulo_youtube'] = ('PRUEBA ' + ('COMEDIA · ' if '${{ inputs.comedia }}' else 'MAX VS NOVA · ' if '${{ inputs.rivalidad }}' else 'SUBTÍTULOS · ' if '${{ inputs.subtitulos }}' else 'MÚSICA ALTA · ') + base)[:100]
+          ep['titulo_youtube'] = ('PRUEBA ' + ('MOVIMIENTO · ' if '${{ inputs.movimiento }}' else 'COMEDIA · ' if '${{ inputs.comedia }}' else 'MAX VS NOVA · ' if '${{ inputs.rivalidad }}' else 'SUBTÍTULOS · ' if '${{ inputs.subtitulos }}' else 'MÚSICA ALTA · ') + base)[:100]
           ep['fecha'] = None
           json.dump(ep, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
           print(ep['titulo_youtube'])
           EOF
       - name: Montar el video (música alta constante)
         if: inputs.solo_fotos != '1'
-        env: { QSM_MUSICA_ALTA: "1", QSM_MUSICA_ALTA_DB: "${{ inputs.nivel_db }}", QSM_SUBTITULOS: "${{ inputs.subtitulos }}", QSM_ARRANQUE_RAPIDO: "${{ inputs.arranque }}", QSM_RIVALIDAD: "${{ inputs.rivalidad }}", QSM_COMEDIA: "${{ inputs.comedia }}" }
+        env: { QSM_MUSICA_ALTA: "1", QSM_MUSICA_ALTA_DB: "${{ inputs.nivel_db }}", QSM_SUBTITULOS: "${{ inputs.subtitulos }}", QSM_ARRANQUE_RAPIDO: "${{ inputs.arranque }}", QSM_RIVALIDAD: "${{ inputs.rivalidad }}", QSM_COMEDIA: "${{ inputs.comedia }}", QSM_MOVIMIENTO: "${{ inputs.movimiento }}" }
         run: python pipeline/tv.py --contenido trabajo/episodio.json --voces voces_ep --out trabajo/video.mp4 --tmp tmp
       - name: Miniatura (collage)
         if: inputs.solo_fotos != '1'
@@ -126,4 +129,4 @@ jobs:
           git init -q && git checkout -q -b d
           git config user.name "quiensabemas-bot"; git config user.email "actions@users.noreply.github.com"
           git add . && git commit -qm "Diagnóstico de la prueba ${{ github.run_id }}"
-          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" d:diag-prueba-${{ inputs.comedia && 'comedia' || inputs.rivalidad && 'rival' || 'base' }}
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" d:diag-prueba-${{ inputs.movimiento && 'movimiento' || inputs.comedia && 'comedia' || inputs.rivalidad && 'rival' || 'base' }}
