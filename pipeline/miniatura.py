@@ -192,6 +192,8 @@ def fotos_collage(ep, n=6):
     """Las fotos de las respuestas correctas (alternativas con foto): primero Pixabay (más vistosas), luego por parecido."""
     cred_f = os.path.join(RAIZ, 'trabajo', 'img', 'creditos.json')
     cred = json.load(open(cred_f)) if os.path.exists(cred_f) else {}
+    elegidas = [p for p in ep.get('miniatura_fotos', []) if os.path.exists(os.path.join(RAIZ, p))]
+    if len(elegidas) >= n: return elegidas[:n]
     cand = []
     for q in ep['preguntas']:
         im = q.get('o_img')

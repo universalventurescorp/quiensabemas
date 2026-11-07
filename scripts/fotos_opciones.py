@@ -112,7 +112,7 @@ def main():
     creditos = json.load(open(cred_f)) if os.path.exists(cred_f) else {}
     clip = Clip(); hojas = []; ok_n = 0
     for q in ep['preguntas']:
-        cs = cons.get(str(q['n']))
+        cs = cons.get(str(q['n'])) if str(q['n']) in cons else None
         if not cs or (q.get('img_modo') == 'pregunta'): continue
         eleg = []
         if all('flag' in c for c in cs):
@@ -141,6 +141,10 @@ def main():
             if meta: creditos[os.path.basename(f)] = meta
         ok_n += 1; print(f"P{q['n']}: OK  " + ' · '.join(f"{o} ({sc:.2f})" for o, (_, _, sc) in zip(q['o'], eleg)))
         hojas.append((q, [f for f, _, _ in eleg]))
+    # fotos elegidas a mano para la miniatura: [[pregunta, alternativa], ...] (la primera va al frente)
+    QN = {q['n']: q for q in ep['preguntas']}
+    mf = [QN[n]['o_img'][i] for n, i in cons.get('_miniatura', []) if n in QN and QN[n].get('o_img')]
+    if mf: ep['miniatura_fotos'] = mf; print('Miniatura:', mf)
     json.dump(ep, open(ep_path, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     json.dump(creditos, open(cred_f, 'w'), ensure_ascii=False, indent=1)
     print(f'Listo: {ok_n} preguntas con fotos en las alternativas')

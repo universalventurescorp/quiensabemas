@@ -96,7 +96,7 @@ jobs:
         env: { QSM_MUSICA_ALTA: "1", QSM_MUSICA_ALTA_DB: "${{ inputs.nivel_db }}", QSM_SUBTITULOS: "${{ inputs.subtitulos }}", QSM_ARRANQUE_RAPIDO: "${{ inputs.arranque }}", QSM_RIVALIDAD: "${{ inputs.rivalidad }}", QSM_COMEDIA: "${{ inputs.comedia }}", QSM_MOVIMIENTO: "${{ inputs.movimiento }}" }
         run: python pipeline/tv.py --contenido trabajo/episodio.json --voces voces_ep --out trabajo/video.mp4 --tmp tmp
       - name: Miniatura (collage)
-        if: inputs.solo_fotos != '1'
+        if: always()
         env: { QSM_MINI_COLLAGE: "${{ inputs.miniatura == 'collage' && '1' || '' }}", QSM_MINI_BARAJA: "${{ inputs.miniatura == 'baraja' && '1' || '' }}" }
         run: python pipeline/miniatura.py trabajo/episodio.json trabajo/miniatura.jpg --feed trabajo/feed.png
       - name: Subir a YouTube EN PRIVADO
