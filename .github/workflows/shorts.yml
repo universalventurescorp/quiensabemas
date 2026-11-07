@@ -1,0 +1,80 @@
+name: shorts
+# Rehace SOLO los Shorts (formato nuevo) de un episodio ya producido, reusando el trabajo y las voces de sus corridas.
+# Las apuestas de MAX y NOVA salen de los tiempos del video largo (rama diag-produccion o artefacto «tiempos»).
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: "Corrida de 'produccion' del episodio (artefacto trabajo)"
+      voces_de:
+        description: "Corrida con las voces del episodio (vacío = la misma)"
+        default: ""
+      preguntas:
+        description: "Preguntas a usar, separadas por coma (vacío = las elige solo)"
+        default: ""
+      subir:
+        description: "1 = subir EN PRIVADO con enlace al episodio"
+        default: ""
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  shorts:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    env: { QSM_MUSICA_ALTA: "1", QSM_MUSICA_ALTA_DB: "1" }
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/download-artifact@v4
+        with: { name: trabajo, path: trabajo, run-id: "${{ inputs.run_id }}", github-token: "${{ github.token }}" }
+      - uses: actions/download-artifact@v4
+        with: { pattern: "voces-*", path: voces_ep, merge-multiple: true, run-id: "${{ inputs.voces_de || inputs.run_id }}", github-token: "${{ github.token }}" }
+      - name: Tiempos del video largo
+        continue-on-error: true
+        run: |
+          gh run download "${{ inputs.run_id }}" -n tiempos -D trabajo -R "${{ github.repository }}" 2>/dev/null || \
+          { git fetch -q origin diag-produccion && git show origin/diag-produccion:video.tiempos.json > trabajo/video.tiempos.json; }
+          ls -la trabajo/video.tiempos.json
+        env: { GH_TOKEN: "${{ github.token }}" }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Instalar
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q numpy pillow scipy reportlab google-api-python-client google-auth
+          test -f fuentes/Poppins-Black.ttf || curl -sSfL -o fuentes/Poppins-Black.ttf https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Black.ttf || true
+      - name: Descifrar la música
+        env: { MUSICA_CLAVE: "${{ secrets.MUSICA_CLAVE }}" }
+        run: |
+          mkdir -p assets/musica
+          printf '%s' "$MUSICA_CLAVE" | tr -d '[:space:]' > /tmp/clave
+          openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -pass file:/tmp/clave -in assets/musica.enc | tar -x -C assets/musica
+          rm -f /tmp/clave
+      - name: Shorts
+        run: python pipeline/shorts.py --contenido trabajo/episodio.json --voces voces_ep --salida trabajo/shorts --tiempos trabajo/video.tiempos.json --preguntas "${{ inputs.preguntas }}"
+      - uses: actions/upload-artifact@v4
+        with: { name: shorts, path: "trabajo/shorts/*.mp4", retention-days: 7 }
+      - name: Subir EN PRIVADO
+        if: inputs.subir == '1'
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN_QSM: ${{ secrets.YT_REFRESH_TOKEN_QSM }}
+        run: |
+          python scripts/subir_shorts.py trabajo/episodio.json trabajo/shorts/shorts.json
+          git config user.name "quiensabemas-bot"; git config user.email "actions@users.noreply.github.com"
+          git add publicados && git commit -qm "Shorts nuevos de $(python -c "import json;print(json.load(open('trabajo/episodio.json'))['id'])")" || exit 0
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
+      - name: Diagnóstico (rama diag-shorts)
+        if: always()
+        run: |
+          mkdir -p /tmp/diag; cp trabajo/shorts/shorts.json /tmp/diag/ 2>/dev/null || true
+          for f in trabajo/shorts/short_*.mp4; do [ -f "$f" ] || continue; b=$(basename "$f" .mp4)
+            for s in 0.5 4 9 13 17 21 26 31; do ffmpeg -v error -y -ss $s -i "$f" -frames:v 1 -vf scale=360:-1 "/tmp/diag/${b}_$s.jpg" || true; done; done
+          cd /tmp/diag && git init -q && git checkout -q -b d
+          git config user.name "quiensabemas-bot"; git config user.email "actions@users.noreply.github.com"
+          git add . && git commit -qm "Diagnóstico shorts ${{ github.run_id }}"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" d:diag-shorts

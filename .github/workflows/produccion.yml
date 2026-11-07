@@ -158,6 +158,9 @@ jobs:
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN_QSM: ${{ secrets.YT_REFRESH_TOKEN_QSM }}
         run: python scripts/subir_youtube.py trabajo/episodio.json trabajo/video.mp4 trabajo/video.tiempos.json trabajo/miniatura.jpg
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: tiempos, path: trabajo/video.tiempos.json, retention-days: 7, if-no-files-found: ignore }
       - name: Shorts en formato nuevo (2 por episodio, 4 el maratón)
         continue-on-error: true
         run: python pipeline/shorts.py --contenido trabajo/episodio.json --voces voces_ep --salida trabajo/shorts --tiempos trabajo/video.tiempos.json
