@@ -164,8 +164,12 @@ def fotos_collage(ep, n=6):
         if not im: continue
         p = im[q['c']]
         if p.endswith('.png') or not os.path.exists(os.path.join(RAIZ, p)): continue
-        px = cred.get(os.path.basename(p), {}).get('fuente') == 'Pixabay'
-        cand.append((px, (q.get('o_score') or [0] * 4)[q['c']], p))
+        try:   # lo más colorido primero: en el feed, lo gris no se ve
+            hsv = Image.open(os.path.join(RAIZ, p)).convert('RGB').resize((64, 64)).convert('HSV')
+            sat = sum(hsv.getchannel('S').getdata()) / 4096 / 255; val = sum(hsv.getchannel('V').getdata()) / 4096 / 255
+        except Exception:
+            continue
+        cand.append((round(sat * 0.7 + val * 0.3, 3), (q.get('o_score') or [0] * 4)[q['c']], p))
     cand.sort(reverse=True)
     return [p for _, _, p in cand[:n]]
 

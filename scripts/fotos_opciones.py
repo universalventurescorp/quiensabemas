@@ -45,7 +45,7 @@ def pixabay(q, n=5):
     return out
 
 
-def commons(q, n=5, must=None):
+def commons(q, n=5, must=None, no=()):
     p = {"action": "query", "format": "json", "generator": "search", "gsrsearch": f"filetype:bitmap {q}",
          "gsrnamespace": 6, "gsrlimit": 30, "prop": "imageinfo", "iiprop": "url|extmetadata|size", "iiurlwidth": 1000}
     d = json.loads(get(COMMONS + "?" + urllib.parse.urlencode(p)))
@@ -57,6 +57,7 @@ def commons(q, n=5, must=None):
         w, h = ii.get("width", 0), ii.get("height", 0)
         if not OK_LIC.match(lic) or min(w, h) < 380: continue
         if must and plano(must) not in plano(pg['title']): continue
+        if any(plano(x) in plano(pg['title']) for x in no): continue
         out.append({'url': ii.get('thumburl') or ii['url'], 'pagina': ii.get('descriptionurl'), 'licencia': lic,
                     'autor': strip(md.get('Artist', {}).get('value', ''))[:120], 'fuente': 'Wikimedia Commons',
                     'titulo': pg['title']})
@@ -91,7 +92,7 @@ def candidatas(c):
     if c.get('src') == 'px':
         r = pixabay(c['q']) or commons(c['q'], must=c.get('must'))
     else:
-        r = commons(c['q'], must=c.get('must')) or ([] if c.get('must') else pixabay(c['q']))
+        r = commons(c['q'], must=c.get('must'), no=c.get('not', ())) or ([] if c.get('must') else pixabay(c['q']))
     ims = []
     for x in r:
         try:

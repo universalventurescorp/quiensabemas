@@ -27,30 +27,27 @@
    "src": "px"
   },
   {
-   "q": "planet mars",
-   "src": "px"
+   "q": "Mars Valles Marineris globe",
+   "src": "cm",
+   "must": "Mars",
+   "not": [
+    "planets",
+    "comparison",
+    "size",
+    "terrestrial"
+   ]
   },
   {
-   "q": "planet venus",
-   "src": "px"
-  }
- ],
- "5": [
-  {
-   "q": "human eyes close up",
-   "src": "px"
-  },
-  {
-   "q": "human ear close up",
-   "src": "px"
-  },
-  {
-   "q": "human nose close up",
-   "src": "px"
-  },
-  {
-   "q": "human tongue",
-   "src": "px"
+   "q": "Venus real color Mariner",
+   "src": "cm",
+   "must": "Venus",
+   "not": [
+    "transit",
+    "planets",
+    "comparison",
+    "size",
+    "terrestrial"
+   ]
   }
  ],
  "8": [
@@ -87,24 +84,6 @@
   {
    "q": "Europa moon Jupiter",
    "src": "cm"
-  }
- ],
- "14": [
-  {
-   "q": "human heart anatomy",
-   "src": "px"
-  },
-  {
-   "q": "human stomach anatomy",
-   "src": "px"
-  },
-  {
-   "q": "human lungs anatomy",
-   "src": "px"
-  },
-  {
-   "q": "human brain anatomy",
-   "src": "px"
   }
  ],
  "17": [
@@ -147,24 +126,6 @@
    "src": "px"
   }
  ],
- "20": [
-  {
-   "q": "platelets microscope",
-   "src": "cm"
-  },
-  {
-   "q": "red blood cells",
-   "src": "px"
-  },
-  {
-   "q": "white blood cell",
-   "src": "cm"
-  },
-  {
-   "q": "neuron",
-   "src": "px"
-  }
- ],
  "24": [
   {
    "q": "Louis Pasteur",
@@ -187,40 +148,52 @@
    "must": "Lister"
   }
  ],
- "25": [
-  {
-   "q": "cornea eye",
-   "src": "cm"
-  },
-  {
-   "q": "retina fundus",
-   "src": "cm"
-  },
-  {
-   "q": "eyelid closed eye",
-   "src": "px"
-  },
-  {
-   "q": "eye pupil close up",
-   "src": "px"
-  }
- ],
  "28": [
   {
-   "q": "planet mars",
-   "src": "px"
+   "q": "Mars Valles Marineris globe",
+   "src": "cm",
+   "must": "Mars",
+   "not": [
+    "planets",
+    "comparison",
+    "size",
+    "terrestrial"
+   ]
   },
   {
-   "q": "planet mercury",
-   "src": "px"
+   "q": "Mercury MESSENGER color globe",
+   "src": "cm",
+   "must": "Mercury",
+   "not": [
+    "transit",
+    "planets",
+    "comparison",
+    "size",
+    "terrestrial",
+    "sun"
+   ]
   },
   {
-   "q": "planet neptune",
-   "src": "px"
+   "q": "Neptune Voyager 2",
+   "src": "cm",
+   "must": "Neptune",
+   "not": [
+    "planets",
+    "comparison",
+    "size"
+   ]
   },
   {
-   "q": "planet venus",
-   "src": "px"
+   "q": "Venus real color Mariner",
+   "src": "cm",
+   "must": "Venus",
+   "not": [
+    "transit",
+    "planets",
+    "comparison",
+    "size",
+    "terrestrial"
+   ]
   }
  ],
  "29": [
@@ -279,24 +252,6 @@
    "q": "Montgolfier brothers",
    "src": "cm",
    "must": "Montgolfier"
-  }
- ],
- "34": [
-  {
-   "q": "biceps muscle",
-   "src": "px"
-  },
-  {
-   "q": "gluteus maximus",
-   "src": "cm"
-  },
-  {
-   "q": "quadriceps muscle",
-   "src": "cm"
-  },
-  {
-   "q": "deltoid muscle",
-   "src": "cm"
   }
  ],
  "35": [
@@ -391,20 +346,46 @@
  ],
  "51": [
   {
-   "q": "planet mars",
-   "src": "px"
+   "q": "Mars Valles Marineris globe",
+   "src": "cm",
+   "must": "Mars",
+   "not": [
+    "planets",
+    "comparison",
+    "size",
+    "terrestrial"
+   ]
   },
   {
-   "q": "planet saturn",
-   "src": "px"
+   "q": "Saturn Cassini during equinox",
+   "src": "cm",
+   "must": "Saturn",
+   "not": [
+    "planets",
+    "comparison",
+    "size"
+   ]
   },
   {
-   "q": "planet neptune",
-   "src": "px"
+   "q": "Neptune Voyager 2",
+   "src": "cm",
+   "must": "Neptune",
+   "not": [
+    "planets",
+    "comparison",
+    "size"
+   ]
   },
   {
-   "q": "planet jupiter",
-   "src": "px"
+   "q": "Jupiter Cassini true color",
+   "src": "cm",
+   "must": "Jupiter",
+   "not": [
+    "planets",
+    "comparison",
+    "size",
+    "moons"
+   ]
   }
  ],
  "52": [
@@ -525,38 +506,98 @@
  ],
  "64": [
   {
-   "q": "planet neptune",
-   "src": "px"
+   "q": "Neptune Voyager 2",
+   "src": "cm",
+   "must": "Neptune",
+   "not": [
+    "planets",
+    "comparison",
+    "size"
+   ]
   },
   {
-   "q": "planet uranus",
-   "src": "px"
+   "q": "Uranus Voyager 2",
+   "src": "cm",
+   "must": "Uranus",
+   "not": [
+    "planets",
+    "comparison",
+    "size"
+   ]
   },
   {
-   "q": "planet venus",
-   "src": "px"
+   "q": "Venus real color Mariner",
+   "src": "cm",
+   "must": "Venus",
+   "not": [
+    "transit",
+    "planets",
+    "comparison",
+    "size",
+    "terrestrial"
+   ]
   },
   {
-   "q": "planet mercury",
-   "src": "px"
+   "q": "Mercury MESSENGER color globe",
+   "src": "cm",
+   "must": "Mercury",
+   "not": [
+    "transit",
+    "planets",
+    "comparison",
+    "size",
+    "terrestrial",
+    "sun"
+   ]
   }
  ],
  "69": [
   {
-   "q": "planet venus",
-   "src": "px"
+   "q": "Venus real color Mariner",
+   "src": "cm",
+   "must": "Venus",
+   "not": [
+    "transit",
+    "planets",
+    "comparison",
+    "size",
+    "terrestrial"
+   ]
   },
   {
-   "q": "planet mercury",
-   "src": "px"
+   "q": "Mercury MESSENGER color globe",
+   "src": "cm",
+   "must": "Mercury",
+   "not": [
+    "transit",
+    "planets",
+    "comparison",
+    "size",
+    "terrestrial",
+    "sun"
+   ]
   },
   {
-   "q": "planet mars",
-   "src": "px"
+   "q": "Mars Valles Marineris globe",
+   "src": "cm",
+   "must": "Mars",
+   "not": [
+    "planets",
+    "comparison",
+    "size",
+    "terrestrial"
+   ]
   },
   {
-   "q": "planet jupiter",
-   "src": "px"
+   "q": "Jupiter Cassini true color",
+   "src": "cm",
+   "must": "Jupiter",
+   "not": [
+    "planets",
+    "comparison",
+    "size",
+    "moons"
+   ]
   }
  ],
  "73": [
@@ -687,24 +728,6 @@
    "q": "Carl Linnaeus",
    "src": "cm",
    "must": "Linnaeus"
-  }
- ],
- "88": [
-  {
-   "q": "quartz crystal",
-   "src": "px"
-  },
-  {
-   "q": "topaz gemstone",
-   "src": "px"
-  },
-  {
-   "q": "corundum mineral",
-   "src": "px"
-  },
-  {
-   "q": "diamond",
-   "src": "px"
   }
  ],
  "91": [
