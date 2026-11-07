@@ -44,10 +44,10 @@ def main(ep_path, shorts_path):
             print(f"Short de la pregunta {s['n']} NO se sube: faltan voces o dura más de 60 s"); continue
         q = preg.get(s['n'], {})
         p = q.get('p', s['pregunta'])
-        titulo = f'¿La sabes en 5 segundos? {p}'
-        if len(titulo) > 88: titulo = '¿La sabes en 5 segundos? 🤔'
+        titulo = f'{p} ¿Le ganas a MAX y a NOVA? 🤔'
+        if len(titulo) > 88: titulo = p if len(p) <= 88 else '¿Le ganas a MAX y a NOVA? 🤔'
         titulo += ' #shorts'
-        desc = [f'¿La sabías? Escribe tu respuesta en los comentarios 👇', '']
+        desc = ['¿Le ganaste a MAX y a NOVA? Escribe tu respuesta en los comentarios 👇', '']
         if largo:
             desc += [f"🎮 Juega las {sh['total']} preguntas completas en familia: https://youtu.be/{largo}", '']
         desc += ['Juega con tu celular en quiensabemastv.pages.dev · Suscríbete a @QuienSabeMasTV']
