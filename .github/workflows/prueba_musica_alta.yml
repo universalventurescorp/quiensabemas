@@ -112,7 +112,7 @@ jobs:
         if: always()
         run: |
           mkdir -p /tmp/diag
-          cp trabajo/hoja_fotos.jpg trabajo/miniatura.jpg trabajo/miniatura_voz.jpg trabajo/feed.png /tmp/diag/ 2>/dev/null || true
+          cp trabajo/hoja_fotos.jpg trabajo/miniatura.jpg trabajo/miniatura_voz.jpg trabajo/feed.png trabajo/img/creditos.json /tmp/diag/ 2>/dev/null || true
           python - <<'EOF'
           import json, subprocess
           try: t = json.load(open('trabajo/video.tiempos.json'))
