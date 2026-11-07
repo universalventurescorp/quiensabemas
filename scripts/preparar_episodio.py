@@ -1,5 +1,5 @@
 """Elige el próximo episodio listo de la cola y deja todo preparado para producirlo.
-Uso: python scripts/preparar_episodio.py [--id ep012] [--salida trabajo]
+Uso: python scripts/preparar_episodio.py [--id ep012] [--salida trabajo] [--rehacer]
 - Toma el primer contenido/cola/*.json con "estado": "listo" (o el --id indicado) que no esté en publicados/.
 - Revisa repetidas contra el banco (si hay, se detiene).
 - Busca una foto libre por pregunta (Wikimedia Commons) o usa la bandera indicada.
@@ -34,12 +34,13 @@ def fama_anterior():
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('--id'); ap.add_argument('--salida', default='trabajo')
+    ap.add_argument('--rehacer', action='store_true', help='permite volver a producir un episodio ya subido (con --id)')
     a = ap.parse_args()
     hechos = {os.path.splitext(os.path.basename(p))[0] for p in glob.glob(os.path.join(RAIZ, 'publicados', '*.json'))}
     cand = []
     for p in sorted(glob.glob(os.path.join(RAIZ, 'contenido', 'cola', '*.json'))):
         ep = json.load(open(p, encoding='utf-8'))
-        if ep['id'] in hechos: continue
+        if ep['id'] in hechos and not (a.rehacer and a.id): continue
         if a.id and ep['id'] != a.id: continue
         if not a.id and ep.get('estado') != 'listo': continue
         cand.append((p, ep))

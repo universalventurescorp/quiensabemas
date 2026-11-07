@@ -764,6 +764,8 @@ def main():
             out[k] = q['c'] if rr.random() < p else rr.choice([i for i in range(len(q['o'])) if i != q['c']])
         return out
 
+    ya2 = [None]
+
     def como_jugar():
         """Arranque rápido: la explicación del QR y el salón de la fama van después de la pregunta 3."""
         decir(P.lobby(), [('pr_01_celulares', '')], 'presentador', pad=0.6, poses={'presentador': 'saluda'})
@@ -771,6 +773,11 @@ def main():
         if meta.get('fama'):   # sin capítulo propio: YouTube exige capítulos de 10 s o más
             decir(P.fama(meta['fama'], meta.get('fama_de', '')), [('co_fama', ex.get('co_fama', ['', ''])[1])], 'copresentadora', pad=2.0,
                   poses={'copresentadora': 'aplaude'})
+        # «¡YA!» para los que se suman ahora: la web los pone en la pregunta 4 (ya2 en los tiempos)
+        if os.environ.get('QSM_SIN_YA2'):   # videos hechos antes del 7-nov (sin este «¡YA!»): referencia = tarjeta de la pregunta 4
+            ya2[0] = G.t; return
+        decir(P.anuncio('¡YA!', 'Toca EMPEZAR en tu celular'), [('pr_02_empezamos', '')], 'presentador', poses={'presentador': 'celebra2'})
+        ya2[0] = G.t - 0.35
 
     if RAPIDO:
         decir(P.anuncio('¡¿Quién Sabe Más?!', meta['titulo']), [('an_01_marca', '')], 'anunciador', pad=0.2, pre=0.3)
@@ -793,7 +800,7 @@ def main():
     tiempos = []
     bloque = 10 if len(Q) <= 120 else 25
 
-    previa = None; RELOJ = {}
+    previa = None; RELOJ = {}; apuestas = {}
     for idx, q in enumerate(Q):
         n = q['n']; key = f'q{n:02d}'; ronda = q.get('ronda')
         if ronda == 'misteriosa' and not (q.get('img') and q.get('img_modo') == 'pregunta'): ronda = None  # sin foto no hay misterio
@@ -860,6 +867,7 @@ def main():
                       poses={'copresentadora': 'presenta', 'presentador': 'frente'})
             if ap:
                 pts[0] += ap['presentador'] == q['c']; pts[1] += ap['copresentadora'] == q['c']
+                apuestas[str(n)] = [ap['presentador'], ap['copresentadora']]   # los Shorts repiten las mismas elecciones
             G.sonido(S['ding'], at=G.t + 0.2, gain=0.9)
             dificil = (n - 1) * 3 // N >= 2
             rev = 'celebra' if n == N else ('sorpresa' if dificil and n % 2 == 0 else 'aplaude')
@@ -905,8 +913,8 @@ def main():
     if RAPIDO and len(capitulos) > 1 and capitulos[1][0] < 10:   # la pregunta 1 arranca enseguida: su capítulo empieza en 0:00
         capitulos = [(0.0, capitulos[1][1])] + capitulos[2:]
     print(f'Duración: {G.t/60:.1f} min · escenas: {len(G.escenas)}')
-    sync = {'sala': meta['codigo_sala'], 'titulo': meta['titulo'], 'total': N, 'ya': round(t_ya, 2), 'duracion': round(G.t, 2),
-            'tiempos': tiempos, 'capitulos': [[round(t, 1), c] for t, c in capitulos], 'faltan': sorted(set(faltan))}
+    sync = {'sala': meta['codigo_sala'], 'titulo': meta['titulo'], 'total': N, 'ya': round(t_ya, 2), **({'ya2': round(ya2[0] - t_ya, 2)} if ya2[0] else {}), 'duracion': round(G.t, 2),
+            'tiempos': tiempos, 'apuestas': apuestas, 'capitulos': [[round(t, 1), c] for t, c in capitulos], 'faltan': sorted(set(faltan))}
     os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
     json.dump(sync, open(os.path.splitext(a.out)[0] + '.tiempos.json', 'w'), ensure_ascii=False, indent=1)
     if faltan: print('Voces faltantes (silencio):', sorted(set(faltan)))

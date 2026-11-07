@@ -96,9 +96,12 @@ def main(ep_path, video, sync_path, miniatura=None):
         try: yt.thumbnails().set(videoId=vid, media_body=MediaFileUpload(miniatura)).execute(); print('Miniatura lista')
         except Exception as e: print('No se pudo poner la miniatura:', e)
     os.makedirs(os.path.join(RAIZ, 'publicados'), exist_ok=True)
-    json.dump({'id': ep['id'], 'video': vid, 'titulo': ep['titulo'], 'sala': ep['codigo_sala'], 'formato': ep.get('formato', 'normal'),
+    pf = os.path.join(RAIZ, 'publicados', f"{ep['id']}.json")
+    antes = json.load(open(pf)) if os.path.exists(pf) else {}
+    reemplaza = ([antes['video']] if antes.get('video') else []) + antes.get('reemplaza', [])   # versiones viejas (rehecho)
+    json.dump({**({'reemplaza': reemplaza, 'shorts_viejos': [x['video'] for x in antes.get('shorts', [])] + antes.get('shorts_viejos', [])} if reemplaza else {}),'id': ep['id'], 'video': vid, 'titulo': ep['titulo'], 'sala': ep['codigo_sala'], 'formato': ep.get('formato', 'normal'),
                'duracion': sync['duracion'], 'subido': time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime()), 'privacidad': 'private', 'publica': cuando},
-              open(os.path.join(RAIZ, 'publicados', f"{ep['id']}.json"), 'w'), ensure_ascii=False, indent=1)
+              open(pf, 'w'), ensure_ascii=False, indent=1)
 
 
 if __name__ == '__main__':

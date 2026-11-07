@@ -240,7 +240,7 @@ async function control(accion, valor) {
   const ahora = Date.now() + S.off;
   if (S.modo === 'solo') {
     const g = S.g;
-    if (accion === 'empezar' && !g.inicio) g.inicio = ahora;
+    if (accion === 'empezar' && !g.inicio) { g.inicio = ahora; g.ajuste = (g.ajuste || 0) + (valor || 0); }
     if (accion === 'pausa' && !g.pausa) g.pausa = ahora;
     if (accion === 'seguir' && g.pausa) { g.pausado += ahora - g.pausa; g.pausa = null; }
     if (accion === 'ajuste') g.ajuste = (g.ajuste || 0) + valor;
@@ -356,7 +356,8 @@ function vistaJuego() {
         <ul class="jugadores">${S.jugadores.map(j => `<li class="${j === S.apodo ? 'yo' : ''}">${esc(j)}</li>`).join('')}</ul></div>` : ''}
       <div class="aviso"><div class="tele-icono" aria-hidden="true"></div><h2>Mira la tele</h2>
         <p class="sub">Cuando el presentador diga <b>«¡YA!»</b>, toca EMPEZAR. ${S.modo === 'grupo' ? 'Basta con que lo toque una persona del grupo.' : ''}</p></div>
-      <button class="btn empezar" id="b-empezar">EMPEZAR</button>`;
+      <button class="btn empezar" id="b-empezar">EMPEZAR</button>
+      ${S.ep.ya2 ? '<button class="mini" id="b-desde1">¿Tenías el celular listo desde la pregunta 1? Toca aquí</button>' : ''}`;
   } else if (f.tipo === 'previa') {
     cuerpo = `<div class="aviso"><div class="tele-icono" aria-hidden="true"></div><h2>¡Atentos!</h2><p class="sub">La primera pregunta aparece en la tele en unos segundos.</p></div>`;
   } else if (f.tipo === 'abierta') {
@@ -401,7 +402,9 @@ function vistaJuego() {
       <div class="fila"><button class="mini" id="b-menos">Voy adelantado (−2 s)</button><button class="mini" id="b-mas">Voy atrasado (+2 s)</button></div>
     </div>` : '';
   $app.innerHTML = cabecera() + (pausado && f.tipo !== 'espera' ? `<div class="bloque"><h2>En pausa</h2><p class="sub">Cuando sigan viendo el video, toca «Seguir».</p></div>` : '') + cuerpo + herramientas + (S.error ? `<p class="error">${esc(S.error)}</p>` : '');
-  on('b-empezar', () => control('empezar'));
+  // formato nuevo: el «¡YA!» suena después de la pregunta 3 (ya2 = ese momento en el reloj del programa)
+  on('b-empezar', () => control('empezar', Math.round((S.ep.ya2 || 0) * 1000)));
+  on('b-desde1', () => control('empezar'));
   document.querySelectorAll('.op').forEach(b => b.addEventListener('click', () => responder(+b.dataset.i)));
   on('b-pausa', () => control(pausado ? 'seguir' : 'pausa'));
   on('b-sinc', () => { const a = document.getElementById('ajuste'); a.hidden = !a.hidden; });
@@ -447,7 +450,7 @@ const Demo = {
     }
     if (ruta === 'control') {
       const g = this.grupo;
-      if (c.accion === 'empezar' && !g.inicio) g.inicio = ahora;
+      if (c.accion === 'empezar' && !g.inicio) { g.inicio = ahora; g.ajuste += c.valor || 0; }
       if (c.accion === 'pausa' && !g.pausa) g.pausa = ahora;
       if (c.accion === 'seguir' && g.pausa) { g.pausado += ahora - g.pausa; g.pausa = null; }
       if (c.accion === 'ajuste') g.ajuste += c.valor;

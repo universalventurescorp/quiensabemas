@@ -1,0 +1,21 @@
+{
+ "_nota": "Frases del cierre de los Shorts en formato nuevo (7-nov-2026). Se generan con voces.yml contenido=contenido/shorts_voces.json salida=banco/shorts",
+ "variantes": {
+  "co_short_cta": [
+   "copresentadora",
+   [
+    "¿Le ganaste a MAX y a NOVA? Hay muchas preguntas más en el episodio completo. ¡Toca el enlace de abajo!",
+    "Esta fue solo una. ¡En el episodio completo jugamos muchas más, con tu familia y tu celular! El enlace está abajo.",
+    "¿Te animas a la partida completa? Tú contra MAX y contra mí. ¡Toca el enlace de abajo!"
+   ]
+  ],
+  "pr_short_cta": [
+   "presentador",
+   [
+    "¡Esto fue solo una! Juega todas contra nosotros en el episodio completo. ¡Toca el enlace de abajo!",
+    "¿Crees que nos ganas en la partida completa? ¡Demuéstralo! El enlace está abajo.",
+    "¡Revancha en el episodio completo! Tú contra MAX y NOVA. ¡Toca el enlace de abajo!"
+   ]
+  ]
+ }
+}

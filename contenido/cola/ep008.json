@@ -87,7 +87,25 @@
    "tr": "¡El violín!",
    "td": "El arco del violín lleva crines de caballo.",
    "img_q": "Violin",
-   "img_modo": "revela"
+   "img_modo": "revela",
+   "o_fotos": [
+    {
+     "q": "flute instrument",
+     "src": "px"
+    },
+    {
+     "q": "drum percussion",
+     "src": "px"
+    },
+    {
+     "q": "trumpet",
+     "src": "px"
+    },
+    {
+     "q": "violin",
+     "src": "px"
+    }
+   ]
   },
   {
    "n": 5,
@@ -137,7 +155,25 @@
    "tr": "¡La batería!",
    "td": "Una batería reúne tambores y platillos que se tocan con baquetas.",
    "img_q": "Drum kit",
-   "img_modo": "revela"
+   "img_modo": "revela",
+   "o_fotos": [
+    {
+     "q": "violin",
+     "src": "px"
+    },
+    {
+     "q": "acoustic guitar",
+     "src": "px"
+    },
+    {
+     "q": "drum kit",
+     "src": "px"
+    },
+    {
+     "q": "harp instrument",
+     "src": "px"
+    }
+   ]
   },
   {
    "n": 8,
@@ -153,7 +189,25 @@
    "d": "Nemo vive en una anémona de mar.",
    "tp": "¿Qué animal es Nemo en la película de Pixar? ¿Pez payaso, tiburón, delfín o tortuga?",
    "tr": "¡Un pez payaso!",
-   "td": "Nemo vive en una anémona de mar."
+   "td": "Nemo vive en una anémona de mar.",
+   "o_fotos": [
+    {
+     "q": "clownfish anemone",
+     "src": "px"
+    },
+    {
+     "q": "shark underwater",
+     "src": "px"
+    },
+    {
+     "q": "dolphin",
+     "src": "px"
+    },
+    {
+     "q": "sea turtle",
+     "src": "px"
+    }
+   ]
   },
   {
    "n": 9,
@@ -171,7 +225,25 @@
    "tr": "¡La paleta!",
    "td": "La paleta suele tener un agujero para el pulgar.",
    "img_q": "Paint palette",
-   "img_modo": "revela"
+   "img_modo": "revela",
+   "o_fotos": [
+    {
+     "q": "serving tray",
+     "src": "px"
+    },
+    {
+     "q": "blackboard chalk",
+     "src": "px"
+    },
+    {
+     "q": "notebook",
+     "src": "px"
+    },
+    {
+     "q": "artist palette paint",
+     "src": "px"
+    }
+   ]
   },
   {
    "n": 10,
@@ -260,7 +332,25 @@
    "d": "«Coco» se estrenó en 2017 y se inspira en tradiciones de México.",
    "tp": "¿Qué fiesta mexicana celebra la película Coco? ¿Carnaval, Halloween, Navidad o Día de Muertos?",
    "tr": "¡El Día de Muertos!",
-   "td": "Coco se estrenó en dos mil diecisiete y se inspira en tradiciones de México."
+   "td": "Coco se estrenó en dos mil diecisiete y se inspira en tradiciones de México.",
+   "o_fotos": [
+    {
+     "q": "carnival parade costumes",
+     "src": "px"
+    },
+    {
+     "q": "halloween pumpkins",
+     "src": "px"
+    },
+    {
+     "q": "christmas tree",
+     "src": "px"
+    },
+    {
+     "q": "day of the dead altar marigold",
+     "src": "px"
+    }
+   ]
   },
   {
    "n": 15,
@@ -278,7 +368,28 @@
    "tr": "¡El cajón!",
    "td": "Nació entre comunidades afroperuanas y hoy se toca en todo el mundo.",
    "img_q": "Cajón peruano",
-   "img_modo": "revela"
+   "img_modo": "revela",
+   "o_fotos": [
+    {
+     "q": "quena flute",
+     "src": "cm",
+     "must": "Quena"
+    },
+    {
+     "q": "charango",
+     "src": "cm",
+     "must": "Charango"
+    },
+    {
+     "q": "cajon drum",
+     "src": "px"
+    },
+    {
+     "q": "bombo drum",
+     "src": "cm",
+     "must": "Bombo"
+    }
+   ]
   },
   {
    "n": 16,
@@ -342,7 +453,21 @@
    "d": "Frida Kahlo nació en 1907 en Coyoacán, México.",
    "tp": "¿De qué país es la pintora Frida Kahlo? ¿México, Colombia, Chile o España?",
    "tr": "¡México!",
-   "td": "Frida Kahlo nació en mil novecientos siete en Coyoacán, México."
+   "td": "Frida Kahlo nació en mil novecientos siete en Coyoacán, México.",
+   "o_fotos": [
+    {
+     "flag": "mx"
+    },
+    {
+     "flag": "co"
+    },
+    {
+     "flag": "cl"
+    },
+    {
+     "flag": "es"
+    }
+   ]
   },
   {
    "n": 20,
@@ -421,7 +546,21 @@
    "d": "Se formaron en Liverpool, Inglaterra, en 1960.",
    "tp": "¿De qué país era la banda The Beatles? ¿Estados Unidos, Irlanda, Australia o Reino Unido?",
    "tr": "¡Reino Unido!",
-   "td": "Se formaron en Liverpool, Inglaterra, en mil novecientos sesenta."
+   "td": "Se formaron en Liverpool, Inglaterra, en mil novecientos sesenta.",
+   "o_fotos": [
+    {
+     "flag": "us"
+    },
+    {
+     "flag": "ie"
+    },
+    {
+     "flag": "au"
+    },
+    {
+     "flag": "gb"
+    }
+   ]
   },
   {
    "n": 25,
@@ -487,7 +626,25 @@
    "tr": "¡La acuarela!",
    "td": "La acuarela se diluye con agua y se seca rápido.",
    "img_q": "Watercolor painting landscape",
-   "img_modo": "revela"
+   "img_modo": "revela",
+   "o_fotos": [
+    {
+     "q": "watercolor painting",
+     "src": "px"
+    },
+    {
+     "q": "oil paint tubes",
+     "src": "px"
+    },
+    {
+     "q": "charcoal drawing sticks",
+     "src": "px"
+    },
+    {
+     "q": "pastel chalks",
+     "src": "px"
+    }
+   ]
   },
   {
    "n": 29,
@@ -569,7 +726,21 @@
    "d": "Río de Janeiro celebra el carnaval con desfiles de samba.",
    "tp": "¿De qué país es la samba, ritmo estrella del carnaval de Río? ¿Cuba, Brasil, Portugal o Argentina?",
    "tr": "¡Brasil!",
-   "td": "Río de Janeiro celebra el carnaval con desfiles de samba."
+   "td": "Río de Janeiro celebra el carnaval con desfiles de samba.",
+   "o_fotos": [
+    {
+     "flag": "cu"
+    },
+    {
+     "flag": "br"
+    },
+    {
+     "flag": "pt"
+    },
+    {
+     "flag": "ar"
+    }
+   ]
   },
   {
    "n": 34,
@@ -635,7 +806,25 @@
    "tr": "¡Ámsterdam!",
    "td": "Rembrandt pintó La ronda de noche en mil seiscientos cuarenta y dos.",
    "img_q": "Rijksmuseum Amsterdam",
-   "img_modo": "revela"
+   "img_modo": "revela",
+   "o_fotos": [
+    {
+     "q": "Amsterdam canal houses",
+     "src": "px"
+    },
+    {
+     "q": "Brussels Grand Place",
+     "src": "px"
+    },
+    {
+     "q": "Vienna Schonbrunn",
+     "src": "px"
+    },
+    {
+     "q": "Berlin Brandenburg Gate",
+     "src": "px"
+    }
+   ]
   },
   {
    "n": 38,
@@ -802,7 +991,25 @@
    "d": "En China y Japón la caligrafía se considera un arte mayor.",
    "tp": "¿Cómo se llama el arte de escribir de forma muy bella a mano? ¿Caligrafía, heráldica, cerámica o tapicería?",
    "tr": "¡La caligrafía!",
-   "td": "En China y Japón la caligrafía se considera un arte mayor."
+   "td": "En China y Japón la caligrafía se considera un arte mayor.",
+   "o_fotos": [
+    {
+     "q": "calligraphy pen ink",
+     "src": "px"
+    },
+    {
+     "q": "coat of arms heraldry",
+     "src": "cm"
+    },
+    {
+     "q": "ceramic pottery",
+     "src": "px"
+    },
+    {
+     "q": "tapestry",
+     "src": "px"
+    }
+   ]
   },
   {
    "n": 48,
@@ -820,7 +1027,25 @@
    "tr": "¡El órgano!",
    "td": "Algunos órganos tienen miles de tubos.",
    "img_q": "Pipe organ church",
-   "img_modo": "revela"
+   "img_modo": "revela",
+   "o_fotos": [
+    {
+     "q": "accordion",
+     "src": "px"
+    },
+    {
+     "q": "bagpipes",
+     "src": "px"
+    },
+    {
+     "q": "pipe organ church",
+     "src": "px"
+    },
+    {
+     "q": "tuba",
+     "src": "px"
+    }
+   ]
   },
   {
    "n": 49,
@@ -854,7 +1079,28 @@
    "tr": "¡El mosaico!",
    "td": "Los romanos decoraron casas y templos con mosaicos.",
    "img_q": "Roman mosaic",
-   "img_modo": "revela"
+   "img_modo": "revela",
+   "o_fotos": [
+    {
+     "q": "collage art paper",
+     "src": "px"
+    },
+    {
+     "q": "engraving print",
+     "src": "cm",
+     "not": [
+      "map"
+     ]
+    },
+    {
+     "q": "mosaic tiles",
+     "src": "px"
+    },
+    {
+     "q": "fresco painting ceiling",
+     "src": "cm"
+    }
+   ]
   },
   {
    "n": 51,
@@ -870,7 +1116,21 @@
    "d": "Nació en la costa caribe colombiana y se extendió por América.",
    "tp": "¿En qué país nació la cumbia? ¿Cuba, México, Bolivia o Colombia?",
    "tr": "¡Colombia!",
-   "td": "Nació en la costa caribe colombiana y se extendió por toda América."
+   "td": "Nació en la costa caribe colombiana y se extendió por toda América.",
+   "o_fotos": [
+    {
+     "flag": "cu"
+    },
+    {
+     "flag": "mx"
+    },
+    {
+     "flag": "bo"
+    },
+    {
+     "flag": "co"
+    }
+   ]
   },
   {
    "n": 52,
@@ -1047,7 +1307,28 @@
    "tr": "¡El charango!",
    "td": "Sus diez cuerdas van agrupadas en cinco pares.",
    "img_q": "Charango",
-   "img_modo": "revela"
+   "img_modo": "revela",
+   "o_fotos": [
+    {
+     "q": "charango",
+     "src": "cm",
+     "must": "Charango"
+    },
+    {
+     "q": "ukulele",
+     "src": "px"
+    },
+    {
+     "q": "lute instrument",
+     "src": "cm",
+     "must": "lute"
+    },
+    {
+     "q": "bandurria",
+     "src": "cm",
+     "must": "Bandurria"
+    }
+   ]
   },
   {
    "n": 63,
@@ -1095,7 +1376,25 @@
    "d": "Louis Armstrong fue un gigante del jazz y su voz era inconfundible.",
    "tp": "¿Qué instrumento tocaba el gran jazzista Louis Armstrong? ¿Trompeta, clarinete, piano o trombón?",
    "tr": "¡La trompeta!",
-   "td": "Louis Armstrong fue un gigante del jazz y su voz era inconfundible."
+   "td": "Louis Armstrong fue un gigante del jazz y su voz era inconfundible.",
+   "o_fotos": [
+    {
+     "q": "trumpet",
+     "src": "px"
+    },
+    {
+     "q": "clarinet",
+     "src": "px"
+    },
+    {
+     "q": "grand piano",
+     "src": "px"
+    },
+    {
+     "q": "trombone",
+     "src": "px"
+    }
+   ]
   },
   {
    "n": 66,
@@ -1218,7 +1517,21 @@
    "d": "Mozart nació en Salzburgo en 1756.",
    "tp": "¿En qué país nació el compositor Mozart? ¿Alemania, Italia, Austria o Hungría?",
    "tr": "¡Austria!",
-   "td": "Mozart nació en Salzburgo en mil setecientos cincuenta y seis."
+   "td": "Mozart nació en Salzburgo en mil setecientos cincuenta y seis.",
+   "o_fotos": [
+    {
+     "flag": "de"
+    },
+    {
+     "flag": "it"
+    },
+    {
+     "flag": "at"
+    },
+    {
+     "flag": "hu"
+    }
+   ]
   },
   {
    "n": 73,
@@ -1284,7 +1597,26 @@
    "d": "Su nombre completo era «clavicémbalo con piano y forte».",
    "tp": "¿Qué instrumento inventó Cristofori en Italia hacia el año mil setecientos? ¿Clavicémbalo, piano, acordeón u órgano?",
    "tr": "¡El piano!",
-   "td": "Su nombre completo era clavicémbalo con piano y forte."
+   "td": "Su nombre completo era clavicémbalo con piano y forte.",
+   "o_fotos": [
+    {
+     "q": "harpsichord",
+     "src": "cm",
+     "must": "Harpsichord"
+    },
+    {
+     "q": "grand piano",
+     "src": "px"
+    },
+    {
+     "q": "accordion",
+     "src": "px"
+    },
+    {
+     "q": "pipe organ church",
+     "src": "px"
+    }
+   ]
   },
   {
    "n": 77,
@@ -1300,7 +1632,21 @@
    "d": "«Parásitos» ganó el Óscar a mejor película en 2020.",
    "tp": "¿De qué país es Parásitos, la primera película de habla no inglesa en ganar el Óscar a mejor película? ¿China, Japón, Corea del Sur o Tailandia?",
    "tr": "¡Corea del Sur!",
-   "td": "Parásitos ganó el Óscar a mejor película en dos mil veinte."
+   "td": "Parásitos ganó el Óscar a mejor película en dos mil veinte.",
+   "o_fotos": [
+    {
+     "flag": "cn"
+    },
+    {
+     "flag": "jp"
+    },
+    {
+     "flag": "kr"
+    },
+    {
+     "flag": "th"
+    }
+   ]
   },
   {
    "n": 78,
@@ -1316,7 +1662,21 @@
    "d": "Dejó su obra en la Capilla del Hombre, en Quito.",
    "tp": "¿De qué país era el pintor Oswaldo Guayasamín? ¿Perú, Ecuador, Bolivia o Venezuela?",
    "tr": "¡Ecuador!",
-   "td": "Dejó su obra en la Capilla del Hombre, en Quito."
+   "td": "Dejó su obra en la Capilla del Hombre, en Quito.",
+   "o_fotos": [
+    {
+     "flag": "pe"
+    },
+    {
+     "flag": "ec"
+    },
+    {
+     "flag": "bo"
+    },
+    {
+     "flag": "ve"
+    }
+   ]
   },
   {
    "n": 79,
@@ -1416,7 +1776,21 @@
    "tr": "¡España!",
    "td": "Las cuevas están en Cantabria, al norte de España.",
    "img_q": "Cave of Altamira bison",
-   "img_modo": "revela"
+   "img_modo": "revela",
+   "o_fotos": [
+    {
+     "flag": "fr"
+    },
+    {
+     "flag": "it"
+    },
+    {
+     "flag": "pt"
+    },
+    {
+     "flag": "es"
+    }
+   ]
   },
   {
    "n": 85,
@@ -1448,7 +1822,25 @@
    "d": "La Palma de Oro es el premio principal del Festival de Cannes.",
    "tp": "¿En qué ciudad francesa se entrega la Palma de Oro? ¿Venecia, Cannes, Berlín o Toronto?",
    "tr": "¡Cannes!",
-   "td": "La Palma de Oro es el premio principal del Festival de Cannes."
+   "td": "La Palma de Oro es el premio principal del Festival de Cannes.",
+   "o_fotos": [
+    {
+     "q": "Venice canal gondola",
+     "src": "px"
+    },
+    {
+     "q": "Berlin Brandenburg Gate",
+     "src": "px"
+    },
+    {
+     "q": "Toronto skyline CN tower",
+     "src": "px"
+    },
+    {
+     "q": "Cannes Croisette beach",
+     "src": "px"
+    }
+   ]
   },
   {
    "n": 87,
@@ -1466,7 +1858,21 @@
    "tr": "¡Japón!",
    "td": "Hokusai creó su famosa ola hacia mil ochocientos treinta y uno.",
    "img_q": "The Great Wave off Kanagawa",
-   "img_modo": "revela"
+   "img_modo": "revela",
+   "o_fotos": [
+    {
+     "flag": "cn"
+    },
+    {
+     "flag": "kr"
+    },
+    {
+     "flag": "jp"
+    },
+    {
+     "flag": "vn"
+    }
+   ]
   },
   {
    "n": 88,
@@ -1548,7 +1954,25 @@
    "d": "Usaban el caparazón del quirquincho, un armadillo andino.",
    "tp": "¿De qué animal se usaba el caparazón para hacer algunos charangos? ¿Armadillo, tortuga, cangrejo o caracol?",
    "tr": "¡El armadillo!",
-   "td": "Usaban el caparazón del quirquincho, un armadillo andino."
+   "td": "Usaban el caparazón del quirquincho, un armadillo andino.",
+   "o_fotos": [
+    {
+     "q": "armadillo",
+     "src": "px"
+    },
+    {
+     "q": "tortoise",
+     "src": "px"
+    },
+    {
+     "q": "crab",
+     "src": "px"
+    },
+    {
+     "q": "snail",
+     "src": "px"
+    }
+   ]
   },
   {
    "n": 93,
@@ -1632,7 +2056,25 @@
    "tr": "¡Milán!",
    "td": "Está pintada en la pared de un convento llamado Santa Maria delle Grazie.",
    "img_q": "The Last Supper Leonardo da Vinci",
-   "img_modo": "revela"
+   "img_modo": "revela",
+   "o_fotos": [
+    {
+     "q": "Rome Colosseum",
+     "src": "px"
+    },
+    {
+     "q": "Florence Duomo cathedral",
+     "src": "px"
+    },
+    {
+     "q": "Milan Duomo cathedral",
+     "src": "px"
+    },
+    {
+     "q": "Venice gondola canal",
+     "src": "px"
+    }
+   ]
   },
   {
    "n": 98,
@@ -1856,5 +2298,27 @@
    "presentador",
    "¡Terminamos, familia! Cuéntennos en los comentarios cuántos puntos hicieron y suscríbanse para el próximo episodio."
   ]
- }
+ },
+ "fotos_miniatura": [
+  [
+   8,
+   0
+  ],
+  [
+   92,
+   0
+  ],
+  [
+   97,
+   3
+  ],
+  [
+   48,
+   0
+  ],
+  [
+   62,
+   0
+  ]
+ ]
 }

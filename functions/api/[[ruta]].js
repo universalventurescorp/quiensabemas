@@ -62,7 +62,9 @@ export async function onRequest({ request, env, params }) {
     const codigo = limpiarCodigo(c.codigo);
     const g = await db.prepare('SELECT * FROM grupos WHERE codigo = ?').bind(codigo).first();
     if (!g) return error('No encontramos ese grupo.', 404);
-    if (c.accion === 'empezar' && !g.inicio) await db.prepare('UPDATE grupos SET inicio = ? WHERE codigo = ? AND inicio IS NULL').bind(ahora, codigo).run();
+    // valor (ms) = punto del programa donde se empieza (formato nuevo: el «¡YA!» tras la pregunta 3); solo si nadie empezó antes
+    if (c.accion === 'empezar' && !g.inicio) await db.prepare('UPDATE grupos SET inicio = ?, ajuste = ajuste + ? WHERE codigo = ? AND inicio IS NULL')
+      .bind(ahora, Math.max(0, Math.min(600000, Math.round(Number(c.valor) || 0))), codigo).run();
     if (c.accion === 'pausa' && g.inicio && !g.pausa) await db.prepare('UPDATE grupos SET pausa = ? WHERE codigo = ?').bind(ahora, codigo).run();
     if (c.accion === 'seguir' && g.pausa) await db.prepare('UPDATE grupos SET pausado = pausado + (? - pausa), pausa = NULL WHERE codigo = ?').bind(ahora, codigo).run();
     if (c.accion === 'ajuste') {

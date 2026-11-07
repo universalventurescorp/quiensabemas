@@ -1,0 +1,66 @@
+name: tiempos_web
+# Recalcula los tiempos de un episodio YA SUBIDO en el formato nuevo (sin volver a montar el video) y actualiza su sala
+# en la web, para que el celular vaya sincronizado con la versión publicada. También corrige publicados/<id>.json.
+# Uso típico: ep007 publicado el 7-nov como kb3ODDdTpTM (prueba «movimiento», hecha antes del segundo «¡YA!» → sin_ya2=1).
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: "Corrida cuyas voces y trabajo se reusan (artefactos: 3 días)"
+        default: "42230384210"
+      video:
+        description: "Id del video publicado"
+        default: "kb3ODDdTpTM"
+      sin_ya2:
+        description: "1 = el video no tiene el «¡YA!» tras la pregunta 3 (hecho antes del 7-nov)"
+        default: "1"
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  tiempos:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      QSM_SOLO_TIEMPOS: "1"
+      QSM_ARRANQUE_RAPIDO: "1"
+      QSM_RIVALIDAD: "1"
+      QSM_COMEDIA: "1"
+      QSM_MOVIMIENTO: "1"
+      QSM_SIN_YA2: ${{ inputs.sin_ya2 }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { name: trabajo, path: trabajo, run-id: "${{ inputs.run_id }}", github-token: "${{ github.token }}" }
+      - uses: actions/download-artifact@v4
+        with: { pattern: "voces-*", path: voces_ep, merge-multiple: true, run-id: "${{ inputs.run_id }}", github-token: "${{ github.token }}" }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q numpy pillow scipy reportlab
+      - name: Tiempos
+        run: python pipeline/tv.py --contenido trabajo/episodio.json --voces voces_ep --out trabajo/video.mp4 --tmp tmp
+      - name: Sala de la web + publicados
+        env: { VIDEO: "${{ inputs.video }}" }
+        run: |
+          python scripts/exportar_episodio.py trabajo/episodio.json trabajo/video.tiempos.json
+          python - <<'PY'
+          import json, os
+          ep = json.load(open('trabajo/episodio.json', encoding='utf-8')); t = json.load(open('trabajo/video.tiempos.json'))
+          print('ya2 =', t.get('ya2'), '· preguntas', len(t['tiempos']), '· duración', t['duracion'])
+          p = f"publicados/{ep['id']}.json"; pub = json.load(open(p))
+          if pub.get('video') != os.environ['VIDEO']:
+              pub['reemplaza'] = [pub['video']] + pub.get('reemplaza', []); pub['video'] = os.environ['VIDEO']
+          pub['duracion'] = t['duracion']; pub['privacidad'] = 'public'
+          json.dump(pub, open(p, 'w'), ensure_ascii=False, indent=1)
+          PY
+          git config user.name "quiensabemas-bot"; git config user.email "actions@users.noreply.github.com"
+          git add web/episodios publicados
+          git commit -m "Tiempos de la sala con la versión publicada (${{ inputs.video }})" || exit 0
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
+      - name: Publicar la web
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: gh workflow run web.yml --ref main -R "${{ github.repository }}"

@@ -68,6 +68,32 @@ Campos de cada pregunta:
   - Para banderas usa `"bandera": "jp"` (código ISO de 2 letras) con `img_modo` `"pregunta"`, en vez de `img_q`.
 - `tema`: una palabra (geografía, historia, ciencia, animales, comida, deportes, arte…).
 
+### Fotos reales en las alternativas (campo `o_fotos`)
+
+En el formato nuevo, las alternativas pueden salir como tarjetas con una foto real cada una. Ponlo en **unas 30 a 40 preguntas por cada 100** (las que más ganan viéndose), solo cuando **las 4 alternativas son cosas que se pueden fotografiar sin dudas**: animales, plantas, frutas y platos, lugares y monumentos, planetas y lunas, órganos, objetos e instrumentos, vehículos, banderas, obras de arte antiguas de dominio público. Nunca en `vf`, `relampago`, ni en preguntas con `img_modo: "pregunta"`; nunca si las alternativas son años, números, nombres de personas vivas, palabras o conceptos abstractos; nunca si alguna foto regalaría la respuesta.
+
+`o_fotos` es una lista de 4 búsquedas, una por alternativa y en el mismo orden que `o`:
+
+```json
+"o_fotos": [
+ {"q": "giraffe", "src": "px"},
+ {"q": "Mars Valles Marineris globe", "src": "cm", "must": "Mars", "not": ["comparison", "size"]},
+ {"flag": "pe"},
+ {"q": "charango instrument", "src": "px"}
+]
+```
+
+- `q`: búsqueda en **inglés**, concreta y sin ambigüedad («Venus real color Mariner», no «Venus»; «human liver anatomy», no «liver»).
+- `src`: `"px"` = Pixabay (fotos bonitas de cosas comunes: animales, comida, objetos, paisajes); `"cm"` = Wikimedia Commons (cosas específicas: planetas reales de la NASA, monumentos, obras de arte, especies raras).
+- `must` (opcional, solo con `cm`): palabra que **debe** estar en el nombre del archivo; `not` (opcional): palabras que lo descartan (comparaciones, mapas, diagramas…).
+- `flag`: si las 4 alternativas son países, usa `{"flag": "<código ISO de 2 letras>"}` en las 4.
+
+Además, en el episodio, `"fotos_miniatura": [[n, i], [n, i], …]`: 3 a 5 fotos de alternativas (número de pregunta e índice de la alternativa) que se verían espectaculares en la miniatura (coloridas, fáciles de reconocer en pequeño, de temas distintos; la primera va al frente). Solo de preguntas que tienen `o_fotos`.
+
+Una revisión automática mira cada foto antes de producir y, si alguna no corresponde, esa pregunta sale con tarjetas de texto: por eso elige alternativas y búsquedas donde la foto correcta sea fácil de encontrar.
+
+**Episodios ya escritos:** si un episodio de `contenido/cola/` que todavía no se ha producido (no está en `publicados/`) no tiene ninguna pregunta con `o_fotos` ni `fotos_miniatura`, agrégaselas antes de escribir preguntas nuevas (no cuentan en el límite de 140 preguntas). No cambies sus preguntas.
+
 ### Rondas especiales (campo `ronda`)
 
 Para que cada episodio tenga ritmo y no se sienta igual, mezcla estas rondas. Las preguntas de una misma ronda van **seguidas** (LA VOZ la anuncia una sola vez al empezar). Las demás preguntas no llevan `ronda`.

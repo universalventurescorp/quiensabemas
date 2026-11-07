@@ -1,6 +1,9 @@
 name: produccion
 # Produce el próximo episodio listo de contenido/cola/ y lo sube a YouTube EN PRIVADO.
-# preparar (fotos, revisión de repetidas) → voces en 6 máquinas a la vez → render → control de calidad → subida privada.
+# preparar (fotos, fotos de las alternativas + revisión de Claude) → voces en 6 máquinas a la vez → render en el FORMATO NUEVO
+# (aprobado por Luis el 7-nov-2026: música alta, subtítulos, arranque rápido, fotos reales, MAX contra NOVA, comedia, movimiento)
+# → control de calidad → subida privada → Shorts en formato nuevo.
+# Rehacer un episodio ya subido reusando sus voces: id=ep008, voces_de=<run_id de la corrida original> (artefactos: 3 días).
 on:
   schedule:
     - cron: "7 6 * * *"        # todos los días 01:07 hora de Lima (de noche, para no chocar con los otros canales)
@@ -8,6 +11,12 @@ on:
     inputs:
       id:
         description: "Episodio a producir (vacío = el siguiente listo de la cola)"
+        default: ""
+      voces_de:
+        description: "Rehacer: run_id de una corrida anterior cuyas voces se reusan (vacío = generar voces)"
+        default: ""
+      subir_shorts:
+        description: "1 = subir los Shorts aunque calendario.json diga shorts_auto=false"
         default: ""
 
 permissions:
@@ -24,7 +33,7 @@ env:
 jobs:
   preparar:
     runs-on: ubuntu-24.04
-    timeout-minutes: 30
+    timeout-minutes: 75
     outputs:
       id: ${{ steps.p.outputs.id }}
       formato: ${{ steps.p.outputs.formato }}
@@ -33,14 +42,39 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
       - id: p
-        run: python scripts/preparar_episodio.py --id "${{ inputs.id }}" --salida trabajo
+        run: python scripts/preparar_episodio.py --id "${{ inputs.id }}" --salida trabajo ${{ inputs.voces_de != '' && '--rehacer' || '' }}
+      - name: Fotos reales para las alternativas (Pixabay / Wikimedia, filtro CLIP)
+        if: steps.p.outputs.id != ''
+        env: { PIXABAY_API_KEY: "${{ secrets.PIXABAY_API_KEY }}" }
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq librsvg2-bin
+          pip install -q pillow numpy
+          pip install -q torch torchvision --index-url https://download.pytorch.org/whl/cpu
+          pip install -q open_clip_torch
+          python scripts/fotos_opciones.py trabajo/episodio.json - trabajo/opciones --hoja trabajo/hoja_fotos.jpg --revision trabajo/revision || echo "::warning::Fotos de alternativas fallaron: sale con texto"
+      - name: Claude revisa cada foto (si una no corresponde, esa pregunta va con texto)
+        if: steps.p.outputs.id != '' && hashFiles('trabajo/revision/indice.json') != ''
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: Lee y sigue al pie de la letra las instrucciones de prompts/revisor_fotos.md.
+          claude_args: >-
+            --model sonnet
+            --max-turns 120
+            --allowedTools "Read,Write,Glob"
+      - name: Aplicar la revisión
+        if: steps.p.outputs.id != ''
+        run: |
+          if [ -f trabajo/revision/indice.json ]; then python scripts/revisar_fotos.py trabajo/episodio.json trabajo/revision; fi
       - if: steps.p.outputs.id != ''
         uses: actions/upload-artifact@v4
         with: { name: trabajo, path: trabajo, retention-days: 3 }
 
   voces:
     needs: preparar
-    if: needs.preparar.outputs.id != ''
+    if: needs.preparar.outputs.id != '' && inputs.voces_de == ''
     runs-on: ubuntu-24.04
     timeout-minutes: 340
     strategy:
@@ -70,15 +104,31 @@ jobs:
 
   render:
     needs: [preparar, voces]
-    if: needs.preparar.outputs.id != ''
+    if: always() && needs.preparar.result == 'success' && needs.preparar.outputs.id != '' && (needs.voces.result == 'success' || needs.voces.result == 'skipped')
     runs-on: ubuntu-24.04
     timeout-minutes: 340
+    env:   # formato nuevo (aprobado 7-nov-2026)
+      QSM_MUSICA_ALTA: "1"
+      QSM_MUSICA_ALTA_DB: "1"
+      QSM_SUBTITULOS: "1"
+      QSM_ARRANQUE_RAPIDO: "1"
+      QSM_RIVALIDAD: "1"
+      QSM_COMEDIA: "1"
+      QSM_MOVIMIENTO: "1"
+      QSM_MINI_BARAJA: "1"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/download-artifact@v4
         with: { name: trabajo, path: trabajo }
-      - uses: actions/download-artifact@v4
+      - if: inputs.voces_de == ''
+        uses: actions/download-artifact@v4
         with: { pattern: "voces-*", path: voces_ep, merge-multiple: true }
+      - if: inputs.voces_de != ''
+        uses: actions/download-artifact@v4
+        with: { pattern: "voces-*", path: voces_ep, merge-multiple: true, run-id: "${{ inputs.voces_de }}", github-token: "${{ github.token }}" }
+      - name: Letra gruesa para los subtítulos (Poppins Black, licencia OFL)
+        run: |
+          test -f fuentes/Poppins-Black.ttf || curl -sSfL -o fuentes/Poppins-Black.ttf https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Black.ttf || echo "::warning::Sin Poppins Black: se usa Bold"
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
       - name: Instalar
@@ -98,8 +148,8 @@ jobs:
           fi
       - name: Montar el video
         run: python pipeline/tv.py --contenido trabajo/episodio.json --voces voces_ep --out trabajo/video.mp4 --tmp tmp
-      - name: Miniatura
-        run: python pipeline/miniatura.py trabajo/episodio.json trabajo/miniatura.jpg
+      - name: Miniatura (baraja; también deja miniatura_voz.jpg para el Test & Compare)
+        run: python pipeline/miniatura.py trabajo/episodio.json trabajo/miniatura.jpg --feed trabajo/feed.png
       - name: Control de calidad (si falla, no se sube)
         run: python scripts/control_calidad.py trabajo/episodio.json trabajo/video.mp4 trabajo/video.tiempos.json
       - name: Subir a YouTube EN PRIVADO
@@ -108,10 +158,23 @@ jobs:
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN_QSM: ${{ secrets.YT_REFRESH_TOKEN_QSM }}
         run: python scripts/subir_youtube.py trabajo/episodio.json trabajo/video.mp4 trabajo/video.tiempos.json trabajo/miniatura.jpg
-      - name: Shorts «¿La sabes en 5 segundos?» (2 por episodio, 4 el maratón)
+      - name: Shorts en formato nuevo (2 por episodio, 4 el maratón)
         continue-on-error: true
-        run: python pipeline/shorts.py --contenido trabajo/episodio.json --voces voces_ep --salida trabajo/shorts
+        run: python pipeline/shorts.py --contenido trabajo/episodio.json --voces voces_ep --salida trabajo/shorts --tiempos trabajo/video.tiempos.json
+      - id: sh
+        name: ¿Se suben los Shorts?
+        env: { FORZAR: "${{ inputs.subir_shorts }}" }
+        run: |
+          python - >> "$GITHUB_OUTPUT" <<'EOF'
+          import json, os
+          auto = json.load(open('contenido/calendario.json')).get('shorts_auto')
+          print('subir=' + ('1' if auto or os.environ.get('FORZAR') == '1' else ''))
+          EOF
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: shorts, path: "trabajo/shorts/*.mp4", retention-days: 7, if-no-files-found: ignore }
       - name: Subir los Shorts EN PRIVADO (con enlace al episodio)
+        if: steps.sh.outputs.subir == '1'
         continue-on-error: true
         env:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
@@ -138,6 +201,33 @@ jobs:
       - name: Publicar la sala del episodio en la web
         env: { GH_TOKEN: "${{ github.token }}" }
         run: gh workflow run web.yml --ref main -R "${{ github.repository }}"
+      - name: Diagnóstico para revisar desde la sesión (rama diag-produccion)
+        if: always()
+        continue-on-error: true
+        run: |
+          mkdir -p /tmp/diag && cd trabajo
+          cp hoja_fotos.jpg miniatura.jpg miniatura_voz.jpg video.tiempos.json /tmp/diag/ 2>/dev/null || true
+          cp revision/veredicto.json /tmp/diag/ 2>/dev/null || true
+          cp shorts/shorts.json /tmp/diag/ 2>/dev/null || true
+          for f in shorts/short_*.mp4; do [ -f "$f" ] || continue; b=$(basename "$f" .mp4)
+            for s in 0.5 4 9 13 17 21 26; do ffmpeg -v error -y -ss $s -i "$f" -frames:v 1 -vf scale=360:-1 "/tmp/diag/${b}_$s.jpg" || true; done; done
+          python - <<'EOF'
+          import json, subprocess
+          try: t = json.load(open('video.tiempos.json'))
+          except Exception: raise SystemExit
+          marcas = {'inicio_02s': 2, 'inicio_08s': 8, 'ya2': t['ya'] + t.get('ya2', 0) - 1}
+          ep = json.load(open('episodio.json', encoding='utf-8'))
+          con = [q['n'] for q in ep['preguntas'] if q.get('o_img')][:3]
+          for x in t['tiempos']:
+              if x['n'] in con: marcas[f"p{x['n']}_reloj"] = t['ya'] + x['reloj'] + 3; marcas[f"p{x['n']}_revela"] = t['ya'] + x['cierra'] + 4.5
+          for k, s in marcas.items():
+              subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', str(s), '-i', 'video.mp4', '-frames:v', '1', '-vf', 'scale=960:-1', f'/tmp/diag/{k}.jpg'])
+          EOF
+          cd /tmp/diag && ls
+          git init -q && git checkout -q -b d
+          git config user.name "quiensabemas-bot"; git config user.email "actions@users.noreply.github.com"
+          git add . && git commit -qm "Diagnóstico de producción ${{ github.run_id }}"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" d:diag-produccion
       - name: Guardar el video por si hay que reintentar la subida
         if: failure()
         uses: actions/upload-artifact@v4

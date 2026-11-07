@@ -1,8 +1,10 @@
-"""Fotos reales para las alternativas (PRUEBA 6-nov-2026).
+"""Fotos reales para las alternativas (formato nuevo, en producción desde el 7-nov-2026).
 Para cada alternativa busca 3-5 candidatas (Pixabay y/o Wikimedia Commons, o bandera), y un modelo CLIP
 (sin GPU) elige la que de verdad se parece a la palabra. Si en una pregunta alguna alternativa no pasa el control,
 esa pregunta se queda con alternativas de solo texto (todo o nada, para que la pantalla sea pareja).
-Uso: python scripts/fotos_opciones.py trabajo/episodio.json contenido/fotos_opciones/ep007.json trabajo/opciones [--hoja hoja.jpg]
+Uso: python scripts/fotos_opciones.py trabajo/episodio.json <búsquedas.json | -> trabajo/opciones [--hoja hoja.jpg] [--revision dir]
+Con «-» las búsquedas salen del propio episodio: q['o_fotos'] (las escribe el escritor) y ep['fotos_miniatura'].
+--revision deja una imagen por pregunta (p012.jpg) + indice.json para la revisión automática (scripts/revisar_fotos.py).
 Escribe q['o_img'] en el episodio, los créditos en trabajo/img/creditos.json y q['o_score'] para la miniatura.
 """
 import io, json, os, re, subprocess, sys, time, unicodedata, urllib.parse, urllib.request
@@ -105,7 +107,12 @@ def candidatas(c):
 def main():
     ep_path, cons_path, dst = sys.argv[1:4]
     hoja = sys.argv[sys.argv.index('--hoja') + 1] if '--hoja' in sys.argv else None
-    ep = json.load(open(ep_path, encoding='utf-8')); cons = json.load(open(cons_path, encoding='utf-8'))
+    rev = sys.argv[sys.argv.index('--revision') + 1] if '--revision' in sys.argv else None
+    ep = json.load(open(ep_path, encoding='utf-8'))
+    if cons_path == '-':
+        cons = {str(q['n']): q['o_fotos'] for q in ep['preguntas'] if len(q.get('o_fotos') or []) == len(q['o'])}
+        cons['_miniatura'] = ep.get('fotos_miniatura', [])
+    else: cons = json.load(open(cons_path, encoding='utf-8'))
     os.makedirs(dst, exist_ok=True)
     cred_f = os.path.join(os.path.dirname(os.path.abspath(ep_path)), 'img', 'creditos.json')
     os.makedirs(os.path.dirname(cred_f), exist_ok=True)
@@ -113,7 +120,7 @@ def main():
     clip = Clip(); hojas = []; ok_n = 0
     for q in ep['preguntas']:
         cs = cons.get(str(q['n'])) if str(q['n']) in cons else None
-        if not cs or (q.get('img_modo') == 'pregunta'): continue
+        if not cs or q.get('img_modo') == 'pregunta' or q.get('ronda') in ('relampago', 'vf') or len(cs) != len(q['o']): continue
         eleg = []
         if all('flag' in c for c in cs):
             for i, c in enumerate(cs):
@@ -148,6 +155,20 @@ def main():
     json.dump(ep, open(ep_path, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     json.dump(creditos, open(cred_f, 'w'), ensure_ascii=False, indent=1)
     print(f'Listo: {ok_n} preguntas con fotos en las alternativas')
+    if rev and hojas:    # una imagen por pregunta, grande, para que la revisión vea bien cada foto
+        os.makedirs(rev, exist_ok=True); ind = {}
+        for q, fs in hojas:
+            from PIL import ImageFont
+            try: fnt = ImageFont.truetype(os.path.join(RAIZ, 'fuentes', 'Poppins-Bold.ttf'), 24)
+            except Exception: fnt = None
+            cw, ch = 520, 420; img = Image.new('RGB', (cw * 2, ch * 2 + 70), (20, 14, 50)); d = ImageDraw.Draw(img)
+            d.text((12, 20), f"P{q['n']}: {q['p'][:80]}", fill=(255, 220, 90), font=fnt)
+            for i, f in enumerate(fs):
+                t = Image.open(f).convert('RGB'); t.thumbnail((cw - 16, ch - 46)); x, y = (i % 2) * cw, 70 + (i // 2) * ch
+                img.paste(t, (x + 8, y + 4)); d.text((x + 10, y + ch - 40), f"{'ABCD'[i]}. {q['o'][i][:40]}", fill=(255, 255, 255), font=fnt)
+            fn = f"p{q['n']:03d}.jpg"; img.save(os.path.join(rev, fn), quality=85)
+            ind[str(q['n'])] = {'archivo': fn, 'pregunta': q['p'], 'alternativas': q['o'], 'busquedas': [c.get('q') or c.get('flag') for c in cons[str(q['n'])]]}
+        json.dump(ind, open(os.path.join(rev, 'indice.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     if hoja and hojas:   # hoja de contacto para revisar
         cw, ch = 220, 150; img = Image.new('RGB', (cw * 4 + 260, ch * len(hojas)), (20, 14, 50)); d = ImageDraw.Draw(img)
         for r, (q, fs) in enumerate(hojas):

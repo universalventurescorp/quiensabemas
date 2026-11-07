@@ -31,5 +31,7 @@
    "12:00",
    "20:00"
   ]
- }
+ },
+ "shorts_auto": false,
+ "_shorts": "shorts_auto=false: los Shorts del formato nuevo se hacen y quedan como artefacto 'shorts' de la corrida, sin subir (salvo subir_shorts=1). Pasar a true cuando Luis apruebe el Short de prueba."
 }

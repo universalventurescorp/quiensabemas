@@ -42,7 +42,7 @@ def parecidas(a, b):
 
 def revisar(path):
     ep = json.load(open(path, encoding='utf-8'))
-    banco = cargar(); previas = [b['k'] for b in banco]
+    banco = [b for b in cargar() if b.get('ep') != ep.get('id')]; previas = [b['k'] for b in banco]   # al rehacer, no choca consigo mismo
     # índice por respuesta para no comparar todo contra todo
     por_resp = {}
     for b in banco: por_resp.setdefault(b['k'].split(' => ')[1], []).append(b)
@@ -65,6 +65,15 @@ def revisar(path):
         if q.get('ronda') == 'misteriosa' and not ((q.get('img_q') or q.get('bandera') or q.get('img')) and q.get('img_modo') == 'pregunta'):
             problemas.append(f"P{q['n']}: imagen misteriosa necesita img_q (o bandera) e img_modo \"pregunta\"")
         if q.get('ronda') not in (None, 'misteriosa', 'vf', 'relampago'): problemas.append(f"P{q['n']}: ronda desconocida")
+        of = q.get('o_fotos')
+        if of is not None:
+            if q.get('ronda') in ('vf', 'relampago') or q.get('img_modo') == 'pregunta':
+                problemas.append(f"P{q['n']}: o_fotos no va en vf, relámpago ni con img_modo \"pregunta\"")
+            elif len(of) != len(q['o']) or not all(isinstance(c, dict) and (c.get('flag') or (c.get('q') and c.get('src') in ('px', 'cm'))) for c in of):
+                problemas.append(f"P{q['n']}: o_fotos debe tener 4 búsquedas {{\"q\", \"src\": \"px\"|\"cm\"}} o {{\"flag\"}}")
+    for n, i in ep.get('fotos_miniatura', []):
+        qq = next((q for q in ep['preguntas'] if q['n'] == n), None)
+        if not qq or not qq.get('o_fotos') or not 0 <= i < len(qq['o']): problemas.append(f"fotos_miniatura: [{n}, {i}] no apunta a una alternativa con o_fotos")
     print(f"{path}: {len(ep['preguntas'])} preguntas · banco con {len(previas)} · problemas: {len(problemas)}")
     for x in problemas: print('  -', x)
     return not problemas

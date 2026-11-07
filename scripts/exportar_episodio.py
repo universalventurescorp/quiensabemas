@@ -19,6 +19,7 @@ def main(contenido, tiempos, destino='web/episodios'):
     ep = {
         'sala': sala, 'titulo': meta['titulo'], 'total': meta.get('total_anunciado', len(meta['preguntas'])),
         'tiempos': t['tiempos'],
+        **({'ya2': t['ya2']} if t.get('ya2') else {}),   # formato nuevo: segundo «¡YA!» tras la pregunta 3
         'preguntas': [{'n': q['n'], 'p': q['p'], 'o': q['o'], 'h': fnv(f"{sala}|{q['n']}|{q['c']}")} for q in meta['preguntas']],
     }
     os.makedirs(destino, exist_ok=True)
