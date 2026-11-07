@@ -1,0 +1,53 @@
+{
+ "_nota": "PRUEBA comedia MAX contra NOVA (7-nov-2026): pullas cortas después de la revelación, en ~1 de cada 3 preguntas. Humor limpio, para toda la familia. Se generan con: voces.yml contenido=contenido/comedia.json salida=banco/comedia",
+ "variantes": {
+  "pr_pulla": ["presentador", [
+   "¡NOVA, eso estaba facilito!",
+   "Uno más para mí, NOVA. ¿Quieres que te preste mis circuitos?",
+   "¡Ja! Te lo dije, NOVA.",
+   "NOVA, ¿estabas mirando las estrellas otra vez?",
+   "Punto para MAX. Tranquila, NOVA, todavía queda partida.",
+   "¡Así se hace! NOVA, toma nota."
+  ]],
+  "co_pulla": ["copresentadora", [
+   "MAX, ¿te quedaste sin batería?",
+   "¡Ay, MAX! Esa la sabía hasta mi tostadora.",
+   "Punto para mí. MAX, respira hondo.",
+   "MAX, tu foco se apagó otra vez.",
+   "¡Tranquilo, MAX! Todos tenemos un mal día… tú tienes varios.",
+   "Uno más para NOVA. ¿Lo anotas tú, MAX, o lo anoto yo?"
+  ]],
+  "pr_excusa": ["presentador", [
+   "Me distraje mirando el reloj…",
+   "¡Esa pregunta estaba mal hecha!",
+   "Lo hice a propósito, para darle ventaja.",
+   "Se me cruzaron los cables, nada más."
+  ]],
+  "co_excusa": ["copresentadora", [
+   "Fue un error de cálculo… mínimo.",
+   "¡Estaba probando si me prestaban atención!",
+   "Esa no cuenta, me hiciste reír.",
+   "Mmm… mejor sigamos."
+  ]],
+  "pr_ambos_mal": ["presentador", [
+   "Bueno… mejor no lo comentamos.",
+   "Esto no sale de aquí, ¿de acuerdo?",
+   "Ustedes en casa, ¿la sabían? No nos digan."
+  ]],
+  "co_ambos_mal": ["copresentadora", [
+   "Ninguno de los dos… qué vergüenza.",
+   "Hagamos como que esto no pasó.",
+   "Familia, ustedes nos ganaron esta."
+  ]],
+  "pr_ambos_bien": ["presentador", [
+   "¡Empate de genios!",
+   "Esta la sabíamos todos, ¿o no?",
+   "Dos cerebros brillantes, NOVA."
+  ]],
+  "co_ambos_bien": ["copresentadora", [
+   "¡Chócala, MAX!",
+   "Esta vez estamos de acuerdo, MAX.",
+   "Los dos, ¡bien! Pero esto no se acaba aquí."
+  ]]
+ }
+}
