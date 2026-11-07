@@ -17,6 +17,9 @@ on:
       arranque:
         description: "Arranque rápido: pregunta 1 en los primeros segundos, QR tras la pregunta 3 (1 = sí)"
         default: "1"
+      solo_fotos:
+        description: "1 = solo buscar fotos y dejar la hoja en diag-prueba (sin video)"
+        default: ""
       fotos:
         description: "Archivo de búsquedas de fotos de las alternativas (vacío = sin fotos)"
         default: "contenido/fotos_opciones/ep007.json"
@@ -52,6 +55,7 @@ jobs:
         env: { PIXABAY_API_KEY: "${{ secrets.PIXABAY_API_KEY }}" }
         run: python scripts/fotos_opciones.py trabajo/episodio.json "${{ inputs.fotos }}" trabajo/opciones --hoja trabajo/hoja_fotos.jpg
       - name: Descifrar la música
+        if: inputs.solo_fotos != '1'
         env: { MUSICA_CLAVE: "${{ secrets.MUSICA_CLAVE }}" }
         run: |
           test -n "$MUSICA_CLAVE" || { echo "Falta MUSICA_CLAVE"; exit 1; }
@@ -60,9 +64,11 @@ jobs:
           openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -pass file:/tmp/clave -in assets/musica.enc | tar -x -C assets/musica
           rm -f /tmp/clave; ls assets/musica/*.ogg
       - name: Letra gruesa para los subtítulos (Poppins Black, licencia OFL)
+        if: inputs.solo_fotos != '1'
         run: |
           test -f fuentes/Poppins-Black.ttf || curl -sSfL -o fuentes/Poppins-Black.ttf https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Black.ttf || echo "::warning::Sin Poppins Black: se usa Bold"
       - name: Título de prueba
+        if: inputs.solo_fotos != '1'
         run: |
           python - <<'EOF'
           import json
@@ -74,12 +80,15 @@ jobs:
           print(ep['titulo_youtube'])
           EOF
       - name: Montar el video (música alta constante)
+        if: inputs.solo_fotos != '1'
         env: { QSM_MUSICA_ALTA: "1", QSM_MUSICA_ALTA_DB: "${{ inputs.nivel_db }}", QSM_SUBTITULOS: "${{ inputs.subtitulos }}", QSM_ARRANQUE_RAPIDO: "${{ inputs.arranque }}" }
         run: python pipeline/tv.py --contenido trabajo/episodio.json --voces voces_ep --out trabajo/video.mp4 --tmp tmp
       - name: Miniatura (collage)
+        if: inputs.solo_fotos != '1'
         env: { QSM_MINI_COLLAGE: "1" }
         run: python pipeline/miniatura.py trabajo/episodio.json trabajo/miniatura.jpg --feed trabajo/feed.png
       - name: Subir a YouTube EN PRIVADO
+        if: inputs.solo_fotos != '1'
         env:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
