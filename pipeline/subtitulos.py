@@ -4,7 +4,7 @@
 - Los tiempos de cada palabra se reparten por sílabas dentro del tramo con voz del clip (sin GPU).
 Se activa con QSM_SUBTITULOS=1 (tv.py).
 """
-import os, re
+import os, re, unicodedata
 from PIL import Image, ImageDraw, ImageFont
 
 COLOR = {'presentador': (255, 200, 40), 'copresentadora': (90, 215, 255), 'anunciador': (140, 235, 110)}
@@ -17,6 +17,18 @@ VOCAL = re.compile(r'[aeiouáéíóúü]+', re.I)
 def silabas(w):
     if re.search(r'\d', w): return max(1, 2 * len(re.sub(r'\D', '', w)))
     return max(1, len(VOCAL.findall(w)))
+
+
+def norm(w):
+    w = ''.join(c for c in unicodedata.normalize('NFD', w.lower()) if unicodedata.category(c) != 'Mn')
+    return re.sub(r'[^a-z0-9ñ]', '', w)
+
+
+def ya_escrito(grupo, vistas):
+    """El bloque ya se lee en pantalla si todas sus palabras con contenido (4+ letras) están escritas allí."""
+    ws = [norm(w) for w, _, _ in grupo]; largas = [w for w in ws if len(w) >= 4]
+    if not largas: return all(w in vistas for w in ws if w)
+    return all(w in vistas for w in largas)
 
 
 def pausa(w):
@@ -38,7 +50,7 @@ class Subtitulos:
         if sz not in s._fc: s._fc[sz] = ImageFont.truetype(s.fuente, sz)
         return s._fc[sz]
 
-    def agregar(s, at, lv, quien, texto):
+    def agregar(s, at, lv, quien, texto, pantalla=''):
         """at: inicio del clip (s); lv: niveles de boca por cuadro (0 = silencio)."""
         pal = texto.split()
         if not pal or lv is None or not len(lv): return
@@ -51,6 +63,7 @@ class Subtitulos:
             dur = (b - a) * p / tot
             hablar = (b - a) * silabas(w) / tot
             tiempos.append((w, t, t + max(hablar, dur * 0.6))); t += dur
+        vistas = {norm(w) for w in pantalla.split()}
         grupo = []
         for k, (w, t0, t1) in enumerate(tiempos):
             grupo.append((w, t0, t1))
@@ -58,7 +71,8 @@ class Subtitulos:
             sig = tiempos[k + 1][0] if k + 1 < len(tiempos) else ''
             if (len(grupo) >= MAX_PAL or pausa(w) or k + 1 == len(tiempos)
                     or largo + len(sig) > MAX_CAR):
-                s.bloques.append([grupo[0][1], grupo[-1][2], quien, grupo]); grupo = []
+                if not ya_escrito(grupo, vistas): s.bloques.append([grupo[0][1], grupo[-1][2], quien, grupo])
+                grupo = []
         s.bloques.sort(key=lambda x: x[0])
 
     def cerrar(s):

@@ -447,14 +447,14 @@ class Programa:
             s._vivo = (ei, Image.frombytes('RGB', img[1], zlib.decompress(img[2])))
         return s._vivo[1]
 
-    def voz(s, arr, at, quien, texto=None):
+    def voz(s, arr, at, quien, texto=None, pantalla=''):
         s.audio.append((at, arr))
         hop = SR // FPS; n = max(1, len(arr) // hop)
         env = np.array([np.sqrt(np.mean(arr[i * hop:(i + 1) * hop] ** 2) + 1e-9) for i in range(n)])
         ref = max(np.percentile(env, 92), 1e-4)
         lv = np.clip(np.round(env / ref * 4), 0, 4).astype(int); lv[env < 0.012] = 0
         s.habla.append((at, at + len(arr) / SR, quien, lv))
-        if s.subs and texto: s.subs.agregar(at, lv, quien, texto)
+        if s.subs and texto: s.subs.agregar(at, lv, quien, texto, pantalla)
 
     def boca(s, t, quien):
         for t0, t1, q, lv in s.habla:
@@ -573,7 +573,19 @@ def main():
     for f in (os.path.join(raiz, 'banco', 'indice.json'), os.path.join(var_dir, 'indice.json')):
         if os.path.exists(f): TXT.update({k: v.get('texto', '') for k, v in json.load(open(f, encoding='utf-8')).items()})
     # sin subtítulo: lo que ya sale escrito grande en pantalla (pregunta, dato curioso y los anuncios)
-    SIN_SUB = lambda c: c.endswith('_pregunta') or c.endswith('_dato') or (c.startswith('an_') and c != 'an_tema')
+    # lo que ya está escrito en pantalla mientras suena cada clip: esas palabras no se subtitulan (sí las que faltan)
+    LOBBY = 'Escanea el código Escribe tu apodo Al oír ¡YA! toca EMPEZAR ¿Sin celular? Anota tus aciertos en un papel y juega igual. sala ' + meta['codigo_sala']
+    QN = {f"q{q['n']:02d}": q for q in Q}
+
+    def en_pantalla(clave):
+        base = '¿Quién Sabe Más? ' + meta['titulo']
+        q = QN.get(clave[:3])
+        if q and clave.endswith('_pregunta'): return base + ' ' + q['p'] + ' ' + ' '.join(q['o'])
+        if q and clave.endswith('_respuesta'): return base + ' ' + q['p'] + ' ' + ' '.join(q['o'])
+        if q and clave.endswith('_dato'): return base + ' Dato curioso ' + q['o'][q['c']] + ' ' + q['d']
+        if clave.startswith('an_'): return base + ' ' + ' '.join(' '.join(v[1:]) for v in ANUNCIO.values()) + ' ¡Pregunta final! ¡Y el ganador es…! Míralo en tu celular ¡YA! Toca EMPEZAR en tu celular'
+        if clave in ('pr_01_celulares', 'co_06_sincelular', 'pr_intro', 'co_intro', 'pr_02_empezamos'): return base + ' ' + LOBBY
+        return base
     dicho = {}
 
     def mover(img, q, caja, t_ini):
@@ -607,7 +619,7 @@ def main():
         """clips: lista de (clave, texto_estimado). Cada clip anima a su personaje."""
         t = G.t + pre
         for clave, est in clips:
-            arr = voz(clave, est); G.voz(arr, t, quien(clave), None if SIN_SUB(clave) else dicho.get('t'))
+            arr = voz(clave, est); G.voz(arr, t, quien(clave), dicho.get('t'), en_pantalla(clave))
             t += len(arr) / SR + 0.12
         G.escena(img, t - G.t + pad, quien_pantalla, poses)
 
