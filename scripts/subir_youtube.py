@@ -3,7 +3,7 @@ etiquetas y miniatura. El dueño revisa en YouTube Studio y lo publica a mano.
 Uso: python scripts/subir_youtube.py trabajo/episodio.json trabajo/video.mp4 trabajo/video.tiempos.json trabajo/miniatura.jpg
 Deja publicados/<id>.json con el id del video.
 """
-import json, os, sys, time
+import json, os, re, sys, time
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
@@ -38,16 +38,32 @@ def descripcion(ep, sync, creditos):
         '',
         'Capítulos:',
     ]
-    partes += [f'{hms(t)} {c}' for t, c in sync.get('capitulos', [])]
-    if creditos:
-        partes += ['', 'Créditos de las fotos:']
-        for f, c in sorted(creditos.items()):
-            autor = (c.get('autor') or 'Autor desconocido').split('\n')[0][:80]
-            partes.append(f"• {autor} — {c.get('licencia', '')} — {c.get('pagina', '')}")
-    partes += ['', 'Presentadores y voces creados con herramientas de IA. Preguntas verificadas por el equipo de ¿Quién Sabe Más?',
-               '', '#trivia #preguntasdeculturageneral #juegosenfamilia #quiz']
-    d = '\n'.join(partes)
-    return d[:4900]
+    caps = {}
+    for t, c in sync.get('capitulos', []): caps[hms(t)] = c   # mismo minuto: queda el último (YouTube anula todos si se repite)
+    partes += [f'{k} {c}' for k, c in caps.items()]
+    partes += ['', 'Créditos de las fotos:'] + lineas_creditos(creditos) if creditos else []
+    final = ['', 'Presentadores y voces creados con herramientas de IA. Preguntas verificadas por el equipo de ¿Quién Sabe Más?',
+             '', '#trivia #preguntasdeculturageneral #juegosenfamilia #quiz']
+    while len('\n'.join(partes + final)) > 4900 and len(partes) > 8: partes.pop()   # nunca cortar el aviso de IA
+    return '\n'.join(partes + final)
+
+
+def lineas_creditos(creditos):
+    """Pixabay y dominio público van juntos en una línea; las licencias que exigen crédito (CC BY / BY-SA), una por foto."""
+    vistos, cc, px, pd = set(), [], False, False
+    for f, c in sorted(creditos.items()):
+        lic, pag = c.get('licencia', ''), c.get('pagina', '')
+        if pag in vistos: continue
+        vistos.add(pag)
+        if lic.startswith('Pixabay'): px = True; continue
+        if re.match(r'(?i)(public domain|pd|cc0)', lic): pd = True; continue
+        autor = (c.get('autor') or 'Autor desconocido').split('\n')[0][:70]
+        autor = re.sub(r'(Unknown author)+', 'Autor desconocido', autor)
+        cc.append(f"• {autor} — {lic} — {pag}")
+    out = cc
+    if pd: out = out + ['• Otras fotos: dominio público, vía Wikimedia Commons (NASA y otros).']
+    if px: out = out + ['• Fotos de Pixabay (Pixabay Content License).']
+    return out
 
 
 def main(ep_path, video, sync_path, miniatura=None):
