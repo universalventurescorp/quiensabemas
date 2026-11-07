@@ -1,27 +1,19 @@
 {
+ "reemplaza": [
+  "OSapM7w84sA"
+ ],
+ "shorts_viejos": [
+  "u821hVDsVlw",
+  "V3wzPaFUmNQ"
+ ],
  "id": "ep008",
- "video": "OSapM7w84sA",
+ "video": "el3sZOkAIV0",
  "titulo": "Arte, música y cine: de Frida a Mickey",
  "sala": "ARTISTAS",
  "formato": "normal",
- "duracion": 3777.44,
- "subido": "2026-11-07 14:52 UTC",
+ "duracion": 4232.76,
+ "subido": "2026-11-07 20:43 UTC",
  "privacidad": "private",
  "publica": null,
- "shorts": [
-  {
-   "video": "u821hVDsVlw",
-   "n": 66,
-   "titulo": "¿La sabes en 5 segundos? ¿Qué instrumento de viento es este? #shorts",
-   "privacidad": "private",
-   "subido": "2026-11-07 14:53 UTC"
-  },
-  {
-   "video": "V3wzPaFUmNQ",
-   "n": 37,
-   "titulo": "¿La sabes en 5 segundos? 🤔 #shorts",
-   "privacidad": "private",
-   "subido": "2026-11-07 14:53 UTC"
-  }
- ]
+ "shorts": []
 }
