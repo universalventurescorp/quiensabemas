@@ -274,7 +274,7 @@ class Pantallas:
             if modo == 'revela' and ok:
                 kx, ky = x + bw - 48, y + 48; d.ellipse((kx - 34, ky - 34, kx + 34, ky + 34), fill=C['white'])
                 d.line([(kx - 17, ky + 1), (kx - 5, ky + 15), (kx + 18, ky - 14)], fill=col, width=10, joint='curve')
-            img = s._fichas(img, i, x, y, bw)
+            img = s._fichas(img, i, x, y + bh - 34, bw)
         return img
 
     def _fichas(s, img, i, x, y, bw):
@@ -307,7 +307,7 @@ class Pantallas:
             if modo == 'revela' and ok:
                 cx = x + bw - 52; d.ellipse((cx - 34, cy - 34, cx + 34, cy + 34), fill=C['white'])
                 d.line([(cx - 17, cy + 1), (cx - 5, cy + 15), (cx + 18, cy - 14)], fill=col, width=10, joint='curve')
-            img = s._fichas(img, i, x, y, bw)
+            img = s._fichas(img, i, x, y + bh - 34, bw)
         return img
 
     def pregunta(s, n, total, q, modo='normal', reloj=None, frac=None, pix=0, marcador=None, apuestas=None):
