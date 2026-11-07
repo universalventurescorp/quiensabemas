@@ -104,6 +104,31 @@ def etiqueta(txt, size, fondo, col_txt, giro=0, pad=(34, 16)):
     return sombra(e.rotate(giro, Image.BICUBIC, expand=True), 10, 140, 8)
 
 
+def carta(path, w, h):
+    """Foto como carta de baraja: borde blanco grueso, esquinas redondas y filo dorado."""
+    src = ImageOps.fit(Image.open(os.path.join(RAIZ, path)).convert('RGB'), (w, h), Image.LANCZOS, centering=(0.5, 0.4))
+    src = src.point(lambda v: min(255, int(v * 1.06)))
+    b = 10; t = Image.new('RGBA', (w + 2 * b, h + 2 * b), (0, 0, 0, 0)); d = ImageDraw.Draw(t)
+    d.rounded_rectangle((0, 0, w + 2 * b - 1, h + 2 * b - 1), 22, fill=BLANCO)
+    m = Image.new('L', (w, h), 0); ImageDraw.Draw(m).rounded_rectangle((0, 0, w - 1, h - 1), 14, fill=255)
+    t.paste(src, (b, b), m)
+    d.rounded_rectangle((2, 2, w + 2 * b - 3, h + 2 * b - 3), 20, outline=ORO, width=4)
+    return t
+
+
+def abanico(lienzo, fotos):
+    """5 cartas en abanico: 2 asomando a cada lado y la más llamativa al centro, adelante y más grande."""
+    import math
+    px, py, R = 290, 700, 360            # pivote abajo, como la mano que sostiene las cartas
+    capas = [(fotos[3], -34, 200, 270), (fotos[4], 34, 200, 270), (fotos[1], -17, 215, 290), (fotos[2], 17, 215, 290),
+             (fotos[0], 0, 255, 340)]
+    for p, a, w, h in capas:
+        c = carta(p, w, h).rotate(-a, Image.BICUBIC, expand=True)
+        c = sombra(c, 16, 170, 12)
+        r = math.radians(a); cx, cy = px + R * math.sin(r), py - R * math.cos(r) + 20
+        lienzo.alpha_composite(c, (int(cx - c.width / 2), int(cy - c.height / 2)))
+
+
 # ------------------------------------------------------------ plantilla
 def componer(ep):
     maraton = ep.get('formato') == 'maraton'
@@ -118,11 +143,15 @@ def componer(ep):
     dl.ellipse((-120, 120, 760, 700), fill=(255, 200, 40, 26))   # luz cálida detrás de la foto
     lienzo.alpha_composite(luz.filter(ImageFilter.GaussianBlur(70)))
 
-    # foto del episodio, grande y algo inclinada
-    p, fondo = elegir_foto(ep)
-    fw, fh = 640, 400
-    tarj = marco_foto(p, fondo, fw, fh) if p else sin_foto(fw + 24, fh + 24)
-    lienzo.alpha_composite(sombra(tarj, 18, 170, 14), (34, 92))
+    # foto del episodio, grande y algo inclinada (o, en la PRUEBA, una baraja de 5 fotos en abanico)
+    baraja = fotos_collage(ep, 5) if os.environ.get('QSM_MINI_BARAJA') else []
+    if len(baraja) >= 5:
+        abanico(lienzo, baraja)
+    else:
+        p, fondo = elegir_foto(ep)
+        fw, fh = 640, 400
+        tarj = marco_foto(p, fondo, fw, fh) if p else sin_foto(fw + 24, fh + 24)
+        lienzo.alpha_composite(sombra(tarj, 18, 170, 14), (34, 92))
 
     # presentadores de busto, celebrando (como la foto de perfil)
     max_, (mx, my) = busto('presentador', 'celebra2', 225)
@@ -140,7 +169,8 @@ def componer(ep):
 
     # reto: etiqueta roja tipo sticker sobre la esquina de la foto
     e = etiqueta(reto, 44 if len(reto) <= 16 else 38, ROJO, BLANCO, giro=5)
-    lienzo.alpha_composite(e, (max(20, 690 - e.width + 40), 470 - e.height // 2 - 40))
+    if os.environ.get('QSM_MINI_BARAJA'): lienzo.alpha_composite(e, (300, 455))   # al pie de la baraja, sin tapar la carta principal
+    else: lienzo.alpha_composite(e, (max(20, 690 - e.width + 40), 470 - e.height // 2 - 40))
 
     # logo fijo arriba a la izquierda
     lg = etiqueta('¿Quién Sabe Más?', 40, ORO, TINTA, giro=0, pad=(28, 10))

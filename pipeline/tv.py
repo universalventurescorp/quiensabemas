@@ -592,8 +592,9 @@ def main():
         fd = os.path.join(raiz, 'fuentes')
         G.subs = Subtitulos(W, H, FPS, os.path.join(fd, 'Poppins-Black.ttf'), FONT % 'Bold', DOCK_X + 20, W - 250, 985)
     TXT = {}
-    rival_dir = os.path.join(raiz, 'banco', 'rival')
-    for f in (os.path.join(raiz, 'banco', 'indice.json'), os.path.join(var_dir, 'indice.json'), os.path.join(rival_dir, 'indice.json')):
+    rival_dir = os.path.join(raiz, 'banco', 'rival'); comedia_dir = os.path.join(raiz, 'banco', 'comedia')
+    for f in (os.path.join(raiz, 'banco', 'indice.json'), os.path.join(var_dir, 'indice.json'), os.path.join(rival_dir, 'indice.json'),
+              os.path.join(comedia_dir, 'indice.json')):
         if os.path.exists(f): TXT.update({k: v.get('texto', '') for k, v in json.load(open(f, encoding='utf-8')).items()})
     # sin subtítulo: lo que ya sale escrito grande en pantalla (pregunta, dato curioso y los anuncios)
     # lo que ya está escrito en pantalla mientras suena cada clip: esas palabras no se subtitulan (sí las que faltan)
@@ -618,7 +619,7 @@ def main():
         return Movil(img, p, caja, P.credito(p), q['n'] * 7 + semilla, t_ini, G.t)
 
     def variante(clave):
-        for vd in (var_dir, rival_dir):
+        for vd in (var_dir, rival_dir, comedia_dir):
             if not os.path.isdir(vd): continue
             n = len([f for f in os.listdir(vd) if f.startswith(clave + '__') and f.endswith('.wav')])
             if not n: continue
@@ -657,6 +658,20 @@ def main():
     import random as _rnd
     rr = _rnd.Random(semilla * 31 + 7); pts = [0, 0]   # [MAX, NOVA]
     MC = lambda: tuple(pts) if RIVAL else None
+    COMEDIA = RIVAL and bool(os.environ.get('QSM_COMEDIA')) and os.path.isdir(comedia_dir)   # PRUEBA: pullas tras la revelación
+    rc = _rnd.Random(semilla * 13 + 5); sin_pulla = [0]
+
+    def pulla(ap, q):
+        """~1 de cada 3 preguntas (nunca dos seguidas): el que acertó se burla y el otro se excusa."""
+        if not COMEDIA or not ap: return None
+        sin_pulla[0] += 1
+        if sin_pulla[0] < 2 or rc.random() > 0.45: return None
+        sin_pulla[0] = 0
+        m, n = ap['presentador'] == q['c'], ap['copresentadora'] == q['c']
+        if m and not n: return [('pr_pulla', ''), ('co_excusa', '')], 'presentador', {'presentador': 'celebra', 'copresentadora': 'sorpresa'}
+        if n and not m: return [('co_pulla', ''), ('pr_excusa', '')], 'copresentadora', {'copresentadora': 'celebra', 'presentador': 'piensa'}
+        if m and n: return [(rc.choice(['pr_ambos_bien', 'co_ambos_bien']), '')], 'presentador', {'presentador': 'celebra2', 'copresentadora': 'aplaude'}
+        return [(rc.choice(['pr_ambos_mal', 'co_ambos_mal']), '')], 'copresentadora', {'copresentadora': 'sorpresa', 'presentador': 'piensa'}
 
     def apostar(q):
         """Cada uno elige: aciertan ~70 % de las veces (algo menos en las difíciles); si fallan, otra al azar."""
@@ -764,6 +779,8 @@ def main():
             img_r = P.pregunta(n, N, q, modo='revela', marcador=MC(), apuestas=ap)
             decir(mover(img_r, q, CAJA_PREG, t_kb) if con_foto else img_r, [(f'{key}_respuesta', q['tr'])], 'copresentadora', pad=0.9, pre=0.2,
                   poses={'copresentadora': rev})
+            pu = pulla(ap, q)
+            if pu: decir(mover(img_r, q, CAJA_PREG, t_kb) if con_foto else img_r, pu[0], pu[1], pad=0.5, poses=pu[2])
             decir(mover(P.dato(n, N, q, marcador=MC()), q, CAJA_DATO, t_kb if con_foto else G.t), [('co_02_dato', ''), (f'{key}_dato', q['td'])], 'copresentadora', pad=1.2,
                   poses={'copresentadora': 'presenta'})
         if RAPIDO and idx == 2: como_jugar()
