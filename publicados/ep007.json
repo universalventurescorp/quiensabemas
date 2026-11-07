@@ -1,12 +1,12 @@
 {
  "id": "ep007",
- "video": "XuzD6YRFLDU",
+ "video": "kb3ODDdTpTM",
  "titulo": "Ciencia, cuerpo humano y espacio",
  "sala": "CIENCIA",
  "formato": "normal",
- "duracion": 3830.56,
+ "duracion": 4283.83,
  "subido": "2026-11-06 16:17 UTC",
- "privacidad": "private",
+ "privacidad": "public",
  "publica": null,
  "shorts": [
   {
@@ -23,5 +23,8 @@
    "privacidad": "private",
    "subido": "2026-11-06 16:18 UTC"
   }
+ ],
+ "reemplaza": [
+  "XuzD6YRFLDU"
  ]
 }
