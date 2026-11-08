@@ -7,99 +7,1124 @@
  "titulo": "Gran maratón de 3 horas: 370 preguntas de todo el mundo",
  "titulo_youtube": "MARATÓN de 3 HORAS: 370 preguntas para jugar en familia | ¿Quién Sabe Más?",
  "descripcion": "La gran maratón de tres horas de ¿Quién Sabe Más?: 370 preguntas de geografía, historia, arte, música, deportes, cine y mucho más para jugar en familia frente a la tele. Con imágenes misteriosas, verdadero o falso y rondas relámpago. ¿Aguantas las 370? ¡Cuéntanos tu puntaje en los comentarios!",
- "tags": ["maratón", "trivia en familia", "preguntas y respuestas", "cultura general", "juego para la tele", "3 horas"],
+ "tags": [
+  "maratón",
+  "trivia en familia",
+  "preguntas y respuestas",
+  "cultura general",
+  "juego para la tele",
+  "3 horas"
+ ],
  "tema_miniatura": "MARATÓN 3 HORAS",
  "reto_miniatura": "¿Aguantas las 370?",
  "objetivo_preguntas": 370,
  "total_anunciado": 370,
  "preguntas": [
-  {"n": 1, "tema": "geografía", "p": "¿En qué continente está Egipto?", "o": ["Asia", "África", "Europa", "Oceanía"], "c": 1, "d": "África tiene 54 países reconocidos por la ONU.", "tp": "¿En qué continente está Egipto? ¿Asia, África, Europa u Oceanía?", "tr": "¡África!", "td": "África tiene cincuenta y cuatro países reconocidos por la ONU."},
-  {"n": 2, "tema": "idiomas", "p": "¿Qué idioma se habla en Francia?", "o": ["Italiano", "Alemán", "Francés", "Portugués"], "c": 2, "d": "El francés también se habla en partes de África, Canadá y el Caribe.", "tp": "¿Qué idioma se habla en Francia? ¿Italiano, alemán, francés o portugués?", "tr": "¡Francés!", "td": "El francés también se habla en partes de África, Canadá y el Caribe."},
-  {"n": 3, "tema": "deportes", "p": "¿Cuántos jugadores de un equipo hay a la vez en la cancha de baloncesto?", "o": ["Cinco", "Seis", "Siete", "Nueve"], "c": 0, "d": "El baloncesto nació en 1891 usando cestas de duraznos como aros.", "tp": "¿Cuántos jugadores de un equipo hay a la vez en la cancha de baloncesto? ¿Cinco, seis, siete o nueve?", "tr": "¡Cinco!", "td": "El baloncesto nació en mil ochocientos noventa y uno usando cestas de duraznos como aros."},
-  {"n": 4, "tema": "música", "p": "¿Cuántas teclas tiene un piano estándar?", "o": ["66", "76", "88", "100"], "c": 2, "img_q": "Piano keyboard", "img_modo": "revela", "d": "Tiene 52 teclas blancas y 36 negras.", "tp": "¿Cuántas teclas tiene un piano estándar? ¿Sesenta y seis, setenta y seis, ochenta y ocho o cien?", "tr": "¡Ochenta y ocho!", "td": "Tiene cincuenta y dos teclas blancas y treinta y seis negras."},
-  {"n": 5, "tema": "arte", "p": "¿Qué dos colores se mezclan para obtener el verde?", "o": ["Rojo y azul", "Rojo y amarillo", "Blanco y negro", "Azul y amarillo"], "c": 3, "img_q": "Color wheel", "img_modo": "revela", "d": "Si le agregas más amarillo, el verde se vuelve más claro.", "tp": "¿Qué dos colores se mezclan para obtener el verde? ¿Rojo y azul, rojo y amarillo, blanco y negro o azul y amarillo?", "tr": "¡Azul y amarillo!", "td": "Si le agregas más amarillo, el verde se vuelve más claro."},
-  {"n": 6, "tema": "Perú", "p": "¿Cómo se llama la moneda del Perú?", "o": ["Peso", "Sol", "Real", "Dólar"], "c": 1, "d": "En quechua el Sol se dice «inti», nombre de la moneda peruana de 1985 a 1991.", "tp": "¿Cómo se llama la moneda del Perú? ¿Peso, sol, real o dólar?", "tr": "¡El sol!", "td": "En quechua el Sol se dice inti, nombre de la moneda peruana de mil novecientos ochenta y cinco a mil novecientos noventa y uno."},
-  {"n": 7, "tema": "naturaleza", "p": "¿Qué estación del año viene después del verano?", "o": ["Primavera", "Invierno", "Otoño", "Verano"], "c": 2, "img_q": "Autumn leaves", "img_modo": "revela", "d": "En el hemisferio sur el otoño empieza en marzo; en el norte, en septiembre.", "tp": "¿Qué estación del año viene después del verano? ¿Primavera, invierno, otoño o verano?", "tr": "¡El otoño!", "td": "En el hemisferio sur el otoño empieza en marzo; en el norte, en septiembre."},
-  {"n": 8, "tema": "cine", "p": "¿Qué ratón famoso creó Walt Disney en 1928?", "o": ["Jerry", "Speedy Gonzales", "Topo Gigio", "Mickey Mouse"], "c": 3, "d": "Su primera película con sonido fue «Steamboat Willie».", "tp": "¿Qué ratón famoso creó Walt Disney en mil novecientos veintiocho? ¿Jerry, Speedy Gonzales, Topo Gigio o Mickey Mouse?", "tr": "¡Mickey Mouse!", "td": "Su primera película con sonido fue Steamboat Willie."},
-  {"n": 9, "tema": "cine", "p": "¿Cuántos enanitos acompañan a Blancanieves?", "o": ["Siete", "Cinco", "Seis", "Nueve"], "c": 0, "d": "La película se estrenó en 1937 y fue el primer largometraje animado de Disney.", "tp": "¿Cuántos enanitos acompañan a Blancanieves? ¿Siete, cinco, seis o nueve?", "tr": "¡Siete!", "td": "La película se estrenó en mil novecientos treinta y siete y fue el primer largometraje animado de Disney."},
-  {"n": 10, "tema": "ciencia", "p": "¿Qué forma tiene la señal de «alto» o «pare» en la mayoría de países?", "o": ["Triángulo", "Círculo", "Cuadrado", "Octágono"], "c": 3, "img_q": "Stop sign", "img_modo": "revela", "d": "Un octágono tiene ocho lados.", "tp": "¿Qué forma tiene la señal de alto o pare en la mayoría de países? ¿Triángulo, círculo, cuadrado u octágono?", "tr": "¡Un octágono!", "td": "Un octágono tiene ocho lados."},
-  {"n": 11, "tema": "geografía", "ronda": "misteriosa", "p": "¿En qué país está esta famosa torre inclinada?", "o": ["España", "Italia", "Grecia", "Francia"], "c": 1, "img_q": "Leaning Tower of Pisa", "img_modo": "pregunta", "d": "Se empezó a inclinar poco después de que comenzó su construcción, hace casi 900 años.", "tp": "Miren bien la foto. ¿En qué país está esta famosa torre inclinada? ¿España, Italia, Grecia o Francia?", "tr": "¡Italia! Es la torre de Pisa.", "td": "Se empezó a inclinar poco después de que comenzó su construcción, hace casi novecientos años."},
-  {"n": 12, "tema": "geografía", "ronda": "misteriosa", "p": "¿En qué ciudad de Estados Unidos está este puente rojo?", "o": ["Los Ángeles", "Nueva York", "San Francisco", "Chicago"], "c": 2, "img_q": "Golden Gate Bridge", "img_modo": "pregunta", "d": "Se llama Golden Gate y se inauguró en 1937.", "tp": "Miren bien la foto. ¿En qué ciudad de Estados Unidos está este puente rojo? ¿Los Ángeles, Nueva York, San Francisco o Chicago?", "tr": "¡San Francisco!", "td": "Se llama Golden Gate y se inauguró en mil novecientos treinta y siete."},
-  {"n": 13, "tema": "naturaleza", "ronda": "misteriosa", "p": "¿Qué famosas cataratas son estas, entre Canadá y Estados Unidos?", "o": ["Niágara", "Iguazú", "Victoria", "Ángel"], "c": 0, "img_q": "Niagara Falls", "img_modo": "pregunta", "d": "Por ellas caen millones de litros de agua cada segundo.", "tp": "Miren bien la foto. ¿Qué famosas cataratas son estas, entre Canadá y Estados Unidos? ¿Niágara, Iguazú, Victoria o Ángel?", "tr": "¡Las cataratas del Niágara!", "td": "Por ellas caen millones de litros de agua cada segundo."},
-  {"n": 14, "tema": "geografía", "p": "¿Cómo se llama la famosa campana del reloj del Parlamento de Londres?", "o": ["Torre Eiffel", "Tower Bridge", "London Eye", "Big Ben"], "c": 3, "img_q": "Big Ben", "img_modo": "revela", "d": "En realidad Big Ben es el nombre de la campana, no de la torre.", "tp": "¿Cómo se llama la famosa campana del reloj del Parlamento de Londres? ¿Torre Eiffel, Tower Bridge, London Eye o Big Ben?", "tr": "¡Big Ben!", "td": "En realidad Big Ben es el nombre de la campana, no de la torre."},
-  {"n": 15, "tema": "música", "p": "¿Cuántas cuerdas tiene un violín?", "o": ["Tres", "Cuatro", "Cinco", "Seis"], "c": 1, "d": "Se afinan en las notas sol, re, la y mi.", "tp": "¿Cuántas cuerdas tiene un violín? ¿Tres, cuatro, cinco o seis?", "tr": "¡Cuatro!", "td": "Se afinan en las notas sol, re, la y mi."},
-  {"n": 16, "tema": "arte", "p": "¿Qué artista español pintó el cuadro «Guernica»?", "o": ["Dalí", "Goya", "Picasso", "Velázquez"], "c": 2, "img_q": "Guernica Picasso painting", "img_modo": "revela", "d": "Mide casi ocho metros de ancho.", "tp": "¿Qué artista español pintó el cuadro Guernica? ¿Dalí, Goya, Picasso o Velázquez?", "tr": "¡Pablo Picasso!", "td": "Mide casi ocho metros de ancho."},
-  {"n": 17, "tema": "deportes", "p": "¿Cuántos anillos tiene la bandera olímpica?", "o": ["Cinco", "Tres", "Cuatro", "Seis"], "c": 0, "d": "Representan a los cinco continentes unidos.", "tp": "¿Cuántos anillos tiene la bandera olímpica? ¿Cinco, tres, cuatro o seis?", "tr": "¡Cinco!", "td": "Representan a los cinco continentes unidos."},
-  {"n": 18, "tema": "música", "p": "¿Qué baile es típico de Argentina y Uruguay?", "o": ["Samba", "Tango", "Salsa", "Cumbia"], "c": 1, "d": "La UNESCO lo declaró Patrimonio Cultural Inmaterial en 2009.", "tp": "¿Qué baile es típico de Argentina y Uruguay? ¿Samba, tango, salsa o cumbia?", "tr": "¡El tango!", "td": "La UNESCO lo declaró Patrimonio Cultural Inmaterial en dos mil nueve."},
-  {"n": 19, "tema": "naturaleza", "p": "¿Qué planta carnívora cierra sus hojas para atrapar moscas?", "o": ["Cactus", "Helecho", "Orquídea", "Dionea atrapamoscas"], "c": 3, "img_q": "Venus flytrap", "img_modo": "revela", "d": "Cierra sus hojas en una fracción de segundo al tocar sus pelitos sensibles.", "tp": "¿Qué planta carnívora cierra sus hojas para atrapar moscas? ¿Cactus, helecho, orquídea o dionea atrapamoscas?", "tr": "¡La dionea atrapamoscas!", "td": "Cierra sus hojas en una fracción de segundo al tocar sus pelitos sensibles."},
-  {"n": 20, "tema": "literatura", "p": "¿Quién escribió el libro «El Principito»?", "o": ["Julio Verne", "Antoine de Saint-Exupéry", "Victor Hugo", "Alejandro Dumas"], "c": 1, "d": "Se ha traducido a cientos de idiomas.", "tp": "¿Quién escribió el libro El Principito? ¿Julio Verne, Antoine de Saint-Exupéry, Victor Hugo o Alejandro Dumas?", "tr": "¡Antoine de Saint-Exupéry!", "td": "Se ha traducido a cientos de idiomas."},
-  {"n": 21, "tema": "animales", "ronda": "vf", "p": "Los perros ven solo en blanco y negro.", "o": ["Verdadero", "Falso"], "c": 1, "d": "Falso: ven azules y amarillos, aunque distinguen menos colores que las personas.", "tp": "¿Verdadero o falso? Los perros ven solo en blanco y negro.", "tr": "¡Falso! Ven azules y amarillos.", "td": "Falso: ven azules y amarillos, aunque distinguen menos colores que las personas."},
-  {"n": 22, "tema": "geografía", "ronda": "vf", "p": "El monte Everest sigue creciendo unos milímetros cada año.", "o": ["Verdadero", "Falso"], "c": 0, "d": "Las placas de la Tierra aún empujan el Himalaya hacia arriba.", "tp": "¿Verdadero o falso? El monte Everest sigue creciendo unos milímetros cada año.", "tr": "¡Verdadero! Las placas de la Tierra lo empujan hacia arriba.", "td": "Las placas de la Tierra aún empujan el Himalaya hacia arriba."},
-  {"n": 23, "tema": "cuerpo", "ronda": "vf", "p": "La lengua tiene zonas separadas para cada sabor.", "o": ["Verdadero", "Falso"], "c": 1, "d": "Falso: todos los sabores se perciben en casi toda la lengua. El mapa de zonas es un mito.", "tp": "¿Verdadero o falso? La lengua tiene zonas separadas para cada sabor.", "tr": "¡Falso! Todos los sabores se sienten en toda la lengua.", "td": "Falso: todos los sabores se perciben en casi toda la lengua. El mapa de zonas es un mito."},
-  {"n": 24, "tema": "Latinoamérica", "p": "¿Qué país celebra el Día de Muertos con altares y flores de cempasúchil?", "o": ["Cuba", "Chile", "México", "Guatemala"], "c": 2, "img_q": "Day of the Dead altar", "img_modo": "revela", "d": "La UNESCO reconoció esta tradición mexicana en 2008.", "tp": "¿Qué país celebra el Día de Muertos con altares y flores de cempasúchil? ¿Cuba, Chile, México o Guatemala?", "tr": "¡México!", "td": "La UNESCO reconoció esta tradición mexicana en dos mil ocho."},
-  {"n": 25, "tema": "música", "p": "¿Qué compositor austriaco escribió la ópera «La flauta mágica»?", "o": ["Mozart", "Bach", "Chopin", "Vivaldi"], "c": 0, "d": "Mozart empezó a componer siendo un niño de unos 5 años.", "tp": "¿Qué compositor austriaco escribió la ópera La flauta mágica? ¿Mozart, Bach, Chopin o Vivaldi?", "tr": "¡Mozart!", "td": "Mozart empezó a componer siendo un niño de unos cinco años."},
-  {"n": 26, "tema": "deportes", "p": "¿En qué deporte se usa un bate y se corre por cuatro bases?", "o": ["Cricket", "Béisbol", "Golf", "Tenis"], "c": 1, "d": "Es muy popular en México, Venezuela, Cuba y República Dominicana.", "tp": "¿En qué deporte se usa un bate y se corre por cuatro bases? ¿Cricket, béisbol, golf o tenis?", "tr": "¡El béisbol!", "td": "Es muy popular en México, Venezuela, Cuba y República Dominicana."},
-  {"n": 27, "tema": "geografía", "p": "¿Cuántos océanos se cuentan hoy en el mundo?", "o": ["Tres", "Cuatro", "Cinco", "Siete"], "c": 2, "d": "Son el Pacífico, el Atlántico, el Índico, el Antártico y el Ártico.", "tp": "¿Cuántos océanos se cuentan hoy en el mundo? ¿Tres, cuatro, cinco o siete?", "tr": "¡Cinco!", "td": "Son el Pacífico, el Atlántico, el Índico, el Antártico y el Ártico."},
-  {"n": 28, "tema": "matemáticas", "p": "¿Cuántos grados mide un ángulo recto?", "o": ["45", "90", "120", "180"], "c": 1, "d": "Las esquinas de una hoja de papel son ángulos rectos.", "tp": "¿Cuántos grados mide un ángulo recto? ¿Cuarenta y cinco, noventa, ciento veinte o ciento ochenta?", "tr": "¡Noventa!", "td": "Las esquinas de una hoja de papel son ángulos rectos."},
-  {"n": 29, "tema": "historia", "p": "¿Qué letra representa el número 10 en los números romanos?", "o": ["V", "L", "C", "X"], "c": 3, "d": "La L vale cincuenta y la C vale cien.", "tp": "¿Qué letra representa el número diez en los números romanos? ¿V, L, C o X?", "tr": "¡La equis!", "td": "La L vale cincuenta y la C vale cien."},
-  {"n": 30, "tema": "arte", "p": "¿Qué pintora mexicana es famosa por sus autorretratos?", "o": ["Frida Kahlo", "María Izquierdo", "Georgia O'Keeffe", "Mary Cassatt"], "c": 0, "d": "Su casa en Ciudad de México, la Casa Azul, hoy es un museo.", "tp": "¿Qué pintora mexicana es famosa por sus autorretratos? ¿Frida Kahlo, María Izquierdo, Georgia O'Keeffe o Mary Cassatt?", "tr": "¡Frida Kahlo!", "td": "Su casa en Ciudad de México, la Casa Azul, hoy es un museo."},
-  {"n": 31, "tema": "ciencia", "ronda": "relampago", "p": "¿En qué estación suele nevar más?", "o": ["Verano", "Primavera", "Invierno", "Otoño"], "c": 2, "d": "En el hemisferio sur el invierno empieza en junio.", "tp": "¿En qué estación suele nevar más? ¿Verano, primavera, invierno u otoño?", "tr": "¡Invierno!", "td": "En el hemisferio sur el invierno empieza en junio."},
-  {"n": 32, "tema": "idiomas", "ronda": "relampago", "p": "¿Cuál es lo contrario de «frío»?", "o": ["Caliente", "Húmedo", "Duro", "Lento"], "c": 0, "d": "Entre los dos hay palabras como tibio y templado.", "tp": "¿Cuál es lo contrario de frío? ¿Caliente, húmedo, duro o lento?", "tr": "¡Caliente!", "td": "Entre los dos hay palabras como tibio y templado."},
-  {"n": 33, "tema": "matemáticas", "ronda": "relampago", "p": "¿Cuánto es diez más diez?", "o": ["Diez", "Quince", "Treinta", "Veinte"], "c": 3, "d": "Dos veces diez es veinte.", "tp": "¿Cuánto es diez más diez? ¿Diez, quince, treinta o veinte?", "tr": "¡Veinte!", "td": "Dos veces diez es veinte."},
-  {"n": 34, "tema": "animales", "ronda": "relampago", "p": "¿Qué animal hace «muuu»?", "o": ["Oveja", "Vaca", "Cerdo", "Caballo"], "c": 1, "d": "Una vaca puede pasar muchas horas al día masticando pasto.", "tp": "¿Qué animal hace muuu? ¿Oveja, vaca, cerdo o caballo?", "tr": "¡La vaca!", "td": "Una vaca puede pasar muchas horas al día masticando pasto."},
-  {"n": 35, "tema": "cultura", "ronda": "relampago", "p": "¿En qué mes es Navidad?", "o": ["Noviembre", "Octubre", "Diciembre", "Enero"], "c": 2, "d": "Se celebra el 25 de diciembre.", "tp": "¿En qué mes es Navidad? ¿Noviembre, octubre, diciembre o enero?", "tr": "¡Diciembre!", "td": "Se celebra el veinticinco de diciembre."},
-  {"n": 36, "tema": "geografía", "p": "¿Qué país comparte con Chile la isla de Tierra del Fuego?", "o": ["Uruguay", "Argentina", "Brasil", "Bolivia"], "c": 1, "img_q": "Tierra del Fuego", "img_modo": "revela", "d": "Ushuaia, en el lado argentino, es una de las ciudades más australes del mundo.", "tp": "¿Qué país comparte con Chile la isla de Tierra del Fuego? ¿Uruguay, Argentina, Brasil o Bolivia?", "tr": "¡Argentina!", "td": "Ushuaia, en el lado argentino, es una de las ciudades más australes del mundo."},
-  {"n": 37, "tema": "historia", "p": "¿Qué reina británica gobernó 63 años y dio nombre a toda una época?", "o": ["Isabel I", "María Estuardo", "Ana", "Victoria"], "c": 3, "d": "La época victoriana, del siglo XIX, lleva su nombre.", "tp": "¿Qué reina británica gobernó sesenta y tres años y dio nombre a toda una época? ¿Isabel Primera, María Estuardo, Ana o Victoria?", "tr": "¡La reina Victoria!", "td": "La época victoriana, del siglo diecinueve, lleva su nombre."},
-  {"n": 38, "tema": "literatura", "p": "¿Qué escritor colombiano escribió «Cien años de soledad»?", "o": ["Julio Cortázar", "Gabriel García Márquez", "Jorge Luis Borges", "Pablo Neruda"], "c": 1, "d": "Ganó el Nobel de Literatura en 1982.", "tp": "¿Qué escritor colombiano escribió Cien años de soledad? ¿Julio Cortázar, Gabriel García Márquez, Jorge Luis Borges o Pablo Neruda?", "tr": "¡Gabriel García Márquez!", "td": "Ganó el premio Nobel de Literatura en mil novecientos ochenta y dos."},
-  {"n": 39, "tema": "Perú", "p": "¿Qué escritor peruano ganó el Nobel de Literatura en 2010?", "o": ["Mario Vargas Llosa", "César Vallejo", "Ricardo Palma", "José María Arguedas"], "c": 0, "d": "Es autor de «La ciudad y los perros».", "tp": "¿Qué escritor peruano ganó el premio Nobel de Literatura en dos mil diez? ¿Mario Vargas Llosa, César Vallejo, Ricardo Palma o José María Arguedas?", "tr": "¡Mario Vargas Llosa!", "td": "Es autor de La ciudad y los perros."},
-  {"n": 40, "tema": "música", "p": "¿Qué ritmo, nacido en Jamaica, hizo famoso a Bob Marley?", "o": ["Salsa", "Tango", "Reggae", "Merengue"], "c": 2, "d": "Sus canciones hablan de paz y de unión entre las personas.", "tp": "¿Qué ritmo, nacido en Jamaica, hizo famoso a Bob Marley? ¿Salsa, tango, reggae o merengue?", "tr": "¡El reggae!", "td": "Sus canciones hablan de paz y de unión entre las personas."},
-  {"n": 41, "tema": "deportes", "p": "¿Cuántos jugadores de un equipo hay en la cancha de voleibol?", "o": ["Cuatro", "Cinco", "Seis", "Siete"], "c": 2, "d": "Los jugadores rotan de posición cada vez que ganan el saque.", "tp": "¿Cuántos jugadores de un equipo hay en la cancha de voleibol? ¿Cuatro, cinco, seis o siete?", "tr": "¡Seis!", "td": "Los jugadores rotan de posición cada vez que ganan el saque."},
-  {"n": 42, "tema": "cine", "p": "¿Qué muñeco de madera ve crecer su nariz cuando dice mentiras?", "o": ["Geppetto", "Pinocho", "Pepito Grillo", "Peter Pan"], "c": 1, "d": "Pinocho nació en un libro italiano de Carlo Collodi, de 1883.", "tp": "¿Qué muñeco de madera ve crecer su nariz cuando dice mentiras? ¿Geppetto, Pinocho, Pepito Grillo o Peter Pan?", "tr": "¡Pinocho!", "td": "Pinocho nació en un libro italiano de Carlo Collodi, de mil ochocientos ochenta y tres."},
-  {"n": 43, "tema": "geografía", "p": "¿Qué mar baña las costas de Cuba, Colombia y Venezuela?", "o": ["Mar Negro", "Mar Báltico", "Mar Rojo", "Mar Caribe"], "c": 3, "img_q": "Caribbean Sea beach", "img_modo": "revela", "d": "Sus aguas cálidas rodean cientos de islas.", "tp": "¿Qué mar baña las costas de Cuba, Colombia y Venezuela? ¿Mar Negro, mar Báltico, mar Rojo o mar Caribe?", "tr": "¡El mar Caribe!", "td": "Sus aguas cálidas rodean cientos de islas."},
-  {"n": 44, "tema": "idiomas", "p": "¿Cómo se dice «gracias» en inglés?", "o": ["Please", "Sorry", "Thank you", "Hello"], "c": 2, "d": "«Please» significa «por favor» y «sorry» significa «perdón».", "tp": "¿Cómo se dice gracias en inglés? ¿Please, sorry, thank you o hello?", "tr": "¡Thank you!", "td": "Please significa por favor y sorry significa perdón."},
-  {"n": 45, "tema": "Latinoamérica", "p": "¿Qué ave aparece sobre un nopal en el escudo de México?", "o": ["Águila", "Cóndor", "Halcón", "Búho"], "c": 0, "img_q": "Coat of arms of Mexico", "img_modo": "revela", "d": "Según la leyenda, los mexicas fundaron Tenochtitlan donde vieron esa escena.", "tp": "¿Qué ave aparece sobre un nopal en el escudo de México? ¿Águila, cóndor, halcón o búho?", "tr": "¡El águila!", "td": "Según la leyenda, los mexicas fundaron Tenochtitlan donde vieron esa escena."},
-  {"n": 46, "tema": "geografía", "p": "¿En qué país está el salar de Uyuni, el más grande del mundo?", "o": ["Perú", "Chile", "Bolivia", "Argentina"], "c": 2, "img_q": "Salar de Uyuni", "img_modo": "revela", "d": "Cuando llueve, se convierte en un gigantesco espejo.", "tp": "¿En qué país está el salar de Uyuni, el más grande del mundo? ¿Perú, Chile, Bolivia o Argentina?", "tr": "¡Bolivia!", "td": "Cuando llueve, se convierte en un gigantesco espejo."},
-  {"n": 47, "tema": "inventos", "p": "¿En qué país se inventó el papel, hace unos 2.000 años?", "o": ["India", "China", "Egipto", "Grecia"], "c": 1, "d": "Tradicionalmente se atribuye a Cai Lun, un funcionario chino, hacia el año 105.", "tp": "¿En qué país se inventó el papel, hace unos dos mil años? ¿India, China, Egipto o Grecia?", "tr": "¡China!", "td": "Tradicionalmente se atribuye a Cai Lun, un funcionario chino, hacia el año ciento cinco."},
-  {"n": 48, "tema": "naturaleza", "p": "¿Qué parte de un árbol muestra su edad con anillos?", "o": ["Hojas", "Raíces", "Flores", "Tronco"], "c": 3, "img_q": "Tree rings", "img_modo": "revela", "d": "Cada anillo suele corresponder a un año de vida del árbol.", "tp": "¿Qué parte de un árbol muestra su edad con anillos? ¿Hojas, raíces, flores o tronco?", "tr": "¡El tronco!", "td": "Cada anillo suele corresponder a un año de vida del árbol."},
-  {"n": 49, "tema": "deportes", "p": "¿En qué juego de mesa se dice «jaque mate»?", "o": ["Ajedrez", "Damas", "Póker", "Dominó"], "c": 0, "img_q": "Chess pieces", "img_modo": "revela", "d": "«Jaque mate» viene del persa «shah mat», que se interpreta como «el rey está indefenso».", "tp": "¿En qué juego de mesa se dice jaque mate? ¿Ajedrez, damas, póker o dominó?", "tr": "¡El ajedrez!", "td": "Jaque mate viene del persa shah mat, que se interpreta como el rey está indefenso."},
-  {"n": 50, "tema": "cine", "p": "¿Qué película de Disney tiene a un león llamado Simba?", "o": ["Bambi", "Dumbo", "El rey león", "Tarzán"], "c": 2, "d": "Se estrenó en 1994; «Hakuna Matata» significa «sin preocupaciones» en suajili.", "tp": "¿Qué película de Disney tiene a un león llamado Simba? ¿Bambi, Dumbo, El rey león o Tarzán?", "tr": "¡El rey león!", "td": "Se estrenó en mil novecientos noventa y cuatro; Hakuna Matata significa sin preocupaciones en suajili."},
-  {"n": 51, "tema": "Perú", "p": "¿Qué río recorre el Valle Sagrado de los Incas, cerca de Machu Picchu?", "o": ["Urubamba", "Rímac", "Mantaro", "Ucayali"], "c": 0, "img_q": "Urubamba River", "img_modo": "revela", "d": "Sus aguas pasan al pie de Machu Picchu antes de unirse a otros ríos amazónicos.", "tp": "¿Qué río recorre el Valle Sagrado de los Incas, cerca de Machu Picchu? ¿Urubamba, Rímac, Mantaro o Ucayali?", "tr": "¡El Urubamba!", "td": "Sus aguas pasan al pie de Machu Picchu antes de unirse a otros ríos amazónicos."},
-  {"n": 52, "tema": "literatura", "p": "¿Qué detective creó Arthur Conan Doyle, famoso por su lupa y su pipa?", "o": ["Hércules Poirot", "Sherlock Holmes", "Dr. Watson", "Inspector Gadget"], "c": 1, "d": "Vivía en el número 221B de Baker Street, en Londres.", "tp": "¿Qué detective creó Arthur Conan Doyle, famoso por su lupa y su pipa? ¿Hércules Poirot, Sherlock Holmes, doctor Watson o Inspector Gadget?", "tr": "¡Sherlock Holmes!", "td": "Vivía en el número doscientos veintiuno B de Baker Street, en Londres."},
-  {"n": 53, "tema": "historia", "p": "¿En qué siglo vivimos hoy?", "o": ["XIX", "XX", "XXI", "XXII"], "c": 2, "d": "El siglo XXI comenzó en el año 2001 y termina en el 2100.", "tp": "¿En qué siglo vivimos hoy? ¿Diecinueve, veinte, veintiuno o veintidós?", "tr": "¡El siglo veintiuno!", "td": "El siglo veintiuno comenzó en el año dos mil uno y termina en el dos mil cien."},
-  {"n": 54, "tema": "matemáticas", "p": "¿Cuántos meses del año tienen al menos 28 días?", "o": ["Uno", "Dos", "Seis", "Todos"], "c": 3, "d": "Febrero tiene 28 días, y los demás meses tienen 30 o 31.", "tp": "¿Cuántos meses del año tienen al menos veintiocho días? ¿Uno, dos, seis o todos?", "tr": "¡Todos!", "td": "Febrero tiene veintiocho días, y los demás meses tienen treinta o treinta y uno."},
-  {"n": 55, "tema": "literatura", "p": "¿Qué joven mago de varita y cicatriz estudia en el colegio Hogwarts?", "o": ["Harry Potter", "Gandalf", "Merlín", "Aladino"], "c": 0, "d": "El primer libro de la serie se publicó en 1997.", "tp": "¿Qué joven mago de varita y cicatriz estudia en el colegio Hogwarts? ¿Harry Potter, Gandalf, Merlín o Aladino?", "tr": "¡Harry Potter!", "td": "El primer libro de la serie se publicó en mil novecientos noventa y siete."},
-  {"n": 56, "tema": "animales", "ronda": "vf", "p": "Las jirafas duermen menos de seis horas al día.", "o": ["Verdadero", "Falso"], "c": 0, "d": "Duermen muy poco y casi siempre en ratos cortos.", "tp": "¿Verdadero o falso? Las jirafas duermen menos de seis horas al día.", "tr": "¡Verdadero! Duermen muy poquito.", "td": "Duermen muy poco y casi siempre en ratos cortos."},
-  {"n": 57, "tema": "ciencia", "ronda": "vf", "p": "La torre Eiffel cambia de altura según la temperatura.", "o": ["Verdadero", "Falso"], "c": 0, "d": "El hierro se dilata con el calor: en verano puede crecer unos centímetros.", "tp": "¿Verdadero o falso? La torre Eiffel cambia de altura según la temperatura.", "tr": "¡Verdadero! El calor dilata el hierro.", "td": "El hierro se dilata con el calor: en verano puede crecer unos centímetros."},
-  {"n": 58, "tema": "geografía", "ronda": "vf", "p": "El Polo Norte es más frío que el Polo Sur.", "o": ["Verdadero", "Falso"], "c": 1, "d": "Falso: la Antártida es más alta y está sobre tierra firme, por eso es más fría.", "tp": "¿Verdadero o falso? El Polo Norte es más frío que el Polo Sur.", "tr": "¡Falso! El Polo Sur es más frío.", "td": "Falso: la Antártida es más alta y está sobre tierra firme, por eso es más fría."},
-  {"n": 59, "tema": "geografía", "p": "¿Qué país formado por miles de islas tiene más de 17.000 islas?", "o": ["Filipinas", "Japón", "Indonesia", "Malasia"], "c": 2, "d": "Su isla más poblada, Java, es una de las más habitadas del mundo.", "tp": "¿Qué país formado por miles de islas tiene más de diecisiete mil islas? ¿Filipinas, Japón, Indonesia o Malasia?", "tr": "¡Indonesia!", "td": "Su isla más poblada, Java, es una de las más habitadas del mundo."},
-  {"n": 60, "tema": "Perú", "p": "¿Qué instrumento peruano es una caja de madera sobre la que se sienta el músico?", "o": ["Charango", "Quena", "Bombo", "Cajón"], "c": 3, "img_q": "Cajón peruano", "img_modo": "revela", "d": "Es el corazón rítmico de la música criolla y afroperuana.", "tp": "¿Qué instrumento peruano es una caja de madera sobre la que se sienta el músico? ¿Charango, quena, bombo o cajón?", "tr": "¡El cajón!", "td": "Es el corazón rítmico de la música criolla y afroperuana."}
+  {
+   "n": 1,
+   "tema": "geografía",
+   "p": "¿En qué continente está Egipto?",
+   "o": [
+    "Asia",
+    "África",
+    "Europa",
+    "Oceanía"
+   ],
+   "c": 1,
+   "d": "África tiene 54 países reconocidos por la ONU.",
+   "tp": "¿En qué continente está Egipto? ¿Asia, África, Europa u Oceanía?",
+   "tr": "¡África!",
+   "td": "África tiene cincuenta y cuatro países reconocidos por la ONU."
+  },
+  {
+   "n": 2,
+   "tema": "idiomas",
+   "p": "¿Qué idioma se habla en Francia?",
+   "o": [
+    "Italiano",
+    "Alemán",
+    "Francés",
+    "Portugués"
+   ],
+   "c": 2,
+   "d": "El francés también se habla en partes de África, Canadá y el Caribe.",
+   "tp": "¿Qué idioma se habla en Francia? ¿Italiano, alemán, francés o portugués?",
+   "tr": "¡Francés!",
+   "td": "El francés también se habla en partes de África, Canadá y el Caribe."
+  },
+  {
+   "n": 3,
+   "tema": "deportes",
+   "p": "¿Cuántos jugadores de un equipo hay a la vez en la cancha de baloncesto?",
+   "o": [
+    "Cinco",
+    "Seis",
+    "Siete",
+    "Nueve"
+   ],
+   "c": 0,
+   "d": "El baloncesto nació en 1891 usando cestas de duraznos como aros.",
+   "tp": "¿Cuántos jugadores de un equipo hay a la vez en la cancha de baloncesto? ¿Cinco, seis, siete o nueve?",
+   "tr": "¡Cinco!",
+   "td": "El baloncesto nació en mil ochocientos noventa y uno usando cestas de duraznos como aros."
+  },
+  {
+   "n": 4,
+   "tema": "música",
+   "p": "¿Cuántas teclas tiene un piano estándar?",
+   "o": [
+    "66",
+    "76",
+    "88",
+    "100"
+   ],
+   "c": 2,
+   "img_q": "Piano keyboard",
+   "img_modo": "revela",
+   "d": "Tiene 52 teclas blancas y 36 negras.",
+   "tp": "¿Cuántas teclas tiene un piano estándar? ¿Sesenta y seis, setenta y seis, ochenta y ocho o cien?",
+   "tr": "¡Ochenta y ocho!",
+   "td": "Tiene cincuenta y dos teclas blancas y treinta y seis negras."
+  },
+  {
+   "n": 5,
+   "tema": "arte",
+   "p": "¿Qué dos colores se mezclan para obtener el verde?",
+   "o": [
+    "Rojo y azul",
+    "Rojo y amarillo",
+    "Blanco y negro",
+    "Azul y amarillo"
+   ],
+   "c": 3,
+   "img_q": "Color wheel",
+   "img_modo": "revela",
+   "d": "Si le agregas más amarillo, el verde se vuelve más claro.",
+   "tp": "¿Qué dos colores se mezclan para obtener el verde? ¿Rojo y azul, rojo y amarillo, blanco y negro o azul y amarillo?",
+   "tr": "¡Azul y amarillo!",
+   "td": "Si le agregas más amarillo, el verde se vuelve más claro."
+  },
+  {
+   "n": 6,
+   "tema": "Perú",
+   "p": "¿Cómo se llama la moneda del Perú?",
+   "o": [
+    "Peso",
+    "Sol",
+    "Real",
+    "Dólar"
+   ],
+   "c": 1,
+   "d": "En quechua el Sol se dice «inti», nombre de la moneda peruana de 1985 a 1991.",
+   "tp": "¿Cómo se llama la moneda del Perú? ¿Peso, sol, real o dólar?",
+   "tr": "¡El sol!",
+   "td": "En quechua el Sol se dice inti, nombre de la moneda peruana de mil novecientos ochenta y cinco a mil novecientos noventa y uno."
+  },
+  {
+   "n": 7,
+   "tema": "naturaleza",
+   "p": "¿Qué estación del año viene después del verano?",
+   "o": [
+    "Primavera",
+    "Invierno",
+    "Otoño",
+    "Verano"
+   ],
+   "c": 2,
+   "img_q": "Autumn leaves",
+   "img_modo": "revela",
+   "d": "En el hemisferio sur el otoño empieza en marzo; en el norte, en septiembre.",
+   "tp": "¿Qué estación del año viene después del verano? ¿Primavera, invierno, otoño o verano?",
+   "tr": "¡El otoño!",
+   "td": "En el hemisferio sur el otoño empieza en marzo; en el norte, en septiembre."
+  },
+  {
+   "n": 8,
+   "tema": "cine",
+   "p": "¿Qué ratón famoso creó Walt Disney en 1928?",
+   "o": [
+    "Jerry",
+    "Speedy Gonzales",
+    "Topo Gigio",
+    "Mickey Mouse"
+   ],
+   "c": 3,
+   "d": "Su primera película con sonido fue «Steamboat Willie».",
+   "tp": "¿Qué ratón famoso creó Walt Disney en mil novecientos veintiocho? ¿Jerry, Speedy Gonzales, Topo Gigio o Mickey Mouse?",
+   "tr": "¡Mickey Mouse!",
+   "td": "Su primera película con sonido fue Steamboat Willie."
+  },
+  {
+   "n": 9,
+   "tema": "cine",
+   "p": "¿Cuántos enanitos acompañan a Blancanieves?",
+   "o": [
+    "Siete",
+    "Cinco",
+    "Seis",
+    "Nueve"
+   ],
+   "c": 0,
+   "d": "La película se estrenó en 1937 y fue el primer largometraje animado de Disney.",
+   "tp": "¿Cuántos enanitos acompañan a Blancanieves? ¿Siete, cinco, seis o nueve?",
+   "tr": "¡Siete!",
+   "td": "La película se estrenó en mil novecientos treinta y siete y fue el primer largometraje animado de Disney."
+  },
+  {
+   "n": 10,
+   "tema": "ciencia",
+   "p": "¿Qué forma tiene la señal de «alto» o «pare» en la mayoría de países?",
+   "o": [
+    "Triángulo",
+    "Círculo",
+    "Cuadrado",
+    "Octágono"
+   ],
+   "c": 3,
+   "img_q": "Stop sign",
+   "img_modo": "revela",
+   "d": "Un octágono tiene ocho lados.",
+   "tp": "¿Qué forma tiene la señal de alto o pare en la mayoría de países? ¿Triángulo, círculo, cuadrado u octágono?",
+   "tr": "¡Un octágono!",
+   "td": "Un octágono tiene ocho lados."
+  },
+  {
+   "n": 11,
+   "tema": "geografía",
+   "ronda": "misteriosa",
+   "p": "¿En qué país está esta famosa torre inclinada?",
+   "o": [
+    "España",
+    "Italia",
+    "Grecia",
+    "Francia"
+   ],
+   "c": 1,
+   "img_q": "Leaning Tower of Pisa",
+   "img_modo": "pregunta",
+   "d": "Se empezó a inclinar poco después de que comenzó su construcción, hace casi 900 años.",
+   "tp": "Miren bien la foto. ¿En qué país está esta famosa torre inclinada? ¿España, Italia, Grecia o Francia?",
+   "tr": "¡Italia! Es la torre de Pisa.",
+   "td": "Se empezó a inclinar poco después de que comenzó su construcción, hace casi novecientos años."
+  },
+  {
+   "n": 12,
+   "tema": "geografía",
+   "ronda": "misteriosa",
+   "p": "¿En qué ciudad de Estados Unidos está este puente rojo?",
+   "o": [
+    "Los Ángeles",
+    "Nueva York",
+    "San Francisco",
+    "Chicago"
+   ],
+   "c": 2,
+   "img_q": "Golden Gate Bridge",
+   "img_modo": "pregunta",
+   "d": "Se llama Golden Gate y se inauguró en 1937.",
+   "tp": "Miren bien la foto. ¿En qué ciudad de Estados Unidos está este puente rojo? ¿Los Ángeles, Nueva York, San Francisco o Chicago?",
+   "tr": "¡San Francisco!",
+   "td": "Se llama Golden Gate y se inauguró en mil novecientos treinta y siete."
+  },
+  {
+   "n": 13,
+   "tema": "naturaleza",
+   "ronda": "misteriosa",
+   "p": "¿Qué famosas cataratas son estas, entre Canadá y Estados Unidos?",
+   "o": [
+    "Niágara",
+    "Iguazú",
+    "Victoria",
+    "Ángel"
+   ],
+   "c": 0,
+   "img_q": "Niagara Falls",
+   "img_modo": "pregunta",
+   "d": "Por ellas caen millones de litros de agua cada segundo.",
+   "tp": "Miren bien la foto. ¿Qué famosas cataratas son estas, entre Canadá y Estados Unidos? ¿Niágara, Iguazú, Victoria o Ángel?",
+   "tr": "¡Las cataratas del Niágara!",
+   "td": "Por ellas caen millones de litros de agua cada segundo."
+  },
+  {
+   "n": 14,
+   "tema": "geografía",
+   "p": "¿Cómo se llama la famosa campana del reloj del Parlamento de Londres?",
+   "o": [
+    "Torre Eiffel",
+    "Tower Bridge",
+    "London Eye",
+    "Big Ben"
+   ],
+   "c": 3,
+   "img_q": "Big Ben",
+   "img_modo": "revela",
+   "d": "En realidad Big Ben es el nombre de la campana, no de la torre.",
+   "tp": "¿Cómo se llama la famosa campana del reloj del Parlamento de Londres? ¿Torre Eiffel, Tower Bridge, London Eye o Big Ben?",
+   "tr": "¡Big Ben!",
+   "td": "En realidad Big Ben es el nombre de la campana, no de la torre."
+  },
+  {
+   "n": 15,
+   "tema": "música",
+   "p": "¿Cuántas cuerdas tiene un violín?",
+   "o": [
+    "Tres",
+    "Cuatro",
+    "Cinco",
+    "Seis"
+   ],
+   "c": 1,
+   "d": "Se afinan en las notas sol, re, la y mi.",
+   "tp": "¿Cuántas cuerdas tiene un violín? ¿Tres, cuatro, cinco o seis?",
+   "tr": "¡Cuatro!",
+   "td": "Se afinan en las notas sol, re, la y mi."
+  },
+  {
+   "n": 16,
+   "tema": "arte",
+   "p": "¿Qué artista español pintó el cuadro «Guernica»?",
+   "o": [
+    "Dalí",
+    "Goya",
+    "Picasso",
+    "Velázquez"
+   ],
+   "c": 2,
+   "img_q": "Guernica Picasso painting",
+   "img_modo": "revela",
+   "d": "Mide casi ocho metros de ancho.",
+   "tp": "¿Qué artista español pintó el cuadro Guernica? ¿Dalí, Goya, Picasso o Velázquez?",
+   "tr": "¡Pablo Picasso!",
+   "td": "Mide casi ocho metros de ancho."
+  },
+  {
+   "n": 17,
+   "tema": "deportes",
+   "p": "¿Cuántos anillos tiene la bandera olímpica?",
+   "o": [
+    "Cinco",
+    "Tres",
+    "Cuatro",
+    "Seis"
+   ],
+   "c": 0,
+   "d": "Representan a los cinco continentes unidos.",
+   "tp": "¿Cuántos anillos tiene la bandera olímpica? ¿Cinco, tres, cuatro o seis?",
+   "tr": "¡Cinco!",
+   "td": "Representan a los cinco continentes unidos."
+  },
+  {
+   "n": 18,
+   "tema": "música",
+   "p": "¿Qué baile es típico de Argentina y Uruguay?",
+   "o": [
+    "Samba",
+    "Tango",
+    "Salsa",
+    "Cumbia"
+   ],
+   "c": 1,
+   "d": "La UNESCO lo declaró Patrimonio Cultural Inmaterial en 2009.",
+   "tp": "¿Qué baile es típico de Argentina y Uruguay? ¿Samba, tango, salsa o cumbia?",
+   "tr": "¡El tango!",
+   "td": "La UNESCO lo declaró Patrimonio Cultural Inmaterial en dos mil nueve."
+  },
+  {
+   "n": 19,
+   "tema": "naturaleza",
+   "p": "¿Qué planta carnívora cierra sus hojas para atrapar moscas?",
+   "o": [
+    "Cactus",
+    "Helecho",
+    "Orquídea",
+    "Dionea atrapamoscas"
+   ],
+   "c": 3,
+   "img_q": "Venus flytrap",
+   "img_modo": "revela",
+   "d": "Cierra sus hojas en una fracción de segundo al tocar sus pelitos sensibles.",
+   "tp": "¿Qué planta carnívora cierra sus hojas para atrapar moscas? ¿Cactus, helecho, orquídea o dionea atrapamoscas?",
+   "tr": "¡La dionea atrapamoscas!",
+   "td": "Cierra sus hojas en una fracción de segundo al tocar sus pelitos sensibles."
+  },
+  {
+   "n": 20,
+   "tema": "literatura",
+   "p": "¿Quién escribió el libro «El Principito»?",
+   "o": [
+    "Julio Verne",
+    "Antoine de Saint-Exupéry",
+    "Victor Hugo",
+    "Alejandro Dumas"
+   ],
+   "c": 1,
+   "d": "Se ha traducido a cientos de idiomas.",
+   "tp": "¿Quién escribió el libro El Principito? ¿Julio Verne, Antoine de Saint-Exupéry, Victor Hugo o Alejandro Dumas?",
+   "tr": "¡Antoine de Saint-Exupéry!",
+   "td": "Se ha traducido a cientos de idiomas."
+  },
+  {
+   "n": 21,
+   "tema": "animales",
+   "ronda": "vf",
+   "p": "Los perros ven solo en blanco y negro.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Falso: ven azules y amarillos, aunque distinguen menos colores que las personas.",
+   "tp": "¿Verdadero o falso? Los perros ven solo en blanco y negro.",
+   "tr": "¡Falso! Ven azules y amarillos.",
+   "td": "Falso: ven azules y amarillos, aunque distinguen menos colores que las personas."
+  },
+  {
+   "n": 22,
+   "tema": "geografía",
+   "ronda": "vf",
+   "p": "El monte Everest sigue creciendo unos milímetros cada año.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Las placas de la Tierra aún empujan el Himalaya hacia arriba.",
+   "tp": "¿Verdadero o falso? El monte Everest sigue creciendo unos milímetros cada año.",
+   "tr": "¡Verdadero! Las placas de la Tierra lo empujan hacia arriba.",
+   "td": "Las placas de la Tierra aún empujan el Himalaya hacia arriba."
+  },
+  {
+   "n": 23,
+   "tema": "cuerpo",
+   "ronda": "vf",
+   "p": "La lengua tiene zonas separadas para cada sabor.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Falso: todos los sabores se perciben en casi toda la lengua. El mapa de zonas es un mito.",
+   "tp": "¿Verdadero o falso? La lengua tiene zonas separadas para cada sabor.",
+   "tr": "¡Falso! Todos los sabores se sienten en toda la lengua.",
+   "td": "Falso: todos los sabores se perciben en casi toda la lengua. El mapa de zonas es un mito."
+  },
+  {
+   "n": 24,
+   "tema": "Latinoamérica",
+   "p": "¿Qué país celebra el Día de Muertos con altares y flores de cempasúchil?",
+   "o": [
+    "Cuba",
+    "Chile",
+    "México",
+    "Guatemala"
+   ],
+   "c": 2,
+   "img_q": "Day of the Dead altar",
+   "img_modo": "revela",
+   "d": "La UNESCO reconoció esta tradición mexicana en 2008.",
+   "tp": "¿Qué país celebra el Día de Muertos con altares y flores de cempasúchil? ¿Cuba, Chile, México o Guatemala?",
+   "tr": "¡México!",
+   "td": "La UNESCO reconoció esta tradición mexicana en dos mil ocho."
+  },
+  {
+   "n": 25,
+   "tema": "música",
+   "p": "¿Qué compositor austriaco escribió la ópera «La flauta mágica»?",
+   "o": [
+    "Mozart",
+    "Bach",
+    "Chopin",
+    "Vivaldi"
+   ],
+   "c": 0,
+   "d": "Mozart empezó a componer siendo un niño de unos 5 años.",
+   "tp": "¿Qué compositor austriaco escribió la ópera La flauta mágica? ¿Mozart, Bach, Chopin o Vivaldi?",
+   "tr": "¡Mozart!",
+   "td": "Mozart empezó a componer siendo un niño de unos cinco años."
+  },
+  {
+   "n": 26,
+   "tema": "deportes",
+   "p": "¿En qué deporte se usa un bate y se corre por cuatro bases?",
+   "o": [
+    "Cricket",
+    "Béisbol",
+    "Golf",
+    "Tenis"
+   ],
+   "c": 1,
+   "d": "Es muy popular en México, Venezuela, Cuba y República Dominicana.",
+   "tp": "¿En qué deporte se usa un bate y se corre por cuatro bases? ¿Cricket, béisbol, golf o tenis?",
+   "tr": "¡El béisbol!",
+   "td": "Es muy popular en México, Venezuela, Cuba y República Dominicana."
+  },
+  {
+   "n": 27,
+   "tema": "geografía",
+   "p": "¿Cuántos océanos se cuentan hoy en el mundo?",
+   "o": [
+    "Tres",
+    "Cuatro",
+    "Cinco",
+    "Siete"
+   ],
+   "c": 2,
+   "d": "Son el Pacífico, el Atlántico, el Índico, el Antártico y el Ártico.",
+   "tp": "¿Cuántos océanos se cuentan hoy en el mundo? ¿Tres, cuatro, cinco o siete?",
+   "tr": "¡Cinco!",
+   "td": "Son el Pacífico, el Atlántico, el Índico, el Antártico y el Ártico."
+  },
+  {
+   "n": 28,
+   "tema": "matemáticas",
+   "p": "¿Cuántos grados mide un ángulo recto?",
+   "o": [
+    "45",
+    "90",
+    "120",
+    "180"
+   ],
+   "c": 1,
+   "d": "Las esquinas de una hoja de papel son ángulos rectos.",
+   "tp": "¿Cuántos grados mide un ángulo recto? ¿Cuarenta y cinco, noventa, ciento veinte o ciento ochenta?",
+   "tr": "¡Noventa!",
+   "td": "Las esquinas de una hoja de papel son ángulos rectos."
+  },
+  {
+   "n": 29,
+   "tema": "historia",
+   "p": "¿Qué letra representa el número 10 en los números romanos?",
+   "o": [
+    "V",
+    "L",
+    "C",
+    "X"
+   ],
+   "c": 3,
+   "d": "La L vale cincuenta y la C vale cien.",
+   "tp": "¿Qué letra representa el número diez en los números romanos? ¿V, L, C o X?",
+   "tr": "¡La equis!",
+   "td": "La L vale cincuenta y la C vale cien."
+  },
+  {
+   "n": 30,
+   "tema": "arte",
+   "p": "¿Qué pintora mexicana es famosa por sus autorretratos?",
+   "o": [
+    "Frida Kahlo",
+    "María Izquierdo",
+    "Georgia O'Keeffe",
+    "Mary Cassatt"
+   ],
+   "c": 0,
+   "d": "Su casa en Ciudad de México, la Casa Azul, hoy es un museo.",
+   "tp": "¿Qué pintora mexicana es famosa por sus autorretratos? ¿Frida Kahlo, María Izquierdo, Georgia O'Keeffe o Mary Cassatt?",
+   "tr": "¡Frida Kahlo!",
+   "td": "Su casa en Ciudad de México, la Casa Azul, hoy es un museo."
+  },
+  {
+   "n": 31,
+   "tema": "ciencia",
+   "ronda": "relampago",
+   "p": "¿En qué estación suele nevar más?",
+   "o": [
+    "Verano",
+    "Primavera",
+    "Invierno",
+    "Otoño"
+   ],
+   "c": 2,
+   "d": "En el hemisferio sur el invierno empieza en junio.",
+   "tp": "¿En qué estación suele nevar más? ¿Verano, primavera, invierno u otoño?",
+   "tr": "¡Invierno!",
+   "td": "En el hemisferio sur el invierno empieza en junio."
+  },
+  {
+   "n": 32,
+   "tema": "idiomas",
+   "ronda": "relampago",
+   "p": "¿Cuál es lo contrario de «frío»?",
+   "o": [
+    "Caliente",
+    "Húmedo",
+    "Duro",
+    "Lento"
+   ],
+   "c": 0,
+   "d": "Entre los dos hay palabras como tibio y templado.",
+   "tp": "¿Cuál es lo contrario de frío? ¿Caliente, húmedo, duro o lento?",
+   "tr": "¡Caliente!",
+   "td": "Entre los dos hay palabras como tibio y templado."
+  },
+  {
+   "n": 33,
+   "tema": "matemáticas",
+   "ronda": "relampago",
+   "p": "¿Cuánto es diez más diez?",
+   "o": [
+    "Diez",
+    "Quince",
+    "Treinta",
+    "Veinte"
+   ],
+   "c": 3,
+   "d": "Dos veces diez es veinte.",
+   "tp": "¿Cuánto es diez más diez? ¿Diez, quince, treinta o veinte?",
+   "tr": "¡Veinte!",
+   "td": "Dos veces diez es veinte."
+  },
+  {
+   "n": 34,
+   "tema": "animales",
+   "ronda": "relampago",
+   "p": "¿Qué animal hace «muuu»?",
+   "o": [
+    "Oveja",
+    "Vaca",
+    "Cerdo",
+    "Caballo"
+   ],
+   "c": 1,
+   "d": "Una vaca puede pasar muchas horas al día masticando pasto.",
+   "tp": "¿Qué animal hace muuu? ¿Oveja, vaca, cerdo o caballo?",
+   "tr": "¡La vaca!",
+   "td": "Una vaca puede pasar muchas horas al día masticando pasto."
+  },
+  {
+   "n": 35,
+   "tema": "cultura",
+   "ronda": "relampago",
+   "p": "¿En qué mes es Navidad?",
+   "o": [
+    "Noviembre",
+    "Octubre",
+    "Diciembre",
+    "Enero"
+   ],
+   "c": 2,
+   "d": "Se celebra el 25 de diciembre.",
+   "tp": "¿En qué mes es Navidad? ¿Noviembre, octubre, diciembre o enero?",
+   "tr": "¡Diciembre!",
+   "td": "Se celebra el veinticinco de diciembre."
+  },
+  {
+   "n": 36,
+   "tema": "geografía",
+   "p": "¿Qué país comparte con Chile la isla de Tierra del Fuego?",
+   "o": [
+    "Uruguay",
+    "Argentina",
+    "Brasil",
+    "Bolivia"
+   ],
+   "c": 1,
+   "img_q": "Tierra del Fuego",
+   "img_modo": "revela",
+   "d": "Ushuaia, en el lado argentino, es una de las ciudades más australes del mundo.",
+   "tp": "¿Qué país comparte con Chile la isla de Tierra del Fuego? ¿Uruguay, Argentina, Brasil o Bolivia?",
+   "tr": "¡Argentina!",
+   "td": "Ushuaia, en el lado argentino, es una de las ciudades más australes del mundo."
+  },
+  {
+   "n": 37,
+   "tema": "historia",
+   "p": "¿Qué reina británica gobernó 63 años y dio nombre a toda una época?",
+   "o": [
+    "Isabel I",
+    "María Estuardo",
+    "Ana",
+    "Victoria"
+   ],
+   "c": 3,
+   "d": "La época victoriana, del siglo XIX, lleva su nombre.",
+   "tp": "¿Qué reina británica gobernó sesenta y tres años y dio nombre a toda una época? ¿Isabel Primera, María Estuardo, Ana o Victoria?",
+   "tr": "¡La reina Victoria!",
+   "td": "La época victoriana, del siglo diecinueve, lleva su nombre."
+  },
+  {
+   "n": 38,
+   "tema": "literatura",
+   "p": "¿Qué escritor colombiano escribió «Cien años de soledad»?",
+   "o": [
+    "Julio Cortázar",
+    "Gabriel García Márquez",
+    "Jorge Luis Borges",
+    "Pablo Neruda"
+   ],
+   "c": 1,
+   "d": "Ganó el Nobel de Literatura en 1982.",
+   "tp": "¿Qué escritor colombiano escribió Cien años de soledad? ¿Julio Cortázar, Gabriel García Márquez, Jorge Luis Borges o Pablo Neruda?",
+   "tr": "¡Gabriel García Márquez!",
+   "td": "Ganó el premio Nobel de Literatura en mil novecientos ochenta y dos."
+  },
+  {
+   "n": 39,
+   "tema": "Perú",
+   "p": "¿Qué escritor peruano ganó el Nobel de Literatura en 2010?",
+   "o": [
+    "Mario Vargas Llosa",
+    "César Vallejo",
+    "Ricardo Palma",
+    "José María Arguedas"
+   ],
+   "c": 0,
+   "d": "Es autor de «La ciudad y los perros».",
+   "tp": "¿Qué escritor peruano ganó el premio Nobel de Literatura en dos mil diez? ¿Mario Vargas Llosa, César Vallejo, Ricardo Palma o José María Arguedas?",
+   "tr": "¡Mario Vargas Llosa!",
+   "td": "Es autor de La ciudad y los perros."
+  },
+  {
+   "n": 40,
+   "tema": "música",
+   "p": "¿Qué ritmo, nacido en Jamaica, hizo famoso a Bob Marley?",
+   "o": [
+    "Salsa",
+    "Tango",
+    "Reggae",
+    "Merengue"
+   ],
+   "c": 2,
+   "d": "Sus canciones hablan de paz y de unión entre las personas.",
+   "tp": "¿Qué ritmo, nacido en Jamaica, hizo famoso a Bob Marley? ¿Salsa, tango, reggae o merengue?",
+   "tr": "¡El reggae!",
+   "td": "Sus canciones hablan de paz y de unión entre las personas."
+  },
+  {
+   "n": 41,
+   "tema": "deportes",
+   "p": "¿Cuántos jugadores de un equipo hay en la cancha de voleibol?",
+   "o": [
+    "Cuatro",
+    "Cinco",
+    "Seis",
+    "Siete"
+   ],
+   "c": 2,
+   "d": "Los jugadores rotan de posición cada vez que ganan el saque.",
+   "tp": "¿Cuántos jugadores de un equipo hay en la cancha de voleibol? ¿Cuatro, cinco, seis o siete?",
+   "tr": "¡Seis!",
+   "td": "Los jugadores rotan de posición cada vez que ganan el saque."
+  },
+  {
+   "n": 42,
+   "tema": "cine",
+   "p": "¿Qué muñeco de madera ve crecer su nariz cuando dice mentiras?",
+   "o": [
+    "Geppetto",
+    "Pinocho",
+    "Pepito Grillo",
+    "Peter Pan"
+   ],
+   "c": 1,
+   "d": "Pinocho nació en un libro italiano de Carlo Collodi, de 1883.",
+   "tp": "¿Qué muñeco de madera ve crecer su nariz cuando dice mentiras? ¿Geppetto, Pinocho, Pepito Grillo o Peter Pan?",
+   "tr": "¡Pinocho!",
+   "td": "Pinocho nació en un libro italiano de Carlo Collodi, de mil ochocientos ochenta y tres."
+  },
+  {
+   "n": 43,
+   "tema": "geografía",
+   "p": "¿Qué mar baña las costas de Cuba, Colombia y Venezuela?",
+   "o": [
+    "Mar Negro",
+    "Mar Báltico",
+    "Mar Rojo",
+    "Mar Caribe"
+   ],
+   "c": 3,
+   "img_q": "Caribbean Sea beach",
+   "img_modo": "revela",
+   "d": "Sus aguas cálidas rodean cientos de islas.",
+   "tp": "¿Qué mar baña las costas de Cuba, Colombia y Venezuela? ¿Mar Negro, mar Báltico, mar Rojo o mar Caribe?",
+   "tr": "¡El mar Caribe!",
+   "td": "Sus aguas cálidas rodean cientos de islas."
+  },
+  {
+   "n": 44,
+   "tema": "idiomas",
+   "p": "¿Cómo se dice «gracias» en inglés?",
+   "o": [
+    "Please",
+    "Sorry",
+    "Thank you",
+    "Hello"
+   ],
+   "c": 2,
+   "d": "«Please» significa «por favor» y «sorry» significa «perdón».",
+   "tp": "¿Cómo se dice gracias en inglés? ¿Please, sorry, thank you o hello?",
+   "tr": "¡Thank you!",
+   "td": "Please significa por favor y sorry significa perdón."
+  },
+  {
+   "n": 45,
+   "tema": "Latinoamérica",
+   "p": "¿Qué ave aparece sobre un nopal en el escudo de México?",
+   "o": [
+    "Águila",
+    "Cóndor",
+    "Halcón",
+    "Búho"
+   ],
+   "c": 0,
+   "img_q": "Coat of arms of Mexico",
+   "img_modo": "revela",
+   "d": "Según la leyenda, los mexicas fundaron Tenochtitlan donde vieron esa escena.",
+   "tp": "¿Qué ave aparece sobre un nopal en el escudo de México? ¿Águila, cóndor, halcón o búho?",
+   "tr": "¡El águila!",
+   "td": "Según la leyenda, los mexicas fundaron Tenochtitlan donde vieron esa escena."
+  },
+  {
+   "n": 46,
+   "tema": "geografía",
+   "p": "¿En qué país está el salar de Uyuni, el más grande del mundo?",
+   "o": [
+    "Perú",
+    "Chile",
+    "Bolivia",
+    "Argentina"
+   ],
+   "c": 2,
+   "img_q": "Salar de Uyuni",
+   "img_modo": "revela",
+   "d": "Cuando llueve, se convierte en un gigantesco espejo.",
+   "tp": "¿En qué país está el salar de Uyuni, el más grande del mundo? ¿Perú, Chile, Bolivia o Argentina?",
+   "tr": "¡Bolivia!",
+   "td": "Cuando llueve, se convierte en un gigantesco espejo."
+  },
+  {
+   "n": 47,
+   "tema": "inventos",
+   "p": "¿En qué país se inventó el papel, hace unos 2.000 años?",
+   "o": [
+    "India",
+    "China",
+    "Egipto",
+    "Grecia"
+   ],
+   "c": 1,
+   "d": "Tradicionalmente se atribuye a Cai Lun, un funcionario chino, hacia el año 105.",
+   "tp": "¿En qué país se inventó el papel, hace unos dos mil años? ¿India, China, Egipto o Grecia?",
+   "tr": "¡China!",
+   "td": "Tradicionalmente se atribuye a Cai Lun, un funcionario chino, hacia el año ciento cinco."
+  },
+  {
+   "n": 48,
+   "tema": "naturaleza",
+   "p": "¿Qué parte de un árbol muestra su edad con anillos?",
+   "o": [
+    "Hojas",
+    "Raíces",
+    "Flores",
+    "Tronco"
+   ],
+   "c": 3,
+   "img_q": "Tree rings",
+   "img_modo": "revela",
+   "d": "Cada anillo suele corresponder a un año de vida del árbol.",
+   "tp": "¿Qué parte de un árbol muestra su edad con anillos? ¿Hojas, raíces, flores o tronco?",
+   "tr": "¡El tronco!",
+   "td": "Cada anillo suele corresponder a un año de vida del árbol."
+  },
+  {
+   "n": 49,
+   "tema": "deportes",
+   "p": "¿En qué juego de mesa se dice «jaque mate»?",
+   "o": [
+    "Ajedrez",
+    "Damas",
+    "Póker",
+    "Dominó"
+   ],
+   "c": 0,
+   "img_q": "Chess pieces",
+   "img_modo": "revela",
+   "d": "«Jaque mate» viene del persa «shah mat», que se interpreta como «el rey está indefenso».",
+   "tp": "¿En qué juego de mesa se dice jaque mate? ¿Ajedrez, damas, póker o dominó?",
+   "tr": "¡El ajedrez!",
+   "td": "Jaque mate viene del persa shah mat, que se interpreta como el rey está indefenso."
+  },
+  {
+   "n": 50,
+   "tema": "cine",
+   "p": "¿Qué película de Disney tiene a un león llamado Simba?",
+   "o": [
+    "Bambi",
+    "Dumbo",
+    "El rey león",
+    "Tarzán"
+   ],
+   "c": 2,
+   "d": "Se estrenó en 1994; «Hakuna Matata» significa «sin preocupaciones» en suajili.",
+   "tp": "¿Qué película de Disney tiene a un león llamado Simba? ¿Bambi, Dumbo, El rey león o Tarzán?",
+   "tr": "¡El rey león!",
+   "td": "Se estrenó en mil novecientos noventa y cuatro; Hakuna Matata significa sin preocupaciones en suajili."
+  },
+  {
+   "n": 51,
+   "tema": "Perú",
+   "p": "¿Qué río recorre el Valle Sagrado de los Incas, cerca de Machu Picchu?",
+   "o": [
+    "Urubamba",
+    "Rímac",
+    "Mantaro",
+    "Ucayali"
+   ],
+   "c": 0,
+   "img_q": "Urubamba River",
+   "img_modo": "revela",
+   "d": "Sus aguas pasan al pie de Machu Picchu antes de unirse a otros ríos amazónicos.",
+   "tp": "¿Qué río recorre el Valle Sagrado de los Incas, cerca de Machu Picchu? ¿Urubamba, Rímac, Mantaro o Ucayali?",
+   "tr": "¡El Urubamba!",
+   "td": "Sus aguas pasan al pie de Machu Picchu antes de unirse a otros ríos amazónicos."
+  },
+  {
+   "n": 52,
+   "tema": "literatura",
+   "p": "¿Qué detective creó Arthur Conan Doyle, famoso por su lupa y su pipa?",
+   "o": [
+    "Hércules Poirot",
+    "Sherlock Holmes",
+    "Dr. Watson",
+    "Inspector Gadget"
+   ],
+   "c": 1,
+   "d": "Vivía en el número 221B de Baker Street, en Londres.",
+   "tp": "¿Qué detective creó Arthur Conan Doyle, famoso por su lupa y su pipa? ¿Hércules Poirot, Sherlock Holmes, doctor Watson o Inspector Gadget?",
+   "tr": "¡Sherlock Holmes!",
+   "td": "Vivía en el número doscientos veintiuno B de Baker Street, en Londres."
+  },
+  {
+   "n": 53,
+   "tema": "historia",
+   "p": "¿En qué siglo vivimos hoy?",
+   "o": [
+    "XIX",
+    "XX",
+    "XXI",
+    "XXII"
+   ],
+   "c": 2,
+   "d": "El siglo XXI comenzó en el año 2001 y termina en el 2100.",
+   "tp": "¿En qué siglo vivimos hoy? ¿Diecinueve, veinte, veintiuno o veintidós?",
+   "tr": "¡El siglo veintiuno!",
+   "td": "El siglo veintiuno comenzó en el año dos mil uno y termina en el dos mil cien."
+  },
+  {
+   "n": 54,
+   "tema": "matemáticas",
+   "p": "¿Cuántos meses del año tienen al menos 28 días?",
+   "o": [
+    "Uno",
+    "Dos",
+    "Seis",
+    "Todos"
+   ],
+   "c": 3,
+   "d": "Febrero tiene 28 días, y los demás meses tienen 30 o 31.",
+   "tp": "¿Cuántos meses del año tienen al menos veintiocho días? ¿Uno, dos, seis o todos?",
+   "tr": "¡Todos!",
+   "td": "Febrero tiene veintiocho días, y los demás meses tienen treinta o treinta y uno."
+  },
+  {
+   "n": 55,
+   "tema": "literatura",
+   "p": "¿Qué joven mago de varita y cicatriz estudia en el colegio Hogwarts?",
+   "o": [
+    "Harry Potter",
+    "Gandalf",
+    "Merlín",
+    "Aladino"
+   ],
+   "c": 0,
+   "d": "El primer libro de la serie se publicó en 1997.",
+   "tp": "¿Qué joven mago de varita y cicatriz estudia en el colegio Hogwarts? ¿Harry Potter, Gandalf, Merlín o Aladino?",
+   "tr": "¡Harry Potter!",
+   "td": "El primer libro de la serie se publicó en mil novecientos noventa y siete."
+  },
+  {
+   "n": 56,
+   "tema": "animales",
+   "ronda": "vf",
+   "p": "Las jirafas duermen menos de seis horas al día.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Duermen muy poco y casi siempre en ratos cortos.",
+   "tp": "¿Verdadero o falso? Las jirafas duermen menos de seis horas al día.",
+   "tr": "¡Verdadero! Duermen muy poquito.",
+   "td": "Duermen muy poco y casi siempre en ratos cortos."
+  },
+  {
+   "n": 57,
+   "tema": "ciencia",
+   "ronda": "vf",
+   "p": "La torre Eiffel cambia de altura según la temperatura.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "El hierro se dilata con el calor: en verano puede crecer unos centímetros.",
+   "tp": "¿Verdadero o falso? La torre Eiffel cambia de altura según la temperatura.",
+   "tr": "¡Verdadero! El calor dilata el hierro.",
+   "td": "El hierro se dilata con el calor: en verano puede crecer unos centímetros."
+  },
+  {
+   "n": 58,
+   "tema": "geografía",
+   "ronda": "vf",
+   "p": "El Polo Norte es más frío que el Polo Sur.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Falso: la Antártida es más alta y está sobre tierra firme, por eso es más fría.",
+   "tp": "¿Verdadero o falso? El Polo Norte es más frío que el Polo Sur.",
+   "tr": "¡Falso! El Polo Sur es más frío.",
+   "td": "Falso: la Antártida es más alta y está sobre tierra firme, por eso es más fría."
+  },
+  {
+   "n": 59,
+   "tema": "geografía",
+   "p": "¿Qué país formado por miles de islas tiene más de 17.000 islas?",
+   "o": [
+    "Filipinas",
+    "Japón",
+    "Indonesia",
+    "Malasia"
+   ],
+   "c": 2,
+   "d": "Su isla más poblada, Java, es una de las más habitadas del mundo.",
+   "tp": "¿Qué país formado por miles de islas tiene más de diecisiete mil islas? ¿Filipinas, Japón, Indonesia o Malasia?",
+   "tr": "¡Indonesia!",
+   "td": "Su isla más poblada, Java, es una de las más habitadas del mundo."
+  },
+  {
+   "n": 60,
+   "tema": "Perú",
+   "p": "¿Qué instrumento peruano es una caja de madera sobre la que se sienta el músico?",
+   "o": [
+    "Charango",
+    "Quena",
+    "Bombo",
+    "Cajón"
+   ],
+   "c": 3,
+   "img_q": "Cajón peruano",
+   "img_modo": "revela",
+   "d": "Es el corazón rítmico de la música criolla y afroperuana.",
+   "tp": "¿Qué instrumento peruano es una caja de madera sobre la que se sienta el músico? ¿Charango, quena, bombo o cajón?",
+   "tr": "¡El cajón!",
+   "td": "Es el corazón rítmico de la música criolla y afroperuana."
+  }
  ],
  "extra_tts": {
-  "an_tema": ["anunciador", "Hoy jugamos: ¡la gran maratón de tres horas, con trescientas setenta preguntas de todo el mundo!"],
-  "pr_intro": ["presentador", "¡Hola, familia! Hoy es la gran maratón de tres horas: trescientas setenta preguntas para jugar sin parar. ¿Tienen snacks y buena energía?"],
-  "co_intro": ["copresentadora", "Habrá fotos misteriosas, verdadero o falso y rondas relámpago. Háganse cómodos, que hoy nos quedamos un buen rato juntos."],
-  "co_fama": ["copresentadora", "Y un aplauso enorme a los mejores jugadores del episodio anterior, cuyos nombres ya aparecen en pantalla. ¡Hoy pueden superarlos!"],
-  "charla05_pr": ["presentador", "¡Una maratón de tres horas! Empezamos suavecito, pero esto se va a poner emocionante."],
-  "charla05_co": ["copresentadora", "Respiren hondo, familia. Y ojo: el ranking del celular ya se está moviendo."],
-  "charla10_pr": ["presentador", "¡Mickey casi tiene cien años y sigue como nuevo! Yo envidio su cuerda."],
-  "charla10_co": ["copresentadora", "Qué cosas dices, MAX. Atentos: ahora vienen fotos misteriosas de lugares famosos."],
-  "charla15_pr": ["presentador", "¡Una torre inclinada, un puente rojo y unas cataratas enormes! Mis ojos de robot dieron mil vueltas."],
-  "charla15_co": ["copresentadora", "Y todavía quedan muchísimas por delante. ¡Revisen cómo van en el ranking!"],
-  "charla20_pr": ["presentador", "¡Veinte preguntas! Ya soy fan de El Principito, aunque nunca me encontré con un zorro."],
-  "charla20_co": ["copresentadora", "Cosas de robots, MAX. Ahora vienen unas de verdadero o falso, ¡atentos!"],
-  "charla25_pr": ["presentador", "¡Los perros sí ven colores! Entonces mi perro robot no se pierde nada."],
-  "charla25_co": ["copresentadora", "Ojalá lo tuvieras, MAX. Familia, comparen sus puntos: ¿quién va ganando en casa?"],
-  "charla30_pr": ["presentador", "Béisbol, ángulos, números romanos… ¡mi cabeza parece un tablero de juego!"],
-  "charla30_co": ["copresentadora", "Tu cabeza es un tablero, MAX. Y ahora, ¡prepárense para una ronda relámpago!"],
-  "charla35_pr": ["presentador", "¡Cinco preguntas en un suspiro! Casi no alcancé ni a parpadear."],
-  "charla35_co": ["copresentadora", "Rapidísimo, MAX. Si respondieron todo a tiempo, ¡chócala con quien tengan al lado!"],
-  "charla40_pr": ["presentador", "Una reina que gobernó sesenta y tres años. ¡Yo no aguantaría tanto sin cargar la batería!"],
-  "charla40_co": ["copresentadora", "Y un Nobel peruano que muchos conocen. ¡Qué orgullo! Sigan sumando puntos, familia."],
-  "charla45_pr": ["presentador", "¡Pinocho, mentiras y narices largas! Hoy yo solo digo verdades de robot."],
-  "charla45_co": ["copresentadora", "Pues tu nariz, MAX, es un botón. Revisen el ranking en el celular."],
-  "charla50_pr": ["presentador", "¡Cincuenta! Hasta el salar de Uyuni parece un espejo gigante de tanta emoción."],
-  "charla50_co": ["copresentadora", "Qué poético, MAX. Y todavía queda muchísimo juego por delante, ¡ánimo!"],
-  "charla55_pr": ["presentador", "Sherlock Holmes resolvería esto en un minuto. ¡Yo todavía estoy buscando mi lupa!"],
-  "charla55_co": ["copresentadora", "La lupa la traes en la cabeza, MAX. Ahora vienen otras tres de verdadero o falso."]
+  "an_tema": [
+   "anunciador",
+   "Hoy jugamos: ¡la gran maratón de tres horas, con trescientas setenta preguntas de todo el mundo!"
+  ],
+  "pr_intro": [
+   "presentador",
+   "¡Hola, familia! Hoy es la gran maratón de tres horas: trescientas setenta preguntas para jugar sin parar. ¿Tienen snacks y buena energía?"
+  ],
+  "co_intro": [
+   "copresentadora",
+   "Habrá fotos misteriosas, verdadero o falso y rondas relámpago. Háganse cómodos, que hoy nos quedamos un buen rato juntos."
+  ],
+  "co_fama": [
+   "copresentadora",
+   "Y un aplauso enorme a los mejores jugadores del episodio anterior, cuyos nombres ya aparecen en pantalla. ¡Hoy pueden superarlos!"
+  ],
+  "charla05_pr": [
+   "presentador",
+   "¡Una maratón de tres horas! Empezamos suavecito, pero esto se va a poner emocionante."
+  ],
+  "charla05_co": [
+   "copresentadora",
+   "Respiren hondo, familia. Y ojo: el ranking del celular ya se está moviendo."
+  ],
+  "charla10_pr": [
+   "presentador",
+   "¡Mickey casi tiene cien años y sigue como nuevo! Yo envidio su cuerda."
+  ],
+  "charla10_co": [
+   "copresentadora",
+   "Qué cosas dices, MAX. Atentos: ahora vienen fotos misteriosas de lugares famosos."
+  ],
+  "charla15_pr": [
+   "presentador",
+   "¡Una torre inclinada, un puente rojo y unas cataratas enormes! Mis ojos de robot dieron mil vueltas."
+  ],
+  "charla15_co": [
+   "copresentadora",
+   "Y todavía quedan muchísimas por delante. ¡Revisen cómo van en el ranking!"
+  ],
+  "charla20_pr": [
+   "presentador",
+   "¡Veinte preguntas! Ya soy fan de El Principito, aunque nunca me encontré con un zorro."
+  ],
+  "charla20_co": [
+   "copresentadora",
+   "Cosas de robots, MAX. Ahora vienen unas de verdadero o falso, ¡atentos!"
+  ],
+  "charla25_pr": [
+   "presentador",
+   "¡Los perros sí ven colores! Entonces mi perro robot no se pierde nada."
+  ],
+  "charla25_co": [
+   "copresentadora",
+   "Ojalá lo tuvieras, MAX. Familia, comparen sus puntos: ¿quién va ganando en casa?"
+  ],
+  "charla30_pr": [
+   "presentador",
+   "Béisbol, ángulos, números romanos… ¡mi cabeza parece un tablero de juego!"
+  ],
+  "charla30_co": [
+   "copresentadora",
+   "Tu cabeza es un tablero, MAX. Y ahora, ¡prepárense para una ronda relámpago!"
+  ],
+  "charla35_pr": [
+   "presentador",
+   "¡Cinco preguntas en un suspiro! Casi no alcancé ni a parpadear."
+  ],
+  "charla35_co": [
+   "copresentadora",
+   "Rapidísimo, MAX. Si respondieron todo a tiempo, ¡chócala con quien tengan al lado!"
+  ],
+  "charla40_pr": [
+   "presentador",
+   "Una reina que gobernó sesenta y tres años. ¡Yo no aguantaría tanto sin cargar la batería!"
+  ],
+  "charla40_co": [
+   "copresentadora",
+   "Y un Nobel peruano que muchos conocen. ¡Qué orgullo! Sigan sumando puntos, familia."
+  ],
+  "charla45_pr": [
+   "presentador",
+   "¡Pinocho, mentiras y narices largas! Hoy yo solo digo verdades de robot."
+  ],
+  "charla45_co": [
+   "copresentadora",
+   "Pues tu nariz, MAX, es un botón. Revisen el ranking en el celular."
+  ],
+  "charla50_pr": [
+   "presentador",
+   "¡Cincuenta! Hasta el salar de Uyuni parece un espejo gigante de tanta emoción."
+  ],
+  "charla50_co": [
+   "copresentadora",
+   "Qué poético, MAX. Y todavía queda muchísimo juego por delante, ¡ánimo!"
+  ],
+  "charla55_pr": [
+   "presentador",
+   "Sherlock Holmes resolvería esto en un minuto. ¡Yo todavía estoy buscando mi lupa!"
+  ],
+  "charla55_co": [
+   "copresentadora",
+   "La lupa la traes en la cabeza, MAX. Ahora vienen otras tres de verdadero o falso."
+  ]
  }
 }
