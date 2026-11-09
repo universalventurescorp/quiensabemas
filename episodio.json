@@ -1,0 +1,446 @@
+{
+ "_nota": "MUESTRA 3 (9-nov-2026): 14 preguntas, nivel nuevo cada 2: corren (1-2), capa (3-4), nave (5), teletransporte (6-7, el 7 ya es «PISTA DE NOCHE»).",
+ "id": "rapido-muestra3",
+ "formato": "rapido",
+ "muestra": true,
+ "max_preguntas": 14,
+ "niveles_cada": 2,
+ "suscripcion_en": 6,
+ "titulo": "¿A o B?",
+ "titulo_youtube": "MUESTRA 3 · ¿A o B? corren, vuelan, nave y teletransporte 🔥 | ¿Quién Sabe Más?",
+ "descripcion": "MUESTRA 3 del formato rápido ¿A o B? (no publicar).",
+ "extra_tts": {
+  "an_arranque": [
+   "anunciador",
+   "¡Catorce preguntas! ¿Hasta dónde llegas? ¡Vamos!"
+  ]
+ },
+ "fotos_miniatura": [
+  [
+   1,
+   0
+  ],
+  [
+   1,
+   1
+  ]
+ ],
+ "preguntas": [
+  {
+   "n": 1,
+   "p": "¿Cuál pesa más?",
+   "o": [
+    "Elefante",
+    "Hipopótamo"
+   ],
+   "c": 0,
+   "tp": "¿Cuál pesa más?",
+   "tr": "¡El elefante!",
+   "o_fotos": [
+    {
+     "q": "african elephant",
+     "src": "px"
+    },
+    {
+     "q": "hippopotamus",
+     "src": "px"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o001_0.jpg",
+    "trabajo/opciones/o001_1.jpg"
+   ],
+   "o_score": [
+    0.31,
+    0.334
+   ]
+  },
+  {
+   "n": 2,
+   "p": "¿Cuál es más antiguo?",
+   "o": [
+    "Coliseo romano",
+    "Pirámides de Guiza"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más antiguo?",
+   "tr": "¡Las pirámides!",
+   "o_fotos": [
+    {
+     "q": "Colosseum Rome",
+     "src": "px"
+    },
+    {
+     "q": "Giza pyramids Egypt",
+     "src": "px"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o002_0.jpg",
+    "trabajo/opciones/o002_1.jpg"
+   ],
+   "o_score": [
+    0.325,
+    0.327
+   ]
+  },
+  {
+   "n": 3,
+   "p": "¿Cuál tiene más vitamina C?",
+   "o": [
+    "Naranja",
+    "Kiwi"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene más vitamina C?",
+   "tr": "¡El kiwi! Casi el doble.",
+   "o_fotos": [
+    {
+     "q": "orange fruit",
+     "src": "px"
+    },
+    {
+     "q": "kiwi fruit sliced",
+     "src": "px"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o003_0.jpg",
+    "trabajo/opciones/o003_1.jpg"
+   ],
+   "o_score": [
+    0.303,
+    0.358
+   ]
+  },
+  {
+   "n": 4,
+   "p": "¿Cuál vive más años?",
+   "o": [
+    "Tortuga gigante",
+    "Loro"
+   ],
+   "c": 0,
+   "tp": "¿Cuál vive más años?",
+   "tr": "¡La tortuga gigante!",
+   "o_fotos": [
+    {
+     "q": "giant tortoise",
+     "src": "px"
+    },
+    {
+     "q": "parrot",
+     "src": "px"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o004_0.jpg",
+    "trabajo/opciones/o004_1.jpg"
+   ],
+   "o_score": [
+    0.343,
+    0.338
+   ]
+  },
+  {
+   "n": 5,
+   "p": "¿Cuál tiene más patas?",
+   "o": [
+    "Hormiga",
+    "Araña"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene más patas?",
+   "tr": "¡La araña! Tiene ocho.",
+   "o_fotos": [
+    {
+     "q": "ant macro",
+     "src": "px"
+    },
+    {
+     "q": "spider",
+     "src": "px"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o005_0.jpg",
+    "trabajo/opciones/o005_1.jpg"
+   ],
+   "o_score": [
+    0.346,
+    0.331
+   ]
+  },
+  {
+   "n": 6,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "La Luna",
+    "Plutón"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡La Luna! Plutón es más chico.",
+   "o_fotos": [
+    {
+     "q": "full moon",
+     "src": "px"
+    },
+    {
+     "q": "Pluto New Horizons",
+     "src": "cm",
+     "must": "Pluto"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o006_0.jpg",
+    "trabajo/opciones/o006_1.jpg"
+   ],
+   "o_score": [
+    0.343,
+    0.33
+   ]
+  },
+  {
+   "n": 7,
+   "p": "¿Cuál es más caliente?",
+   "o": [
+    "Mercurio",
+    "Venus"
+   ],
+   "c": 1,
+   "tp": "¿Qué planeta es más caliente?",
+   "tr": "¡Venus! Aunque está más lejos del Sol.",
+   "o_fotos": [
+    {
+     "q": "Mercury planet MESSENGER",
+     "src": "cm",
+     "must": "Mercury"
+    },
+    {
+     "q": "Venus planet Mariner",
+     "src": "cm",
+     "must": "Venus"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o007_0.jpg",
+    "trabajo/opciones/o007_1.jpg"
+   ],
+   "o_score": [
+    0.356,
+    0.362
+   ]
+  },
+  {
+   "n": 8,
+   "p": "¿Cuál pone huevos?",
+   "o": [
+    "Delfín",
+    "Ornitorrinco"
+   ],
+   "c": 1,
+   "tp": "¿Cuál de estos dos pone huevos?",
+   "tr": "¡El ornitorrinco!",
+   "o_fotos": [
+    {
+     "q": "dolphin",
+     "src": "px"
+    },
+    {
+     "q": "platypus",
+     "src": "cm",
+     "must": "platypus"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o008_0.jpg",
+    "trabajo/opciones/o008_1.jpg"
+   ],
+   "o_score": [
+    0.341,
+    0.293
+   ]
+  },
+  {
+   "n": 9,
+   "p": "¿Qué país es más grande?",
+   "o": [
+    "Brasil",
+    "Australia"
+   ],
+   "c": 0,
+   "tp": "¿Qué país es más grande?",
+   "tr": "¡Brasil! Por un poquito.",
+   "o_fotos": [
+    {
+     "flag": "br"
+    },
+    {
+     "flag": "au"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o009_0.png",
+    "trabajo/opciones/o009_1.png"
+   ],
+   "o_score": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "n": 10,
+   "p": "¿Qué país tiene más habitantes?",
+   "o": [
+    "China",
+    "India"
+   ],
+   "c": 1,
+   "tp": "¿Qué país tiene más habitantes?",
+   "tr": "¡India! Pasó a China en el dos mil veintitrés.",
+   "o_fotos": [
+    {
+     "flag": "cn"
+    },
+    {
+     "flag": "in"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o010_0.png",
+    "trabajo/opciones/o010_1.png"
+   ],
+   "o_score": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "n": 11,
+   "p": "¿Cuál duerme más horas?",
+   "o": [
+    "Koala",
+    "Gato"
+   ],
+   "c": 0,
+   "tp": "¿Cuál duerme más horas al día?",
+   "tr": "¡El koala! Hasta veinte horas.",
+   "o_fotos": [
+    {
+     "q": "koala",
+     "src": "px"
+    },
+    {
+     "q": "cat sleeping",
+     "src": "px"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o011_0.jpg",
+    "trabajo/opciones/o011_1.jpg"
+   ],
+   "o_score": [
+    0.342,
+    0.347
+   ]
+  },
+  {
+   "n": 12,
+   "p": "¿Cuál es un mamífero?",
+   "o": [
+    "Pingüino",
+    "Murciélago"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un mamífero?",
+   "tr": "¡El murciélago!",
+   "o_fotos": [
+    {
+     "q": "penguin",
+     "src": "px"
+    },
+    {
+     "q": "bat flying",
+     "src": "px"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o012_0.jpg",
+    "trabajo/opciones/o012_1.jpg"
+   ],
+   "o_score": [
+    0.329,
+    0.318
+   ]
+  },
+  {
+   "n": 13,
+   "p": "¿Cuál es más alta?",
+   "o": [
+    "Torre Eiffel",
+    "Estatua de la Libertad"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más alta?",
+   "tr": "¡La Torre Eiffel! Más del triple.",
+   "o_fotos": [
+    {
+     "q": "Eiffel Tower",
+     "src": "px"
+    },
+    {
+     "q": "Statue of Liberty",
+     "src": "px"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o014_0.jpg",
+    "trabajo/opciones/o014_1.jpg"
+   ],
+   "o_score": [
+    0.328,
+    0.32
+   ]
+  },
+  {
+   "n": 14,
+   "p": "¿Cuál es más rápido?",
+   "o": [
+    "León",
+    "Guepardo"
+   ],
+   "c": 1,
+   "tp": "¿Cuál corre más rápido?",
+   "tr": "¡El guepardo!",
+   "o_fotos": [
+    {
+     "q": "lion",
+     "src": "px"
+    },
+    {
+     "q": "cheetah running",
+     "src": "px"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o015_0.jpg",
+    "trabajo/opciones/o015_1.jpg"
+   ],
+   "o_score": [
+    0.32,
+    0.369
+   ]
+  }
+ ],
+ "etapas": [
+  1,
+  3,
+  5,
+  6
+ ],
+ "miniatura_fotos": [
+  "trabajo/opciones/o001_0.jpg",
+  "trabajo/opciones/o001_1.jpg"
+ ]
+}
