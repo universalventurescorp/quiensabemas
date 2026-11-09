@@ -4,7 +4,7 @@
  "formato": "rapido",
  "max_preguntas": 150,
  "total_titulo": 150,
- "minimo": 120,
+ "minimo": 140,
  "niveles_cada": 5,
  "etapas": [
   1,
@@ -148,7 +148,7 @@
    "tr": "¡La mariposa! La araña no es insecto.",
    "o_fotos": [
     {
-     "q": "spider web",
+     "q": "jumping spider macro",
      "src": "px"
     },
     {
@@ -190,9 +190,8 @@
    "tr": "¡Júpiter!",
    "o_fotos": [
     {
-     "q": "Jupiter planet",
-     "src": "cm",
-     "must": "Jupiter"
+     "q": "planet jupiter",
+     "src": "px"
     },
     {
      "q": "earth from space",
@@ -212,7 +211,7 @@
    "tr": "¡La lava!",
    "o_fotos": [
     {
-     "q": "boiling water pot",
+     "q": "boiling water bubbles",
      "src": "px"
     },
     {
@@ -321,8 +320,9 @@
      "src": "px"
     },
     {
-     "q": "blue whale",
-     "src": "px"
+     "q": "Balaenoptera musculus",
+     "src": "cm",
+     "must": "musculus"
     }
    ]
   },
@@ -472,27 +472,6 @@
   },
   {
    "n": 22,
-   "p": "¿Cuál tiene más dientes?",
-   "o": [
-    "Humano",
-    "Tiburón"
-   ],
-   "c": 1,
-   "tp": "¿Cuál tiene más dientes?",
-   "tr": "¡El tiburón! Tiene cientos.",
-   "o_fotos": [
-    {
-     "q": "smile teeth",
-     "src": "px"
-    },
-    {
-     "q": "shark teeth",
-     "src": "px"
-    }
-   ]
-  },
-  {
-   "n": 23,
    "p": "¿Cuál es más grande?",
    "o": [
     "Pingüino emperador",
@@ -513,7 +492,7 @@
    ]
   },
   {
-   "n": 24,
+   "n": 23,
    "p": "¿Qué país es más grande?",
    "o": [
     "México",
@@ -532,26 +511,26 @@
    ]
   },
   {
-   "n": 25,
+   "n": 24,
    "p": "¿Qué país tiene más habitantes?",
    "o": [
-    "Brasil",
-    "México"
+    "México",
+    "Brasil"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Qué país tiene más habitantes?",
    "tr": "¡Brasil!",
    "o_fotos": [
     {
-     "flag": "br"
+     "flag": "mx"
     },
     {
-     "flag": "mx"
+     "flag": "br"
     }
    ]
   },
   {
-   "n": 26,
+   "n": 25,
    "p": "¿Qué país es más grande?",
    "o": [
     "Canadá",
@@ -570,7 +549,7 @@
    ]
   },
   {
-   "n": 27,
+   "n": 26,
    "p": "¿Qué país es más grande?",
    "o": [
     "Perú",
@@ -589,7 +568,7 @@
    ]
   },
   {
-   "n": 28,
+   "n": 27,
    "p": "¿Cuál brilla con luz propia?",
    "o": [
     "El Sol",
@@ -610,7 +589,7 @@
    ]
   },
   {
-   "n": 29,
+   "n": 28,
    "p": "¿Cuál es más duro?",
    "o": [
     "Diamante",
@@ -631,7 +610,7 @@
    ]
   },
   {
-   "n": 30,
+   "n": 29,
    "p": "¿Cuál puede volar?",
    "o": [
     "Murciélago",
@@ -652,28 +631,28 @@
    ]
   },
   {
-   "n": 31,
+   "n": 30,
    "p": "¿Cuál vuela más rápido?",
    "o": [
-    "Águila",
-    "Halcón peregrino"
+    "Halcón peregrino",
+    "Águila"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Cuál vuela más rápido?",
    "tr": "¡El halcón peregrino!",
    "o_fotos": [
     {
-     "q": "eagle",
+     "q": "peregrine falcon",
      "src": "px"
     },
     {
-     "q": "peregrine falcon",
+     "q": "eagle",
      "src": "px"
     }
    ]
   },
   {
-   "n": 32,
+   "n": 31,
    "p": "¿Cuál es más rápido?",
    "o": [
     "Caracol",
@@ -694,7 +673,7 @@
    ]
   },
   {
-   "n": 33,
+   "n": 32,
    "p": "¿Cuál vive más años?",
    "o": [
     "Caballo",
@@ -715,70 +694,70 @@
    ]
   },
   {
-   "n": 34,
+   "n": 33,
    "p": "¿Cuál es más alto?",
    "o": [
-    "Burj Khalifa",
-    "Torre Eiffel"
+    "Torre Eiffel",
+    "Burj Khalifa"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Cuál es más alto?",
    "tr": "¡El Burj Khalifa!",
    "o_fotos": [
     {
-     "q": "Burj Khalifa",
+     "q": "Eiffel Tower Paris",
      "src": "px"
     },
     {
-     "q": "Eiffel Tower Paris",
+     "q": "Burj Khalifa",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "p": "¿Cuál era más grande?",
+   "o": [
+    "Tiranosaurio",
+    "Velociraptor"
+   ],
+   "c": 0,
+   "tp": "¿Cuál dinosaurio era más grande?",
+   "tr": "¡El tiranosaurio!",
+   "o_fotos": [
+    {
+     "q": "tyrannosaurus",
+     "src": "px"
+    },
+    {
+     "q": "velociraptor",
      "src": "px"
     }
    ]
   },
   {
    "n": 35,
-   "p": "¿Cuál era más grande?",
+   "p": "¿Cuál vive en el Ártico?",
    "o": [
-    "Velociraptor",
-    "Tiranosaurio"
+    "Pingüino",
+    "Oso polar"
    ],
    "c": 1,
-   "tp": "¿Cuál dinosaurio era más grande?",
-   "tr": "¡El tiranosaurio!",
+   "tp": "¿Cuál vive en el Ártico?",
+   "tr": "¡El oso polar! Los pingüinos viven en el sur.",
    "o_fotos": [
     {
-     "q": "velociraptor",
+     "q": "penguins",
      "src": "px"
     },
     {
-     "q": "tyrannosaurus",
+     "q": "polar bear",
      "src": "px"
     }
    ]
   },
   {
    "n": 36,
-   "p": "¿Cuál vive en el Ártico?",
-   "o": [
-    "Oso polar",
-    "Pingüino"
-   ],
-   "c": 0,
-   "tp": "¿Cuál vive en el Ártico?",
-   "tr": "¡El oso polar! Los pingüinos viven en el sur.",
-   "o_fotos": [
-    {
-     "q": "polar bear",
-     "src": "px"
-    },
-    {
-     "q": "penguins",
-     "src": "px"
-    }
-   ]
-  },
-  {
-   "n": 37,
    "p": "¿Cuál es más grande?",
    "o": [
     "Llama",
@@ -799,7 +778,7 @@
    ]
   },
   {
-   "n": 38,
+   "n": 37,
    "p": "¿Cuál cambia de color?",
    "o": [
     "Camaleón",
@@ -820,28 +799,28 @@
    ]
   },
   {
-   "n": 39,
+   "n": 38,
    "p": "¿Cuál come solo plantas?",
    "o": [
-    "Oso",
-    "Elefante"
+    "Elefante",
+    "Oso"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Cuál come solo plantas?",
    "tr": "¡El elefante!",
    "o_fotos": [
     {
-     "q": "brown bear",
+     "q": "elephant eating grass",
      "src": "px"
     },
     {
-     "q": "elephant eating grass",
+     "q": "brown bear",
      "src": "px"
     }
    ]
   },
   {
-   "n": 40,
+   "n": 39,
    "p": "¿Qué planeta tiene anillos?",
    "o": [
     "Marte",
@@ -857,9 +836,29 @@
      "must": "Mars"
     },
     {
-     "q": "Saturn Cassini rings",
-     "src": "cm",
-     "must": "Saturn"
+     "q": "planet saturn rings",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "p": "¿Cuál pesa más?",
+   "o": [
+    "Lobo",
+    "Oso polar"
+   ],
+   "c": 1,
+   "tp": "¿Cuál pesa más?",
+   "tr": "¡El oso polar!",
+   "o_fotos": [
+    {
+     "q": "wolf",
+     "src": "px"
+    },
+    {
+     "q": "polar bear snow",
+     "src": "px"
     }
    ]
   },
@@ -867,67 +866,46 @@
    "n": 41,
    "p": "¿Cuál pesa más?",
    "o": [
-    "Oso polar",
-    "Lobo"
+    "Anaconda",
+    "Cobra"
    ],
    "c": 0,
-   "tp": "¿Cuál pesa más?",
-   "tr": "¡El oso polar!",
+   "tp": "¿Qué serpiente pesa más?",
+   "tr": "¡La anaconda!",
    "o_fotos": [
     {
-     "q": "polar bear snow",
+     "q": "anaconda",
      "src": "px"
     },
     {
-     "q": "wolf",
+     "q": "cobra",
      "src": "px"
     }
    ]
   },
   {
    "n": 42,
-   "p": "¿Cuál pesa más?",
+   "p": "¿Cuál tiene trompa?",
    "o": [
-    "Cobra",
-    "Anaconda"
+    "Jabalí",
+    "Tapir"
    ],
    "c": 1,
-   "tp": "¿Qué serpiente pesa más?",
-   "tr": "¡La anaconda!",
+   "tp": "¿Cuál de estos tiene trompa?",
+   "tr": "¡El tapir!",
    "o_fotos": [
     {
-     "q": "cobra",
+     "q": "wild boar",
      "src": "px"
     },
     {
-     "q": "anaconda",
+     "q": "tapir",
      "src": "px"
     }
    ]
   },
   {
    "n": 43,
-   "p": "¿Cuál tiene trompa?",
-   "o": [
-    "Tapir",
-    "Jabalí"
-   ],
-   "c": 0,
-   "tp": "¿Cuál de estos tiene trompa?",
-   "tr": "¡El tapir!",
-   "o_fotos": [
-    {
-     "q": "tapir",
-     "src": "px"
-    },
-    {
-     "q": "wild boar",
-     "src": "px"
-    }
-   ]
-  },
-  {
-   "n": 44,
    "p": "¿Cuál está más alto?",
    "o": [
     "Cusco",
@@ -948,28 +926,276 @@
    ]
   },
   {
-   "n": 45,
+   "n": 44,
    "p": "¿Cuál es más grande?",
    "o": [
-    "Jabalí",
-    "Rinoceronte"
+    "Rinoceronte",
+    "Jabalí"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Cuál es más grande?",
    "tr": "¡El rinoceronte!",
    "o_fotos": [
     {
-     "q": "boar",
+     "q": "rhinoceros",
      "src": "px"
     },
     {
-     "q": "rhinoceros",
+     "q": "boar",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "p": "¿Cuál es más rápido?",
+   "o": [
+    "Conejo",
+    "Canguro"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más rápido?",
+   "tr": "¡El canguro!",
+   "o_fotos": [
+    {
+     "q": "rabbit",
+     "src": "px"
+    },
+    {
+     "q": "kangaroo",
      "src": "px"
     }
    ]
   },
   {
    "n": 46,
+   "p": "¿Cuál pesa más?",
+   "o": [
+    "Rinoceronte",
+    "Jirafa"
+   ],
+   "c": 0,
+   "tp": "¿Cuál pesa más?",
+   "tr": "¡El rinoceronte!",
+   "o_fotos": [
+    {
+     "q": "white rhino",
+     "src": "px"
+    },
+    {
+     "q": "giraffe savanna",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "p": "¿Cuál sale de noche?",
+   "o": [
+    "Gallina",
+    "Búho"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es nocturno?",
+   "tr": "¡El búho!",
+   "o_fotos": [
+    {
+     "q": "hen",
+     "src": "px"
+    },
+    {
+     "q": "owl",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "p": "¿Cuál vive en el mar?",
+   "o": [
+    "Orca",
+    "Hipopótamo"
+   ],
+   "c": 0,
+   "tp": "¿Cuál vive en el mar?",
+   "tr": "¡La orca!",
+   "o_fotos": [
+    {
+     "q": "orca",
+     "src": "px"
+    },
+    {
+     "q": "hippopotamus water",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "p": "¿Cuál es un mamífero?",
+   "o": [
+    "Ballena",
+    "Tiburón"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un mamífero?",
+   "tr": "¡La ballena!",
+   "o_fotos": [
+    {
+     "q": "humpback whale breaching",
+     "src": "px"
+    },
+    {
+     "q": "shark fin",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "p": "¿Cuál come insectos?",
+   "o": [
+    "Oso hormiguero",
+    "Oso panda"
+   ],
+   "c": 0,
+   "tp": "¿Cuál come insectos?",
+   "tr": "¡El oso hormiguero!",
+   "o_fotos": [
+    {
+     "q": "anteater",
+     "src": "px"
+    },
+    {
+     "q": "panda eating bamboo",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 51,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "León",
+    "Tigre"
+   ],
+   "c": 1,
+   "tp": "¿Qué felino es más grande?",
+   "tr": "¡El tigre!",
+   "o_fotos": [
+    {
+     "q": "lion male",
+     "src": "px"
+    },
+    {
+     "q": "tiger",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "p": "¿Cuál vive más años?",
+   "o": [
+    "Loro",
+    "Hámster"
+   ],
+   "c": 0,
+   "tp": "¿Cuál vive más años?",
+   "tr": "¡El loro!",
+   "o_fotos": [
+    {
+     "q": "grey parrot",
+     "src": "px"
+    },
+    {
+     "q": "hamster",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 53,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Huevo de gallina",
+    "Huevo de avestruz"
+   ],
+   "c": 1,
+   "tp": "¿Qué huevo es más grande?",
+   "tr": "¡El de avestruz!",
+   "o_fotos": [
+    {
+     "q": "chicken egg",
+     "src": "px"
+    },
+    {
+     "q": "ostrich egg",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 54,
+   "p": "¿Cuál es más picante?",
+   "o": [
+    "Pimiento",
+    "Rocoto"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más picante?",
+   "tr": "¡El rocoto!",
+   "o_fotos": [
+    {
+     "q": "green bell pepper",
+     "src": "px"
+    },
+    {
+     "q": "red hot chili pepper",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 55,
+   "p": "¿Qué país tiene más habitantes?",
+   "o": [
+    "Chile",
+    "Perú"
+   ],
+   "c": 1,
+   "tp": "¿Qué país tiene más habitantes?",
+   "tr": "¡Perú!",
+   "o_fotos": [
+    {
+     "flag": "cl"
+    },
+    {
+     "flag": "pe"
+    }
+   ]
+  },
+  {
+   "n": 56,
+   "p": "¿Qué país es más grande?",
+   "o": [
+    "Perú",
+    "Chile"
+   ],
+   "c": 0,
+   "tp": "¿Qué país es más grande?",
+   "tr": "¡Perú!",
+   "o_fotos": [
+    {
+     "flag": "pe"
+    },
+    {
+     "flag": "cl"
+    }
+   ]
+  },
+  {
+   "n": 57,
    "p": "¿Cuál es más alto?",
    "o": [
     "Everest",
@@ -991,7 +1217,7 @@
    ]
   },
   {
-   "n": 47,
+   "n": 58,
    "p": "¿Cuál es más antiguo?",
    "o": [
     "Machu Picchu",
@@ -1012,28 +1238,28 @@
    ]
   },
   {
-   "n": 48,
+   "n": 59,
    "p": "¿Cuál es más antiguo?",
    "o": [
-    "Coliseo romano",
-    "Machu Picchu"
+    "Machu Picchu",
+    "Coliseo romano"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Cuál es más antiguo?",
    "tr": "¡El Coliseo!",
    "o_fotos": [
     {
-     "q": "Colosseum",
+     "q": "Machu Picchu Peru",
      "src": "px"
     },
     {
-     "q": "Machu Picchu Peru",
+     "q": "Colosseum",
      "src": "px"
     }
    ]
   },
   {
-   "n": 49,
+   "n": 60,
    "p": "¿Qué se inventó primero?",
    "o": [
     "Radio",
@@ -1044,59 +1270,59 @@
    "tr": "¡La radio!",
    "o_fotos": [
     {
-     "q": "vintage radio",
+     "q": "antique radio",
      "src": "px"
     },
     {
-     "q": "vintage television",
+     "q": "retro tv",
      "src": "px"
     }
    ]
   },
   {
-   "n": 50,
+   "n": 61,
    "p": "¿Qué se inventó primero?",
    "o": [
-    "Automóvil",
-    "Avión"
+    "Avión",
+    "Automóvil"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Qué se inventó primero?",
    "tr": "¡El automóvil!",
    "o_fotos": [
     {
-     "q": "vintage car",
+     "q": "vintage airplane",
      "src": "px"
     },
     {
-     "q": "vintage airplane",
+     "q": "vintage car",
      "src": "px"
     }
    ]
   },
   {
-   "n": 51,
+   "n": 62,
    "p": "¿Qué se inventó primero?",
    "o": [
-    "Bolígrafo",
-    "Lápiz"
+    "Lápiz",
+    "Bolígrafo"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Qué se inventó primero?",
    "tr": "¡El lápiz!",
    "o_fotos": [
     {
-     "q": "ballpoint pen",
+     "q": "pencil",
      "src": "px"
     },
     {
-     "q": "pencil",
+     "q": "ballpoint pen writing",
      "src": "px"
     }
    ]
   },
   {
-   "n": 52,
+   "n": 63,
    "p": "¿Qué planeta es más grande?",
    "o": [
     "Tierra",
@@ -1118,53 +1344,53 @@
    ]
   },
   {
-   "n": 53,
+   "n": 64,
    "p": "¿Cuál está más cerca del Sol?",
    "o": [
-    "Marte",
-    "Venus"
+    "Venus",
+    "Marte"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Cuál está más cerca del Sol?",
    "tr": "¡Venus!",
    "o_fotos": [
     {
-     "q": "Mars Hubble",
-     "src": "cm",
-     "must": "Mars"
-    },
-    {
      "q": "Venus Mariner",
      "src": "cm",
      "must": "Venus"
+    },
+    {
+     "q": "Mars Hubble",
+     "src": "cm",
+     "must": "Mars"
     }
    ]
   },
   {
-   "n": 54,
+   "n": 65,
    "p": "¿Cuál es más caliente?",
    "o": [
-    "Mercurio",
-    "Venus"
+    "Venus",
+    "Mercurio"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Qué planeta es más caliente?",
    "tr": "¡Venus! Aunque está más lejos del Sol.",
    "o_fotos": [
     {
-     "q": "Mercury planet MESSENGER",
-     "src": "cm",
-     "must": "Mercury"
-    },
-    {
      "q": "Venus planet Mariner",
      "src": "cm",
      "must": "Venus"
+    },
+    {
+     "q": "Mercury planet MESSENGER",
+     "src": "cm",
+     "must": "Mercury"
     }
    ]
   },
   {
-   "n": 55,
+   "n": 66,
    "p": "¿Cuál es más grande?",
    "o": [
     "Plutón",
@@ -1186,49 +1412,50 @@
    ]
   },
   {
-   "n": 56,
+   "n": 67,
    "p": "¿Cuál tiene el corazón más grande?",
    "o": [
-    "Ballena azul",
-    "Jirafa"
+    "Jirafa",
+    "Ballena azul"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Cuál tiene el corazón más grande?",
    "tr": "¡La ballena azul!",
    "o_fotos": [
     {
-     "q": "blue whale ocean",
+     "q": "giraffe head",
      "src": "px"
     },
     {
-     "q": "giraffe head",
-     "src": "px"
+     "q": "blue whale Balaenoptera musculus surfacing",
+     "src": "cm",
+     "must": "musculus"
     }
    ]
   },
   {
-   "n": 57,
+   "n": 68,
    "p": "Mismo tamaño: ¿cuál pesa más?",
    "o": [
-    "Oro",
-    "Plata"
+    "Plata",
+    "Oro"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "Del mismo tamaño, ¿cuál pesa más?",
    "tr": "¡El oro!",
    "o_fotos": [
     {
-     "q": "gold bars",
+     "q": "silver bars",
      "src": "px"
     },
     {
-     "q": "silver bars",
+     "q": "gold bars",
      "src": "px"
     }
    ]
   },
   {
-   "n": 58,
+   "n": 69,
    "p": "¿Cuál tiene más potasio?",
    "o": [
     "Plátano",
@@ -1249,7 +1476,7 @@
    ]
   },
   {
-   "n": 59,
+   "n": 70,
    "p": "¿Cuál es más antiguo?",
    "o": [
     "Tiranosaurio",
@@ -1260,17 +1487,19 @@
    "tr": "¡El estegosaurio!",
    "o_fotos": [
     {
-     "q": "t rex dinosaur",
-     "src": "px"
+     "q": "Tyrannosaurus skeleton",
+     "src": "cm",
+     "must": "Tyrannosaurus"
     },
     {
-     "q": "stegosaurus",
-     "src": "px"
+     "q": "Stegosaurus skeleton",
+     "src": "cm",
+     "must": "Stegosaurus"
     }
    ]
   },
   {
-   "n": 60,
+   "n": 71,
    "p": "¿Cuál es más alto?",
    "o": [
     "Big Ben",
@@ -1291,49 +1520,49 @@
    ]
   },
   {
-   "n": 61,
+   "n": 72,
    "p": "¿Cuál es más antigua?",
    "o": [
-    "Torre Eiffel",
-    "Estatua de la Libertad"
+    "Estatua de la Libertad",
+    "Torre Eiffel"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Cuál se construyó primero?",
    "tr": "¡La Estatua de la Libertad! Tres años antes.",
    "o_fotos": [
     {
-     "q": "Eiffel Tower night",
+     "q": "Statue of Liberty New York",
      "src": "px"
     },
     {
-     "q": "Statue of Liberty New York",
+     "q": "Eiffel Tower night",
      "src": "px"
     }
    ]
   },
   {
-   "n": 62,
+   "n": 73,
    "p": "¿Cuál tiene más patas?",
    "o": [
-    "Ciempiés",
-    "Cangrejo"
+    "Cangrejo",
+    "Ciempiés"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Cuál tiene más patas?",
    "tr": "¡El ciempiés!",
    "o_fotos": [
     {
-     "q": "centipede",
+     "q": "crab",
      "src": "px"
     },
     {
-     "q": "crab",
+     "q": "centipede",
      "src": "px"
     }
    ]
   },
   {
-   "n": 63,
+   "n": 74,
    "p": "¿Cuál tiene más brazos?",
    "o": [
     "Calamar",
@@ -1344,7 +1573,7 @@
    "tr": "¡El calamar! Tiene diez.",
    "o_fotos": [
     {
-     "q": "squid",
+     "q": "squid underwater",
      "src": "px"
     },
     {
@@ -1354,7 +1583,7 @@
    ]
   },
   {
-   "n": 64,
+   "n": 75,
    "p": "¿Cuál vive más años?",
    "o": [
     "Gato",
@@ -1375,49 +1604,49 @@
    ]
   },
   {
-   "n": 65,
+   "n": 76,
    "p": "¿Cuál respira bajo el agua?",
    "o": [
-    "Tiburón",
-    "Delfín"
+    "Delfín",
+    "Tiburón"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Cuál respira bajo el agua?",
    "tr": "¡El tiburón! El delfín sale a respirar.",
    "o_fotos": [
     {
-     "q": "shark",
+     "q": "dolphin jumping",
      "src": "px"
     },
     {
-     "q": "dolphin jumping",
+     "q": "shark",
      "src": "px"
     }
    ]
   },
   {
-   "n": 66,
+   "n": 77,
    "p": "¿Cuál es más grande?",
    "o": [
-    "Águila calva",
-    "Cóndor andino"
+    "Cóndor andino",
+    "Águila calva"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Qué ave es más grande?",
    "tr": "¡El cóndor!",
    "o_fotos": [
     {
-     "q": "bald eagle",
+     "q": "andean condor",
      "src": "px"
     },
     {
-     "q": "andean condor",
+     "q": "bald eagle",
      "src": "px"
     }
    ]
   },
   {
-   "n": 67,
+   "n": 78,
    "p": "¿Cuál es más alta?",
    "o": [
     "Cataratas del Niágara",
@@ -1439,29 +1668,7 @@
    ]
   },
   {
-   "n": 68,
-   "p": "¿Cuál es más grande?",
-   "o": [
-    "Lago Titicaca",
-    "Lago Victoria"
-   ],
-   "c": 1,
-   "tp": "¿Qué lago es más grande?",
-   "tr": "¡El lago Victoria!",
-   "o_fotos": [
-    {
-     "q": "Lake Titicaca",
-     "src": "px"
-    },
-    {
-     "q": "Lake Victoria",
-     "src": "cm",
-     "must": "Victoria"
-    }
-   ]
-  },
-  {
-   "n": 69,
+   "n": 79,
    "p": "¿Cuál es más antigua?",
    "o": [
     "Machu Picchu",
@@ -1483,7 +1690,7 @@
    ]
   },
   {
-   "n": 70,
+   "n": 80,
    "p": "¿Qué país es más grande?",
    "o": [
     "Chile",
@@ -1502,26 +1709,26 @@
    ]
   },
   {
-   "n": 71,
+   "n": 81,
    "p": "¿Qué país tiene más habitantes?",
    "o": [
-    "Rusia",
-    "Japón"
+    "Japón",
+    "Rusia"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Qué país tiene más habitantes?",
    "tr": "¡Rusia!",
    "o_fotos": [
     {
-     "flag": "ru"
+     "flag": "jp"
     },
     {
-     "flag": "jp"
+     "flag": "ru"
     }
    ]
   },
   {
-   "n": 72,
+   "n": 82,
    "p": "¿Qué país es más grande?",
    "o": [
     "India",
@@ -1540,7 +1747,7 @@
    ]
   },
   {
-   "n": 73,
+   "n": 83,
    "p": "¿Qué país tiene más habitantes?",
    "o": [
     "Indonesia",
@@ -1559,7 +1766,7 @@
    ]
   },
   {
-   "n": 74,
+   "n": 84,
    "p": "¿Qué país es más pequeño?",
    "o": [
     "Vaticano",
@@ -1578,26 +1785,26 @@
    ]
   },
   {
-   "n": 75,
+   "n": 85,
    "p": "¿Qué país es más grande?",
    "o": [
-    "Francia",
-    "España"
+    "España",
+    "Francia"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Qué país es más grande?",
    "tr": "¡Francia!",
    "o_fotos": [
     {
-     "flag": "fr"
+     "flag": "es"
     },
     {
-     "flag": "es"
+     "flag": "fr"
     }
    ]
   },
   {
-   "n": 76,
+   "n": 86,
    "p": "¿Qué país tiene más habitantes?",
    "o": [
     "Francia",
@@ -1616,7 +1823,7 @@
    ]
   },
   {
-   "n": 77,
+   "n": 87,
    "p": "¿Qué país es más grande?",
    "o": [
     "Bolivia",
@@ -1635,26 +1842,26 @@
    ]
   },
   {
-   "n": 78,
+   "n": 88,
    "p": "¿Qué país es más grande?",
    "o": [
-    "Egipto",
-    "Perú"
+    "Perú",
+    "Egipto"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Qué país es más grande?",
    "tr": "¡Perú! Más grande que Egipto.",
    "o_fotos": [
     {
-     "flag": "eg"
+     "flag": "pe"
     },
     {
-     "flag": "pe"
+     "flag": "eg"
     }
    ]
   },
   {
-   "n": 79,
+   "n": 89,
    "p": "¿Qué país es más grande?",
    "o": [
     "Uruguay",
@@ -1673,7 +1880,7 @@
    ]
   },
   {
-   "n": 80,
+   "n": 90,
    "p": "¿Qué país tiene más habitantes?",
    "o": [
     "Argentina",
@@ -1692,26 +1899,26 @@
    ]
   },
   {
-   "n": 81,
+   "n": 91,
    "p": "¿Qué país tiene más habitantes?",
    "o": [
-    "Venezuela",
-    "Perú"
+    "Perú",
+    "Venezuela"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Qué país tiene más habitantes?",
    "tr": "¡Perú!",
    "o_fotos": [
     {
-     "flag": "ve"
+     "flag": "pe"
     },
     {
-     "flag": "pe"
+     "flag": "ve"
     }
    ]
   },
   {
-   "n": 82,
+   "n": 92,
    "p": "¿Qué país es más grande?",
    "o": [
     "Japón",
@@ -1730,7 +1937,7 @@
    ]
   },
   {
-   "n": 83,
+   "n": 93,
    "p": "¿Qué país es más grande?",
    "o": [
     "Reino Unido",
@@ -1749,28 +1956,28 @@
    ]
   },
   {
-   "n": 84,
+   "n": 94,
    "p": "¿Cuál es de verdad un oso?",
    "o": [
-    "Panda",
-    "Koala"
+    "Koala",
+    "Panda"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Cuál es de verdad un oso?",
    "tr": "¡El panda! El koala no es oso.",
    "o_fotos": [
     {
-     "q": "giant panda",
+     "q": "koala tree",
      "src": "px"
     },
     {
-     "q": "koala tree",
+     "q": "giant panda",
      "src": "px"
     }
    ]
   },
   {
-   "n": 85,
+   "n": 95,
    "p": "¿Cuál es un pez?",
    "o": [
     "Estrella de mar",
@@ -1785,34 +1992,34 @@
      "src": "px"
     },
     {
-     "q": "seahorse",
+     "q": "seahorse underwater",
      "src": "px"
     }
    ]
   },
   {
-   "n": 86,
+   "n": 96,
    "p": "¿Cuál es un arácnido?",
    "o": [
-    "Ciempiés",
-    "Escorpión"
+    "Escorpión",
+    "Ciempiés"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Cuál es un arácnido?",
    "tr": "¡El escorpión!",
    "o_fotos": [
     {
-     "q": "centipede macro",
+     "q": "scorpion",
      "src": "px"
     },
     {
-     "q": "scorpion",
+     "q": "centipede macro",
      "src": "px"
     }
    ]
   },
   {
-   "n": 87,
+   "n": 97,
    "p": "¿Cuál es pariente del tomate?",
    "o": [
     "Papa",
@@ -1833,28 +2040,28 @@
    ]
   },
   {
-   "n": 88,
+   "n": 98,
    "p": "¿Cuál duerme de pie?",
    "o": [
-    "Caballo",
-    "Perro"
+    "Perro",
+    "Caballo"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Cuál puede dormir de pie?",
    "tr": "¡El caballo!",
    "o_fotos": [
     {
-     "q": "horse standing",
+     "q": "dog sleeping",
      "src": "px"
     },
     {
-     "q": "dog sleeping",
+     "q": "horse standing",
      "src": "px"
     }
    ]
   },
   {
-   "n": 89,
+   "n": 99,
    "p": "¿Cuál vuela hacia atrás?",
    "o": [
     "Águila",
@@ -1875,114 +2082,91 @@
    ]
   },
   {
-   "n": 90,
+   "n": 100,
    "p": "¿Qué se inventó primero?",
    "o": [
-    "Bicicleta",
-    "Máquina de vapor"
+    "Máquina de vapor",
+    "Bicicleta"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Qué se inventó primero?",
    "tr": "¡La máquina de vapor!",
    "o_fotos": [
     {
-     "q": "vintage bicycle",
+     "q": "steam engine",
      "src": "px"
     },
     {
-     "q": "steam engine",
+     "q": "vintage bicycle",
      "src": "px"
     }
    ]
   },
   {
-   "n": 91,
+   "n": 101,
    "p": "¿Qué se inventó primero?",
    "o": [
-    "Lavadora",
-    "Televisión"
+    "Televisión",
+    "Lavadora"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Qué se inventó primero?",
    "tr": "¡La lavadora!",
    "o_fotos": [
     {
-     "q": "washing machine",
+     "q": "retro television set",
      "src": "px"
     },
     {
-     "q": "old television",
+     "q": "washing machine laundry",
      "src": "px"
     }
    ]
   },
   {
-   "n": 92,
+   "n": 102,
    "p": "¿Cuál es más antiguo?",
    "o": [
-    "Fútbol",
-    "Básquet"
+    "Básquet",
+    "Fútbol"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Cuál es más antiguo?",
    "tr": "¡El fútbol!",
    "o_fotos": [
     {
-     "q": "soccer ball",
+     "q": "basketball",
      "src": "px"
     },
     {
-     "q": "basketball",
+     "q": "soccer ball",
      "src": "px"
     }
    ]
   },
   {
-   "n": 93,
+   "n": 103,
    "p": "¿Qué pesa más?",
    "o": [
-    "Hielo",
-    "Agua"
+    "Agua",
+    "Hielo"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Qué pesa más: un litro de agua o un litro de hielo?",
    "tr": "¡El agua! Por eso el hielo flota.",
    "o_fotos": [
     {
-     "q": "ice cubes",
-     "src": "px"
-    },
-    {
      "q": "glass of water",
      "src": "px"
-    }
-   ]
-  },
-  {
-   "n": 94,
-   "p": "¿Cuál es líquido?",
-   "o": [
-    "Plomo",
-    "Mercurio"
-   ],
-   "c": 1,
-   "tp": "¿Cuál es líquido a temperatura ambiente?",
-   "tr": "¡El mercurio!",
-   "o_fotos": [
-    {
-     "q": "lead metal",
-     "src": "cm",
-     "must": "Lead"
     },
     {
-     "q": "mercury liquid metal",
-     "src": "cm",
-     "must": "Mercury"
+     "q": "ice cubes",
+     "src": "px"
     }
    ]
   },
   {
-   "n": 95,
+   "n": 104,
    "p": "¿Qué tiene más agua?",
    "o": [
     "Plátano",
@@ -2003,7 +2187,7 @@
    ]
   },
   {
-   "n": 96,
+   "n": 105,
    "p": "¿Qué tiene más proteína?",
    "o": [
     "Lentejas",
@@ -2024,7 +2208,7 @@
    ]
   },
   {
-   "n": 97,
+   "n": 106,
    "p": "¿Qué tiene más vitamina C?",
    "o": [
     "Pimiento rojo",
@@ -2035,7 +2219,7 @@
    "tr": "¡El pimiento rojo! Más del doble.",
    "o_fotos": [
     {
-     "q": "red bell pepper",
+     "q": "red pepper vegetable",
      "src": "px"
     },
     {
@@ -2045,70 +2229,354 @@
    ]
   },
   {
-   "n": 98,
+   "n": 107,
    "p": "¿Qué está a más altura?",
    "o": [
-    "Quito",
-    "La Paz"
+    "La Paz",
+    "Quito"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Qué ciudad está a más altura?",
    "tr": "¡La Paz!",
    "o_fotos": [
     {
-     "q": "Quito Ecuador",
+     "q": "La Paz Bolivia",
      "src": "px"
     },
     {
-     "q": "La Paz Bolivia",
+     "q": "Quito Ecuador",
      "src": "px"
     }
    ]
   },
   {
-   "n": 99,
+   "n": 108,
    "p": "¿Qué ciudad es más antigua?",
    "o": [
-    "Lima",
-    "Cusco"
+    "Cusco",
+    "Lima"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Qué ciudad es más antigua?",
    "tr": "¡Cusco!",
    "o_fotos": [
     {
-     "q": "Lima Peru",
+     "q": "Cusco cathedral",
      "src": "px"
     },
     {
-     "q": "Cusco Peru",
+     "q": "Lima Peru",
      "src": "px"
     }
    ]
   },
   {
-   "n": 100,
+   "n": 109,
    "p": "¿Qué ciudad es más antigua?",
    "o": [
-    "Lima",
-    "Nueva York"
+    "Nueva York",
+    "Lima"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Qué ciudad es más antigua?",
    "tr": "¡Lima!",
    "o_fotos": [
     {
-     "q": "Lima cathedral",
+     "q": "New York skyline",
      "src": "px"
     },
     {
-     "q": "New York skyline",
+     "q": "Lima cathedral",
      "src": "px"
     }
    ]
   },
   {
-   "n": 101,
+   "n": 110,
+   "p": "¿Cuál es una legumbre?",
+   "o": [
+    "Maní",
+    "Almendra"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es una legumbre?",
+   "tr": "¡El maní!",
+   "o_fotos": [
+    {
+     "q": "peanuts",
+     "src": "px"
+    },
+    {
+     "q": "almonds",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 111,
+   "p": "¿Cuál es de América?",
+   "o": [
+    "Arroz",
+    "Papa"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es originaria de América?",
+   "tr": "¡La papa!",
+   "o_fotos": [
+    {
+     "q": "rice grains",
+     "src": "px"
+    },
+    {
+     "q": "potato harvest",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 112,
+   "p": "¿Cuál es de América?",
+   "o": [
+    "Tomate",
+    "Cebolla"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es originario de América?",
+   "tr": "¡El tomate!",
+   "o_fotos": [
+    {
+     "q": "tomatoes vine",
+     "src": "px"
+    },
+    {
+     "q": "onions",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 113,
+   "p": "¿Cuál es de América?",
+   "o": [
+    "Café",
+    "Cacao"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es originario de América?",
+   "tr": "¡El cacao!",
+   "o_fotos": [
+    {
+     "q": "coffee beans",
+     "src": "px"
+    },
+    {
+     "q": "cocoa beans",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 114,
+   "p": "¿Cuál es de Asia?",
+   "o": [
+    "Plátano",
+    "Piña"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es originario de Asia?",
+   "tr": "¡El plátano! La piña es de Sudamérica.",
+   "o_fotos": [
+    {
+     "q": "banana tree",
+     "src": "px"
+    },
+    {
+     "q": "pineapple",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 115,
+   "p": "¿Qué país es más grande?",
+   "o": [
+    "Paraguay",
+    "Ecuador"
+   ],
+   "c": 0,
+   "tp": "¿Qué país es más grande?",
+   "tr": "¡Paraguay!",
+   "o_fotos": [
+    {
+     "flag": "py"
+    },
+    {
+     "flag": "ec"
+    }
+   ]
+  },
+  {
+   "n": 116,
+   "p": "¿Qué país tiene más habitantes?",
+   "o": [
+    "Ecuador",
+    "Bolivia"
+   ],
+   "c": 0,
+   "tp": "¿Qué país tiene más habitantes?",
+   "tr": "¡Ecuador!",
+   "o_fotos": [
+    {
+     "flag": "ec"
+    },
+    {
+     "flag": "bo"
+    }
+   ]
+  },
+  {
+   "n": 117,
+   "p": "¿Qué país es más grande?",
+   "o": [
+    "México",
+    "Arabia Saudita"
+   ],
+   "c": 1,
+   "tp": "¿Qué país es más grande?",
+   "tr": "¡Arabia Saudita!",
+   "o_fotos": [
+    {
+     "flag": "mx"
+    },
+    {
+     "flag": "sa"
+    }
+   ]
+  },
+  {
+   "n": 118,
+   "p": "¿Qué país tiene más habitantes?",
+   "o": [
+    "Egipto",
+    "Alemania"
+   ],
+   "c": 0,
+   "tp": "¿Qué país tiene más habitantes?",
+   "tr": "¡Egipto!",
+   "o_fotos": [
+    {
+     "flag": "eg"
+    },
+    {
+     "flag": "de"
+    }
+   ]
+  },
+  {
+   "n": 119,
+   "p": "¿Qué país tiene más habitantes?",
+   "o": [
+    "Japón",
+    "Filipinas"
+   ],
+   "c": 0,
+   "tp": "¿Qué país tiene más habitantes?",
+   "tr": "¡Japón!",
+   "o_fotos": [
+    {
+     "flag": "jp"
+    },
+    {
+     "flag": "ph"
+    }
+   ]
+  },
+  {
+   "n": 120,
+   "p": "¿Cuál es más antiguo?",
+   "o": [
+    "Coliseo romano",
+    "Partenón"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más antiguo?",
+   "tr": "¡El Partenón!",
+   "o_fotos": [
+    {
+     "q": "Colosseum Rome ruins",
+     "src": "px"
+    },
+    {
+     "q": "Parthenon Athens",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 121,
+   "p": "¿Cuál es más antiguo?",
+   "o": [
+    "Machu Picchu",
+    "Taj Mahal"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más antiguo?",
+   "tr": "¡Machu Picchu!",
+   "o_fotos": [
+    {
+     "q": "Machu Picchu panorama",
+     "src": "px"
+    },
+    {
+     "q": "Taj Mahal",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 122,
+   "p": "¿Cuál es más alto?",
+   "o": [
+    "Taj Mahal",
+    "Big Ben"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más alto?",
+   "tr": "¡El Big Ben!",
+   "o_fotos": [
+    {
+     "q": "Taj Mahal India",
+     "src": "px"
+    },
+    {
+     "q": "Big Ben tower",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 123,
+   "p": "¿Qué animal se domesticó primero?",
+   "o": [
+    "Perro",
+    "Gato"
+   ],
+   "c": 0,
+   "tp": "¿Qué animal se domesticó primero?",
+   "tr": "¡El perro!",
+   "o_fotos": [
+    {
+     "q": "dog portrait",
+     "src": "px"
+    },
+    {
+     "q": "cat portrait",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 124,
    "p": "¿Cuál es más grande?",
    "o": [
     "Sahara",
@@ -2129,70 +2597,28 @@
    ]
   },
   {
-   "n": 102,
-   "p": "¿Cuál es más frío?",
-   "o": [
-    "Polo Norte",
-    "Polo Sur"
-   ],
-   "c": 1,
-   "tp": "¿Cuál es más frío?",
-   "tr": "¡El Polo Sur!",
-   "o_fotos": [
-    {
-     "q": "polar bear arctic",
-     "src": "px"
-    },
-    {
-     "q": "emperor penguins antarctica",
-     "src": "px"
-    }
-   ]
-  },
-  {
-   "n": 103,
+   "n": 125,
    "p": "¿Qué cubre más la Tierra?",
    "o": [
-    "Agua",
-    "Tierra firme"
+    "Tierra firme",
+    "Agua"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Qué cubre más la Tierra?",
    "tr": "¡El agua! Casi tres cuartas partes.",
    "o_fotos": [
     {
-     "q": "ocean waves",
-     "src": "px"
-    },
-    {
      "q": "mountain landscape",
      "src": "px"
-    }
-   ]
-  },
-  {
-   "n": 104,
-   "p": "¿Qué es más rápido?",
-   "o": [
-    "Avión comercial",
-    "Sonido"
-   ],
-   "c": 1,
-   "tp": "¿Qué es más rápido?",
-   "tr": "¡El sonido!",
-   "o_fotos": [
-    {
-     "q": "airplane sky",
-     "src": "px"
     },
     {
-     "q": "loudspeaker",
+     "q": "ocean waves",
      "src": "px"
     }
    ]
   },
   {
-   "n": 105,
+   "n": 126,
    "p": "¿Qué pesa más?",
    "o": [
     "Una nube",
@@ -2213,7 +2639,7 @@
    ]
   },
   {
-   "n": 106,
+   "n": 127,
    "p": "¿Qué es más caliente?",
    "o": [
     "Un rayo",
@@ -2234,7 +2660,7 @@
    ]
   },
   {
-   "n": 107,
+   "n": 128,
    "p": "¿Qué es más grande?",
    "o": [
     "Bacteria",
@@ -2255,49 +2681,7 @@
    ]
   },
   {
-   "n": 108,
-   "p": "¿Qué tiene más cromosomas?",
-   "o": [
-    "Papa",
-    "Humano"
-   ],
-   "c": 0,
-   "tp": "¿Qué tiene más cromosomas?",
-   "tr": "¡La papa! Cuarenta y ocho.",
-   "o_fotos": [
-    {
-     "q": "potato",
-     "src": "px"
-    },
-    {
-     "q": "dna",
-     "src": "px"
-    }
-   ]
-  },
-  {
-   "n": 109,
-   "p": "¿Cuál es mayor?",
-   "o": [
-    "Everest",
-    "Fosa de las Marianas"
-   ],
-   "c": 1,
-   "tp": "¿Qué es mayor: la fosa más profunda o la montaña más alta?",
-   "tr": "¡La fosa de las Marianas!",
-   "o_fotos": [
-    {
-     "q": "Everest summit",
-     "src": "px"
-    },
-    {
-     "q": "deep ocean",
-     "src": "px"
-    }
-   ]
-  },
-  {
-   "n": 110,
+   "n": 129,
    "p": "¿Qué es más grande?",
    "o": [
     "Gran Mancha Roja",
@@ -2319,50 +2703,29 @@
    ]
   },
   {
-   "n": 111,
-   "p": "En Venus, ¿qué dura más?",
-   "o": [
-    "Un año",
-    "Un día"
-   ],
-   "c": 1,
-   "tp": "En Venus, ¿qué dura más?",
-   "tr": "¡El día! Dura más que su año.",
-   "o_fotos": [
-    {
-     "q": "calendar",
-     "src": "px"
-    },
-    {
-     "q": "sunrise",
-     "src": "px"
-    }
-   ]
-  },
-  {
-   "n": 112,
+   "n": 130,
    "p": "¿Dónde está la montaña más alta?",
    "o": [
-    "Marte",
-    "Tierra"
+    "Tierra",
+    "Marte"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Dónde está la montaña más alta?",
    "tr": "¡En Marte! El monte Olimpo.",
    "o_fotos": [
     {
+     "q": "mountain peak",
+     "src": "px"
+    },
+    {
      "q": "Olympus Mons",
      "src": "cm",
      "must": "Olympus"
-    },
-    {
-     "q": "mountain peak",
-     "src": "px"
     }
    ]
   },
   {
-   "n": 113,
+   "n": 131,
    "p": "¿Qué planeta tiene más lunas?",
    "o": [
     "Júpiter",
@@ -2373,64 +2736,40 @@
    "tr": "¡Saturno!",
    "o_fotos": [
     {
-     "q": "Jupiter Juno",
-     "src": "cm",
-     "must": "Jupiter"
+     "q": "jupiter planet",
+     "src": "px"
     },
     {
-     "q": "Saturn Cassini",
-     "src": "cm",
-     "must": "Saturn"
-    }
-   ]
-  },
-  {
-   "n": 114,
-   "p": "¿Cuál tiene el día más corto?",
-   "o": [
-    "Júpiter",
-    "Tierra"
-   ],
-   "c": 0,
-   "tp": "¿Qué planeta gira más rápido?",
-   "tr": "¡Júpiter! Su día dura diez horas.",
-   "o_fotos": [
-    {
-     "q": "Jupiter Cassini",
-     "src": "cm",
-     "must": "Jupiter"
-    },
-    {
-     "q": "earth",
+     "q": "saturn planet",
      "src": "px"
     }
    ]
   },
   {
-   "n": 115,
+   "n": 132,
    "p": "¿Cuál es más grande?",
    "o": [
-    "Ganímedes",
-    "Mercurio"
+    "Mercurio",
+    "Ganímedes"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Cuál es más grande?",
    "tr": "¡Ganímedes! Una luna más grande que un planeta.",
    "o_fotos": [
     {
-     "q": "Ganymede moon",
-     "src": "cm",
-     "must": "Ganymede"
-    },
-    {
      "q": "Mercury MESSENGER",
      "src": "cm",
      "must": "Mercury"
+    },
+    {
+     "q": "Ganymede moon",
+     "src": "cm",
+     "must": "Ganymede"
     }
    ]
   },
   {
-   "n": 116,
+   "n": 133,
    "p": "¿Cuál está más lejos del Sol?",
    "o": [
     "Neptuno",
@@ -2453,7 +2792,7 @@
    ]
   },
   {
-   "n": 117,
+   "n": 134,
    "p": "¿Cuál es más frío?",
    "o": [
     "Neptuno",
@@ -2476,52 +2815,7 @@
    ]
   },
   {
-   "n": 118,
-   "p": "¿Qué flotaría en el agua?",
-   "o": [
-    "Saturno",
-    "Júpiter"
-   ],
-   "c": 0,
-   "tp": "¿Qué planeta flotaría en el agua?",
-   "tr": "¡Saturno!",
-   "o_fotos": [
-    {
-     "q": "Saturn rings",
-     "src": "cm",
-     "must": "Saturn"
-    },
-    {
-     "q": "Jupiter planet Hubble",
-     "src": "cm",
-     "must": "Jupiter"
-    }
-   ]
-  },
-  {
-   "n": 119,
-   "p": "¿Qué es más rápido?",
-   "o": [
-    "Estación Espacial",
-    "Una bala"
-   ],
-   "c": 0,
-   "tp": "¿Qué es más rápido?",
-   "tr": "¡La Estación Espacial! Veintiocho mil kilómetros por hora.",
-   "o_fotos": [
-    {
-     "q": "International Space Station",
-     "src": "cm",
-     "must": "Space Station"
-    },
-    {
-     "q": "bullet",
-     "src": "px"
-    }
-   ]
-  },
-  {
-   "n": 120,
+   "n": 135,
    "p": "¿Qué tiene más estrellas?",
    "o": [
     "Vía Láctea",
@@ -2543,7 +2837,7 @@
    ]
   },
   {
-   "n": 121,
+   "n": 136,
    "p": "¿Qué hay más?",
    "o": [
     "Árboles en la Tierra",
@@ -2564,50 +2858,50 @@
    ]
   },
   {
-   "n": 122,
+   "n": 137,
    "p": "¿Qué es más ancho?",
    "o": [
-    "La Luna",
-    "Australia"
+    "Australia",
+    "La Luna"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Qué es más ancho?",
    "tr": "¡Australia! Más ancha que la Luna.",
    "o_fotos": [
     {
-     "q": "moon",
+     "q": "australia outback",
      "src": "px"
     },
     {
-     "q": "australia outback",
+     "q": "moon",
      "src": "px"
     }
    ]
   },
   {
-   "n": 123,
+   "n": 138,
    "p": "¿Qué está más cerca de Cleopatra?",
    "o": [
-    "Llegada a la Luna",
-    "Pirámides de Guiza"
+    "Pirámides de Guiza",
+    "Llegada a la Luna"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Qué está más cerca de la época de Cleopatra?",
    "tr": "¡La llegada a la Luna!",
    "o_fotos": [
     {
+     "q": "pyramids Giza camel",
+     "src": "px"
+    },
+    {
      "q": "Apollo 11 astronaut moon",
      "src": "cm",
      "must": "Apollo"
-    },
-    {
-     "q": "pyramids Giza camel",
-     "src": "px"
     }
    ]
   },
   {
-   "n": 124,
+   "n": 139,
    "p": "¿Cuál es más antigua?",
    "o": [
     "Imperio azteca",
@@ -2618,7 +2912,7 @@
    "tr": "¡Oxford!",
    "o_fotos": [
     {
-     "q": "aztec pyramid",
+     "q": "aztec calendar stone",
      "src": "px"
     },
     {
@@ -2628,49 +2922,7 @@
    ]
   },
   {
-   "n": 125,
-   "p": "¿Qué es más largo?",
-   "o": [
-    "Río Amazonas",
-    "Gran Muralla China"
-   ],
-   "c": 1,
-   "tp": "¿Qué es más largo?",
-   "tr": "¡La Gran Muralla!",
-   "o_fotos": [
-    {
-     "q": "Amazon river",
-     "src": "px"
-    },
-    {
-     "q": "Great Wall China mountains",
-     "src": "px"
-    }
-   ]
-  },
-  {
-   "n": 126,
-   "p": "¿Qué se inventó primero?",
-   "o": [
-    "Fax",
-    "Teléfono"
-   ],
-   "c": 0,
-   "tp": "¿Qué se inventó primero?",
-   "tr": "¡El fax! Treinta años antes.",
-   "o_fotos": [
-    {
-     "q": "fax machine",
-     "src": "px"
-    },
-    {
-     "q": "old telephone",
-     "src": "px"
-    }
-   ]
-  },
-  {
-   "n": 127,
+   "n": 140,
    "p": "¿Qué se inventó primero?",
    "o": [
     "Encendedor",
@@ -2685,55 +2937,34 @@
      "src": "px"
     },
     {
-     "q": "matches",
+     "q": "burning match",
      "src": "px"
     }
    ]
   },
   {
-   "n": 128,
-   "p": "¿Qué se inventó primero?",
-   "o": [
-    "Videojuego",
-    "Internet"
-   ],
-   "c": 0,
-   "tp": "¿Qué se inventó primero?",
-   "tr": "¡El videojuego!",
-   "o_fotos": [
-    {
-     "q": "retro video game",
-     "src": "px"
-    },
-    {
-     "q": "internet network",
-     "src": "px"
-    }
-   ]
-  },
-  {
-   "n": 129,
+   "n": 141,
    "p": "¿Cuál es más antiguo?",
    "o": [
-    "Cuchara",
-    "Tenedor"
+    "Tenedor",
+    "Cuchara"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Cuál es más antiguo?",
    "tr": "¡La cuchara!",
    "o_fotos": [
     {
-     "q": "spoon",
+     "q": "silver fork",
      "src": "px"
     },
     {
-     "q": "fork",
+     "q": "silver spoon",
      "src": "px"
     }
    ]
   },
   {
-   "n": 130,
+   "n": 142,
    "p": "¿Cuál apareció primero?",
    "o": [
     "Árboles",
@@ -2754,92 +2985,50 @@
    ]
   },
   {
-   "n": 131,
+   "n": 143,
    "p": "¿Cuál apareció primero?",
    "o": [
-    "Tiranosaurio",
-    "Cocodrilos"
+    "Cocodrilos",
+    "Tiranosaurio"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Cuál apareció primero?",
    "tr": "¡Los cocodrilos!",
    "o_fotos": [
     {
-     "q": "tyrannosaurus rex",
-     "src": "px"
-    },
-    {
      "q": "crocodile river",
      "src": "px"
-    }
-   ]
-  },
-  {
-   "n": 132,
-   "p": "¿Cuál es más antigua?",
-   "o": [
-    "Universidad de Harvard",
-    "Universidad San Marcos"
-   ],
-   "c": 1,
-   "tp": "¿Cuál es más antigua?",
-   "tr": "¡San Marcos!",
-   "o_fotos": [
-    {
-     "q": "Harvard University",
-     "src": "px"
     },
     {
-     "q": "Universidad Nacional Mayor de San Marcos",
+     "q": "Tyrannosaurus rex skeleton",
      "src": "cm",
-     "must": "San Marcos"
+     "must": "Tyrannosaurus"
     }
    ]
   },
   {
-   "n": 133,
-   "p": "¿Quién llegó antes a América?",
-   "o": [
-    "Vikingos",
-    "Colón"
-   ],
-   "c": 0,
-   "tp": "¿Quién llegó antes a América?",
-   "tr": "¡Los vikingos!",
-   "o_fotos": [
-    {
-     "q": "viking ship",
-     "src": "px"
-    },
-    {
-     "q": "caravel ship",
-     "src": "px"
-    }
-   ]
-  },
-  {
-   "n": 134,
+   "n": 144,
    "p": "¿Cuál es más antiguo?",
    "o": [
-    "Imperio inca",
-    "Imperio romano"
+    "Imperio romano",
+    "Imperio inca"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Qué imperio es más antiguo?",
    "tr": "¡El romano!",
    "o_fotos": [
     {
-     "q": "Inca ruins",
+     "q": "Roman forum",
      "src": "px"
     },
     {
-     "q": "Roman forum",
+     "q": "Inca ruins",
      "src": "px"
     }
    ]
   },
   {
-   "n": 135,
+   "n": 145,
    "p": "¿Qué instrumento es más antiguo?",
    "o": [
     "Piano",
@@ -2860,49 +3049,49 @@
    ]
   },
   {
-   "n": 136,
+   "n": 146,
    "p": "¿Cuál es pariente del elefante?",
    "o": [
-    "Manatí",
-    "Hipopótamo"
+    "Hipopótamo",
+    "Manatí"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Cuál es pariente del elefante?",
    "tr": "¡El manatí!",
    "o_fotos": [
     {
-     "q": "manatee",
+     "q": "hippo",
      "src": "px"
     },
     {
-     "q": "hippo",
+     "q": "manatee",
      "src": "px"
     }
    ]
   },
   {
-   "n": 137,
+   "n": 147,
    "p": "¿Cuál es pariente del hipopótamo?",
    "o": [
-    "Ballena",
-    "Cerdo"
+    "Cerdo",
+    "Ballena"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Cuál es pariente del hipopótamo?",
    "tr": "¡La ballena!",
    "o_fotos": [
     {
-     "q": "humpback whale",
+     "q": "pig farm",
      "src": "px"
     },
     {
-     "q": "pig",
+     "q": "humpback whale",
      "src": "px"
     }
    ]
   },
   {
-   "n": 138,
+   "n": 148,
    "p": "¿Cuál tiene tres corazones?",
    "o": [
     "Medusa",
@@ -2923,28 +3112,28 @@
    ]
   },
   {
-   "n": 139,
+   "n": 149,
    "p": "¿Cuál no tiene cerebro?",
    "o": [
-    "Pulpo",
-    "Estrella de mar"
+    "Estrella de mar",
+    "Pulpo"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Cuál no tiene cerebro?",
    "tr": "¡La estrella de mar!",
    "o_fotos": [
     {
-     "q": "octopus",
+     "q": "starfish beach",
      "src": "px"
     },
     {
-     "q": "starfish beach",
+     "q": "octopus",
      "src": "px"
     }
    ]
   },
   {
-   "n": 140,
+   "n": 150,
    "p": "¿Cuál tiene sangre azul?",
    "o": [
     "Cangrejo herradura",
@@ -2966,29 +3155,30 @@
    ]
   },
   {
-   "n": 141,
+   "n": 151,
    "p": "¿Cuál vive más años?",
    "o": [
-    "Ballena azul",
-    "Tiburón de Groenlandia"
+    "Tiburón de Groenlandia",
+    "Ballena azul"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Cuál vive más años?",
    "tr": "¡El tiburón de Groenlandia! Hasta cuatrocientos años.",
    "o_fotos": [
     {
-     "q": "blue whale",
-     "src": "px"
-    },
-    {
      "q": "Greenland shark",
      "src": "cm",
      "must": "Greenland shark"
+    },
+    {
+     "q": "Balaenoptera musculus",
+     "src": "cm",
+     "must": "musculus"
     }
    ]
   },
   {
-   "n": 142,
+   "n": 152,
    "p": "¿Qué huellas se parecen a las nuestras?",
    "o": [
     "Perro",
@@ -3009,93 +3199,71 @@
    ]
   },
   {
-   "n": 143,
+   "n": 153,
    "p": "¿Cuál vive sin beber agua?",
    "o": [
-    "Rata canguro",
-    "Camello"
+    "Camello",
+    "Rata canguro"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Cuál puede vivir sin beber agua?",
    "tr": "¡La rata canguro!",
    "o_fotos": [
     {
+     "q": "camel",
+     "src": "px"
+    },
+    {
      "q": "kangaroo rat",
      "src": "cm",
      "must": "kangaroo rat"
-    },
-    {
-     "q": "camel",
-     "src": "px"
     }
    ]
   },
   {
-   "n": 144,
-   "p": "¿Cuál es más grande?",
-   "o": [
-    "Ballena azul",
-    "Calamar gigante"
-   ],
-   "c": 0,
-   "tp": "¿Cuál es más grande?",
-   "tr": "¡La ballena azul!",
-   "o_fotos": [
-    {
-     "q": "blue whale tail",
-     "src": "px"
-    },
-    {
-     "q": "giant squid",
-     "src": "cm",
-     "must": "squid"
-    }
-   ]
-  },
-  {
-   "n": 145,
+   "n": 154,
    "p": "¿Qué causa más muertes al año?",
    "o": [
-    "Tiburón",
-    "Mosquito"
+    "Mosquito",
+    "Tiburón"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Qué animal es más peligroso para las personas?",
    "tr": "¡El mosquito!",
    "o_fotos": [
     {
-     "q": "great white shark",
+     "q": "mosquito macro",
      "src": "px"
     },
     {
-     "q": "mosquito",
+     "q": "great white shark",
      "src": "px"
     }
    ]
   },
   {
-   "n": 146,
+   "n": 155,
    "p": "¿Cuál tiene más especies?",
    "o": [
-    "Peces",
-    "Escarabajos"
+    "Escarabajos",
+    "Peces"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Qué hay más: especies de escarabajos o de peces?",
    "tr": "¡Los escarabajos!",
    "o_fotos": [
     {
-     "q": "fish",
+     "q": "beetle",
      "src": "px"
     },
     {
-     "q": "beetle",
+     "q": "fish",
      "src": "px"
     }
    ]
   },
   {
-   "n": 147,
+   "n": 156,
    "p": "¿Qué apareció primero?",
    "o": [
     "Dinosaurios",
@@ -3106,8 +3274,9 @@
    "tr": "¡Las cucarachas!",
    "o_fotos": [
     {
-     "q": "dinosaur",
-     "src": "px"
+     "q": "dinosaur skeleton museum",
+     "src": "cm",
+     "must": "dinosaur"
     },
     {
      "q": "cockroach",
@@ -3116,128 +3285,85 @@
    ]
   },
   {
-   "n": 148,
+   "n": 157,
    "p": "¿Qué es más fuerte?",
    "o": [
-    "Acero",
-    "Seda de araña"
+    "Seda de araña",
+    "Acero"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "Con el mismo peso, ¿qué es más fuerte?",
    "tr": "¡La seda de araña!",
    "o_fotos": [
     {
-     "q": "steel",
-     "src": "px"
-    },
-    {
      "q": "spider web dew",
      "src": "px"
-    }
-   ]
-  },
-  {
-   "n": 149,
-   "p": "¿Qué es más grande?",
-   "o": [
-    "Ojo de calamar gigante",
-    "Pelota de fútbol"
-   ],
-   "c": 0,
-   "tp": "¿Qué es más grande?",
-   "tr": "¡El ojo del calamar gigante!",
-   "o_fotos": [
-    {
-     "q": "giant squid eye",
-     "src": "cm",
-     "must": "squid"
     },
     {
-     "q": "soccer ball grass",
+     "q": "steel",
      "src": "px"
     }
    ]
   },
   {
-   "n": 150,
-   "p": "¿Qué pesa más?",
-   "o": [
-    "Elefante adulto",
-    "Ballena azul bebé"
-   ],
-   "c": 0,
-   "tp": "¿Qué pesa más?",
-   "tr": "¡El elefante adulto!",
-   "o_fotos": [
-    {
-     "q": "african elephant adult",
-     "src": "px"
-    },
-    {
-     "q": "whale calf",
-     "src": "px"
-    }
-   ]
-  },
-  {
-   "n": 151,
+   "n": 158,
    "p": "¿Qué país tiene más lagos?",
    "o": [
-    "Canadá",
-    "Finlandia"
+    "Finlandia",
+    "Canadá"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Qué país tiene más lagos?",
    "tr": "¡Canadá!",
    "o_fotos": [
     {
-     "flag": "ca"
+     "flag": "fi"
     },
     {
-     "flag": "fi"
+     "flag": "ca"
     }
    ]
   },
   {
-   "n": 152,
+   "n": 159,
    "p": "¿Qué país tiene más islas?",
    "o": [
-    "Filipinas",
-    "Suecia"
+    "Suecia",
+    "Filipinas"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Qué país tiene más islas?",
    "tr": "¡Suecia!",
    "o_fotos": [
     {
-     "flag": "ph"
+     "flag": "se"
     },
     {
-     "flag": "se"
+     "flag": "ph"
     }
    ]
   },
   {
-   "n": 153,
+   "n": 160,
    "p": "¿Qué país tiene más volcanes activos?",
    "o": [
-    "Japón",
-    "Indonesia"
+    "Indonesia",
+    "Japón"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Qué país tiene más volcanes activos?",
    "tr": "¡Indonesia!",
    "o_fotos": [
     {
-     "flag": "jp"
+     "flag": "id"
     },
     {
-     "flag": "id"
+     "flag": "jp"
     }
    ]
   },
   {
-   "n": 154,
+   "n": 161,
    "p": "¿Qué país es más grande?",
    "o": [
     "Mongolia",
@@ -3256,26 +3382,26 @@
    ]
   },
   {
-   "n": 155,
+   "n": 162,
    "p": "¿Qué país tiene más habitantes?",
    "o": [
-    "Nigeria",
-    "Brasil"
+    "Brasil",
+    "Nigeria"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Qué país tiene más habitantes?",
    "tr": "¡Nigeria!",
    "o_fotos": [
     {
-     "flag": "ng"
+     "flag": "br"
     },
     {
-     "flag": "br"
+     "flag": "ng"
     }
    ]
   },
   {
-   "n": 156,
+   "n": 163,
    "p": "¿Qué país tiene más habitantes?",
    "o": [
     "Brasil",
@@ -3294,7 +3420,7 @@
    ]
   },
   {
-   "n": 157,
+   "n": 164,
    "p": "¿Qué país tiene más idiomas?",
    "o": [
     "Papúa Nueva Guinea",
@@ -3313,26 +3439,7 @@
    ]
   },
   {
-   "n": 158,
-   "p": "¿Qué capital está más al sur?",
-   "o": [
-    "Buenos Aires",
-    "Wellington"
-   ],
-   "c": 1,
-   "tp": "¿Qué capital está más al sur?",
-   "tr": "¡Wellington!",
-   "o_fotos": [
-    {
-     "flag": "ar"
-    },
-    {
-     "flag": "nz"
-    }
-   ]
-  },
-  {
-   "n": 159,
+   "n": 165,
    "p": "¿Qué país produce más café?",
    "o": [
     "Brasil",
@@ -3351,7 +3458,7 @@
    ]
   },
   {
-   "n": 160,
+   "n": 166,
    "p": "¿Qué país produce más papa?",
    "o": [
     "China",
@@ -3370,93 +3477,297 @@
    ]
   },
   {
-   "n": 161,
-   "p": "¿Cuál es más alto?",
+   "n": 167,
+   "p": "¿Qué país es más grande?",
    "o": [
-    "Cristo Redentor",
-    "Estatua de la Libertad"
+    "Kazajistán",
+    "Argentina"
+   ],
+   "c": 1,
+   "tp": "¿Qué país es más grande?",
+   "tr": "¡Argentina! Por muy poquito.",
+   "o_fotos": [
+    {
+     "flag": "kz"
+    },
+    {
+     "flag": "ar"
+    }
+   ]
+  },
+  {
+   "n": 168,
+   "p": "¿Qué país tiene más habitantes?",
+   "o": [
+    "Rusia",
+    "Bangladés"
+   ],
+   "c": 1,
+   "tp": "¿Qué país tiene más habitantes?",
+   "tr": "¡Bangladés!",
+   "o_fotos": [
+    {
+     "flag": "ru"
+    },
+    {
+     "flag": "bd"
+    }
+   ]
+  },
+  {
+   "n": 169,
+   "p": "¿Qué país es más grande?",
+   "o": [
+    "Turquía",
+    "Chile"
    ],
    "c": 0,
+   "tp": "¿Qué país es más grande?",
+   "tr": "¡Turquía!",
+   "o_fotos": [
+    {
+     "flag": "tr"
+    },
+    {
+     "flag": "cl"
+    }
+   ]
+  },
+  {
+   "n": 170,
+   "p": "¿Cuál es más alta?",
+   "o": [
+    "Torre de Tokio",
+    "Torre Eiffel"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más alta?",
+   "tr": "¡La Torre de Tokio! Por tres metros.",
+   "o_fotos": [
+    {
+     "q": "Tokyo Tower",
+     "src": "px"
+    },
+    {
+     "q": "Eiffel Tower sunset",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 171,
+   "p": "¿Cuál es más antiguo?",
+   "o": [
+    "Pirámides de Guiza",
+    "Stonehenge"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más antiguo?",
+   "tr": "¡Stonehenge!",
+   "o_fotos": [
+    {
+     "q": "Great Pyramid Giza",
+     "src": "px"
+    },
+    {
+     "q": "Stonehenge",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 172,
+   "p": "¿Qué volcán es más alto?",
+   "o": [
+    "Misti",
+    "Monte Fuji"
+   ],
+   "c": 0,
+   "tp": "¿Qué volcán es más alto?",
+   "tr": "¡El Misti!",
+   "o_fotos": [
+    {
+     "q": "Misti volcano Arequipa",
+     "src": "cm",
+     "must": "Misti"
+    },
+    {
+     "q": "Mount Fuji",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 173,
+   "p": "¿Qué se inventó primero?",
+   "o": [
+    "Microscopio",
+    "Telescopio"
+   ],
+   "c": 0,
+   "tp": "¿Qué se inventó primero?",
+   "tr": "¡El microscopio!",
+   "o_fotos": [
+    {
+     "q": "antique microscope",
+     "src": "px"
+    },
+    {
+     "q": "antique telescope",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 174,
+   "p": "¿Qué se inventó primero?",
+   "o": [
+    "Vidrio",
+    "Papel"
+   ],
+   "c": 0,
+   "tp": "¿Qué se inventó primero?",
+   "tr": "¡El vidrio!",
+   "o_fotos": [
+    {
+     "q": "glass bottles",
+     "src": "px"
+    },
+    {
+     "q": "paper sheets",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 175,
+   "p": "¿Qué se inventó primero?",
+   "o": [
+    "Ajedrez",
+    "Naipes"
+   ],
+   "c": 0,
+   "tp": "¿Qué se inventó primero?",
+   "tr": "¡El ajedrez!",
+   "o_fotos": [
+    {
+     "q": "chess board",
+     "src": "px"
+    },
+    {
+     "q": "playing cards",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 176,
+   "p": "¿Qué se inventó primero?",
+   "o": [
+    "Rueda",
+    "Canoa"
+   ],
+   "c": 1,
+   "tp": "¿Qué se inventó primero?",
+   "tr": "¡La canoa! Miles de años antes.",
+   "o_fotos": [
+    {
+     "q": "wooden wheel",
+     "src": "px"
+    },
+    {
+     "q": "wooden canoe",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 177,
+   "p": "¿Cuál tiene más huesos?",
+   "o": [
+    "Humano",
+    "Gato"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene más huesos?",
+   "tr": "¡El gato!",
+   "o_fotos": [
+    {
+     "q": "human skeleton model",
+     "src": "px"
+    },
+    {
+     "q": "cat stretching",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 178,
+   "p": "¿Cuál es más alto?",
+   "o": [
+    "Estatua de la Libertad",
+    "Cristo Redentor"
+   ],
+   "c": 1,
    "tp": "¿Cuál es más alto?",
    "tr": "¡La Estatua de la Libertad!",
    "o_fotos": [
     {
-     "q": "Christ the Redeemer",
+     "q": "Statue of Liberty torch",
      "src": "px"
     },
     {
-     "q": "Statue of Liberty torch",
+     "q": "Christ the Redeemer",
      "src": "px"
     }
    ]
   },
   {
-   "n": 162,
+   "n": 179,
    "p": "¿Qué volcán es más alto?",
    "o": [
-    "Kilimanjaro",
-    "Ojos del Salado"
+    "Ojos del Salado",
+    "Kilimanjaro"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Qué volcán es más alto?",
    "tr": "¡Ojos del Salado!",
    "o_fotos": [
     {
-     "q": "Kilimanjaro",
-     "src": "px"
-    },
-    {
      "q": "Ojos del Salado",
      "src": "cm",
      "must": "Ojos del Salado"
-    }
-   ]
-  },
-  {
-   "n": 163,
-   "p": "¿Cuál es más grande?",
-   "o": [
-    "El Sol",
-    "Betelgeuse"
-   ],
-   "c": 1,
-   "tp": "¿Cuál es más grande?",
-   "tr": "¡Betelgeuse! Cientos de veces más grande.",
-   "o_fotos": [
-    {
-     "q": "sun corona",
-     "src": "px"
     },
     {
-     "q": "Betelgeuse",
-     "src": "cm",
-     "must": "Betelgeuse"
+     "q": "Kilimanjaro",
+     "src": "px"
     }
    ]
   },
   {
-   "n": 164,
+   "n": 180,
    "p": "¿Qué es más viejo?",
    "o": [
-    "El Sol",
-    "La Tierra"
+    "La Tierra",
+    "El Sol"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Qué es más viejo?",
    "tr": "¡El Sol!",
    "o_fotos": [
     {
-     "q": "sun space",
+     "q": "earth globe space",
      "src": "px"
     },
     {
-     "q": "earth globe space",
+     "q": "sun space",
      "src": "px"
     }
    ]
   },
   {
-   "n": 165,
+   "n": 181,
    "p": "¿Qué llegó más lejos?",
    "o": [
     "Voyager 1",
@@ -3479,28 +3790,7 @@
    ]
   },
   {
-   "n": 166,
-   "p": "¿Qué tiene más volumen?",
-   "o": [
-    "El Sol",
-    "Un millón de Tierras"
-   ],
-   "c": 0,
-   "tp": "¿Qué tiene más volumen?",
-   "tr": "¡El Sol! Caben más de un millón.",
-   "o_fotos": [
-    {
-     "q": "sun solar flare",
-     "src": "px"
-    },
-    {
-     "q": "earth blue planet",
-     "src": "px"
-    }
-   ]
-  },
-  {
-   "n": 167,
+   "n": 182,
    "p": "¿Qué tiene más sal?",
    "o": [
     "Océano",
@@ -3521,7 +3811,7 @@
    ]
   },
   {
-   "n": 168,
+   "n": 183,
    "p": "¿Cuál es más alto desde su base?",
    "o": [
     "Everest",
@@ -3543,64 +3833,43 @@
    ]
   },
   {
-   "n": 169,
-   "p": "¿Qué es más largo?",
-   "o": [
-    "Intestino delgado",
-    "Jirafa"
-   ],
-   "c": 0,
-   "tp": "¿Qué es más largo?",
-   "tr": "¡El intestino delgado!",
-   "o_fotos": [
-    {
-     "q": "anatomy intestine model",
-     "src": "px"
-    },
-    {
-     "q": "tall giraffe",
-     "src": "px"
-    }
-   ]
-  },
-  {
-   "n": 170,
+   "n": 184,
    "p": "¿Cuál es una baya?",
    "o": [
-    "Plátano",
-    "Fresa"
+    "Fresa",
+    "Plátano"
    ],
-   "c": 0,
+   "c": 1,
    "tp": "¿Cuál es una baya de verdad?",
    "tr": "¡El plátano! La fresa no es baya.",
    "o_fotos": [
     {
-     "q": "banana bunch",
+     "q": "strawberry",
      "src": "px"
     },
     {
-     "q": "strawberry",
+     "q": "banana bunch",
      "src": "px"
     }
    ]
   },
   {
-   "n": 171,
+   "n": 185,
    "p": "¿Qué tiene más calorías?",
    "o": [
-    "Manzana",
-    "Palta"
+    "Palta",
+    "Manzana"
    ],
-   "c": 1,
+   "c": 0,
    "tp": "¿Qué tiene más calorías?",
    "tr": "¡La palta!",
    "o_fotos": [
     {
-     "q": "apple",
+     "q": "avocado half",
      "src": "px"
     },
     {
-     "q": "avocado half",
+     "q": "apple",
      "src": "px"
     }
    ]
