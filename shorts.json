@@ -1,0 +1,23 @@
+{
+ "id": "ep010",
+ "titulo": "Latinoamérica y Perú: cultura, comida y sorpresas",
+ "total": 100,
+ "shorts": [
+  {
+   "archivo": "trabajo/shorts/short_1.mp4",
+   "n": 53,
+   "pregunta": "¿Qué ave de largas plumas verdes es símbolo de Guatemala?",
+   "duracion": 44.7,
+   "faltan": [],
+   "fotos": true
+  },
+  {
+   "archivo": "trabajo/shorts/short_2.mp4",
+   "n": 65,
+   "pregunta": "¿Qué animal de ríos y costas es llamado «vaca marina»?",
+   "duracion": 42.1,
+   "faltan": [],
+   "fotos": true
+  }
+ ]
+}
