@@ -1,0 +1,48 @@
+{
+ "_nota": "Banco de voces del formato rápido «¿A o B?» (9-nov-2026). Frases muy cortas y entusiastas. El montador (pipeline/rapido.py) las rota. Se generan en rapido.yml (o voces.yml contenido=contenido/rapido_voces.json salida=banco/rapido).",
+ "variantes": {
+  "an_tiempo": ["anunciador", ["¡Tiempo!", "¡Se acabó el tiempo!", "¡Tiempo, tiempo!"]],
+  "pr_izq": ["presentador", ["¡La izquierda, obvio!", "¡Izquierda!", "¡Yo voy con la izquierda!", "¡Izquierda, sin duda!", "¡La de la izquierda!", "¡Izquierda, facilito!"]],
+  "pr_der": ["presentador", ["¡La derecha, obvio!", "¡Derecha!", "¡Yo voy con la derecha!", "¡Derecha, sin duda!", "¡La de la derecha!", "¡Derecha, facilito!"]],
+  "co_izq": ["copresentadora", ["¡Izquierda!", "¡Para mí, la izquierda!", "¡La izquierda, segurísimo!", "Mmm… ¡izquierda!", "¡Izquierda, claro!", "¡La de la izquierda!"]],
+  "co_der": ["copresentadora", ["¡Derecha!", "¡Para mí, la derecha!", "¡La derecha, segurísimo!", "Mmm… ¡derecha!", "¡Derecha, claro!", "¡La de la derecha!"]],
+  "pr_chacota": ["presentador", [
+   "¡NOVA, eso lo sabía mi tostadora!",
+   "¡Punto para MAX! ¡Otra vez!",
+   "NOVA, ¿te desconectaron?",
+   "¡Ja! ¡Te lo dije, NOVA!",
+   "¡Soy imparable!",
+   "NOVA, ¿quieres que te preste mis circuitos?",
+   "¡Facilito! ¿Verdad, NOVA?",
+   "¡Así se hace! NOVA, toma nota.",
+   "¡MAX no falla nunca!",
+   "¡Uy, NOVA! Eso dolió."
+  ]],
+  "co_chacota": ["copresentadora", [
+   "¡MAX, se te fundió el foco!",
+   "¡Punto para NOVA!",
+   "MAX, ¿te quedaste sin batería?",
+   "¡Ay, MAX! Hasta mi tostadora lo sabía.",
+   "¡Aprende, MAX!",
+   "MAX, respira hondo.",
+   "¡Una más para mí!",
+   "MAX, ¿lo anotas tú o lo anoto yo?",
+   "¡Ja! ¿Viste eso, MAX?",
+   "¡Tranquilo, MAX! Ya te tocará."
+  ]],
+  "pr_ambos_bien": ["presentador", ["¡Los dos genios!", "¡Empate de cerebritos!", "¡Choca esos cinco, NOVA!"]],
+  "co_ambos_bien": ["copresentadora", ["¡Bien los dos!", "¡Somos un equipazo!"]],
+  "pr_ambos_mal": ["presentador", ["Esto no sale de aquí, ¿ok?", "¡Nadie vio nada!", "Bueno… ¡siguiente!"]],
+  "co_ambos_mal": ["copresentadora", ["Mejor no lo comentamos.", "¡Ups! ¡Los dos!", "Shhh… ¡siguiente!"]],
+  "an_nivel_1": ["anunciador", ["¡Nivel uno: calentando!"]],
+  "an_nivel_2": ["anunciador", ["¡Nivel dos: se pone difícil!"]],
+  "an_nivel_3": ["anunciador", ["¡Nivel tres: solo para genios!"]],
+  "an_nivel_4": ["anunciador", ["¡Nivel cuatro: modo experto!"]],
+  "an_nivel_5": ["anunciador", ["¡Nivel cinco: casi imposible!"]],
+  "an_nivel_6": ["anunciador", ["¡Nivel seis: leyendas!"]],
+  "pr_suscribe": ["presentador", ["¡Oigan! Si aciertan esta, suscríbanse. Si fallan… ¡también!", "Dato: los que se suscriben aciertan más. ¡Lo dice MAX!"]],
+  "an_final": ["anunciador", ["¡Se acabó! ¿Cuántas sacaste? ¡Escríbelo en los comentarios!"]],
+  "pr_gana": ["presentador", ["¡Gané yo! NOVA, ¡te espero en la revancha!", "¡Gané! ¿Y tú? ¿Le ganaste a MAX?"]],
+  "co_gana": ["copresentadora", ["¡Gané yo! MAX, ¡a practicar!", "¡Gané! ¿Y tú? ¿Le ganaste a NOVA?"]]
+ }
+}

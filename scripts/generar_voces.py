@@ -36,6 +36,11 @@ def lineas(meta):
         return out
     for k, (voz, txt) in meta.get("extra_tts", {}).items():
         out[k] = (voz, txt)
+    if meta.get("formato") == "rapido":   # «¿A o B?»: LA VOZ lee solo la pregunta (sin número) y la respuesta; sin dato
+        for q in meta["preguntas"]:
+            out[f"q{q['n']:02d}_pregunta"] = ("anunciador", q["tp"])
+            out[f"q{q['n']:02d}_respuesta"] = ("anunciador", q["tr"])
+        return out
     for q in meta["preguntas"]:
         n = q["n"]
         out[f"q{n:02d}_pregunta"] = ("presentador", f"Pregunta {palabras(n)}. {q['tp']}")

@@ -29,13 +29,14 @@ def hms(t):
 
 
 def descripcion(ep, sync, creditos):
-    sala = ep['codigo_sala']
+    sala = ep.get('codigo_sala', '')
     partes = [
         ep.get('descripcion') or f"¿Quién sabe más en tu casa? {len(ep['preguntas'])} preguntas de {ep['titulo'].lower()} para jugar en familia frente a la tele.",
         '',
+        *([] if ep.get('formato') == 'rapido' else [
         f'🎮 Cómo jugar: escanea el QR del video o entra a quiensabemastv.pages.dev/?sala={sala} · crea tu grupo · cuando digamos «¡YA!», toca EMPEZAR.',
         '¿Sin celular? Anota tus aciertos en un papel y juega igual.',
-        '',
+        '']),
         'Capítulos:',
     ]
     caps = {}
@@ -99,7 +100,7 @@ def main(ep_path, video, sync_path, miniatura=None):
     pf = os.path.join(RAIZ, 'publicados', f"{ep['id']}.json")
     antes = json.load(open(pf)) if os.path.exists(pf) else {}
     reemplaza = ([antes['video']] if antes.get('video') else []) + antes.get('reemplaza', [])   # versiones viejas (rehecho)
-    json.dump({**({'reemplaza': reemplaza, 'shorts_viejos': [x['video'] for x in antes.get('shorts', [])] + antes.get('shorts_viejos', [])} if reemplaza else {}),'id': ep['id'], 'video': vid, 'titulo': ep['titulo'], 'sala': ep['codigo_sala'], 'formato': ep.get('formato', 'normal'),
+    json.dump({**({'reemplaza': reemplaza, 'shorts_viejos': [x['video'] for x in antes.get('shorts', [])] + antes.get('shorts_viejos', [])} if reemplaza else {}),'id': ep['id'], 'video': vid, 'titulo': ep['titulo'], 'sala': ep.get('codigo_sala', ''), 'formato': ep.get('formato', 'normal'),
                'duracion': sync['duracion'], 'subido': time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime()), 'privacidad': 'private', 'publica': cuando},
               open(pf, 'w'), ensure_ascii=False, indent=1)
 

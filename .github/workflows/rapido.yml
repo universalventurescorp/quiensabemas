@@ -1,0 +1,167 @@
+name: rapido
+# Formato rápido «¿A o B?» (9-nov-2026): MAX y NOVA corren por un camino en perspectiva y todo se acelera.
+# preparar (fotos de las 2 alternativas + revisión de Claude; se descartan las preguntas sin fotos)
+# → voces en 6 máquinas (banco del formato rápido + frases del episodio) → montaje (pipeline/rapido.py)
+# → control de calidad → subida EN PRIVADO → diagnóstico en la rama diag-rapido. NO toca la producción diaria.
+on:
+  workflow_dispatch:
+    inputs:
+      contenido:
+        description: "Episodio del formato rápido"
+        default: "contenido/rapido/muestra.json"
+      subir:
+        description: "1 = subir a YouTube en privado"
+        default: "1"
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: rapido
+  cancel-in-progress: false
+
+env:
+  PARTES: 6
+
+jobs:
+  preparar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: python scripts/preparar_rapido.py "${{ inputs.contenido }}" trabajo
+      - name: Fotos reales para las 2 alternativas (Pixabay / Wikimedia / banderas, filtro CLIP)
+        env: { PIXABAY_API_KEY: "${{ secrets.PIXABAY_API_KEY }}" }
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq librsvg2-bin
+          pip install -q pillow numpy
+          pip install -q torch torchvision --index-url https://download.pytorch.org/whl/cpu
+          pip install -q open_clip_torch
+          python scripts/fotos_opciones.py trabajo/episodio.json - trabajo/opciones --hoja trabajo/hoja_fotos.jpg --revision trabajo/revision
+      - name: Claude revisa cada foto
+        if: hashFiles('trabajo/revision/indice.json') != ''
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: Lee y sigue al pie de la letra las instrucciones de prompts/revisor_fotos.md. En este episodio cada imagen tiene solo 2 fotos (izquierda y derecha); en preguntas de comparación («¿cuál pesa más?») las fotos solo deben mostrar bien cada cosa.
+          claude_args: >-
+            --model sonnet
+            --max-turns 60
+            --allowedTools "Read,Write,Glob"
+      - name: Aplicar la revisión y descartar preguntas sin fotos
+        run: |
+          python scripts/revisar_fotos.py trabajo/episodio.json trabajo/revision
+          python scripts/preparar_rapido.py --recortar trabajo/episodio.json
+      - uses: actions/upload-artifact@v4
+        with: { name: trabajo, path: trabajo, retention-days: 3 }
+
+  voces:
+    needs: preparar
+    runs-on: ubuntu-24.04
+    timeout-minutes: 200
+    strategy:
+      fail-fast: false
+      matrix:
+        parte: [0, 1, 2, 3, 4, 5]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { name: trabajo, path: trabajo }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: qwen3-tts-1.7b-base
+      - name: Instalar (torch CPU)
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq sox libsox-dev
+          pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install -q qwen-tts soundfile transformers
+      - name: Banco del formato rápido (solo lo que falte) + frases del episodio
+        run: |
+          python scripts/generar_voces.py contenido/rapido_voces.json banco/rapido --parte ${{ matrix.parte }} --partes $PARTES
+          python scripts/generar_voces.py trabajo/episodio.json voces_ep --parte ${{ matrix.parte }} --partes $PARTES
+      - uses: actions/upload-artifact@v4
+        with:
+          name: "voces-${{ matrix.parte }}"
+          path: |
+            banco/rapido
+            voces_ep
+          retention-days: 3
+
+  render:
+    needs: [preparar, voces]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { name: trabajo, path: trabajo }
+      - uses: actions/download-artifact@v4
+        with: { pattern: "voces-*", path: ., merge-multiple: true }
+      - name: Letra gruesa (Poppins Black, OFL)
+        run: test -f fuentes/Poppins-Black.ttf || curl -sSfL -o fuentes/Poppins-Black.ttf https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Black.ttf || true
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Instalar
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q numpy pillow scipy reportlab google-api-python-client google-auth
+      - name: Descifrar la música (Biblioteca de audio de YouTube)
+        env: { MUSICA_CLAVE: "${{ secrets.MUSICA_CLAVE }}" }
+        run: |
+          if [ -n "$MUSICA_CLAVE" ]; then
+            mkdir -p assets/musica
+            printf '%s' "$MUSICA_CLAVE" | tr -d '[:space:]' > /tmp/clave
+            openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -pass file:/tmp/clave -in assets/musica.enc | tar -x -C assets/musica || echo "::warning::No se pudo descifrar la música"
+            rm -f /tmp/clave
+          fi
+      - name: Montar el video
+        run: python pipeline/rapido.py --contenido trabajo/episodio.json --voces voces_ep --out trabajo/video.mp4 --tmp tmp --miniatura trabajo/miniatura.jpg
+      - name: Control de calidad (si falla, no se sube)
+        run: python scripts/control_calidad.py trabajo/episodio.json trabajo/video.mp4 trabajo/video.tiempos.json
+      - name: Subir a YouTube EN PRIVADO
+        if: inputs.subir == '1'
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN_QSM: ${{ secrets.YT_REFRESH_TOKEN_QSM }}
+        run: |
+          python scripts/subir_youtube.py trabajo/episodio.json trabajo/video.mp4 trabajo/video.tiempos.json trabajo/miniatura.jpg
+          cp publicados/rapido-*.json trabajo/ 2>/dev/null || true
+      - name: Guardar el banco de voces del formato rápido (para no generarlo otra vez)
+        continue-on-error: true
+        run: |
+          git config user.name "quiensabemas-bot"; git config user.email "actions@users.noreply.github.com"
+          git add banco/rapido
+          git commit -qm "Voces: banco del formato rápido" || exit 0
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
+      - name: Diagnóstico (rama diag-rapido)
+        if: always()
+        continue-on-error: true
+        run: |
+          mkdir -p /tmp/diag && cd trabajo
+          cp hoja_fotos.jpg miniatura.jpg video.tiempos.json episodio.json /tmp/diag/ 2>/dev/null || true
+          cp revision/veredicto.json /tmp/diag/ 2>/dev/null || true
+          cp rapido-*.json /tmp/diag/ 2>/dev/null || true
+          if [ -f video.mp4 ]; then
+            ffmpeg -v error -y -i video.mp4 -vf scale=960:-1 -c:v libx264 -crf 30 -preset veryfast -c:a aac -b:a 96k /tmp/diag/video_chico.mp4 || true
+            python - <<'EOF'
+          import json, subprocess
+          t = json.load(open('video.tiempos.json'))
+          for x in t['tiempos'][:3] + t['tiempos'][-2:]:
+              for nom, s in (('abre', x['abre'] + 0.4), ('cuenta', x['reloj'] + 0.3), ('revela', x['cierra'] + 2.2)):
+                  subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', str(s), '-i', 'video.mp4', '-frames:v', '1', '-vf', 'scale=960:-1', f"/tmp/diag/p{x['n']:02d}_{nom}.jpg"])
+          EOF
+          fi
+          cd /tmp/diag && ls
+          git init -q && git checkout -q -b d
+          git config user.name "quiensabemas-bot"; git config user.email "actions@users.noreply.github.com"
+          git add . && git commit -qm "Diagnóstico rápido ${{ github.run_id }}"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" d:diag-rapido

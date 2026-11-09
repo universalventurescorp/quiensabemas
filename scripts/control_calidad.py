@@ -4,7 +4,7 @@ Revisa: duración mínima del formato, voces completas, audio presente y con vol
 """
 import json, re, subprocess, sys
 
-MINIMO = {'normal': 45 * 60, 'maraton': 3 * 3600, 'maqueta': 60}  # con margen: normal se programa en ~60 min (100 preguntas) y el maratón en ~3 h 30 (370)
+MINIMO = {'normal': 45 * 60, 'maraton': 3 * 3600, 'maqueta': 60, 'rapido': 25 * 60}  # con margen: normal se programa en ~60 min (100 preguntas) y el maratón en ~3 h 30 (370)
 
 
 def ff(*args):
@@ -14,6 +14,7 @@ def ff(*args):
 def main(ep_path, video, sync_path):
     ep = json.load(open(ep_path)); sync = json.load(open(sync_path)); fallas = []
     fmt = ep.get('formato', 'normal')
+    if ep.get('muestra'): fmt = 'maqueta'   # muestras cortas: solo 1 min mínimo
     dur = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', video],
                                capture_output=True, text=True).stdout.strip() or 0)
     print(f'Duración: {dur / 60:.1f} min (mínimo {MINIMO.get(fmt, 0) / 60:.0f} min)')
