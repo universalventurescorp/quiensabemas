@@ -22,6 +22,9 @@ def main():
         vivas = vivas[:ep.get('max_preguntas', len(vivas))]
         for k, q in enumerate(vivas, 1): q['n'] = k
         ep['preguntas'] = vivas
+        if ep.get('total_titulo') and len(vivas) != ep['total_titulo']:   # el título dice cuántas preguntas hay de verdad
+            for k in ('titulo_youtube', 'descripcion'):
+                if ep.get(k): ep[k] = ep[k].replace(str(ep['total_titulo']), str(len(vivas)))
         json.dump(ep, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
         print(f"Quedan {len(vivas)} preguntas con fotos")
         if len(vivas) < ep.get('minimo', 8 if ep.get('muestra') else 120): sys.exit('Muy pocas preguntas con fotos')

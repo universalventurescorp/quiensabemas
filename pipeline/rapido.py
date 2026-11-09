@@ -464,6 +464,14 @@ class Show:
 
     def variante_pick(s, quien, lado): return f"{'pr' if quien == 'presentador' else 'co'}_{'izq' if lado == 0 else 'der'}"
 
+    def fotos(s, q):
+        """Las 2 fotos de una pregunta, cargadas al usarlas (solo quedan las de las últimas 3 preguntas)."""
+        n = q['n']
+        if n not in s._fotos:
+            if len(s._fotos) >= 3: s._fotos.pop(next(iter(s._fotos)))
+            s._fotos[n] = [Foto(os.path.join(RAIZ, q['o_img'][i]), q['o'][i], q['o_img'][i].endswith('.png')) for i in range(2)]
+        return s._fotos[n]
+
     # ---- etapas (corre → capa → nave → teletransporte) y velocidad
     def etapa_de(s, nivel):
         ini = s.m.get('etapas', [1, 7, 15, 23]); e = 0
@@ -483,9 +491,7 @@ class Show:
         cada = int(s.m.get('niveles_cada', 25)); sus_en = s.m.get('suscripcion_en', 50)
         pts = [0, 0]; s.pts_t = []      # (t, max, nova)
         s.tiempos, s.capitulos, s.apuestas = [], [], {}
-        s.fotos = {}
-        for q in Q:
-            s.fotos[q['n']] = [Foto(os.path.join(RAIZ, q["o_img"][i]), q['o'][i], q['o_img'][i].endswith('.png')) for i in range(2)]
+        s._fotos = {}
         s.son('whoosh', 0.0, 0.8)
         sin_chacota = 0
         for idx, q in enumerate(Q):
@@ -557,11 +563,11 @@ class Show:
         # final
         R.p = 1.0
         t0 = s.t; s.son('fanfarria', t0, 0.9); s.capitulos.append((t0, 'Resultado: MAX contra NOVA'))
-        if pts[0] == pts[1]: pts[1] += 1   # sin empates
         s.pts_t.append((t0, pts[0], pts[1]))
         fin = s.decir('an_final', t0 + 0.3)
-        fin = s.decir('pr_gana' if pts[0] > pts[1] else 'co_gana', fin + 0.15)
-        s.esc.append((t0, fin + 1.6, ('final', pts[0] > pts[1])))
+        quien = 'pr_gana' if pts[0] > pts[1] else 'co_gana' if pts[1] > pts[0] else 'an_empate'   # el empate es empate
+        fin = s.decir(quien, fin + 0.15)
+        s.esc.append((t0, fin + 1.6, ('final', pts[0] > pts[1], pts[0] == pts[1])))
         s.t = fin + 1.6; s.vel.append((t0, 0.6)); s.tempos.append((t0, 1.3))
         s.final_pts = tuple(pts)
         # distancia recorrida del camino (integral de la velocidad)
@@ -651,7 +657,7 @@ class Show:
         n_actual, nivel, preg, cont = 1, 0, None, None
         if esc and esc[2][0] == 'pregunta':
             idx, P = esc[2][1], esc[2][2]; q = s.Q[idx]; n_actual = idx + 1; nivel = idx // int(s.m.get('niveles_cada', 25))
-            lt = t - esc[0]; a = 1 + idx / max(1, s.N - 1); preg = q['p']; fotos = s.fotos[q['n']]
+            lt = t - esc[0]; a = 1 + idx / max(1, s.N - 1); preg = q['p']; fotos = s.fotos(q)
             pl = clamp(lt / P['lleg']); e = ease_back(pl)
             zoom = 1.0 + 0.12 * clamp((t - esc[0]) / max(0.1, P['tt'] - esc[0]))
             ap = P['ap']; tr = P['tr']
@@ -704,6 +710,7 @@ class Show:
             n_actual = s.N; nivel = (s.N - 1) // int(s.m.get('niveles_cada', 25))
             gana_max = esc[2][1]
             s.pose = {'presentador': 'celebra2' if gana_max else 'piensa', 'copresentadora': 'sorpresa' if gana_max else 'celebra'}
+            if esc[2][2]: s.pose = {'presentador': 'celebra', 'copresentadora': 'aplaude'}   # empate
         elif esc and esc[2][0] == 'suscribe':
             for i, e in enumerate(s.esc):
                 if e is esc: nxt = next((x for x in s.esc[i + 1:] if x[2][0] == 'pregunta'), None)
@@ -732,7 +739,7 @@ class Show:
             u = clamp((t - esc[0]) / 0.3); sc = max(0.05, ease_back(u)); d = ImageDraw.Draw(fr)
             pm, pn = s.final_pts
             d.text((W / 2, 400), '¡SE ACABÓ!', font=font('Black', max(10, int(150 * sc))), fill=ORO, anchor='mm', stroke_width=10, stroke_fill=TINTA)
-            d.text((W / 2, 545), f'MAX {pm}  ·  NOVA {pn}', font=font('Black', max(10, int(80 * sc))), fill=BLANCO, anchor='mm', stroke_width=8, stroke_fill=TINTA)
+            d.text((W / 2, 545), f'MAX {pm}  ·  NOVA {pn}' + ('  ·  ¡EMPATE!' if pm == pn else ''), font=font('Black', max(10, int(80 * sc))), fill=BLANCO, anchor='mm', stroke_width=8, stroke_fill=TINTA)
             d.text((W / 2, 660), '¿Cuántas sacaste? Escríbelo abajo', font=font('Black', max(10, int(56 * sc))), fill=BLANCO, anchor='mm', stroke_width=6, stroke_fill=TINTA)
             ax = W / 2; ay = 730   # flecha hacia abajo
             d.polygon([(ax - 40, ay), (ax + 40, ay), (ax + 40, ay + 40), (ax + 75, ay + 40), (ax, ay + 110), (ax - 75, ay + 40), (ax - 40, ay + 40)], fill=ORO)

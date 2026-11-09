@@ -135,12 +135,23 @@ jobs:
         run: |
           python scripts/subir_youtube.py trabajo/episodio.json trabajo/video.mp4 trabajo/video.tiempos.json trabajo/miniatura.jpg
           cp publicados/rapido-*.json trabajo/ 2>/dev/null || true
-      - name: Guardar el banco de voces del formato rápido (para no generarlo otra vez)
+      - name: Guardar el banco de voces del formato rápido y registrar el episodio (no las muestras)
         continue-on-error: true
         run: |
           git config user.name "quiensabemas-bot"; git config user.email "actions@users.noreply.github.com"
+          if ! python -c "import json,sys; sys.exit(0 if json.load(open('trabajo/episodio.json')).get('muestra') else 1)"; then
+            python - <<'PY' || true
+          import json, sys
+          sys.path.insert(0, 'scripts'); import banco
+          ep = json.load(open('trabajo/episodio.json', encoding='utf-8'))
+          for q in ep['preguntas']: q['p'] = f"{q['p']} ({q['o'][0]} o {q['o'][1]})"; q['tema'] = 'rapido'   # la pregunta corta se repite: la clave lleva las 2 opciones
+          json.dump(ep, open('/tmp/ep_banco.json', 'w', encoding='utf-8'), ensure_ascii=False)
+          banco.registrar('/tmp/ep_banco.json')
+          PY
+            git add publicados banco/preguntas.jsonl
+          fi
           git add banco/rapido
-          git commit -qm "Voces: banco del formato rápido" || exit 0
+          git commit -qm "Formato rápido: voces del banco y registro del episodio" || exit 0
           for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
       - name: Diagnóstico (rama diag-rapido)
         if: always()
