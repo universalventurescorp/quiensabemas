@@ -282,5 +282,165 @@
  "co_gana__1": {
   "voz": "copresentadora",
   "texto": "¡Gané! ¿Y tú? ¿Le ganaste a NOVA?"
+ },
+ "an_nivel_7__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel siete! ¡Más rápido!"
+ },
+ "an_nivel_8__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel ocho! ¡Nadie llega hasta aquí!"
+ },
+ "an_nivel_9__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel nueve! ¡Imparables!"
+ },
+ "an_nivel_10__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel diez! ¡Velocidad loca!"
+ },
+ "an_nivel_11__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel once! ¡Sin frenos!"
+ },
+ "an_nivel_12__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel doce! ¡Esto ya es nivel dios!"
+ },
+ "an_nivel_13__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel trece! ¡Más rápido!"
+ },
+ "an_nivel_14__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel catorce! ¡Nadie llega hasta aquí!"
+ },
+ "an_nivel_15__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel quince! ¡Imparables!"
+ },
+ "an_nivel_16__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel dieciséis! ¡Velocidad loca!"
+ },
+ "an_nivel_17__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel diecisiete! ¡Sin frenos!"
+ },
+ "an_nivel_18__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel dieciocho! ¡Esto ya es nivel dios!"
+ },
+ "an_nivel_19__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel diecinueve! ¡Más rápido!"
+ },
+ "an_nivel_20__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel veinte! ¡Nadie llega hasta aquí!"
+ },
+ "an_nivel_21__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel veintiuno! ¡Imparables!"
+ },
+ "an_nivel_22__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel veintidós! ¡Velocidad loca!"
+ },
+ "an_nivel_23__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel veintitrés! ¡Sin frenos!"
+ },
+ "an_nivel_24__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel veinticuatro! ¡Esto ya es nivel dios!"
+ },
+ "an_nivel_25__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel veinticinco! ¡Más rápido!"
+ },
+ "an_nivel_26__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel veintiséis! ¡Nadie llega hasta aquí!"
+ },
+ "an_nivel_27__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel veintisiete! ¡Imparables!"
+ },
+ "an_nivel_28__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel veintiocho! ¡Velocidad loca!"
+ },
+ "an_nivel_29__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel veintinueve! ¡Sin frenos!"
+ },
+ "an_nivel_30__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel treinta! ¡Esto ya es nivel dios!"
+ },
+ "an_nivel_31__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel treinta y uno! ¡Más rápido!"
+ },
+ "an_nivel_32__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel treinta y dos! ¡Nadie llega hasta aquí!"
+ },
+ "an_nivel_33__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel treinta y tres! ¡Imparables!"
+ },
+ "an_nivel_34__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel treinta y cuatro! ¡Velocidad loca!"
+ },
+ "an_nivel_35__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel treinta y cinco! ¡Sin frenos!"
+ },
+ "an_nivel_36__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel treinta y seis! ¡Esto ya es nivel dios!"
+ },
+ "an_nivel_37__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel treinta y siete! ¡Más rápido!"
+ },
+ "an_nivel_38__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel treinta y ocho! ¡Nadie llega hasta aquí!"
+ },
+ "an_nivel_39__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel treinta y nueve! ¡Imparables!"
+ },
+ "an_nivel_40__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel cuarenta! ¡Velocidad loca!"
+ },
+ "an_evo_capa__0": {
+  "voz": "anunciador",
+  "texto": "¡Esto va demasiado rápido! ¡Tomen, les va a hacer falta!"
+ },
+ "pr_evo_capa__0": {
+  "voz": "presentador",
+  "texto": "¡Capas! ¡A volar!"
+ },
+ "an_evo_nave__0": {
+  "voz": "anunciador",
+  "texto": "¡Ni volando nos alcanza! ¡Suban a la nave!"
+ },
+ "pr_evo_nave__0": {
+  "voz": "presentador",
+  "texto": "¡Yo manejo! ¡Agárrate, NOVA!"
+ },
+ "an_evo_tele__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel dios! ¡Ya no corren ni vuelan… se teletransportan!"
+ },
+ "co_evo_tele__0": {
+  "voz": "copresentadora",
+  "texto": "¡Wiii! ¡Esto es otra dimensión!"
  }
 }
