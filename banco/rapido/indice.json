@@ -442,5 +442,9 @@
  "co_evo_tele__0": {
   "voz": "copresentadora",
   "texto": "¡Wiii! ¡Esto es otra dimensión!"
+ },
+ "an_empate__0": {
+  "voz": "anunciador",
+  "texto": "¡Empate! ¡MAX y NOVA igual de genios! ¿Y tú? ¿Les ganaste a los dos?"
  }
 }
