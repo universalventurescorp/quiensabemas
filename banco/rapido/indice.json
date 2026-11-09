@@ -1,0 +1,286 @@
+{
+ "an_tiempo__0": {
+  "voz": "anunciador",
+  "texto": "¡Tiempo!"
+ },
+ "an_tiempo__1": {
+  "voz": "anunciador",
+  "texto": "¡Se acabó el tiempo!"
+ },
+ "an_tiempo__2": {
+  "voz": "anunciador",
+  "texto": "¡Tiempo, tiempo!"
+ },
+ "pr_izq__0": {
+  "voz": "presentador",
+  "texto": "¡La izquierda, obvio!"
+ },
+ "pr_izq__1": {
+  "voz": "presentador",
+  "texto": "¡Izquierda!"
+ },
+ "pr_izq__2": {
+  "voz": "presentador",
+  "texto": "¡Yo voy con la izquierda!"
+ },
+ "pr_izq__3": {
+  "voz": "presentador",
+  "texto": "¡Izquierda, sin duda!"
+ },
+ "pr_izq__4": {
+  "voz": "presentador",
+  "texto": "¡La de la izquierda!"
+ },
+ "pr_izq__5": {
+  "voz": "presentador",
+  "texto": "¡Izquierda, facilito!"
+ },
+ "pr_der__0": {
+  "voz": "presentador",
+  "texto": "¡La derecha, obvio!"
+ },
+ "pr_der__1": {
+  "voz": "presentador",
+  "texto": "¡Derecha!"
+ },
+ "pr_der__2": {
+  "voz": "presentador",
+  "texto": "¡Yo voy con la derecha!"
+ },
+ "pr_der__3": {
+  "voz": "presentador",
+  "texto": "¡Derecha, sin duda!"
+ },
+ "pr_der__4": {
+  "voz": "presentador",
+  "texto": "¡La de la derecha!"
+ },
+ "pr_der__5": {
+  "voz": "presentador",
+  "texto": "¡Derecha, facilito!"
+ },
+ "co_izq__0": {
+  "voz": "copresentadora",
+  "texto": "¡Izquierda!"
+ },
+ "co_izq__1": {
+  "voz": "copresentadora",
+  "texto": "¡Para mí, la izquierda!"
+ },
+ "co_izq__2": {
+  "voz": "copresentadora",
+  "texto": "¡La izquierda, segurísimo!"
+ },
+ "co_izq__3": {
+  "voz": "copresentadora",
+  "texto": "Mmm… ¡izquierda!"
+ },
+ "co_izq__4": {
+  "voz": "copresentadora",
+  "texto": "¡Izquierda, claro!"
+ },
+ "co_izq__5": {
+  "voz": "copresentadora",
+  "texto": "¡La de la izquierda!"
+ },
+ "co_der__0": {
+  "voz": "copresentadora",
+  "texto": "¡Derecha!"
+ },
+ "co_der__1": {
+  "voz": "copresentadora",
+  "texto": "¡Para mí, la derecha!"
+ },
+ "co_der__2": {
+  "voz": "copresentadora",
+  "texto": "¡La derecha, segurísimo!"
+ },
+ "co_der__3": {
+  "voz": "copresentadora",
+  "texto": "Mmm… ¡derecha!"
+ },
+ "co_der__4": {
+  "voz": "copresentadora",
+  "texto": "¡Derecha, claro!"
+ },
+ "co_der__5": {
+  "voz": "copresentadora",
+  "texto": "¡La de la derecha!"
+ },
+ "pr_chacota__0": {
+  "voz": "presentador",
+  "texto": "¡NOVA, eso lo sabía mi tostadora!"
+ },
+ "pr_chacota__1": {
+  "voz": "presentador",
+  "texto": "¡Punto para MAX! ¡Otra vez!"
+ },
+ "pr_chacota__2": {
+  "voz": "presentador",
+  "texto": "NOVA, ¿te desconectaron?"
+ },
+ "pr_chacota__3": {
+  "voz": "presentador",
+  "texto": "¡Ja! ¡Te lo dije, NOVA!"
+ },
+ "pr_chacota__4": {
+  "voz": "presentador",
+  "texto": "¡Soy imparable!"
+ },
+ "pr_chacota__5": {
+  "voz": "presentador",
+  "texto": "NOVA, ¿quieres que te preste mis circuitos?"
+ },
+ "pr_chacota__6": {
+  "voz": "presentador",
+  "texto": "¡Facilito! ¿Verdad, NOVA?"
+ },
+ "pr_chacota__7": {
+  "voz": "presentador",
+  "texto": "¡Así se hace! NOVA, toma nota."
+ },
+ "pr_chacota__8": {
+  "voz": "presentador",
+  "texto": "¡MAX no falla nunca!"
+ },
+ "pr_chacota__9": {
+  "voz": "presentador",
+  "texto": "¡Uy, NOVA! Eso dolió."
+ },
+ "co_chacota__0": {
+  "voz": "copresentadora",
+  "texto": "¡MAX, se te fundió el foco!"
+ },
+ "co_chacota__1": {
+  "voz": "copresentadora",
+  "texto": "¡Punto para NOVA!"
+ },
+ "co_chacota__2": {
+  "voz": "copresentadora",
+  "texto": "MAX, ¿te quedaste sin batería?"
+ },
+ "co_chacota__3": {
+  "voz": "copresentadora",
+  "texto": "¡Ay, MAX! Hasta mi tostadora lo sabía."
+ },
+ "co_chacota__4": {
+  "voz": "copresentadora",
+  "texto": "¡Aprende, MAX!"
+ },
+ "co_chacota__5": {
+  "voz": "copresentadora",
+  "texto": "MAX, respira hondo."
+ },
+ "co_chacota__6": {
+  "voz": "copresentadora",
+  "texto": "¡Una más para mí!"
+ },
+ "co_chacota__7": {
+  "voz": "copresentadora",
+  "texto": "MAX, ¿lo anotas tú o lo anoto yo?"
+ },
+ "co_chacota__8": {
+  "voz": "copresentadora",
+  "texto": "¡Ja! ¿Viste eso, MAX?"
+ },
+ "co_chacota__9": {
+  "voz": "copresentadora",
+  "texto": "¡Tranquilo, MAX! Ya te tocará."
+ },
+ "pr_ambos_bien__0": {
+  "voz": "presentador",
+  "texto": "¡Los dos genios!"
+ },
+ "pr_ambos_bien__1": {
+  "voz": "presentador",
+  "texto": "¡Empate de cerebritos!"
+ },
+ "pr_ambos_bien__2": {
+  "voz": "presentador",
+  "texto": "¡Choca esos cinco, NOVA!"
+ },
+ "co_ambos_bien__0": {
+  "voz": "copresentadora",
+  "texto": "¡Bien los dos!"
+ },
+ "co_ambos_bien__1": {
+  "voz": "copresentadora",
+  "texto": "¡Somos un equipazo!"
+ },
+ "pr_ambos_mal__0": {
+  "voz": "presentador",
+  "texto": "Esto no sale de aquí, ¿ok?"
+ },
+ "pr_ambos_mal__1": {
+  "voz": "presentador",
+  "texto": "¡Nadie vio nada!"
+ },
+ "pr_ambos_mal__2": {
+  "voz": "presentador",
+  "texto": "Bueno… ¡siguiente!"
+ },
+ "co_ambos_mal__0": {
+  "voz": "copresentadora",
+  "texto": "Mejor no lo comentamos."
+ },
+ "co_ambos_mal__1": {
+  "voz": "copresentadora",
+  "texto": "¡Ups! ¡Los dos!"
+ },
+ "co_ambos_mal__2": {
+  "voz": "copresentadora",
+  "texto": "Shhh… ¡siguiente!"
+ },
+ "an_nivel_1__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel uno: calentando!"
+ },
+ "an_nivel_2__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel dos: se pone difícil!"
+ },
+ "an_nivel_3__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel tres: solo para genios!"
+ },
+ "an_nivel_4__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel cuatro: modo experto!"
+ },
+ "an_nivel_5__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel cinco: casi imposible!"
+ },
+ "an_nivel_6__0": {
+  "voz": "anunciador",
+  "texto": "¡Nivel seis: leyendas!"
+ },
+ "pr_suscribe__0": {
+  "voz": "presentador",
+  "texto": "¡Oigan! Si aciertan esta, suscríbanse. Si fallan… ¡también!"
+ },
+ "pr_suscribe__1": {
+  "voz": "presentador",
+  "texto": "Dato: los que se suscriben aciertan más. ¡Lo dice MAX!"
+ },
+ "an_final__0": {
+  "voz": "anunciador",
+  "texto": "¡Se acabó! ¿Cuántas sacaste? ¡Escríbelo en los comentarios!"
+ },
+ "pr_gana__0": {
+  "voz": "presentador",
+  "texto": "¡Gané yo! NOVA, ¡te espero en la revancha!"
+ },
+ "pr_gana__1": {
+  "voz": "presentador",
+  "texto": "¡Gané! ¿Y tú? ¿Le ganaste a MAX?"
+ },
+ "co_gana__0": {
+  "voz": "copresentadora",
+  "texto": "¡Gané yo! MAX, ¡a practicar!"
+ },
+ "co_gana__1": {
+  "voz": "copresentadora",
+  "texto": "¡Gané! ¿Y tú? ¿Le ganaste a NOVA?"
+ }
+}
