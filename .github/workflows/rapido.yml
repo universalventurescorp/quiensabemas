@@ -162,10 +162,12 @@ jobs:
           cp revision/veredicto.json /tmp/diag/ 2>/dev/null || true
           cp rapido-*.json /tmp/diag/ 2>/dev/null || true
           if [ -f video.mp4 ]; then
-            ffmpeg -v error -y -i video.mp4 -vf scale=960:-1 -c:v libx264 -crf 30 -preset veryfast -c:a aac -b:a 96k /tmp/diag/video_chico.mp4 || true
+            ffmpeg -v error -y -t 150 -i video.mp4 -vf scale=640:-1 -c:v libx264 -crf 32 -preset veryfast -c:a aac -b:a 64k /tmp/diag/video_chico.mp4 || true   # solo el inicio: GitHub no acepta archivos de más de 100 MB
             python - <<'EOF'
           import json, subprocess
           t = json.load(open('video.tiempos.json'))
+          for c0, nom in t['capitulos'][1:]:   # un cuadro en cada nivel (se ven las evoluciones y los mundos)
+              subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', str(c0 + 3), '-i', 'video.mp4', '-frames:v', '1', '-vf', 'scale=640:-1', f"/tmp/diag/nivel_{int(c0):05d}.jpg"])
           for x in t['tiempos'][:3] + t['tiempos'][-2:]:
               for nom, s in (('abre', x['abre'] + 0.4), ('cuenta', x['reloj'] + 0.3), ('revela', x['cierra'] + 2.2)):
                   subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', str(s), '-i', 'video.mp4', '-frames:v', '1', '-vf', 'scale=960:-1', f"/tmp/diag/p{x['n']:02d}_{nom}.jpg"])
