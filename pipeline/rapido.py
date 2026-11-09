@@ -314,10 +314,16 @@ def _evolucion(s, fr, et, u, xm, xn):
         for x, col, ph in ((xm, (230, 40, 40), 0), (xn, (60, 210, 240), 0.15)):
             v = clamp((u - ph) / 0.75); y = -200 + 900 * ease_out(v); sw = 40 * math.sin(v * 12)
             d.polygon([(x - 70 + sw, y), (x + 70 + sw, y), (x + 120 - sw, y + 260), (x - 120 - sw, y + 260)], fill=col + (255,), outline=(255, 210, 90, 255))
-    elif et == 2:  # la nave baja del cielo
-        v = ease_out(clamp(u / 0.85)); im = s.esc(s.nave, 0.4 + 0.6 * v)
-        x = (xm + xn) / 2; y = -100 + 1160 * v
-        fr.paste(im, (int(x - im.width / 2), int(y - im.height)), im)
+    elif et == 2:  # 1.º suben volando y salen de cuadro; 2.º baja la nave ya con ellos en la cabina
+        if u < 0.45:
+            v = ease_out(u / 0.45) if u > 0 else 0
+            for im, x in ((s.nc, xn), (s.mc, xm)):
+                e = s.esc(im, 1 - 0.4 * v); y = 1010 - 1300 * v ** 1.6
+                fr.paste(e, (int(x - e.width / 2), int(y - e.height)), e)
+        else:
+            v = ease_out(clamp((u - 0.45) / 0.5)); im = s.esc(s.nave, 0.5 + 0.5 * v)
+            x = (xm + xn) / 2; y = -100 + 1160 * v
+            fr.paste(im, (int(x - im.width / 2), int(y - im.height)), im)
     elif et == 3:  # túnel de luz cada vez más intenso
         mundos.tunel(fr, u * 3, u)
         if u > 0.6: d.ellipse((VP[0] - 900 * u, VP[1] - 600 * u, VP[0] + 900 * u, VP[1] + 600 * u), fill=(220, 250, 255, int(160 * (u - 0.6) / 0.4)))
@@ -707,7 +713,7 @@ class Show:
         for a0, a1, e in s.evos:
             if t >= a1: et = e
         if et == 3: mundos.tunel(fr, t, fuerza)
-        s.corr.etapa(fr, et, t, s.paso[kk], xm, xn, s.hablando(t, 'presentador'), s.hablando(t, 'copresentadora'), max(fuerza, 0.35 if et else 0))
+        if not (esc and esc[2][0] == 'evo' and esc[2][1] == 2): s.corr.etapa(fr, et, t, s.paso[kk], xm, xn, s.hablando(t, 'presentador'), s.hablando(t, 'copresentadora'), max(fuerza, 0.35 if et else 0))
         if esc and esc[2][0] == 'evo': s.corr.evolucion(fr, esc[2][1], (t - esc[0]) / max(0.1, esc[1] - 0.3 - esc[0]), xm, xn)
         s.centro(fr, t, cont)
         if esc and esc[2][0] == 'nivel':
