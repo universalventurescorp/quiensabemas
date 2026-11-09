@@ -14,6 +14,7 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
 sys.path.insert(0, os.path.dirname(__file__))
 from personajes import sprite, voz_sprite
 from subtitulos import Subtitulos
+import mundos
 
 RAIZ = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 W, H, SR = 1920, 1080, 24000
@@ -55,7 +56,7 @@ class Ritmo:
     @property
     def musica(s): return 1.0 + 0.3 * s.p         # música: de 1x a 1,3x (sin cambiar el tono)
     @property
-    def camino(s): return 1.0 + 2.2 * s.p         # velocidad del camino: hasta 3,2x
+    def camino(s): return 1.0 + 3.5 * s.p         # velocidad del camino: hasta 4,5x (Luis: «que casi desaparezcan»)
     def pausa(s, x): return x / s.a
 
 
@@ -148,6 +149,11 @@ class Foto:
             c.paste(im, ((CW - im.width) // 2, (CH - im.height) // 2)); im = c
         else:
             im.thumbnail((1700, 1700), Image.LANCZOS)
+            if im.height > im.width * 0.85:   # foto vertical: entera, sobre la misma foto difuminada (no cortar la torre ni las pirámides)
+                fondo = ImageOps.fit(im, (1600, 1000), Image.BILINEAR).filter(ImageFilter.GaussianBlur(30))
+                fondo = Image.blend(fondo, Image.new('RGB', fondo.size, (10, 6, 30)), 0.35)
+                im2 = im.copy(); im2.thumbnail((1600, 1000), Image.LANCZOS)
+                fondo.paste(im2, ((1600 - im2.width) // 2, (1000 - im2.height) // 2)); im = fondo
         s.src = im; s.nombre = nombre
         f = font('Black', 64); tw = ImageDraw.Draw(im).textlength(nombre, font=f)
         while tw > CW - 60 and f.size > 34: f = font('Black', f.size - 4); tw = ImageDraw.Draw(im).textlength(nombre, font=f)
@@ -219,11 +225,21 @@ class Corredores:
             s._esc[k] = im.resize((max(1, int(im.width * f)), max(1, int(im.height * f))), Image.BILINEAR) if abs(f - 1) > 0.005 else im
         return s._esc[k]
 
-    def dibujar(s, fr, fase, xm, xn, habla_m, habla_n, fm=1.0, fn=1.0):
+    def fantasma(s, im, f, a):
+        k = (id(im), round(f, 2), a)
+        if k not in s._esc:
+            e = s.esc(im, f).copy(); al = e.getchannel('A').point(lambda v: int(v * a / 100)); e.putalpha(al); s._esc[k] = e
+        return s._esc[k]
+
+    def dibujar(s, fr, fase, xm, xn, habla_m, habla_n, fm=1.0, fn=1.0, estela=0.0):
         """fase: avance del paso (sube con la velocidad). x: centro de cada uno; f: escala (más chico = más adelante)."""
         k = int(fase) % 2
         for im, x, f, ph in ((s.nova_mira if habla_n else s.nova[k], xn, fn, 0.5), (s.max_mira if habla_m else s.max[k], xm, fm, 0.0)):
             bob = abs(math.sin(math.pi * (fase + ph))) * 14
+            for j in range(3, 0, -1):   # estela: copias transparentes detrás, más grandes y más abajo (vienen de la cámara)
+                if estela <= 0.05: break
+                g = s.fantasma(im, f * (1 + 0.05 * j * estela), int(45 * estela / j))
+                fr.paste(g, (int(x - g.width / 2), int(H + 30 - g.height - bob * f + 40 * j * estela)), g)
             e = s.esc(im, f)
             fr.paste(e, (int(x - e.width / 2), int(H + 30 - e.height - bob * f)), e)
 
@@ -319,6 +335,7 @@ class Show:
         s.tempos = []                               # (t, tempo de música)
         s.faltan = []
         s.vel = []                                  # (t, velocidad del camino) para integrar la distancia
+        s.cambios = []                              # (inicio del portal, cambio de mundo, mundo nuevo)
         s.banco = os.path.join(raiz, 'banco', 'rapido'); s.TXT = {}
         for f in (os.path.join(s.banco, 'indice.json'), os.path.join(voces, 'indice.json') if voces else ''):
             if f and os.path.exists(f): s.TXT.update({k: v.get('texto', '') for k, v in json.load(open(f, encoding='utf-8')).items()})
@@ -373,9 +390,11 @@ class Show:
             s.tempos.append((s.t, R.musica)); s.vel.append((s.t, R.camino))
             if idx % cada == 0:
                 s.capitulos.append((s.t, f"{NIVELES[min(nivel, 5)][0].title()}: {NIVELES[min(nivel, 5)][1].strip('¡!').capitalize()}"))
-                if idx:   # cartel de nivel con golpe y «drop» de la música
-                    t0 = s.t; s.drops.append(t0); s.son('golpe', t0, 1.0)
-                    fin = s.decir(f'an_nivel_{min(nivel, 5) + 1}', t0 + 0.25)
+                if idx:   # portal al mundo nuevo, golpe y «drop» de la música, cartel del nivel
+                    t0 = s.t; tp = t0 + 0.9; s.cambios.append((t0, tp, min(nivel, 5)))
+                    s.son('whoosh', t0, 1.0); s.son('whoosh', t0 + 0.45, 1.0)
+                    s.drops.append(tp); s.son('golpe', tp, 1.0)
+                    fin = s.decir(f'an_nivel_{min(nivel, 5) + 1}', tp + 0.15)
                     s.esc.append((t0, fin + R.pausa(0.5), ('nivel', nivel)))
                     s.t = fin + R.pausa(0.5)
             if n == sus_en and idx:   # MAX en broma: suscríbanse (mira a NOVA y al público)
@@ -439,6 +458,7 @@ class Show:
         for i, (t, vv) in enumerate(s.vel):
             a = int(t * FPS); b = int(s.vel[i + 1][0] * FPS) if i + 1 < len(s.vel) else n_fr
             v[a:b] = vv
+        s.velk = v
         s.dist = np.cumsum(v * 2.5 / FPS)   # 6 durmientes por segundo al inicio
         s.paso = np.cumsum(v * 3.2 / FPS)   # pasos por segundo de los corredores
 
@@ -461,7 +481,7 @@ class Show:
             d.text((W / 2, 76), pregunta, font=f, fill=BLANCO, anchor='mm')
         # contador · nivel · racha
         nv = NIVELES[min(nivel, 5)]
-        piezas = [(f'{n_actual}/{s.N}', ORO, TINTA), (nv[0], nv[2], BLANCO), ('¿Cuántas llevas seguidas?', (18, 10, 46), BLANCO)]
+        piezas = [(f'{n_actual}/{s.N}', ORO, TINTA), (f"{nv[0]} · {mundos.MUNDOS[min(nivel, 5)]['nombre']}", nv[2], BLANCO), ('¿Cuántas llevas seguidas?', (18, 10, 46), BLANCO)]
         f = font('Bold', 30); anchos = [d.textlength(p, font=f) + 44 for p, _, _ in piezas]; anchos[2] += 40
         x = W / 2 - (sum(anchos) + 20 * 2) / 2
         for (txt, bg, fg), w in zip(piezas, anchos):
@@ -493,7 +513,7 @@ class Show:
             r = 92 * sc
             d.ellipse((cx - r - 8, cy - r - 8, cx + r + 8, cy + r + 8), fill=BLANCO)
             d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=col)
-            d.text((cx, cy + 4), txt, font=font('Black', int((110 if len(txt) < 3 else 44) * sc)), fill=BLANCO, anchor='mm')
+            d.text((cx, cy + 4), txt, font=font('Black', int((110 if len(txt) < 3 else 34) * sc)), fill=BLANCO, anchor='mm')
             return
         b = s.boca(t, 'anunciador')
         if s.hablando(t, 'anunciador'):
@@ -502,7 +522,16 @@ class Show:
 
     def frame(s, k):
         t = k / FPS
-        fr = s.cielo.copy(); camino(fr, s.dist[min(k, len(s.dist) - 1)])
+        kk = min(k, len(s.dist) - 1); vel = float(s.velk[kk])
+        mi = 0; por = None
+        for a0, a1, nuevo in s.cambios:
+            if t >= a1: mi = nuevo
+            elif t >= a0: por = ((t - a0) / (a1 - a0), nuevo)
+        fr = mundos.cielo(mi).copy(); mundos.camino(fr, s.dist[kk], mi, t, vel)
+        mundos.particulas(fr, mi, t, vel)
+        fuerza = clamp((vel - 1.8) / 2.4)
+        mundos.lineas_velocidad(fr, t, fuerza)
+        if por: mundos.portal(fr, min(por[0], 0.85), por[1])
         esc = None
         for e in s.esc:
             if e[0] <= t < e[1]: esc = e; break
@@ -555,7 +584,7 @@ class Show:
             elif P['tt'] <= t < P['t_m'] + 0.2:
                 cont = ('¡TIEMPO!', ROJO, 1.0 + 0.2 * max(0, 1 - (t - P['tt']) * 5))
         elif esc and esc[2][0] == 'nivel':
-            nivel = esc[2][1]; n_actual = nivel * int(s.m.get('niveles_cada', 25)) + 1
+            nivel = esc[2][1] if t >= esc[0] + 0.9 else esc[2][1] - 1; n_actual = esc[2][1] * int(s.m.get('niveles_cada', 25)) + 1
         elif esc and esc[2][0] == 'final':
             n_actual = s.N; nivel = (s.N - 1) // int(s.m.get('niveles_cada', 25))
             gana_max = esc[2][1]
@@ -565,13 +594,15 @@ class Show:
                 if e is esc: nxt = next((x for x in s.esc[i + 1:] if x[2][0] == 'pregunta'), None)
             n_actual = nxt[2][1] + 1 if nxt else 1; s.pose = {'presentador': 'saluda', 'copresentadora': 'aplaude'}
         # corredores (de espaldas; al hablar giran la cabeza)
-        s.corr.dibujar(fr, s.paso[min(k, len(s.paso) - 1)], xm, xn, s.hablando(t, 'presentador'), s.hablando(t, 'copresentadora'), fm, fn)
+        s.corr.dibujar(fr, s.paso[min(k, len(s.paso) - 1)], xm, xn, s.hablando(t, 'presentador'), s.hablando(t, 'copresentadora'), fm, fn, fuerza)
         s.centro(fr, t, cont)
         if esc and esc[2][0] == 'nivel':
-            nv = NIVELES[min(esc[2][1], 5)]; u = clamp((t - esc[0]) / 0.25); sc = ease_back(u)
-            d = ImageDraw.Draw(fr); f = font('Black', max(10, int(170 * sc))); f2 = font('Black', max(10, int(80 * sc)))
-            d.text((W / 2, 470), nv[0], font=f, fill=nv[2], anchor='mm', stroke_width=12, stroke_fill=BLANCO)
-            d.text((W / 2, 620), nv[1], font=f2, fill=BLANCO, anchor='mm', stroke_width=8, stroke_fill=TINTA)
+            nv = NIVELES[min(esc[2][1], 5)]; u = clamp((t - esc[0] - 0.9) / 0.25); sc = max(0.01, ease_back(u)) if u > 0 else 0
+            if sc > 0.02:
+                d = ImageDraw.Draw(fr); f = font('Black', max(10, int(170 * sc))); f2 = font('Black', max(10, int(80 * sc)))
+                d.text((W / 2, 400), nv[0], font=f, fill=nv[2], anchor='mm', stroke_width=12, stroke_fill=BLANCO)
+                d.text((W / 2, 545), mundos.MUNDOS[min(esc[2][1], 5)]['nombre'], font=f2, fill=ORO, anchor='mm', stroke_width=8, stroke_fill=TINTA)
+                d.text((W / 2, 650), nv[1], font=f2, fill=BLANCO, anchor='mm', stroke_width=8, stroke_fill=TINTA)
         if esc and esc[2][0] == 'suscribe':
             u = clamp((t - esc[0]) / 0.25); sc = max(0.05, ease_back(u)); d = ImageDraw.Draw(fr)
             w, h = 560 * sc, 130 * sc
@@ -588,6 +619,13 @@ class Show:
         s.hud(fr, t, n_actual, nivel, preg)
         st = s.subs.estado(t)
         if st: s.subs.dibujar(fr, st)
+        if por and por[0] > 0.8:   # destello del portal
+            fr.paste(Image.new('RGB', (W, H), (255, 255, 255)), (0, 0), Image.new('L', (W, H), int(255 * min(1, (por[0] - 0.8) / 0.2))))
+        for a0, a1, nuevo in s.cambios:
+            if a1 <= t < a1 + 0.3: fr.paste(Image.new('RGB', (W, H), (255, 255, 255)), (0, 0), Image.new('L', (W, H), int(255 * (1 - (t - a1) / 0.3))))
+        if fuerza > 0.25:   # sacudida de cámara a toda velocidad
+            r = random.Random(k); dx, dy = int(r.uniform(-1, 1) * 7 * fuerza), int(r.uniform(-1, 1) * 5 * fuerza)
+            fr = fr.transform(fr.size, Image.AFFINE, (1, 0, dx, 0, 1, dy), Image.BILINEAR)
         return fr
 
     # ---- audio
@@ -635,7 +673,7 @@ class Show:
 
     def render(s, out, tmp):
         os.makedirs(tmp, exist_ok=True)
-        s.cielo = cielo(); s.corr = Corredores(); s.subs.cerrar()
+        s.corr = Corredores(); s.subs.cerrar()
         nfr = int(s.t * FPS); vid = os.path.join(tmp, 'video.mp4')
         ff = subprocess.Popen(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS),
                                '-i', '-', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', '-pix_fmt', 'yuv420p', vid], stdin=subprocess.PIPE)
@@ -691,7 +729,7 @@ def main():
     if S.faltan: print('Voces faltantes (silencio):', sorted(set(S.faltan)))
     if a.miniatura: miniatura(meta, a.miniatura)
     if a.cuadros:
-        S.cielo = cielo(); S.corr = Corredores(); S.subs.cerrar()
+        S.corr = Corredores(); S.subs.cerrar()
         for sec in a.cuadros.split(','):
             S.frame(int(float(sec) * FPS)).save(os.path.join(a.tmp, f'cuadro_{sec}.jpg'), quality=85)
         return

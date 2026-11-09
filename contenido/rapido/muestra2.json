@@ -1,0 +1,303 @@
+{
+ "_nota": "MUESTRA 2 (9-nov-2026): 12 preguntas, un mundo nuevo cada 2 preguntas para ver los 6 mundos y los portales.",
+ "id": "rapido-muestra2",
+ "formato": "rapido",
+ "muestra": true,
+ "max_preguntas": 12,
+ "niveles_cada": 2,
+ "suscripcion_en": 6,
+ "titulo": "¿A o B?",
+ "titulo_youtube": "MUESTRA 2 · ¿A o B? 12 preguntas, 6 mundos 🔥 | ¿Quién Sabe Más?",
+ "descripcion": "MUESTRA 2 del formato rápido ¿A o B? con mundos (no publicar).",
+ "extra_tts": {
+  "an_arranque": [
+   "anunciador",
+   "¡Doce preguntas y seis mundos! ¿Cuántas aciertas? ¡Vamos!"
+  ]
+ },
+ "fotos_miniatura": [
+  [
+   1,
+   0
+  ],
+  [
+   1,
+   1
+  ]
+ ],
+ "preguntas": [
+  {
+   "n": 1,
+   "p": "¿Cuál pesa más?",
+   "o": [
+    "Elefante",
+    "Hipopótamo"
+   ],
+   "c": 0,
+   "tp": "¿Cuál pesa más?",
+   "tr": "¡El elefante!",
+   "o_fotos": [
+    {
+     "q": "african elephant",
+     "src": "px"
+    },
+    {
+     "q": "hippopotamus",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "p": "¿Cuál es más antiguo?",
+   "o": [
+    "Coliseo romano",
+    "Pirámides de Guiza"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más antiguo?",
+   "tr": "¡Las pirámides!",
+   "o_fotos": [
+    {
+     "q": "Colosseum Rome",
+     "src": "px"
+    },
+    {
+     "q": "Giza pyramids Egypt",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "p": "¿Cuál tiene más vitamina C?",
+   "o": [
+    "Naranja",
+    "Kiwi"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene más vitamina C?",
+   "tr": "¡El kiwi! Casi el doble.",
+   "o_fotos": [
+    {
+     "q": "orange fruit",
+     "src": "px"
+    },
+    {
+     "q": "kiwi fruit sliced",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "p": "¿Cuál vive más años?",
+   "o": [
+    "Tortuga gigante",
+    "Loro"
+   ],
+   "c": 0,
+   "tp": "¿Cuál vive más años?",
+   "tr": "¡La tortuga gigante!",
+   "o_fotos": [
+    {
+     "q": "giant tortoise",
+     "src": "px"
+    },
+    {
+     "q": "parrot",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "p": "¿Cuál tiene más patas?",
+   "o": [
+    "Hormiga",
+    "Araña"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene más patas?",
+   "tr": "¡La araña! Tiene ocho.",
+   "o_fotos": [
+    {
+     "q": "ant macro",
+     "src": "px"
+    },
+    {
+     "q": "spider",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "La Luna",
+    "Plutón"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡La Luna! Plutón es más chico.",
+   "o_fotos": [
+    {
+     "q": "full moon",
+     "src": "px"
+    },
+    {
+     "q": "Pluto New Horizons",
+     "src": "cm",
+     "must": "Pluto"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "p": "¿Cuál es más caliente?",
+   "o": [
+    "Mercurio",
+    "Venus"
+   ],
+   "c": 1,
+   "tp": "¿Qué planeta es más caliente?",
+   "tr": "¡Venus! Aunque está más lejos del Sol.",
+   "o_fotos": [
+    {
+     "q": "Mercury planet MESSENGER",
+     "src": "cm",
+     "must": "Mercury"
+    },
+    {
+     "q": "Venus planet Mariner",
+     "src": "cm",
+     "must": "Venus"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "p": "¿Cuál pone huevos?",
+   "o": [
+    "Delfín",
+    "Ornitorrinco"
+   ],
+   "c": 1,
+   "tp": "¿Cuál de estos dos pone huevos?",
+   "tr": "¡El ornitorrinco!",
+   "o_fotos": [
+    {
+     "q": "dolphin",
+     "src": "px"
+    },
+    {
+     "q": "platypus",
+     "src": "cm",
+     "must": "platypus"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "p": "¿Qué país es más grande?",
+   "o": [
+    "Brasil",
+    "Australia"
+   ],
+   "c": 0,
+   "tp": "¿Qué país es más grande?",
+   "tr": "¡Brasil! Por un poquito.",
+   "o_fotos": [
+    {
+     "flag": "br"
+    },
+    {
+     "flag": "au"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "p": "¿Qué país tiene más habitantes?",
+   "o": [
+    "China",
+    "India"
+   ],
+   "c": 1,
+   "tp": "¿Qué país tiene más habitantes?",
+   "tr": "¡India! Pasó a China en el dos mil veintitrés.",
+   "o_fotos": [
+    {
+     "flag": "cn"
+    },
+    {
+     "flag": "in"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "p": "¿Cuál duerme más horas?",
+   "o": [
+    "Koala",
+    "Gato"
+   ],
+   "c": 0,
+   "tp": "¿Cuál duerme más horas al día?",
+   "tr": "¡El koala! Hasta veinte horas.",
+   "o_fotos": [
+    {
+     "q": "koala",
+     "src": "px"
+    },
+    {
+     "q": "cat sleeping",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "p": "¿Cuál es un mamífero?",
+   "o": [
+    "Pingüino",
+    "Murciélago"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un mamífero?",
+   "tr": "¡El murciélago!",
+   "o_fotos": [
+    {
+     "q": "penguin",
+     "src": "px"
+    },
+    {
+     "q": "bat flying",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "p": "¿Cuál es más alta?",
+   "o": [
+    "Torre Eiffel",
+    "Estatua de la Libertad"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más alta?",
+   "tr": "¡La Torre Eiffel! Más del triple.",
+   "o_fotos": [
+    {
+     "q": "Eiffel Tower",
+     "src": "px"
+    },
+    {
+     "q": "Statue of Liberty",
+     "src": "px"
+    }
+   ]
+  }
+ ]
+}
