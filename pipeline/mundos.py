@@ -26,6 +26,29 @@ MUNDOS = [
 ]
 
 
+VARIANTES = [('', None), ('DE NOCHE', ((10, 12, 40), 0.55)), ('DORADO', ((255, 180, 60), 0.32)), ('NEÓN', ((255, 40, 200), 0.3)), ('INFINITO', ((60, 255, 220), 0.3))]
+
+
+def _tinte(c, tinte):
+    if not tinte or not isinstance(c, tuple) or not c or not isinstance(c[0], (int, float)): return c
+    col, a = tinte; return tuple(int(v * (1 - a) + w * a) for v, w in zip(c, col))
+
+
+_MS = {}
+def mundo(k):
+    """Nivel k (0, 1, 2, … sin límite): los 6 mundos se repiten con otra variante (de noche, dorado, neón, infinito)."""
+    if k not in _MS:
+        base = MUNDOS[k % 6]; nom, tinte = VARIANTES[(k // 6) % len(VARIANTES)]
+        m = dict(base)
+        for key in ('cielo', 'montes'):
+            if m[key]: m[key] = tuple(_tinte(c, tinte) for c in m[key])
+        for key in ('brillo', 'suelo', 'camino', 'dur', 'borde', 'riel'): m[key] = _tinte(m[key], tinte)
+        if nom == 'DE NOCHE': m['estrellas'] = True
+        m['nombre'] = (base['nombre'] + ' ' + nom).strip()
+        _MS[k] = m
+    return _MS[k]
+
+
 def _cielo(m):
     y = np.linspace(0, 1, H)[:, None, None]
     a, b = np.array(m['cielo'][0], float), np.array(m['cielo'][1], float)
@@ -66,7 +89,9 @@ def _cielo(m):
 
 _CIELOS = {}
 def cielo(i):
-    if i not in _CIELOS: _CIELOS[i] = _cielo(MUNDOS[i])
+    if i not in _CIELOS:
+        if len(_CIELOS) > 4: _CIELOS.clear()
+        _CIELOS[i] = _cielo(mundo(i))
     return _CIELOS[i]
 
 
@@ -111,7 +136,7 @@ def _objeto(d, tipo, x, y, f, lado, t):
 
 def camino(img, dist, i, t=0.0, vel=1.0):
     """Carretera en perspectiva del mundo i con durmientes, rieles y objetos que pasan según la distancia recorrida."""
-    m = MUNDOS[i]; d = ImageDraw.Draw(img, 'RGBA')
+    m = mundo(i); d = ImageDraw.Draw(img, 'RGBA')
     ab, ar = 760, 8
     if m['obj'] == 'lava':   # ríos de lava a los costados
         fl = int(30 * math.sin(t * 5))
@@ -130,6 +155,8 @@ def camino(img, dist, i, t=0.0, vel=1.0):
         f0, f1 = (y0 - VP[1]) / (H - VP[1]), (y1 - VP[1]) / (H - VP[1])
         w0, w1 = ar + (ab - ar) * f0 * 0.82, ar + (ab - ar) * f1 * 0.82
         q = 0.55 + 0.45 * min(1, f1 * 1.4); c = tuple(int(v * q) for v in m['dur'])
+        if vel > 3.2:   # a mucha velocidad las tablas se estiran (desenfoque de movimiento)
+            y0 -= (y1 - y0) * min(3, vel - 3.2); w0 = ar + (ab - ar) * max(0, (y0 - VP[1]) / (H - VP[1])) * 0.82
         d.polygon([(VP[0] - w0, y0), (VP[0] + w0, y0), (VP[0] + w1, y1), (VP[0] - w1, y1)], fill=c + (255,))
         d.line([(VP[0] - w1, y1), (VP[0] + w1, y1)], fill=m['borde'] + (int(140 * min(1, f1 * 2)),), width=max(1, int(3 * f1)))
     for s in (-1, 1):
@@ -149,7 +176,7 @@ def camino(img, dist, i, t=0.0, vel=1.0):
 
 def particulas(img, i, t, vel):
     """Polvo, luciérnagas, nieve, chispas o estrellas que pasan volando (más rápido con la velocidad)."""
-    tipo = MUNDOS[i]['part']
+    tipo = mundo(i)['part']
     if not tipo: return
     d = ImageDraw.Draw(img, 'RGBA'); r = np.random.default_rng(42 + i)
     n = 70
@@ -207,3 +234,11 @@ def portal(img, u, nuevo):
         img.paste(mini.resize((W, H), Image.BILINEAR), (0, 0), m)
     if u > 0.85:
         img.paste(Image.new('RGB', (W, H), (255, 255, 255)), (0, 0), Image.new('L', (W, H), int(255 * (u - 0.85) / 0.15)))
+
+
+def tunel(img, t, fuerza):
+    """Túnel de luz del teletransporte (nivel dios): anillos que salen del punto de fuga."""
+    d = ImageDraw.Draw(img, 'RGBA'); cols = [(90, 215, 255), (255, 90, 200), (255, 200, 40), (140, 235, 110)]
+    for k in range(12):
+        u = ((t * (0.8 + 1.5 * fuerza)) + k / 12) % 1.0; e = u ** 2.4; R = 20 + 1800 * e
+        d.ellipse((VP[0] - R * 1.3, VP[1] - R, VP[0] + R * 1.3, VP[1] + R), outline=cols[k % 4] + (int(200 * (1 - u)),), width=max(2, int(10 * e)))

@@ -35,7 +35,18 @@ def font(w, s):
 ORO, BLANCO, TINTA = (255, 200, 40), (255, 255, 255), (26, 18, 64)
 MAXC, NOVAC, VOZC = (255, 200, 40), (90, 215, 255), (140, 235, 110)
 VERDE, ROJO = (46, 204, 113), (231, 76, 60)
-VP = (960, 430)                       # punto de fuga
+VP = (960, 430)
+SUB = ['CALENTANDO', '¡SE PONE DIFÍCIL!', '¡SOLO PARA GENIOS!', '¡MODO EXPERTO!', '¡CASI IMPOSIBLE!', '¡LEYENDAS!',
+       '¡MÁS RÁPIDO!', '¡NADIE LLEGA AQUÍ!', '¡IMPARABLES!', '¡VELOCIDAD LOCA!', '¡SIN FRENOS!', '¡NIVEL DIOS!']
+COLN = [(39, 174, 96), (242, 153, 30), (231, 76, 60), (155, 89, 182), (52, 73, 94), (241, 196, 15)]
+
+
+def nivel_info(k):
+    """Nivel k (0, 1, 2… sin límite) → (título, subtítulo, color)."""
+    return f'NIVEL {k + 1}', SUB[k] if k < 6 else SUB[6 + (k - 6) % 6], COLN[k % 6]
+
+
+ETAPAS = ['corre', 'capa', 'nave', 'tele']                       # punto de fuga
 CARTEL = [(530, 425), (1390, 425)]    # centro final de cada cartel (izquierda / derecha)
 CW, CH = 640, 400                     # tamaño final del cartel (foto)
 NIVELES = [('NIVEL 1', 'CALENTANDO', (39, 174, 96)), ('NIVEL 2', '¡SE PONE DIFÍCIL!', (242, 153, 30)),
@@ -186,7 +197,8 @@ class Foto:
             t.alpha_composite(g, (b, b + h - fh - 30))
             d = ImageDraw.Draw(t)
             d.text((b + w / 2, b + h - fh / 2 - 6), s.nombre, font=f, fill=BLANCO, anchor='mm', stroke_width=max(2, int(5 * esc)), stroke_fill=TINTA)
-            x = b + w - 20 * esc
+            anchos = [d.textlength(nom, font=font('Black', max(12, int(46 * esc)))) + 52 * esc for nom, _, _ in fichas]
+            x = b + w / 2 + sum(anchos) / 2
             for nom, col, sc in fichas:   # fichas MAX / NOVA (sc = escala del «pop»)
                 ff = font('Black', max(12, int(46 * esc * sc))); tw = d.textlength(nom, font=ff); hh = ff.size * 1.25
                 d.rounded_rectangle((x - tw - 36 * esc, b + 20 * esc, x, b + 20 * esc + hh), int(hh / 2), fill=col, outline=BLANCO, width=max(2, int(5 * esc)))
@@ -244,6 +256,73 @@ class Corredores:
             fr.paste(e, (int(x - e.width / 2), int(H + 30 - e.height - bob * f)), e)
 
 
+def _corredores_extra():
+    D = os.path.join(RAIZ, 'assets', 'corredores')
+    def carga(n, alto, espejo=False):
+        im = Image.open(os.path.join(D, n + '.png')).convert('RGBA'); im = im.resize((round(im.width * alto / im.height), alto), Image.LANCZOS)
+        return ImageOps.mirror(im) if espejo else im
+    return carga('max_capa', 400), carga('nova_capa', 400), carga('nave', 470)
+
+
+def _etapa(s, fr, et, t, fase, xm, xn, habla_m, habla_n, estela):
+    if et == 0: return s.dibujar(fr, fase, xm, xn, habla_m, habla_n, 1.0, 1.0, estela)
+    if not hasattr(s, 'mc'): s.mc, s.nc, s.nave = _corredores_extra()
+    d = ImageDraw.Draw(fr, 'RGBA')
+    if et in (1, 3):   # volando con capa (en el teletransporte, además, brillan y «saltan»)
+        for im, x, ph, hab in ((s.nc, xn, 1.3, habla_n), (s.mc, xm, 0.0, habla_m)):
+            y = 1010 + 16 * math.sin(t * 3.2 + ph) - (20 if hab else 0)
+            ang = 4 * math.sin(t * 2.1 + ph)
+            if et == 3:
+                salto = int(t / 1.4 + ph) ; r = random.Random(salto)
+                x += r.uniform(-120, 120); y -= r.uniform(0, 60)
+                u = (t / 1.4 + ph) % 1.0
+                if u < 0.12:   # destello del salto
+                    R = 260 * (1 - u / 0.12); d.ellipse((x - R, y - 220 - R, x + R, y - 220 + R), outline=(150, 240, 255, 220), width=8)
+                    continue
+                if not hasattr(s, '_aura'): s._aura = {}
+                if id(im) not in s._aura:
+                    aura = s.esc(im, 1.12); g = Image.new('RGBA', aura.size, (90, 215, 255, 0)); g.putalpha(aura.getchannel('A').point(lambda v: v // 3))
+                    s._aura[id(im)] = g.filter(ImageFilter.GaussianBlur(18))
+                g = s._aura[id(im)]; fr.paste(g, (int(x - g.width / 2), int(y - g.height + 30)), g)
+            d.ellipse((x - 120, 1048, x + 120, 1072), fill=(0, 0, 0, 70))   # sombra en el camino
+            img = s.esc(im, 1.0).rotate(ang, Image.BILINEAR, expand=True)
+            for j in range(3, 0, -1):
+                if estela <= 0.05: break
+                gh = s.fantasma(im, 1 + 0.06 * j * estela, int(45 * estela / j))
+                fr.paste(gh, (int(x - gh.width / 2), int(y - gh.height + 50 * j * estela)), gh)
+            fr.paste(img, (int(x - img.width / 2), int(y - img.height)), img)
+    elif et == 2:      # en la nave
+        x = (xm + xn) / 2; y = 1060 + 10 * math.sin(t * 2.4); ang = (xm + xn - 1920) / 1920 * 14
+        im = s.esc(s.nave, 1.0).rotate(-ang, Image.BILINEAR, expand=True)
+        for j in range(3, 0, -1):
+            if estela <= 0.05: break
+            gh = s.fantasma(s.nave, 1 + 0.05 * j * estela, int(40 * estela / j))
+            fr.paste(gh, (int(x - gh.width / 2), int(y - gh.height + 40 * j * estela)), gh)
+        fr.paste(im, (int(x - im.width / 2), int(y - im.height)), im)
+        fl = 0.7 + 0.3 * math.sin(t * 40)   # fuego de los motores
+        for ex in (0.265, 0.735):
+            cx, cy = x - im.width / 2 + im.width * ex, y - im.height * 0.16; R = 70 * fl
+            d.ellipse((cx - R, cy - R, cx + R, cy + R), fill=(120, 230, 255, 70))
+            d.ellipse((cx - R * 0.5, cy - R * 0.5, cx + R * 0.5, cy + R * 0.5), fill=(230, 255, 255, 150))
+
+
+def _evolucion(s, fr, et, u, xm, xn):
+    """Animación de la evolución (u 0→1): caen las capas, baja la nave o se abre el túnel."""
+    if not hasattr(s, 'mc'): s.mc, s.nc, s.nave = _corredores_extra()
+    d = ImageDraw.Draw(fr, 'RGBA'); u = clamp(u)
+    if et == 1:   # dos capas caen del cielo hacia MAX y NOVA
+        for x, col, ph in ((xm, (230, 40, 40), 0), (xn, (60, 210, 240), 0.15)):
+            v = clamp((u - ph) / 0.75); y = -200 + 900 * ease_out(v); sw = 40 * math.sin(v * 12)
+            d.polygon([(x - 70 + sw, y), (x + 70 + sw, y), (x + 120 - sw, y + 260), (x - 120 - sw, y + 260)], fill=col + (255,), outline=(255, 210, 90, 255))
+    elif et == 2:  # la nave baja del cielo
+        v = ease_out(clamp(u / 0.85)); im = s.esc(s.nave, 0.4 + 0.6 * v)
+        x = (xm + xn) / 2; y = -100 + 1160 * v
+        fr.paste(im, (int(x - im.width / 2), int(y - im.height)), im)
+    elif et == 3:  # túnel de luz cada vez más intenso
+        mundos.tunel(fr, u * 3, u)
+        if u > 0.6: d.ellipse((VP[0] - 900 * u, VP[1] - 600 * u, VP[0] + 900 * u, VP[1] + 600 * u), fill=(220, 250, 255, int(160 * (u - 0.6) / 0.4)))
+
+
 @__import__('functools').lru_cache(maxsize=512)
 def retrato(quien, pose, boca, parp):
     """Cara del personaje (de frente, con la boca animada) para la ventanita de la esquina."""
@@ -253,6 +332,10 @@ def retrato(quien, pose, boca, parp):
     c.paste(sp, (-box[0], -box[1]), sp)
     c = c.resize((200, 200), Image.LANCZOS)
     return ImageOps.mirror(c) if quien == 'copresentadora' else c   # se miran entre ellos
+
+
+Corredores.etapa = _etapa
+Corredores.evolucion = _evolucion
 
 
 # ---------------------------------------------------------------- sonidos (todos sintetizados: sin derechos)
@@ -336,6 +419,7 @@ class Show:
         s.faltan = []
         s.vel = []                                  # (t, velocidad del camino) para integrar la distancia
         s.cambios = []                              # (inicio del portal, cambio de mundo, mundo nuevo)
+        s.evos = []                                 # (inicio, cambio de etapa, etapa nueva)
         s.banco = os.path.join(raiz, 'banco', 'rapido'); s.TXT = {}
         for f in (os.path.join(s.banco, 'indice.json'), os.path.join(voces, 'indice.json') if voces else ''):
             if f and os.path.exists(f): s.TXT.update({k: v.get('texto', '') for k, v in json.load(open(f, encoding='utf-8')).items()})
@@ -374,6 +458,19 @@ class Show:
 
     def variante_pick(s, quien, lado): return f"{'pr' if quien == 'presentador' else 'co'}_{'izq' if lado == 0 else 'der'}"
 
+    # ---- etapas (corre → capa → nave → teletransporte) y velocidad
+    def etapa_de(s, nivel):
+        ini = s.m.get('etapas', [1, 7, 15, 23]); e = 0
+        for k, a in enumerate(ini):
+            if nivel + 1 >= a: e = k
+        return e
+
+    def velocidad(s, nivel, frac):
+        ini = s.m.get('etapas', [1, 7, 15, 23]); e = s.etapa_de(nivel)
+        a = ini[e] - 1; b = (ini[e + 1] - 1) if e + 1 < len(ini) else max(a + 4, (s.N - 1) // int(s.m.get('niveles_cada', 25)) + 1)
+        u = clamp((nivel - a + frac) / max(1, b - a))
+        return 1.2 + 3.6 * u + 0.8 * e        # cada etapa empieza un poco más arriba que la anterior
+
     # ---- guion
     def armar(s):
         Q, N, R = s.Q, s.N, s.R
@@ -387,14 +484,22 @@ class Show:
         sin_chacota = 0
         for idx, q in enumerate(Q):
             R.p = idx / max(1, N - 1); n = q['n']; nivel = idx // cada
-            s.tempos.append((s.t, R.musica)); s.vel.append((s.t, R.camino))
+            s.tempos.append((s.t, R.musica)); s.vel.append((s.t, s.velocidad(nivel, idx % cada / cada)))
             if idx % cada == 0:
-                s.capitulos.append((s.t, f"{NIVELES[min(nivel, 5)][0].title()}: {NIVELES[min(nivel, 5)][1].strip('¡!').capitalize()}"))
+                ni = nivel_info(nivel)
+                s.capitulos.append((s.t, f"Nivel {nivel + 1}: {mundos.mundo(nivel)['nombre'].title()}"))
+                et = s.etapa_de(nivel)
+                if idx and et != s.etapa_de(nivel - 1):   # EVOLUCIÓN: capas, nave o teletransporte
+                    t0 = s.t; s.son('fanfarria', t0, 0.8)
+                    fin = s.decir(f'an_evo_{ETAPAS[et]}', t0 + 0.1)
+                    fin = s.decir(f"{'pr' if et != 3 else 'co'}_evo_{ETAPAS[et]}", fin + 0.1)
+                    tsw = fin + 0.2; s.evos.append((t0, tsw, et)); s.son('whoosh', tsw - 0.4, 1.0); s.son('golpe', tsw, 0.8)
+                    s.esc.append((t0, tsw + 0.3, ('evo', et))); s.t = tsw + 0.3
                 if idx:   # portal al mundo nuevo, golpe y «drop» de la música, cartel del nivel
-                    t0 = s.t; tp = t0 + 0.9; s.cambios.append((t0, tp, min(nivel, 5)))
+                    t0 = s.t; tp = t0 + 0.9; s.cambios.append((t0, tp, nivel))
                     s.son('whoosh', t0, 1.0); s.son('whoosh', t0 + 0.45, 1.0)
                     s.drops.append(tp); s.son('golpe', tp, 1.0)
-                    fin = s.decir(f'an_nivel_{min(nivel, 5) + 1}', tp + 0.15)
+                    fin = s.decir(f'an_nivel_{nivel + 1}', tp + 0.15)
                     s.esc.append((t0, fin + R.pausa(0.5), ('nivel', nivel)))
                     s.t = fin + R.pausa(0.5)
             if n == sus_en and idx:   # MAX en broma: suscríbanse (mira a NOVA y al público)
@@ -480,8 +585,8 @@ class Show:
             d.rounded_rectangle((W / 2 - tw / 2 - 40, 26, W / 2 + tw / 2 + 40, 126), 50, fill=(18, 10, 46), outline=ORO, width=4)
             d.text((W / 2, 76), pregunta, font=f, fill=BLANCO, anchor='mm')
         # contador · nivel · racha
-        nv = NIVELES[min(nivel, 5)]
-        piezas = [(f'{n_actual}/{s.N}', ORO, TINTA), (f"{nv[0]} · {mundos.MUNDOS[min(nivel, 5)]['nombre']}", nv[2], BLANCO), ('¿Cuántas llevas seguidas?', (18, 10, 46), BLANCO)]
+        nv = nivel_info(nivel)
+        piezas = [(f'{n_actual}/{s.N}', ORO, TINTA), (f"{nv[0]} · {mundos.mundo(nivel)['nombre']}", nv[2], BLANCO), ('¿Cuántas llevas seguidas?', (18, 10, 46), BLANCO)]
         f = font('Bold', 30); anchos = [d.textlength(p, font=f) + 44 for p, _, _ in piezas]; anchos[2] += 40
         x = W / 2 - (sum(anchos) + 20 * 2) / 2
         for (txt, bg, fg), w in zip(piezas, anchos):
@@ -585,6 +690,10 @@ class Show:
                 cont = ('¡TIEMPO!', ROJO, 1.0 + 0.2 * max(0, 1 - (t - P['tt']) * 5))
         elif esc and esc[2][0] == 'nivel':
             nivel = esc[2][1] if t >= esc[0] + 0.9 else esc[2][1] - 1; n_actual = esc[2][1] * int(s.m.get('niveles_cada', 25)) + 1
+        elif esc and esc[2][0] == 'evo':
+            i = s.esc.index(esc); nxt = next((x for x in s.esc[i + 1:] if x[2][0] == 'pregunta'), None)
+            n_actual = nxt[2][1] + 1 if nxt else s.N; nivel = max(0, (n_actual - 1) // int(s.m.get('niveles_cada', 25)) - 1)
+            s.pose = {'presentador': 'celebra2', 'copresentadora': 'celebra'}
         elif esc and esc[2][0] == 'final':
             n_actual = s.N; nivel = (s.N - 1) // int(s.m.get('niveles_cada', 25))
             gana_max = esc[2][1]
@@ -594,14 +703,19 @@ class Show:
                 if e is esc: nxt = next((x for x in s.esc[i + 1:] if x[2][0] == 'pregunta'), None)
             n_actual = nxt[2][1] + 1 if nxt else 1; s.pose = {'presentador': 'saluda', 'copresentadora': 'aplaude'}
         # corredores (de espaldas; al hablar giran la cabeza)
-        s.corr.dibujar(fr, s.paso[min(k, len(s.paso) - 1)], xm, xn, s.hablando(t, 'presentador'), s.hablando(t, 'copresentadora'), fm, fn, fuerza)
+        et = 0
+        for a0, a1, e in s.evos:
+            if t >= a1: et = e
+        if et == 3: mundos.tunel(fr, t, fuerza)
+        s.corr.etapa(fr, et, t, s.paso[kk], xm, xn, s.hablando(t, 'presentador'), s.hablando(t, 'copresentadora'), max(fuerza, 0.35 if et else 0))
+        if esc and esc[2][0] == 'evo': s.corr.evolucion(fr, esc[2][1], (t - esc[0]) / max(0.1, esc[1] - 0.3 - esc[0]), xm, xn)
         s.centro(fr, t, cont)
         if esc and esc[2][0] == 'nivel':
-            nv = NIVELES[min(esc[2][1], 5)]; u = clamp((t - esc[0] - 0.9) / 0.25); sc = max(0.01, ease_back(u)) if u > 0 else 0
+            nv = nivel_info(esc[2][1]); u = clamp((t - esc[0] - 0.9) / 0.25); sc = max(0.01, ease_back(u)) if u > 0 else 0
             if sc > 0.02:
                 d = ImageDraw.Draw(fr); f = font('Black', max(10, int(170 * sc))); f2 = font('Black', max(10, int(80 * sc)))
                 d.text((W / 2, 400), nv[0], font=f, fill=nv[2], anchor='mm', stroke_width=12, stroke_fill=BLANCO)
-                d.text((W / 2, 545), mundos.MUNDOS[min(esc[2][1], 5)]['nombre'], font=f2, fill=ORO, anchor='mm', stroke_width=8, stroke_fill=TINTA)
+                d.text((W / 2, 545), mundos.mundo(esc[2][1])['nombre'], font=f2, fill=ORO, anchor='mm', stroke_width=8, stroke_fill=TINTA)
                 d.text((W / 2, 650), nv[1], font=f2, fill=BLANCO, anchor='mm', stroke_width=8, stroke_fill=TINTA)
         if esc and esc[2][0] == 'suscribe':
             u = clamp((t - esc[0]) / 0.25); sc = max(0.05, ease_back(u)); d = ImageDraw.Draw(fr)
@@ -621,7 +735,7 @@ class Show:
         if st: s.subs.dibujar(fr, st)
         if por and por[0] > 0.8:   # destello del portal
             fr.paste(Image.new('RGB', (W, H), (255, 255, 255)), (0, 0), Image.new('L', (W, H), int(255 * min(1, (por[0] - 0.8) / 0.2))))
-        for a0, a1, nuevo in s.cambios:
+        for a0, a1, nuevo in s.cambios + s.evos:
             if a1 <= t < a1 + 0.3: fr.paste(Image.new('RGB', (W, H), (255, 255, 255)), (0, 0), Image.new('L', (W, H), int(255 * (1 - (t - a1) / 0.3))))
         if fuerza > 0.25:   # sacudida de cámara a toda velocidad
             r = random.Random(k); dx, dy = int(r.uniform(-1, 1) * 7 * fuerza), int(r.uniform(-1, 1) * 5 * fuerza)

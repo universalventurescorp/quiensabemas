@@ -1,48 +1,421 @@
 {
- "_nota": "Banco de voces del formato rápido «¿A o B?» (9-nov-2026). Frases muy cortas y entusiastas. El montador (pipeline/rapido.py) las rota. Se generan en rapido.yml (o voces.yml contenido=contenido/rapido_voces.json salida=banco/rapido).",
+ "_nota": "Banco de voces del formato rápido «¿A o B?» (9-nov-2026). Frases muy cortas y entusiastas. El montador (pipeline/rapido.py) las rota. Se generan en rapido.yml (o voces.yml contenido=contenido/rapido_voces.json salida=banco/rapido). Niveles 7-40 y evoluciones (capa, nave, teletransporte) agregados el 9-nov-2026.",
  "variantes": {
-  "an_tiempo": ["anunciador", ["¡Tiempo!", "¡Se acabó el tiempo!", "¡Tiempo, tiempo!"]],
-  "pr_izq": ["presentador", ["¡La izquierda, obvio!", "¡Izquierda!", "¡Yo voy con la izquierda!", "¡Izquierda, sin duda!", "¡La de la izquierda!", "¡Izquierda, facilito!"]],
-  "pr_der": ["presentador", ["¡La derecha, obvio!", "¡Derecha!", "¡Yo voy con la derecha!", "¡Derecha, sin duda!", "¡La de la derecha!", "¡Derecha, facilito!"]],
-  "co_izq": ["copresentadora", ["¡Izquierda!", "¡Para mí, la izquierda!", "¡La izquierda, segurísimo!", "Mmm… ¡izquierda!", "¡Izquierda, claro!", "¡La de la izquierda!"]],
-  "co_der": ["copresentadora", ["¡Derecha!", "¡Para mí, la derecha!", "¡La derecha, segurísimo!", "Mmm… ¡derecha!", "¡Derecha, claro!", "¡La de la derecha!"]],
-  "pr_chacota": ["presentador", [
-   "¡NOVA, eso lo sabía mi tostadora!",
-   "¡Punto para MAX! ¡Otra vez!",
-   "NOVA, ¿te desconectaron?",
-   "¡Ja! ¡Te lo dije, NOVA!",
-   "¡Soy imparable!",
-   "NOVA, ¿quieres que te preste mis circuitos?",
-   "¡Facilito! ¿Verdad, NOVA?",
-   "¡Así se hace! NOVA, toma nota.",
-   "¡MAX no falla nunca!",
-   "¡Uy, NOVA! Eso dolió."
-  ]],
-  "co_chacota": ["copresentadora", [
-   "¡MAX, se te fundió el foco!",
-   "¡Punto para NOVA!",
-   "MAX, ¿te quedaste sin batería?",
-   "¡Ay, MAX! Hasta mi tostadora lo sabía.",
-   "¡Aprende, MAX!",
-   "MAX, respira hondo.",
-   "¡Una más para mí!",
-   "MAX, ¿lo anotas tú o lo anoto yo?",
-   "¡Ja! ¿Viste eso, MAX?",
-   "¡Tranquilo, MAX! Ya te tocará."
-  ]],
-  "pr_ambos_bien": ["presentador", ["¡Los dos genios!", "¡Empate de cerebritos!", "¡Choca esos cinco, NOVA!"]],
-  "co_ambos_bien": ["copresentadora", ["¡Bien los dos!", "¡Somos un equipazo!"]],
-  "pr_ambos_mal": ["presentador", ["Esto no sale de aquí, ¿ok?", "¡Nadie vio nada!", "Bueno… ¡siguiente!"]],
-  "co_ambos_mal": ["copresentadora", ["Mejor no lo comentamos.", "¡Ups! ¡Los dos!", "Shhh… ¡siguiente!"]],
-  "an_nivel_1": ["anunciador", ["¡Nivel uno: calentando!"]],
-  "an_nivel_2": ["anunciador", ["¡Nivel dos: se pone difícil!"]],
-  "an_nivel_3": ["anunciador", ["¡Nivel tres: solo para genios!"]],
-  "an_nivel_4": ["anunciador", ["¡Nivel cuatro: modo experto!"]],
-  "an_nivel_5": ["anunciador", ["¡Nivel cinco: casi imposible!"]],
-  "an_nivel_6": ["anunciador", ["¡Nivel seis: leyendas!"]],
-  "pr_suscribe": ["presentador", ["¡Oigan! Si aciertan esta, suscríbanse. Si fallan… ¡también!", "Dato: los que se suscriben aciertan más. ¡Lo dice MAX!"]],
-  "an_final": ["anunciador", ["¡Se acabó! ¿Cuántas sacaste? ¡Escríbelo en los comentarios!"]],
-  "pr_gana": ["presentador", ["¡Gané yo! NOVA, ¡te espero en la revancha!", "¡Gané! ¿Y tú? ¿Le ganaste a MAX?"]],
-  "co_gana": ["copresentadora", ["¡Gané yo! MAX, ¡a practicar!", "¡Gané! ¿Y tú? ¿Le ganaste a NOVA?"]]
+  "an_tiempo": [
+   "anunciador",
+   [
+    "¡Tiempo!",
+    "¡Se acabó el tiempo!",
+    "¡Tiempo, tiempo!"
+   ]
+  ],
+  "pr_izq": [
+   "presentador",
+   [
+    "¡La izquierda, obvio!",
+    "¡Izquierda!",
+    "¡Yo voy con la izquierda!",
+    "¡Izquierda, sin duda!",
+    "¡La de la izquierda!",
+    "¡Izquierda, facilito!"
+   ]
+  ],
+  "pr_der": [
+   "presentador",
+   [
+    "¡La derecha, obvio!",
+    "¡Derecha!",
+    "¡Yo voy con la derecha!",
+    "¡Derecha, sin duda!",
+    "¡La de la derecha!",
+    "¡Derecha, facilito!"
+   ]
+  ],
+  "co_izq": [
+   "copresentadora",
+   [
+    "¡Izquierda!",
+    "¡Para mí, la izquierda!",
+    "¡La izquierda, segurísimo!",
+    "Mmm… ¡izquierda!",
+    "¡Izquierda, claro!",
+    "¡La de la izquierda!"
+   ]
+  ],
+  "co_der": [
+   "copresentadora",
+   [
+    "¡Derecha!",
+    "¡Para mí, la derecha!",
+    "¡La derecha, segurísimo!",
+    "Mmm… ¡derecha!",
+    "¡Derecha, claro!",
+    "¡La de la derecha!"
+   ]
+  ],
+  "pr_chacota": [
+   "presentador",
+   [
+    "¡NOVA, eso lo sabía mi tostadora!",
+    "¡Punto para MAX! ¡Otra vez!",
+    "NOVA, ¿te desconectaron?",
+    "¡Ja! ¡Te lo dije, NOVA!",
+    "¡Soy imparable!",
+    "NOVA, ¿quieres que te preste mis circuitos?",
+    "¡Facilito! ¿Verdad, NOVA?",
+    "¡Así se hace! NOVA, toma nota.",
+    "¡MAX no falla nunca!",
+    "¡Uy, NOVA! Eso dolió."
+   ]
+  ],
+  "co_chacota": [
+   "copresentadora",
+   [
+    "¡MAX, se te fundió el foco!",
+    "¡Punto para NOVA!",
+    "MAX, ¿te quedaste sin batería?",
+    "¡Ay, MAX! Hasta mi tostadora lo sabía.",
+    "¡Aprende, MAX!",
+    "MAX, respira hondo.",
+    "¡Una más para mí!",
+    "MAX, ¿lo anotas tú o lo anoto yo?",
+    "¡Ja! ¿Viste eso, MAX?",
+    "¡Tranquilo, MAX! Ya te tocará."
+   ]
+  ],
+  "pr_ambos_bien": [
+   "presentador",
+   [
+    "¡Los dos genios!",
+    "¡Empate de cerebritos!",
+    "¡Choca esos cinco, NOVA!"
+   ]
+  ],
+  "co_ambos_bien": [
+   "copresentadora",
+   [
+    "¡Bien los dos!",
+    "¡Somos un equipazo!"
+   ]
+  ],
+  "pr_ambos_mal": [
+   "presentador",
+   [
+    "Esto no sale de aquí, ¿ok?",
+    "¡Nadie vio nada!",
+    "Bueno… ¡siguiente!"
+   ]
+  ],
+  "co_ambos_mal": [
+   "copresentadora",
+   [
+    "Mejor no lo comentamos.",
+    "¡Ups! ¡Los dos!",
+    "Shhh… ¡siguiente!"
+   ]
+  ],
+  "an_nivel_1": [
+   "anunciador",
+   [
+    "¡Nivel uno: calentando!"
+   ]
+  ],
+  "an_nivel_2": [
+   "anunciador",
+   [
+    "¡Nivel dos: se pone difícil!"
+   ]
+  ],
+  "an_nivel_3": [
+   "anunciador",
+   [
+    "¡Nivel tres: solo para genios!"
+   ]
+  ],
+  "an_nivel_4": [
+   "anunciador",
+   [
+    "¡Nivel cuatro: modo experto!"
+   ]
+  ],
+  "an_nivel_5": [
+   "anunciador",
+   [
+    "¡Nivel cinco: casi imposible!"
+   ]
+  ],
+  "an_nivel_6": [
+   "anunciador",
+   [
+    "¡Nivel seis: leyendas!"
+   ]
+  ],
+  "pr_suscribe": [
+   "presentador",
+   [
+    "¡Oigan! Si aciertan esta, suscríbanse. Si fallan… ¡también!",
+    "Dato: los que se suscriben aciertan más. ¡Lo dice MAX!"
+   ]
+  ],
+  "an_final": [
+   "anunciador",
+   [
+    "¡Se acabó! ¿Cuántas sacaste? ¡Escríbelo en los comentarios!"
+   ]
+  ],
+  "pr_gana": [
+   "presentador",
+   [
+    "¡Gané yo! NOVA, ¡te espero en la revancha!",
+    "¡Gané! ¿Y tú? ¿Le ganaste a MAX?"
+   ]
+  ],
+  "co_gana": [
+   "copresentadora",
+   [
+    "¡Gané yo! MAX, ¡a practicar!",
+    "¡Gané! ¿Y tú? ¿Le ganaste a NOVA?"
+   ]
+  ],
+  "an_nivel_7": [
+   "anunciador",
+   [
+    "¡Nivel siete! ¡Más rápido!"
+   ]
+  ],
+  "an_nivel_8": [
+   "anunciador",
+   [
+    "¡Nivel ocho! ¡Nadie llega hasta aquí!"
+   ]
+  ],
+  "an_nivel_9": [
+   "anunciador",
+   [
+    "¡Nivel nueve! ¡Imparables!"
+   ]
+  ],
+  "an_nivel_10": [
+   "anunciador",
+   [
+    "¡Nivel diez! ¡Velocidad loca!"
+   ]
+  ],
+  "an_nivel_11": [
+   "anunciador",
+   [
+    "¡Nivel once! ¡Sin frenos!"
+   ]
+  ],
+  "an_nivel_12": [
+   "anunciador",
+   [
+    "¡Nivel doce! ¡Esto ya es nivel dios!"
+   ]
+  ],
+  "an_nivel_13": [
+   "anunciador",
+   [
+    "¡Nivel trece! ¡Más rápido!"
+   ]
+  ],
+  "an_nivel_14": [
+   "anunciador",
+   [
+    "¡Nivel catorce! ¡Nadie llega hasta aquí!"
+   ]
+  ],
+  "an_nivel_15": [
+   "anunciador",
+   [
+    "¡Nivel quince! ¡Imparables!"
+   ]
+  ],
+  "an_nivel_16": [
+   "anunciador",
+   [
+    "¡Nivel dieciséis! ¡Velocidad loca!"
+   ]
+  ],
+  "an_nivel_17": [
+   "anunciador",
+   [
+    "¡Nivel diecisiete! ¡Sin frenos!"
+   ]
+  ],
+  "an_nivel_18": [
+   "anunciador",
+   [
+    "¡Nivel dieciocho! ¡Esto ya es nivel dios!"
+   ]
+  ],
+  "an_nivel_19": [
+   "anunciador",
+   [
+    "¡Nivel diecinueve! ¡Más rápido!"
+   ]
+  ],
+  "an_nivel_20": [
+   "anunciador",
+   [
+    "¡Nivel veinte! ¡Nadie llega hasta aquí!"
+   ]
+  ],
+  "an_nivel_21": [
+   "anunciador",
+   [
+    "¡Nivel veintiuno! ¡Imparables!"
+   ]
+  ],
+  "an_nivel_22": [
+   "anunciador",
+   [
+    "¡Nivel veintidós! ¡Velocidad loca!"
+   ]
+  ],
+  "an_nivel_23": [
+   "anunciador",
+   [
+    "¡Nivel veintitrés! ¡Sin frenos!"
+   ]
+  ],
+  "an_nivel_24": [
+   "anunciador",
+   [
+    "¡Nivel veinticuatro! ¡Esto ya es nivel dios!"
+   ]
+  ],
+  "an_nivel_25": [
+   "anunciador",
+   [
+    "¡Nivel veinticinco! ¡Más rápido!"
+   ]
+  ],
+  "an_nivel_26": [
+   "anunciador",
+   [
+    "¡Nivel veintiséis! ¡Nadie llega hasta aquí!"
+   ]
+  ],
+  "an_nivel_27": [
+   "anunciador",
+   [
+    "¡Nivel veintisiete! ¡Imparables!"
+   ]
+  ],
+  "an_nivel_28": [
+   "anunciador",
+   [
+    "¡Nivel veintiocho! ¡Velocidad loca!"
+   ]
+  ],
+  "an_nivel_29": [
+   "anunciador",
+   [
+    "¡Nivel veintinueve! ¡Sin frenos!"
+   ]
+  ],
+  "an_nivel_30": [
+   "anunciador",
+   [
+    "¡Nivel treinta! ¡Esto ya es nivel dios!"
+   ]
+  ],
+  "an_nivel_31": [
+   "anunciador",
+   [
+    "¡Nivel treinta y uno! ¡Más rápido!"
+   ]
+  ],
+  "an_nivel_32": [
+   "anunciador",
+   [
+    "¡Nivel treinta y dos! ¡Nadie llega hasta aquí!"
+   ]
+  ],
+  "an_nivel_33": [
+   "anunciador",
+   [
+    "¡Nivel treinta y tres! ¡Imparables!"
+   ]
+  ],
+  "an_nivel_34": [
+   "anunciador",
+   [
+    "¡Nivel treinta y cuatro! ¡Velocidad loca!"
+   ]
+  ],
+  "an_nivel_35": [
+   "anunciador",
+   [
+    "¡Nivel treinta y cinco! ¡Sin frenos!"
+   ]
+  ],
+  "an_nivel_36": [
+   "anunciador",
+   [
+    "¡Nivel treinta y seis! ¡Esto ya es nivel dios!"
+   ]
+  ],
+  "an_nivel_37": [
+   "anunciador",
+   [
+    "¡Nivel treinta y siete! ¡Más rápido!"
+   ]
+  ],
+  "an_nivel_38": [
+   "anunciador",
+   [
+    "¡Nivel treinta y ocho! ¡Nadie llega hasta aquí!"
+   ]
+  ],
+  "an_nivel_39": [
+   "anunciador",
+   [
+    "¡Nivel treinta y nueve! ¡Imparables!"
+   ]
+  ],
+  "an_nivel_40": [
+   "anunciador",
+   [
+    "¡Nivel cuarenta! ¡Velocidad loca!"
+   ]
+  ],
+  "an_evo_capa": [
+   "anunciador",
+   [
+    "¡Esto va demasiado rápido! ¡Tomen, les va a hacer falta!"
+   ]
+  ],
+  "pr_evo_capa": [
+   "presentador",
+   [
+    "¡Capas! ¡A volar!"
+   ]
+  ],
+  "an_evo_nave": [
+   "anunciador",
+   [
+    "¡Ni volando nos alcanza! ¡Suban a la nave!"
+   ]
+  ],
+  "pr_evo_nave": [
+   "presentador",
+   [
+    "¡Yo manejo! ¡Agárrate, NOVA!"
+   ]
+  ],
+  "an_evo_tele": [
+   "anunciador",
+   [
+    "¡Nivel dios! ¡Ya no corren ni vuelan… se teletransportan!"
+   ]
+  ],
+  "co_evo_tele": [
+   "copresentadora",
+   [
+    "¡Wiii! ¡Esto es otra dimensión!"
+   ]
+  ]
  }
 }
