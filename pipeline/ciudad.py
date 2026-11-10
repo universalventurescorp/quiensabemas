@@ -524,11 +524,15 @@ class Ciudad(R0.Show):
                 cx, cy = x - im.width / 2 + im.width * ex, y - im.height * 0.16; Rr = 60 * fl
                 dd.ellipse((cx - Rr, cy - Rr, cx + Rr, cy + Rr), fill=(120, 230, 255, 70)); dd.ellipse((cx - Rr * .5, cy - Rr * .5, cx + Rr * .5, cy + Rr * .5), fill=(230, 255, 255, 150))
             return
-        k2 = int(fase) % 2
+        k2 = int(fase) % 2; P_ = poses_flow(c)
         for quien, x, ph in (('copresentadora', xn, 0.5), ('presentador', xm, 0.0)):
             if quien in ocultar: continue
             hab = s.hablando(t, quien)
             im = (c.nova_mira if hab else c.nova[k2]) if quien == 'copresentadora' else (c.max_mira if hab else c.max[k2])
+            q_ = 'max' if quien == 'presentador' else 'nova'
+            if extra.get('salto'): im = P_[q_ + '_salta']                       # saltando (Flow)
+            if cae is not None or extra.get('flota', 0) > 0.35 or extra.get('plaf_' + quien) is not None:
+                im = P_[q_ + '_estrella']                                       # cayendo en estrella (Flow)
             bob = abs(math.sin(math.pi * (fase + ph))) * 12
             f = 0.82; y = H + 22 - bob
             sal = extra.get('salto', 0)
@@ -690,8 +694,8 @@ class Ciudad(R0.Show):
                 if not c['en_nave']:   # el que se equivocó, aplastado contra la pared
                     for quien in ('presentador', 'copresentadora'):
                         if Pq['ap'][quien] == i and t - Pq['tch'] <= 0.45:
-                            ims = s.corr.max[0] if quien == 'presentador' else s.corr.nova[0]
-                            ww, hh = int(ims.width * esc_ * 1.6), int(ims.height * esc_ * 0.7)
+                            ims = poses_flow(s.corr)['max_estrella' if quien == 'presentador' else 'nova_estrella']
+                            ww, hh = int(ims.width * esc_ * 1.45), int(ims.height * esc_ * 0.82)
                             if ww > 4 and hh > 4:
                                 aa = ims.resize((ww, hh), Image.BILINEAR); fr.paste(aa, (int(cx - ww / 2 + (60 * esc_ if quien == 'copresentadora' else -60 * esc_)), int(my - hh / 2)), aa)
                     tx = 'PLAF!'; ff = font('Black', max(10, int(150 * esc_)))
@@ -795,6 +799,16 @@ class Ciudad(R0.Show):
             sc = 1.35 if pp else 1.0; d = ImageDraw.Draw(fr)
             d.rounded_rectangle((x0 + 10, 232, x0 + 220, 282), 25, fill=col)
             d.text((x0 + 115, 257), f'{nom} {pts_}', font=font('Black', int(40 * sc)), fill=TINTA, anchor='mm')
+
+
+def poses_flow(c):
+    """Poses nuevas de Flow (10-nov): saltando y en estrella (cayendo / aplastado), al alto de los corredores."""
+    if not hasattr(c, '_flow'):
+        D = os.path.join(RAIZ, 'assets', 'corredores'); c._flow = {}
+        for n in ('max_salta', 'max_estrella', 'nova_salta', 'nova_estrella'):
+            im = Image.open(os.path.join(D, n + '.png')).convert('RGBA'); alto = 440 if 'salta' in n else 470
+            c._flow[n] = im.resize((round(im.width * alto / im.height), alto), Image.LANCZOS)
+    return c._flow
 
 
 def estrella(d, x, y, r, col):
