@@ -26,7 +26,7 @@ Leer también: `contenido/navidad_plan.md` (lo que se produce ahora), `contenido
 - Prueba local del armado repartido OK (3 tramos unidos con concat -c copy + audio; el corte no se nota).
 - Tests: el botón enviar de Flow se mueve; usar `find "arrow_forward"` y clic por ref.
 
-- 10-nov 16:51 Luis pidió que TODO sea Navidad. Decidido: subir a ≈50 % preguntas de Navidad/invierno (tradiciones del mundo, Polo Norte, animales del frío, dulces navideños) y el resto de cultura general con presentación navideña; escribir ~150 navideñas más.
+- 10-nov 16:52 CAMBIO: TODO el episodio es navideño. Cada zona tiene su tema de preguntas dentro de la historia de Nochebuena: 1 avenida → tradiciones navideñas del mundo; 2 taller de Papá Noel → juguetes, inventos, ciencia; 3 bosque → animales del bosque y árboles; 4 lago → frío, hielo, agua; 5 dulces → comida y postres (panetón, chocolate…); 6 Polo Norte → animales del frío; 7 montaña → montañas, volcanes, geografía; 8 tejados → «Papá Noel visita este país» (banderas, capitales, lugares); 9 cielo → planetas y estrellas (la estrella de Belén). LA VOZ presenta cada pregunta con el hilo navideño. Reasignar las preguntas escritas a zonas y escribir las que falten. (Antes: subir a ≈50 % preguntas de Navidad/invierno (tradiciones del mundo, Polo Norte, animales del frío, dulces navideños) y el resto de cultura general con presentación navideña; escribir ~150 navideñas más.
 
 ## Pendiente inmediato (en orden)
 1. (HECHO) Construir el armado repartido: `ciudad.py --desde/--hasta` (cuadros) por máquina + job final que une video, mezcla audio y sube. Ojo: `s._skyx` se acumula cuadro a cuadro → precalcularlo como arreglo para que no salte entre tramos.
