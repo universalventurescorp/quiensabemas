@@ -93,7 +93,8 @@ jobs:
           fi
       - name: Guion de la muestra
         run: python scripts/preparar_ciudad.py trabajo/episodio.json trabajo/ciudad.json --n ${{ inputs.n }}
-      - name: Montar el video
+      - name: Montar el video (4K)
+        env: { QSM_4K: "1" }
         run: python pipeline/ciudad.py --contenido trabajo/ciudad.json --voces voces_ep --out trabajo/video.mp4 --tmp tmp --miniatura trabajo/miniatura.jpg
       - name: Subir a YouTube EN PRIVADO
         if: inputs.subir == '1'

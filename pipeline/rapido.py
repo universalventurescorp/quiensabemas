@@ -803,7 +803,8 @@ class Show:
         s.corr = Corredores(); s.subs.cerrar()
         nfr = int(s.t * FPS); vid = os.path.join(tmp, 'video.mp4')
         ff = subprocess.Popen(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS),
-                               '-i', '-', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', '-pix_fmt', 'yuv420p', vid], stdin=subprocess.PIPE)
+                               '-i', '-', *(['-vf', 'scale=3840:2160:flags=lanczos'] if os.environ.get('QSM_4K') else []),
+                               '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '18' if os.environ.get('QSM_4K') else '20', '-pix_fmt', 'yuv420p', vid], stdin=subprocess.PIPE)
         import time; t0 = time.time()
         for k in range(nfr):
             ff.stdin.write(s.frame(k).convert('RGB').tobytes())

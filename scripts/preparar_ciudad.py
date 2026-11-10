@@ -19,6 +19,8 @@ EVENTOS = {
 }
 # Vehículo sorpresa (índice de pregunta → vehículo). El dragón llega solo en el rescate del puente.
 VEHICULOS = {'2': 'patineta', '7': 'carrito', '8': 'pato', '9': 'dragon'}
+# El dragón de la serie: el huevo se alimenta con las respuestas correctas, nace, crece y en el puente ya es gigante.
+DRAGON = {'meta_huevo': 3, 'antes_3': 'nace', 'antes_4': 'crece'}
 
 
 def main():
@@ -29,7 +31,7 @@ def main():
     out = {'id': 'ciudad-muestra', 'formato': 'rapido', 'muestra': True,
            'titulo': '¿A o B? EN LA CIUDAD (MUESTRA)', 'titulo_youtube': 'MUESTRA · ¿A o B? en la ciudad',
            'descripcion': 'Muestra privada del formato en la ciudad. No publicar.', 'tags': [],
-           'eventos': EVENTOS, 'vehiculos': VEHICULOS, 'preguntas': qs, 'extra_tts': ep.get('extra_tts', {})}
+           'eventos': EVENTOS, 'vehiculos': VEHICULOS, 'dragon': DRAGON, 'preguntas': qs, 'extra_tts': ep.get('extra_tts', {})}
     json.dump(out, open(a.salida, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(f'{len(qs)} preguntas →', a.salida)
 

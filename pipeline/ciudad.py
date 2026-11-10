@@ -199,7 +199,8 @@ class Ciudad(R0.Show):
         s.ev = meta.get('eventos', {})            # {"3": "bajada", "antes_6": "puente", ...}
         s.zonas = []; s.feat = []                  # (t0, t1, tipo, extra) rasgos de la pista
         s.nave_desde = None; s.rolls = []; s.caidas_corr = []
-        s.veh = [(0.0, 'corre')]                   # (desde, vehículo) — cambia por pregunta según meta['vehiculos']
+        s.veh = [(0.0, 'corre')]
+        s.drag = [(0.0, 'huevo')]                  # etapa del dragón de la serie: huevo → bebe → joven → gigante                   # (desde, vehículo) — cambia por pregunta según meta['vehiculos']
 
     def clip(s, clave, est=''):
         if os.path.isdir(s.bancoc) and any(f.startswith(clave + '__') for f in os.listdir(s.bancoc)):
@@ -217,12 +218,24 @@ class Ciudad(R0.Show):
         s.son('whoosh', 0.0, 0.8); s.t = 0.3
         s.vel.append((0.0, 3200))
         fin = s.decir('an_ciudad_intro', 0.4); s.esc.append((0.0, fin + 0.2, ('intro',))); s.t = fin + 0.25
+        t0 = s.t; s.son('campana', t0, 0.6); f = s.decir('an_huevo', t0 + 0.1)          # el huevo de dragón
+        s.esc.append((t0, f + 0.3, ('huevo',))); s.t = f + 0.3; s.huevo_t = t0
         reacciones = 0
         for idx, q in enumerate(Q):
             Rt.p = idx / max(1, N - 1); n = q['n']
             modo = 'relampago' if Rt.p > 0.85 else 'rapido' if Rt.p > 0.6 else 'normal'
             # ---- eventos ENTRE preguntas
             ev = s.ev.get(f'antes_{idx}')
+            de = s.m.get('dragon', {}).get(f'antes_{idx}')
+            if de == 'nace':   # ¡NACE EL DRAGÓN!
+                t0 = s.t; s.son('tiempo', t0, 0.5)
+                s.audio.append((t0, R0.riser(1.6))); s.son('golpe', t0 + 1.6, 1.0); s.son('fanfarria', t0 + 1.65, 1.0); s.son('aplausos', t0 + 1.7, 0.9)
+                f = s.decir('an_nace', t0 + 1.8); f = s.decir('co_nace', f + 0.1)
+                s.drag.append((t0 + 1.6, 'bebe')); s.esc.append((t0, f + 0.4, ('nace', t0 + 1.6))); s.t = f + 0.4
+            elif de == 'crece':
+                t0 = s.t; s.son('whoosh', t0, 1.0); s.son('golpe', t0 + 0.6, 0.9); s.son('fanfarria', t0 + 0.65, 0.7)
+                f = s.decir('an_crece', t0 + 0.7)
+                s.drag.append((t0 + 0.6, 'joven')); s.esc.append((t0, f + 0.3, ('crece', t0 + 0.6))); s.t = f + 0.3
             if ev == 'puente':
                 t0 = s.t; f1 = s.decir('an_puente', t0 + 0.1); s.son('whoosh', t0, 0.8)
                 f2 = s.decir('pr_puente', f1 + 0.05); ts = f2 + 0.05; f3 = s.decir('co_salta', ts)
@@ -230,7 +243,7 @@ class Ciudad(R0.Show):
                 tc = max(f3, ts + 1.2) + 0.3    # caen al vacío
                 s.son('cae', tc, 1.0)
                 tn = tc + 1.1; s.son('fanfarria', tn, 0.8); s.son('golpe', tn + 0.9, 0.8)
-                f4 = s.decir('an_dragon_rescate', tn + 0.1); s.veh.append((tn + 0.8, 'dragon'))
+                f4 = s.decir('an_dragon_salva', tn + 0.1); s.veh.append((tn + 0.8, 'dragon')); s.drag.append((tn, 'gigante'))
                 fin = max(f4, tn + 1.6) + 0.2
                 s.feat.append((t0, ts + 0.6, 'puente', (t0, ts, tc, tn, fin)))
                 s.esc.append((t0, fin, ('puente', ts, tc, tn))); s.nave_desde = tn + 0.8
@@ -327,6 +340,12 @@ class Ciudad(R0.Show):
         k = int(FPS * 0.8); v = np.convolve(np.pad(v, (k, k), mode='edge'), np.ones(2 * k + 1) / (2 * k + 1), 'same')[k:-k]   # sin saltos de velocidad
         s.velk = v; s.dist = np.cumsum(v / FPS); s.paso = np.cumsum((2.2 + v / 3000) / FPS)
         s.construir_pista()
+
+    def dragon_en(s, t):
+        v = 'huevo'
+        for t0, n in s.drag:
+            if t >= t0: v = n
+        return v
 
     def vehiculo_en(s, t):
         v = 'corre'
@@ -498,11 +517,11 @@ class Ciudad(R0.Show):
         fz = min(1, za / (DRAW * SEG * 0.95)) ** 1.3
         def fog(c, f=fz): return tuple(int(c[q] + ((70, 30, 100)[q] - c[q]) * f) for q in range(3))
         if ta >= ba - 1: return
-        fr = s._fr; tex, kk = FACHADAS[(e['s0'] * 7 + (lado > 0)) % len(FACHADAS)], 512 / 2400
+        fr = s._fr; tex, kk = FACHADAS[(e['s0'] * 7 + (lado > 0)) % len(FACHADAS)], 1024 / 2400
         def yvis(sc): return s._camY - (H + 60 - s.hz) / (sc * PH)
         Ya, Yb = max(bot, yvis(sa)), max(bot, yvis(sb))
         va, vb = min(tex.height - 2, (top - Ya) * kk), min(tex.height - 2, (top - Yb) * kk)
-        u0 = ((base + a_i) - e['s0']) * SEG * kk + e['s0'] * 37 % 512; u1 = u0 + (b_i - a_i) * SEG * kk
+        u0 = ((base + a_i) - e['s0']) * SEG * kk + e['s0'] * 37 % 1024; u1 = u0 + (b_i - a_i) * SEG * kk
         luzf = 1 - fz
         # cara lateral (mira a la carretera): foto de Flow en perspectiva
         quad = [(Xa, ta), (Xb, tb), (Xb, py_(sb, Yb)), (Xa, py_(sa, Ya))]
@@ -530,10 +549,10 @@ class Ciudad(R0.Show):
             v = veh if veh in ('dragon', 'carrito', 'pato') else 'dragon'
             u = clamp((t - s.veh_desde(t)) / 0.45)   # aparece con un salto («pop»)
             x = (xm + xn) / 2; ang = (xm + xn - 1920) / 1920 * 14
-            y = 1100 + 14 * math.sin(t * (3.2 if v == 'dragon' else 5)) + extra.get('dy', 0) + 500 * (1 - ease_back(u))
+            y = 1140 + 14 * math.sin(t * (3.2 if v == 'dragon' else 5)) + extra.get('dy', 0) + 500 * (1 - ease_back(u))
             im = V[v]
-            if v == 'dragon':   # aleteo: las alas suben y bajan (se estira un poco a lo alto y a lo ancho)
-                a = math.sin(t * 5.5); im = im.resize((int(im.width * (1 + 0.05 * a)), int(im.height * (1 - 0.035 * a))), Image.BILINEAR)
+            if v == 'dragon':   # aleteo: las alas suben y bajan (se estira un poco a lo ancho y a lo alto)
+                a = math.sin(t * 4.5); im = im.resize((int(im.width * (1 + 0.04 * a)), int(im.height * (1 - 0.025 * a))), Image.BILINEAR)
             if v == 'pato': ang += 6 * math.sin(t * 4)
             im = im.rotate(-ang, Image.BILINEAR, expand=True)
             fr.paste(im, (int(x - im.width / 2), int(y - im.height)), im)
@@ -572,7 +591,7 @@ class Ciudad(R0.Show):
 
     # ---- cuadro
     def frame(s, k):
-        t = k / FPS; fr = Image.new('RGB', (W, H))
+        t = k / FPS; fr = Image.new('RGB', (W, H)); s._etq = []
         s.mundo(fr, t, k)
         vel = float(s.velk[min(k, len(s.velk) - 1)]); fuerza = clamp((vel - 7000) / 6000)
         esc = None
@@ -639,7 +658,7 @@ class Ciudad(R0.Show):
             s.pose = {'presentador': 'sorpresa' if False else 'piensa', 'copresentadora': 'sorpresa'}
         elif esc and esc[2][0] == 'nivel':
             n_actual = s._siguiente(esc); zona = 1
-        elif esc and esc[2][0] in ('vuelta', 'relampago', 'intro', 'vehiculo'):
+        elif esc and esc[2][0] in ('vuelta', 'relampago', 'intro', 'vehiculo', 'huevo', 'nace', 'crece'):
             n_actual = s._siguiente(esc)
             s.pose = {'presentador': 'celebra2', 'copresentadora': 'celebra'}
         elif esc and esc[2][0] == 'final':
@@ -653,6 +672,8 @@ class Ciudad(R0.Show):
         s.dibujar_puertas(fr, frente, t, adelante=True)
         if esc and esc[2][0] == 'pregunta' and 0 <= t - esc[2][2]['tch'] < 0.55: s.estallido(fr, t - esc[2][2]['tch'], s.Q[esc[2][1]])
         s.escolta(fr, t)
+        s.mascota(fr, t, esc)
+        s.etiquetas(fr)
         if fuerza > 0.02: mundos.lineas_velocidad(fr, t, fuerza)
         # vuelta de cabeza: gira todo el mundo
         for r0, r1 in s.rolls:
@@ -686,6 +707,17 @@ class Ciudad(R0.Show):
             f = s.fotos(q); s.puertas[idx] = [Puerta(f[0], 'A', COL_A), Puerta(f[1], 'B', COL_B)]
         return s.puertas[idx]
 
+    def etiquetas(s, fr):
+        """Los nombres de las puertas, encima de todo (que MAX, NOVA o el vehículo nunca los tapen)."""
+        d = ImageDraw.Draw(fr, 'RGBA')
+        for cx, y, e, nom, col in getattr(s, '_etq', []):
+            f = font('Black', max(12, int(78 * e)))
+            while d.textlength(nom, font=f) > 780 * e and f.size > 12: f = font('Black', f.size - 2)
+            tw = d.textlength(nom, font=f); hh = f.size * 1.35
+            d.rounded_rectangle((cx - tw / 2 - 22 * e, y - hh / 2, cx + tw / 2 + 22 * e, y + hh / 2), int(hh / 2), fill=(14, 8, 36, 235), outline=col + (255,), width=max(2, int(6 * e)))
+            d.text((cx, y), nom, font=f, fill=BLANCO, anchor='mm')
+        s._etq = []
+
     def dibujar_puertas(s, fr, lista, t, adelante=False):
         if not lista: return
         c = s._ctx; q, Pq = c['q'], c['Pq']
@@ -694,6 +726,7 @@ class Ciudad(R0.Show):
             y = cy - im.height
             fr.paste(im, (int(cx - im.width / 2), int(y)), im)
             esc_ = im.width / 900
+            if esc_ > 0.25 and t < Pq['tch']: s._etq.append((cx, y + im.height * 0.9, esc_, s.puertas_de(c_idx(s, q), q)[i].foto.nombre.upper(), (COL_A, COL_B)[i]))
             # fichas MAX / NOVA arriba de la puerta
             fichas = [(nom, col) for quien, nom, col, t0 in (('presentador', 'MAX', MAXC, Pq['t_m']), ('copresentadora', 'NOVA', NOVAC, Pq['t_n']))
                       if t >= t0 and Pq['ap'][quien] == i]
@@ -722,6 +755,65 @@ class Ciudad(R0.Show):
 
     def estallido(s, u, q):
         pass
+
+    def mascota(s, fr, t, esc):
+        """El dragón de la serie: el huevo que se alimenta, su nacimiento y cómo crece."""
+        et = s.dragon_en(t); d = ImageDraw.Draw(fr, 'RGBA')
+        correctas = len([1 for t0, _ in s.equipo if t >= t0])
+        meta = int(s.m.get('dragon', {}).get('meta_huevo', 4))
+        tipo = esc[2][0] if esc else ''
+        if tipo == 'nace':   # escena grande: el huevo tiembla, se raja y nace
+            tn = esc[2][1]
+            if t < tn:
+                u = clamp((t - esc[0]) / max(0.1, tn - esc[0])); sh = 18 * u * math.sin(t * 60)
+                im = dragon_img('huevo', int(520 + 80 * u)); x, y = W / 2 + sh, 640
+                for r_ in range(3):   # resplandor creciente
+                    R = (300 + 120 * r_) * (0.6 + u); d.ellipse((x - R, y - R, x + R, y + R), fill=(255, 190, 60, int(40 * u)))
+                fr.paste(im, (int(x - im.width / 2), int(y - im.height / 2)), im)
+            else:
+                u = clamp((t - tn) / 0.5); sc = max(0.05, ease_back(u)) if u < 1 else 1.0
+                for k_ in range(14):   # destellos
+                    a_ = k_ * 2 * math.pi / 14 + t; R = 380 + 40 * math.sin(t * 6 + k_)
+                    estrella(d, W / 2 + math.cos(a_) * R * 1.3, 620 + math.sin(a_) * R * 0.75, 22, ORO)
+                im = dragon_img('bebe_nace', max(20, int(640 * sc))); fr.paste(im, (int(W / 2 - im.width / 2), int(660 - im.height / 2)), im)
+                ff = font('Black', max(10, int(150 * sc)))
+                d.text((W / 2, 250), '¡NACIÓ!', font=ff, fill=ORO, anchor='mm', stroke_width=12, stroke_fill=TINTA)
+                if t - tn < 0.25: fr.paste(Image.new('RGB', (W, H), (255, 255, 255)), (0, 0), Image.new('L', (W, H), int(255 * (1 - (t - tn) / 0.25))))
+            return
+        if tipo == 'crece':
+            tc = esc[2][1]
+            if t >= tc:
+                u = clamp((t - tc) / 0.5); sc = max(0.05, ease_back(u)) if u < 1 else 1.0
+                im = dragon_img('joven', max(20, int(820 * sc))); fr.paste(im, (int(W / 2 - im.width / 2), int(600 - im.height / 2)), im)
+                d.text((W / 2, 230), '¡CRECIÓ!', font=font('Black', max(10, int(150 * sc))), fill=ORO, anchor='mm', stroke_width=12, stroke_fill=TINTA)
+                if t - tc < 0.25: fr.paste(Image.new('RGB', (W, H), (255, 255, 255)), (0, 0), Image.new('L', (W, H), int(255 * (1 - (t - tc) / 0.25))))
+                return
+        if tipo == 'huevo':   # lo encuentran: aparece grande en el centro
+            u = clamp((t - esc[0]) / 0.5); sc = max(0.05, ease_back(u)) if u < 1 else 1.0
+            im = dragon_img('huevo', max(20, int(520 * sc))); y = 620 + 14 * math.sin(t * 3)
+            R = 330; d.ellipse((W / 2 - R, y - R, W / 2 + R, y + R), fill=(255, 190, 60, 45))
+            fr.paste(im, (int(W / 2 - im.width / 2), int(y - im.height / 2)), im)
+            d.text((W / 2, 250), '¡UN HUEVO DE DRAGÓN!', font=font('Black', max(10, int(110 * sc))), fill=ORO, anchor='mm', stroke_width=10, stroke_fill=TINTA)
+            return
+        if t < getattr(s, 'huevo_t', 0) or s.vehiculo_en(t) == 'dragon': return
+        # acompañante a la derecha (de abajo hacia arriba según la etapa)
+        if et == 'huevo':
+            g = clamp(correctas / meta); y = 900 + 10 * math.sin(t * 3); x = 1700 + 6 * math.sin(t * 40) * (g > 0.7)
+            R = 140 + 60 * g; d.ellipse((x - R, y - R, x + R, y + R), fill=(255, 190, 60, int(30 + 60 * g)))
+            im = dragon_img('huevo', 230); fr.paste(im, (int(x - im.width / 2), int(y - im.height / 2)), im)
+            w = 230; d.rounded_rectangle((x - w / 2, y + 135, x + w / 2, y + 165), 15, fill=(18, 10, 46, 230), outline=ORO, width=3)
+            d.rounded_rectangle((x - w / 2 + 4, y + 139, x - w / 2 + 4 + (w - 8) * g, y + 161), 11, fill=ORO)
+            d.text((x, y + 150), f'{min(correctas, meta)}/{meta}', font=font('Black', 22), fill=TINTA if g > 0.5 else BLANCO, anchor='mm')
+        elif et == 'bebe':
+            x = 1650 + 50 * math.sin(t * 1.3); y = 700 + 30 * math.sin(t * 2.6)
+            im = dragon_img('bebe_vuela', 260); a_ = math.sin(t * 9)
+            im = im.resize((int(im.width * (1 + 0.08 * a_)), int(im.height * (1 - 0.04 * a_))), Image.BILINEAR)
+            fr.paste(im, (int(x - im.width / 2), int(y - im.height / 2)), im)
+        elif et == 'joven':
+            x = 1620 + 60 * math.sin(t * 1.1); y = 640 + 35 * math.sin(t * 2.2)
+            im = dragon_img('joven', 420); a_ = math.sin(t * 6)
+            im = im.resize((int(im.width * (1 + 0.06 * a_)), int(im.height * (1 - 0.03 * a_))), Image.BILINEAR)
+            fr.paste(im, (int(x - im.width / 2), int(y - im.height / 2)), im)
 
     def escolta(s, fr, t):
         """Los integrantes del equipo: el nuevo aparece grande y vuela a su lugar; los últimos 4 vuelan con ellos; el resto, en la franja."""
@@ -838,9 +930,9 @@ def _cargar_fotos():
         fondos.append((tira, top + hy))
     fach = []
     for n in ('fachada_vidrio', 'fachada_neon', 'fachada_depto'):
-        im = op(n); at = Image.new('RGB', (im.width * 3, im.height * 8))
+        im = op(n); at = Image.new('RGB', (im.width * 3, im.height * 6))
         for i in range(3):
-            for j in range(8): at.paste(im if (i + j) % 2 == 0 else ImageOps.mirror(im), (i * im.width, j * im.height))
+            for j in range(6): at.paste(im if (i + j) % 2 == 0 else ImageOps.mirror(im), (i * im.width, j * im.height))
         fach.append(at)
     return fondos, vac, fach
 
@@ -873,6 +965,16 @@ def pegar_quad(fr, tex, quad, src, fog=0.0, sombra=0.0):
     fr.paste(im, (x0, y0), m)
 
 
+_DRAG = {}
+def dragon_img(n, alto):
+    """Etapas del dragón de la serie (Flow, 10-nov): huevo, bebe_nace, bebe_vuela, joven, gigante (con MAX y NOVA montados)."""
+    k = (n, alto)
+    if k not in _DRAG:
+        im = Image.open(os.path.join(RAIZ, 'assets', 'dragon', n + '.png')).convert('RGBA')
+        _DRAG[k] = im.resize((max(1, round(im.width * alto / im.height)), alto), Image.LANCZOS)
+    return _DRAG[k]
+
+
 def vehiculos_flow(c):
     """Vehículos de Flow (10-nov): patinetas cohete, dragón dorado, carrito de supermercado con cohete, pato de hule con cohetes."""
     if not hasattr(c, '_veh'):
@@ -891,6 +993,10 @@ def poses_flow(c):
             im = Image.open(os.path.join(D, n + '.png')).convert('RGBA'); alto = 440 if 'salta' in n else 470
             c._flow[n] = im.resize((round(im.width * alto / im.height), alto), Image.LANCZOS)
     return c._flow
+
+
+def c_idx(s, q):
+    return s.Q.index(q)
 
 
 def estrella(d, x, y, r, col):

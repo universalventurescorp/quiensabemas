@@ -135,6 +135,36 @@
    [
     "¡Volvió el dragón!"
    ]
+  ],
+  "an_huevo": [
+   "anunciador",
+   [
+    "¡Encontramos un huevo de dragón! Cada respuesta correcta lo alimenta."
+   ]
+  ],
+  "an_nace": [
+   "anunciador",
+   [
+    "¡Está naciendo! ¡Nació nuestro dragón!"
+   ]
+  ],
+  "co_nace": [
+   "copresentadora",
+   [
+    "¡Awww, qué lindo es!"
+   ]
+  ],
+  "an_crece": [
+   "anunciador",
+   [
+    "¡Nuestro dragón está creciendo!"
+   ]
+  ],
+  "an_dragon_salva": [
+   "anunciador",
+   [
+    "¡Nuestro dragón creció y nos salvó!"
+   ]
   ]
  }
 }
