@@ -1,0 +1,102 @@
+{
+ "an_ciudad_intro__0": {
+  "voz": "anunciador",
+  "texto": "¡Bienvenidos a la ciudad! Cada respuesta correcta se une al equipo. ¡Vamos!"
+ },
+ "an_equipo__0": {
+  "voz": "anunciador",
+  "texto": "¡Se une al equipo!"
+ },
+ "an_equipo__1": {
+  "voz": "anunciador",
+  "texto": "¡Uno más al equipo!"
+ },
+ "an_equipo__2": {
+  "voz": "anunciador",
+  "texto": "¡Nuevo integrante!"
+ },
+ "an_bajada__0": {
+  "voz": "anunciador",
+  "texto": "¡Agárrense! ¡Viene la bajada!"
+ },
+ "an_bajada__1": {
+  "voz": "anunciador",
+  "texto": "¡Cuidado, se viene la caída!"
+ },
+ "pr_grito__0": {
+  "voz": "presentador",
+  "texto": "¡Aaaaaah!"
+ },
+ "pr_grito__1": {
+  "voz": "presentador",
+  "texto": "¡Mamáaaa!"
+ },
+ "co_grito__0": {
+  "voz": "copresentadora",
+  "texto": "¡Wiiiiii!"
+ },
+ "co_grito__1": {
+  "voz": "copresentadora",
+  "texto": "¡Más rápido, MAX!"
+ },
+ "an_tunel__0": {
+  "voz": "anunciador",
+  "texto": "¡Túnel de luces!"
+ },
+ "an_curvas__0": {
+  "voz": "anunciador",
+  "texto": "¡Curvas peligrosas!"
+ },
+ "pr_plaf__0": {
+  "voz": "presentador",
+  "texto": "¡Auch! ¡Esa era pared!"
+ },
+ "pr_plaf__1": {
+  "voz": "presentador",
+  "texto": "¡Mi pantalla!"
+ },
+ "pr_plaf__2": {
+  "voz": "presentador",
+  "texto": "¡Ay, ay, ay!"
+ },
+ "co_plaf__0": {
+  "voz": "copresentadora",
+  "texto": "¡Ay, mi visor!"
+ },
+ "co_plaf__1": {
+  "voz": "copresentadora",
+  "texto": "¡Pared falsa!"
+ },
+ "co_plaf__2": {
+  "voz": "copresentadora",
+  "texto": "¡Eso dolió!"
+ },
+ "an_puente__0": {
+  "voz": "anunciador",
+  "texto": "¡Se acabó la carretera!"
+ },
+ "pr_puente__0": {
+  "voz": "presentador",
+  "texto": "¡NOVA, no hay puente!"
+ },
+ "co_salta__0": {
+  "voz": "copresentadora",
+  "texto": "¡Saltaaaa!"
+ },
+ "an_nave_rescate__0": {
+  "voz": "anunciador",
+  "texto": "¡La nave al rescate!"
+ },
+ "an_vuelta__0": {
+  "voz": "anunciador",
+  "texto": "¡Vuelta completa! ¡De cabeza!"
+ },
+ "an_relampago__0": {
+  "voz": "anunciador",
+  "texto": "¡Modo relámpago! ¡No parpadees!"
+ },
+ "an_final_equipo__0": {
+  "voz": "anunciador",
+  "texto": "¡Llegamos con todo el equipo! ¿Cuántas sacaste? ¡Escríbelo abajo!"
+ }
+}
