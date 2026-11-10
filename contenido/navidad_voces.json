@@ -1,0 +1,89 @@
+{
+ "_nota": "Voces nuevas del episodio de Navidad (10-nov-2026). Se generan en navidad.yml hacia banco/navidad. Las demás salen de banco/ciudad y banco/rapido.",
+ "variantes": {
+  "an_nav_intro": [
+   "anunciador",
+   [
+    "¡Es Nochebuena en la ciudad! Cada respuesta correcta se une al equipo. ¡Vamos!"
+   ]
+  ],
+  "an_nav_huevo": [
+   "anunciador",
+   [
+    "¡Miren! Debajo del árbol hay un regalo… ¡y adentro hay un huevo de dragón! Si aciertan, lo alimentan."
+   ]
+  ],
+  "an_nav_final": [
+   "anunciador",
+   [
+    "¡Lo lograron! El dragón llevó el trineo de Papá Noel y todos los regalos llegaron a tiempo. ¡Feliz Navidad!"
+   ]
+  ],
+  "an_zona_2": [
+   "anunciador",
+   [
+    "¡Zona dos: el taller de Papá Noel! Preguntas de juguetes, inventos y ciencia."
+   ]
+  ],
+  "an_zona_3": [
+   "anunciador",
+   [
+    "¡Zona tres: el bosque nevado! Animales del bosque y árboles."
+   ]
+  ],
+  "an_zona_4": [
+   "anunciador",
+   [
+    "¡Zona cuatro: el lago congelado! Preguntas de frío, hielo y agua."
+   ]
+  ],
+  "an_zona_5": [
+   "anunciador",
+   [
+    "¡Zona cinco: la ciudad de dulces! Preguntas de comida y postres."
+   ]
+  ],
+  "an_zona_6": [
+   "anunciador",
+   [
+    "¡Zona seis: el Polo Norte! Animales del frío."
+   ]
+  ],
+  "an_zona_7": [
+   "anunciador",
+   [
+    "¡Zona siete: la montaña de nieve! Montañas, volcanes y geografía."
+   ]
+  ],
+  "an_zona_8": [
+   "anunciador",
+   [
+    "¡Zona ocho: sobre los tejados! Papá Noel visita este país. ¿Lo reconoces?"
+   ]
+  ],
+  "an_zona_9": [
+   "anunciador",
+   [
+    "¡Zona nueve: el cielo de Nochebuena! Planetas y estrellas. ¡Última zona!"
+   ]
+  ],
+  "an_crece_adulto": [
+   "anunciador",
+   [
+    "¡El dragón ya es adulto! ¡Qué grande está!"
+   ]
+  ],
+  "an_trineo": [
+   "anunciador",
+   [
+    "¡El dragón tira del trineo de Papá Noel! ¡Arriba!"
+   ]
+  ],
+  "an_corre": [
+   "anunciador",
+   [
+    "¡A correr otra vez!"
+   ]
+  ]
+ }
+}

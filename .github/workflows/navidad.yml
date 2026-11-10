@@ -1,7 +1,7 @@
 name: navidad
 # Episodio de Navidad «¡Criamos un DRAGÓN de Navidad!» (~1 h 20, 4K). Autorizado por Luis el 10-nov-2026.
 # preparar (fotos de las 2 alternativas + revisión de Claude) → voces en 16 máquinas
-# → video repartido en TRAMOS máquinas (pipeline/ciudad.py --tramo i --tramos N) + audio en otra
+# → video repartido en TRAMOS máquinas (pipeline/navidad.py --tramo i --tramos N) + audio en otra
 # → unir (concat sin recodificar + mezcla de audio) → subida EN PRIVADO → diagnóstico en la rama diag-navidad.
 # NO toca la producción diaria. Luis publica.
 on:
@@ -166,9 +166,9 @@ jobs:
         run: |
           mkdir -p salida
           if [ "${{ matrix.tramo }}" = "-1" ]; then
-            python pipeline/ciudad.py --contenido trabajo/episodio.json --voces voces_ep --out salida/audio.wav --solo-audio --miniatura salida/miniatura.jpg
+            python pipeline/navidad.py --contenido trabajo/episodio.json --voces voces_ep --out salida/audio.wav --solo-audio --miniatura salida/miniatura.jpg
           else
-            python pipeline/ciudad.py --contenido trabajo/episodio.json --voces voces_ep --out salida/tramo_$(printf %02d ${{ matrix.tramo }}).mp4 --tramo ${{ matrix.tramo }} --tramos ${{ inputs.tramos }}
+            python pipeline/navidad.py --contenido trabajo/episodio.json --voces voces_ep --out salida/tramo_$(printf %02d ${{ matrix.tramo }}).mp4 --tramo ${{ matrix.tramo }} --tramos ${{ inputs.tramos }}
           fi
           ls -la salida
       - uses: actions/upload-artifact@v4

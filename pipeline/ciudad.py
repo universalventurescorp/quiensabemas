@@ -225,6 +225,7 @@ class Ciudad(R0.Show):
             Rt.p = idx / max(1, N - 1); n = q['n']
             modo = 'relampago' if Rt.p > 0.85 else 'rapido' if Rt.p > 0.6 else 'normal'
             # ---- eventos ENTRE preguntas
+            s.antes_pregunta(idx)          # gancho (navidad.py: cartel de zona)
             ev = s.ev.get(f'antes_{idx}')
             de = s.m.get('dragon', {}).get(f'antes_{idx}')
             if de == 'nace':   # ¡NACE EL DRAGÓN!
@@ -232,10 +233,11 @@ class Ciudad(R0.Show):
                 s.audio.append((t0, R0.riser(1.6))); s.son('golpe', t0 + 1.6, 1.0); s.son('fanfarria', t0 + 1.65, 1.0); s.son('aplausos', t0 + 1.7, 0.9)
                 f = s.decir('an_nace', t0 + 1.8); f = s.decir('co_nace', f + 0.1)
                 s.drag.append((t0 + 1.6, 'bebe')); s.esc.append((t0, f + 0.4, ('nace', t0 + 1.6))); s.t = f + 0.4
-            elif de == 'crece':
+            elif de and de.startswith('crece'):   # 'crece' o 'crece:<etapa>'
+                et_ = de.split(':')[1] if ':' in de else 'joven'
                 t0 = s.t; s.son('whoosh', t0, 1.0); s.son('golpe', t0 + 0.6, 0.9); s.son('fanfarria', t0 + 0.65, 0.7)
-                f = s.decir('an_crece', t0 + 0.7)
-                s.drag.append((t0 + 0.6, 'joven')); s.esc.append((t0, f + 0.3, ('crece', t0 + 0.6))); s.t = f + 0.3
+                f = s.decir('an_crece' if et_ == 'joven' else f'an_crece_{et_}', t0 + 0.7)
+                s.drag.append((t0 + 0.6, et_)); s.esc.append((t0, f + 0.3, ('crece', t0 + 0.6, et_))); s.t = f + 0.3
             if ev == 'puente':
                 t0 = s.t; f1 = s.decir('an_puente', t0 + 0.1); s.son('whoosh', t0, 0.8)
                 f2 = s.decir('pr_puente', f1 + 0.05); ts = f2 + 0.05; f3 = s.decir('co_salta', ts)
@@ -340,6 +342,9 @@ class Ciudad(R0.Show):
         k = int(FPS * 0.8); v = np.convolve(np.pad(v, (k, k), mode='edge'), np.ones(2 * k + 1) / (2 * k + 1), 'same')[k:-k]   # sin saltos de velocidad
         s.velk = v; s.dist = np.cumsum(v / FPS); s.paso = np.cumsum((2.2 + v / 3000) / FPS)
         s.construir_pista()
+
+    def antes_pregunta(s, idx):
+        pass
 
     def dragon_en(s, t):
         v = 'huevo'
