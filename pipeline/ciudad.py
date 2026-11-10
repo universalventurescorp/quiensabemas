@@ -199,6 +199,7 @@ class Ciudad(R0.Show):
         s.ev = meta.get('eventos', {})            # {"3": "bajada", "antes_6": "puente", ...}
         s.zonas = []; s.feat = []                  # (t0, t1, tipo, extra) rasgos de la pista
         s.nave_desde = None; s.rolls = []; s.caidas_corr = []
+        s.veh = [(0.0, 'corre')]                   # (desde, vehículo) — cambia por pregunta según meta['vehiculos']
 
     def clip(s, clave, est=''):
         if os.path.isdir(s.bancoc) and any(f.startswith(clave + '__') for f in os.listdir(s.bancoc)):
@@ -229,7 +230,7 @@ class Ciudad(R0.Show):
                 tc = max(f3, ts + 1.2) + 0.3    # caen al vacío
                 s.son('cae', tc, 1.0)
                 tn = tc + 1.1; s.son('fanfarria', tn, 0.8); s.son('golpe', tn + 0.9, 0.8)
-                f4 = s.decir('an_nave_rescate', tn + 0.1)
+                f4 = s.decir('an_dragon_rescate', tn + 0.1); s.veh.append((tn + 0.8, 'dragon'))
                 fin = max(f4, tn + 1.6) + 0.2
                 s.feat.append((t0, ts + 0.6, 'puente', (t0, ts, tc, tn, fin)))
                 s.esc.append((t0, fin, ('puente', ts, tc, tn))); s.nave_desde = tn + 0.8
@@ -245,6 +246,11 @@ class Ciudad(R0.Show):
             elif ev == 'relampago':
                 t0 = s.t; s.son('golpe', t0, 1.0); f = s.decir('an_relampago', t0 + 0.15)
                 s.esc.append((t0, f + 0.25, ('relampago',))); s.drops.append(t0); s.t = f + 0.25
+            nv = s.m.get('vehiculos', {}).get(str(idx))
+            if nv and nv != s.vehiculo_en(s.t):   # ¡vehículo sorpresa!
+                t0 = s.t; s.son('whoosh', t0, 1.0); s.son('pop', t0 + 0.3, 1.0); s.son('fanfarria', t0 + 0.2, 0.6)
+                s.veh.append((t0 + 0.3, nv)); f = s.decir(f'an_{nv}', t0 + 0.35)
+                s.esc.append((t0, f + 0.25, ('vehiculo', nv))); s.t = f + 0.25
             v = s.velocidad_c(Rt.p); s.vel.append((s.t, v)); s.tempos.append((s.t, Rt.musica))
             # ---- la pregunta
             t_abre = s.t; lleg = Rt.pausa(0.6) if modo != 'relampago' else 0.25
@@ -321,6 +327,18 @@ class Ciudad(R0.Show):
         k = int(FPS * 0.8); v = np.convolve(np.pad(v, (k, k), mode='edge'), np.ones(2 * k + 1) / (2 * k + 1), 'same')[k:-k]   # sin saltos de velocidad
         s.velk = v; s.dist = np.cumsum(v / FPS); s.paso = np.cumsum((2.2 + v / 3000) / FPS)
         s.construir_pista()
+
+    def vehiculo_en(s, t):
+        v = 'corre'
+        for t0, n in s.veh:
+            if t >= t0: v = n
+        return v
+
+    def veh_desde(s, t):
+        d = 0.0
+        for t0, n in s.veh:
+            if t >= t0: d = t0
+        return d
 
     def velocidad_c(s, p):
         base = 3200 + 9000 * p ** 1.3
@@ -507,14 +525,18 @@ class Ciudad(R0.Show):
         fase = s.paso[min(int(t * FPS), len(s.paso) - 1)]
         ym = yn = 0.0; fm = fn = 0.82; aplm = apln = None; ocultar = extra.get('ocultar', ())
         cae = extra.get('cae')   # 0..1 caída al vacío
-        if en_nave:
-            x = (xm + xn) / 2; y = 1090 + 12 * math.sin(t * 2.6) + extra.get('dy', 0); ang = (xm + xn - 1920) / 1920 * 16
-            im = c.esc(c.nave, 0.72).rotate(-ang, Image.BILINEAR, expand=True)
+        veh = s.vehiculo_en(t); V = vehiculos_flow(c)
+        if en_nave or veh in ('dragon', 'carrito', 'pato'):
+            v = veh if veh in ('dragon', 'carrito', 'pato') else 'dragon'
+            u = clamp((t - s.veh_desde(t)) / 0.45)   # aparece con un salto («pop»)
+            x = (xm + xn) / 2; ang = (xm + xn - 1920) / 1920 * 14
+            y = 1100 + 14 * math.sin(t * (3.2 if v == 'dragon' else 5)) + extra.get('dy', 0) + 500 * (1 - ease_back(u))
+            im = V[v]
+            if v == 'dragon':   # aleteo: las alas suben y bajan (se estira un poco a lo alto y a lo ancho)
+                a = math.sin(t * 5.5); im = im.resize((int(im.width * (1 + 0.05 * a)), int(im.height * (1 - 0.035 * a))), Image.BILINEAR)
+            if v == 'pato': ang += 6 * math.sin(t * 4)
+            im = im.rotate(-ang, Image.BILINEAR, expand=True)
             fr.paste(im, (int(x - im.width / 2), int(y - im.height)), im)
-            dd = ImageDraw.Draw(fr, 'RGBA'); fl = 0.7 + 0.3 * math.sin(t * 40)
-            for ex in (0.265, 0.735):
-                cx, cy = x - im.width / 2 + im.width * ex, y - im.height * 0.16; Rr = 60 * fl
-                dd.ellipse((cx - Rr, cy - Rr, cx + Rr, cy + Rr), fill=(120, 230, 255, 70)); dd.ellipse((cx - Rr * .5, cy - Rr * .5, cx + Rr * .5, cy + Rr * .5), fill=(230, 255, 255, 150))
             return
         k2 = int(fase) % 2; P_ = poses_flow(c)
         for quien, x, ph in (('copresentadora', xn, 0.5), ('presentador', xm, 0.0)):
@@ -522,11 +544,16 @@ class Ciudad(R0.Show):
             hab = s.hablando(t, quien)
             im = (c.nova_mira if hab else c.nova[k2]) if quien == 'copresentadora' else (c.max_mira if hab else c.max[k2])
             q_ = 'max' if quien == 'presentador' else 'nova'
+            tabla = s.vehiculo_en(t) == 'patineta' and not extra.get('salto') and cae is None
+            if tabla: im = vehiculos_flow(c)[q_ + '_patineta']                  # patineta cohete (Flow)
             if extra.get('salto'): im = P_[q_ + '_salta']                       # saltando (Flow)
             if cae is not None or extra.get('flota', 0) > 0.35 or extra.get('plaf_' + quien) is not None:
                 im = P_[q_ + '_estrella']                                       # cayendo en estrella (Flow)
             bob = abs(math.sin(math.pi * (fase + ph))) * 12
             f = 0.82; y = H + 22 - bob
+            if tabla and im is vehiculos_flow(c)[q_ + '_patineta']:
+                u = clamp((t - s.veh_desde(t)) / 0.45); y = H + 40 - 18 * abs(math.sin(t * 2.2 + ph * 3)) + 400 * (1 - ease_back(u))
+                x += 30 * math.sin(t * 1.7 + ph * 4)
             sal = extra.get('salto', 0)
             if sal: y -= 260 * math.sin(math.pi * clamp(sal)) ; f *= 1 - 0.1 * math.sin(math.pi * clamp(sal))
             if cae is not None: y += 900 * cae ** 2; f *= 1 - 0.45 * cae
@@ -612,7 +639,7 @@ class Ciudad(R0.Show):
             s.pose = {'presentador': 'sorpresa' if False else 'piensa', 'copresentadora': 'sorpresa'}
         elif esc and esc[2][0] == 'nivel':
             n_actual = s._siguiente(esc); zona = 1
-        elif esc and esc[2][0] in ('vuelta', 'relampago', 'intro'):
+        elif esc and esc[2][0] in ('vuelta', 'relampago', 'intro', 'vehiculo'):
             n_actual = s._siguiente(esc)
             s.pose = {'presentador': 'celebra2', 'copresentadora': 'celebra'}
         elif esc and esc[2][0] == 'final':
@@ -844,6 +871,16 @@ def pegar_quad(fr, tex, quad, src, fog=0.0, sombra=0.0):
     if oscuro > 0.01: im = Image.blend(im, Image.new('RGB', im.size, _NIEBLA if fog > sombra else (6, 4, 16)), oscuro)
     m = Image.new('L', im.size, 0); ImageDraw.Draw(m).polygon([(x - x0, y - y0) for x, y in quad], fill=255)
     fr.paste(im, (x0, y0), m)
+
+
+def vehiculos_flow(c):
+    """Vehículos de Flow (10-nov): patinetas cohete, dragón dorado, carrito de supermercado con cohete, pato de hule con cohetes."""
+    if not hasattr(c, '_veh'):
+        D = os.path.join(RAIZ, 'assets', 'corredores'); c._veh = {}
+        for n, alto in (('max_patineta', 470), ('nova_patineta', 470), ('dragon', 600), ('carrito', 520), ('pato', 480)):
+            im = Image.open(os.path.join(D, ('dragon_abajo' if n == 'dragon' else n) + '.png')).convert('RGBA')
+            c._veh[n] = im.resize((round(im.width * alto / im.height), alto), Image.LANCZOS)
+    return c._veh
 
 
 def poses_flow(c):

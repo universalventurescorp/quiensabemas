@@ -17,6 +17,8 @@ EVENTOS = {
     '7': 'bajada',
     'antes_8': 'relampago',  # modo relámpago: ya no se lee nada, las puertas casi no se ven
 }
+# Vehículo sorpresa (índice de pregunta → vehículo). El dragón llega solo en el rescate del puente.
+VEHICULOS = {'2': 'patineta', '7': 'carrito', '8': 'pato', '9': 'dragon'}
 
 
 def main():
@@ -27,7 +29,7 @@ def main():
     out = {'id': 'ciudad-muestra', 'formato': 'rapido', 'muestra': True,
            'titulo': '¿A o B? EN LA CIUDAD (MUESTRA)', 'titulo_youtube': 'MUESTRA · ¿A o B? en la ciudad',
            'descripcion': 'Muestra privada del formato en la ciudad. No publicar.', 'tags': [],
-           'eventos': EVENTOS, 'preguntas': qs, 'extra_tts': ep.get('extra_tts', {})}
+           'eventos': EVENTOS, 'vehiculos': VEHICULOS, 'preguntas': qs, 'extra_tts': ep.get('extra_tts', {})}
     json.dump(out, open(a.salida, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(f'{len(qs)} preguntas →', a.salida)
 

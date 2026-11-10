@@ -1,21 +1,140 @@
 {
  "_nota": "Voces nuevas del formato «¿A o B? en la ciudad» (10-nov-2026, muestra). Se generan en ciudad.yml hacia banco/ciudad. El resto de voces (tiempo, izquierda/derecha, chacota, niveles) sale de banco/rapido.",
  "variantes": {
-  "an_ciudad_intro": ["anunciador", ["¡Bienvenidos a la ciudad! Cada respuesta correcta se une al equipo. ¡Vamos!"]],
-  "an_equipo": ["anunciador", ["¡Se une al equipo!", "¡Uno más al equipo!", "¡Nuevo integrante!"]],
-  "an_bajada": ["anunciador", ["¡Agárrense! ¡Viene la bajada!", "¡Cuidado, se viene la caída!"]],
-  "pr_grito": ["presentador", ["¡Aaaaaah!", "¡Mamáaaa!"]],
-  "co_grito": ["copresentadora", ["¡Wiiiiii!", "¡Más rápido, MAX!"]],
-  "an_tunel": ["anunciador", ["¡Túnel de luces!"]],
-  "an_curvas": ["anunciador", ["¡Curvas peligrosas!"]],
-  "pr_plaf": ["presentador", ["¡Auch! ¡Esa era pared!", "¡Mi pantalla!", "¡Ay, ay, ay!"]],
-  "co_plaf": ["copresentadora", ["¡Ay, mi visor!", "¡Pared falsa!", "¡Eso dolió!"]],
-  "an_puente": ["anunciador", ["¡Se acabó la carretera!"]],
-  "pr_puente": ["presentador", ["¡NOVA, no hay puente!"]],
-  "co_salta": ["copresentadora", ["¡Saltaaaa!"]],
-  "an_nave_rescate": ["anunciador", ["¡La nave al rescate!"]],
-  "an_vuelta": ["anunciador", ["¡Vuelta completa! ¡De cabeza!"]],
-  "an_relampago": ["anunciador", ["¡Modo relámpago! ¡No parpadees!"]],
-  "an_final_equipo": ["anunciador", ["¡Llegamos con todo el equipo! ¿Cuántas sacaste? ¡Escríbelo abajo!"]]
+  "an_ciudad_intro": [
+   "anunciador",
+   [
+    "¡Bienvenidos a la ciudad! Cada respuesta correcta se une al equipo. ¡Vamos!"
+   ]
+  ],
+  "an_equipo": [
+   "anunciador",
+   [
+    "¡Se une al equipo!",
+    "¡Uno más al equipo!",
+    "¡Nuevo integrante!"
+   ]
+  ],
+  "an_bajada": [
+   "anunciador",
+   [
+    "¡Agárrense! ¡Viene la bajada!",
+    "¡Cuidado, se viene la caída!"
+   ]
+  ],
+  "pr_grito": [
+   "presentador",
+   [
+    "¡Aaaaaah!",
+    "¡Mamáaaa!"
+   ]
+  ],
+  "co_grito": [
+   "copresentadora",
+   [
+    "¡Wiiiiii!",
+    "¡Más rápido, MAX!"
+   ]
+  ],
+  "an_tunel": [
+   "anunciador",
+   [
+    "¡Túnel de luces!"
+   ]
+  ],
+  "an_curvas": [
+   "anunciador",
+   [
+    "¡Curvas peligrosas!"
+   ]
+  ],
+  "pr_plaf": [
+   "presentador",
+   [
+    "¡Auch! ¡Esa era pared!",
+    "¡Mi pantalla!",
+    "¡Ay, ay, ay!"
+   ]
+  ],
+  "co_plaf": [
+   "copresentadora",
+   [
+    "¡Ay, mi visor!",
+    "¡Pared falsa!",
+    "¡Eso dolió!"
+   ]
+  ],
+  "an_puente": [
+   "anunciador",
+   [
+    "¡Se acabó la carretera!"
+   ]
+  ],
+  "pr_puente": [
+   "presentador",
+   [
+    "¡NOVA, no hay puente!"
+   ]
+  ],
+  "co_salta": [
+   "copresentadora",
+   [
+    "¡Saltaaaa!"
+   ]
+  ],
+  "an_nave_rescate": [
+   "anunciador",
+   [
+    "¡La nave al rescate!"
+   ]
+  ],
+  "an_vuelta": [
+   "anunciador",
+   [
+    "¡Vuelta completa! ¡De cabeza!"
+   ]
+  ],
+  "an_relampago": [
+   "anunciador",
+   [
+    "¡Modo relámpago! ¡No parpadees!"
+   ]
+  ],
+  "an_final_equipo": [
+   "anunciador",
+   [
+    "¡Llegamos con todo el equipo! ¿Cuántas sacaste? ¡Escríbelo abajo!"
+   ]
+  ],
+  "an_dragon_rescate": [
+   "anunciador",
+   [
+    "¡Un dragón dorado al rescate!"
+   ]
+  ],
+  "an_patineta": [
+   "anunciador",
+   [
+    "¡Patinetas cohete! ¡Agárrense!"
+   ]
+  ],
+  "an_carrito": [
+   "anunciador",
+   [
+    "¿Un carrito de supermercado con cohete? ¡Claro que sí!"
+   ]
+  ],
+  "an_pato": [
+   "anunciador",
+   [
+    "¡Ahora en pato de hule volador!"
+   ]
+  ],
+  "an_dragon": [
+   "anunciador",
+   [
+    "¡Volvió el dragón!"
+   ]
+  ]
  }
 }
