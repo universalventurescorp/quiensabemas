@@ -8,6 +8,14 @@ Leer también: `contenido/navidad_plan.md` (lo que se produce ahora), `contenido
 - Google Flow: Claude lo maneja en el navegador integrado de la app de escritorio de Luis (proyecto «¿Quién Sabe Más?», Nano Banana Pro, 9:16, x3, 0 créditos; personajes MAX y NOVA guardados como Characters). Para traer imágenes: fetch del src en la página + `a.download` → quedan como `.tmp` en `C:\Users\Lenovo\Downloads` (carpeta conectada) → `device_stage_files` → recortar verde. Abre ventanas «Guardar» en la PC de Luis: avisarle que las cancele.
 - Tiempos medidos: muestra de 2,5 min en 4K tarda ~75 min de armado en una máquina → 1 h 20 necesita armado repartido (~20 máquinas).
 
+## Avance episodio de Navidad (10-nov, tarde)
+- Luis autorizó producir (fecha objetivo: revisión en privado ~sáb 14-nov). Imágenes de Flow ANTES que lo demás (necesitan su PC prendida).
+- `assets/navidad/`: huevo-regalo, nace (bebé con gorro), bebe_vuela, joven (bufanda), adulto (arnés con cascabeles), trineo (de espaldas) y trineo_lado. Recortados del verde.
+- Flow: al mandar ~8 prompts seguidos salta «usage limit»; mandar de a 2-3 y esperar. Luis tiene otra cuenta de Google de respaldo para Flow.
+- Ojo descargas: los `.tmp` desaparecen cuando Luis cancela «Guardar» → hacer `device_stage_files` justo después de descargar. Tamaño en bytes identifica cada imagen.
+- Faltan en Flow: regalos-puerta A (rosado) y B (celeste), 9 fondos 16:9, 3-4 fachadas navideñas, MAX y NOVA con gorro, reno gigante, patines, trineo de madera, miniaturas.
+- Música: `assets/musica_navidad.enc` (tar de `cama/*.ogg` 13 instrumentales con prefijo rapida_/jazz_/calma_/accion_/epica_ y `especial/` cierre_auld_lang_syne + final_we_wish_voz (CON VOZ: solo en el final sin diálogo)). Se descifra igual que musica.enc pero con el secret **MUSICA_NAVIDAD_CLAVE** (Luis debe crearlo). Excluidas: versiones con voz y I Have a Little Dreidel (Janucá).
+
 ## Pendiente inmediato (en orden)
 1. Construir el armado repartido: `ciudad.py --desde/--hasta` (cuadros) por máquina + job final que une video, mezcla audio y sube. Ojo: `s._skyx` se acumula cuadro a cuadro → precalcularlo como arreglo para que no salte entre tramos.
 2. Imágenes navideñas en Flow (lista en `navidad_plan.md`).
