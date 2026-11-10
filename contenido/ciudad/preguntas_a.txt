@@ -1,0 +1,164 @@
+# Episodio ciudad001 · parte A (fáciles). Formato: pregunta ; correcta ; incorrecta ; foto correcta ; foto incorrecta ; respuesta que dice LA VOZ
+# Foto: px:búsqueda (Pixabay) · cm:búsqueda|debe-decir (Wikimedia Commons)
+¿Cuál es más grande? ; Ballena azul ; Elefante ; cm:Balaenoptera musculus|Balaenoptera ; px:african elephant ; ¡La ballena azul!
+¿Cuál es más rápido? ; Caballo ; Vaca ; px:horse galloping ; px:cow field ; ¡El caballo!
+¿Cuál vuela? ; Búho ; Pingüino ; px:owl flying ; px:penguin ; ¡El búho!
+¿Cuál vive en el agua? ; Pez payaso ; Ardilla ; px:clownfish ; px:squirrel ; ¡El pez payaso!
+¿Cuál es más alto? ; Jirafa ; Cebra ; px:giraffe ; px:zebra ; ¡La jirafa!
+¿Cuál tiene trompa? ; Elefante ; Rinoceronte ; px:elephant trunk ; px:rhinoceros ; ¡El elefante!
+¿Cuál es un reptil? ; Tortuga ; Rana ; px:turtle ; px:frog green ; ¡La tortuga! La rana es anfibio.
+¿Cuál es más pequeño? ; Colibrí ; Paloma ; px:hummingbird ; px:pigeon ; ¡El colibrí!
+¿Cuál come bambú? ; Oso panda ; Oso pardo ; px:giant panda bamboo ; px:brown bear ; ¡El oso panda!
+¿Cuál tiene rayas? ; Cebra ; Caballo ; px:zebra stripes ; px:brown horse ; ¡La cebra!
+¿Cuál es un mamífero? ; Ballena ; Tiburón ; px:humpback whale ; px:shark ; ¡La ballena!
+¿Cuál pone huevos? ; Gallina ; Vaca ; px:hen chicken ; px:cow ; ¡La gallina!
+¿Cuál es más lento? ; Perezoso ; Mono ; px:sloth ; px:monkey ; ¡El perezoso!
+¿Cuál tiene pinzas? ; Cangrejo ; Pulpo ; px:crab claws ; px:octopus ; ¡El cangrejo!
+¿Cuál es una fruta? ; Fresa ; Lechuga ; px:strawberry ; px:lettuce ; ¡La fresa!
+¿Cuál es una verdura? ; Brócoli ; Manzana ; px:broccoli ; px:apple red ; ¡El brócoli!
+¿Cuál es más dulce? ; Mango ; Limón ; px:mango fruit ; px:lemon ; ¡El mango!
+¿Cuál es más frío? ; Helado ; Sopa ; px:ice cream cone ; px:soup bowl ; ¡El helado!
+¿Cuál se hace con leche? ; Queso ; Pan ; px:cheese ; px:bread loaf ; ¡El queso!
+¿Cuál crece bajo tierra? ; Papa ; Manzana ; px:potatoes ; px:apples tree ; ¡La papa!
+¿Cuál es más grande? ; Sandía ; Uva ; px:watermelon ; px:grapes ; ¡La sandía!
+¿Cuál tiene más vitamina C? ; Pimiento rojo ; Plátano ; px:red bell pepper ; px:banana ; ¡El pimiento rojo!
+¿Cuál es más alto? ; Rascacielos ; Casa ; px:skyscraper ; px:small house ; ¡El rascacielos!
+¿Cuál es más rápido? ; Avión ; Tren ; px:airplane sky ; px:train ; ¡El avión!
+¿Cuál flota en el agua? ; Barco ; Auto ; px:ship sea ; px:car ; ¡El barco!
+¿Cuál es más pesado? ; Camión ; Bicicleta ; px:truck ; px:bicycle ; ¡El camión!
+¿Cuál usa rieles? ; Tren ; Bus ; px:train tracks ; px:bus city ; ¡El tren!
+¿Cuál va al espacio? ; Cohete ; Helicóptero ; px:rocket launch ; px:helicopter ; ¡El cohete!
+¿Cuál tiene más ruedas? ; Camión ; Motocicleta ; px:truck highway ; px:motorcycle ; ¡El camión!
+¿Cuál es más caliente? ; El Sol ; Una fogata ; px:sun space ; px:campfire ; ¡El Sol!
+¿Cuál es más grande? ; Océano ; Lago ; px:ocean ; px:lake ; ¡El océano!
+¿Cuál es más alta? ; Montaña ; Colina ; px:mountain peak snow ; px:green hill ; ¡La montaña!
+¿Cuál tiene agua salada? ; Mar ; Río ; px:sea waves ; px:river ; ¡El mar!
+¿Cuál es un desierto? ; Sahara ; Amazonas ; px:sahara desert ; px:amazon rainforest ; ¡El Sahara!
+¿Cuál está más lejos? ; El Sol ; La Luna ; px:sun ; px:full moon ; ¡El Sol!
+¿Cuál brilla con luz propia? ; Estrella ; Planeta ; px:star night sky ; px:planet ; ¡La estrella!
+¿Cuál es el planeta rojo? ; Marte ; Júpiter ; px:planet mars ; px:planet jupiter ; ¡Marte!
+¿Cuál tiene anillos? ; Saturno ; Tierra ; px:planet saturn ; px:planet earth ; ¡Saturno!
+¿Cuál se usa en el fútbol? ; Pelota de fútbol ; Raqueta ; px:soccer ball ; px:tennis racket ; ¡La pelota de fútbol!
+¿Cuál es un instrumento de viento? ; Trompeta ; Tambor ; px:trumpet ; px:drum ; ¡La trompeta!
+¿Cuál tiene teclas? ; Piano ; Violín ; px:piano keys ; px:violin ; ¡El piano!
+¿Cuál tiene cuerdas? ; Guitarra ; Flauta ; px:acoustic guitar ; px:flute ; ¡La guitarra!
+¿Cuál da la hora? ; Reloj ; Brújula ; px:wall clock ; px:compass ; ¡El reloj!
+¿Cuál marca el norte? ; Brújula ; Reloj ; px:compass ; px:watch ; ¡La brújula!
+¿Cuál corta? ; Tijeras ; Lápiz ; px:scissors ; px:pencil ; ¡Las tijeras!
+¿Cuál sirve para ver de lejos? ; Binoculares ; Lupa ; px:binoculars ; px:magnifying glass ; ¡Los binoculares!
+¿Cuál te protege de la lluvia? ; Paraguas ; Sombrero ; px:umbrella rain ; px:hat ; ¡El paraguas!
+¿Cuál es más grande? ; Tigre ; Gato ; px:tiger ; px:cat ; ¡El tigre!
+¿Cuál vive en el Polo Sur? ; Pingüino ; Oso polar ; px:penguins antarctica ; px:polar bear ; ¡El pingüino! El oso polar vive en el norte.
+¿Cuál tiene cuernos? ; Toro ; Caballo ; px:bull ; px:white horse ; ¡El toro!
+¿Cuál tiene caparazón? ; Armadillo ; Erizo ; px:armadillo ; px:hedgehog ; ¡El armadillo!
+¿Cuál tiene púas? ; Puercoespín ; Conejo ; px:porcupine ; px:rabbit ; ¡El puercoespín!
+¿Cuál tiene bolsa para sus crías? ; Canguro ; Ciervo ; px:kangaroo ; px:deer ; ¡El canguro!
+¿Cuál cambia de color? ; Camaleón ; Lagartija ; px:chameleon ; px:lizard ; ¡El camaleón!
+¿Cuál es más grande? ; Avestruz ; Gallina ; px:ostrich ; px:chicken ; ¡El avestruz!
+¿Cuál nada más rápido? ; Pez vela ; Delfín ; cm:Istiophorus|Istiophorus ; px:dolphin jumping ; ¡El pez vela!
+¿Cuál tiene más dientes? ; Tiburón ; Delfín ; px:shark teeth ; px:dolphin ; ¡El tiburón!
+¿Cuál es un insecto? ; Abeja ; Araña ; px:bee flower ; px:spider web ; ¡La abeja!
+¿Cuál hace miel? ; Abeja ; Avispa ; px:honey bee ; px:wasp ; ¡La abeja!
+¿Cuál brilla de noche? ; Luciérnaga ; Mariquita ; px:firefly ; px:ladybug ; ¡La luciérnaga!
+¿Cuál era un dinosaurio? ; Triceratops ; Mamut ; cm:Triceratops skeleton|Triceratops ; px:mammoth ; ¡El triceratops! El mamut no era dinosaurio.
+¿Cuál es más grande? ; Gorila ; Mono araña ; px:gorilla ; px:spider monkey ; ¡El gorila!
+¿Cuál vive más tiempo? ; Elefante ; Perro ; px:elephant herd ; px:dog ; ¡El elefante!
+¿Cuál duerme colgado de cabeza? ; Murciélago ; Búho ; px:bat hanging ; px:owl ; ¡El murciélago!
+¿Cuál tiene el cuello más largo? ; Flamenco ; Pato ; px:flamingo ; px:duck ; ¡El flamenco!
+¿Cuál ruge? ; León ; Lobo ; px:lion roar ; px:wolf howl ; ¡El león!
+¿Cuál aúlla? ; Lobo ; Oso ; px:wolf howling ; px:bear ; ¡El lobo!
+¿Cuál se arrastra? ; Serpiente ; Lagarto ; px:snake ; px:lizard sun ; ¡La serpiente!
+¿Cuál es un ave? ; Pingüino ; Murciélago ; px:penguin walking ; px:bat flying ; ¡El pingüino!
+¿Cuál es más grande? ; Oso polar ; Zorro ártico ; px:polar bear ; px:arctic fox ; ¡El oso polar!
+¿Cuál vive en el desierto? ; Camello ; Foca ; px:camel desert ; px:seal ; ¡El camello!
+¿Cuál tiene una joroba? ; Camello ; Caballo ; px:camel ; px:horse ; ¡El camello!
+¿Cuál come carne? ; Lobo ; Vaca ; px:wolf ; px:cow grass ; ¡El lobo!
+¿Cuál come solo plantas? ; Jirafa ; León ; px:giraffe eating ; px:lion ; ¡La jirafa!
+¿Cuál es más grande? ; Tiburón blanco ; Pez dorado ; px:great white shark ; px:goldfish ; ¡El tiburón blanco!
+¿Cuál tiene ocho brazos? ; Pulpo ; Estrella de mar ; px:octopus sea ; px:starfish ; ¡El pulpo!
+¿Cuál tiene tinta? ; Calamar ; Langosta ; px:squid ; px:lobster ; ¡El calamar!
+¿Cuál es más grande? ; Morsa ; Nutria ; px:walrus ; px:otter ; ¡La morsa!
+¿Cuál tiene colmillos largos? ; Morsa ; Foca ; px:walrus tusks ; px:seal beach ; ¡La morsa!
+¿Cuál vive en el Amazonas? ; Jaguar ; Leopardo de las nieves ; px:jaguar ; px:snow leopard ; ¡El jaguar!
+¿Cuál es de Perú? ; Vicuña ; Canguro ; px:vicuna ; px:kangaroo ; ¡La vicuña!
+¿Cuál es más rápido? ; Guepardo ; Caballo ; px:cheetah running ; px:horse running ; ¡El guepardo!
+¿Cuál es más grande? ; Águila ; Gorrión ; px:eagle ; px:sparrow ; ¡El águila!
+¿Cuál habla imitando? ; Loro ; Paloma ; px:parrot ; px:pigeon ; ¡El loro!
+¿Cuál es nocturno? ; Búho ; Gallina ; px:owl night ; px:hen ; ¡El búho!
+¿Cuál es una flor? ; Rosa ; Helecho ; px:red rose ; px:fern ; ¡La rosa!
+¿Cuál es más alto? ; Secuoya ; Palmera ; cm:Sequoiadendron giganteum|Sequoia ; px:palm tree ; ¡La secuoya!
+¿Cuál tiene espinas? ; Cactus ; Girasol ; px:cactus ; px:sunflower ; ¡El cactus!
+¿Cuál sigue al Sol? ; Girasol ; Rosa ; px:sunflower field ; px:rose ; ¡El girasol!
+¿Cuál es más frío? ; Antártida ; Desierto ; px:antarctica ice ; px:desert dunes ; ¡La Antártida!
+¿Cuál es más grande? ; Júpiter ; Marte ; px:planet jupiter ; px:planet mars ; ¡Júpiter!
+¿Cuál está más cerca del Sol? ; Mercurio ; Tierra ; px:planet mercury ; px:planet earth space ; ¡Mercurio!
+¿Cuál hace erupción? ; Volcán ; Glaciar ; px:volcano eruption ; px:glacier ; ¡El volcán!
+¿Cuál cae del cielo? ; Granizo ; Arena ; px:hail ; px:sand ; ¡El granizo!
+¿Cuál aparece después de la lluvia? ; Arcoíris ; Aurora ; px:rainbow ; px:aurora borealis ; ¡El arcoíris!
+¿Cuál es más fuerte? ; Huracán ; Brisa ; px:hurricane ; px:breeze grass ; ¡El huracán!
+¿Cuál es más grande? ; Pizza familiar ; Galleta ; px:pizza ; px:cookie ; ¡La pizza familiar!
+¿Cuál es de Italia? ; Pizza ; Sushi ; px:pizza italian ; px:sushi ; ¡La pizza!
+¿Cuál es de Japón? ; Sushi ; Taco ; px:sushi ; px:taco ; ¡El sushi!
+¿Cuál es de México? ; Taco ; Croissant ; px:tacos ; px:croissant ; ¡El taco!
+¿Cuál es de Francia? ; Croissant ; Hamburguesa ; px:croissant ; px:hamburger ; ¡El croissant!
+¿Cuál es de Perú? ; Ceviche ; Paella ; cm:Ceviche peruano|Ceviche ; px:paella ; ¡El ceviche!
+¿Cuál es de España? ; Paella ; Ramen ; px:paella ; px:ramen ; ¡La paella!
+¿Cuál tiene más azúcar? ; Caramelo ; Zanahoria ; px:candy ; px:carrots ; ¡El caramelo!
+¿Cuál es salado? ; Papas fritas ; Chocolate ; px:french fries ; px:chocolate ; ¡Las papas fritas!
+¿Cuál es picante? ; Ají ; Pepino ; px:chili pepper ; px:cucumber ; ¡El ají!
+¿Cuál es una semilla? ; Maní ; Pasa ; px:peanuts ; px:raisins ; ¡El maní!
+¿Cuál es más grande? ; Coco ; Cereza ; px:coconut ; px:cherry ; ¡El coco!
+¿Cuál se usa para jugar tenis? ; Raqueta ; Bate ; px:tennis racket ; px:baseball bat ; ¡La raqueta!
+¿Cuál tiene la pelota más grande? ; Básquet ; Golf ; px:basketball ; px:golf ball ; ¡El básquet!
+¿Cuál se juega en el hielo? ; Hockey ; Rugby ; px:ice hockey ; px:rugby ; ¡El hockey!
+¿Cuál se juega en la piscina? ; Waterpolo ; Voleibol ; px:water polo ; px:volleyball ; ¡El waterpolo!
+¿Cuál es más rápido? ; Fórmula 1 ; Bicicleta ; px:formula 1 car ; px:racing bicycle ; ¡La Fórmula 1!
+¿Cuál es más antiguo? ; Barco de vela ; Lancha ; px:sailing ship ; px:speedboat ; ¡El barco de vela!
+¿Cuál vuela sin motor? ; Planeador ; Avioneta ; px:glider ; px:small airplane ; ¡El planeador!
+¿Cuál va bajo el agua? ; Submarino ; Velero ; px:submarine ; px:sailboat ; ¡El submarino!
+¿Cuál es más grande? ; Crucero ; Kayak ; px:cruise ship ; px:kayak ; ¡El crucero!
+¿Cuál ilumina la noche del mar? ; Faro ; Molino ; px:lighthouse night ; px:windmill ; ¡El faro!
+¿Cuál produce energía con el viento? ; Aerogenerador ; Panel solar ; px:wind turbine ; px:solar panel ; ¡El aerogenerador!
+¿Cuál produce energía con el Sol? ; Panel solar ; Aerogenerador ; px:solar panels ; px:wind turbines ; ¡El panel solar!
+¿Cuál es un planeta? ; Neptuno ; La Luna ; px:planet neptune ; px:moon ; ¡Neptuno!
+¿Cuál es más grande? ; La Tierra ; La Luna ; px:planet earth ; px:moon surface ; ¡La Tierra!
+¿Cuál es un satélite? ; La Luna ; El Sol ; px:full moon night ; px:sun sky ; ¡La Luna!
+¿Cuál vuela más alto? ; Cóndor ; Gallina ; px:condor flying ; px:chicken farm ; ¡El cóndor!
+¿Cuál es más venenoso? ; Pez globo ; Pez payaso ; px:pufferfish ; px:clownfish ; ¡El pez globo!
+¿Cuál tiene más patas? ; Ciempiés ; Hormiga ; px:centipede ; px:ant ; ¡El ciempiés!
+¿Cuál construye presas? ; Castor ; Mapache ; px:beaver ; px:raccoon ; ¡El castor!
+¿Cuál tiene antifaz? ; Mapache ; Zorro ; px:raccoon face ; px:red fox ; ¡El mapache!
+¿Cuál es más grande? ; Mantarraya ; Medusa ; px:manta ray ; px:jellyfish ; ¡La mantarraya!
+¿Cuál brilla en el mar? ; Medusa ; Erizo de mar ; px:jellyfish glowing ; px:sea urchin ; ¡La medusa!
+¿Cuál es un mamífero que vuela? ; Murciélago ; Mariposa ; px:bat ; px:butterfly ; ¡El murciélago!
+¿Cuál es más grande? ; Huevo de avestruz ; Huevo de codorniz ; px:ostrich egg ; px:quail eggs ; ¡El huevo de avestruz!
+¿Cuál tiene más colores? ; Pavo real ; Cuervo ; px:peacock ; px:raven ; ¡El pavo real!
+¿Cuál picotea la madera? ; Pájaro carpintero ; Gaviota ; px:woodpecker ; px:seagull ; ¡El pájaro carpintero!
+¿Cuál es una casa de hielo? ; Iglú ; Tienda beduina ; px:igloo ; px:bedouin tent ; ¡El iglú!
+¿Cuál es más alto? ; Torre Eiffel ; Big Ben ; px:eiffel tower ; px:big ben ; ¡La Torre Eiffel!
+¿Cuál está en Egipto? ; Esfinge ; Partenón ; px:sphinx giza ; px:parthenon ; ¡La Esfinge!
+¿Cuál está en Brasil? ; Cristo Redentor ; Torre de Pisa ; px:christ the redeemer ; px:leaning tower pisa ; ¡El Cristo Redentor!
+¿Cuál está en Australia? ; Ópera de Sídney ; Kremlin ; px:sydney opera house ; px:kremlin ; ¡La Ópera de Sídney!
+¿Cuál está en China? ; Gran Muralla ; Stonehenge ; px:great wall china ; px:stonehenge ; ¡La Gran Muralla!
+¿Cuál está en Perú? ; Líneas de Nazca ; Petra ; cm:Nazca lines hummingbird|Nazca ; px:petra jordan ; ¡Las Líneas de Nazca!
+¿Cuál está en París? ; Arco del Triunfo ; Puerta de Brandeburgo ; px:arc de triomphe ; px:brandenburg gate ; ¡El Arco del Triunfo!
+¿Cuál está en Londres? ; Tower Bridge ; Golden Gate ; px:tower bridge london ; px:golden gate bridge ; ¡El Tower Bridge!
+¿Cuál está en Estados Unidos? ; Golden Gate ; Tower Bridge ; px:golden gate bridge ; px:tower bridge ; ¡El Golden Gate!
+¿Cuál está en India? ; Taj Mahal ; Alhambra ; px:taj mahal ; px:alhambra granada ; ¡El Taj Mahal!
+¿Cuál está en Italia? ; Torre de Pisa ; Torre de Tokio ; px:leaning tower of pisa ; px:tokyo tower ; ¡La Torre de Pisa!
+¿Cuál está en Japón? ; Monte Fuji ; Kilimanjaro ; px:mount fuji ; px:kilimanjaro ; ¡El Monte Fuji!
+¿Cuál está en África? ; Kilimanjaro ; Monte Fuji ; px:kilimanjaro ; px:mount fuji ; ¡El Kilimanjaro!
+¿Cuál es más alto? ; Monte Everest ; Monte Fuji ; px:mount everest ; px:mount fuji ; ¡El Everest!
+¿Cuál es más largo? ; Río Amazonas ; Río Támesis ; px:amazon river ; px:thames river london ; ¡El Amazonas!
+¿Cuál es una catarata? ; Iguazú ; Titicaca ; px:iguazu falls ; px:lake titicaca ; ¡Iguazú! El Titicaca es un lago.
+¿Cuál es un lago? ; Titicaca ; Iguazú ; px:lake titicaca ; px:iguazu falls ; ¡El Titicaca!
+¿Cuál es más grande? ; Selva amazónica ; Parque de la ciudad ; px:amazon rainforest aerial ; px:city park ; ¡La selva amazónica!
+¿Cuál es un dulce peruano? ; Suspiro limeño ; Tiramisú ; cm:Suspiro limeño|Suspiro ; px:tiramisu ; ¡El suspiro limeño!
+¿Cuál es una bebida peruana? ; Chicha morada ; Té verde ; cm:Chicha morada|Chicha ; px:green tea ; ¡La chicha morada!
+¿Cuál es más grande? ; Cuy ; Hámster ; px:guinea pig ; px:hamster ; ¡El cuy!
+¿Cuál es andino? ; Cóndor ; Tucán ; px:andean condor ; px:toucan ; ¡El cóndor! El tucán vive en la selva.
+¿Cuál tiene el pico más grande? ; Tucán ; Gorrión ; px:toucan ; px:sparrow bird ; ¡El tucán!
+¿Cuál es más alto? ; Alpaca ; Oveja ; px:alpaca ; px:sheep ; ¡La alpaca!
+¿Cuál da lana? ; Oveja ; Cerdo ; px:sheep wool ; px:pig ; ¡La oveja!
+¿Cuál da leche? ; Vaca ; Gallina ; px:dairy cow ; px:hen ; ¡La vaca!
+¿Cuál se revuelca en el barro? ; Cerdo ; Gato ; px:pig mud ; px:cat sitting ; ¡El cerdo!
