@@ -1,0 +1,329 @@
+{
+ "id": "ciudad-muestra",
+ "formato": "rapido",
+ "muestra": true,
+ "titulo": "¿A o B? EN LA CIUDAD (MUESTRA)",
+ "titulo_youtube": "MUESTRA · ¿A o B? en la ciudad",
+ "descripcion": "Muestra privada del formato en la ciudad. No publicar.",
+ "tags": [],
+ "eventos": {
+  "0": "colinas",
+  "1": "tunel",
+  "2": "bajada",
+  "3": "curvas",
+  "antes_5": "puente",
+  "5": "colinas",
+  "antes_6": "vuelta",
+  "7": "bajada",
+  "antes_8": "relampago"
+ },
+ "vehiculos": {
+  "2": "patineta",
+  "7": "carrito",
+  "8": "pato",
+  "9": "dragon"
+ },
+ "dragon": {
+  "meta_huevo": 3,
+  "antes_3": "nace",
+  "antes_4": "crece"
+ },
+ "preguntas": [
+  {
+   "n": 1,
+   "p": "¿Cuál pesa más?",
+   "o": [
+    "Hipopótamo",
+    "Elefante"
+   ],
+   "c": 1,
+   "tp": "¿Cuál pesa más?",
+   "tr": "¡El elefante!",
+   "o_fotos": [
+    {
+     "q": "hippopotamus",
+     "src": "px"
+    },
+    {
+     "q": "african elephant",
+     "src": "px"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o001_0.jpg",
+    "trabajo/opciones/o001_1.jpg"
+   ],
+   "o_score": [
+    0.334,
+    0.31
+   ]
+  },
+  {
+   "n": 2,
+   "p": "¿Cuál es más alto?",
+   "o": [
+    "Elefante",
+    "Jirafa"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más alto?",
+   "tr": "¡La jirafa!",
+   "o_fotos": [
+    {
+     "q": "elephant",
+     "src": "px"
+    },
+    {
+     "q": "giraffe",
+     "src": "px"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o002_0.jpg",
+    "trabajo/opciones/o002_1.jpg"
+   ],
+   "o_score": [
+    0.335,
+    0.337
+   ]
+  },
+  {
+   "n": 3,
+   "p": "¿Cuál es más rápido?",
+   "o": [
+    "Guepardo",
+    "León"
+   ],
+   "c": 0,
+   "tp": "¿Cuál corre más rápido?",
+   "tr": "¡El guepardo!",
+   "o_fotos": [
+    {
+     "q": "cheetah running",
+     "src": "px"
+    },
+    {
+     "q": "lion",
+     "src": "px"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o003_0.jpg",
+    "trabajo/opciones/o003_1.jpg"
+   ],
+   "o_score": [
+    0.369,
+    0.32
+   ]
+  },
+  {
+   "n": 4,
+   "p": "¿Cuál tiene más patas?",
+   "o": [
+    "Araña",
+    "Hormiga"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene más patas?",
+   "tr": "¡La araña! Tiene ocho.",
+   "o_fotos": [
+    {
+     "q": "spider",
+     "src": "px"
+    },
+    {
+     "q": "ant macro",
+     "src": "px"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o004_0.jpg",
+    "trabajo/opciones/o004_1.jpg"
+   ],
+   "o_score": [
+    0.331,
+    0.346
+   ]
+  },
+  {
+   "n": 5,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "La Luna",
+    "El Sol"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡El Sol!",
+   "o_fotos": [
+    {
+     "q": "full moon",
+     "src": "px"
+    },
+    {
+     "q": "sun",
+     "src": "px"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o005_0.jpg",
+    "trabajo/opciones/o005_1.jpg"
+   ],
+   "o_score": [
+    0.343,
+    0.322
+   ]
+  },
+  {
+   "n": 6,
+   "p": "¿Cuál es un insecto?",
+   "o": [
+    "Araña",
+    "Mariposa"
+   ],
+   "c": 1,
+   "tp": "¿Cuál de estos es un insecto?",
+   "tr": "¡La mariposa! La araña no es insecto.",
+   "o_fotos": [
+    {
+     "q": "jumping spider macro",
+     "src": "px"
+    },
+    {
+     "q": "butterfly",
+     "src": "px"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o006_0.jpg",
+    "trabajo/opciones/o006_1.jpg"
+   ],
+   "o_score": [
+    0.349,
+    0.311
+   ]
+  },
+  {
+   "n": 7,
+   "p": "¿Cuál es más antiguo?",
+   "o": [
+    "Pirámides de Guiza",
+    "Coliseo romano"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más antiguo?",
+   "tr": "¡Las pirámides!",
+   "o_fotos": [
+    {
+     "q": "Giza pyramids Egypt",
+     "src": "px"
+    },
+    {
+     "q": "Colosseum Rome",
+     "src": "px"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o007_0.jpg",
+    "trabajo/opciones/o007_1.jpg"
+   ],
+   "o_score": [
+    0.327,
+    0.325
+   ]
+  },
+  {
+   "n": 8,
+   "p": "¿Cuál es más caliente?",
+   "o": [
+    "Agua hirviendo",
+    "Lava"
+   ],
+   "c": 1,
+   "tp": "¿Cuál quema más?",
+   "tr": "¡La lava!",
+   "o_fotos": [
+    {
+     "q": "boiling water bubbles",
+     "src": "px"
+    },
+    {
+     "q": "lava flow",
+     "src": "px"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o009_0.jpg",
+    "trabajo/opciones/o009_1.jpg"
+   ],
+   "o_score": [
+    0.332,
+    0.333
+   ]
+  },
+  {
+   "n": 9,
+   "p": "¿Cuál es un mamífero?",
+   "o": [
+    "Murciélago",
+    "Pingüino"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un mamífero?",
+   "tr": "¡El murciélago!",
+   "o_fotos": [
+    {
+     "q": "bat flying",
+     "src": "px"
+    },
+    {
+     "q": "penguin",
+     "src": "px"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o010_0.jpg",
+    "trabajo/opciones/o010_1.jpg"
+   ],
+   "o_score": [
+    0.318,
+    0.329
+   ]
+  },
+  {
+   "n": 10,
+   "p": "¿Cuál vive más años?",
+   "o": [
+    "Loro",
+    "Tortuga gigante"
+   ],
+   "c": 1,
+   "tp": "¿Cuál vive más años?",
+   "tr": "¡La tortuga gigante!",
+   "o_fotos": [
+    {
+     "q": "parrot",
+     "src": "px"
+    },
+    {
+     "q": "giant tortoise",
+     "src": "px"
+    }
+   ],
+   "o_img": [
+    "trabajo/opciones/o011_0.jpg",
+    "trabajo/opciones/o011_1.jpg"
+   ],
+   "o_score": [
+    0.338,
+    0.343
+   ]
+  }
+ ],
+ "extra_tts": {
+  "an_arranque": [
+   "anunciador",
+   "¡Ciento cincuenta preguntas! ¿Hasta qué nivel llegas? ¡Vamos!"
+  ]
+ }
+}
