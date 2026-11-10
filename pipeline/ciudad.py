@@ -403,12 +403,14 @@ class Ciudad(R0.Show):
         cur = P.curva[int(s._cam // SEG)]; s._skyx = (s._skyx if hasattr(s, '_skyx_t') and s._skyx_t == k - 1 else s._skyx) + cur * 0.9
         s._skyx_t = k
         dz = int(s.hz - HZ)
-        fr.paste(s.fondo, (0, dz))
-        if dz > 0: fr.paste(s.fondo.crop((0, 0, W, 1)).resize((W, dz)), (0, 0))
-        elif dz < 0: fr.paste(s.fondo.crop((0, H - 1, W, H)).resize((W, -dz)), (0, H + dz))
-        for i, im in enumerate(s.skyline):
-            ox = int(-(s._skyx * (0.6 if i else 0.3)) % W) - W
-            fr.paste(im, (ox, int(s.hz) - 300 + (8 if i else 0)), im)
+        zona = 0 if (s.nave_desde is None or t < s.nave_desde - 0.6) else 1
+        tira, hy = FONDOS[zona]; ox = int(s._skyx * 0.5) % (tira.width // 2); oy = hy - HZ - dz
+        fr.paste(tira.crop((ox, oy, ox + W, oy + H)))
+        for a0, a1, tipo, x in s.feat:   # cayendo al vacío: se ve la ciudad desde arriba
+            if tipo == 'puente':
+                ta, ts, tc, tn, fin = x; u = clamp((t - tc + 0.2) / 0.5) * (1 - clamp((t - tn - 0.4) / 0.5))
+                if u > 0: fr.paste(Image.blend(fr, VACIO, u))
+        s._fr = fr
         d = ImageDraw.Draw(fr, 'RGBA')
         # proyecciones por tramo
         pr = []
@@ -477,36 +479,26 @@ class Ciudad(R0.Show):
         ta, tb = py_(sa, top), py_(sb, top); ba, bb = min(H + 50, py_(sa, bot)), min(H + 50, py_(sb, bot))
         fz = min(1, za / (DRAW * SEG * 0.95)) ** 1.3
         def fog(c, f=fz): return tuple(int(c[q] + ((70, 30, 100)[q] - c[q]) * f) for q in range(3))
-        cuerpo = e['cuerpo']
-        # cara lateral (mira a la carretera)
-        d.polygon([(Xa, ta), (Xb, tb), (Xb, bb), (Xa, ba)], fill=fog(tuple(min(255, int(c * 1.25)) for c in cuerpo)))
+        if ta >= ba - 1: return
+        fr = s._fr; tex, kk = FACHADAS[(e['s0'] * 7 + (lado > 0)) % len(FACHADAS)], 512 / 2400
+        def yvis(sc): return s._camY - (H + 60 - s.hz) / (sc * PH)
+        Ya, Yb = max(bot, yvis(sa)), max(bot, yvis(sb))
+        va, vb = min(tex.height - 2, (top - Ya) * kk), min(tex.height - 2, (top - Yb) * kk)
+        u0 = ((base + a_i) - e['s0']) * SEG * kk + e['s0'] * 37 % 512; u1 = u0 + (b_i - a_i) * SEG * kk
+        luzf = 1 - fz
+        # cara lateral (mira a la carretera): foto de Flow en perspectiva
+        quad = [(Xa, ta), (Xb, tb), (Xb, py_(sb, Yb)), (Xa, py_(sa, Ya))]
+        pegar_quad(fr, tex, quad, [(u0, 0), (u1, 0), (u1, vb), (u0, va)], fog=fz, sombra=0.35)
         # cara frontal (mira a la cámara)
         Xo = xa + lado * sa * (BX + e['prof']) * PW
         x0, x1 = (Xo, Xa) if lado < 0 else (Xa, Xo)
-        frente_ok = e['s0'] - base >= 2
-        if ta >= ba - 1: return
-        if frente_ok: d.rectangle((min(x0, x1), ta, max(x0, x1), ba), fill=fog(cuerpo))
-        alto_px = ba - ta
-        if alto_px > 30:   # franjas de luz por piso
-            piso = 330; nps = 40
-            luz = fog(e['luz'], fz * 0.8)
-            for f in range(1, nps):
-                if not e['pisos'][f % 80]: continue
-                Yg = top - f * piso; Yf = Yg - piso * 0.2
-                y1a, y2a = py_(sa, Yf), py_(sa, Yg)
-                if y1a < -10 or y2a > H + 10:
-                    continue
-                y1b, y2b = py_(sb, Yf), py_(sb, Yg)
-                d.polygon([(Xa, y2a), (Xb, y2b), (Xb, y1b), (Xa, y1a)], fill=luz)
-                if frente_ok:   # ventanas en la cara frontal
-                    xa_, xb_ = min(x0, x1), max(x0, x1); nv = 5; wv = (xb_ - xa_) / nv
-                    for v in range(nv):
-                        if (f * 7 + v * 3 + e['s0']) % 4 == 0: continue
-                        d.rectangle((xa_ + v * wv + wv * 0.2, y2a, xa_ + v * wv + wv * 0.8, y1a), fill=luz)
-            if e['letrero'] and alto_px > 120:   # letrero de neón en la azotea
-                wl = abs(x1 - x0) * 0.8; hl = max(4, wl * 0.22); cxl = (x0 + x1) / 2
-                d.rounded_rectangle((cxl - wl / 2, ta - hl - 4, cxl + wl / 2, ta - 4), int(hl / 3), fill=fog((255, 60, 170) if lado < 0 else (40, 210, 255)))
-                if hl > 14: d.text((cxl, ta - hl / 2 - 4), '¿A o B?', font=font('Black', max(8, int(hl * 0.7))), fill=BLANCO, anchor='mm')
+        if e['s0'] - base >= 2 and abs(x1 - x0) > 1:
+            pegar_quad(fr, tex, [(min(x0, x1), ta), (max(x0, x1), ta), (max(x0, x1), py_(sa, Ya)), (min(x0, x1), py_(sa, Ya))],
+                       [(u0, 0), (u0 + e['prof'] * kk, 0), (u0 + e['prof'] * kk, va), (u0, va)], fog=fz, sombra=0.0)
+        if e['letrero'] and ba - ta > 120:   # letrero de neón en la azotea
+            wl = abs(x1 - x0) * 0.8; hl = max(4, wl * 0.22); cxl = (x0 + x1) / 2
+            d.rounded_rectangle((cxl - wl / 2, ta - hl - 4, cxl + wl / 2, ta - 4), int(hl / 3), fill=fog((255, 60, 170) if lado < 0 else (40, 210, 255)))
+            if hl > 14: d.text((cxl, ta - hl / 2 - 4), '¿A o B?', font=font('Black', max(8, int(hl * 0.7))), fill=BLANCO, anchor='mm')
 
     # ---- corredores
     def corredores(s, fr, t, xm, xn, extra):
@@ -799,6 +791,59 @@ class Ciudad(R0.Show):
             sc = 1.35 if pp else 1.0; d = ImageDraw.Draw(fr)
             d.rounded_rectangle((x0 + 10, 232, x0 + 220, 282), 25, fill=col)
             d.text((x0 + 115, 257), f'{nom} {pts_}', font=font('Black', int(40 * sc)), fill=TINTA, anchor='mm')
+
+
+def _cargar_fotos():
+    """Fondos y fachadas de Google Flow (10-nov). Los fondos se arman como una tira alta (cielo arriba, ciudad abajo),
+    duplicada en espejo a lo ancho para poder desplazarla en las curvas sin cortes."""
+    D = os.path.join(RAIZ, 'assets', 'ciudad'); op = lambda n: Image.open(os.path.join(D, n + '.jpg')).convert('RGB')
+    vac = ImageOps.fit(op('vacio'), (W, H), Image.LANCZOS)
+    fondos = []
+    for n, horiz in (('cielo1', 860), ('cielo2', 355)):
+        im = op(n); esc = 2304 / im.width; im = im.resize((2304, round(im.height * esc)), Image.LANCZOS); hy = round(horiz * esc)
+        top = 900; T = Image.new('RGB', (2304, top + im.height + 1400), im.getpixel((10, 4)))
+        T.paste(im, (0, top))
+        abajo = vac.resize((2304, round(H * 2304 / W)), Image.LANCZOS)
+        abajo = Image.blend(abajo, Image.new('RGB', abajo.size, (8, 4, 22)), 0.35); T.paste(abajo, (0, top + im.height - 2))
+        g = Image.new('L', (2304, 120)); g.putdata([int(255 * (y / 119)) for y in range(120) for _ in range(2304)])
+        T.paste(im.crop((0, im.height - 120, 2304, im.height)), (0, top + im.height - 120), ImageOps.invert(g))
+        tira = Image.new('RGB', (4608, T.height)); tira.paste(T, (0, 0)); tira.paste(ImageOps.mirror(T), (2304, 0))
+        fondos.append((tira, top + hy))
+    fach = []
+    for n in ('fachada_vidrio', 'fachada_neon', 'fachada_depto'):
+        im = op(n); at = Image.new('RGB', (im.width * 3, im.height * 8))
+        for i in range(3):
+            for j in range(8): at.paste(im if (i + j) % 2 == 0 else ImageOps.mirror(im), (i * im.width, j * im.height))
+        fach.append(at)
+    return fondos, vac, fach
+
+
+FONDOS, VACIO, FACHADAS = _cargar_fotos()
+_NIEBLA = (60, 26, 92)
+
+
+def _coef(dst, src):
+    """Coeficientes de PIL PERSPECTIVE: punto de pantalla → punto de la textura."""
+    A, B = [], []
+    for (x, y), (u, v) in zip(dst, src):
+        A.append([x, y, 1, 0, 0, 0, -u * x, -u * y]); B.append(u)
+        A.append([0, 0, 0, x, y, 1, -v * x, -v * y]); B.append(v)
+    try: return np.linalg.solve(np.array(A, float), np.array(B, float))
+    except np.linalg.LinAlgError: return None
+
+
+def pegar_quad(fr, tex, quad, src, fog=0.0, sombra=0.0):
+    """Pega la textura (zona src) deformada sobre el cuadrilátero quad de la pantalla, con niebla y sombra."""
+    xs = [p[0] for p in quad]; ys = [p[1] for p in quad]
+    x0, y0 = max(0, int(min(xs))), max(0, int(min(ys))); x1, y1 = min(W, int(max(xs)) + 1), min(H, int(max(ys)) + 1)
+    if x1 - x0 < 1 or y1 - y0 < 1: return
+    c = _coef([(x - x0, y - y0) for x, y in quad], src)
+    if c is None: return
+    im = tex.transform((x1 - x0, y1 - y0), Image.PERSPECTIVE, tuple(c), Image.BILINEAR)
+    oscuro = min(0.92, sombra + 0.85 * fog)
+    if oscuro > 0.01: im = Image.blend(im, Image.new('RGB', im.size, _NIEBLA if fog > sombra else (6, 4, 16)), oscuro)
+    m = Image.new('L', im.size, 0); ImageDraw.Draw(m).polygon([(x - x0, y - y0) for x, y in quad], fill=255)
+    fr.paste(im, (x0, y0), m)
 
 
 def poses_flow(c):
