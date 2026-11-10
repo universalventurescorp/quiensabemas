@@ -1,0 +1,98 @@
+# Episodio de Navidad · preguntas NAVIDEÑAS (≈30 %). Formato: pregunta ; correcta ; incorrecta ; foto correcta ; foto incorrecta ; respuesta que dice LA VOZ
+# Nivel con «## nivel N» (1 fácil … 4 imposible). Foto: px:búsqueda (Pixabay) · cm:búsqueda|debe-decir (Wikimedia Commons) · flag:código
+## nivel 1
+¿Cuál tira el trineo de Papá Noel? ; Reno ; Caballo ; px:reindeer snow ; px:horse field ; ¡El reno!
+¿Cuál es un árbol de Navidad? ; Pino ; Palmera ; px:pine tree snow ; px:palm tree beach ; ¡El pino!
+¿Cuál es un muñeco de nieve? ; Muñeco de nieve ; Espantapájaros ; px:snowman ; px:scarecrow ; ¡El muñeco de nieve!
+¿Cuál se cuelga en el árbol? ; Esfera navideña ; Pelota de fútbol ; px:christmas ornament ball ; px:soccer ball ; ¡La esfera navideña!
+¿Cuál es un bastón de caramelo? ; Bastón de caramelo ; Paleta ; px:candy cane ; px:lollipop ; ¡El bastón de caramelo!
+¿Cuál es una galleta de jengibre? ; Hombre de jengibre ; Galleta de chocolate ; px:gingerbread man ; px:chocolate chip cookie ; ¡El hombre de jengibre!
+¿Cuál usa Papá Noel? ; Gorro rojo ; Sombrero vaquero ; px:santa hat ; px:cowboy hat ; ¡El gorro rojo!
+¿Cuál cae en invierno? ; Nieve ; Hojas de otoño ; px:snowfall ; px:autumn leaves falling ; ¡La nieve!
+¿Cuál se pone en la chimenea? ; Calcetín navideño ; Zapato deportivo ; px:christmas stocking fireplace ; px:sneakers ; ¡El calcetín navideño!
+¿Cuál es un regalo? ; Caja con lazo ; Caja de cartón ; px:gift box ribbon ; px:cardboard box ; ¡La caja con lazo!
+¿Cuál va en la punta del árbol? ; Estrella ; Luna ; px:christmas tree star top ; px:crescent moon ; ¡La estrella!
+¿Cuál es un pingüino? ; Pingüino ; Frailecillo ; px:penguin snow ; px:puffin ; ¡El pingüino!
+¿Cuál vive en el Polo Norte? ; Oso polar ; Panda ; px:polar bear ice ; px:giant panda ; ¡El oso polar!
+¿Cuál es de invierno? ; Bufanda ; Lentes de sol ; px:wool scarf ; px:sunglasses ; ¡La bufanda!
+¿Cuál hace sonar Papá Noel? ; Campana ; Tambor ; px:christmas bell ; px:drum ; ¡La campana!
+¿Cuál es una corona navideña? ; Corona de hojas ; Corona de rey ; px:christmas wreath door ; px:king crown ; ¡La corona de hojas!
+¿Cuál brilla en el árbol? ; Luces navideñas ; Linterna ; px:christmas lights bokeh ; px:flashlight ; ¡Las luces navideñas!
+¿Cuál se toma en la chocolatada? ; Chocolate caliente ; Limonada ; px:hot chocolate mug ; px:lemonade glass ; ¡El chocolate caliente!
+¿Cuál es un panetón? ; Panetón ; Torta de cumpleaños ; px:panettone ; px:birthday cake candles ; ¡El panetón!
+¿Cuál es un trineo? ; Trineo ; Patineta ; px:wooden sled snow ; px:skateboard ; ¡El trineo!
+¿Cuál es un patín de hielo? ; Patín de hielo ; Patín de ruedas ; px:ice skates ; px:roller skates ; ¡El patín de hielo!
+¿Cuál es un copo de nieve? ; Copo de nieve ; Flor ; px:snowflake macro ; px:daisy flower ; ¡El copo de nieve!
+¿Cuál vive donde hace frío? ; Foca ; Camello ; px:seal ice ; px:camel desert ; ¡La foca!
+¿Cuál es un búho de las nieves? ; Búho nival ; Lechuza común ; px:snowy owl ; px:barn owl ; ¡El búho nival!
+¿Cuál es un pesebre? ; Nacimiento ; Castillo de arena ; px:nativity scene ; px:sand castle ; ¡El nacimiento!
+## nivel 2
+¿En qué mes es Navidad? ; Diciembre ; Julio ; px:december calendar ; px:summer beach ; ¡En diciembre!
+¿Qué día es Navidad? ; 25 de diciembre ; 1 de enero ; px:christmas day ; px:new year fireworks ; ¡El 25 de diciembre!
+¿Cuál es Nochebuena? ; 24 de diciembre ; 31 de diciembre ; px:christmas eve dinner ; px:new year eve party ; ¡El 24!
+¿Qué país inventó el panetón? ; Italia ; Perú ; flag:it ; flag:pe ; ¡Italia! Nació en Milán.
+¿Cuál come más panetón por persona? ; Perú ; Italia ; flag:pe ; flag:it ; ¡Perú! Es el que más come en el mundo.
+¿Cuál es un animal del Polo Sur? ; Pingüino emperador ; Oso polar ; px:emperor penguin ; px:polar bear ; ¡El pingüino emperador!
+¿Cuál es de Navidad en Perú? ; Chocolatada ; Halloween ; px:hot chocolate christmas ; px:halloween pumpkin ; ¡La chocolatada!
+¿Cuál es el muérdago? ; Muérdago ; Trébol ; px:mistletoe ; px:clover ; ¡El muérdago!
+¿Cuál es la flor de Navidad? ; Flor de Pascua ; Girasol ; px:poinsettia ; px:sunflower ; ¡La flor de Pascua!
+¿Cuál es un villancico? ; Noche de Paz ; Cumpleaños feliz ; px:christmas choir singing ; px:birthday party ; ¡Noche de Paz!
+¿Cuál es un elfo? ; Elfo navideño ; Pirata ; px:christmas elf ; px:pirate costume ; ¡El elfo navideño!
+¿Cuál tiene astas? ; Reno ; Llama ; px:reindeer antlers ; px:llama ; ¡El reno!
+¿Cuál pesa más? ; Morsa ; Foca ; px:walrus ; px:harbor seal ; ¡La morsa!
+¿Cuál es más grande? ; Pingüino emperador ; Pingüino de Humboldt ; px:emperor penguin chick ; cm:Humboldt penguin|Humboldt ; ¡El pingüino emperador!
+¿Cuál vive en el Perú? ; Pingüino de Humboldt ; Pingüino emperador ; cm:Humboldt penguin|Humboldt ; px:emperor penguin ; ¡El pingüino de Humboldt!
+¿Cuál es más frío? ; Polo Sur ; Polo Norte ; px:antarctica ice ; px:arctic sea ice ; ¡El Polo Sur!
+¿Cuál es un iglú? ; Iglú ; Carpa ; px:igloo ; px:camping tent ; ¡El iglú!
+¿Cuál es más grande? ; Reno ; Ciervo ratón ; px:reindeer ; cm:Tragulus|Tragulus ; ¡El reno!
+¿Cuál cambia a blanco en invierno? ; Zorro ártico ; Zorro rojo ; px:arctic fox white ; px:red fox ; ¡El zorro ártico!
+¿Cuál es un cascanueces? ; Cascanueces ; Soldadito de plomo ; px:nutcracker christmas ; px:tin soldier toy ; ¡El cascanueces!
+¿Cuál es un turrón? ; Turrón ; Chocolate en barra ; px:turron nougat ; px:chocolate bar ; ¡El turrón!
+¿Cuál es Papá Noel? ; Papá Noel ; Rey Mago ; px:santa claus ; px:three wise men ; ¡Papá Noel!
+¿Cuál trae regalos el 6 de enero? ; Reyes Magos ; Papá Noel ; px:three wise men camels ; px:santa claus sleigh ; ¡Los Reyes Magos!
+¿Cuál es un pavo? ; Pavo ; Gallina ; px:turkey bird ; px:hen ; ¡El pavo!
+¿Cuál es una aurora boreal? ; Aurora boreal ; Arcoíris ; px:aurora borealis ; px:rainbow ; ¡La aurora boreal!
+¿Dónde se ve la aurora boreal? ; Noruega ; Brasil ; px:norway aurora ; px:rio de janeiro ; ¡En Noruega!
+¿Cuál es un oso de peluche? ; Oso de peluche ; Oso pardo ; px:teddy bear ; px:brown bear ; ¡El oso de peluche!
+¿Cuál nieva más? ; Canadá ; Egipto ; flag:ca ; flag:eg ; ¡Canadá!
+¿Cuál es un tren de juguete? ; Tren de juguete ; Tren de verdad ; px:toy train christmas ; px:train station ; ¡El tren de juguete!
+¿Cuál es un árbol que no pierde sus hojas? ; Abeto ; Roble ; px:fir tree ; px:oak tree autumn ; ¡El abeto! Siempre está verde.
+## nivel 3
+¿De qué país es la tradición del árbol de Navidad? ; Alemania ; Japón ; flag:de ; flag:jp ; ¡Alemania!
+¿En qué país está la Laponia de Papá Noel? ; Finlandia ; España ; flag:fi ; flag:es ; ¡Finlandia! En Rovaniemi.
+¿Dónde es verano en Navidad? ; Australia ; Canadá ; px:sydney beach ; px:canada snow ; ¡Australia! Allá la Navidad es en verano.
+¿Dónde es verano en Navidad? ; Argentina ; Rusia ; flag:ar ; flag:ru ; ¡Argentina!
+¿Cuántos renos tiene Papá Noel con Rodolfo? ; Nueve ; Cinco ; px:reindeer herd ; px:five deer ; ¡Nueve!
+¿Cuál es Melchor? ; Rey Mago ; Pastor ; px:wise man king ; px:shepherd sheep ; ¡Un Rey Mago!
+¿Cuál es más frío? ; Groenlandia ; Islandia ; px:greenland ice ; px:iceland waterfall ; ¡Groenlandia!
+¿Cuál es más grande? ; Groenlandia ; Islandia ; px:greenland glacier ; px:iceland landscape ; ¡Groenlandia!
+¿Cuál pesa más? ; Oso polar ; Oso pardo ; px:polar bear walking ; px:grizzly bear ; ¡El oso polar! Es el oso más grande.
+¿En cuál las hembras también tienen astas? ; Reno ; Alce ; px:reindeer female ; px:moose ; ¡El reno! Las renas también tienen astas.
+¿Cuál nada mejor? ; Pingüino ; Gallina ; px:penguin swimming underwater ; px:chicken ; ¡El pingüino!
+¿Qué país regala un árbol a Londres cada Navidad? ; Noruega ; Francia ; flag:no ; flag:fr ; ¡Noruega! Lo pone en Trafalgar Square.
+¿Dónde comen pollo frito en Navidad? ; Japón ; México ; flag:jp ; flag:mx ; ¡Japón! Es su tradición.
+¿Cuál es una piñata? ; Piñata ; Globo ; px:pinata ; px:balloons ; ¡La piñata!
+¿De qué país son las posadas navideñas? ; México ; Chile ; flag:mx ; flag:cl ; ¡México!
+¿Dónde está el Polo Norte? ; Océano Ártico ; Antártida ; px:arctic ocean ice ; px:antarctica penguins ; ¡En el océano Ártico! No hay tierra debajo.
+¿Cuál es más grande? ; Alce ; Reno ; px:moose ; px:reindeer ; ¡El alce!
+¿Cuál es un narval? ; Narval ; Pez espada ; cm:narwhal|narwhal ; px:swordfish ; ¡El narval! Ese cuerno es un diente.
+¿Cuál es una morsa? ; Morsa ; León marino ; px:walrus tusks ; px:sea lion ; ¡La morsa!
+¿Cuál es el gran árbol de Nueva York? ; Rockefeller Center ; Times Square ; px:rockefeller christmas tree ; px:times square ; ¡El del Rockefeller Center!
+¿Cuál canta en Navidad? ; Coro ; Orquesta ; px:choir ; px:orchestra ; ¡El coro!
+¿De qué país es el villancico Noche de Paz? ; Austria ; Estados Unidos ; flag:at ; flag:us ; ¡Austria! Se cantó por primera vez en 1818.
+¿Cuál es un tamal? ; Tamal ; Empanada ; px:tamales ; px:empanadas ; ¡El tamal!
+¿Cuál se ve más brillante? ; Luna llena ; Estrella Polar ; px:full moon ; px:north star night sky ; ¡La Luna llena!
+¿Cuál vive más al norte? ; Oso polar ; Pingüino ; px:polar bear arctic ; px:penguin antarctica ; ¡El oso polar! Los pingüinos viven al sur.
+## nivel 4
+¿En qué siglo se inventó el panetón? ; Siglo XV ; Siglo XX ; px:medieval milan ; px:1950s kitchen ; ¡En el siglo quince!
+¿Cuál es más antiguo? ; Noche de Paz ; Jingle Bells ; px:old church austria ; px:sleigh bells ; ¡Noche de Paz! De 1818.
+¿Qué país tiene más renos? ; Rusia ; Finlandia ; flag:ru ; flag:fi ; ¡Rusia!
+¿Cuál pesa más? ; Morsa ; Oso polar ; px:walrus big ; px:polar bear ; ¡La morsa! Puede pesar más de una tonelada.
+¿Cuántas puntas tiene un copo de nieve? ; Seis ; Cinco ; px:snowflake six points ; px:five point star ; ¡Seis!
+¿Cuál es Rovaniemi? ; Pueblo de Papá Noel ; Volcán de Islandia ; px:rovaniemi santa village ; px:iceland volcano ; ¡El pueblo de Papá Noel!
+¿Qué país celebra Navidad el 7 de enero? ; Rusia ; Italia ; flag:ru ; flag:it ; ¡Rusia! Por el calendario ortodoxo.
+¿Cuál de estos es un mamífero? ; Narval ; Tiburón de Groenlandia ; cm:narwhal|narwhal ; cm:Greenland shark|Somniosus ; ¡El narval!
+¿Cuál vive más años? ; Tiburón de Groenlandia ; Ballena azul ; cm:Greenland shark|Somniosus ; px:blue whale ; ¡El tiburón de Groenlandia! Más de 250 años.
+¿De qué color es la piel del oso polar? ; Negra ; Blanca ; px:black texture ; px:white snow ; ¡Negra! Su pelo es transparente.
+¿Cuál es más grande? ; Antártida ; Europa ; px:antarctica aerial ; px:europe map ; ¡La Antártida!
+¿Cuál tiene más hielo? ; Antártida ; Groenlandia ; px:antarctica ice sheet ; px:greenland ; ¡La Antártida!

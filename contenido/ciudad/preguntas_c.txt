@@ -1,0 +1,80 @@
+# Episodio de Navidad · parte C (difíciles → imposibles). Formato: pregunta ; correcta ; incorrecta ; foto correcta ; foto incorrecta ; respuesta que dice LA VOZ
+## nivel 3
+¿Cuál es más grande? ; Júpiter ; Saturno ; px:planet jupiter ; px:planet saturn ; ¡Júpiter!
+¿Cuál tiene más lunas? ; Saturno ; Tierra ; px:planet saturn ; px:earth from space ; ¡Saturno! Tiene más de cien.
+¿Cuál está más lejos del Sol? ; Neptuno ; Urano ; cm:Neptune Voyager|Neptune ; cm:Uranus Voyager|Uranus ; ¡Neptuno!
+¿Cuál gira acostado? ; Urano ; Neptuno ; cm:Uranus Voyager|Uranus ; cm:Neptune Voyager|Neptune ; ¡Urano! Gira de lado.
+¿Cuál tiene el volcán más alto del sistema solar? ; Marte ; Tierra ; cm:Olympus Mons|Olympus ; px:volcano erupting ; ¡Marte! El monte Olimpo.
+¿Cuál es más caliente? ; Estrella azul ; Estrella roja ; px:blue star space ; px:red star space ; ¡La estrella azul!
+¿Cuál es un agujero negro? ; Agujero negro ; Nebulosa ; px:black hole ; px:nebula ; ¡El agujero negro!
+¿Cuál es nuestra galaxia? ; Vía Láctea ; Andrómeda ; px:milky way ; cm:Andromeda Galaxy|Andromeda ; ¡La Vía Láctea!
+¿Cuál tiene más huesos? ; Bebé ; Adulto ; px:newborn baby ; px:adult man ; ¡El bebé! Unos 300; el adulto, 206.
+¿Cuál es el hueso más largo? ; Fémur ; Húmero ; cm:Femur|Femur ; cm:Humerus|Humerus ; ¡El fémur!
+¿Cuál es el órgano más grande? ; Piel ; Hígado ; px:human skin hand ; px:liver anatomy ; ¡La piel!
+¿Cuál bombea la sangre? ; Corazón ; Pulmón ; px:human heart anatomy ; px:lungs anatomy ; ¡El corazón!
+¿Cuál tiene sangre azul? ; Pulpo ; Tiburón ; px:octopus ; px:shark ; ¡El pulpo!
+¿Cuál puede vivir sin cabeza unos días? ; Cucaracha ; Ratón ; px:cockroach ; px:mouse ; ¡La cucaracha!
+¿Cuál es inmortal? ; Medusa Turritopsis ; Tortuga ; cm:Turritopsis dohrnii|Turritopsis ; px:sea turtle ; ¡La medusa inmortal!
+¿Cuál sobrevive en el espacio? ; Tardígrado ; Hormiga ; cm:Tardigrade|Tardigrad ; px:ant ; ¡El tardígrado, el osito de agua!
+¿Cuál es un mamífero que pone huevos? ; Equidna ; Erizo ; cm:Echidna|chidna ; px:hedgehog ; ¡El equidna!
+¿Cuál es el mamífero volador? ; Murciélago ; Ardilla voladora ; px:bat flying ; cm:flying squirrel|squirrel ; ¡El murciélago! La ardilla solo planea.
+¿Cuál es el animal terrestre más rápido? ; Guepardo ; Antílope ; px:cheetah ; px:antelope ; ¡El guepardo!
+¿Cuál es el más ruidoso? ; Ballena azul ; León ; px:blue whale ; px:lion roaring ; ¡La ballena azul!
+¿Cuál ve más colores? ; Camarón mantis ; Humano ; cm:Odontodactylus scyllarus|Odontodactylus ; px:human eye ; ¡El camarón mantis!
+¿Cuál tiene huellas como las nuestras? ; Koala ; Mono ; px:koala ; px:monkey ; ¡El koala! Sus huellas dactilares se parecen a las nuestras.
+¿Cuál es más venenoso? ; Pez globo ; Pez payaso ; px:pufferfish ; px:clownfish ; ¡El pez globo!
+¿Cuál es el pájaro nacional del Perú? ; Gallito de las rocas ; Cóndor ; cm:Rupicola peruvianus|Rupicola ; px:andean condor ; ¡El gallito de las rocas!
+¿Cuál es el árbol del escudo del Perú? ; Quina ; Eucalipto ; cm:Cinchona officinalis|Cinchona ; px:eucalyptus tree ; ¡El árbol de la quina!
+¿Cuál es el animal del escudo del Perú? ; Vicuña ; Alpaca ; px:vicuna ; px:alpaca ; ¡La vicuña!
+¿Cuál es la flor nacional del Perú? ; Cantuta ; Rosa ; cm:Cantua buxifolia|Cantua ; px:red rose ; ¡La cantuta!
+¿Cuál es el lago navegable más alto? ; Titicaca ; Lago de Ginebra ; px:lake titicaca ; px:lake geneva ; ¡El Titicaca!
+¿Cuál es el cañón más profundo? ; Cañón del Colca ; Gran Cañón ; cm:Colca Canyon|Colca ; px:grand canyon ; ¡El Colca! Es más profundo que el Gran Cañón.
+¿Cuál es más antigua? ; Caral ; Machu Picchu ; cm:Caral|Caral ; px:machu picchu ; ¡Caral! Tiene unos cinco mil años.
+¿Cuál es la ciudad más antigua de América? ; Caral ; Cusco ; cm:Caral|Caral ; px:cusco ; ¡Caral!
+¿Cuál es el río más caudaloso? ; Amazonas ; Nilo ; px:amazon river ; px:nile river ; ¡El Amazonas!
+¿Cuál es la montaña más alta de América? ; Aconcagua ; Huascarán ; cm:Aconcagua|Aconcagua ; cm:Huascarán|Huascar ; ¡El Aconcagua!
+¿Cuál es la cascada más alta? ; Salto Ángel ; Niágara ; cm:Salto Angel|Angel ; px:niagara falls ; ¡El Salto Ángel, en Venezuela!
+¿Cuál es el país con más volcanes? ; Indonesia ; Italia ; flag:id ; flag:it ; ¡Indonesia!
+¿Cuál tiene más islas? ; Suecia ; Japón ; flag:se ; flag:jp ; ¡Suecia! Más de doscientas mil.
+¿Cuál tiene más pirámides? ; Sudán ; Egipto ; flag:sd ; flag:eg ; ¡Sudán! Aunque las famosas son de Egipto.
+¿Cuál es el país con más idiomas? ; Papúa Nueva Guinea ; India ; flag:pg ; flag:in ; ¡Papúa Nueva Guinea! Más de ochocientos.
+¿Cuál cruza el ecuador? ; Ecuador ; Perú ; flag:ec ; flag:pe ; ¡Ecuador!
+¿Cuál está en dos continentes? ; Turquía ; Grecia ; flag:tr ; flag:gr ; ¡Turquía! Europa y Asia.
+## nivel 4
+¿Cuál es el planeta con el día más largo? ; Venus ; Júpiter ; cm:Venus planet|Venus ; px:planet jupiter ; ¡Venus! Su día dura más que su año.
+¿Cuál tiene el día más corto? ; Júpiter ; Tierra ; px:planet jupiter ; px:earth ; ¡Júpiter! Unas diez horas.
+¿Cuál es más caliente? ; Rayo ; Superficie del Sol ; px:lightning ; px:sun surface ; ¡El rayo! Unas cinco veces más.
+¿Cuántas Tierras caben en el Sol? ; Un millón ; Cien ; px:sun ; px:earth ; ¡Más de un millón!
+¿Cuánto tarda la luz del Sol en llegar? ; Ocho minutos ; Un segundo ; px:sunlight ; px:clock ; ¡Unos ocho minutos!
+¿Cuál es el elemento más común del universo? ; Hidrógeno ; Oxígeno ; px:hydrogen ; px:oxygen ; ¡El hidrógeno!
+¿Cuál es más duro? ; Diamante ; Acero ; px:diamond ; px:steel ; ¡El diamante!
+¿Cuál es más pesado? ; Osmio ; Plomo ; cm:Osmium|Osmium ; px:lead metal ; ¡El osmio! Es el metal más denso.
+¿Cuál duerme con un ojo abierto? ; Delfín ; Búho ; px:dolphin ; px:owl ; ¡El delfín! Duerme con medio cerebro.
+¿Cuál tiene el corazón en la cabeza? ; Camarón ; Pulpo ; px:shrimp ; px:octopus ; ¡El camarón!
+¿Cuál es el animal más grande que existió? ; Ballena azul ; Argentinosaurio ; px:blue whale ; cm:Argentinosaurus|Argentinosaurus ; ¡La ballena azul! Más grande que cualquier dinosaurio.
+¿Cuál tenía dientes del tamaño de un plátano? ; Tiranosaurio ; Velociraptor ; px:tyrannosaurus skull ; px:velociraptor ; ¡El tiranosaurio!
+¿Cuál era del tamaño de un pavo? ; Velociraptor ; Tiranosaurio ; px:velociraptor ; px:tyrannosaurus ; ¡El velociraptor! No era tan grande como en las películas.
+¿Cuál es el ave que vuela hacia atrás? ; Colibrí ; Golondrina ; px:hummingbird ; px:swallow bird ; ¡El colibrí!
+¿Cuál tiene más patas? ; Milpiés ; Ciempiés ; px:millipede ; px:centipede ; ¡El milpiés!
+¿Cuál brilla en el fondo del mar? ; Pez linterna ; Pez espada ; cm:Myctophidae|Myctoph ; px:swordfish ; ¡El pez linterna!
+¿Cuál es la capital de Bolivia donde está el gobierno? ; La Paz ; Sucre ; px:la paz bolivia ; cm:Sucre Bolivia|Sucre ; ¡La Paz! La capital oficial es Sucre.
+¿Cuál es la capital de Turquía? ; Ankara ; Estambul ; px:ankara ; px:istanbul ; ¡Ankara!
+¿Cuál es la capital de Suiza? ; Berna ; Zúrich ; px:bern switzerland ; px:zurich ; ¡Berna!
+¿Cuál es la capital de Nueva Zelanda? ; Wellington ; Auckland ; px:wellington new zealand ; px:auckland ; ¡Wellington!
+¿Cuál es la capital de Marruecos? ; Rabat ; Marrakech ; px:rabat morocco ; px:marrakech ; ¡Rabat!
+¿Cuál es la bandera de Nepal? ; Nepal ; Bután ; flag:np ; flag:bt ; ¡Nepal! La única que no es rectangular.
+¿Cuál es la bandera de Mongolia? ; Mongolia ; Kazajistán ; flag:mn ; flag:kz ; ¡Mongolia!
+¿Cuál tiene más habitantes? ; Lima ; Bogotá ; px:lima peru ; px:bogota ; ¡Lima!
+¿Cuál es el país más joven del mundo? ; Sudán del Sur ; Kosovo ; flag:ss ; flag:xk ; ¡Sudán del Sur! Desde 2011.
+¿Cuál fue el primer país en ir al espacio? ; Unión Soviética ; Estados Unidos ; px:sputnik ; px:nasa rocket ; ¡La Unión Soviética! Con el Sputnik.
+¿Cuál es el idioma más hablado del mundo? ; Inglés ; Español ; flag:gb ; flag:es ; ¡El inglés! Contando a quienes lo aprenden.
+¿Cuál es el idioma con más hablantes nativos? ; Chino mandarín ; Inglés ; flag:cn ; flag:gb ; ¡El chino mandarín!
+¿Cuál es el segundo idioma nativo más hablado? ; Español ; Inglés ; flag:es ; flag:gb ; ¡El español!
+¿Cuál cultura hizo las líneas de Nasca? ; Nasca ; Inca ; cm:Nazca lines|Nazca ; px:inca ; ¡La cultura Nasca!
+¿Cuál construyó Chan Chan? ; Chimú ; Inca ; cm:Chan Chan|Chan Chan ; px:machu picchu ; ¡Los chimú!
+¿Cuál es el Señor de Sipán? ; Gobernante mochica ; Rey inca ; cm:Señor de Sipán|Sip ; px:inca king ; ¡Un gobernante mochica de Lambayeque!
+¿Cuál es más antiguo? ; Chavín de Huántar ; Machu Picchu ; cm:Chavín de Huántar|Chav ; px:machu picchu ; ¡Chavín de Huántar!
+¿Cuál es el desierto más grande del mundo? ; Antártida ; Sahara ; px:antarctica ; px:sahara ; ¡La Antártida! Es un desierto frío.
+¿Cuál es el punto más profundo del mar? ; Fosa de las Marianas ; Mar Muerto ; px:deep ocean ; px:dead sea ; ¡La fosa de las Marianas!
+¿Cuál es el lugar más bajo en tierra? ; Mar Muerto ; Valle de la Muerte ; px:dead sea ; px:death valley ; ¡El Mar Muerto!
+¿Cuál flota sin esfuerzo? ; Persona en el Mar Muerto ; Persona en una piscina ; px:dead sea floating ; px:swimming pool ; ¡En el Mar Muerto! Por la sal.

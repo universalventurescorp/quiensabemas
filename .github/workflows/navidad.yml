@@ -1,0 +1,243 @@
+name: navidad
+# Episodio de Navidad «¡Criamos un DRAGÓN de Navidad!» (~1 h 20, 4K). Autorizado por Luis el 10-nov-2026.
+# preparar (fotos de las 2 alternativas + revisión de Claude) → voces en 16 máquinas
+# → video repartido en TRAMOS máquinas (pipeline/ciudad.py --tramo i --tramos N) + audio en otra
+# → unir (concat sin recodificar + mezcla de audio) → subida EN PRIVADO → diagnóstico en la rama diag-navidad.
+# NO toca la producción diaria. Luis publica.
+on:
+  workflow_dispatch:
+    inputs:
+      contenido:
+        description: "Guion del episodio"
+        default: "contenido/navidad/episodio.json"
+      tramos:
+        description: "Máquinas para el video (máx. 20 a la vez en el plan gratis)"
+        default: "20"
+      run_trabajo:
+        description: "Opcional: corrida anterior de navidad.yml de donde reusar fotos y voces (salta preparar y voces)"
+        default: ""
+      subir:
+        description: "1 = subir a YouTube en privado"
+        default: "1"
+      k4:
+        description: "1 = 4K"
+        default: "1"
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: navidad
+  cancel-in-progress: false
+
+env:
+  PARTES: 16
+
+jobs:
+  preparar:
+    if: inputs.run_trabajo == ''
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: python scripts/preparar_rapido.py "${{ inputs.contenido }}" trabajo
+      - name: Fotos reales para las 2 alternativas (Pixabay / Wikimedia / banderas, filtro CLIP)
+        env: { PIXABAY_API_KEY: "${{ secrets.PIXABAY_API_KEY }}" }
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq librsvg2-bin
+          pip install -q pillow numpy
+          pip install -q torch torchvision --index-url https://download.pytorch.org/whl/cpu
+          pip install -q open_clip_torch
+          python scripts/fotos_opciones.py trabajo/episodio.json - trabajo/opciones --hoja trabajo/hoja_fotos.jpg --revision trabajo/revision
+      - name: Claude revisa cada foto
+        if: hashFiles('trabajo/revision/indice.json') != ''
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: Lee y sigue al pie de la letra las instrucciones de prompts/revisor_fotos.md. En este episodio cada imagen tiene solo 2 fotos (izquierda y derecha); en preguntas de comparación («¿cuál pesa más?») las fotos solo deben mostrar bien cada cosa.
+          claude_args: >-
+            --model sonnet
+            --max-turns 400
+            --allowedTools "Read,Write,Glob"
+      - name: Aplicar la revisión y descartar preguntas sin fotos
+        run: |
+          python scripts/revisar_fotos.py trabajo/episodio.json trabajo/revision
+          python scripts/preparar_rapido.py --recortar trabajo/episodio.json
+      - uses: actions/upload-artifact@v4
+        with: { name: trabajo, path: trabajo, retention-days: 14 }
+
+  voces:
+    needs: preparar
+    runs-on: ubuntu-24.04
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix:
+        parte: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { name: trabajo, path: trabajo }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: qwen3-tts-1.7b-base
+      - name: Instalar (torch CPU)
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq sox libsox-dev
+          pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install -q qwen-tts soundfile transformers
+      - name: Bancos (rápido, ciudad, navidad; solo lo que falte) + frases del episodio
+        run: |
+          python scripts/generar_voces.py contenido/rapido_voces.json banco/rapido --parte ${{ matrix.parte }} --partes $PARTES
+          python scripts/generar_voces.py contenido/ciudad_voces.json banco/ciudad --parte ${{ matrix.parte }} --partes $PARTES
+          if [ -f contenido/navidad_voces.json ]; then python scripts/generar_voces.py contenido/navidad_voces.json banco/navidad --parte ${{ matrix.parte }} --partes $PARTES; fi
+          python scripts/generar_voces.py trabajo/episodio.json voces_ep --parte ${{ matrix.parte }} --partes $PARTES
+      - uses: actions/upload-artifact@v4
+        with:
+          name: "voces-${{ matrix.parte }}"
+          path: |
+            banco/rapido
+            banco/ciudad
+            banco/navidad
+            voces_ep
+          retention-days: 14
+
+  plan:
+    needs: [preparar, voces]
+    if: always() && (inputs.run_trabajo != '' || needs.voces.result == 'success')
+    runs-on: ubuntu-24.04
+    outputs:
+      tramos: ${{ steps.p.outputs.tramos }}
+      run: ${{ steps.p.outputs.run }}
+    steps:
+      - id: p
+        run: |
+          n=${{ inputs.tramos }}; python3 -c "import json;print('tramos='+json.dumps(list(range($n))))" >> $GITHUB_OUTPUT
+          echo "run=${{ inputs.run_trabajo || github.run_id }}" >> $GITHUB_OUTPUT
+
+  # ---- una máquina por tramo de video (+ una para el audio: tramo -1)
+  render:
+    needs: plan
+    if: always() && needs.plan.result == 'success'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        tramo: ${{ fromJSON(needs.plan.outputs.tramos) }}
+        include:
+          - tramo: -1
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { name: trabajo, path: trabajo, run-id: "${{ needs.plan.outputs.run }}", github-token: "${{ github.token }}" }
+      - uses: actions/download-artifact@v4
+        with: { pattern: "voces-*", path: ., merge-multiple: true, run-id: "${{ needs.plan.outputs.run }}", github-token: "${{ github.token }}" }
+      - name: Letra gruesa (Poppins Black, OFL)
+        run: test -f fuentes/Poppins-Black.ttf || curl -sSfL -o fuentes/Poppins-Black.ttf https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Black.ttf || true
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Instalar
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q numpy pillow scipy
+      - name: Descifrar la música navideña (Biblioteca de audio de YouTube)
+        env: { MUSICA_NAVIDAD_CLAVE: "${{ secrets.MUSICA_NAVIDAD_CLAVE }}" }
+        run: |
+          if [ -n "$MUSICA_NAVIDAD_CLAVE" ]; then
+            mkdir -p assets/musica_navidad
+            printf '%s' "$MUSICA_NAVIDAD_CLAVE" | tr -d '[:space:]' > /tmp/clave
+            openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -pass file:/tmp/clave -in assets/musica_navidad.enc | tar -x -C assets/musica_navidad || echo "::warning::No se pudo descifrar la música navideña"
+            rm -f /tmp/clave; ls -R assets/musica_navidad | head -30
+          else echo "::warning::Falta el secret MUSICA_NAVIDAD_CLAVE (el video saldría sin música)"; fi
+      - name: Tramo ${{ matrix.tramo }}
+        env:
+          QSM_4K: "${{ inputs.k4 == '1' && '1' || '' }}"
+          QSM_MUSICA_DIR: assets/musica_navidad/cama
+        run: |
+          mkdir -p salida
+          if [ "${{ matrix.tramo }}" = "-1" ]; then
+            python pipeline/ciudad.py --contenido trabajo/episodio.json --voces voces_ep --out salida/audio.wav --solo-audio --miniatura salida/miniatura.jpg
+          else
+            python pipeline/ciudad.py --contenido trabajo/episodio.json --voces voces_ep --out salida/tramo_$(printf %02d ${{ matrix.tramo }}).mp4 --tramo ${{ matrix.tramo }} --tramos ${{ inputs.tramos }}
+          fi
+          ls -la salida
+      - uses: actions/upload-artifact@v4
+        with: { name: "tramo-${{ matrix.tramo }}", path: salida, retention-days: 7, compression-level: 0 }
+
+  unir:
+    needs: [plan, render]
+    if: always() && needs.plan.result == 'success'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { name: trabajo, path: trabajo, run-id: "${{ needs.plan.outputs.run }}", github-token: "${{ github.token }}" }
+      - uses: actions/download-artifact@v4
+        with: { pattern: "tramo-*", path: salida, merge-multiple: true }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Instalar
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q numpy pillow scipy reportlab google-api-python-client google-auth
+      - name: Unir los tramos (sin recodificar) y mezclar el audio
+        run: |
+          ls -la salida
+          n=$(ls salida/tramo_*.mp4 | wc -l)
+          if [ "$n" != "${{ inputs.tramos }}" ]; then echo "::error::Faltan tramos: hay $n de ${{ inputs.tramos }}"; exit 1; fi
+          for f in salida/tramo_*.mp4; do echo "file '$(realpath $f)'"; done > salida/lista.txt
+          ffmpeg -v error -y -f concat -safe 0 -i salida/lista.txt -c copy salida/video_mudo.mp4
+          ffmpeg -v error -y -i salida/video_mudo.mp4 -i salida/audio.wav -map 0:v -map 1:a -c:v copy \
+            -af loudnorm=I=-14:TP=-1.5:LRA=11 -ar 48000 -ac 2 -c:a aac -b:a 192k -shortest -movflags +faststart trabajo/video.mp4
+          cp salida/audio.tiempos.json trabajo/video.tiempos.json
+          cp salida/miniatura.jpg trabajo/miniatura.jpg 2>/dev/null || true
+          ffprobe -v error -show_entries format=duration -of csv=p=0 trabajo/video.mp4; ls -la trabajo/video.mp4
+      - name: Subir a YouTube EN PRIVADO
+        if: inputs.subir == '1'
+        continue-on-error: true
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN_QSM: ${{ secrets.YT_REFRESH_TOKEN_QSM }}
+        run: |
+          python scripts/subir_youtube.py trabajo/episodio.json trabajo/video.mp4 trabajo/video.tiempos.json trabajo/miniatura.jpg
+          cp publicados/navidad*.json trabajo/ 2>/dev/null || true
+      - name: Registrar el episodio subido
+        if: inputs.subir == '1'
+        continue-on-error: true
+        run: |
+          git config user.name "quiensabemas-bot"; git config user.email "actions@users.noreply.github.com"
+          git add publicados || true
+          git commit -qm "Navidad: episodio subido en privado (${{ github.run_id }})" || exit 0
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: navidad-video, path: "trabajo/video.*", retention-days: 7, compression-level: 0 }
+      - name: Diagnóstico (rama diag-navidad)
+        if: always()
+        continue-on-error: true
+        run: |
+          mkdir -p /tmp/diag && cd trabajo
+          cp miniatura.jpg video.tiempos.json /tmp/diag/ 2>/dev/null || true
+          cp ../publicados/navidad*.json /tmp/diag/ 2>/dev/null || true
+          if [ -f video.mp4 ]; then
+            d=$(ffprobe -v error -show_entries format=duration -of csv=p=0 video.mp4 | cut -d. -f1)
+            for p in 1 3 5 8 12 18 25 33 41 50 58 66 75 83 91 97; do s=$((d*p/100)); ffmpeg -v error -y -ss $s -i video.mp4 -frames:v 1 -vf scale=960:-1 /tmp/diag/c_$(printf %02d $p).jpg; done
+            ffmpeg -v error -y -t 240 -i video.mp4 -vf scale=960:-2 -c:v libx264 -crf 30 -preset veryfast -c:a aac -b:a 96k /tmp/diag/inicio_chico.mp4 || true
+          fi
+          cd /tmp/diag && ls
+          git init -q && git checkout -q -b d
+          git config user.name "quiensabemas-bot"; git config user.email "actions@users.noreply.github.com"
+          git add . && git commit -qm "Diagnóstico navidad ${{ github.run_id }}"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" d:diag-navidad

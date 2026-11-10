@@ -9,7 +9,7 @@ Reutiliza del montador rápido: fotos, voces, sonidos, subtítulos, música y la
 Uso:
   python3 pipeline/ciudad.py --contenido trabajo/ciudad.json --voces voces_ep --out trabajo/video.mp4 [--cuadros 3,10]
 """
-import argparse, json, math, os, random, sys
+import argparse, json, math, os, random, subprocess, sys
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageOps
 
@@ -415,6 +415,15 @@ class Ciudad(R0.Show):
         s._skyx = getattr(s, '_skyx', 0.0)
         return xs
 
+    def skyx_de(s, k):
+        """Desplazamiento acumulado del fondo con las curvas hasta el cuadro k (antes se sumaba cuadro a cuadro)."""
+        if not hasattr(s, '_skyx_arr'):
+            n = len(s.dist); P = s.P
+            idx = np.minimum((np.asarray(s.dist[:n], dtype=np.float64) // SEG).astype(int), P.n - 1)
+            s._skyx_arr = np.cumsum(np.asarray(P.curva, dtype=np.float64)[idx] * 0.9)
+        a = s._skyx_arr
+        return float(a[min(k, len(a) - 1)])
+
     def pt(s, j_i, X, Y):
         """Punto de mundo (X lateral, Y alto) sobre el tramo de índice local j_i → pantalla."""
         j, z, xoff = s._fila[j_i]
@@ -437,8 +446,7 @@ class Ciudad(R0.Show):
     def mundo(s, fr, t, k):
         P = s.P; fila = s.proyectar(k)
         # desplazamiento del fondo con la curva
-        cur = P.curva[int(s._cam // SEG)]; s._skyx = (s._skyx if hasattr(s, '_skyx_t') and s._skyx_t == k - 1 else s._skyx) + cur * 0.9
-        s._skyx_t = k
+        s._skyx = s.skyx_de(k)     # precalculado: igual en cualquier máquina y en cualquier tramo (armado repartido)
         dz = int(s.hz - HZ)
         zona = 0 if (s.nave_desde is None or t < s.nave_desde - 0.6) else 1
         tira, hy = FONDOS[zona]; ox = int(s._skyx * 0.5) % (tira.width // 2); oy = hy - HZ - dz
@@ -1040,6 +1048,9 @@ def main():
     ap.add_argument('--contenido', required=True); ap.add_argument('--voces', default='')
     ap.add_argument('--out', required=True); ap.add_argument('--tmp', default='tmp'); ap.add_argument('--miniatura')
     ap.add_argument('--cuadros', help='solo guardar estos segundos como JPG (prueba), p. ej. 1,5,9')
+    ap.add_argument('--tramo', type=int, help='armado repartido: renderizar solo este tramo (0..tramos-1), sin audio')
+    ap.add_argument('--tramos', type=int, default=1)
+    ap.add_argument('--solo-audio', action='store_true', help='solo la mezcla de audio en --out (.wav)')
     a = ap.parse_args()
     meta = json.load(open(a.contenido, encoding='utf-8'))
     meta['preguntas'] = [q for q in meta['preguntas'] if q.get('o_img')]
@@ -1057,7 +1068,47 @@ def main():
         for sec in a.cuadros.split(','):
             S.frame(int(float(sec) * FPS)).save(os.path.join(a.tmp, f'cuadro_{sec}.jpg'), quality=85)
         return
+    if a.solo_audio:
+        audio_solo(S, a.out); print('OK audio', a.out); return
+    if a.tramo is not None:
+        render_tramo(S, a.out, a.tramo, a.tramos); print('OK tramo', a.tramo, a.out); return
     S.render(a.out, a.tmp); print('OK', a.out)
+
+
+# ---------------------------------------------------------------- armado repartido (varias máquinas)
+def _ffmpeg_video(out):
+    return subprocess.Popen(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS),
+                             '-i', '-', *(['-vf', 'scale=3840:2160:flags=lanczos'] if os.environ.get('QSM_4K') else []),
+                             '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '18' if os.environ.get('QSM_4K') else '20',
+                             '-pix_fmt', 'yuv420p', '-g', str(FPS * 2), out], stdin=subprocess.PIPE)
+
+
+def render_tramo(S, out, i, n):
+    """Solo los cuadros del tramo i de n (sin audio). Los tramos se unen con concat -c copy en el job final."""
+    import time
+    S.corr = R0.Corredores(); S.subs.cerrar()
+    nfr = int(S.t * FPS); k0, k1 = nfr * i // n, nfr * (i + 1) // n
+    os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
+    ff = _ffmpeg_video(out); t0 = time.time()
+    for k in range(k0, k1):
+        ff.stdin.write(S.frame(k).convert('RGB').tobytes())
+        if (k - k0) % (FPS * 30) == 0: print(f'  tramo {i}: {(k - k0) / FPS / 60:.1f}/{(k1 - k0) / FPS / 60:.1f} min · {(time.time() - t0) / 60:.1f} min', flush=True)
+    ff.stdin.close(); ff.wait()
+    json.dump({'tramo': i, 'de': n, 'k0': k0, 'k1': k1}, open(out + '.json', 'w'))
+
+
+def audio_solo(S, wav_out):
+    """Mezcla de voces + efectos + música de todo el episodio (igual que Show.render) en un WAV."""
+    import wave
+    mix = np.zeros(int(R0.SR * (S.t + 0.5)), np.float32)
+    for at, a in S.audio:
+        st = int(at * R0.SR); e = min(len(mix), st + len(a))
+        if e > st: mix[st:e] += a[:e - st]
+    mix = S.musica(mix)
+    pk = np.abs(mix).max()
+    if pk > 0.98: mix *= 0.98 / pk
+    with wave.open(wav_out, 'w') as w:
+        w.setnchannels(1); w.setsampwidth(2); w.setframerate(R0.SR); w.writeframes((mix * 32767).astype(np.int16).tobytes())
 
 
 if __name__ == '__main__':
