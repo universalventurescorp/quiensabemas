@@ -256,7 +256,28 @@
     "Big Ben"
    ],
    "c": 3,
-   "o_fotos": [{"q": "Eiffel Tower", "src": "cm", "must": "Eiffel"}, {"q": "Tower Bridge London", "src": "cm", "must": "Bridge"}, {"q": "London Eye", "src": "cm", "must": "Eye"}, {"q": "Big Ben", "src": "cm", "must": "Ben"}],
+   "o_fotos": [
+    {
+     "q": "Eiffel Tower",
+     "src": "cm",
+     "must": "Eiffel"
+    },
+    {
+     "q": "Tower Bridge London",
+     "src": "cm",
+     "must": "Bridge"
+    },
+    {
+     "q": "London Eye",
+     "src": "cm",
+     "must": "Eye"
+    },
+    {
+     "q": "Big Ben",
+     "src": "cm",
+     "must": "Ben"
+    }
+   ],
    "d": "En realidad Big Ben es el nombre de la campana, no de la torre.",
    "tp": "¿Cómo se llama la famosa campana del reloj del Parlamento de Londres? ¿Torre Eiffel, Tower Bridge, London Eye o Big Ben?",
    "tr": "¡Big Ben!",
@@ -339,7 +360,24 @@
     "Dionea atrapamoscas"
    ],
    "c": 3,
-   "o_fotos": [{"q": "cactus", "src": "px"}, {"q": "fern", "src": "px"}, {"q": "orchid", "src": "px"}, {"q": "Venus flytrap", "src": "px"}],
+   "o_fotos": [
+    {
+     "q": "cactus",
+     "src": "px"
+    },
+    {
+     "q": "fern",
+     "src": "px"
+    },
+    {
+     "q": "orchid",
+     "src": "px"
+    },
+    {
+     "q": "Venus flytrap",
+     "src": "px"
+    }
+   ],
    "d": "Cierra sus hojas en una fracción de segundo al tocar sus pelitos sensibles.",
    "tp": "¿Qué planta carnívora cierra sus hojas para atrapar moscas? ¿Cactus, helecho, orquídea o dionea atrapamoscas?",
    "tr": "¡La dionea atrapamoscas!",
@@ -616,7 +654,20 @@
     "Bolivia"
    ],
    "c": 1,
-   "o_fotos": [{"flag": "uy"}, {"flag": "ar"}, {"flag": "br"}, {"flag": "bo"}],
+   "o_fotos": [
+    {
+     "flag": "uy"
+    },
+    {
+     "flag": "ar"
+    },
+    {
+     "flag": "br"
+    },
+    {
+     "flag": "bo"
+    }
+   ],
    "d": "Ushuaia, en el lado argentino, es una de las ciudades más australes del mundo.",
    "tp": "¿Qué país comparte con Chile la isla de Tierra del Fuego? ¿Uruguay, Argentina, Brasil o Bolivia?",
    "tr": "¡Argentina!",
@@ -763,7 +814,24 @@
     "Búho"
    ],
    "c": 0,
-   "o_fotos": [{"q": "golden eagle", "src": "px"}, {"q": "andean condor", "src": "px"}, {"q": "falcon", "src": "px"}, {"q": "owl", "src": "px"}],
+   "o_fotos": [
+    {
+     "q": "golden eagle",
+     "src": "px"
+    },
+    {
+     "q": "andean condor",
+     "src": "px"
+    },
+    {
+     "q": "falcon",
+     "src": "px"
+    },
+    {
+     "q": "owl",
+     "src": "px"
+    }
+   ],
    "d": "Según la leyenda, los mexicas fundaron Tenochtitlan donde vieron esa escena.",
    "tp": "¿Qué ave aparece sobre un nopal en el escudo de México? ¿Águila, cóndor, halcón o búho?",
    "tr": "¡El águila!",
@@ -780,7 +848,20 @@
     "Argentina"
    ],
    "c": 2,
-   "o_fotos": [{"flag": "pe"}, {"flag": "cl"}, {"flag": "bo"}, {"flag": "ar"}],
+   "o_fotos": [
+    {
+     "flag": "pe"
+    },
+    {
+     "flag": "cl"
+    },
+    {
+     "flag": "bo"
+    },
+    {
+     "flag": "ar"
+    }
+   ],
    "d": "Cuando llueve, se convierte en un gigantesco espejo.",
    "tp": "¿En qué país está el salar de Uyuni, el más grande del mundo? ¿Perú, Chile, Bolivia o Argentina?",
    "tr": "¡Bolivia!",
@@ -797,7 +878,20 @@
     "Grecia"
    ],
    "c": 1,
-   "o_fotos": [{"flag": "in"}, {"flag": "cn"}, {"flag": "eg"}, {"flag": "gr"}],
+   "o_fotos": [
+    {
+     "flag": "in"
+    },
+    {
+     "flag": "cn"
+    },
+    {
+     "flag": "eg"
+    },
+    {
+     "flag": "gr"
+    }
+   ],
    "d": "Tradicionalmente se atribuye a Cai Lun, un funcionario chino, hacia el año 105.",
    "tp": "¿En qué país se inventó el papel, hace unos dos mil años? ¿India, China, Egipto o Grecia?",
    "tr": "¡China!",
@@ -832,7 +926,24 @@
     "Dominó"
    ],
    "c": 0,
-   "o_fotos": [{"q": "chess board", "src": "px"}, {"q": "checkers board game", "src": "px"}, {"q": "poker cards", "src": "px"}, {"q": "dominoes", "src": "px"}],
+   "o_fotos": [
+    {
+     "q": "chess board",
+     "src": "px"
+    },
+    {
+     "q": "checkers board game",
+     "src": "px"
+    },
+    {
+     "q": "poker cards",
+     "src": "px"
+    },
+    {
+     "q": "dominoes",
+     "src": "px"
+    }
+   ],
    "d": "«Jaque mate» viene del persa «shah mat», que se interpreta como «el rey está indefenso».",
    "tp": "¿En qué juego de mesa se dice jaque mate? ¿Ajedrez, damas, póker o dominó?",
    "tr": "¡El ajedrez!",
@@ -992,7 +1103,20 @@
     "Malasia"
    ],
    "c": 2,
-   "o_fotos": [{"flag": "ph"}, {"flag": "jp"}, {"flag": "id"}, {"flag": "my"}],
+   "o_fotos": [
+    {
+     "flag": "ph"
+    },
+    {
+     "flag": "jp"
+    },
+    {
+     "flag": "id"
+    },
+    {
+     "flag": "my"
+    }
+   ],
    "d": "Su isla más poblada, Java, es una de las más habitadas del mundo.",
    "tp": "¿Qué país formado por miles de islas tiene más de diecisiete mil islas? ¿Filipinas, Japón, Indonesia o Malasia?",
    "tr": "¡Indonesia!",
@@ -1009,25 +1133,301 @@
     "Quena"
    ],
    "c": 3,
-   "o_fotos": [{"q": "charango instrument", "src": "px"}, {"q": "bass drum", "src": "px"}, {"q": "cajon drum", "src": "px"}, {"q": "quena flute", "src": "px"}],
+   "o_fotos": [
+    {
+     "q": "charango instrument",
+     "src": "px"
+    },
+    {
+     "q": "bass drum",
+     "src": "px"
+    },
+    {
+     "q": "cajon drum",
+     "src": "px"
+    },
+    {
+     "q": "quena flute",
+     "src": "px"
+    }
+   ],
    "d": "La quena suena dulce y melancólica en las canciones andinas.",
    "tp": "¿Qué flauta andina de caña lleva una muesca en el borde para soplar? ¿Charango, bombo, cajón o quena?",
    "tr": "¡La quena!",
    "td": "La quena suena dulce y melancólica en las canciones andinas."
   },
-  {"n": 61, "tema": "animales", "p": "¿Qué insecto hace «cri cri» por las noches frotando sus alas?", "o": ["Mosca", "Grillo", "Mariquita", "Mosquito"], "c": 1, "o_fotos": [{"q": "fly insect", "src": "px"}, {"q": "cricket insect", "src": "px"}, {"q": "ladybug", "src": "px"}, {"q": "mosquito", "src": "px"}], "d": "Solo los grillos machos cantan, para llamar a las hembras.", "tp": "¿Qué insecto hace cri cri por las noches frotando sus alas? ¿Mosca, grillo, mariquita o mosquito?", "tr": "¡El grillo!", "td": "Solo los grillos machos cantan, para llamar a las hembras."},
-  {"n": 62, "tema": "cuerpo", "p": "¿Qué órgano guarda la comida que tragamos para empezar a digerirla?", "o": ["Pulmón", "Riñón", "Corazón", "Estómago"], "c": 3, "d": "El estómago produce jugos que ayudan a deshacer los alimentos.", "tp": "¿Qué órgano guarda la comida que tragamos para empezar a digerirla? ¿Pulmón, riñón, corazón o estómago?", "tr": "¡El estómago!", "td": "El estómago produce jugos que ayudan a deshacer los alimentos."},
-  {"n": 63, "tema": "comida", "p": "¿Qué grano revienta con el calor y se convierte en palomitas?", "o": ["Trigo", "Arroz", "Maíz", "Avena"], "c": 2, "o_fotos": [{"q": "wheat", "src": "px"}, {"q": "rice grains", "src": "px"}, {"q": "corn", "src": "px"}, {"q": "oats", "src": "px"}], "d": "Cada grano guarda un poco de agua que, al calentarse, hace estallar la cáscara.", "tp": "¿Qué grano revienta con el calor y se convierte en palomitas? ¿Trigo, arroz, maíz o avena?", "tr": "¡El maíz!", "td": "Cada grano guarda un poco de agua que, al calentarse, hace estallar la cáscara."},
-  {"n": 64, "tema": "geografía", "p": "¿En qué país está el Taj Mahal, un palacio de mármol blanco?", "o": ["India", "China", "Tailandia", "Egipto"], "c": 0, "o_fotos": [{"flag": "in"}, {"flag": "cn"}, {"flag": "th"}, {"flag": "eg"}], "d": "Se construyó en el siglo XVII en recuerdo de la esposa de un emperador.", "tp": "¿En qué país está el Taj Mahal, un palacio de mármol blanco? ¿India, China, Tailandia o Egipto?", "tr": "¡La India!", "td": "Se construyó en el siglo diecisiete en recuerdo de la esposa de un emperador."},
-  {"n": 65, "tema": "historia", "p": "¿Qué emperador francés perdió la batalla de Waterloo, en 1815?", "o": ["Luis XIV", "Napoleón Bonaparte", "Carlomagno", "Julio César"], "c": 1, "d": "Después de Waterloo fue enviado a la isla de Santa Elena.", "tp": "¿Qué emperador francés perdió la batalla de Waterloo, en mil ochocientos quince? ¿Luis Catorce, Napoleón Bonaparte, Carlomagno o Julio César?", "tr": "¡Napoleón Bonaparte!", "td": "Después de Waterloo fue enviado a la isla de Santa Elena."},
-  {"n": 66, "tema": "geografía", "ronda": "misteriosa", "p": "¿En qué ciudad está este famoso edificio con forma de velas?", "o": ["Melbourne", "Sídney", "Auckland", "Perth"], "c": 1, "img_q": "Sydney Opera House", "img_modo": "pregunta", "d": "La Ópera de Sídney se inauguró en 1973 y es Patrimonio de la Humanidad.", "tp": "¿En qué ciudad está este famoso edificio con forma de velas? ¿Melbourne, Sídney, Auckland o Perth?", "tr": "¡Sídney!", "td": "La Ópera de Sídney se inauguró en mil novecientos setenta y tres y es Patrimonio de la Humanidad."},
-  {"n": 67, "tema": "animales", "ronda": "misteriosa", "p": "¿Qué animal es este, símbolo de China, que come bambú casi todo el día?", "o": ["Oso polar", "Koala", "Panda gigante", "Mapache"], "c": 2, "img_q": "Giant panda", "img_modo": "pregunta", "d": "Un panda gigante puede pasar más de 10 horas al día comiendo bambú.", "tp": "¿Qué animal es este, símbolo de China, que come bambú casi todo el día? ¿Oso polar, koala, panda gigante o mapache?", "tr": "¡El panda gigante!", "td": "Un panda gigante puede pasar más de diez horas al día comiendo bambú."},
-  {"n": 68, "tema": "comida", "ronda": "misteriosa", "p": "¿Cómo se llama esta pasta italiana larga y delgada?", "o": ["Macarrón", "Lasaña", "Ravioles", "Espagueti"], "c": 3, "img_q": "Spaghetti", "img_modo": "pregunta", "d": "La palabra «espagueti» viene del italiano «spago», que significa cuerda delgada.", "tp": "¿Cómo se llama esta pasta italiana larga y delgada? ¿Macarrón, lasaña, ravioles o espagueti?", "tr": "¡Espagueti!", "td": "La palabra espagueti viene del italiano spago, que significa cuerda delgada."},
-  {"n": 69, "tema": "idiomas", "p": "¿Cómo se dice «gracias» en francés?", "o": ["Danke", "Grazie", "Obrigado", "Merci"], "c": 3, "d": "«Merci beaucoup» significa «muchas gracias».", "tp": "¿Cómo se dice gracias en francés? ¿Danke, grazie, obrigado o merci?", "tr": "¡Merci!", "td": "Merci beaucoup significa muchas gracias."},
-  {"n": 70, "tema": "ciencia", "p": "¿Qué necesitamos para ver un arcoíris?", "o": ["Sol y lluvia", "Viento y nieve", "Luna y niebla", "Rayos y truenos"], "c": 0, "d": "La luz del Sol se separa en colores dentro de las gotitas de agua.", "tp": "¿Qué necesitamos para ver un arcoíris? ¿Sol y lluvia, viento y nieve, Luna y niebla, o rayos y truenos?", "tr": "¡Sol y lluvia!", "td": "La luz del Sol se separa en colores dentro de las gotitas de agua."},
-  {"n": 71, "tema": "música", "p": "¿Qué instrumento de metal se toca soplando y apretando tres pistones?", "o": ["Flauta", "Clarinete", "Trompeta", "Oboe"], "c": 2, "o_fotos": [{"q": "flute", "src": "px"}, {"q": "clarinet", "src": "px"}, {"q": "trumpet", "src": "px"}, {"q": "oboe", "src": "px"}], "d": "El sonido cambia según los pistones que aprietes y cómo soples.", "tp": "¿Qué instrumento de metal se toca soplando y apretando tres pistones? ¿Flauta, clarinete, trompeta u oboe?", "tr": "¡La trompeta!", "td": "El sonido cambia según los pistones que aprietes y cómo soples."}
+  {
+   "n": 61,
+   "tema": "animales",
+   "p": "¿Qué insecto hace «cri cri» por las noches frotando sus alas?",
+   "o": [
+    "Mosca",
+    "Grillo",
+    "Mariquita",
+    "Mosquito"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "fly insect",
+     "src": "px"
+    },
+    {
+     "q": "cricket insect",
+     "src": "px"
+    },
+    {
+     "q": "ladybug",
+     "src": "px"
+    },
+    {
+     "q": "mosquito",
+     "src": "px"
+    }
+   ],
+   "d": "Solo los grillos machos cantan, para llamar a las hembras.",
+   "tp": "¿Qué insecto hace cri cri por las noches frotando sus alas? ¿Mosca, grillo, mariquita o mosquito?",
+   "tr": "¡El grillo!",
+   "td": "Solo los grillos machos cantan, para llamar a las hembras."
+  },
+  {
+   "n": 62,
+   "tema": "cuerpo",
+   "p": "¿Qué órgano guarda la comida que tragamos para empezar a digerirla?",
+   "o": [
+    "Pulmón",
+    "Riñón",
+    "Corazón",
+    "Estómago"
+   ],
+   "c": 3,
+   "d": "El estómago produce jugos que ayudan a deshacer los alimentos.",
+   "tp": "¿Qué órgano guarda la comida que tragamos para empezar a digerirla? ¿Pulmón, riñón, corazón o estómago?",
+   "tr": "¡El estómago!",
+   "td": "El estómago produce jugos que ayudan a deshacer los alimentos."
+  },
+  {
+   "n": 63,
+   "tema": "comida",
+   "p": "¿Qué grano revienta con el calor y se convierte en palomitas?",
+   "o": [
+    "Trigo",
+    "Arroz",
+    "Maíz",
+    "Avena"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "wheat",
+     "src": "px"
+    },
+    {
+     "q": "rice grains",
+     "src": "px"
+    },
+    {
+     "q": "corn",
+     "src": "px"
+    },
+    {
+     "q": "oats",
+     "src": "px"
+    }
+   ],
+   "d": "Cada grano guarda un poco de agua que, al calentarse, hace estallar la cáscara.",
+   "tp": "¿Qué grano revienta con el calor y se convierte en palomitas? ¿Trigo, arroz, maíz o avena?",
+   "tr": "¡El maíz!",
+   "td": "Cada grano guarda un poco de agua que, al calentarse, hace estallar la cáscara."
+  },
+  {
+   "n": 64,
+   "tema": "geografía",
+   "p": "¿En qué país está el Taj Mahal, un palacio de mármol blanco?",
+   "o": [
+    "India",
+    "China",
+    "Tailandia",
+    "Egipto"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "flag": "in"
+    },
+    {
+     "flag": "cn"
+    },
+    {
+     "flag": "th"
+    },
+    {
+     "flag": "eg"
+    }
+   ],
+   "d": "Se construyó en el siglo XVII en recuerdo de la esposa de un emperador.",
+   "tp": "¿En qué país está el Taj Mahal, un palacio de mármol blanco? ¿India, China, Tailandia o Egipto?",
+   "tr": "¡La India!",
+   "td": "Se construyó en el siglo diecisiete en recuerdo de la esposa de un emperador."
+  },
+  {
+   "n": 65,
+   "tema": "historia",
+   "p": "¿Qué emperador francés perdió la batalla de Waterloo, en 1815?",
+   "o": [
+    "Luis XIV",
+    "Napoleón Bonaparte",
+    "Carlomagno",
+    "Julio César"
+   ],
+   "c": 1,
+   "d": "Después de Waterloo fue enviado a la isla de Santa Elena.",
+   "tp": "¿Qué emperador francés perdió la batalla de Waterloo, en mil ochocientos quince? ¿Luis Catorce, Napoleón Bonaparte, Carlomagno o Julio César?",
+   "tr": "¡Napoleón Bonaparte!",
+   "td": "Después de Waterloo fue enviado a la isla de Santa Elena."
+  },
+  {
+   "n": 66,
+   "tema": "geografía",
+   "ronda": "misteriosa",
+   "p": "¿En qué ciudad está este famoso edificio con forma de velas?",
+   "o": [
+    "Melbourne",
+    "Sídney",
+    "Auckland",
+    "Perth"
+   ],
+   "c": 1,
+   "img_q": "Sydney Opera House",
+   "img_modo": "pregunta",
+   "d": "La Ópera de Sídney se inauguró en 1973 y es Patrimonio de la Humanidad.",
+   "tp": "¿En qué ciudad está este famoso edificio con forma de velas? ¿Melbourne, Sídney, Auckland o Perth?",
+   "tr": "¡Sídney!",
+   "td": "La Ópera de Sídney se inauguró en mil novecientos setenta y tres y es Patrimonio de la Humanidad."
+  },
+  {
+   "n": 67,
+   "tema": "animales",
+   "ronda": "misteriosa",
+   "p": "¿Qué animal es este, símbolo de China, que come bambú casi todo el día?",
+   "o": [
+    "Oso polar",
+    "Koala",
+    "Panda gigante",
+    "Mapache"
+   ],
+   "c": 2,
+   "img_q": "Giant panda",
+   "img_modo": "pregunta",
+   "d": "Un panda gigante puede pasar más de 10 horas al día comiendo bambú.",
+   "tp": "¿Qué animal es este, símbolo de China, que come bambú casi todo el día? ¿Oso polar, koala, panda gigante o mapache?",
+   "tr": "¡El panda gigante!",
+   "td": "Un panda gigante puede pasar más de diez horas al día comiendo bambú."
+  },
+  {
+   "n": 68,
+   "tema": "comida",
+   "ronda": "misteriosa",
+   "p": "¿Cómo se llama esta pasta italiana larga y delgada?",
+   "o": [
+    "Macarrón",
+    "Lasaña",
+    "Ravioles",
+    "Espagueti"
+   ],
+   "c": 3,
+   "img_q": "Spaghetti",
+   "img_modo": "pregunta",
+   "d": "La palabra «espagueti» viene del italiano «spago», que significa cuerda delgada.",
+   "tp": "¿Cómo se llama esta pasta italiana larga y delgada? ¿Macarrón, lasaña, ravioles o espagueti?",
+   "tr": "¡Espagueti!",
+   "td": "La palabra espagueti viene del italiano spago, que significa cuerda delgada."
+  },
+  {
+   "n": 69,
+   "tema": "idiomas",
+   "p": "¿Cómo se dice «gracias» en francés?",
+   "o": [
+    "Danke",
+    "Grazie",
+    "Obrigado",
+    "Merci"
+   ],
+   "c": 3,
+   "d": "«Merci beaucoup» significa «muchas gracias».",
+   "tp": "¿Cómo se dice gracias en francés? ¿Danke, grazie, obrigado o merci?",
+   "tr": "¡Merci!",
+   "td": "Merci beaucoup significa muchas gracias."
+  },
+  {
+   "n": 70,
+   "tema": "ciencia",
+   "p": "¿Qué necesitamos para ver un arcoíris?",
+   "o": [
+    "Sol y lluvia",
+    "Viento y nieve",
+    "Luna y niebla",
+    "Rayos y truenos"
+   ],
+   "c": 0,
+   "d": "La luz del Sol se separa en colores dentro de las gotitas de agua.",
+   "tp": "¿Qué necesitamos para ver un arcoíris? ¿Sol y lluvia, viento y nieve, Luna y niebla, o rayos y truenos?",
+   "tr": "¡Sol y lluvia!",
+   "td": "La luz del Sol se separa en colores dentro de las gotitas de agua."
+  },
+  {
+   "n": 71,
+   "tema": "música",
+   "p": "¿Qué instrumento de metal se toca soplando y apretando tres pistones?",
+   "o": [
+    "Flauta",
+    "Clarinete",
+    "Trompeta",
+    "Oboe"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "flute",
+     "src": "px"
+    },
+    {
+     "q": "clarinet",
+     "src": "px"
+    },
+    {
+     "q": "trumpet",
+     "src": "px"
+    },
+    {
+     "q": "oboe",
+     "src": "px"
+    }
+   ],
+   "d": "El sonido cambia según los pistones que aprietes y cómo soples.",
+   "tp": "¿Qué instrumento de metal se toca soplando y apretando tres pistones? ¿Flauta, clarinete, trompeta u oboe?",
+   "tr": "¡La trompeta!",
+   "td": "El sonido cambia según los pistones que aprietes y cómo soples."
+  }
  ],
- "fotos_miniatura": [[14, 0], [19, 2], [45, 0], [60, 0]],
+ "fotos_miniatura": [
+  [
+   14,
+   0
+  ],
+  [
+   19,
+   2
+  ],
+  [
+   45,
+   0
+  ],
+  [
+   60,
+   0
+  ]
+ ],
  "extra_tts": {
   "an_tema": [
    "anunciador",
@@ -1133,11 +1533,29 @@
    "copresentadora",
    "La lupa la traes en la cabeza, MAX. Ahora vienen otras tres de verdadero o falso."
   ],
-  "charla60_pr": ["presentador", "¡Sesenta! La quena suena tan bonito que mis tuercas se pusieron a bailar."],
-  "charla60_co": ["copresentadora", "Bailaron fuera de ritmo, MAX. Familia, ¿ya revisaron el ranking del celular?"],
-  "charla65_pr": ["presentador", "¡Sesenta y cinco! Los grillos cantan de noche; yo canto con ruido de engranajes."],
-  "charla65_co": ["copresentadora", "Ese concierto nadie lo pidió, MAX. Ahora vienen tres imágenes misteriosas, ¡atentos!"],
-  "charla70_pr": ["presentador", "Un panda, un espagueti y una ópera con velas: ¡mi cabeza dio vueltas como pasta!"],
-  "charla70_co": ["copresentadora", "Qué bien lo dices, MAX. Setenta listas, ¡revisen el ranking en el celular!"]
+  "charla60_pr": [
+   "presentador",
+   "¡Sesenta! La quena suena tan bonito que mis tuercas se pusieron a bailar."
+  ],
+  "charla60_co": [
+   "copresentadora",
+   "Bailaron fuera de ritmo, MAX. Familia, ¿ya revisaron el ranking del celular?"
+  ],
+  "charla65_pr": [
+   "presentador",
+   "¡Sesenta y cinco! Los grillos cantan de noche; yo canto con ruido de engranajes."
+  ],
+  "charla65_co": [
+   "copresentadora",
+   "Ese concierto nadie lo pidió, MAX. Ahora vienen tres imágenes misteriosas, ¡atentos!"
+  ],
+  "charla70_pr": [
+   "presentador",
+   "Un panda, un espagueti y una ópera con velas: ¡mi cabeza dio vueltas como pasta!"
+  ],
+  "charla70_co": [
+   "copresentadora",
+   "Qué bien lo dices, MAX. Setenta listas, ¡revisen el ranking en el celular!"
+  ]
  }
 }
