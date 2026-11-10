@@ -98,5 +98,25 @@
  "an_final_equipo__0": {
   "voz": "anunciador",
   "texto": "¡Llegamos con todo el equipo! ¿Cuántas sacaste? ¡Escríbelo abajo!"
+ },
+ "an_dragon_rescate__0": {
+  "voz": "anunciador",
+  "texto": "¡Un dragón dorado al rescate!"
+ },
+ "an_patineta__0": {
+  "voz": "anunciador",
+  "texto": "¡Patinetas cohete! ¡Agárrense!"
+ },
+ "an_carrito__0": {
+  "voz": "anunciador",
+  "texto": "¿Un carrito de supermercado con cohete? ¡Claro que sí!"
+ },
+ "an_pato__0": {
+  "voz": "anunciador",
+  "texto": "¡Ahora en pato de hule volador!"
+ },
+ "an_dragon__0": {
+  "voz": "anunciador",
+  "texto": "¡Volvió el dragón!"
  }
 }
