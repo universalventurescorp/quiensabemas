@@ -320,6 +320,7 @@ class Navidad(Ciudad):
                     fr.paste(im, (int(cx + sc * X * PW - im.width / 2), int(sy - im.height - hop)), im)
             if s.arco[j]: s.arco_dibujar(d, cx, sy, sc, zz, j, t, s.arco[j], zj)
         s.nieve(fr, t, z)
+        if z in (2, 3, 5): s.luciernagas(fr, t, z)
 
     def arco_dibujar(s, d, cx, sy, sc, zz, j, t, tipo, zj):
         """Arco sobre la carretera. tipo 1: pinos nevados con luces (se repite hasta el horizonte); 2: arco de luces."""
@@ -354,6 +355,19 @@ class Navidad(Ciudad):
                 x, y = ln[i]
                 if rl > 2.5: d.ellipse((x - rl * 2.4, y - rl * 2.4, x + rl * 2.4, y + rl * 2.4), fill=c + (70,))
                 d.ellipse((x - rl, y - rl, x + rl, y + rl), fill=c + (255,))
+
+    def luciernagas(s, fr, t, z):
+        """Lucecitas flotantes (idea del video del ciervo de Luis): bosque dorado, lago y Polo Norte turquesa."""
+        capa = Image.new('RGBA', (W // 2, H // 2), (0, 0, 0, 0)); d = ImageDraw.Draw(capa)
+        r = np.random.default_rng(31 + z); col = (255, 214, 120) if z == 2 else (140, 240, 255)
+        for i in range(60):
+            x0, y0, sp, ph = r.uniform(0, W / 2), r.uniform(H * 0.12, H * 0.48), r.uniform(0.3, 1.0), r.uniform(0, 6.3)
+            x = (x0 + 30 * math.sin(t * 0.6 * sp + ph) - t * 25 * sp) % (W / 2); y = y0 + 18 * math.sin(t * 0.9 * sp + ph * 2)
+            br = 0.5 + 0.5 * math.sin(t * 2.5 * sp + ph * 3)
+            R = 7 + 6 * sp; d.ellipse((x - R, y - R, x + R, y + R), fill=col + (int(70 * br),))
+            r2 = 1.6 + 1.2 * sp; d.ellipse((x - r2, y - r2, x + r2, y + r2), fill=(255, 255, 240, int(150 + 105 * br)))
+        capa = capa.filter(ImageFilter.GaussianBlur(1.5)).resize((W, H), Image.BILINEAR)
+        fr.paste(capa, (0, 0), capa)
 
     def nieve(s, fr, t, z):
         """Copos cayendo (en el cielo de Nochebuena: destellos dorados)."""
