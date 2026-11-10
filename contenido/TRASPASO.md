@@ -13,7 +13,9 @@ Leer también: `contenido/navidad_plan.md` (lo que se produce ahora), `contenido
 - `assets/navidad/`: huevo-regalo, nace (bebé con gorro), bebe_vuela, joven (bufanda), adulto (arnés con cascabeles), trineo (de espaldas) y trineo_lado. Recortados del verde.
 - Flow: al mandar ~8 prompts seguidos salta «usage limit»; mandar de a 2-3 y esperar. Luis tiene otra cuenta de Google de respaldo para Flow.
 - Ojo descargas: los `.tmp` desaparecen cuando Luis cancela «Guardar» → hacer `device_stage_files` justo después de descargar. Tamaño en bytes identifica cada imagen.
-- Faltan en Flow: regalos-puerta A (rosado) y B (celeste), 9 fondos 16:9, 3-4 fachadas navideñas, MAX y NOVA con gorro, reno gigante, patines, trineo de madera, miniaturas.
+- Hechos (10-nov 16:40): `assets/navidad/fondos/z1..z9` (avenida, fábrica, bosque, lago, dulces, polo, montaña, tejados, cielo; 1376x768), `regalo_a.png` (rosado) y `regalo_b.png` (celeste), `max_gorro.png` (Flow) y `nova_gorro.png` (nova1 original + gorro/bufanda trasplantados por código, porque Flow cambiaba su ropa).
+- Flow: Nano Banana Pro se agota rápido; **Nano Banana 2.1** (0 créditos) siguió funcionando en la cuenta principal. Con referencia de Character el botón enviar se ignora si hay otra generación en curso → enviar de a uno y limpiar la caja (ctrl+a, Delete) antes de escribir, si no se juntan prompts. Cuenta de respaldo abierta en pestaña `flow.google.com/u/1`.
+- Faltan en Flow (opcionales): reno gigante, patines, trineo de madera, fachadas navideñas 9:16, 3 miniaturas.
 - Música: `assets/musica_navidad.enc` (tar de `cama/*.ogg` 13 instrumentales con prefijo rapida_/jazz_/calma_/accion_/epica_ y `especial/` cierre_auld_lang_syne + final_we_wish_voz (CON VOZ: solo en el final sin diálogo)). Se descifra igual que musica.enc pero con el secret **MUSICA_NAVIDAD_CLAVE** (Luis debe crearlo). Excluidas: versiones con voz y I Have a Little Dreidel (Janucá).
 
 ## Pendiente inmediato (en orden)
