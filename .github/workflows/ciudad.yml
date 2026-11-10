@@ -1,0 +1,133 @@
+name: ciudad
+# MUESTRA «¿A o B? en la ciudad» (10-nov-2026, autorizada por Luis): 10 preguntas en una ciudad nocturna con puertas A/B,
+# caídas, túnel, puente roto + nave y vuelta de cabeza. Reusa fotos y voces de una corrida de rapido.yml (run_fotos)
+# y solo genera las voces nuevas (banco/ciudad). Sube EN PRIVADO y deja el diagnóstico en la rama diag-ciudad.
+# NO toca la producción diaria ni el banco de preguntas.
+on:
+  workflow_dispatch:
+    inputs:
+      run_fotos:
+        description: "Corrida de rapido.yml de donde salen fotos y voces"
+        default: "42690110073"
+      n:
+        description: "Cantidad de preguntas"
+        default: "10"
+      subir:
+        description: "1 = subir a YouTube en privado"
+        default: "1"
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: ciudad
+  cancel-in-progress: false
+
+jobs:
+  voces:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        parte: [0, 1, 2]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: qwen3-tts-1.7b-base
+      - name: Instalar (torch CPU)
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq sox libsox-dev
+          pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install -q qwen-tts soundfile transformers
+      - name: Voces nuevas de la ciudad (solo lo que falte)
+        run: python scripts/generar_voces.py contenido/ciudad_voces.json banco/ciudad --parte ${{ matrix.parte }} --partes 3
+      - uses: actions/upload-artifact@v4
+        with: { name: "ciudad-voces-${{ matrix.parte }}", path: banco/ciudad, retention-days: 3 }
+
+  render:
+    needs: voces
+    runs-on: ubuntu-24.04
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fotos y voces de la corrida del formato rápido
+        uses: actions/download-artifact@v4
+        with: { name: trabajo, path: trabajo, run-id: "${{ inputs.run_fotos }}", github-token: "${{ github.token }}" }
+      - uses: actions/download-artifact@v4
+        with: { pattern: "voces-*", path: ., merge-multiple: true, run-id: "${{ inputs.run_fotos }}", github-token: "${{ github.token }}" }
+      - uses: actions/download-artifact@v4
+        with: { pattern: "ciudad-voces-*", path: banco/ciudad, merge-multiple: true }
+      - name: Unir los índices de voces de la ciudad
+        run: |
+          python - <<'PY'
+          import json, glob, os
+          idx = {}
+          for f in sorted(glob.glob('banco/ciudad/**/indice*.json', recursive=True)):
+              try: idx.update(json.load(open(f, encoding='utf-8')))
+              except Exception as e: print('índice', f, e)
+          if idx: json.dump(idx, open('banco/ciudad/indice.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+          print(len(idx), 'voces;', len(glob.glob('banco/ciudad/*.wav')), 'wav')
+          PY
+      - name: Letra gruesa (Poppins Black, OFL)
+        run: test -f fuentes/Poppins-Black.ttf || curl -sSfL -o fuentes/Poppins-Black.ttf https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Black.ttf || true
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Instalar
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q numpy pillow scipy reportlab google-api-python-client google-auth
+      - name: Descifrar la música (Biblioteca de audio de YouTube)
+        env: { MUSICA_CLAVE: "${{ secrets.MUSICA_CLAVE }}" }
+        run: |
+          if [ -n "$MUSICA_CLAVE" ]; then
+            mkdir -p assets/musica
+            printf '%s' "$MUSICA_CLAVE" | tr -d '[:space:]' > /tmp/clave
+            openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -pass file:/tmp/clave -in assets/musica.enc | tar -x -C assets/musica || echo "::warning::No se pudo descifrar la música"
+            rm -f /tmp/clave
+          fi
+      - name: Guion de la muestra
+        run: python scripts/preparar_ciudad.py trabajo/episodio.json trabajo/ciudad.json --n ${{ inputs.n }}
+      - name: Montar el video
+        run: python pipeline/ciudad.py --contenido trabajo/ciudad.json --voces voces_ep --out trabajo/video.mp4 --tmp tmp --miniatura trabajo/miniatura.jpg
+      - name: Subir a YouTube EN PRIVADO
+        if: inputs.subir == '1'
+        continue-on-error: true
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN_QSM: ${{ secrets.YT_REFRESH_TOKEN_QSM }}
+        run: |
+          python scripts/subir_youtube.py trabajo/ciudad.json trabajo/video.mp4 trabajo/video.tiempos.json trabajo/miniatura.jpg
+          cp publicados/ciudad-muestra.json trabajo/ 2>/dev/null || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: ciudad-video, path: "trabajo/video.*", retention-days: 7 }
+      - name: Guardar las voces nuevas en el banco
+        continue-on-error: true
+        run: |
+          git config user.name "quiensabemas-bot"; git config user.email "actions@users.noreply.github.com"
+          git add banco/ciudad
+          git commit -qm "Ciudad: voces nuevas del banco" || exit 0
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
+      - name: Diagnóstico (rama diag-ciudad)
+        if: always()
+        continue-on-error: true
+        run: |
+          mkdir -p /tmp/diag && cd trabajo
+          cp miniatura.jpg video.tiempos.json ciudad.json ciudad-muestra.json /tmp/diag/ 2>/dev/null || true
+          if [ -f video.mp4 ]; then
+            ffmpeg -v error -y -i video.mp4 -vf scale=960:-2 -c:v libx264 -crf 30 -preset veryfast -c:a aac -b:a 96k /tmp/diag/video_chico.mp4 || true
+            for s in 3 9 16 21 33 45 63 66 72 82 93 97 104; do ffmpeg -v error -y -ss $s -i video.mp4 -frames:v 1 -vf scale=960:-1 /tmp/diag/c_$(printf %03d $s).jpg; done
+            ls -la video.mp4
+          fi
+          cd /tmp/diag && ls
+          git init -q && git checkout -q -b d
+          git config user.name "quiensabemas-bot"; git config user.email "actions@users.noreply.github.com"
+          git add . && git commit -qm "Diagnóstico ciudad ${{ github.run_id }}"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" d:diag-ciudad
