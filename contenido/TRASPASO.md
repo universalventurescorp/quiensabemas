@@ -26,6 +26,8 @@ Leer también: `contenido/navidad_plan.md` (lo que se produce ahora), `contenido
 - Prueba local del armado repartido OK (3 tramos unidos con concat -c copy + audio; el corte no se nota).
 - Tests: el botón enviar de Flow se mueve; usar `find "arrow_forward"` y clic por ref.
 
+- 10-nov 16:51 Luis pidió que TODO sea Navidad. Decidido: subir a ≈50 % preguntas de Navidad/invierno (tradiciones del mundo, Polo Norte, animales del frío, dulces navideños) y el resto de cultura general con presentación navideña; escribir ~150 navideñas más.
+
 ## Pendiente inmediato (en orden)
 1. (HECHO) Construir el armado repartido: `ciudad.py --desde/--hasta` (cuadros) por máquina + job final que une video, mezcla audio y sube. Ojo: `s._skyx` se acumula cuadro a cuadro → precalcularlo como arreglo para que no salte entre tramos.
 2. Imágenes navideñas en Flow (lista en `navidad_plan.md`).
