@@ -22,11 +22,15 @@ Leer también: `contenido/navidad_plan.md` (lo que se produce ahora), `contenido
 - Preguntas escritas: `contenido/ciudad/preguntas_a.txt` (162), `preguntas_b.txt` (~107), `preguntas_c.txt` (~77, con `## nivel`), `preguntas_navidad.txt` (~92, con `## nivel`). Faltan ~80 más (≈45 navideñas) + script que arme el JSON.
 - Armado repartido HECHO en `pipeline/ciudad.py` (`--tramo i --tramos N`, `--solo-audio`; `_skyx` precalculado con `skyx_de(k)`) y `.github/workflows/navidad.yml` (preparar → voces ×16 → render ×N + audio → unir → subir privado → rama diag-navidad). Falta probarlo en Actions.
 
+- 10-nov 16:50 (límite de uso de Luis al 91 %, se corta la sesión): Luis aclaró que la idea son animales navideños **a los lados de la carretera** (público que saluda). Hechos 54 PNG en `assets/navidad/publico/` (`<zona><n>_<animal>.png`: polar, andes, bosque, ciudad, lago, dulces, artico, africa). En Flow (cuenta principal, proyecto ¿Quién Sabe Más?, 1:1 x2, Nano Banana 2.1) quedó generado SIN descargar el lote «selva» (perezoso, jaguar, tucán, capibara). Receta: prompt «Four cute 3D Pixar-style animals ... in a row ... Clothing only red, white and gold (no green clothing) ... chroma key green» → `DIL=2 python scripts/separar_animales.py img.jpg assets/navidad/publico <pref> a,b,c,d`. Faltan: granja, Australia, aves.
+- Prueba local del armado repartido OK (3 tramos unidos con concat -c copy + audio; el corte no se nota).
+- Tests: el botón enviar de Flow se mueve; usar `find "arrow_forward"` y clic por ref.
+
 ## Pendiente inmediato (en orden)
-1. Construir el armado repartido: `ciudad.py --desde/--hasta` (cuadros) por máquina + job final que une video, mezcla audio y sube. Ojo: `s._skyx` se acumula cuadro a cuadro → precalcularlo como arreglo para que no salte entre tramos.
+1. (HECHO) Construir el armado repartido: `ciudad.py --desde/--hasta` (cuadros) por máquina + job final que une video, mezcla audio y sube. Ojo: `s._skyx` se acumula cuadro a cuadro → precalcularlo como arreglo para que no salte entre tramos.
 2. Imágenes navideñas en Flow (lista en `navidad_plan.md`).
 3. Escribir ~520 preguntas (quedan ~450 tras la revisión de fotos). Hay una parte A empezada: `contenido/ciudad/preguntas_a.txt` (162 fáciles, formato `pregunta ; correcta ; incorrecta ; foto ok ; foto mal ; respuesta`). Falta: partes B y C (medias/difíciles) + 30 % navideñas + script que arme el JSON (como `scripts/escribir_rapido001.py`) y revisión contra `banco/preguntas.jsonl`.
-4. Generalizar `ciudad.py` a 9 zonas (fondo, fachadas, vehículo y eventos por zona) y a más etapas del dragón.
+4. SIGUIENTE: Generalizar `ciudad.py` a 9 zonas (fondos `assets/navidad/fondos/z1..z9`, ZONAS, regalos A/B en vez de puertas, público de animales a los costados, 6 etapas del dragón de `assets/navidad/`, MAX/NOVA con gorro) (fondo, fachadas, vehículo y eventos por zona) y a más etapas del dragón.
 5. Producir el episodio, subir en privado, Luis revisa.
 
 ## Luis
