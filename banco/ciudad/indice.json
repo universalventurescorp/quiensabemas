@@ -118,5 +118,25 @@
  "an_dragon__0": {
   "voz": "anunciador",
   "texto": "¡Volvió el dragón!"
+ },
+ "an_huevo__0": {
+  "voz": "anunciador",
+  "texto": "¡Encontramos un huevo de dragón! Cada respuesta correcta lo alimenta."
+ },
+ "an_nace__0": {
+  "voz": "anunciador",
+  "texto": "¡Está naciendo! ¡Nació nuestro dragón!"
+ },
+ "co_nace__0": {
+  "voz": "copresentadora",
+  "texto": "¡Awww, qué lindo es!"
+ },
+ "an_crece__0": {
+  "voz": "anunciador",
+  "texto": "¡Nuestro dragón está creciendo!"
+ },
+ "an_dragon_salva__0": {
+  "voz": "anunciador",
+  "texto": "¡Nuestro dragón creció y nos salvó!"
  }
 }
