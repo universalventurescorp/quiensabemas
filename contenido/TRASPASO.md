@@ -18,6 +18,10 @@ Leer también: `contenido/navidad_plan.md` (lo que se produce ahora), `contenido
 - Faltan en Flow (opcionales): reno gigante, patines, trineo de madera, fachadas navideñas 9:16, 3 miniaturas.
 - Música: `assets/musica_navidad.enc` (tar de `cama/*.ogg` 13 instrumentales con prefijo rapida_/jazz_/calma_/accion_/epica_ y `especial/` cierre_auld_lang_syne + final_we_wish_voz (CON VOZ: solo en el final sin diálogo)). Se descifra igual que musica.enc pero con el secret **MUSICA_NAVIDAD_CLAVE** (Luis debe crearlo). Excluidas: versiones con voz y I Have a Little Dreidel (Janucá).
 
+- Idea de Luis (10-nov 16:36): animales «súper tiernos vestidos de Navidad». Decidido: el EQUIPO que se une al acertar (y el desfile final) usa ~40 animales de Flow con gorro/bufanda/suéter navideño, en verde 9:16, en `assets/navidad/animales/<nombre>.png`; en las PREGUNTAS se quedan las fotos reales (para que se puedan responder). Generar de a 2-3 con Nano Banana 2.1.
+- Preguntas escritas: `contenido/ciudad/preguntas_a.txt` (162), `preguntas_b.txt` (~107), `preguntas_c.txt` (~77, con `## nivel`), `preguntas_navidad.txt` (~92, con `## nivel`). Faltan ~80 más (≈45 navideñas) + script que arme el JSON.
+- Armado repartido HECHO en `pipeline/ciudad.py` (`--tramo i --tramos N`, `--solo-audio`; `_skyx` precalculado con `skyx_de(k)`) y `.github/workflows/navidad.yml` (preparar → voces ×16 → render ×N + audio → unir → subir privado → rama diag-navidad). Falta probarlo en Actions.
+
 ## Pendiente inmediato (en orden)
 1. Construir el armado repartido: `ciudad.py --desde/--hasta` (cuadros) por máquina + job final que une video, mezcla audio y sube. Ojo: `s._skyx` se acumula cuadro a cuadro → precalcularlo como arreglo para que no salte entre tramos.
 2. Imágenes navideñas en Flow (lista en `navidad_plan.md`).
