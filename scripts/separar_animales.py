@@ -21,7 +21,7 @@ def main():
     os.makedirs(out, exist_ok=True)
     a = np.asarray(Image.open(ent).convert('RGB')).astype(np.float32)
     al = alfa_verde(a)
-    m = binary_dilation(al > 0.5, iterations=6)          # une partes sueltas del mismo animal (astas, bufanda)
+    m = binary_dilation(al > 0.5, iterations=int(os.environ.get('DIL', '6')))          # une partes sueltas del mismo animal (astas, bufanda)
     lb, n = label(m); objs = find_objects(lb)
     piezas = [(sl[1].start, k + 1, sl) for k, sl in enumerate(objs) if (sl[0].stop - sl[0].start) * (sl[1].stop - sl[1].start) > 0.004 * m.size]
     piezas.sort()
