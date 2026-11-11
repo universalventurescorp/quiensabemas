@@ -49,3 +49,8 @@ Leer también: `contenido/navidad_plan.md` (lo que se produce ahora), `contenido
 
 ## Luis
 Una sola propuesta decidida; lenguaje simple; respuestas breves; todo gratis; no construir sin su autorización (ya autorizó el episodio de Navidad); honestidad. Meta: 300K suscriptores con 2 videos (se le dijo que es muy difícil; el plan busca maximizar la probabilidad).
+
+## Episodio 1 de Navidad: subido en privado (11-nov-2026)
+- Run 42985901511 → YouTube `tx6klgb0Zhc` en PRIVADO, 57.5 min, 4K (15.4 GB), 390 preguntas con fotos (115 descartadas por el revisor).
+- Lecciones: esperar ~15 s tras el push antes de lanzar y verificar head_sha; revisar fotos en partes de 70 (una sola revisión de 505 no termina); hoja de contacto partida en 300 filas (límite JPG 65535 px).
+- Pendiente: Luis lo publica él mismo. Siguiente: episodio 2 (~12-dic) y Shorts diarios según navidad_plan.md.
