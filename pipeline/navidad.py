@@ -755,7 +755,7 @@ class Navidad(Ciudad):
                 for r_ in range(4):
                     R = (200 + 90 * r_) * (0.7 + u); d.ellipse((x - R, y - R, x + R, y + R), fill=(255, 200, 70, int(30 + 40 * u)))
                 im = etapa_img(prev[0], alto, t); fr.paste(im, (int(x - im.width / 2), int(y - im.height / 2)), im)
-                d.text((W / 2, 190), '¡ESTÁ CRECIENDO!', font=font('Black', 110), fill=ORO, anchor='mm', stroke_width=10, stroke_fill=TINTA)
+                d.text((W / 2, 300), '¡ESTÁ CRECIENDO!', font=font('Black', 110), fill=ORO, anchor='mm', stroke_width=10, stroke_fill=TINTA)
             else:
                 u = clamp((t - tc) / 0.5); sc = max(0.05, ease_back(u)) if u < 1 else 1.0
                 im = etapa_img('trineo' if k == NMAX_NV else et_, max(20, int(760 * sc)), t)
@@ -764,8 +764,8 @@ class Navidad(Ciudad):
                     a_ = k_ * 2 * math.pi / 16 + t * 1.5; R = 430 + 30 * math.sin(t * 6 + k_)
                     estrella(d, W / 2 + math.cos(a_) * R * 1.35, y + math.sin(a_) * R * 0.7, 24, ORO)
                 fr.paste(im, (int(W / 2 - im.width / 2), int(y - im.height / 2)), im)
-                d.text((W / 2, 170), f'¡NIVEL {k}!', font=font('Black', max(10, int(150 * sc))), fill=ORO, anchor='mm', stroke_width=12, stroke_fill=TINTA)
-                d.text((W / 2, 300), NV_TXT[k], font=font('Black', max(10, int(84 * sc))), fill=BLANCO, anchor='mm', stroke_width=9, stroke_fill=TINTA)
+                d.text((W / 2, 300), f'¡NIVEL {k}!', font=font('Black', max(10, int(150 * sc))), fill=ORO, anchor='mm', stroke_width=12, stroke_fill=TINTA)
+                d.text((W / 2, 420), NV_TXT[k], font=font('Black', max(10, int(84 * sc))), fill=BLANCO, anchor='mm', stroke_width=9, stroke_fill=TINTA)
                 if t - tc < 0.25: fr.paste(Image.new('RGB', (W, H), (255, 255, 255)), (0, 0), Image.new('L', (W, H), int(255 * (1 - (t - tc) / 0.25))))
             return
         if tipo == 'huevo':
@@ -773,7 +773,7 @@ class Navidad(Ciudad):
             im = dragon_nav('huevo', max(20, int(560 * sc))); y = 620 + 14 * math.sin(t * 3)
             R = 340; d.ellipse((W / 2 - R, y - R, W / 2 + R, y + R), fill=(255, 190, 60, 45))
             fr.paste(im, (int(W / 2 - im.width / 2), int(y - im.height / 2)), im)
-            d.text((W / 2, 230), '¡UN REGALO… CON UN HUEVO DE DRAGÓN!', font=font('Black', max(10, int(84 * sc))), fill=ORO, anchor='mm', stroke_width=10, stroke_fill=TINTA)
+            d.text((W / 2, 270), '¡UN HUEVO DE DRAGÓN!', font=font('Black', max(10, int(110 * sc))), fill=ORO, anchor='mm', stroke_width=10, stroke_fill=TINTA)
             return
         nv, prog = s.prog_nivel(t)
         if tipo == 'nace' or nv == 0: return super().mascota(fr, t, esc)
