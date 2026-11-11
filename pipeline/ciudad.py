@@ -280,6 +280,7 @@ class Ciudad(R0.Show):
             else:
                 fin_p = s.decir(f'q{n:02d}_pregunta', max(ini, t_abre + lleg * 0.6), q['tp'])
             tc = fin_p + Rt.pausa(0.1); dc = {'normal': Rt.cuenta, 'rapido': 1.0, 'relampago': 0.45}[modo]
+            if s.agil and modo == 'normal': dc = min(dc, 2.0)    # navidad v2 (Luis): sin esperas largas
             if tipo == 'bajada':   # en la cuenta empieza la caída: todo (puertas incluidas) se va para abajo
                 f = s.decir('an_bajada', fin_p + 0.05) if s.habla_ev(idx) else fin_p + 0.1; tc = f + 0.05; dc = max(dc, 2.0)
                 s.feat.append((t_abre, tc, 'cima', None)); s.feat.append((tc, tc + dc + 0.6, 'caida', None))
@@ -287,13 +288,13 @@ class Ciudad(R0.Show):
             for k in range(3): s.son('tick_hi' if k == 2 else 'tick', tc + k * dc / 3, 0.9)
             s.audio.append((tc, R0.riser(dc))); s.cuentas.append((tc, tc + dc))
             tt = tc + dc; s.son('tiempo', tt, 0.8)
-            fin_t = s.decir('an_tiempo', tt + 0.05) if modo == 'normal' else tt + 0.1
+            fin_t = s.decir('an_tiempo', tt + 0.05) if modo == 'normal' and not s.agil else tt + 0.1
             dif = min(5, int(Rt.p * 6)); ap = {}
             for k, pr in (('presentador', [0.72, 0.66, 0.62, 0.58, 0.55, 0.52][dif]), ('copresentadora', [0.70, 0.66, 0.6, 0.57, 0.55, 0.52][dif])):
                 ap[k] = q['c'] if s.rr.random() < pr else 1 - q['c']
             s.apuestas[str(n)] = [ap['presentador'], ap['copresentadora']]
             t_m = fin_t + Rt.pausa(0.05); s.son('pop', t_m)
-            if modo == 'normal':
+            if modo == 'normal' and (not s.agil or idx % 4 == 0):
                 fin_m = s.decir(s.variante_pick('presentador', ap['presentador']), t_m)
                 t_n = fin_m + 0.05 - (0.2 if Rt.p > 0.4 else 0); s.son('pop', t_n)
                 fin_n = s.decir(s.variante_pick('copresentadora', ap['copresentadora']), t_n)
@@ -315,7 +316,7 @@ class Ciudad(R0.Show):
             s.equipo.append((tch + 0.15, idx)); s.son('union', tch + 0.75, 0.8)
             fin = max(fin_r, tch + 1.0) + Rt.pausa(0.15)
             # reacción (golpe o se une al equipo), 1 de cada 2 en modo normal
-            if modo == 'normal':
+            if modo == 'normal' and (not s.agil or idx % 4 == 2):
                 reacciones += 1
                 en_nave = s.nave_desde is not None and tr >= s.nave_desde
                 if (not m_ok or not n_ok) and not en_nave and reacciones % 2:
@@ -351,6 +352,8 @@ class Ciudad(R0.Show):
         pass
 
     puerta_limita = True
+    puerta_techo = 0
+    agil = False
     def puerta_z(s, t, esc, Pq, a):
         """Distancia de las puertas: llegan, esperan mientras se lee y salen disparadas al choque."""
         tr, tch = Pq['tr'], Pq['tch']; lt = t - esc[0]
@@ -586,7 +589,7 @@ class Ciudad(R0.Show):
             v = veh if veh in ('dragon', 'carrito', 'pato') else 'dragon'
             u = clamp((t - s.veh_desde(t)) / 0.45)   # aparece con un salto («pop»)
             x = (xm + xn) / 2; ang = (xm + xn - 1920) / 1920 * 14
-            y = 1140 + 14 * math.sin(t * (3.2 if v == 'dragon' else 5)) + extra.get('dy', 0) + 500 * (1 - ease_back(u)) - 240 * math.sin(math.pi * clamp(extra.get('salto', 0)))
+            y = 1140 + 14 * math.sin(t * (3.2 if v == 'dragon' else 5)) + extra.get('dy', 0) + 500 * (1 - ease_back(u)) - 240 * extra.get('alto', 1) * math.sin(math.pi * clamp(extra.get('salto', 0)))
             im = V[v]
             if v == 'dragon':   # aleteo: las alas suben y bajan (se estira un poco a lo ancho y a lo alto)
                 a = math.sin(t * 4.5); im = im.resize((int(im.width * (1 + 0.04 * a)), int(im.height * (1 - 0.025 * a))), Image.BILINEAR)
@@ -611,7 +614,7 @@ class Ciudad(R0.Show):
                 u = clamp((t - s.veh_desde(t)) / 0.45); y = H + 40 - 18 * abs(math.sin(t * 2.2 + ph * 3)) + 400 * (1 - ease_back(u))
                 x += 30 * math.sin(t * 1.7 + ph * 4)
             sal = extra.get('salto', 0)
-            if sal: y -= 260 * math.sin(math.pi * clamp(sal)) ; f *= 1 - 0.1 * math.sin(math.pi * clamp(sal))
+            if sal: y -= 260 * extra.get('alto', 1) * math.sin(math.pi * clamp(sal)) ; f *= 1 - 0.1 * math.sin(math.pi * clamp(sal))
             if cae is not None: y += 900 * cae ** 2; f *= 1 - 0.45 * cae
             fl = extra.get('flota', 0)
             if fl: y -= 70 * fl + 18 * math.sin(t * 9 + ph * 6); x += 22 * math.sin(t * 5 + ph * 3) * fl
@@ -669,6 +672,7 @@ class Ciudad(R0.Show):
                     wpx = sc * PUERTA_W * PW * s.puerta_tam(idx, i)
                     im = puertas[i].escala(wpx)
                     if t < tr and s.puerta_limita: cy = min(max(cy, 230 + im.height), 790)
+                    elif t < tr and s.puerta_techo: cy = max(cy, s.puerta_techo + im.height)   # que no se metan bajo el HUD
                     item = (cx, cy, im, i, ok, sc)
                     (frente if z < ZRUN + 60 else s._atras_lista(t)).append(item)
             s._ctx = dict(q=q, Pq=Pq, t=t, en_nave=en_nave, z=z)

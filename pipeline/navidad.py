@@ -47,7 +47,7 @@ ZONAS = [
 COL_A, COL_B = (240, 80, 160), (70, 190, 240)
 # ---- versión 2 (11-nov, crítica de Luis tras ver el episodio 1): paisaje nuevo cada ~45 s, dragón que crece con
 # cada acierto (9 niveles con habilidades), pista de montaña rusa con obstáculos, regalos dentro del mundo.
-N_MAX = 300            # ~45 min
+N_MAX = 360            # ~38 min con el ritmo ágil
 CADA_ZONA = 5          # preguntas por paisaje (los 9 paisajes se repiten en ciclo)
 # nivel del dragón → (imagen, alto al empezar el nivel, alto al terminarlo, vehículo de MAX y NOVA, texto del cartel)
 # (Luis: «llegué solo para ver al dragón crecer»: cambia de forma ~cada 3 min, crece con cada acierto y reacciona siempre)
@@ -72,7 +72,7 @@ NV_TXT = {k: e[4] for k, e in enumerate(ETAPAS) if e}
 NV_FUEGO, NV_PIRUETA, NV_BRILLA = 6, 10, 13
 # rasgo de la pista de cada pregunta (se rota): curvas, subidas, caídas en picada, túneles…
 PISTA_CICLO = ['curvas', 'colinas', 'zigzag', 'bajada', 'tunel', 'curvas2', 'subida', 'colinas', 'tunel', 'zigzag', 'bajada', 'curvas2']
-OBSTACULOS = ['muneco', 'tronco', 'regalos', 'baston']
+OBSTACULOS = ['muneco', 'bola', 'tronco', 'rampa', 'volcado', 'regalos', 'baston', 'hielo']
 # vehículo de cada zona (se pone en la 2.ª pregunta de la zona, después del cartel)
 VEH_ZONA = {0: 'corre', 1: 'patineta', 2: 'trineo_madera', 3: 'patines', 4: 'carrito', 5: 'reno', 6: 'corre', 7: 'pato', 8: 'trineo'}
 # vehículo → (alto en pantalla, base y, rebote, frecuencia del rebote)
@@ -273,6 +273,29 @@ def _obst_base(kind):
                                       (960, 480, 1300, 800, (60, 120, 220), ORO), (380, 160, 760, 420, (240, 190, 40), (220, 40, 60))):
             R(x0, y0, x1, y1, 24, fill=c, outline=(30, 20, 40), width=8)
             m = (x0 + x1) / 2; R(m - 30, y0, m + 30, y1, 0, fill=cr); R(x0, (y0 + y1) / 2 - 30, x1, (y0 + y1) / 2 + 30, 0, fill=cr)
+    elif kind == 'bola':   # bola de nieve gigante
+        E(w / 2 - 380, 40, w / 2 + 380, 800, fill=(236, 242, 252), outline=(170, 190, 225), width=12)
+        E(w / 2 - 330, 90, w / 2 + 120, 520, fill=(250, 252, 255))
+        for k in range(14):
+            a = k * 2.3; x = w / 2 + 300 * math.cos(a) * (0.3 + (k % 3) * 0.3); y = 420 + 300 * math.sin(a) * (0.3 + (k % 3) * 0.3)
+            E(x - 22, y - 16, x + 22, y + 16, fill=(205, 220, 240))
+    elif kind == 'volcado':   # trineo volcado con regalos desparramados
+        d.polygon([(200 * S, 700 * S), (1150 * S, 420 * S), (1230 * S, 560 * S), (300 * S, 800 * S)], fill=(200, 30, 40), outline=(90, 10, 20), width=10 * S)
+        d.polygon([(250 * S, 640 * S), (1100 * S, 380 * S), (1120 * S, 430 * S), (270 * S, 690 * S)], fill=(240, 190, 60))
+        d.line((180 * S, 760 * S, 1180 * S, 470 * S), fill=(60, 40, 30), width=26 * S)
+        for x0, c in ((120, (40, 150, 90)), (980, (60, 120, 220)), (1180, (240, 190, 40))):
+            R(x0, 600, x0 + 200, 790, 18, fill=c, outline=(30, 20, 40), width=8); R(x0 + 85, 600, x0 + 115, 790, 0, fill=ORO)
+    elif kind == 'hielo':   # muro de hielo (el dragón lo derrite desde el nivel del fuego)
+        R(60, 120, w - 60, 800, 40, fill=(170, 220, 250, 215), outline=(235, 248, 255), width=14)
+        for k in range(6):
+            x = 160 + k * 200; d.line((x * S, 160 * S, (x + 120) * S, 760 * S), fill=(240, 250, 255), width=10 * S)
+        for k in range(9):
+            x = 110 + k * 145; d.polygon([(x * S, 120 * S), ((x + 60) * S, 120 * S), ((x + 30) * S, 40 * S)], fill=(225, 245, 255))
+    elif kind == 'rampa':   # rampa de nieve para el gran salto
+        d.polygon([(80 * S, 800 * S), (w * S - 80 * S, 800 * S), (w * S - 200 * S, 330 * S), (200 * S, 330 * S)], fill=(240, 246, 255), outline=(170, 190, 225), width=10 * S)
+        d.polygon([(200 * S, 330 * S), (w * S - 200 * S, 330 * S), (w * S - 230 * S, 290 * S), (230 * S, 290 * S)], fill=(255, 255, 255))
+        for k in range(5):
+            x = 300 + k * 200; d.polygon([(x * S, 770 * S), ((x + 60) * S, 770 * S), ((x + 40) * S, 360 * S), ((x + 20) * S, 360 * S)], fill=(255, 210, 60) if k % 2 else (230, 40, 50))
     else:   # barrera de bastones de caramelo
         R(160, 160, 260, 800, 40, fill=(250, 250, 250)); R(w - 260, 160, w - 160, 800, 40, fill=(250, 250, 250))
         for k in range(0, 1100, 110):
@@ -349,6 +372,8 @@ class Navidad(Ciudad):
             s.ev[str(i)] = PISTA_CICLO[(i + int(rr.integers(0, 3))) % len(PISTA_CICLO)]
         for i in range(17, N - 5, 23): s.ev[f'antes_{i}'] = 'vuelta'   # vuelta de cabeza de vez en cuando
         s.obst = []                       # (t en que los corredores saltan, tipo)
+        s.estrellas = []                  # (t en que la recogen, X en el camino)
+        s._drag_xy = (960, 330)
         s.nv_t = [(0.0, 0)]               # (t, nivel del dragón); 0 = huevo
         s.bancon = os.path.join(RAIZ, 'banco', 'navidad')
         f = os.path.join(s.bancon, 'indice.json')
@@ -393,9 +418,28 @@ class Navidad(Ciudad):
         """Obstáculo en el camino mientras se lee la pregunta: MAX y NOVA lo saltan."""
         Pq = s.esc[-1][2][2]
         a, b = t_abre + Pq['lleg'] + 0.5, tc - 0.4
+        s.estrellas_pregunta(t_abre, tc)
         if b - a < 0.6 or idx < 3 or idx % 3 == 1: return
         tj = (a + b) / 2; kind = OBSTACULOS[(idx * 7 // 3) % len(OBSTACULOS)]
-        s.obst.append((tj, kind)); s.son('boing', tj - 0.15, 0.7); s.son('whoosh', tj - 0.3, 0.5)
+        nv = s.nv_t[-1][1]
+        if kind == 'hielo' and nv < NV_FUEGO: kind = 'muneco'
+        s.obst.append((tj, kind))
+        if kind == 'hielo':   # el dragón lo derrite con fuego: pasan sin saltar
+            s.son('whoosh', tj - 0.5, 0.9); s.son('vidrio', tj - 0.2, 0.8)
+        elif kind == 'rampa':
+            s.son('whoosh', tj - 0.2, 1.0); s.son('viento', tj, 0.6); s.son('golpe', tj + 1.15, 0.8)
+        else:
+            s.son('boing', tj - 0.15, 0.7); s.son('whoosh', tj - 0.3, 0.5)
+
+    def estrellas_pregunta(s, t_abre, tc):
+        """Estrellas doradas en el camino que MAX y NOVA recogen (alimentan al dragón)."""
+        a, b = t_abre + 0.6, tc - 0.3
+        if b - a < 0.8: return
+        n = 3 if b - a < 2.5 else 5
+        for k in range(n):
+            tk = a + (b - a) * (k + 0.5) / n
+            if any(abs(tk - o[0]) < 0.5 for o in s.obst): continue
+            s.estrellas.append((tk, (-260, 0, 260)[(k + len(s.estrellas)) % 3])); s.son('campana', tk, 0.35)
 
     def nivel_en(s, t):
         n = 0; t0 = 0.0
@@ -582,6 +626,8 @@ class Navidad(Ciudad):
     # ---- regalos DENTRO del mundo (Luis: que no tapen la carretera): vienen desde lejos por el camino, a los costados,
     # sobre la nieve, con globos o colgando del túnel; al responder bajan y se cruzan en el camino de MAX y NOVA.
     puerta_limita = False
+    agil = True
+    puerta_techo = 215
     ZH = 2400.0
 
     def puerta_z(s, t, esc, Pq, a):
@@ -597,7 +643,7 @@ class Navidad(Ciudad):
         if Pq is not None:
             dd = s.d_en(Pq['tt']) + s.ZH; j = int(dd // SEG)
             if 0 <= j < s.P.n and s.P.tunel[j]: return 'colgado'
-        return ('suelo', 'globo', 'suelo', 'globo', 'nieve')[idx % 5]
+        return ('suelo', 'nieve')[idx % 2]
 
     def puerta_tam(s, idx, i):
         return (0.92, 1.0, 1.08, 0.86, 1.12)[(idx * 2 + i) % 5]
@@ -627,7 +673,8 @@ class Navidad(Ciudad):
                 d.ellipse((bx - r * 0.45, by - r * 0.7, bx - r * 0.1, by - r * 0.25), fill=(255, 255, 255, 120))
         elif est == 'colgado' and Y > 30:
             top = y + w * 0.06 - sc * 3000 * PH
-            d.line([(cx, y + w * 0.06), (cx, top)], fill=(120, 80, 50, 255), width=max(2, int(w / 90)))
+            for dx_ in (-0.18, 0.18):   # dos cintas doradas que bajan del arco del túnel
+                d.line([(cx + dx_ * w, y + w * 0.12), (cx + dx_ * w * 0.4, top)], fill=(255, 205, 70, 255), width=max(3, int(w / 45)))
         elif est == 'nieve':
             h = im.height; d.ellipse((cx - w * 0.62, y + h - w * 0.12, cx + w * 0.62, y + h + w * 0.1), fill=NIEVE + (255,))
 
@@ -683,11 +730,38 @@ class Navidad(Ciudad):
             if (srel < C.ZP) != cerca: continue
             cx, cy, sc = s.en_s(srel, 0, 0); ancho = sc * 1500 * PW
             if ancho < 6: continue
-            im = obst_img(kind, ancho); fr.paste(im, (int(cx - im.width / 2), int(cy - im.height)), im)
+            im = obst_img(kind, ancho)
+            if kind == 'hielo':   # el dragón le echa fuego y se derrite
+                u = clamp((t - (tj - 0.45)) / 0.35)
+                if u >= 1: continue
+                if u > 0:
+                    im = im.copy(); im.putalpha(im.getchannel('A').point(lambda v, f=1 - u: int(v * f)))
+                    dx, dy = s._drag_xy
+                    s.fuego(ImageDraw.Draw(fr, 'RGBA'), dx, dy, cx, cy - im.height / 2, u, int(t * 10))
+            fr.paste(im, (int(cx - im.width / 2), int(cy - im.height)), im)
+        if cerca: return
+        d = ImageDraw.Draw(fr, 'RGBA')
+        for tk, X in s.estrellas:
+            if not (tk - 3.0 < t < tk + 0.35): continue
+            if t >= tk:   # recogida: destello que sube
+                u = (t - tk) / 0.35; x_, y_ = 960 + X * 0.9, 760 - 200 * u
+                for k_ in range(6):
+                    a_ = k_ * math.pi / 3 + t * 4; estrella(d, x_ + math.cos(a_) * 60 * u, y_ + math.sin(a_) * 60 * u, 14 * (1 - u) + 3, ORO)
+                continue
+            srel = s.d_en(tk) + C.ZP - cam
+            if srel < 150: continue
+            cx, cy, sc = s.en_s(srel, X, 260 + 40 * math.sin(t * 5 + tk))
+            r = min(70, sc * 230 * PW)
+            if r < 2: continue
+            d.ellipse((cx - r * 1.8, cy - r * 1.8, cx + r * 1.8, cy + r * 1.8), fill=(255, 220, 110, 60))
+            estrella(d, cx, cy, r, ORO)
 
     def corredores(s, fr, t, xm, xn, extra):
-        for tj, _ in s.obst:   # salto sobre el obstáculo
-            if abs(t - tj) < 0.38: extra['salto'] = (t - tj + 0.38) / 0.76
+        for tj, kind in s.obst:   # salto sobre el obstáculo (rampa: gran salto; hielo: lo derrite el dragón)
+            if kind == 'hielo': continue
+            if kind == 'rampa':
+                if -0.1 < t - tj < 1.2: extra['salto'] = (t - tj + 0.1) / 1.3; extra['alto'] = 2.3
+            elif abs(t - tj) < 0.38: extra['salto'] = (t - tj + 0.38) / 0.76
         s.obstaculos(fr, t, False)
         s._corredores(fr, t, xm, xn, extra)
         s.obstaculos(fr, t, True)
@@ -710,11 +784,11 @@ class Navidad(Ciudad):
             alto, base, bote, fq = VEH_NAV[v]
             u = clamp((t - s.veh_desde(t)) / 0.6); x = (xm + xn) / 2
             if v == 'patines': x += 60 * math.sin(t * 1.3)          # se deslizan de lado a lado
-            y = base + bote * abs(math.sin(t * fq)) + extra.get('dy', 0) + 600 * (1 - ease_back(u)) - 230 * math.sin(math.pi * clamp(extra.get('salto', 0)))
+            y = base + bote * abs(math.sin(t * fq)) + extra.get('dy', 0) + 600 * (1 - ease_back(u)) - 230 * extra.get('alto', 1) * math.sin(math.pi * clamp(extra.get('salto', 0)))
             im = anim_img(v, alto, t); animado = im is not None
             if not animado: im = nav_img(v, alto)
             if animado: bote = bote * 0.15     # el clip ya trae su propio galope
-            y = base + bote * abs(math.sin(t * fq)) + extra.get('dy', 0) + 600 * (1 - ease_back(u)) - 230 * math.sin(math.pi * clamp(extra.get('salto', 0)))
+            y = base + bote * abs(math.sin(t * fq)) + extra.get('dy', 0) + 600 * (1 - ease_back(u)) - 230 * extra.get('alto', 1) * math.sin(math.pi * clamp(extra.get('salto', 0)))
             a = math.sin(t * 4.5)
             if v == 'trineo': im = im.resize((int(im.width * (1 + 0.04 * a)), int(im.height * (1 - 0.02 * a))), Image.BILINEAR)
             im = im.rotate(-(xm + xn - 1920) / 1920 * 10 + (4 * math.sin(t * 1.3) if v == 'patines' else 0), Image.BILINEAR, expand=True)
@@ -740,7 +814,7 @@ class Navidad(Ciudad):
         d = ImageDraw.Draw(fr, 'RGBA')
         if tipo == 'intro':   # gancho: así de grande puede llegar a ser
             u = clamp((t - esc[0]) / 0.45); sc = max(0.05, ease_back(u)) if u < 1 else 1.0
-            im = nav_img('trineo', max(20, int(640 * sc))); y = 410 + 16 * math.sin(t * 3)
+            im = anim_img('trineo', max(20, int(640 * sc)), t) or nav_img('trineo', max(20, int(640 * sc))); y = 410 + 16 * math.sin(t * 3)
             for r_ in range(3):
                 R = (260 + 110 * r_) * sc; d.ellipse((W / 2 - R, y + 300 - R, W / 2 + R, y + 300 + R), fill=(255, 200, 80, 34))
             fr.paste(im, (int(W / 2 - im.width / 2), int(y)), im)
@@ -784,7 +858,7 @@ class Navidad(Ciudad):
         if tipo == 'pregunta':
             q = s.Q[esc[2][1]]; Pq = esc[2][2]; dt = t - Pq['tch']
             if t < Pq['tch'] + 0.05:   # mientras se responde: en el carril del medio, sin tapar los regalos
-                u_ = clamp((t - esc[0]) / 0.8); x = x + (960 + 40 * math.sin(t * 0.8) - x) * ease_out(u_)
+                u_ = clamp((t - esc[0]) / 0.4); x = x + (960 + 40 * math.sin(t * 0.8) - x) * ease_out(u_)
                 y = y + (300 + 20 * math.sin(t * 1.6) - y) * ease_out(u_); ancho_max = 380 + (900 - 380) * (1 - ease_out(u_))
             if 0 <= dt < 1.4:
                 u = dt / 1.4
@@ -803,15 +877,14 @@ class Navidad(Ciudad):
             for k_ in range(7):
                 tt = t - k_ * 0.07; xx = 960 + 330 * math.sin(tt * 0.42) + 90 * math.sin(tt * 1.17) if tipo != 'nivel' else x + k_ * 40
                 estrella(d, xx + 30 * math.sin(k_ * 2.1), y + alto * 0.42 + k_ * 9, max(3, 11 - k_), ORO)
-        if ancho_max:   # que quepa entre los regalos
-            w0 = etapa_img(img, 100).width / 100
-            alto = min(alto, ancho_max / max(0.3, w0))
+        w0 = etapa_img(img, 100).width / 100
+        alto = min(alto, (ancho_max or 760) / max(0.3, w0))   # que quepa entre los regalos / no tape todo
         im = anim_img('dragon_' + img, max(20, int(alto)), t); a_ = math.sin(t * 6.5)
         if im is None:
             im = etapa_img(img, max(20, int(alto)))
             im = im.resize((max(1, int(im.width * (1 + 0.08 * a_))), max(1, int(im.height * (1 - 0.03 * a_)))), Image.BILINEAR)
         im = im.rotate(ang + rot, Image.BILINEAR, expand=True)
-        fr.paste(im, (int(x - im.width / 2), int(y - im.height / 2)), im)
+        fr.paste(im, (int(x - im.width / 2), int(y - im.height / 2)), im); s._drag_xy = (x, y - alto * 0.38)
         if tipo == 'pregunta':   # el acierto alimenta al dragón: una estrella «+1» vuela del regalo correcto hasta él
             q = s.Q[esc[2][1]]; Pq = esc[2][2]; dt = t - Pq['tch'] - 0.1
             if 0 <= dt < 1.1:
