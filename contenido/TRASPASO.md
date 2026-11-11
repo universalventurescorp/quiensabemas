@@ -54,3 +54,22 @@ Una sola propuesta decidida; lenguaje simple; respuestas breves; todo gratis; no
 - Run 42985901511 → YouTube `tx6klgb0Zhc` en PRIVADO, 57.5 min, 4K (15.4 GB), 390 preguntas con fotos (115 descartadas por el revisor).
 - Lecciones: esperar ~15 s tras el push antes de lanzar y verificar head_sha; revisar fotos en partes de 70 (una sola revisión de 505 no termina); hoja de contacto partida en 300 filas (límite JPG 65535 px).
 - Pendiente: Luis lo publica él mismo. Siguiente: episodio 2 (~12-dic) y Shorts diarios según navidad_plan.md.
+
+## Episodio 1 · versión 2 (11-nov-2026, tarde)
+Luis rechazó la v1 (tx6klgb0Zhc, NO publicar). La v2 (commit 214cd4a, run 43061196253) cambia:
+- 14 niveles del dragón (ETAPAS en navidad.py), crece a menudo; reacciona en cada acierto (salto/pirueta, fuego al regalo malo desde nv 6, brillo desde nv 13, estrella «+1»).
+- Ritmo ágil (`agil=True` en ciudad.py): cuenta 2 s, sin «¡tiempo!», MAX/NOVA eligen en voz alta 1 de cada 4, comentarios 1 de cada 4. 360 preguntas, ~38 min.
+- Zona nueva cada 5 preguntas (~30-60 s); pista con curvas, zigzag, subidas, bajadas, vueltas.
+- Regalos en el mundo: sobre la carretera (suelo/nieve) y colgados con cintas SOLO en túneles; nunca debajo del HUD (puerta_techo). Sin globos.
+- Obstáculos: muñeco, bola, tronco, rampa (salto alto), trineo volcado, regalos, bastón, muro de hielo (lo derrite el dragón). Estrellas para recoger.
+- Música alegre desde el inicio (QSM_MUSICA_ALEGRE).
+- Animaciones reales en assets/navidad/anim/ (clips de Flow sobre verde → scripts/clip_verde.py). Sin carrito de compras.
+- Workflow: job `voces_extra` genera las voces nuevas cuando se reutiliza run_trabajo.
+
+### Google Flow (navegador integrado)
+- Video Omni 1.2 Flash, Frames, 16:9, 3 s = 9 créditos. Subir el cuadro inicial 16:9 ya compuesto (assets/navidad/flow_inicio/); si no, recorta alas.
+- Muchas acciones automáticas seguidas → «unusual activity»: ir despacio. Descargar varias imágenes juntas falla: componer una hoja en canvas y bajar un solo archivo.
+- Créditos ~65 hasta el 20-nov; Luis tiene otra cuenta de respaldo.
+
+### Pendiente de animación
+- Montados en fila (uno detrás del otro): reno, oso y pingüino vistos de atrás o 3/4; snowboard y tren animados; etapas del dragón en más resolución.
