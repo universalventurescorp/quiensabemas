@@ -25,7 +25,7 @@ NIEVE = (236, 242, 252)
 
 # fondo, horizonte (fracción del alto de la foto), lados (casas: textura recortada de un fondo), pinos, público, colores del camino
 ZONAS = [
-    dict(n='AVENIDA NEVADA', f='z1_avenida', hz=0.68, casas=('z1_avenida', (0, 0, 300, 540)), pinos=0, pub=['ciudad'],
+    dict(n='AVENIDA NEVADA', f='z1_avenida', hz=0.68, casas=('z1_avenida', (0, 0, 300, 540)), pinos=0, pub=['ciudad', 'granja'],
          tema='Tradiciones navideñas del mundo', col=(200, 40, 50), cam=((226, 232, 244), (212, 220, 236)), ver=(150, 120, 110), borde='baston'),
     dict(n='TALLER DE PAPÁ NOEL', f='z2_fabrica', hz=0.62, casas=('z2_fabrica', (0, 330, 330, 768)), pinos=0, pub=['dulces', 'ciudad'],
          tema='Juguetes, inventos y ciencia', col=(176, 30, 40), cam=((150, 96, 60), (136, 86, 54)), ver=(110, 70, 44), borde='baston'),
@@ -39,12 +39,14 @@ ZONAS = [
          tema='Animales del frío', col=(30, 170, 150), cam=((230, 238, 250), (216, 228, 246)), ver=(190, 214, 240), borde='baston'),
     dict(n='MONTAÑA DE NIEVE', f='z7_montana', hz=0.47, casas=None, pinos=1, pub=['andes'],
          tema='Montañas, volcanes y geografía', col=(90, 110, 170), cam=((240, 242, 248), (226, 230, 242)), ver=(200, 206, 226), borde='nieve'),
-    dict(n='SOBRE LOS TEJADOS', f='z8_tejados', hz=0.36, casas=None, pinos=1, pub=['africa', 'andes', 'ciudad'],
+    dict(n='SOBRE LOS TEJADOS', f='z8_tejados', hz=0.36, casas=None, pinos=1, pub=['africa', 'andes', 'selva', 'australia'],
          tema='Papá Noel visita este país', col=(150, 60, 160), cam=((150, 70, 60), (132, 60, 52)), ver=(226, 232, 244), borde='luces'),
-    dict(n='CIELO DE NOCHEBUENA', f='z9_cielo', hz=0.36, casas=None, pinos=0, pub=[],
+    dict(n='CIELO DE NOCHEBUENA', f='z9_cielo', hz=0.36, casas=None, pinos=0, pub=['aves'],
          tema='Planetas y estrellas', col=(220, 170, 40), cam=((255, 220, 120), (250, 204, 96)), ver=(80, 70, 140), borde='luces'),
 ]
 COL_A, COL_B = (240, 80, 160), (70, 190, 240)
+# vehículo → (alto en pantalla, base y, rebote, frecuencia del rebote)
+VEH_NAV = {'trineo': (540, 1090, 16, 2.6), 'reno': (620, 1110, 26, 5.0), 'trineo_madera': (560, 1100, 10, 7.0), 'patines': (470, 1095, 6, 1.6)}
 
 
 # ---------------------------------------------------------------- fondos (se cargan al usarlos: solo 2 en memoria)
@@ -424,17 +426,21 @@ class Navidad(Ciudad):
             A = R0.Corredores.ALTO
             m = nav_img('max_gorro', A); n = nav_img('nova_gorro', A)
             c.max = [m, ImageOps.mirror(m)]; c.max_mira = m; c.nova = [n, ImageOps.mirror(n)]; c.nova_mira = n; c._nav = True
-        if s.vehiculo_en(t) == 'trineo':
+        v = s.vehiculo_en(t)
+        if v in VEH_NAV:   # vehículos navideños de Flow (dragón con trineo, reno gigante, trineo de madera, patines)
+            alto, base, bote, fq = VEH_NAV[v]
             u = clamp((t - s.veh_desde(t)) / 0.6); x = (xm + xn) / 2
-            y = 1090 + 16 * math.sin(t * 2.6) + extra.get('dy', 0) + 600 * (1 - ease_back(u))
-            im = nav_img('trineo', 540); a = math.sin(t * 4.5)
-            im = im.resize((int(im.width * (1 + 0.04 * a)), int(im.height * (1 - 0.02 * a))), Image.BILINEAR).rotate(-(xm + xn - 1920) / 1920 * 10, Image.BILINEAR, expand=True)
+            if v == 'patines': x += 60 * math.sin(t * 1.3)          # se deslizan de lado a lado
+            y = base + bote * abs(math.sin(t * fq)) + extra.get('dy', 0) + 600 * (1 - ease_back(u))
+            im = nav_img(v, alto); a = math.sin(t * 4.5)
+            if v == 'trineo': im = im.resize((int(im.width * (1 + 0.04 * a)), int(im.height * (1 - 0.02 * a))), Image.BILINEAR)
+            im = im.rotate(-(xm + xn - 1920) / 1920 * 10 + (4 * math.sin(t * 1.3) if v == 'patines' else 0), Image.BILINEAR, expand=True)
             fr.paste(im, (int(x - im.width / 2), int(y - im.height)), im); return
         super().corredores(fr, t, xm, xn, extra)
 
     # ---- el dragón que acompaña
     def mascota(s, fr, t, esc):
-        if s.vehiculo_en(t) == 'trineo': return
+        if s.vehiculo_en(t) in ('trineo', 'reno'): return
         tipo = esc[2][0] if esc else ''
         d = ImageDraw.Draw(fr, 'RGBA')
         if tipo == 'crece':
