@@ -107,18 +107,18 @@
   {
    "n": 6,
    "tema": "Perú",
-   "p": "¿Cómo se llama la moneda del Perú?",
+   "p": "¿Qué ave de plumaje rojo y naranja es el ave nacional del Perú?",
    "o": [
-    "Peso",
-    "Sol",
-    "Real",
-    "Dólar"
+    "Colibrí",
+    "Gallito de las rocas",
+    "Cóndor",
+    "Flamenco"
    ],
    "c": 1,
-   "d": "En quechua el Sol se dice «inti», nombre de la moneda peruana de 1985 a 1991.",
-   "tp": "¿Cómo se llama la moneda del Perú? ¿Peso, sol, real o dólar?",
-   "tr": "¡El sol!",
-   "td": "En quechua el Sol se dice inti, nombre de la moneda peruana de mil novecientos ochenta y cinco a mil novecientos noventa y uno."
+   "d": "El gallito de las rocas vive en los bosques nubosos entre los Andes y la selva.",
+   "tp": "¿Qué ave de plumaje rojo y naranja es el ave nacional del Perú? ¿Colibrí, gallito de las rocas, cóndor o flamenco?",
+   "tr": "¡El gallito de las rocas!",
+   "td": "El gallito de las rocas vive en los bosques nubosos entre los Andes y la selva."
   },
   {
    "n": 7,
@@ -692,18 +692,18 @@
   {
    "n": 38,
    "tema": "literatura",
-   "p": "¿Qué escritor colombiano escribió «Cien años de soledad»?",
+   "p": "¿Qué poeta chilena ganó el Nobel de Literatura en 1945?",
    "o": [
-    "Julio Cortázar",
-    "Gabriel García Márquez",
-    "Jorge Luis Borges",
-    "Pablo Neruda"
+    "Alfonsina Storni",
+    "Gabriela Mistral",
+    "Violeta Parra",
+    "Isabel Allende"
    ],
    "c": 1,
-   "d": "Ganó el Nobel de Literatura en 1982.",
-   "tp": "¿Qué escritor colombiano escribió Cien años de soledad? ¿Julio Cortázar, Gabriel García Márquez, Jorge Luis Borges o Pablo Neruda?",
-   "tr": "¡Gabriel García Márquez!",
-   "td": "Ganó el premio Nobel de Literatura en mil novecientos ochenta y dos."
+   "d": "Fue la primera persona latinoamericana en ganar el Nobel de Literatura.",
+   "tp": "¿Qué poeta chilena ganó el premio Nobel de Literatura en mil novecientos cuarenta y cinco? ¿Alfonsina Storni, Gabriela Mistral, Violeta Parra o Isabel Allende?",
+   "tr": "¡Gabriela Mistral!",
+   "td": "Fue la primera persona latinoamericana en ganar el Nobel de Literatura."
   },
   {
    "n": 39,
@@ -840,32 +840,32 @@
   {
    "n": 46,
    "tema": "geografía",
-   "p": "¿En qué país está el salar de Uyuni, el más grande del mundo?",
+   "p": "¿Qué país de habla hispana tiene más hablantes de español?",
    "o": [
-    "Perú",
-    "Chile",
-    "Bolivia",
+    "España",
+    "Colombia",
+    "México",
     "Argentina"
    ],
    "c": 2,
    "o_fotos": [
     {
-     "flag": "pe"
+     "flag": "es"
     },
     {
-     "flag": "cl"
+     "flag": "co"
     },
     {
-     "flag": "bo"
+     "flag": "mx"
     },
     {
      "flag": "ar"
     }
    ],
-   "d": "Cuando llueve, se convierte en un gigantesco espejo.",
-   "tp": "¿En qué país está el salar de Uyuni, el más grande del mundo? ¿Perú, Chile, Bolivia o Argentina?",
-   "tr": "¡Bolivia!",
-   "td": "Cuando llueve, se convierte en un gigantesco espejo."
+   "d": "México tiene más de 120 millones de habitantes, más que ningún otro país de habla hispana.",
+   "tp": "¿Qué país de habla hispana tiene más hablantes de español? ¿España, Colombia, México o Argentina?",
+   "tr": "¡México!",
+   "td": "México tiene más de ciento veinte millones de habitantes, más que ningún otro país de habla hispana."
   },
   {
    "n": 47,
