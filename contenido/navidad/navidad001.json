@@ -1,0 +1,12442 @@
+{
+ "_nota": "Episodio de Navidad (11-nov-2026). Escrito con scripts/preparar_navidad.py desde contenido/ciudad/preguntas_*.txt. Se descartan las preguntas sin fotos; «zonas» guarda la 1.ª pregunta de cada zona y se recalcula tras el recorte.",
+ "id": "navidad001",
+ "formato": "rapido",
+ "max_preguntas": 460,
+ "minimo": 300,
+ "titulo": "¡Criamos un DRAGÓN de Navidad!",
+ "titulo_youtube": "¿A o B? 🎄 ¡Criamos un DRAGÓN de Navidad! 🐉 Preguntas de Navidad | ¿Quién Sabe Más?",
+ "descripcion": "Es Nochebuena y MAX y NOVA encuentran un regalo con un HUEVO DE DRAGÓN 🎁🐉 Cada respuesta correcta lo alimenta: nace, crece… ¡y al final tira el trineo de Papá Noel! 9 zonas navideñas y cientos de preguntas ¿A o B? ¿Cuántas aciertas? Escribe tu número en los comentarios 👇",
+ "tags": [
+  "a o b",
+  "preguntas de navidad",
+  "navidad",
+  "quiz de navidad",
+  "trivia navideña",
+  "preguntas de cultura general",
+  "dragón",
+  "quiz para niños",
+  "qué prefieres"
+ ],
+ "zonas": [
+  0,
+  55,
+  105,
+  181,
+  238,
+  287,
+  334,
+  381,
+  466
+ ],
+ "zona_de": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  6,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  7,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9,
+  9
+ ],
+ "vehiculos": {
+  "1": "corre",
+  "56": "patineta",
+  "106": "trineo_madera",
+  "182": "patines",
+  "239": "carrito",
+  "288": "reno",
+  "335": "corre",
+  "382": "pato",
+  "467": "trineo"
+ },
+ "dragon": {
+  "meta_huevo": 5,
+  "antes_5": "nace",
+  "antes_105": "crece:joven",
+  "antes_287": "crece:adulto"
+ },
+ "preguntas": [
+  {
+   "n": 1,
+   "p": "¿Cuál es un pesebre?",
+   "o": [
+    "Nacimiento",
+    "Castillo de arena"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un pesebre?",
+   "tr": "¡El nacimiento!",
+   "o_fotos": [
+    {
+     "q": "nativity scene",
+     "src": "px"
+    },
+    {
+     "q": "sand castle",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 1
+  },
+  {
+   "n": 2,
+   "p": "¿Cuál es un trineo de Papá Noel?",
+   "o": [
+    "Bicicleta",
+    "Trineo rojo"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un trineo de Papá Noel?",
+   "tr": "¡El trineo!",
+   "o_fotos": [
+    {
+     "q": "bicycle",
+     "src": "px"
+    },
+    {
+     "q": "santa sleigh",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 1
+  },
+  {
+   "n": 3,
+   "p": "¿Cuál es un regalo?",
+   "o": [
+    "Caja de cartón",
+    "Caja con lazo"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un regalo?",
+   "tr": "¡La caja con lazo!",
+   "o_fotos": [
+    {
+     "q": "cardboard box",
+     "src": "px"
+    },
+    {
+     "q": "gift box ribbon",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 1
+  },
+  {
+   "n": 4,
+   "p": "¿Cuál es un bastón de caramelo?",
+   "o": [
+    "Bastón de caramelo",
+    "Paleta"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un bastón de caramelo?",
+   "tr": "¡El bastón de caramelo!",
+   "o_fotos": [
+    {
+     "q": "candy cane",
+     "src": "px"
+    },
+    {
+     "q": "lollipop",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 1
+  },
+  {
+   "n": 5,
+   "p": "¿Cuál es una vela de Navidad?",
+   "o": [
+    "Vela encendida",
+    "Linterna"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es una vela de Navidad?",
+   "tr": "¡La vela!",
+   "o_fotos": [
+    {
+     "q": "christmas candle",
+     "src": "px"
+    },
+    {
+     "q": "flashlight",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 1
+  },
+  {
+   "n": 6,
+   "p": "¿Cuál es un adorno navideño?",
+   "o": [
+    "Martillo",
+    "Estrella dorada"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un adorno navideño?",
+   "tr": "¡La estrella dorada!",
+   "o_fotos": [
+    {
+     "q": "hammer tool",
+     "src": "px"
+    },
+    {
+     "q": "gold christmas star ornament",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 1
+  },
+  {
+   "n": 7,
+   "p": "¿Cuál brilla en el árbol?",
+   "o": [
+    "Linterna",
+    "Luces navideñas"
+   ],
+   "c": 1,
+   "tp": "¿Cuál brilla en el árbol?",
+   "tr": "¡Las luces navideñas!",
+   "o_fotos": [
+    {
+     "q": "flashlight",
+     "src": "px"
+    },
+    {
+     "q": "christmas lights bokeh",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 1
+  },
+  {
+   "n": 8,
+   "p": "¿Cuál es un muñeco de nieve?",
+   "o": [
+    "Espantapájaros",
+    "Muñeco de nieve"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un muñeco de nieve?",
+   "tr": "¡El muñeco de nieve!",
+   "o_fotos": [
+    {
+     "q": "scarecrow",
+     "src": "px"
+    },
+    {
+     "q": "snowman",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 1
+  },
+  {
+   "n": 9,
+   "p": "¿Cuál se escribe a Papá Noel?",
+   "o": [
+    "Factura",
+    "Carta"
+   ],
+   "c": 1,
+   "tp": "¿Cuál se escribe a Papá Noel?",
+   "tr": "¡La carta!",
+   "o_fotos": [
+    {
+     "q": "invoice paper",
+     "src": "px"
+    },
+    {
+     "q": "letter to santa",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 1
+  },
+  {
+   "n": 10,
+   "p": "¿Cuál es papel de regalo?",
+   "o": [
+    "Periódico",
+    "Papel de regalo"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es papel de regalo?",
+   "tr": "¡El papel de regalo!",
+   "o_fotos": [
+    {
+     "q": "newspaper",
+     "src": "px"
+    },
+    {
+     "q": "wrapping paper",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 1
+  },
+  {
+   "n": 11,
+   "p": "¿Cuál se pone en la chimenea?",
+   "o": [
+    "Calcetín navideño",
+    "Zapato deportivo"
+   ],
+   "c": 0,
+   "tp": "¿Cuál se pone en la chimenea?",
+   "tr": "¡El calcetín navideño!",
+   "o_fotos": [
+    {
+     "q": "christmas stocking fireplace",
+     "src": "px"
+    },
+    {
+     "q": "sneakers",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 1
+  },
+  {
+   "n": 12,
+   "p": "¿Cuál usa Papá Noel?",
+   "o": [
+    "Gorro rojo",
+    "Sombrero vaquero"
+   ],
+   "c": 0,
+   "tp": "¿Cuál usa Papá Noel?",
+   "tr": "¡El gorro rojo!",
+   "o_fotos": [
+    {
+     "q": "santa hat",
+     "src": "px"
+    },
+    {
+     "q": "cowboy hat",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 1
+  },
+  {
+   "n": 13,
+   "p": "¿Cuál brilla en la ventana en Navidad?",
+   "o": [
+    "Cortina",
+    "Luces de colores"
+   ],
+   "c": 1,
+   "tp": "¿Cuál brilla en la ventana en Navidad?",
+   "tr": "¡Las luces de colores!",
+   "o_fotos": [
+    {
+     "q": "curtain",
+     "src": "px"
+    },
+    {
+     "q": "christmas lights window",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 1
+  },
+  {
+   "n": 14,
+   "p": "¿Cuál es una guirnalda?",
+   "o": [
+    "Cuerda",
+    "Guirnalda"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es una guirnalda?",
+   "tr": "¡La guirnalda!",
+   "o_fotos": [
+    {
+     "q": "rope coil",
+     "src": "px"
+    },
+    {
+     "q": "christmas garland",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 1
+  },
+  {
+   "n": 15,
+   "p": "¿Cuál hace sonar Papá Noel?",
+   "o": [
+    "Campana",
+    "Tambor"
+   ],
+   "c": 0,
+   "tp": "¿Cuál hace sonar Papá Noel?",
+   "tr": "¡La campana!",
+   "o_fotos": [
+    {
+     "q": "christmas bell",
+     "src": "px"
+    },
+    {
+     "q": "drum",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 1
+  },
+  {
+   "n": 16,
+   "p": "¿Cuál es una corona navideña?",
+   "o": [
+    "Corona de rey",
+    "Corona de hojas"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es una corona navideña?",
+   "tr": "¡La corona de hojas!",
+   "o_fotos": [
+    {
+     "q": "king crown",
+     "src": "px"
+    },
+    {
+     "q": "christmas wreath door",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 1
+  },
+  {
+   "n": 17,
+   "p": "¿Cuál es un árbol de Navidad?",
+   "o": [
+    "Pino",
+    "Palmera"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un árbol de Navidad?",
+   "tr": "¡El pino!",
+   "o_fotos": [
+    {
+     "q": "pine tree snow",
+     "src": "px"
+    },
+    {
+     "q": "palm tree beach",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 1
+  },
+  {
+   "n": 18,
+   "p": "¿Cuál se cuelga en el árbol?",
+   "o": [
+    "Pelota de fútbol",
+    "Esfera navideña"
+   ],
+   "c": 1,
+   "tp": "¿Cuál se cuelga en el árbol?",
+   "tr": "¡La esfera navideña!",
+   "o_fotos": [
+    {
+     "q": "soccer ball",
+     "src": "px"
+    },
+    {
+     "q": "christmas ornament ball",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 1
+  },
+  {
+   "n": 19,
+   "p": "¿Cuál se pone en la puerta en Navidad?",
+   "o": [
+    "Paraguas",
+    "Corona navideña"
+   ],
+   "c": 1,
+   "tp": "¿Cuál se pone en la puerta en Navidad?",
+   "tr": "¡La corona navideña!",
+   "o_fotos": [
+    {
+     "q": "umbrella",
+     "src": "px"
+    },
+    {
+     "q": "christmas wreath door",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 1
+  },
+  {
+   "n": 20,
+   "p": "¿Cuál es un ángel de Navidad?",
+   "o": [
+    "Pirata",
+    "Ángel"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un ángel de Navidad?",
+   "tr": "¡El ángel!",
+   "o_fotos": [
+    {
+     "q": "pirate costume",
+     "src": "px"
+    },
+    {
+     "q": "christmas angel figurine",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 1
+  },
+  {
+   "n": 21,
+   "p": "¿Cuál es la flor de Navidad?",
+   "o": [
+    "Girasol",
+    "Flor de Pascua"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es la flor de Navidad?",
+   "tr": "¡La flor de Pascua!",
+   "o_fotos": [
+    {
+     "q": "sunflower",
+     "src": "px"
+    },
+    {
+     "q": "poinsettia",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 2
+  },
+  {
+   "n": 22,
+   "p": "¿Cuál es un villancico?",
+   "o": [
+    "Noche de Paz",
+    "Cumpleaños feliz"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un villancico?",
+   "tr": "¡Noche de Paz!",
+   "o_fotos": [
+    {
+     "q": "christmas choir singing",
+     "src": "px"
+    },
+    {
+     "q": "birthday party",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 2
+  },
+  {
+   "n": 23,
+   "p": "¿Cuál es Nochebuena?",
+   "o": [
+    "31 de diciembre",
+    "24 de diciembre"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es Nochebuena?",
+   "tr": "¡El 24!",
+   "o_fotos": [
+    {
+     "q": "new year eve party",
+     "src": "px"
+    },
+    {
+     "q": "christmas eve dinner",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 2
+  },
+  {
+   "n": 24,
+   "p": "¿En qué mes es Navidad?",
+   "o": [
+    "Julio",
+    "Diciembre"
+   ],
+   "c": 1,
+   "tp": "¿En qué mes es Navidad?",
+   "tr": "¡En diciembre!",
+   "o_fotos": [
+    {
+     "q": "summer beach",
+     "src": "px"
+    },
+    {
+     "q": "december calendar",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 2
+  },
+  {
+   "n": 25,
+   "p": "¿Qué día es Navidad?",
+   "o": [
+    "25 de diciembre",
+    "1 de enero"
+   ],
+   "c": 0,
+   "tp": "¿Qué día es Navidad?",
+   "tr": "¡El 25 de diciembre!",
+   "o_fotos": [
+    {
+     "q": "christmas day",
+     "src": "px"
+    },
+    {
+     "q": "new year fireworks",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 2
+  },
+  {
+   "n": 26,
+   "p": "¿Cuál es el muérdago?",
+   "o": [
+    "Muérdago",
+    "Trébol"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es el muérdago?",
+   "tr": "¡El muérdago!",
+   "o_fotos": [
+    {
+     "q": "mistletoe",
+     "src": "px"
+    },
+    {
+     "q": "clover",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 2
+  },
+  {
+   "n": 27,
+   "p": "¿Cuál se canta en Navidad?",
+   "o": [
+    "Himno de fútbol",
+    "Villancico"
+   ],
+   "c": 1,
+   "tp": "¿Cuál se canta en Navidad?",
+   "tr": "¡El villancico!",
+   "o_fotos": [
+    {
+     "q": "football fans singing",
+     "src": "px"
+    },
+    {
+     "q": "christmas carolers",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 2
+  },
+  {
+   "n": 28,
+   "p": "¿Cuál es un suéter navideño?",
+   "o": [
+    "Camiseta de fútbol",
+    "Suéter con renos"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un suéter navideño?",
+   "tr": "¡El suéter navideño!",
+   "o_fotos": [
+    {
+     "q": "soccer jersey",
+     "src": "px"
+    },
+    {
+     "q": "christmas sweater",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 2
+  },
+  {
+   "n": 29,
+   "p": "¿Cuál es de Navidad en Perú?",
+   "o": [
+    "Halloween",
+    "Chocolatada"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es de Navidad en Perú?",
+   "tr": "¡La chocolatada!",
+   "o_fotos": [
+    {
+     "q": "halloween pumpkin",
+     "src": "px"
+    },
+    {
+     "q": "hot chocolate christmas",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 2
+  },
+  {
+   "n": 30,
+   "p": "¿Cuál es un bastón de Navidad?",
+   "o": [
+    "Rojo y blanco",
+    "Verde y azul"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un bastón de Navidad?",
+   "tr": "¡Rojo y blanco!",
+   "o_fotos": [
+    {
+     "q": "candy cane",
+     "src": "px"
+    },
+    {
+     "q": "blue green striped",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 2
+  },
+  {
+   "n": 31,
+   "p": "¿Cuál es un calendario de Adviento?",
+   "o": [
+    "Calendario con ventanitas",
+    "Agenda"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un calendario de Adviento?",
+   "tr": "¡El calendario de Adviento!",
+   "o_fotos": [
+    {
+     "q": "advent calendar",
+     "src": "px"
+    },
+    {
+     "q": "planner notebook",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 2
+  },
+  {
+   "n": 32,
+   "p": "¿Cuál es la bota de Papá Noel?",
+   "o": [
+    "Sandalia",
+    "Bota negra"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es la bota de Papá Noel?",
+   "tr": "¡La bota negra!",
+   "o_fotos": [
+    {
+     "q": "sandal",
+     "src": "px"
+    },
+    {
+     "q": "black boot",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 2
+  },
+  {
+   "n": 33,
+   "p": "¿Cuál es un elfo?",
+   "o": [
+    "Elfo navideño",
+    "Pirata"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un elfo?",
+   "tr": "¡El elfo navideño!",
+   "o_fotos": [
+    {
+     "q": "christmas elf",
+     "src": "px"
+    },
+    {
+     "q": "pirate costume",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 2
+  },
+  {
+   "n": 34,
+   "p": "¿Cuál es un cascanueces?",
+   "o": [
+    "Cascanueces",
+    "Soldadito de plomo"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un cascanueces?",
+   "tr": "¡El cascanueces!",
+   "o_fotos": [
+    {
+     "q": "nutcracker christmas",
+     "src": "px"
+    },
+    {
+     "q": "tin soldier toy",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 2
+  },
+  {
+   "n": 35,
+   "p": "¿Cuál es la estrella de Belén?",
+   "o": [
+    "Luna llena",
+    "Estrella con cola"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es la estrella de Belén?",
+   "tr": "¡La estrella con cola!",
+   "o_fotos": [
+    {
+     "q": "full moon",
+     "src": "px"
+    },
+    {
+     "q": "star of bethlehem",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 2
+  },
+  {
+   "n": 36,
+   "p": "¿Cuál trae regalos el 6 de enero?",
+   "o": [
+    "Reyes Magos",
+    "Papá Noel"
+   ],
+   "c": 0,
+   "tp": "¿Cuál trae regalos el 6 de enero?",
+   "tr": "¡Los Reyes Magos!",
+   "o_fotos": [
+    {
+     "q": "three wise men camels",
+     "src": "px"
+    },
+    {
+     "q": "santa claus sleigh",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 2
+  },
+  {
+   "n": 37,
+   "p": "¿Cuál es Papá Noel?",
+   "o": [
+    "Papá Noel",
+    "Rey Mago"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es Papá Noel?",
+   "tr": "¡Papá Noel!",
+   "o_fotos": [
+    {
+     "q": "santa claus",
+     "src": "px"
+    },
+    {
+     "q": "three wise men",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 2
+  },
+  {
+   "n": 38,
+   "p": "¿Cuál es un nacimiento viviente?",
+   "o": [
+    "Muñecos de juguete",
+    "Personas actuando"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un nacimiento viviente?",
+   "tr": "¡Personas actuando!",
+   "o_fotos": [
+    {
+     "q": "toy figures",
+     "src": "px"
+    },
+    {
+     "q": "living nativity scene",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 2
+  },
+  {
+   "n": 39,
+   "p": "¿Cuál es un Niño Manuelito?",
+   "o": [
+    "Muñeco de trapo",
+    "Niño Jesús peruano"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un Niño Manuelito?",
+   "tr": "¡El Niño Jesús peruano!",
+   "o_fotos": [
+    {
+     "q": "rag doll",
+     "src": "px"
+    },
+    {
+     "q": "baby jesus figurine",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 3
+  },
+  {
+   "n": 40,
+   "p": "¿Cuál es Melchor?",
+   "o": [
+    "Rey Mago",
+    "Pastor"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es Melchor?",
+   "tr": "¡Un Rey Mago!",
+   "o_fotos": [
+    {
+     "q": "wise man king",
+     "src": "px"
+    },
+    {
+     "q": "shepherd sheep",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 3
+  },
+  {
+   "n": 41,
+   "p": "¿En qué día se arma el árbol en Perú?",
+   "o": [
+    "1 de enero",
+    "8 de diciembre"
+   ],
+   "c": 1,
+   "tp": "¿En qué día se arma el árbol en Perú?",
+   "tr": "¡El 8 de diciembre!",
+   "o_fotos": [
+    {
+     "q": "new year fireworks",
+     "src": "px"
+    },
+    {
+     "q": "decorating christmas tree",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 3
+  },
+  {
+   "n": 42,
+   "p": "¿Cuál es el reno de nariz roja?",
+   "o": [
+    "Bambi",
+    "Rodolfo"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el reno de nariz roja?",
+   "tr": "¡Rodolfo!",
+   "o_fotos": [
+    {
+     "q": "fawn deer",
+     "src": "px"
+    },
+    {
+     "q": "reindeer red nose toy",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 3
+  },
+  {
+   "n": 43,
+   "p": "¿Dónde es verano en Navidad?",
+   "o": [
+    "Australia",
+    "Canadá"
+   ],
+   "c": 0,
+   "tp": "¿Dónde es verano en Navidad?",
+   "tr": "¡Australia! Allá la Navidad es en verano.",
+   "o_fotos": [
+    {
+     "q": "sydney beach",
+     "src": "px"
+    },
+    {
+     "q": "canada snow",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 3
+  },
+  {
+   "n": 44,
+   "p": "¿Cuál es la Misa de Gallo?",
+   "o": [
+    "Pelea de gallos",
+    "Misa de medianoche"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es la Misa de Gallo?",
+   "tr": "¡La misa de medianoche!",
+   "o_fotos": [
+    {
+     "q": "rooster",
+     "src": "px"
+    },
+    {
+     "q": "midnight mass church candles",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 3
+  },
+  {
+   "n": 45,
+   "p": "¿Cuál canta en Navidad?",
+   "o": [
+    "Orquesta",
+    "Coro"
+   ],
+   "c": 1,
+   "tp": "¿Cuál canta en Navidad?",
+   "tr": "¡El coro!",
+   "o_fotos": [
+    {
+     "q": "orchestra",
+     "src": "px"
+    },
+    {
+     "q": "choir",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 3
+  },
+  {
+   "n": 46,
+   "p": "¿Cuál es el gran árbol de Nueva York?",
+   "o": [
+    "Rockefeller Center",
+    "Times Square"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es el gran árbol de Nueva York?",
+   "tr": "¡El del Rockefeller Center!",
+   "o_fotos": [
+    {
+     "q": "rockefeller christmas tree",
+     "src": "px"
+    },
+    {
+     "q": "times square",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 3
+  },
+  {
+   "n": 47,
+   "p": "¿Cuántos Reyes Magos hay?",
+   "o": [
+    "Cinco",
+    "Tres"
+   ],
+   "c": 1,
+   "tp": "¿Cuántos Reyes Magos hay?",
+   "tr": "¡Tres!",
+   "o_fotos": [
+    {
+     "q": "five toy soldiers",
+     "src": "px"
+    },
+    {
+     "q": "three kings figurines",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 3
+  },
+  {
+   "n": 48,
+   "p": "¿Qué regalo trajo Melchor?",
+   "o": [
+    "Chocolate",
+    "Oro"
+   ],
+   "c": 1,
+   "tp": "¿Qué regalo trajo Melchor?",
+   "tr": "¡Oro!",
+   "o_fotos": [
+    {
+     "q": "chocolate bar",
+     "src": "px"
+    },
+    {
+     "q": "gold coins",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 3
+  },
+  {
+   "n": 49,
+   "p": "¿Cuál es una piñata?",
+   "o": [
+    "Piñata",
+    "Globo"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es una piñata?",
+   "tr": "¡La piñata!",
+   "o_fotos": [
+    {
+     "q": "pinata",
+     "src": "px"
+    },
+    {
+     "q": "balloons",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 3
+  },
+  {
+   "n": 50,
+   "p": "¿Dónde vivía San Nicolás?",
+   "o": [
+    "Turquía",
+    "Noruega"
+   ],
+   "c": 0,
+   "tp": "¿Dónde vivía San Nicolás?",
+   "tr": "¡Turquía!",
+   "o_fotos": [
+    {
+     "flag": "tr"
+    },
+    {
+     "flag": "no"
+    }
+   ],
+   "zona": 1,
+   "nivel": 4
+  },
+  {
+   "n": 51,
+   "p": "¿Cuál es más antiguo?",
+   "o": [
+    "Noche de Paz",
+    "Jingle Bells"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más antiguo?",
+   "tr": "¡Noche de Paz! De 1818.",
+   "o_fotos": [
+    {
+     "q": "old church austria",
+     "src": "px"
+    },
+    {
+     "q": "sleigh bells",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 4
+  },
+  {
+   "n": 52,
+   "p": "¿Cuál es Rovaniemi?",
+   "o": [
+    "Volcán de Islandia",
+    "Pueblo de Papá Noel"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es Rovaniemi?",
+   "tr": "¡El pueblo de Papá Noel!",
+   "o_fotos": [
+    {
+     "q": "iceland volcano",
+     "src": "px"
+    },
+    {
+     "q": "rovaniemi santa village",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 4
+  },
+  {
+   "n": 53,
+   "p": "¿De qué país es el villancico Jingle Bells?",
+   "o": [
+    "Estados Unidos",
+    "Inglaterra"
+   ],
+   "c": 0,
+   "tp": "¿De qué país es el villancico Jingle Bells?",
+   "tr": "¡Estados Unidos!",
+   "o_fotos": [
+    {
+     "flag": "us"
+    },
+    {
+     "flag": "gb"
+    }
+   ],
+   "zona": 1,
+   "nivel": 4
+  },
+  {
+   "n": 54,
+   "p": "¿Cuál es la Navidad en inglés?",
+   "o": [
+    "Halloween",
+    "Christmas"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es la Navidad en inglés?",
+   "tr": "¡Christmas!",
+   "o_fotos": [
+    {
+     "q": "halloween pumpkin",
+     "src": "px"
+    },
+    {
+     "q": "merry christmas sign",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 4
+  },
+  {
+   "n": 55,
+   "p": "¿Cuál era Papá Noel antes?",
+   "o": [
+    "Rey Arturo",
+    "San Nicolás"
+   ],
+   "c": 1,
+   "tp": "¿Cuál era Papá Noel antes?",
+   "tr": "¡San Nicolás!",
+   "o_fotos": [
+    {
+     "q": "king arthur statue",
+     "src": "px"
+    },
+    {
+     "q": "saint nicholas statue",
+     "src": "px"
+    }
+   ],
+   "zona": 1,
+   "nivel": 4
+  },
+  {
+   "n": 56,
+   "p": "¿Cuál es más pesado?",
+   "o": [
+    "Camión",
+    "Bicicleta"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más pesado?",
+   "tr": "¡El camión!",
+   "o_fotos": [
+    {
+     "q": "truck",
+     "src": "px"
+    },
+    {
+     "q": "bicycle",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 1
+  },
+  {
+   "n": 57,
+   "p": "¿Cuál es un juguete de cuerda?",
+   "o": [
+    "Tostadora",
+    "Robot de cuerda"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un juguete de cuerda?",
+   "tr": "¡El robot de cuerda!",
+   "o_fotos": [
+    {
+     "q": "toaster",
+     "src": "px"
+    },
+    {
+     "q": "wind up toy robot",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 1
+  },
+  {
+   "n": 58,
+   "p": "¿Cuál vuela sin motor?",
+   "o": [
+    "Avioneta",
+    "Planeador"
+   ],
+   "c": 1,
+   "tp": "¿Cuál vuela sin motor?",
+   "tr": "¡El planeador!",
+   "o_fotos": [
+    {
+     "q": "small airplane",
+     "src": "px"
+    },
+    {
+     "q": "glider",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 1
+  },
+  {
+   "n": 59,
+   "p": "¿Cuál da la hora?",
+   "o": [
+    "Brújula",
+    "Reloj"
+   ],
+   "c": 1,
+   "tp": "¿Cuál da la hora?",
+   "tr": "¡El reloj!",
+   "o_fotos": [
+    {
+     "q": "compass",
+     "src": "px"
+    },
+    {
+     "q": "wall clock",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 1
+  },
+  {
+   "n": 60,
+   "p": "¿Cuál corta?",
+   "o": [
+    "Tijeras",
+    "Lápiz"
+   ],
+   "c": 0,
+   "tp": "¿Cuál corta?",
+   "tr": "¡Las tijeras!",
+   "o_fotos": [
+    {
+     "q": "scissors",
+     "src": "px"
+    },
+    {
+     "q": "pencil",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 1
+  },
+  {
+   "n": 61,
+   "p": "¿Cuál tiene más ruedas?",
+   "o": [
+    "Camión",
+    "Motocicleta"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene más ruedas?",
+   "tr": "¡El camión!",
+   "o_fotos": [
+    {
+     "q": "truck highway",
+     "src": "px"
+    },
+    {
+     "q": "motorcycle",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 1
+  },
+  {
+   "n": 62,
+   "p": "¿Cuál marca el norte?",
+   "o": [
+    "Brújula",
+    "Reloj"
+   ],
+   "c": 0,
+   "tp": "¿Cuál marca el norte?",
+   "tr": "¡La brújula!",
+   "o_fotos": [
+    {
+     "q": "compass",
+     "src": "px"
+    },
+    {
+     "q": "watch",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 1
+  },
+  {
+   "n": 63,
+   "p": "¿Cuál se usa para jugar tenis?",
+   "o": [
+    "Bate",
+    "Raqueta"
+   ],
+   "c": 1,
+   "tp": "¿Cuál se usa para jugar tenis?",
+   "tr": "¡La raqueta!",
+   "o_fotos": [
+    {
+     "q": "baseball bat",
+     "src": "px"
+    },
+    {
+     "q": "tennis racket",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 1
+  },
+  {
+   "n": 64,
+   "p": "¿Cuál se usa en el fútbol?",
+   "o": [
+    "Raqueta",
+    "Pelota de fútbol"
+   ],
+   "c": 1,
+   "tp": "¿Cuál se usa en el fútbol?",
+   "tr": "¡La pelota de fútbol!",
+   "o_fotos": [
+    {
+     "q": "tennis racket",
+     "src": "px"
+    },
+    {
+     "q": "soccer ball",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 1
+  },
+  {
+   "n": 65,
+   "p": "¿Cuál produce energía con el viento?",
+   "o": [
+    "Aerogenerador",
+    "Panel solar"
+   ],
+   "c": 0,
+   "tp": "¿Cuál produce energía con el viento?",
+   "tr": "¡El aerogenerador!",
+   "o_fotos": [
+    {
+     "q": "wind turbine",
+     "src": "px"
+    },
+    {
+     "q": "solar panel",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 1
+  },
+  {
+   "n": 66,
+   "p": "¿Cuál tiene teclas?",
+   "o": [
+    "Violín",
+    "Piano"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene teclas?",
+   "tr": "¡El piano!",
+   "o_fotos": [
+    {
+     "q": "violin",
+     "src": "px"
+    },
+    {
+     "q": "piano keys",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 1
+  },
+  {
+   "n": 67,
+   "p": "¿Cuál es un yoyo?",
+   "o": [
+    "Yoyo",
+    "Trompo"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un yoyo?",
+   "tr": "¡El yoyo!",
+   "o_fotos": [
+    {
+     "q": "yoyo toy",
+     "src": "px"
+    },
+    {
+     "q": "spinning top",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 1
+  },
+  {
+   "n": 68,
+   "p": "¿Cuál usa rieles?",
+   "o": [
+    "Bus",
+    "Tren"
+   ],
+   "c": 1,
+   "tp": "¿Cuál usa rieles?",
+   "tr": "¡El tren!",
+   "o_fotos": [
+    {
+     "q": "bus city",
+     "src": "px"
+    },
+    {
+     "q": "train tracks",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 1
+  },
+  {
+   "n": 69,
+   "p": "¿Cuál es más rápido?",
+   "o": [
+    "Avión",
+    "Tren"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más rápido?",
+   "tr": "¡El avión!",
+   "o_fotos": [
+    {
+     "q": "airplane sky",
+     "src": "px"
+    },
+    {
+     "q": "train",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 1
+  },
+  {
+   "n": 70,
+   "p": "¿Cuál es un cubo de Rubik?",
+   "o": [
+    "Dado",
+    "Cubo de colores"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un cubo de Rubik?",
+   "tr": "¡El cubo de colores!",
+   "o_fotos": [
+    {
+     "q": "dice",
+     "src": "px"
+    },
+    {
+     "q": "rubiks cube",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 1
+  },
+  {
+   "n": 71,
+   "p": "¿Cuál es más rápido?",
+   "o": [
+    "Fórmula 1",
+    "Bicicleta"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más rápido?",
+   "tr": "¡La Fórmula 1!",
+   "o_fotos": [
+    {
+     "q": "formula 1 car",
+     "src": "px"
+    },
+    {
+     "q": "racing bicycle",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 1
+  },
+  {
+   "n": 72,
+   "p": "¿Cuál tiene la pelota más grande?",
+   "o": [
+    "Básquet",
+    "Golf"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene la pelota más grande?",
+   "tr": "¡El básquet!",
+   "o_fotos": [
+    {
+     "q": "basketball",
+     "src": "px"
+    },
+    {
+     "q": "golf ball",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 1
+  },
+  {
+   "n": 73,
+   "p": "¿Cuál tiene cuerdas?",
+   "o": [
+    "Guitarra",
+    "Flauta"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene cuerdas?",
+   "tr": "¡La guitarra!",
+   "o_fotos": [
+    {
+     "q": "acoustic guitar",
+     "src": "px"
+    },
+    {
+     "q": "flute",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 1
+  },
+  {
+   "n": 74,
+   "p": "¿Cuál es un instrumento de viento?",
+   "o": [
+    "Tambor",
+    "Trompeta"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un instrumento de viento?",
+   "tr": "¡La trompeta!",
+   "o_fotos": [
+    {
+     "q": "drum",
+     "src": "px"
+    },
+    {
+     "q": "trumpet",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 1
+  },
+  {
+   "n": 75,
+   "p": "¿Cuál sirve para ver de lejos?",
+   "o": [
+    "Binoculares",
+    "Lupa"
+   ],
+   "c": 0,
+   "tp": "¿Cuál sirve para ver de lejos?",
+   "tr": "¡Los binoculares!",
+   "o_fotos": [
+    {
+     "q": "binoculars",
+     "src": "px"
+    },
+    {
+     "q": "magnifying glass",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 1
+  },
+  {
+   "n": 76,
+   "p": "¿Cuál es una cometa?",
+   "o": [
+    "Paraguas",
+    "Cometa"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es una cometa?",
+   "tr": "¡La cometa!",
+   "o_fotos": [
+    {
+     "q": "umbrella",
+     "src": "px"
+    },
+    {
+     "q": "kite flying",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 1
+  },
+  {
+   "n": 77,
+   "p": "¿Cuál es un imán?",
+   "o": [
+    "Imán",
+    "Pila"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un imán?",
+   "tr": "¡El imán!",
+   "o_fotos": [
+    {
+     "q": "magnet",
+     "src": "px"
+    },
+    {
+     "q": "battery",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 2
+  },
+  {
+   "n": 78,
+   "p": "¿Cuál es un instrumento de cuerda?",
+   "o": [
+    "Charango",
+    "Quena"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un instrumento de cuerda?",
+   "tr": "¡El charango!",
+   "o_fotos": [
+    {
+     "q": "Charango",
+     "src": "cm",
+     "must": "Charango"
+    },
+    {
+     "q": "Quena",
+     "src": "cm",
+     "must": "Quena"
+    }
+   ],
+   "zona": 2,
+   "nivel": 2
+  },
+  {
+   "n": 79,
+   "p": "¿Cuál tiene más teclas?",
+   "o": [
+    "Acordeón",
+    "Piano"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene más teclas?",
+   "tr": "¡El piano!",
+   "o_fotos": [
+    {
+     "q": "accordion",
+     "src": "px"
+    },
+    {
+     "q": "piano keys",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 2
+  },
+  {
+   "n": 80,
+   "p": "¿Cuál se juega con raqueta?",
+   "o": [
+    "Tenis",
+    "Béisbol"
+   ],
+   "c": 0,
+   "tp": "¿Cuál se juega con raqueta?",
+   "tr": "¡El tenis!",
+   "o_fotos": [
+    {
+     "q": "tennis racket",
+     "src": "px"
+    },
+    {
+     "q": "baseball bat",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 2
+  },
+  {
+   "n": 81,
+   "p": "¿Cuál es un instrumento peruano?",
+   "o": [
+    "Cajón",
+    "Batería"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un instrumento peruano?",
+   "tr": "¡El cajón!",
+   "o_fotos": [
+    {
+     "q": "Cajón peruano",
+     "src": "cm",
+     "must": "Caj"
+    },
+    {
+     "q": "drum kit",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 2
+  },
+  {
+   "n": 82,
+   "p": "¿Cuál es un microscopio?",
+   "o": [
+    "Microscopio",
+    "Telescopio"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un microscopio?",
+   "tr": "¡El microscopio!",
+   "o_fotos": [
+    {
+     "q": "microscope",
+     "src": "px"
+    },
+    {
+     "q": "telescope",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 2
+  },
+  {
+   "n": 83,
+   "p": "¿Cuál conduce la electricidad?",
+   "o": [
+    "Madera",
+    "Cobre"
+   ],
+   "c": 1,
+   "tp": "¿Cuál conduce la electricidad?",
+   "tr": "¡El cobre!",
+   "o_fotos": [
+    {
+     "q": "wood plank",
+     "src": "px"
+    },
+    {
+     "q": "copper wire",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 2
+  },
+  {
+   "n": 84,
+   "p": "¿Cuál es más rápido?",
+   "o": [
+    "Tren bala",
+    "Avión"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más rápido?",
+   "tr": "¡El avión!",
+   "o_fotos": [
+    {
+     "q": "bullet train",
+     "src": "px"
+    },
+    {
+     "q": "airplane sky",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 2
+  },
+  {
+   "n": 85,
+   "p": "¿Cuál flota en el aire?",
+   "o": [
+    "Globo aerostático",
+    "Helicóptero"
+   ],
+   "c": 0,
+   "tp": "¿Cuál flota en el aire?",
+   "tr": "¡El globo aerostático! Flota sin motor.",
+   "o_fotos": [
+    {
+     "q": "hot air balloon",
+     "src": "px"
+    },
+    {
+     "q": "helicopter",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 2
+  },
+  {
+   "n": 86,
+   "p": "¿Cuál es un tren de juguete?",
+   "o": [
+    "Tren de juguete",
+    "Tren de verdad"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un tren de juguete?",
+   "tr": "¡El tren de juguete!",
+   "o_fotos": [
+    {
+     "q": "toy train christmas",
+     "src": "px"
+    },
+    {
+     "q": "train station",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 2
+  },
+  {
+   "n": 87,
+   "p": "¿Cuál tarda más en degradarse?",
+   "o": [
+    "Botella de plástico",
+    "Cáscara de plátano"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tarda más en degradarse?",
+   "tr": "¡La botella de plástico! Cientos de años.",
+   "o_fotos": [
+    {
+     "q": "plastic bottle",
+     "src": "px"
+    },
+    {
+     "q": "banana peel",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 2
+  },
+  {
+   "n": 88,
+   "p": "¿Cuál inventó la bombilla?",
+   "o": [
+    "Thomas Edison",
+    "Isaac Newton"
+   ],
+   "c": 0,
+   "tp": "¿Cuál inventó la bombilla?",
+   "tr": "¡Thomas Edison!",
+   "o_fotos": [
+    {
+     "q": "Thomas Edison portrait",
+     "src": "cm",
+     "must": "Edison"
+    },
+    {
+     "q": "Isaac Newton portrait",
+     "src": "cm",
+     "must": "Newton"
+    }
+   ],
+   "zona": 2,
+   "nivel": 2
+  },
+  {
+   "n": 89,
+   "p": "¿Cuál tiene más ruedas?",
+   "o": [
+    "Tren",
+    "Camión"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene más ruedas?",
+   "tr": "¡El tren!",
+   "o_fotos": [
+    {
+     "q": "train",
+     "src": "px"
+    },
+    {
+     "q": "truck",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 2
+  },
+  {
+   "n": 90,
+   "p": "¿Cuál funciona con pilas?",
+   "o": [
+    "Carrito a control remoto",
+    "Pelota"
+   ],
+   "c": 0,
+   "tp": "¿Cuál funciona con pilas?",
+   "tr": "¡El carrito a control remoto!",
+   "o_fotos": [
+    {
+     "q": "rc car toy",
+     "src": "px"
+    },
+    {
+     "q": "ball",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 2
+  },
+  {
+   "n": 91,
+   "p": "¿Cuál es un instrumento de viento?",
+   "o": [
+    "Quena",
+    "Charango"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un instrumento de viento?",
+   "tr": "¡La quena!",
+   "o_fotos": [
+    {
+     "q": "Quena",
+     "src": "cm",
+     "must": "Quena"
+    },
+    {
+     "q": "Charango",
+     "src": "cm",
+     "must": "Charango"
+    }
+   ],
+   "zona": 2,
+   "nivel": 2
+  },
+  {
+   "n": 92,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Pelota de tenis",
+    "Pelota de básquet"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡La de básquet!",
+   "o_fotos": [
+    {
+     "q": "tennis ball",
+     "src": "px"
+    },
+    {
+     "q": "basketball",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 2
+  },
+  {
+   "n": 93,
+   "p": "¿Cuál es un metal?",
+   "o": [
+    "Mármol",
+    "Oro"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un metal?",
+   "tr": "¡El oro!",
+   "o_fotos": [
+    {
+     "q": "marble stone",
+     "src": "px"
+    },
+    {
+     "q": "gold bars",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 2
+  },
+  {
+   "n": 94,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Electrón",
+    "Átomo"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡El átomo!",
+   "o_fotos": [
+    {
+     "q": "electron",
+     "src": "px"
+    },
+    {
+     "q": "atom model",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 2
+  },
+  {
+   "n": 95,
+   "p": "¿Cuál es un oso de peluche?",
+   "o": [
+    "Oso pardo",
+    "Oso de peluche"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un oso de peluche?",
+   "tr": "¡El oso de peluche!",
+   "o_fotos": [
+    {
+     "q": "brown bear",
+     "src": "px"
+    },
+    {
+     "q": "teddy bear",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 2
+  },
+  {
+   "n": 96,
+   "p": "¿Cuál tiene más jugadores en cancha?",
+   "o": [
+    "Fútbol",
+    "Básquet"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene más jugadores en cancha?",
+   "tr": "¡El fútbol! Once contra cinco.",
+   "o_fotos": [
+    {
+     "q": "soccer team",
+     "src": "px"
+    },
+    {
+     "q": "basketball game",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 2
+  },
+  {
+   "n": 97,
+   "p": "¿Cuál es el órgano más grande?",
+   "o": [
+    "Piel",
+    "Hígado"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es el órgano más grande?",
+   "tr": "¡La piel!",
+   "o_fotos": [
+    {
+     "q": "human skin hand",
+     "src": "px"
+    },
+    {
+     "q": "liver anatomy",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 3
+  },
+  {
+   "n": 98,
+   "p": "¿Cuál es un dron?",
+   "o": [
+    "Dron",
+    "Helicóptero"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un dron?",
+   "tr": "¡El dron!",
+   "o_fotos": [
+    {
+     "q": "drone flying",
+     "src": "px"
+    },
+    {
+     "q": "helicopter",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 3
+  },
+  {
+   "n": 99,
+   "p": "¿Cuál tiene más huesos?",
+   "o": [
+    "Bebé",
+    "Adulto"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene más huesos?",
+   "tr": "¡El bebé! Unos 300; el adulto, 206.",
+   "o_fotos": [
+    {
+     "q": "newborn baby",
+     "src": "px"
+    },
+    {
+     "q": "adult man",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 3
+  },
+  {
+   "n": 100,
+   "p": "¿Cuál es el hueso más largo?",
+   "o": [
+    "Fémur",
+    "Húmero"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es el hueso más largo?",
+   "tr": "¡El fémur!",
+   "o_fotos": [
+    {
+     "q": "Femur",
+     "src": "cm",
+     "must": "Femur"
+    },
+    {
+     "q": "Humerus",
+     "src": "cm",
+     "must": "Humerus"
+    }
+   ],
+   "zona": 2,
+   "nivel": 3
+  },
+  {
+   "n": 101,
+   "p": "¿Cuál bombea la sangre?",
+   "o": [
+    "Pulmón",
+    "Corazón"
+   ],
+   "c": 1,
+   "tp": "¿Cuál bombea la sangre?",
+   "tr": "¡El corazón!",
+   "o_fotos": [
+    {
+     "q": "lungs anatomy",
+     "src": "px"
+    },
+    {
+     "q": "human heart anatomy",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 3
+  },
+  {
+   "n": 102,
+   "p": "¿Cuál es más antiguo?",
+   "o": [
+    "Videojuego",
+    "Ajedrez"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más antiguo?",
+   "tr": "¡El ajedrez!",
+   "o_fotos": [
+    {
+     "q": "video game controller",
+     "src": "px"
+    },
+    {
+     "q": "chess board",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 3
+  },
+  {
+   "n": 103,
+   "p": "¿Cuál descubrió la gravedad?",
+   "o": [
+    "Albert Einstein",
+    "Isaac Newton"
+   ],
+   "c": 1,
+   "tp": "¿Cuál descubrió la gravedad?",
+   "tr": "¡Isaac Newton!",
+   "o_fotos": [
+    {
+     "q": "Albert Einstein portrait",
+     "src": "cm",
+     "must": "Einstein"
+    },
+    {
+     "q": "Isaac Newton portrait",
+     "src": "cm",
+     "must": "Newton"
+    }
+   ],
+   "zona": 2,
+   "nivel": 3
+  },
+  {
+   "n": 104,
+   "p": "¿Cuál es más pesado?",
+   "o": [
+    "Osmio",
+    "Plomo"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más pesado?",
+   "tr": "¡El osmio! Es el metal más denso.",
+   "o_fotos": [
+    {
+     "q": "Osmium",
+     "src": "cm",
+     "must": "Osmium"
+    },
+    {
+     "q": "lead metal",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 4
+  },
+  {
+   "n": 105,
+   "p": "¿Cuál es el elemento más común del universo?",
+   "o": [
+    "Oxígeno",
+    "Hidrógeno"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el elemento más común del universo?",
+   "tr": "¡El hidrógeno!",
+   "o_fotos": [
+    {
+     "q": "oxygen",
+     "src": "px"
+    },
+    {
+     "q": "hydrogen",
+     "src": "px"
+    }
+   ],
+   "zona": 2,
+   "nivel": 4
+  },
+  {
+   "n": 106,
+   "p": "¿Cuál da lana?",
+   "o": [
+    "Cerdo",
+    "Oveja"
+   ],
+   "c": 1,
+   "tp": "¿Cuál da lana?",
+   "tr": "¡La oveja!",
+   "o_fotos": [
+    {
+     "q": "pig",
+     "src": "px"
+    },
+    {
+     "q": "sheep wool",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 107,
+   "p": "¿Cuál tiene más colores?",
+   "o": [
+    "Pavo real",
+    "Cuervo"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene más colores?",
+   "tr": "¡El pavo real!",
+   "o_fotos": [
+    {
+     "q": "peacock",
+     "src": "px"
+    },
+    {
+     "q": "raven",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 108,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Cuy",
+    "Hámster"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡El cuy!",
+   "o_fotos": [
+    {
+     "q": "guinea pig",
+     "src": "px"
+    },
+    {
+     "q": "hamster",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 109,
+   "p": "¿Cuál vuela?",
+   "o": [
+    "Pingüino",
+    "Búho"
+   ],
+   "c": 1,
+   "tp": "¿Cuál vuela?",
+   "tr": "¡El búho!",
+   "o_fotos": [
+    {
+     "q": "penguin",
+     "src": "px"
+    },
+    {
+     "q": "owl flying",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 110,
+   "p": "¿Cuál tiene antifaz?",
+   "o": [
+    "Mapache",
+    "Zorro"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene antifaz?",
+   "tr": "¡El mapache!",
+   "o_fotos": [
+    {
+     "q": "raccoon face",
+     "src": "px"
+    },
+    {
+     "q": "red fox",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 111,
+   "p": "¿Cuál es nocturno?",
+   "o": [
+    "Gallina",
+    "Búho"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es nocturno?",
+   "tr": "¡El búho!",
+   "o_fotos": [
+    {
+     "q": "hen",
+     "src": "px"
+    },
+    {
+     "q": "owl night",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 112,
+   "p": "¿Cuál es más alto?",
+   "o": [
+    "Cebra",
+    "Jirafa"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más alto?",
+   "tr": "¡La jirafa!",
+   "o_fotos": [
+    {
+     "q": "zebra",
+     "src": "px"
+    },
+    {
+     "q": "giraffe",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 113,
+   "p": "¿Cuál tiene rayas?",
+   "o": [
+    "Cebra",
+    "Caballo"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene rayas?",
+   "tr": "¡La cebra!",
+   "o_fotos": [
+    {
+     "q": "zebra stripes",
+     "src": "px"
+    },
+    {
+     "q": "brown horse",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 114,
+   "p": "¿Cuál sigue al Sol?",
+   "o": [
+    "Girasol",
+    "Rosa"
+   ],
+   "c": 0,
+   "tp": "¿Cuál sigue al Sol?",
+   "tr": "¡El girasol!",
+   "o_fotos": [
+    {
+     "q": "sunflower field",
+     "src": "px"
+    },
+    {
+     "q": "rose",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 115,
+   "p": "¿Cuál vuela más alto?",
+   "o": [
+    "Gallina",
+    "Cóndor"
+   ],
+   "c": 1,
+   "tp": "¿Cuál vuela más alto?",
+   "tr": "¡El cóndor!",
+   "o_fotos": [
+    {
+     "q": "chicken farm",
+     "src": "px"
+    },
+    {
+     "q": "condor flying",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 116,
+   "p": "¿Cuál es más pequeño?",
+   "o": [
+    "Paloma",
+    "Colibrí"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más pequeño?",
+   "tr": "¡El colibrí!",
+   "o_fotos": [
+    {
+     "q": "pigeon",
+     "src": "px"
+    },
+    {
+     "q": "hummingbird",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 117,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Mono araña",
+    "Gorila"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡El gorila!",
+   "o_fotos": [
+    {
+     "q": "spider monkey",
+     "src": "px"
+    },
+    {
+     "q": "gorilla",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 118,
+   "p": "¿Cuál es más rápido?",
+   "o": [
+    "Caballo",
+    "Guepardo"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más rápido?",
+   "tr": "¡El guepardo!",
+   "o_fotos": [
+    {
+     "q": "horse running",
+     "src": "px"
+    },
+    {
+     "q": "cheetah running",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 119,
+   "p": "¿Cuál come bambú?",
+   "o": [
+    "Oso panda",
+    "Oso pardo"
+   ],
+   "c": 0,
+   "tp": "¿Cuál come bambú?",
+   "tr": "¡El oso panda!",
+   "o_fotos": [
+    {
+     "q": "giant panda bamboo",
+     "src": "px"
+    },
+    {
+     "q": "brown bear",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 120,
+   "p": "¿Cuál come carne?",
+   "o": [
+    "Vaca",
+    "Lobo"
+   ],
+   "c": 1,
+   "tp": "¿Cuál come carne?",
+   "tr": "¡El lobo!",
+   "o_fotos": [
+    {
+     "q": "cow grass",
+     "src": "px"
+    },
+    {
+     "q": "wolf",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 121,
+   "p": "¿Cuál es más alto?",
+   "o": [
+    "Palmera",
+    "Secuoya"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más alto?",
+   "tr": "¡La secuoya!",
+   "o_fotos": [
+    {
+     "q": "palm tree",
+     "src": "px"
+    },
+    {
+     "q": "Sequoiadendron giganteum",
+     "src": "cm",
+     "must": "Sequoia"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 122,
+   "p": "¿Cuál se arrastra?",
+   "o": [
+    "Serpiente",
+    "Lagarto"
+   ],
+   "c": 0,
+   "tp": "¿Cuál se arrastra?",
+   "tr": "¡La serpiente!",
+   "o_fotos": [
+    {
+     "q": "snake",
+     "src": "px"
+    },
+    {
+     "q": "lizard sun",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 123,
+   "p": "¿Cuál es más alto?",
+   "o": [
+    "Oveja",
+    "Alpaca"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más alto?",
+   "tr": "¡La alpaca!",
+   "o_fotos": [
+    {
+     "q": "sheep",
+     "src": "px"
+    },
+    {
+     "q": "alpaca",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 124,
+   "p": "¿Cuál se revuelca en el barro?",
+   "o": [
+    "Gato",
+    "Cerdo"
+   ],
+   "c": 1,
+   "tp": "¿Cuál se revuelca en el barro?",
+   "tr": "¡El cerdo!",
+   "o_fotos": [
+    {
+     "q": "cat sitting",
+     "src": "px"
+    },
+    {
+     "q": "pig mud",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 125,
+   "p": "¿Cuál habla imitando?",
+   "o": [
+    "Paloma",
+    "Loro"
+   ],
+   "c": 1,
+   "tp": "¿Cuál habla imitando?",
+   "tr": "¡El loro!",
+   "o_fotos": [
+    {
+     "q": "pigeon",
+     "src": "px"
+    },
+    {
+     "q": "parrot",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 126,
+   "p": "¿Cuál tiene más patas?",
+   "o": [
+    "Ciempiés",
+    "Hormiga"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene más patas?",
+   "tr": "¡El ciempiés!",
+   "o_fotos": [
+    {
+     "q": "centipede",
+     "src": "px"
+    },
+    {
+     "q": "ant",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 127,
+   "p": "¿Cuál es un reptil?",
+   "o": [
+    "Rana",
+    "Tortuga"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un reptil?",
+   "tr": "¡La tortuga! La rana es anfibio.",
+   "o_fotos": [
+    {
+     "q": "frog green",
+     "src": "px"
+    },
+    {
+     "q": "turtle",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 128,
+   "p": "¿Cuál construye presas?",
+   "o": [
+    "Castor",
+    "Mapache"
+   ],
+   "c": 0,
+   "tp": "¿Cuál construye presas?",
+   "tr": "¡El castor!",
+   "o_fotos": [
+    {
+     "q": "beaver",
+     "src": "px"
+    },
+    {
+     "q": "raccoon",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 129,
+   "p": "¿Cuál tiene una joroba?",
+   "o": [
+    "Caballo",
+    "Camello"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene una joroba?",
+   "tr": "¡El camello!",
+   "o_fotos": [
+    {
+     "q": "horse",
+     "src": "px"
+    },
+    {
+     "q": "camel",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 130,
+   "p": "¿Cuál es más lento?",
+   "o": [
+    "Perezoso",
+    "Mono"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más lento?",
+   "tr": "¡El perezoso!",
+   "o_fotos": [
+    {
+     "q": "sloth",
+     "src": "px"
+    },
+    {
+     "q": "monkey",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 131,
+   "p": "¿Cuál picotea la madera?",
+   "o": [
+    "Pájaro carpintero",
+    "Gaviota"
+   ],
+   "c": 0,
+   "tp": "¿Cuál picotea la madera?",
+   "tr": "¡El pájaro carpintero!",
+   "o_fotos": [
+    {
+     "q": "woodpecker",
+     "src": "px"
+    },
+    {
+     "q": "seagull",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 132,
+   "p": "¿Cuál es más rápido?",
+   "o": [
+    "Vaca",
+    "Caballo"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más rápido?",
+   "tr": "¡El caballo!",
+   "o_fotos": [
+    {
+     "q": "cow field",
+     "src": "px"
+    },
+    {
+     "q": "horse galloping",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 133,
+   "p": "¿Cuál es una flor?",
+   "o": [
+    "Helecho",
+    "Rosa"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es una flor?",
+   "tr": "¡La rosa!",
+   "o_fotos": [
+    {
+     "q": "fern",
+     "src": "px"
+    },
+    {
+     "q": "red rose",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 134,
+   "p": "¿Cuál tiene trompa?",
+   "o": [
+    "Rinoceronte",
+    "Elefante"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene trompa?",
+   "tr": "¡El elefante!",
+   "o_fotos": [
+    {
+     "q": "rhinoceros",
+     "src": "px"
+    },
+    {
+     "q": "elephant trunk",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 135,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Gallina",
+    "Avestruz"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡El avestruz!",
+   "o_fotos": [
+    {
+     "q": "chicken",
+     "src": "px"
+    },
+    {
+     "q": "ostrich",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 136,
+   "p": "¿Cuál aúlla?",
+   "o": [
+    "Lobo",
+    "Oso"
+   ],
+   "c": 0,
+   "tp": "¿Cuál aúlla?",
+   "tr": "¡El lobo!",
+   "o_fotos": [
+    {
+     "q": "wolf howling",
+     "src": "px"
+    },
+    {
+     "q": "bear",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 137,
+   "p": "¿Cuál tiene el pico más grande?",
+   "o": [
+    "Gorrión",
+    "Tucán"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene el pico más grande?",
+   "tr": "¡El tucán!",
+   "o_fotos": [
+    {
+     "q": "sparrow bird",
+     "src": "px"
+    },
+    {
+     "q": "toucan",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 138,
+   "p": "¿Cuál tiene caparazón?",
+   "o": [
+    "Erizo",
+    "Armadillo"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene caparazón?",
+   "tr": "¡El armadillo!",
+   "o_fotos": [
+    {
+     "q": "hedgehog",
+     "src": "px"
+    },
+    {
+     "q": "armadillo",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 139,
+   "p": "¿Cuál cambia de color?",
+   "o": [
+    "Camaleón",
+    "Lagartija"
+   ],
+   "c": 0,
+   "tp": "¿Cuál cambia de color?",
+   "tr": "¡El camaleón!",
+   "o_fotos": [
+    {
+     "q": "chameleon",
+     "src": "px"
+    },
+    {
+     "q": "lizard",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 140,
+   "p": "¿Cuál brilla de noche?",
+   "o": [
+    "Mariquita",
+    "Luciérnaga"
+   ],
+   "c": 1,
+   "tp": "¿Cuál brilla de noche?",
+   "tr": "¡La luciérnaga!",
+   "o_fotos": [
+    {
+     "q": "ladybug",
+     "src": "px"
+    },
+    {
+     "q": "firefly",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 141,
+   "p": "¿Cuál es un insecto?",
+   "o": [
+    "Abeja",
+    "Araña"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un insecto?",
+   "tr": "¡La abeja!",
+   "o_fotos": [
+    {
+     "q": "bee flower",
+     "src": "px"
+    },
+    {
+     "q": "spider web",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 142,
+   "p": "¿Cuál come solo plantas?",
+   "o": [
+    "Jirafa",
+    "León"
+   ],
+   "c": 0,
+   "tp": "¿Cuál come solo plantas?",
+   "tr": "¡La jirafa!",
+   "o_fotos": [
+    {
+     "q": "giraffe eating",
+     "src": "px"
+    },
+    {
+     "q": "lion",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 143,
+   "p": "¿Cuál ruge?",
+   "o": [
+    "Lobo",
+    "León"
+   ],
+   "c": 1,
+   "tp": "¿Cuál ruge?",
+   "tr": "¡El león!",
+   "o_fotos": [
+    {
+     "q": "wolf howl",
+     "src": "px"
+    },
+    {
+     "q": "lion roar",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 144,
+   "p": "¿Cuál tiene cuernos?",
+   "o": [
+    "Toro",
+    "Caballo"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene cuernos?",
+   "tr": "¡El toro!",
+   "o_fotos": [
+    {
+     "q": "bull",
+     "src": "px"
+    },
+    {
+     "q": "white horse",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 145,
+   "p": "¿Cuál es andino?",
+   "o": [
+    "Cóndor",
+    "Tucán"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es andino?",
+   "tr": "¡El cóndor! El tucán vive en la selva.",
+   "o_fotos": [
+    {
+     "q": "andean condor",
+     "src": "px"
+    },
+    {
+     "q": "toucan",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 146,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Águila",
+    "Gorrión"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡El águila!",
+   "o_fotos": [
+    {
+     "q": "eagle",
+     "src": "px"
+    },
+    {
+     "q": "sparrow",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 147,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Tigre",
+    "Gato"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡El tigre!",
+   "o_fotos": [
+    {
+     "q": "tiger",
+     "src": "px"
+    },
+    {
+     "q": "cat",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 148,
+   "p": "¿Cuál tiene bolsa para sus crías?",
+   "o": [
+    "Canguro",
+    "Ciervo"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene bolsa para sus crías?",
+   "tr": "¡El canguro!",
+   "o_fotos": [
+    {
+     "q": "kangaroo",
+     "src": "px"
+    },
+    {
+     "q": "deer",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 149,
+   "p": "¿Cuál vive más tiempo?",
+   "o": [
+    "Elefante",
+    "Perro"
+   ],
+   "c": 0,
+   "tp": "¿Cuál vive más tiempo?",
+   "tr": "¡El elefante!",
+   "o_fotos": [
+    {
+     "q": "elephant herd",
+     "src": "px"
+    },
+    {
+     "q": "dog",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 150,
+   "p": "¿Cuál tiene púas?",
+   "o": [
+    "Puercoespín",
+    "Conejo"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene púas?",
+   "tr": "¡El puercoespín!",
+   "o_fotos": [
+    {
+     "q": "porcupine",
+     "src": "px"
+    },
+    {
+     "q": "rabbit",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 151,
+   "p": "¿Cuál tiene el cuello más largo?",
+   "o": [
+    "Pato",
+    "Flamenco"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene el cuello más largo?",
+   "tr": "¡El flamenco!",
+   "o_fotos": [
+    {
+     "q": "duck",
+     "src": "px"
+    },
+    {
+     "q": "flamingo",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 1
+  },
+  {
+   "n": 152,
+   "p": "¿Cuál es el felino de América?",
+   "o": [
+    "Jaguar",
+    "Leopardo"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es el felino de América?",
+   "tr": "¡El jaguar!",
+   "o_fotos": [
+    {
+     "q": "jaguar",
+     "src": "px"
+    },
+    {
+     "q": "leopard",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 153,
+   "p": "¿Cuál es más lento?",
+   "o": [
+    "Perezoso",
+    "Koala"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más lento?",
+   "tr": "¡El perezoso!",
+   "o_fotos": [
+    {
+     "q": "sloth tree",
+     "src": "px"
+    },
+    {
+     "q": "koala",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 154,
+   "p": "¿Cuál bate las alas más rápido?",
+   "o": [
+    "Colibrí",
+    "Paloma"
+   ],
+   "c": 0,
+   "tp": "¿Cuál bate las alas más rápido?",
+   "tr": "¡El colibrí!",
+   "o_fotos": [
+    {
+     "q": "hummingbird flying",
+     "src": "px"
+    },
+    {
+     "q": "pigeon flying",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 155,
+   "p": "¿Cuál es un roedor?",
+   "o": [
+    "Ardilla",
+    "Conejo"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un roedor?",
+   "tr": "¡La ardilla! El conejo no es roedor.",
+   "o_fotos": [
+    {
+     "q": "squirrel",
+     "src": "px"
+    },
+    {
+     "q": "rabbit grass",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 156,
+   "p": "¿Cuál es nocturno?",
+   "o": [
+    "Águila",
+    "Búho"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es nocturno?",
+   "tr": "¡El búho!",
+   "o_fotos": [
+    {
+     "q": "eagle flying",
+     "src": "px"
+    },
+    {
+     "q": "owl night",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 157,
+   "p": "¿Cuál es un anfibio?",
+   "o": [
+    "Lagartija",
+    "Rana"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un anfibio?",
+   "tr": "¡La rana!",
+   "o_fotos": [
+    {
+     "q": "lizard",
+     "src": "px"
+    },
+    {
+     "q": "green frog",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 158,
+   "p": "¿Cuál es más venenosa?",
+   "o": [
+    "Rana dardo",
+    "Rana toro"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más venenosa?",
+   "tr": "¡La rana dardo!",
+   "o_fotos": [
+    {
+     "q": "poison dart frog",
+     "src": "px"
+    },
+    {
+     "q": "bullfrog",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 159,
+   "p": "¿Cuál es un marsupial?",
+   "o": [
+    "Conejo",
+    "Canguro"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un marsupial?",
+   "tr": "¡El canguro! Lleva a su cría en una bolsa.",
+   "o_fotos": [
+    {
+     "q": "rabbit",
+     "src": "px"
+    },
+    {
+     "q": "kangaroo",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 160,
+   "p": "¿Cuál da sombra?",
+   "o": [
+    "Árbol",
+    "Flor"
+   ],
+   "c": 0,
+   "tp": "¿Cuál da sombra?",
+   "tr": "¡El árbol!",
+   "o_fotos": [
+    {
+     "q": "big tree shade",
+     "src": "px"
+    },
+    {
+     "q": "flower",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 161,
+   "p": "¿Cuál es un árbol que no pierde sus hojas?",
+   "o": [
+    "Abeto",
+    "Roble"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un árbol que no pierde sus hojas?",
+   "tr": "¡El abeto! Siempre está verde.",
+   "o_fotos": [
+    {
+     "q": "fir tree",
+     "src": "px"
+    },
+    {
+     "q": "oak tree autumn",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 162,
+   "p": "¿Cuál tiene manchas?",
+   "o": [
+    "Tigre",
+    "Leopardo"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene manchas?",
+   "tr": "¡El leopardo! El tigre tiene rayas.",
+   "o_fotos": [
+    {
+     "q": "tiger",
+     "src": "px"
+    },
+    {
+     "q": "leopard",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 163,
+   "p": "¿Cuál es un ave que no vuela?",
+   "o": [
+    "Colibrí",
+    "Kiwi"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un ave que no vuela?",
+   "tr": "¡El kiwi!",
+   "o_fotos": [
+    {
+     "q": "hummingbird",
+     "src": "px"
+    },
+    {
+     "q": "Apteryx",
+     "src": "cm",
+     "must": "Apteryx"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 164,
+   "p": "¿Cuál es el ave más grande?",
+   "o": [
+    "Cóndor",
+    "Avestruz"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el ave más grande?",
+   "tr": "¡El avestruz!",
+   "o_fotos": [
+    {
+     "q": "andean condor",
+     "src": "px"
+    },
+    {
+     "q": "ostrich",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 165,
+   "p": "¿Cuál es el árbol más alto?",
+   "o": [
+    "Secuoya",
+    "Roble"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es el árbol más alto?",
+   "tr": "¡La secuoya!",
+   "o_fotos": [
+    {
+     "q": "sequoia tree",
+     "src": "px"
+    },
+    {
+     "q": "oak tree",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 166,
+   "p": "¿Cuál tiene la lengua más larga?",
+   "o": [
+    "Oso hormiguero",
+    "Gato"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene la lengua más larga?",
+   "tr": "¡El oso hormiguero!",
+   "o_fotos": [
+    {
+     "q": "anteater",
+     "src": "px"
+    },
+    {
+     "q": "cat tongue",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 167,
+   "p": "¿Cuál es el felino más grande?",
+   "o": [
+    "Tigre",
+    "León"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es el felino más grande?",
+   "tr": "¡El tigre!",
+   "o_fotos": [
+    {
+     "q": "siberian tiger",
+     "src": "px"
+    },
+    {
+     "q": "lion",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 168,
+   "p": "¿Cuál es un primate?",
+   "o": [
+    "Perezoso",
+    "Orangután"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un primate?",
+   "tr": "¡El orangután!",
+   "o_fotos": [
+    {
+     "q": "sloth",
+     "src": "px"
+    },
+    {
+     "q": "orangutan",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 169,
+   "p": "¿Cuál pone los huevos más grandes?",
+   "o": [
+    "Gallina",
+    "Avestruz"
+   ],
+   "c": 1,
+   "tp": "¿Cuál pone los huevos más grandes?",
+   "tr": "¡El avestruz!",
+   "o_fotos": [
+    {
+     "q": "chicken eggs",
+     "src": "px"
+    },
+    {
+     "q": "ostrich egg",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 170,
+   "p": "¿Cuál vuela más alto?",
+   "o": [
+    "Cóndor andino",
+    "Paloma"
+   ],
+   "c": 0,
+   "tp": "¿Cuál vuela más alto?",
+   "tr": "¡El cóndor andino!",
+   "o_fotos": [
+    {
+     "q": "andean condor flying",
+     "src": "px"
+    },
+    {
+     "q": "pigeon",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 171,
+   "p": "¿Cuál tiene rayas?",
+   "o": [
+    "Burro",
+    "Cebra"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene rayas?",
+   "tr": "¡La cebra!",
+   "o_fotos": [
+    {
+     "q": "donkey",
+     "src": "px"
+    },
+    {
+     "q": "zebra",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 172,
+   "p": "¿Cuál come insectos?",
+   "o": [
+    "Planta carnívora",
+    "Rosa"
+   ],
+   "c": 0,
+   "tp": "¿Cuál come insectos?",
+   "tr": "¡La planta carnívora!",
+   "o_fotos": [
+    {
+     "q": "venus flytrap",
+     "src": "px"
+    },
+    {
+     "q": "rose",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 173,
+   "p": "¿Cuál puede dormir de pie?",
+   "o": [
+    "Caballo",
+    "Perro"
+   ],
+   "c": 0,
+   "tp": "¿Cuál puede dormir de pie?",
+   "tr": "¡El caballo!",
+   "o_fotos": [
+    {
+     "q": "horse standing",
+     "src": "px"
+    },
+    {
+     "q": "dog lying",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 174,
+   "p": "¿Cuál come bambú?",
+   "o": [
+    "Panda",
+    "Koala"
+   ],
+   "c": 0,
+   "tp": "¿Cuál come bambú?",
+   "tr": "¡El panda! El koala come eucalipto.",
+   "o_fotos": [
+    {
+     "q": "panda eating bamboo",
+     "src": "px"
+    },
+    {
+     "q": "koala eucalyptus",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 175,
+   "p": "¿Cuál come eucalipto?",
+   "o": [
+    "Koala",
+    "Panda"
+   ],
+   "c": 0,
+   "tp": "¿Cuál come eucalipto?",
+   "tr": "¡El koala!",
+   "o_fotos": [
+    {
+     "q": "koala eucalyptus",
+     "src": "px"
+    },
+    {
+     "q": "giant panda",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 2
+  },
+  {
+   "n": 176,
+   "p": "¿Cuál es el animal terrestre más rápido?",
+   "o": [
+    "Guepardo",
+    "Antílope"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es el animal terrestre más rápido?",
+   "tr": "¡El guepardo!",
+   "o_fotos": [
+    {
+     "q": "cheetah",
+     "src": "px"
+    },
+    {
+     "q": "antelope",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 3
+  },
+  {
+   "n": 177,
+   "p": "¿Cuál tiene huellas como las nuestras?",
+   "o": [
+    "Mono",
+    "Koala"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene huellas como las nuestras?",
+   "tr": "¡El koala! Sus huellas dactilares se parecen a las nuestras.",
+   "o_fotos": [
+    {
+     "q": "monkey",
+     "src": "px"
+    },
+    {
+     "q": "koala",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 3
+  },
+  {
+   "n": 178,
+   "p": "¿Cuál es un mamífero que pone huevos?",
+   "o": [
+    "Erizo",
+    "Equidna"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un mamífero que pone huevos?",
+   "tr": "¡El equidna!",
+   "o_fotos": [
+    {
+     "q": "hedgehog",
+     "src": "px"
+    },
+    {
+     "q": "Echidna",
+     "src": "cm",
+     "must": "chidna"
+    }
+   ],
+   "zona": 3,
+   "nivel": 3
+  },
+  {
+   "n": 179,
+   "p": "¿Cuál puede vivir sin cabeza unos días?",
+   "o": [
+    "Ratón",
+    "Cucaracha"
+   ],
+   "c": 1,
+   "tp": "¿Cuál puede vivir sin cabeza unos días?",
+   "tr": "¡La cucaracha!",
+   "o_fotos": [
+    {
+     "q": "mouse",
+     "src": "px"
+    },
+    {
+     "q": "cockroach",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 3
+  },
+  {
+   "n": 180,
+   "p": "¿Cuál tiene más patas?",
+   "o": [
+    "Milpiés",
+    "Ciempiés"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene más patas?",
+   "tr": "¡El milpiés!",
+   "o_fotos": [
+    {
+     "q": "millipede",
+     "src": "px"
+    },
+    {
+     "q": "centipede",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 4
+  },
+  {
+   "n": 181,
+   "p": "¿Cuál es el ave que vuela hacia atrás?",
+   "o": [
+    "Colibrí",
+    "Golondrina"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es el ave que vuela hacia atrás?",
+   "tr": "¡El colibrí!",
+   "o_fotos": [
+    {
+     "q": "hummingbird",
+     "src": "px"
+    },
+    {
+     "q": "swallow bird",
+     "src": "px"
+    }
+   ],
+   "zona": 3,
+   "nivel": 4
+  },
+  {
+   "n": 182,
+   "p": "¿Cuál tiene más dientes?",
+   "o": [
+    "Tiburón",
+    "Delfín"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene más dientes?",
+   "tr": "¡El tiburón!",
+   "o_fotos": [
+    {
+     "q": "shark teeth",
+     "src": "px"
+    },
+    {
+     "q": "dolphin",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 183,
+   "p": "¿Cuál flota en el agua?",
+   "o": [
+    "Barco",
+    "Auto"
+   ],
+   "c": 0,
+   "tp": "¿Cuál flota en el agua?",
+   "tr": "¡El barco!",
+   "o_fotos": [
+    {
+     "q": "ship sea",
+     "src": "px"
+    },
+    {
+     "q": "car",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 184,
+   "p": "¿Cuál tiene ocho brazos?",
+   "o": [
+    "Estrella de mar",
+    "Pulpo"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene ocho brazos?",
+   "tr": "¡El pulpo!",
+   "o_fotos": [
+    {
+     "q": "starfish",
+     "src": "px"
+    },
+    {
+     "q": "octopus sea",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 185,
+   "p": "¿Cuál se juega en el hielo?",
+   "o": [
+    "Hockey",
+    "Rugby"
+   ],
+   "c": 0,
+   "tp": "¿Cuál se juega en el hielo?",
+   "tr": "¡El hockey!",
+   "o_fotos": [
+    {
+     "q": "ice hockey",
+     "src": "px"
+    },
+    {
+     "q": "rugby",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 186,
+   "p": "¿Cuál cae del cielo?",
+   "o": [
+    "Arena",
+    "Granizo"
+   ],
+   "c": 1,
+   "tp": "¿Cuál cae del cielo?",
+   "tr": "¡El granizo!",
+   "o_fotos": [
+    {
+     "q": "sand",
+     "src": "px"
+    },
+    {
+     "q": "hail",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 187,
+   "p": "¿Cuál es un patín de hielo?",
+   "o": [
+    "Patín de ruedas",
+    "Patín de hielo"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un patín de hielo?",
+   "tr": "¡El patín de hielo!",
+   "o_fotos": [
+    {
+     "q": "roller skates",
+     "src": "px"
+    },
+    {
+     "q": "ice skates",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 188,
+   "p": "¿Cuál va bajo el agua?",
+   "o": [
+    "Velero",
+    "Submarino"
+   ],
+   "c": 1,
+   "tp": "¿Cuál va bajo el agua?",
+   "tr": "¡El submarino!",
+   "o_fotos": [
+    {
+     "q": "sailboat",
+     "src": "px"
+    },
+    {
+     "q": "submarine",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 189,
+   "p": "¿Cuál nada más rápido?",
+   "o": [
+    "Pez vela",
+    "Delfín"
+   ],
+   "c": 0,
+   "tp": "¿Cuál nada más rápido?",
+   "tr": "¡El pez vela!",
+   "o_fotos": [
+    {
+     "q": "Istiophorus",
+     "src": "cm",
+     "must": "Istiophorus"
+    },
+    {
+     "q": "dolphin jumping",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 190,
+   "p": "¿Cuál es un trineo?",
+   "o": [
+    "Patineta",
+    "Trineo"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un trineo?",
+   "tr": "¡El trineo!",
+   "o_fotos": [
+    {
+     "q": "skateboard",
+     "src": "px"
+    },
+    {
+     "q": "wooden sled snow",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 191,
+   "p": "¿Cuál es una casa de hielo?",
+   "o": [
+    "Iglú",
+    "Tienda beduina"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es una casa de hielo?",
+   "tr": "¡El iglú!",
+   "o_fotos": [
+    {
+     "q": "igloo",
+     "src": "px"
+    },
+    {
+     "q": "bedouin tent",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 192,
+   "p": "¿Cuál se juega en la piscina?",
+   "o": [
+    "Voleibol",
+    "Waterpolo"
+   ],
+   "c": 1,
+   "tp": "¿Cuál se juega en la piscina?",
+   "tr": "¡El waterpolo!",
+   "o_fotos": [
+    {
+     "q": "volleyball",
+     "src": "px"
+    },
+    {
+     "q": "water polo",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 193,
+   "p": "¿Cuál ilumina la noche del mar?",
+   "o": [
+    "Faro",
+    "Molino"
+   ],
+   "c": 0,
+   "tp": "¿Cuál ilumina la noche del mar?",
+   "tr": "¡El faro!",
+   "o_fotos": [
+    {
+     "q": "lighthouse night",
+     "src": "px"
+    },
+    {
+     "q": "windmill",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 194,
+   "p": "¿Cuál cae en invierno?",
+   "o": [
+    "Nieve",
+    "Hojas de otoño"
+   ],
+   "c": 0,
+   "tp": "¿Cuál cae en invierno?",
+   "tr": "¡La nieve!",
+   "o_fotos": [
+    {
+     "q": "snowfall",
+     "src": "px"
+    },
+    {
+     "q": "autumn leaves falling",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 195,
+   "p": "¿Cuál es más frío?",
+   "o": [
+    "Helado",
+    "Sopa"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más frío?",
+   "tr": "¡El helado!",
+   "o_fotos": [
+    {
+     "q": "ice cream cone",
+     "src": "px"
+    },
+    {
+     "q": "soup bowl",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 196,
+   "p": "¿Cuál aparece después de la lluvia?",
+   "o": [
+    "Aurora",
+    "Arcoíris"
+   ],
+   "c": 1,
+   "tp": "¿Cuál aparece después de la lluvia?",
+   "tr": "¡El arcoíris!",
+   "o_fotos": [
+    {
+     "q": "aurora borealis",
+     "src": "px"
+    },
+    {
+     "q": "rainbow",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 197,
+   "p": "¿Cuál es más antiguo?",
+   "o": [
+    "Barco de vela",
+    "Lancha"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más antiguo?",
+   "tr": "¡El barco de vela!",
+   "o_fotos": [
+    {
+     "q": "sailing ship",
+     "src": "px"
+    },
+    {
+     "q": "speedboat",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 198,
+   "p": "¿Cuál es un mamífero?",
+   "o": [
+    "Tiburón",
+    "Ballena"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un mamífero?",
+   "tr": "¡La ballena!",
+   "o_fotos": [
+    {
+     "q": "shark",
+     "src": "px"
+    },
+    {
+     "q": "humpback whale",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 199,
+   "p": "¿Cuál te protege de la lluvia?",
+   "o": [
+    "Paraguas",
+    "Sombrero"
+   ],
+   "c": 0,
+   "tp": "¿Cuál te protege de la lluvia?",
+   "tr": "¡El paraguas!",
+   "o_fotos": [
+    {
+     "q": "umbrella rain",
+     "src": "px"
+    },
+    {
+     "q": "hat",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 200,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Pez dorado",
+    "Tiburón blanco"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡El tiburón blanco!",
+   "o_fotos": [
+    {
+     "q": "goldfish",
+     "src": "px"
+    },
+    {
+     "q": "great white shark",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 201,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Elefante",
+    "Ballena azul"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡La ballena azul!",
+   "o_fotos": [
+    {
+     "q": "african elephant",
+     "src": "px"
+    },
+    {
+     "q": "Balaenoptera musculus",
+     "src": "cm",
+     "must": "Balaenoptera"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 202,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Kayak",
+    "Crucero"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡El crucero!",
+   "o_fotos": [
+    {
+     "q": "kayak",
+     "src": "px"
+    },
+    {
+     "q": "cruise ship",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 203,
+   "p": "¿Cuál es un copo de nieve?",
+   "o": [
+    "Copo de nieve",
+    "Flor"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un copo de nieve?",
+   "tr": "¡El copo de nieve!",
+   "o_fotos": [
+    {
+     "q": "snowflake macro",
+     "src": "px"
+    },
+    {
+     "q": "daisy flower",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 204,
+   "p": "¿Cuál vive en el agua?",
+   "o": [
+    "Ardilla",
+    "Pez payaso"
+   ],
+   "c": 1,
+   "tp": "¿Cuál vive en el agua?",
+   "tr": "¡El pez payaso!",
+   "o_fotos": [
+    {
+     "q": "squirrel",
+     "src": "px"
+    },
+    {
+     "q": "clownfish",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 205,
+   "p": "¿Cuál tiene pinzas?",
+   "o": [
+    "Cangrejo",
+    "Pulpo"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene pinzas?",
+   "tr": "¡El cangrejo!",
+   "o_fotos": [
+    {
+     "q": "crab claws",
+     "src": "px"
+    },
+    {
+     "q": "octopus",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 206,
+   "p": "¿Cuál brilla en el mar?",
+   "o": [
+    "Medusa",
+    "Erizo de mar"
+   ],
+   "c": 0,
+   "tp": "¿Cuál brilla en el mar?",
+   "tr": "¡La medusa!",
+   "o_fotos": [
+    {
+     "q": "jellyfish glowing",
+     "src": "px"
+    },
+    {
+     "q": "sea urchin",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 207,
+   "p": "¿Cuál es un guante de invierno?",
+   "o": [
+    "Guante de béisbol",
+    "Guante de lana"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un guante de invierno?",
+   "tr": "¡El guante de lana!",
+   "o_fotos": [
+    {
+     "q": "baseball glove",
+     "src": "px"
+    },
+    {
+     "q": "wool mittens",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 208,
+   "p": "¿Cuál es una bola de nieve?",
+   "o": [
+    "Pelota de tenis",
+    "Bola de nieve"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es una bola de nieve?",
+   "tr": "¡La bola de nieve!",
+   "o_fotos": [
+    {
+     "q": "tennis ball",
+     "src": "px"
+    },
+    {
+     "q": "snowball",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 209,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Mantarraya",
+    "Medusa"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡La mantarraya!",
+   "o_fotos": [
+    {
+     "q": "manta ray",
+     "src": "px"
+    },
+    {
+     "q": "jellyfish",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 210,
+   "p": "¿Cuál se congela?",
+   "o": [
+    "Arena",
+    "Agua"
+   ],
+   "c": 1,
+   "tp": "¿Cuál se congela?",
+   "tr": "¡El agua!",
+   "o_fotos": [
+    {
+     "q": "sand",
+     "src": "px"
+    },
+    {
+     "q": "frozen water ice",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 211,
+   "p": "¿Cuál tiene tinta?",
+   "o": [
+    "Calamar",
+    "Langosta"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene tinta?",
+   "tr": "¡El calamar!",
+   "o_fotos": [
+    {
+     "q": "squid",
+     "src": "px"
+    },
+    {
+     "q": "lobster",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 212,
+   "p": "¿Cuál es más venenoso?",
+   "o": [
+    "Pez payaso",
+    "Pez globo"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más venenoso?",
+   "tr": "¡El pez globo!",
+   "o_fotos": [
+    {
+     "q": "clownfish",
+     "src": "px"
+    },
+    {
+     "q": "pufferfish",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 213,
+   "p": "¿Cuál es de invierno?",
+   "o": [
+    "Lentes de sol",
+    "Bufanda"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es de invierno?",
+   "tr": "¡La bufanda!",
+   "o_fotos": [
+    {
+     "q": "sunglasses",
+     "src": "px"
+    },
+    {
+     "q": "wool scarf",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 1
+  },
+  {
+   "n": 214,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Crucero",
+    "Yate"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡El crucero!",
+   "o_fotos": [
+    {
+     "q": "cruise ship",
+     "src": "px"
+    },
+    {
+     "q": "yacht",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 2
+  },
+  {
+   "n": 215,
+   "p": "¿Cuál es un témpano de hielo?",
+   "o": [
+    "Isla",
+    "Iceberg"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un témpano de hielo?",
+   "tr": "¡El iceberg!",
+   "o_fotos": [
+    {
+     "q": "tropical island",
+     "src": "px"
+    },
+    {
+     "q": "iceberg",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 2
+  },
+  {
+   "n": 216,
+   "p": "¿Cuál flota en el agua?",
+   "o": [
+    "Piedra",
+    "Hielo"
+   ],
+   "c": 1,
+   "tp": "¿Cuál flota en el agua?",
+   "tr": "¡El hielo!",
+   "o_fotos": [
+    {
+     "q": "stone",
+     "src": "px"
+    },
+    {
+     "q": "ice cubes water",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 2
+  },
+  {
+   "n": 217,
+   "p": "¿Cuál tiene tres corazones?",
+   "o": [
+    "Pez dorado",
+    "Pulpo"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene tres corazones?",
+   "tr": "¡El pulpo!",
+   "o_fotos": [
+    {
+     "q": "goldfish",
+     "src": "px"
+    },
+    {
+     "q": "octopus",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 2
+  },
+  {
+   "n": 218,
+   "p": "¿Cuál es un crustáceo?",
+   "o": [
+    "Cangrejo",
+    "Caracol"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un crustáceo?",
+   "tr": "¡El cangrejo!",
+   "o_fotos": [
+    {
+     "q": "crab beach",
+     "src": "px"
+    },
+    {
+     "q": "snail",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 2
+  },
+  {
+   "n": 219,
+   "p": "¿Cuál es un pez?",
+   "o": [
+    "Delfín",
+    "Tiburón"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un pez?",
+   "tr": "¡El tiburón! El delfín es mamífero.",
+   "o_fotos": [
+    {
+     "q": "dolphin jumping",
+     "src": "px"
+    },
+    {
+     "q": "shark",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 2
+  },
+  {
+   "n": 220,
+   "p": "¿Cuál es un iglú?",
+   "o": [
+    "Iglú",
+    "Carpa"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un iglú?",
+   "tr": "¡El iglú!",
+   "o_fotos": [
+    {
+     "q": "igloo",
+     "src": "px"
+    },
+    {
+     "q": "camping tent",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 2
+  },
+  {
+   "n": 221,
+   "p": "¿Cuál es un carámbano?",
+   "o": [
+    "Vela",
+    "Carámbano"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un carámbano?",
+   "tr": "¡El carámbano!",
+   "o_fotos": [
+    {
+     "q": "candle",
+     "src": "px"
+    },
+    {
+     "q": "icicles",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 2
+  },
+  {
+   "n": 222,
+   "p": "¿Cuál puede regenerar un brazo?",
+   "o": [
+    "Estrella de mar",
+    "Medusa"
+   ],
+   "c": 0,
+   "tp": "¿Cuál puede regenerar un brazo?",
+   "tr": "¡La estrella de mar!",
+   "o_fotos": [
+    {
+     "q": "starfish",
+     "src": "px"
+    },
+    {
+     "q": "jellyfish",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 2
+  },
+  {
+   "n": 223,
+   "p": "¿Cuál es más inteligente?",
+   "o": [
+    "Delfín",
+    "Pez dorado"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más inteligente?",
+   "tr": "¡El delfín!",
+   "o_fotos": [
+    {
+     "q": "dolphin",
+     "src": "px"
+    },
+    {
+     "q": "goldfish",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 2
+  },
+  {
+   "n": 224,
+   "p": "¿Cuál es un deporte de invierno?",
+   "o": [
+    "Esquí",
+    "Surf"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un deporte de invierno?",
+   "tr": "¡El esquí!",
+   "o_fotos": [
+    {
+     "q": "skiing",
+     "src": "px"
+    },
+    {
+     "q": "surfing",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 2
+  },
+  {
+   "n": 225,
+   "p": "¿Cuál respira por branquias?",
+   "o": [
+    "Pez payaso",
+    "Ballena"
+   ],
+   "c": 0,
+   "tp": "¿Cuál respira por branquias?",
+   "tr": "¡El pez payaso!",
+   "o_fotos": [
+    {
+     "q": "clownfish",
+     "src": "px"
+    },
+    {
+     "q": "humpback whale",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 2
+  },
+  {
+   "n": 226,
+   "p": "¿Cuál no tiene cerebro?",
+   "o": [
+    "Medusa",
+    "Pulpo"
+   ],
+   "c": 0,
+   "tp": "¿Cuál no tiene cerebro?",
+   "tr": "¡La medusa!",
+   "o_fotos": [
+    {
+     "q": "jellyfish",
+     "src": "px"
+    },
+    {
+     "q": "octopus",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 2
+  },
+  {
+   "n": 227,
+   "p": "¿Cuál es el más rápido del mar?",
+   "o": [
+    "Atún",
+    "Pez vela"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el más rápido del mar?",
+   "tr": "¡El pez vela!",
+   "o_fotos": [
+    {
+     "q": "tuna fish",
+     "src": "px"
+    },
+    {
+     "q": "Istiophorus",
+     "src": "cm",
+     "must": "Istiophorus"
+    }
+   ],
+   "zona": 4,
+   "nivel": 2
+  },
+  {
+   "n": 228,
+   "p": "¿Cuál tiene más dientes?",
+   "o": [
+    "León",
+    "Tiburón"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene más dientes?",
+   "tr": "¡El tiburón! Le salen dientes toda la vida.",
+   "o_fotos": [
+    {
+     "q": "lion yawn",
+     "src": "px"
+    },
+    {
+     "q": "shark teeth",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 2
+  },
+  {
+   "n": 229,
+   "p": "¿Cuál es el más ruidoso?",
+   "o": [
+    "León",
+    "Ballena azul"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el más ruidoso?",
+   "tr": "¡La ballena azul!",
+   "o_fotos": [
+    {
+     "q": "lion roaring",
+     "src": "px"
+    },
+    {
+     "q": "blue whale",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 3
+  },
+  {
+   "n": 230,
+   "p": "¿Qué parte de un iceberg se ve?",
+   "o": [
+    "Una pequeña parte",
+    "Casi todo"
+   ],
+   "c": 0,
+   "tp": "¿Qué parte de un iceberg se ve?",
+   "tr": "¡Solo una pequeña parte!",
+   "o_fotos": [
+    {
+     "q": "iceberg tip",
+     "src": "px"
+    },
+    {
+     "q": "floating ice",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 3
+  },
+  {
+   "n": 231,
+   "p": "¿A qué temperatura se congela el agua?",
+   "o": [
+    "10 grados",
+    "0 grados"
+   ],
+   "c": 1,
+   "tp": "¿A qué temperatura se congela el agua?",
+   "tr": "¡A cero grados!",
+   "o_fotos": [
+    {
+     "q": "thermometer warm",
+     "src": "px"
+    },
+    {
+     "q": "thermometer cold",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 3
+  },
+  {
+   "n": 232,
+   "p": "¿Cuál tiene sangre azul?",
+   "o": [
+    "Pulpo",
+    "Tiburón"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene sangre azul?",
+   "tr": "¡El pulpo!",
+   "o_fotos": [
+    {
+     "q": "octopus",
+     "src": "px"
+    },
+    {
+     "q": "shark",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 3
+  },
+  {
+   "n": 233,
+   "p": "¿Cuál es inmortal?",
+   "o": [
+    "Medusa Turritopsis",
+    "Tortuga"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es inmortal?",
+   "tr": "¡La medusa inmortal!",
+   "o_fotos": [
+    {
+     "q": "Turritopsis dohrnii",
+     "src": "cm",
+     "must": "Turritopsis"
+    },
+    {
+     "q": "sea turtle",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 3
+  },
+  {
+   "n": 234,
+   "p": "¿Cuál ve más colores?",
+   "o": [
+    "Camarón mantis",
+    "Humano"
+   ],
+   "c": 0,
+   "tp": "¿Cuál ve más colores?",
+   "tr": "¡El camarón mantis!",
+   "o_fotos": [
+    {
+     "q": "Odontodactylus scyllarus",
+     "src": "cm",
+     "must": "Odontodactylus"
+    },
+    {
+     "q": "human eye",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 3
+  },
+  {
+   "n": 235,
+   "p": "¿Cuál duerme con un ojo abierto?",
+   "o": [
+    "Delfín",
+    "Búho"
+   ],
+   "c": 0,
+   "tp": "¿Cuál duerme con un ojo abierto?",
+   "tr": "¡El delfín! Duerme con medio cerebro.",
+   "o_fotos": [
+    {
+     "q": "dolphin",
+     "src": "px"
+    },
+    {
+     "q": "owl",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 4
+  },
+  {
+   "n": 236,
+   "p": "¿Cuál brilla en el fondo del mar?",
+   "o": [
+    "Pez espada",
+    "Pez linterna"
+   ],
+   "c": 1,
+   "tp": "¿Cuál brilla en el fondo del mar?",
+   "tr": "¡El pez linterna!",
+   "o_fotos": [
+    {
+     "q": "swordfish",
+     "src": "px"
+    },
+    {
+     "q": "Myctophidae",
+     "src": "cm",
+     "must": "Myctoph"
+    }
+   ],
+   "zona": 4,
+   "nivel": 4
+  },
+  {
+   "n": 237,
+   "p": "¿Cuál tiene el corazón en la cabeza?",
+   "o": [
+    "Pulpo",
+    "Camarón"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene el corazón en la cabeza?",
+   "tr": "¡El camarón!",
+   "o_fotos": [
+    {
+     "q": "octopus",
+     "src": "px"
+    },
+    {
+     "q": "shrimp",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 4
+  },
+  {
+   "n": 238,
+   "p": "¿Cuántas puntas tiene un copo de nieve?",
+   "o": [
+    "Seis",
+    "Cinco"
+   ],
+   "c": 0,
+   "tp": "¿Cuántas puntas tiene un copo de nieve?",
+   "tr": "¡Seis!",
+   "o_fotos": [
+    {
+     "q": "snowflake six points",
+     "src": "px"
+    },
+    {
+     "q": "five point star",
+     "src": "px"
+    }
+   ],
+   "zona": 4,
+   "nivel": 4
+  },
+  {
+   "n": 239,
+   "p": "¿Cuál es una mandarina?",
+   "o": [
+    "Tomate",
+    "Mandarina"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es una mandarina?",
+   "tr": "¡La mandarina!",
+   "o_fotos": [
+    {
+     "q": "tomato",
+     "src": "px"
+    },
+    {
+     "q": "tangerine",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 240,
+   "p": "¿Cuál hace miel?",
+   "o": [
+    "Abeja",
+    "Avispa"
+   ],
+   "c": 0,
+   "tp": "¿Cuál hace miel?",
+   "tr": "¡La abeja!",
+   "o_fotos": [
+    {
+     "q": "honey bee",
+     "src": "px"
+    },
+    {
+     "q": "wasp",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 241,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Huevo de codorniz",
+    "Huevo de avestruz"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡El huevo de avestruz!",
+   "o_fotos": [
+    {
+     "q": "quail eggs",
+     "src": "px"
+    },
+    {
+     "q": "ostrich egg",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 242,
+   "p": "¿Cuál es un pastel de Navidad?",
+   "o": [
+    "Tronco de Navidad",
+    "Hamburguesa"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un pastel de Navidad?",
+   "tr": "¡El tronco de Navidad!",
+   "o_fotos": [
+    {
+     "q": "yule log cake",
+     "src": "px"
+    },
+    {
+     "q": "hamburger",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 243,
+   "p": "¿Cuál es una galleta de jengibre?",
+   "o": [
+    "Galleta de chocolate",
+    "Hombre de jengibre"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es una galleta de jengibre?",
+   "tr": "¡El hombre de jengibre!",
+   "o_fotos": [
+    {
+     "q": "chocolate chip cookie",
+     "src": "px"
+    },
+    {
+     "q": "gingerbread man",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 244,
+   "p": "¿Cuál se toma en la chocolatada?",
+   "o": [
+    "Limonada",
+    "Chocolate caliente"
+   ],
+   "c": 1,
+   "tp": "¿Cuál se toma en la chocolatada?",
+   "tr": "¡El chocolate caliente!",
+   "o_fotos": [
+    {
+     "q": "lemonade glass",
+     "src": "px"
+    },
+    {
+     "q": "hot chocolate mug",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 245,
+   "p": "¿Cuál es chocolate?",
+   "o": [
+    "Queso",
+    "Chocolate"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es chocolate?",
+   "tr": "¡El chocolate!",
+   "o_fotos": [
+    {
+     "q": "cheese block",
+     "src": "px"
+    },
+    {
+     "q": "chocolate pieces",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 246,
+   "p": "¿Cuál es un dulce peruano?",
+   "o": [
+    "Suspiro limeño",
+    "Tiramisú"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un dulce peruano?",
+   "tr": "¡El suspiro limeño!",
+   "o_fotos": [
+    {
+     "q": "Suspiro limeño",
+     "src": "cm",
+     "must": "Suspiro"
+    },
+    {
+     "q": "tiramisu",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 247,
+   "p": "¿Cuál es de Perú?",
+   "o": [
+    "Paella",
+    "Ceviche"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es de Perú?",
+   "tr": "¡El ceviche!",
+   "o_fotos": [
+    {
+     "q": "paella",
+     "src": "px"
+    },
+    {
+     "q": "Ceviche peruano",
+     "src": "cm",
+     "must": "Ceviche"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 248,
+   "p": "¿Cuál se hace con leche?",
+   "o": [
+    "Pan",
+    "Queso"
+   ],
+   "c": 1,
+   "tp": "¿Cuál se hace con leche?",
+   "tr": "¡El queso!",
+   "o_fotos": [
+    {
+     "q": "bread loaf",
+     "src": "px"
+    },
+    {
+     "q": "cheese",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 249,
+   "p": "¿Cuál pone huevos?",
+   "o": [
+    "Gallina",
+    "Vaca"
+   ],
+   "c": 0,
+   "tp": "¿Cuál pone huevos?",
+   "tr": "¡La gallina!",
+   "o_fotos": [
+    {
+     "q": "hen chicken",
+     "src": "px"
+    },
+    {
+     "q": "cow",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 250,
+   "p": "¿Cuál es una fruta?",
+   "o": [
+    "Lechuga",
+    "Fresa"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es una fruta?",
+   "tr": "¡La fresa!",
+   "o_fotos": [
+    {
+     "q": "lettuce",
+     "src": "px"
+    },
+    {
+     "q": "strawberry",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 251,
+   "p": "¿Cuál es de México?",
+   "o": [
+    "Croissant",
+    "Taco"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es de México?",
+   "tr": "¡El taco!",
+   "o_fotos": [
+    {
+     "q": "croissant",
+     "src": "px"
+    },
+    {
+     "q": "tacos",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 252,
+   "p": "¿Cuál tiene más vitamina C?",
+   "o": [
+    "Pimiento rojo",
+    "Plátano"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene más vitamina C?",
+   "tr": "¡El pimiento rojo!",
+   "o_fotos": [
+    {
+     "q": "red bell pepper",
+     "src": "px"
+    },
+    {
+     "q": "banana",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 253,
+   "p": "¿Cuál crece bajo tierra?",
+   "o": [
+    "Manzana",
+    "Papa"
+   ],
+   "c": 1,
+   "tp": "¿Cuál crece bajo tierra?",
+   "tr": "¡La papa!",
+   "o_fotos": [
+    {
+     "q": "apples tree",
+     "src": "px"
+    },
+    {
+     "q": "potatoes",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 254,
+   "p": "¿Cuál es una semilla?",
+   "o": [
+    "Pasa",
+    "Maní"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es una semilla?",
+   "tr": "¡El maní!",
+   "o_fotos": [
+    {
+     "q": "raisins",
+     "src": "px"
+    },
+    {
+     "q": "peanuts",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 255,
+   "p": "¿Cuál es de Italia?",
+   "o": [
+    "Sushi",
+    "Pizza"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es de Italia?",
+   "tr": "¡La pizza!",
+   "o_fotos": [
+    {
+     "q": "sushi",
+     "src": "px"
+    },
+    {
+     "q": "pizza italian",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 256,
+   "p": "¿Cuál es de España?",
+   "o": [
+    "Ramen",
+    "Paella"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es de España?",
+   "tr": "¡La paella!",
+   "o_fotos": [
+    {
+     "q": "ramen",
+     "src": "px"
+    },
+    {
+     "q": "paella",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 257,
+   "p": "¿Cuál da leche?",
+   "o": [
+    "Vaca",
+    "Gallina"
+   ],
+   "c": 0,
+   "tp": "¿Cuál da leche?",
+   "tr": "¡La vaca!",
+   "o_fotos": [
+    {
+     "q": "dairy cow",
+     "src": "px"
+    },
+    {
+     "q": "hen",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 258,
+   "p": "¿Cuál es un panetón?",
+   "o": [
+    "Torta de cumpleaños",
+    "Panetón"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un panetón?",
+   "tr": "¡El panetón!",
+   "o_fotos": [
+    {
+     "q": "birthday cake candles",
+     "src": "px"
+    },
+    {
+     "q": "panettone",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 259,
+   "p": "¿Cuál es una galleta navideña?",
+   "o": [
+    "Pan de molde",
+    "Galleta con forma de estrella"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es una galleta navideña?",
+   "tr": "¡La galleta de estrella!",
+   "o_fotos": [
+    {
+     "q": "sliced bread",
+     "src": "px"
+    },
+    {
+     "q": "christmas star cookies",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 260,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Coco",
+    "Cereza"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡El coco!",
+   "o_fotos": [
+    {
+     "q": "coconut",
+     "src": "px"
+    },
+    {
+     "q": "cherry",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 261,
+   "p": "¿Cuál es de Francia?",
+   "o": [
+    "Hamburguesa",
+    "Croissant"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es de Francia?",
+   "tr": "¡El croissant!",
+   "o_fotos": [
+    {
+     "q": "hamburger",
+     "src": "px"
+    },
+    {
+     "q": "croissant",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 262,
+   "p": "¿Cuál es una verdura?",
+   "o": [
+    "Brócoli",
+    "Manzana"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es una verdura?",
+   "tr": "¡El brócoli!",
+   "o_fotos": [
+    {
+     "q": "broccoli",
+     "src": "px"
+    },
+    {
+     "q": "apple red",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 263,
+   "p": "¿Cuál es más dulce?",
+   "o": [
+    "Limón",
+    "Mango"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más dulce?",
+   "tr": "¡El mango!",
+   "o_fotos": [
+    {
+     "q": "lemon",
+     "src": "px"
+    },
+    {
+     "q": "mango fruit",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 264,
+   "p": "¿Cuál es una bebida peruana?",
+   "o": [
+    "Chicha morada",
+    "Té verde"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es una bebida peruana?",
+   "tr": "¡La chicha morada!",
+   "o_fotos": [
+    {
+     "q": "Chicha morada",
+     "src": "cm",
+     "must": "Chicha"
+    },
+    {
+     "q": "green tea",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 265,
+   "p": "¿Cuál tiene más azúcar?",
+   "o": [
+    "Zanahoria",
+    "Caramelo"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene más azúcar?",
+   "tr": "¡El caramelo!",
+   "o_fotos": [
+    {
+     "q": "carrots",
+     "src": "px"
+    },
+    {
+     "q": "candy",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 266,
+   "p": "¿Cuál es picante?",
+   "o": [
+    "Ají",
+    "Pepino"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es picante?",
+   "tr": "¡El ají!",
+   "o_fotos": [
+    {
+     "q": "chili pepper",
+     "src": "px"
+    },
+    {
+     "q": "cucumber",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 267,
+   "p": "¿Cuál es de Japón?",
+   "o": [
+    "Taco",
+    "Sushi"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es de Japón?",
+   "tr": "¡El sushi!",
+   "o_fotos": [
+    {
+     "q": "taco",
+     "src": "px"
+    },
+    {
+     "q": "sushi",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 268,
+   "p": "¿Cuál es salado?",
+   "o": [
+    "Chocolate",
+    "Papas fritas"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es salado?",
+   "tr": "¡Las papas fritas!",
+   "o_fotos": [
+    {
+     "q": "chocolate",
+     "src": "px"
+    },
+    {
+     "q": "french fries",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 269,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Galleta",
+    "Pizza familiar"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡La pizza familiar!",
+   "o_fotos": [
+    {
+     "q": "cookie",
+     "src": "px"
+    },
+    {
+     "q": "pizza",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 270,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Sandía",
+    "Uva"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡La sandía!",
+   "o_fotos": [
+    {
+     "q": "watermelon",
+     "src": "px"
+    },
+    {
+     "q": "grapes",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 1
+  },
+  {
+   "n": 271,
+   "p": "¿Cuál tiene más azúcar?",
+   "o": [
+    "Agua de coco",
+    "Gaseosa"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene más azúcar?",
+   "tr": "¡La gaseosa!",
+   "o_fotos": [
+    {
+     "q": "coconut water",
+     "src": "px"
+    },
+    {
+     "q": "soda can",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 2
+  },
+  {
+   "n": 272,
+   "p": "¿Cuál es un turrón?",
+   "o": [
+    "Chocolate en barra",
+    "Turrón"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un turrón?",
+   "tr": "¡El turrón!",
+   "o_fotos": [
+    {
+     "q": "chocolate bar",
+     "src": "px"
+    },
+    {
+     "q": "turron nougat",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 2
+  },
+  {
+   "n": 273,
+   "p": "¿Cuál es leche con canela?",
+   "o": [
+    "Pimienta",
+    "Canela"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es leche con canela?",
+   "tr": "¡La canela!",
+   "o_fotos": [
+    {
+     "q": "black pepper",
+     "src": "px"
+    },
+    {
+     "q": "cinnamon sticks",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 2
+  },
+  {
+   "n": 274,
+   "p": "¿Cuál lleva el panetón?",
+   "o": [
+    "Atún",
+    "Pasas y frutas"
+   ],
+   "c": 1,
+   "tp": "¿Cuál lleva el panetón?",
+   "tr": "¡Pasas y frutas!",
+   "o_fotos": [
+    {
+     "q": "canned tuna",
+     "src": "px"
+    },
+    {
+     "q": "raisins dried fruit",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 2
+  },
+  {
+   "n": 275,
+   "p": "¿Cuál es una verdura?",
+   "o": [
+    "Fresa",
+    "Brócoli"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es una verdura?",
+   "tr": "¡El brócoli!",
+   "o_fotos": [
+    {
+     "q": "strawberry",
+     "src": "px"
+    },
+    {
+     "q": "broccoli",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 2
+  },
+  {
+   "n": 276,
+   "p": "¿Cuál es un plato peruano?",
+   "o": [
+    "Curry",
+    "Ají de gallina"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un plato peruano?",
+   "tr": "¡El ají de gallina!",
+   "o_fotos": [
+    {
+     "q": "chicken curry",
+     "src": "px"
+    },
+    {
+     "q": "Ají de gallina",
+     "src": "cm",
+     "must": "gallina"
+    }
+   ],
+   "zona": 5,
+   "nivel": 2
+  },
+  {
+   "n": 277,
+   "p": "¿Cuál es un plato peruano?",
+   "o": [
+    "Paella",
+    "Lomo saltado"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un plato peruano?",
+   "tr": "¡El lomo saltado!",
+   "o_fotos": [
+    {
+     "q": "paella",
+     "src": "px"
+    },
+    {
+     "q": "lomo saltado",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 2
+  },
+  {
+   "n": 278,
+   "p": "¿Cuál crece bajo tierra?",
+   "o": [
+    "Tomate",
+    "Papa"
+   ],
+   "c": 1,
+   "tp": "¿Cuál crece bajo tierra?",
+   "tr": "¡La papa!",
+   "o_fotos": [
+    {
+     "q": "tomato plant",
+     "src": "px"
+    },
+    {
+     "q": "potato harvest",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 2
+  },
+  {
+   "n": 279,
+   "p": "¿Cuál es un buñuelo?",
+   "o": [
+    "Buñuelo",
+    "Pan francés"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un buñuelo?",
+   "tr": "¡El buñuelo!",
+   "o_fotos": [
+    {
+     "q": "bunuelos",
+     "src": "px"
+    },
+    {
+     "q": "baguette",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 2
+  },
+  {
+   "n": 280,
+   "p": "¿Cuál es un pavo al horno?",
+   "o": [
+    "Pollo a la brasa",
+    "Pavo al horno"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un pavo al horno?",
+   "tr": "¡El pavo al horno!",
+   "o_fotos": [
+    {
+     "q": "rotisserie chicken",
+     "src": "px"
+    },
+    {
+     "q": "roast turkey",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 2
+  },
+  {
+   "n": 281,
+   "p": "¿Cuál es un pavo?",
+   "o": [
+    "Pavo",
+    "Gallina"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un pavo?",
+   "tr": "¡El pavo!",
+   "o_fotos": [
+    {
+     "q": "turkey bird",
+     "src": "px"
+    },
+    {
+     "q": "hen",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 2
+  },
+  {
+   "n": 282,
+   "p": "¿Cuál es un mazapán?",
+   "o": [
+    "Gelatina",
+    "Mazapán"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un mazapán?",
+   "tr": "¡El mazapán!",
+   "o_fotos": [
+    {
+     "q": "jelly dessert",
+     "src": "px"
+    },
+    {
+     "q": "marzipan",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 3
+  },
+  {
+   "n": 283,
+   "p": "¿Cuál es una rosca de Reyes?",
+   "o": [
+    "Dona",
+    "Rosca de Reyes"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es una rosca de Reyes?",
+   "tr": "¡La rosca de Reyes!",
+   "o_fotos": [
+    {
+     "q": "donut",
+     "src": "px"
+    },
+    {
+     "q": "rosca de reyes",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 3
+  },
+  {
+   "n": 284,
+   "p": "¿Cuál es un tamal?",
+   "o": [
+    "Empanada",
+    "Tamal"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un tamal?",
+   "tr": "¡El tamal!",
+   "o_fotos": [
+    {
+     "q": "empanadas",
+     "src": "px"
+    },
+    {
+     "q": "tamales",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 3
+  },
+  {
+   "n": 285,
+   "p": "¿De qué se hace el chocolate?",
+   "o": [
+    "Café",
+    "Cacao"
+   ],
+   "c": 1,
+   "tp": "¿De qué se hace el chocolate?",
+   "tr": "¡Del cacao!",
+   "o_fotos": [
+    {
+     "q": "coffee beans",
+     "src": "px"
+    },
+    {
+     "q": "cocoa beans",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 3
+  },
+  {
+   "n": 286,
+   "p": "¿Cuál es de Italia?",
+   "o": [
+    "Panetón",
+    "Turrón"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es de Italia?",
+   "tr": "¡El panetón!",
+   "o_fotos": [
+    {
+     "q": "panettone",
+     "src": "px"
+    },
+    {
+     "q": "turron nougat",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 4
+  },
+  {
+   "n": 287,
+   "p": "¿En qué siglo se inventó el panetón?",
+   "o": [
+    "Siglo XV",
+    "Siglo XX"
+   ],
+   "c": 0,
+   "tp": "¿En qué siglo se inventó el panetón?",
+   "tr": "¡En el siglo quince!",
+   "o_fotos": [
+    {
+     "q": "medieval milan",
+     "src": "px"
+    },
+    {
+     "q": "1950s kitchen",
+     "src": "px"
+    }
+   ],
+   "zona": 5,
+   "nivel": 4
+  },
+  {
+   "n": 288,
+   "p": "¿Cuál tira el trineo de Papá Noel?",
+   "o": [
+    "Caballo",
+    "Reno"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tira el trineo de Papá Noel?",
+   "tr": "¡El reno!",
+   "o_fotos": [
+    {
+     "q": "horse field",
+     "src": "px"
+    },
+    {
+     "q": "reindeer snow",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 1
+  },
+  {
+   "n": 289,
+   "p": "¿Cuál es un búho de las nieves?",
+   "o": [
+    "Lechuza común",
+    "Búho nival"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un búho de las nieves?",
+   "tr": "¡El búho nival!",
+   "o_fotos": [
+    {
+     "q": "barn owl",
+     "src": "px"
+    },
+    {
+     "q": "snowy owl",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 1
+  },
+  {
+   "n": 290,
+   "p": "¿Cuál es un pingüino?",
+   "o": [
+    "Pingüino",
+    "Frailecillo"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un pingüino?",
+   "tr": "¡El pingüino!",
+   "o_fotos": [
+    {
+     "q": "penguin snow",
+     "src": "px"
+    },
+    {
+     "q": "puffin",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 1
+  },
+  {
+   "n": 291,
+   "p": "¿Cuál es un oso polar?",
+   "o": [
+    "Oso pardo",
+    "Oso polar"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un oso polar?",
+   "tr": "¡El oso polar!",
+   "o_fotos": [
+    {
+     "q": "brown bear",
+     "src": "px"
+    },
+    {
+     "q": "polar bear",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 1
+  },
+  {
+   "n": 292,
+   "p": "¿Cuál vive en el Polo Sur?",
+   "o": [
+    "Pingüino",
+    "Oso polar"
+   ],
+   "c": 0,
+   "tp": "¿Cuál vive en el Polo Sur?",
+   "tr": "¡El pingüino! El oso polar vive en el norte.",
+   "o_fotos": [
+    {
+     "q": "penguins antarctica",
+     "src": "px"
+    },
+    {
+     "q": "polar bear",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 1
+  },
+  {
+   "n": 293,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Zorro ártico",
+    "Oso polar"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡El oso polar!",
+   "o_fotos": [
+    {
+     "q": "arctic fox",
+     "src": "px"
+    },
+    {
+     "q": "polar bear",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 1
+  },
+  {
+   "n": 294,
+   "p": "¿Cuál vive donde hace frío?",
+   "o": [
+    "Camello",
+    "Foca"
+   ],
+   "c": 1,
+   "tp": "¿Cuál vive donde hace frío?",
+   "tr": "¡La foca!",
+   "o_fotos": [
+    {
+     "q": "camel desert",
+     "src": "px"
+    },
+    {
+     "q": "seal ice",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 1
+  },
+  {
+   "n": 295,
+   "p": "¿Cuál vive en el Polo Norte?",
+   "o": [
+    "Panda",
+    "Oso polar"
+   ],
+   "c": 1,
+   "tp": "¿Cuál vive en el Polo Norte?",
+   "tr": "¡El oso polar!",
+   "o_fotos": [
+    {
+     "q": "giant panda",
+     "src": "px"
+    },
+    {
+     "q": "polar bear ice",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 1
+  },
+  {
+   "n": 296,
+   "p": "¿Cuál es una foca?",
+   "o": [
+    "Nutria",
+    "Foca"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es una foca?",
+   "tr": "¡La foca!",
+   "o_fotos": [
+    {
+     "q": "otter",
+     "src": "px"
+    },
+    {
+     "q": "seal animal",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 1
+  },
+  {
+   "n": 297,
+   "p": "¿Cuál es de Perú?",
+   "o": [
+    "Canguro",
+    "Vicuña"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es de Perú?",
+   "tr": "¡La vicuña!",
+   "o_fotos": [
+    {
+     "q": "kangaroo",
+     "src": "px"
+    },
+    {
+     "q": "vicuna",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 1
+  },
+  {
+   "n": 298,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Morsa",
+    "Nutria"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡La morsa!",
+   "o_fotos": [
+    {
+     "q": "walrus",
+     "src": "px"
+    },
+    {
+     "q": "otter",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 1
+  },
+  {
+   "n": 299,
+   "p": "¿Cuál es un ave?",
+   "o": [
+    "Murciélago",
+    "Pingüino"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un ave?",
+   "tr": "¡El pingüino!",
+   "o_fotos": [
+    {
+     "q": "bat flying",
+     "src": "px"
+    },
+    {
+     "q": "penguin walking",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 1
+  },
+  {
+   "n": 300,
+   "p": "¿Cuál es más frío?",
+   "o": [
+    "Desierto",
+    "Antártida"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más frío?",
+   "tr": "¡La Antártida!",
+   "o_fotos": [
+    {
+     "q": "desert dunes",
+     "src": "px"
+    },
+    {
+     "q": "antarctica ice",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 1
+  },
+  {
+   "n": 301,
+   "p": "¿Cuál tiene colmillos largos?",
+   "o": [
+    "Foca",
+    "Morsa"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene colmillos largos?",
+   "tr": "¡La morsa!",
+   "o_fotos": [
+    {
+     "q": "seal beach",
+     "src": "px"
+    },
+    {
+     "q": "walrus tusks",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 1
+  },
+  {
+   "n": 302,
+   "p": "¿Cuál es un perro de trineo?",
+   "o": [
+    "Chihuahua",
+    "Husky"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un perro de trineo?",
+   "tr": "¡El husky!",
+   "o_fotos": [
+    {
+     "q": "chihuahua",
+     "src": "px"
+    },
+    {
+     "q": "husky dog snow",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 1
+  },
+  {
+   "n": 303,
+   "p": "¿Cuál es una liebre ártica?",
+   "o": [
+    "Conejo café",
+    "Liebre blanca"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es una liebre ártica?",
+   "tr": "¡La liebre blanca!",
+   "o_fotos": [
+    {
+     "q": "brown rabbit",
+     "src": "px"
+    },
+    {
+     "q": "arctic hare",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 2
+  },
+  {
+   "n": 304,
+   "p": "¿Cuál cambia a blanco en invierno?",
+   "o": [
+    "Zorro ártico",
+    "Zorro rojo"
+   ],
+   "c": 0,
+   "tp": "¿Cuál cambia a blanco en invierno?",
+   "tr": "¡El zorro ártico!",
+   "o_fotos": [
+    {
+     "q": "arctic fox white",
+     "src": "px"
+    },
+    {
+     "q": "red fox",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 2
+  },
+  {
+   "n": 305,
+   "p": "¿Cuál pesa más?",
+   "o": [
+    "Foca",
+    "Morsa"
+   ],
+   "c": 1,
+   "tp": "¿Cuál pesa más?",
+   "tr": "¡La morsa!",
+   "o_fotos": [
+    {
+     "q": "harbor seal",
+     "src": "px"
+    },
+    {
+     "q": "walrus",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 2
+  },
+  {
+   "n": 306,
+   "p": "¿Cuál es un animal del Polo Sur?",
+   "o": [
+    "Oso polar",
+    "Pingüino emperador"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un animal del Polo Sur?",
+   "tr": "¡El pingüino emperador!",
+   "o_fotos": [
+    {
+     "q": "polar bear",
+     "src": "px"
+    },
+    {
+     "q": "emperor penguin",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 2
+  },
+  {
+   "n": 307,
+   "p": "¿Cuál es un buey almizclero?",
+   "o": [
+    "Buey almizclero",
+    "Bisonte"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un buey almizclero?",
+   "tr": "¡El buey almizclero!",
+   "o_fotos": [
+    {
+     "q": "muskox",
+     "src": "px"
+    },
+    {
+     "q": "bison",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 2
+  },
+  {
+   "n": 308,
+   "p": "¿Cuál es un zorro ártico?",
+   "o": [
+    "Zorro rojo",
+    "Zorro ártico"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un zorro ártico?",
+   "tr": "¡El zorro ártico!",
+   "o_fotos": [
+    {
+     "q": "red fox",
+     "src": "px"
+    },
+    {
+     "q": "arctic fox",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 2
+  },
+  {
+   "n": 309,
+   "p": "¿Cuál tiene astas?",
+   "o": [
+    "Llama",
+    "Reno"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene astas?",
+   "tr": "¡El reno!",
+   "o_fotos": [
+    {
+     "q": "llama",
+     "src": "px"
+    },
+    {
+     "q": "reindeer antlers",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 2
+  },
+  {
+   "n": 310,
+   "p": "¿Cuál es más frío?",
+   "o": [
+    "Polo Sur",
+    "Polo Norte"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más frío?",
+   "tr": "¡El Polo Sur!",
+   "o_fotos": [
+    {
+     "q": "antarctica ice",
+     "src": "px"
+    },
+    {
+     "q": "arctic sea ice",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 2
+  },
+  {
+   "n": 311,
+   "p": "¿Cuál vive en el Perú?",
+   "o": [
+    "Pingüino emperador",
+    "Pingüino de Humboldt"
+   ],
+   "c": 1,
+   "tp": "¿Cuál vive en el Perú?",
+   "tr": "¡El pingüino de Humboldt!",
+   "o_fotos": [
+    {
+     "q": "emperor penguin",
+     "src": "px"
+    },
+    {
+     "q": "Humboldt penguin",
+     "src": "cm",
+     "must": "Humboldt"
+    }
+   ],
+   "zona": 6,
+   "nivel": 2
+  },
+  {
+   "n": 312,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Ciervo ratón",
+    "Reno"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡El reno!",
+   "o_fotos": [
+    {
+     "q": "Tragulus",
+     "src": "cm",
+     "must": "Tragulus"
+    },
+    {
+     "q": "reindeer",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 2
+  },
+  {
+   "n": 313,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Pingüino de Humboldt",
+    "Pingüino emperador"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡El pingüino emperador!",
+   "o_fotos": [
+    {
+     "q": "Humboldt penguin",
+     "src": "cm",
+     "must": "Humboldt"
+    },
+    {
+     "q": "emperor penguin chick",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 2
+  },
+  {
+   "n": 314,
+   "p": "¿Cuántos renos tiene Papá Noel con Rodolfo?",
+   "o": [
+    "Nueve",
+    "Cinco"
+   ],
+   "c": 0,
+   "tp": "¿Cuántos renos tiene Papá Noel con Rodolfo?",
+   "tr": "¡Nueve!",
+   "o_fotos": [
+    {
+     "q": "reindeer herd",
+     "src": "px"
+    },
+    {
+     "q": "five deer",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 3
+  },
+  {
+   "n": 315,
+   "p": "¿Cuál es una beluga?",
+   "o": [
+    "Beluga",
+    "Delfín"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es una beluga?",
+   "tr": "¡La beluga!",
+   "o_fotos": [
+    {
+     "q": "beluga whale",
+     "src": "px"
+    },
+    {
+     "q": "dolphin",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 3
+  },
+  {
+   "n": 316,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Groenlandia",
+    "Islandia"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡Groenlandia!",
+   "o_fotos": [
+    {
+     "q": "greenland glacier",
+     "src": "px"
+    },
+    {
+     "q": "iceland landscape",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 3
+  },
+  {
+   "n": 317,
+   "p": "¿Cuál es más frío?",
+   "o": [
+    "Groenlandia",
+    "Islandia"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más frío?",
+   "tr": "¡Groenlandia!",
+   "o_fotos": [
+    {
+     "q": "greenland ice",
+     "src": "px"
+    },
+    {
+     "q": "iceland waterfall",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 3
+  },
+  {
+   "n": 318,
+   "p": "¿Cuál nada mejor?",
+   "o": [
+    "Gallina",
+    "Pingüino"
+   ],
+   "c": 1,
+   "tp": "¿Cuál nada mejor?",
+   "tr": "¡El pingüino!",
+   "o_fotos": [
+    {
+     "q": "chicken",
+     "src": "px"
+    },
+    {
+     "q": "penguin swimming underwater",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 3
+  },
+  {
+   "n": 319,
+   "p": "¿En cuál las hembras también tienen astas?",
+   "o": [
+    "Reno",
+    "Alce"
+   ],
+   "c": 0,
+   "tp": "¿En cuál las hembras también tienen astas?",
+   "tr": "¡El reno! Las renas también tienen astas.",
+   "o_fotos": [
+    {
+     "q": "reindeer female",
+     "src": "px"
+    },
+    {
+     "q": "moose",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 3
+  },
+  {
+   "n": 320,
+   "p": "¿Dónde está el Polo Norte?",
+   "o": [
+    "Antártida",
+    "Océano Ártico"
+   ],
+   "c": 1,
+   "tp": "¿Dónde está el Polo Norte?",
+   "tr": "¡En el océano Ártico! No hay tierra debajo.",
+   "o_fotos": [
+    {
+     "q": "antarctica penguins",
+     "src": "px"
+    },
+    {
+     "q": "arctic ocean ice",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 3
+  },
+  {
+   "n": 321,
+   "p": "¿Cuál es el animal del escudo del Perú?",
+   "o": [
+    "Vicuña",
+    "Alpaca"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es el animal del escudo del Perú?",
+   "tr": "¡La vicuña!",
+   "o_fotos": [
+    {
+     "q": "vicuna",
+     "src": "px"
+    },
+    {
+     "q": "alpaca",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 3
+  },
+  {
+   "n": 322,
+   "p": "¿Cuál pesa más?",
+   "o": [
+    "Oso pardo",
+    "Oso polar"
+   ],
+   "c": 1,
+   "tp": "¿Cuál pesa más?",
+   "tr": "¡El oso polar! Es el oso más grande.",
+   "o_fotos": [
+    {
+     "q": "grizzly bear",
+     "src": "px"
+    },
+    {
+     "q": "polar bear walking",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 3
+  },
+  {
+   "n": 323,
+   "p": "¿Cuál vive más al norte?",
+   "o": [
+    "Oso polar",
+    "Pingüino"
+   ],
+   "c": 0,
+   "tp": "¿Cuál vive más al norte?",
+   "tr": "¡El oso polar! Los pingüinos viven al sur.",
+   "o_fotos": [
+    {
+     "q": "polar bear arctic",
+     "src": "px"
+    },
+    {
+     "q": "penguin antarctica",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 3
+  },
+  {
+   "n": 324,
+   "p": "¿Cuál es un lobo ártico?",
+   "o": [
+    "Coyote",
+    "Lobo blanco"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un lobo ártico?",
+   "tr": "¡El lobo blanco!",
+   "o_fotos": [
+    {
+     "q": "coyote",
+     "src": "px"
+    },
+    {
+     "q": "arctic wolf",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 3
+  },
+  {
+   "n": 325,
+   "p": "¿Cuál es un narval?",
+   "o": [
+    "Pez espada",
+    "Narval"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un narval?",
+   "tr": "¡El narval! Ese cuerno es un diente.",
+   "o_fotos": [
+    {
+     "q": "swordfish",
+     "src": "px"
+    },
+    {
+     "q": "narwhal",
+     "src": "cm",
+     "must": "narwhal"
+    }
+   ],
+   "zona": 6,
+   "nivel": 3
+  },
+  {
+   "n": 326,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Alce",
+    "Reno"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡El alce!",
+   "o_fotos": [
+    {
+     "q": "moose",
+     "src": "px"
+    },
+    {
+     "q": "reindeer",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 3
+  },
+  {
+   "n": 327,
+   "p": "¿Cuál es una morsa?",
+   "o": [
+    "Morsa",
+    "León marino"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es una morsa?",
+   "tr": "¡La morsa!",
+   "o_fotos": [
+    {
+     "q": "walrus tusks",
+     "src": "px"
+    },
+    {
+     "q": "sea lion",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 3
+  },
+  {
+   "n": 328,
+   "p": "¿Cuál pesa más?",
+   "o": [
+    "Oso polar",
+    "Morsa"
+   ],
+   "c": 1,
+   "tp": "¿Cuál pesa más?",
+   "tr": "¡La morsa! Puede pesar más de una tonelada.",
+   "o_fotos": [
+    {
+     "q": "polar bear",
+     "src": "px"
+    },
+    {
+     "q": "walrus big",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 4
+  },
+  {
+   "n": 329,
+   "p": "¿Cuál vive más años?",
+   "o": [
+    "Tiburón de Groenlandia",
+    "Ballena azul"
+   ],
+   "c": 0,
+   "tp": "¿Cuál vive más años?",
+   "tr": "¡El tiburón de Groenlandia! Más de 250 años.",
+   "o_fotos": [
+    {
+     "q": "Greenland shark",
+     "src": "cm",
+     "must": "Somniosus"
+    },
+    {
+     "q": "blue whale",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 4
+  },
+  {
+   "n": 330,
+   "p": "¿Cuál es el desierto más grande del mundo?",
+   "o": [
+    "Sahara",
+    "Antártida"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el desierto más grande del mundo?",
+   "tr": "¡La Antártida! Es un desierto frío.",
+   "o_fotos": [
+    {
+     "q": "sahara",
+     "src": "px"
+    },
+    {
+     "q": "antarctica",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 4
+  },
+  {
+   "n": 331,
+   "p": "¿Cuál de estos es un mamífero?",
+   "o": [
+    "Tiburón de Groenlandia",
+    "Narval"
+   ],
+   "c": 1,
+   "tp": "¿Cuál de estos es un mamífero?",
+   "tr": "¡El narval!",
+   "o_fotos": [
+    {
+     "q": "Greenland shark",
+     "src": "cm",
+     "must": "Somniosus"
+    },
+    {
+     "q": "narwhal",
+     "src": "cm",
+     "must": "narwhal"
+    }
+   ],
+   "zona": 6,
+   "nivel": 4
+  },
+  {
+   "n": 332,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Europa",
+    "Antártida"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡La Antártida!",
+   "o_fotos": [
+    {
+     "q": "europe map",
+     "src": "px"
+    },
+    {
+     "q": "antarctica aerial",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 4
+  },
+  {
+   "n": 333,
+   "p": "¿Cuál tiene más hielo?",
+   "o": [
+    "Antártida",
+    "Groenlandia"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene más hielo?",
+   "tr": "¡La Antártida!",
+   "o_fotos": [
+    {
+     "q": "antarctica ice sheet",
+     "src": "px"
+    },
+    {
+     "q": "greenland",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 4
+  },
+  {
+   "n": 334,
+   "p": "¿De qué color es la piel del oso polar?",
+   "o": [
+    "Negra",
+    "Blanca"
+   ],
+   "c": 0,
+   "tp": "¿De qué color es la piel del oso polar?",
+   "tr": "¡Negra! Su pelo es transparente.",
+   "o_fotos": [
+    {
+     "q": "black texture",
+     "src": "px"
+    },
+    {
+     "q": "white snow",
+     "src": "px"
+    }
+   ],
+   "zona": 6,
+   "nivel": 4
+  },
+  {
+   "n": 335,
+   "p": "¿Cuál duerme colgado de cabeza?",
+   "o": [
+    "Murciélago",
+    "Búho"
+   ],
+   "c": 0,
+   "tp": "¿Cuál duerme colgado de cabeza?",
+   "tr": "¡El murciélago!",
+   "o_fotos": [
+    {
+     "q": "bat hanging",
+     "src": "px"
+    },
+    {
+     "q": "owl",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 1
+  },
+  {
+   "n": 336,
+   "p": "¿Cuál vive en el desierto?",
+   "o": [
+    "Foca",
+    "Camello"
+   ],
+   "c": 1,
+   "tp": "¿Cuál vive en el desierto?",
+   "tr": "¡El camello!",
+   "o_fotos": [
+    {
+     "q": "seal",
+     "src": "px"
+    },
+    {
+     "q": "camel desert",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 1
+  },
+  {
+   "n": 337,
+   "p": "¿Cuál es más alta?",
+   "o": [
+    "Montaña",
+    "Colina"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más alta?",
+   "tr": "¡La montaña!",
+   "o_fotos": [
+    {
+     "q": "mountain peak snow",
+     "src": "px"
+    },
+    {
+     "q": "green hill",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 1
+  },
+  {
+   "n": 338,
+   "p": "¿Cuál es una catarata?",
+   "o": [
+    "Iguazú",
+    "Titicaca"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es una catarata?",
+   "tr": "¡Iguazú! El Titicaca es un lago.",
+   "o_fotos": [
+    {
+     "q": "iguazu falls",
+     "src": "px"
+    },
+    {
+     "q": "lake titicaca",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 1
+  },
+  {
+   "n": 339,
+   "p": "¿Cuál tiene espinas?",
+   "o": [
+    "Cactus",
+    "Girasol"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene espinas?",
+   "tr": "¡El cactus!",
+   "o_fotos": [
+    {
+     "q": "cactus",
+     "src": "px"
+    },
+    {
+     "q": "sunflower",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 1
+  },
+  {
+   "n": 340,
+   "p": "¿Cuál es más alto?",
+   "o": [
+    "Monte Everest",
+    "Monte Fuji"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más alto?",
+   "tr": "¡El Everest!",
+   "o_fotos": [
+    {
+     "q": "mount everest",
+     "src": "px"
+    },
+    {
+     "q": "mount fuji",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 1
+  },
+  {
+   "n": 341,
+   "p": "¿Cuál hace erupción?",
+   "o": [
+    "Volcán",
+    "Glaciar"
+   ],
+   "c": 0,
+   "tp": "¿Cuál hace erupción?",
+   "tr": "¡El volcán!",
+   "o_fotos": [
+    {
+     "q": "volcano eruption",
+     "src": "px"
+    },
+    {
+     "q": "glacier",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 1
+  },
+  {
+   "n": 342,
+   "p": "¿Cuál es un desierto?",
+   "o": [
+    "Amazonas",
+    "Sahara"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un desierto?",
+   "tr": "¡El Sahara!",
+   "o_fotos": [
+    {
+     "q": "amazon rainforest",
+     "src": "px"
+    },
+    {
+     "q": "sahara desert",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 1
+  },
+  {
+   "n": 343,
+   "p": "¿Cuál era un dinosaurio?",
+   "o": [
+    "Mamut",
+    "Triceratops"
+   ],
+   "c": 1,
+   "tp": "¿Cuál era un dinosaurio?",
+   "tr": "¡El triceratops! El mamut no era dinosaurio.",
+   "o_fotos": [
+    {
+     "q": "mammoth",
+     "src": "px"
+    },
+    {
+     "q": "Triceratops skeleton",
+     "src": "cm",
+     "must": "Triceratops"
+    }
+   ],
+   "zona": 7,
+   "nivel": 1
+  },
+  {
+   "n": 344,
+   "p": "¿Cuál es un lago?",
+   "o": [
+    "Titicaca",
+    "Iguazú"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un lago?",
+   "tr": "¡El Titicaca!",
+   "o_fotos": [
+    {
+     "q": "lake titicaca",
+     "src": "px"
+    },
+    {
+     "q": "iguazu falls",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 1
+  },
+  {
+   "n": 345,
+   "p": "¿Cuál vive en el Amazonas?",
+   "o": [
+    "Jaguar",
+    "Leopardo de las nieves"
+   ],
+   "c": 0,
+   "tp": "¿Cuál vive en el Amazonas?",
+   "tr": "¡El jaguar!",
+   "o_fotos": [
+    {
+     "q": "jaguar",
+     "src": "px"
+    },
+    {
+     "q": "snow leopard",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 1
+  },
+  {
+   "n": 346,
+   "p": "¿Cuál es un mamífero que vuela?",
+   "o": [
+    "Murciélago",
+    "Mariposa"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un mamífero que vuela?",
+   "tr": "¡El murciélago!",
+   "o_fotos": [
+    {
+     "q": "bat",
+     "src": "px"
+    },
+    {
+     "q": "butterfly",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 1
+  },
+  {
+   "n": 347,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Parque de la ciudad",
+    "Selva amazónica"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡La selva amazónica!",
+   "o_fotos": [
+    {
+     "q": "city park",
+     "src": "px"
+    },
+    {
+     "q": "amazon rainforest aerial",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 1
+  },
+  {
+   "n": 348,
+   "p": "¿Cuál es más fuerte?",
+   "o": [
+    "Brisa",
+    "Huracán"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más fuerte?",
+   "tr": "¡El huracán!",
+   "o_fotos": [
+    {
+     "q": "breeze grass",
+     "src": "px"
+    },
+    {
+     "q": "hurricane",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 1
+  },
+  {
+   "n": 349,
+   "p": "¿Cuál es más largo?",
+   "o": [
+    "Río Támesis",
+    "Río Amazonas"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más largo?",
+   "tr": "¡El Amazonas!",
+   "o_fotos": [
+    {
+     "q": "thames river london",
+     "src": "px"
+    },
+    {
+     "q": "amazon river",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 1
+  },
+  {
+   "n": 350,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Lago",
+    "Océano"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡El océano!",
+   "o_fotos": [
+    {
+     "q": "lake",
+     "src": "px"
+    },
+    {
+     "q": "ocean",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 1
+  },
+  {
+   "n": 351,
+   "p": "¿Cuál tiene agua salada?",
+   "o": [
+    "Mar",
+    "Río"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene agua salada?",
+   "tr": "¡El mar!",
+   "o_fotos": [
+    {
+     "q": "sea waves",
+     "src": "px"
+    },
+    {
+     "q": "river",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 1
+  },
+  {
+   "n": 352,
+   "p": "¿Cuál tiene nieve todo el año?",
+   "o": [
+    "Cumbre del Everest",
+    "Playa de Máncora"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene nieve todo el año?",
+   "tr": "¡La cumbre del Everest!",
+   "o_fotos": [
+    {
+     "q": "everest summit",
+     "src": "px"
+    },
+    {
+     "q": "tropical beach",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 2
+  },
+  {
+   "n": 353,
+   "p": "¿Cuál es el océano más grande?",
+   "o": [
+    "Pacífico",
+    "Atlántico"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es el océano más grande?",
+   "tr": "¡El Pacífico!",
+   "o_fotos": [
+    {
+     "q": "pacific ocean",
+     "src": "px"
+    },
+    {
+     "q": "atlantic ocean waves",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 2
+  },
+  {
+   "n": 354,
+   "p": "¿Cuál tenía el cuello más largo?",
+   "o": [
+    "Tiranosaurio",
+    "Braquiosaurio"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tenía el cuello más largo?",
+   "tr": "¡El braquiosaurio!",
+   "o_fotos": [
+    {
+     "q": "tyrannosaurus",
+     "src": "px"
+    },
+    {
+     "q": "brachiosaurus",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 2
+  },
+  {
+   "n": 355,
+   "p": "¿Cuál es una gema?",
+   "o": [
+    "Esmeralda",
+    "Vidrio"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es una gema?",
+   "tr": "¡La esmeralda!",
+   "o_fotos": [
+    {
+     "q": "emerald gem",
+     "src": "px"
+    },
+    {
+     "q": "glass bottle",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 2
+  },
+  {
+   "n": 356,
+   "p": "¿Cuál es un volcán?",
+   "o": [
+    "Huascarán",
+    "Misti"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un volcán?",
+   "tr": "¡El Misti! Está en Arequipa.",
+   "o_fotos": [
+    {
+     "q": "Huascarán",
+     "src": "cm",
+     "must": "Huascar"
+    },
+    {
+     "q": "El Misti",
+     "src": "cm",
+     "must": "Misti"
+    }
+   ],
+   "zona": 7,
+   "nivel": 2
+  },
+  {
+   "n": 357,
+   "p": "¿Cuál volaba?",
+   "o": [
+    "Pterodáctilo",
+    "Tiranosaurio"
+   ],
+   "c": 0,
+   "tp": "¿Cuál volaba?",
+   "tr": "¡El pterodáctilo!",
+   "o_fotos": [
+    {
+     "q": "pterodactyl",
+     "src": "px"
+    },
+    {
+     "q": "tyrannosaurus rex",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 2
+  },
+  {
+   "n": 358,
+   "p": "¿Cuál es un glaciar?",
+   "o": [
+    "Glaciar",
+    "Duna"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un glaciar?",
+   "tr": "¡El glaciar!",
+   "o_fotos": [
+    {
+     "q": "glacier",
+     "src": "px"
+    },
+    {
+     "q": "sand dune",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 2
+  },
+  {
+   "n": 359,
+   "p": "¿Cuál vivió hace más tiempo?",
+   "o": [
+    "Mamuts",
+    "Dinosaurios"
+   ],
+   "c": 1,
+   "tp": "¿Cuál vivió hace más tiempo?",
+   "tr": "¡Los dinosaurios!",
+   "o_fotos": [
+    {
+     "q": "mammoth",
+     "src": "px"
+    },
+    {
+     "q": "dinosaur skeleton",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 2
+  },
+  {
+   "n": 360,
+   "p": "¿Cuál es un cactus?",
+   "o": [
+    "Aloe vera",
+    "Cactus"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un cactus?",
+   "tr": "¡El cactus!",
+   "o_fotos": [
+    {
+     "q": "aloe vera",
+     "src": "px"
+    },
+    {
+     "q": "cactus desert",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 2
+  },
+  {
+   "n": 361,
+   "p": "¿Cuál es el desierto cálido más grande?",
+   "o": [
+    "Atacama",
+    "Sahara"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el desierto cálido más grande?",
+   "tr": "¡El Sahara!",
+   "o_fotos": [
+    {
+     "q": "atacama desert",
+     "src": "px"
+    },
+    {
+     "q": "sahara desert",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 2
+  },
+  {
+   "n": 362,
+   "p": "¿Dónde se ve la aurora boreal?",
+   "o": [
+    "Noruega",
+    "Brasil"
+   ],
+   "c": 0,
+   "tp": "¿Dónde se ve la aurora boreal?",
+   "tr": "¡En Noruega!",
+   "o_fotos": [
+    {
+     "q": "norway aurora",
+     "src": "px"
+    },
+    {
+     "q": "rio de janeiro",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 2
+  },
+  {
+   "n": 363,
+   "p": "¿Cuál tenía placas en la espalda?",
+   "o": [
+    "Estegosaurio",
+    "Triceratops"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tenía placas en la espalda?",
+   "tr": "¡El estegosaurio!",
+   "o_fotos": [
+    {
+     "q": "stegosaurus",
+     "src": "px"
+    },
+    {
+     "q": "triceratops",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 2
+  },
+  {
+   "n": 364,
+   "p": "¿Cuál vive en el río Amazonas?",
+   "o": [
+    "Delfín nariz de botella",
+    "Delfín rosado"
+   ],
+   "c": 1,
+   "tp": "¿Cuál vive en el río Amazonas?",
+   "tr": "¡El delfín rosado!",
+   "o_fotos": [
+    {
+     "q": "bottlenose dolphin",
+     "src": "px"
+    },
+    {
+     "q": "Inia geoffrensis",
+     "src": "cm",
+     "must": "Inia"
+    }
+   ],
+   "zona": 7,
+   "nivel": 2
+  },
+  {
+   "n": 365,
+   "p": "¿Cuál es un nevado?",
+   "o": [
+    "Morro Solar",
+    "Huascarán"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un nevado?",
+   "tr": "¡El Huascarán!",
+   "o_fotos": [
+    {
+     "q": "Morro Solar",
+     "src": "cm",
+     "must": "Morro"
+    },
+    {
+     "q": "Huascaran",
+     "src": "cm",
+     "must": "Huascar"
+    }
+   ],
+   "zona": 7,
+   "nivel": 2
+  },
+  {
+   "n": 366,
+   "p": "¿Cuál es una aurora boreal?",
+   "o": [
+    "Aurora boreal",
+    "Arcoíris"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es una aurora boreal?",
+   "tr": "¡La aurora boreal!",
+   "o_fotos": [
+    {
+     "q": "aurora borealis",
+     "src": "px"
+    },
+    {
+     "q": "rainbow",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 2
+  },
+  {
+   "n": 367,
+   "p": "¿Cuál tenía cuernos?",
+   "o": [
+    "Triceratops",
+    "Estegosaurio"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tenía cuernos?",
+   "tr": "¡El triceratops!",
+   "o_fotos": [
+    {
+     "q": "triceratops",
+     "src": "px"
+    },
+    {
+     "q": "stegosaurus",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 2
+  },
+  {
+   "n": 368,
+   "p": "¿Cuál es el desierto más seco?",
+   "o": [
+    "Atacama",
+    "Sahara"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es el desierto más seco?",
+   "tr": "¡Atacama!",
+   "o_fotos": [
+    {
+     "q": "atacama desert",
+     "src": "px"
+    },
+    {
+     "q": "sahara dunes",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 2
+  },
+  {
+   "n": 369,
+   "p": "¿Cuál es la cascada más alta?",
+   "o": [
+    "Niágara",
+    "Salto Ángel"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es la cascada más alta?",
+   "tr": "¡El Salto Ángel, en Venezuela!",
+   "o_fotos": [
+    {
+     "q": "niagara falls",
+     "src": "px"
+    },
+    {
+     "q": "Salto Angel",
+     "src": "cm",
+     "must": "Angel"
+    }
+   ],
+   "zona": 7,
+   "nivel": 3
+  },
+  {
+   "n": 370,
+   "p": "¿Cuál es el volcán más alto del mundo?",
+   "o": [
+    "Misti",
+    "Ojos del Salado"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el volcán más alto del mundo?",
+   "tr": "¡El Ojos del Salado!",
+   "o_fotos": [
+    {
+     "q": "Misti volcano",
+     "src": "cm",
+     "must": "Misti"
+    },
+    {
+     "q": "Ojos del Salado",
+     "src": "cm",
+     "must": "Ojos del Salado"
+    }
+   ],
+   "zona": 7,
+   "nivel": 3
+  },
+  {
+   "n": 371,
+   "p": "¿Cuál es el mamífero volador?",
+   "o": [
+    "Murciélago",
+    "Ardilla voladora"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es el mamífero volador?",
+   "tr": "¡El murciélago! La ardilla solo planea.",
+   "o_fotos": [
+    {
+     "q": "bat flying",
+     "src": "px"
+    },
+    {
+     "q": "flying squirrel",
+     "src": "cm",
+     "must": "squirrel"
+    }
+   ],
+   "zona": 7,
+   "nivel": 3
+  },
+  {
+   "n": 372,
+   "p": "¿Cuál es el cañón más profundo?",
+   "o": [
+    "Gran Cañón",
+    "Cañón del Colca"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el cañón más profundo?",
+   "tr": "¡El Colca! Es más profundo que el Gran Cañón.",
+   "o_fotos": [
+    {
+     "q": "grand canyon",
+     "src": "px"
+    },
+    {
+     "q": "Colca Canyon",
+     "src": "cm",
+     "must": "Colca"
+    }
+   ],
+   "zona": 7,
+   "nivel": 3
+  },
+  {
+   "n": 373,
+   "p": "¿Cuál es el río más caudaloso?",
+   "o": [
+    "Nilo",
+    "Amazonas"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el río más caudaloso?",
+   "tr": "¡El Amazonas!",
+   "o_fotos": [
+    {
+     "q": "nile river",
+     "src": "px"
+    },
+    {
+     "q": "amazon river",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 3
+  },
+  {
+   "n": 374,
+   "p": "¿Cuál es el lago navegable más alto?",
+   "o": [
+    "Titicaca",
+    "Lago de Ginebra"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es el lago navegable más alto?",
+   "tr": "¡El Titicaca!",
+   "o_fotos": [
+    {
+     "q": "lake titicaca",
+     "src": "px"
+    },
+    {
+     "q": "lake geneva",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 3
+  },
+  {
+   "n": 375,
+   "p": "¿Cuál es más duro?",
+   "o": [
+    "Diamante",
+    "Acero"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más duro?",
+   "tr": "¡El diamante!",
+   "o_fotos": [
+    {
+     "q": "diamond",
+     "src": "px"
+    },
+    {
+     "q": "steel",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 4
+  },
+  {
+   "n": 376,
+   "p": "¿Cuál es el punto más profundo del mar?",
+   "o": [
+    "Mar Muerto",
+    "Fosa de las Marianas"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el punto más profundo del mar?",
+   "tr": "¡La fosa de las Marianas!",
+   "o_fotos": [
+    {
+     "q": "dead sea",
+     "src": "px"
+    },
+    {
+     "q": "deep ocean",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 4
+  },
+  {
+   "n": 377,
+   "p": "¿Cuál es el lugar más bajo en tierra?",
+   "o": [
+    "Mar Muerto",
+    "Valle de la Muerte"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es el lugar más bajo en tierra?",
+   "tr": "¡El Mar Muerto!",
+   "o_fotos": [
+    {
+     "q": "dead sea",
+     "src": "px"
+    },
+    {
+     "q": "death valley",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 4
+  },
+  {
+   "n": 378,
+   "p": "¿Cuál tenía dientes del tamaño de un plátano?",
+   "o": [
+    "Velociraptor",
+    "Tiranosaurio"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tenía dientes del tamaño de un plátano?",
+   "tr": "¡El tiranosaurio!",
+   "o_fotos": [
+    {
+     "q": "velociraptor",
+     "src": "px"
+    },
+    {
+     "q": "tyrannosaurus skull",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 4
+  },
+  {
+   "n": 379,
+   "p": "¿Cuál flota sin esfuerzo?",
+   "o": [
+    "Persona en una piscina",
+    "Persona en el Mar Muerto"
+   ],
+   "c": 1,
+   "tp": "¿Cuál flota sin esfuerzo?",
+   "tr": "¡En el Mar Muerto! Por la sal.",
+   "o_fotos": [
+    {
+     "q": "swimming pool",
+     "src": "px"
+    },
+    {
+     "q": "dead sea floating",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 4
+  },
+  {
+   "n": 380,
+   "p": "¿Cuál era del tamaño de un pavo?",
+   "o": [
+    "Tiranosaurio",
+    "Velociraptor"
+   ],
+   "c": 1,
+   "tp": "¿Cuál era del tamaño de un pavo?",
+   "tr": "¡El velociraptor! No era tan grande como en las películas.",
+   "o_fotos": [
+    {
+     "q": "tyrannosaurus",
+     "src": "px"
+    },
+    {
+     "q": "velociraptor",
+     "src": "px"
+    }
+   ],
+   "zona": 7,
+   "nivel": 4
+  },
+  {
+   "n": 381,
+   "p": "¿Cuál es el animal más grande que existió?",
+   "o": [
+    "Ballena azul",
+    "Argentinosaurio"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es el animal más grande que existió?",
+   "tr": "¡La ballena azul! Más grande que cualquier dinosaurio.",
+   "o_fotos": [
+    {
+     "q": "blue whale",
+     "src": "px"
+    },
+    {
+     "q": "Argentinosaurus",
+     "src": "cm",
+     "must": "Argentinosaurus"
+    }
+   ],
+   "zona": 7,
+   "nivel": 4
+  },
+  {
+   "n": 382,
+   "p": "¿Cuál está en Perú?",
+   "o": [
+    "Petra",
+    "Líneas de Nazca"
+   ],
+   "c": 1,
+   "tp": "¿Cuál está en Perú?",
+   "tr": "¡Las Líneas de Nazca!",
+   "o_fotos": [
+    {
+     "q": "petra jordan",
+     "src": "px"
+    },
+    {
+     "q": "Nazca lines hummingbird",
+     "src": "cm",
+     "must": "Nazca"
+    }
+   ],
+   "zona": 8,
+   "nivel": 1
+  },
+  {
+   "n": 383,
+   "p": "¿Cuál está en Australia?",
+   "o": [
+    "Kremlin",
+    "Ópera de Sídney"
+   ],
+   "c": 1,
+   "tp": "¿Cuál está en Australia?",
+   "tr": "¡La Ópera de Sídney!",
+   "o_fotos": [
+    {
+     "q": "kremlin",
+     "src": "px"
+    },
+    {
+     "q": "sydney opera house",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 1
+  },
+  {
+   "n": 384,
+   "p": "¿Cuál está en India?",
+   "o": [
+    "Taj Mahal",
+    "Alhambra"
+   ],
+   "c": 0,
+   "tp": "¿Cuál está en India?",
+   "tr": "¡El Taj Mahal!",
+   "o_fotos": [
+    {
+     "q": "taj mahal",
+     "src": "px"
+    },
+    {
+     "q": "alhambra granada",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 1
+  },
+  {
+   "n": 385,
+   "p": "¿Cuál está en París?",
+   "o": [
+    "Arco del Triunfo",
+    "Puerta de Brandeburgo"
+   ],
+   "c": 0,
+   "tp": "¿Cuál está en París?",
+   "tr": "¡El Arco del Triunfo!",
+   "o_fotos": [
+    {
+     "q": "arc de triomphe",
+     "src": "px"
+    },
+    {
+     "q": "brandenburg gate",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 1
+  },
+  {
+   "n": 386,
+   "p": "¿Cuál está en Londres?",
+   "o": [
+    "Golden Gate",
+    "Tower Bridge"
+   ],
+   "c": 1,
+   "tp": "¿Cuál está en Londres?",
+   "tr": "¡El Tower Bridge!",
+   "o_fotos": [
+    {
+     "q": "golden gate bridge",
+     "src": "px"
+    },
+    {
+     "q": "tower bridge london",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 1
+  },
+  {
+   "n": 387,
+   "p": "¿Cuál está en Egipto?",
+   "o": [
+    "Partenón",
+    "Esfinge"
+   ],
+   "c": 1,
+   "tp": "¿Cuál está en Egipto?",
+   "tr": "¡La Esfinge!",
+   "o_fotos": [
+    {
+     "q": "parthenon",
+     "src": "px"
+    },
+    {
+     "q": "sphinx giza",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 1
+  },
+  {
+   "n": 388,
+   "p": "¿Cuál está en África?",
+   "o": [
+    "Kilimanjaro",
+    "Monte Fuji"
+   ],
+   "c": 0,
+   "tp": "¿Cuál está en África?",
+   "tr": "¡El Kilimanjaro!",
+   "o_fotos": [
+    {
+     "q": "kilimanjaro",
+     "src": "px"
+    },
+    {
+     "q": "mount fuji",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 1
+  },
+  {
+   "n": 389,
+   "p": "¿Cuál está en Estados Unidos?",
+   "o": [
+    "Tower Bridge",
+    "Golden Gate"
+   ],
+   "c": 1,
+   "tp": "¿Cuál está en Estados Unidos?",
+   "tr": "¡El Golden Gate!",
+   "o_fotos": [
+    {
+     "q": "tower bridge",
+     "src": "px"
+    },
+    {
+     "q": "golden gate bridge",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 1
+  },
+  {
+   "n": 390,
+   "p": "¿Cuál está en China?",
+   "o": [
+    "Gran Muralla",
+    "Stonehenge"
+   ],
+   "c": 0,
+   "tp": "¿Cuál está en China?",
+   "tr": "¡La Gran Muralla!",
+   "o_fotos": [
+    {
+     "q": "great wall china",
+     "src": "px"
+    },
+    {
+     "q": "stonehenge",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 1
+  },
+  {
+   "n": 391,
+   "p": "¿Cuál es más alto?",
+   "o": [
+    "Casa",
+    "Rascacielos"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más alto?",
+   "tr": "¡El rascacielos!",
+   "o_fotos": [
+    {
+     "q": "small house",
+     "src": "px"
+    },
+    {
+     "q": "skyscraper",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 1
+  },
+  {
+   "n": 392,
+   "p": "¿Cuál es más alto?",
+   "o": [
+    "Big Ben",
+    "Torre Eiffel"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más alto?",
+   "tr": "¡La Torre Eiffel!",
+   "o_fotos": [
+    {
+     "q": "big ben",
+     "src": "px"
+    },
+    {
+     "q": "eiffel tower",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 1
+  },
+  {
+   "n": 393,
+   "p": "¿Cuál está en Italia?",
+   "o": [
+    "Torre de Tokio",
+    "Torre de Pisa"
+   ],
+   "c": 1,
+   "tp": "¿Cuál está en Italia?",
+   "tr": "¡La Torre de Pisa!",
+   "o_fotos": [
+    {
+     "q": "tokyo tower",
+     "src": "px"
+    },
+    {
+     "q": "leaning tower of pisa",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 1
+  },
+  {
+   "n": 394,
+   "p": "¿Cuál está en Brasil?",
+   "o": [
+    "Torre de Pisa",
+    "Cristo Redentor"
+   ],
+   "c": 1,
+   "tp": "¿Cuál está en Brasil?",
+   "tr": "¡El Cristo Redentor!",
+   "o_fotos": [
+    {
+     "q": "leaning tower pisa",
+     "src": "px"
+    },
+    {
+     "q": "christ the redeemer",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 1
+  },
+  {
+   "n": 395,
+   "p": "¿Cuál está en Japón?",
+   "o": [
+    "Kilimanjaro",
+    "Monte Fuji"
+   ],
+   "c": 1,
+   "tp": "¿Cuál está en Japón?",
+   "tr": "¡El Monte Fuji!",
+   "o_fotos": [
+    {
+     "q": "kilimanjaro",
+     "src": "px"
+    },
+    {
+     "q": "mount fuji",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 1
+  },
+  {
+   "n": 396,
+   "p": "¿Cuál es la bandera de Argentina?",
+   "o": [
+    "Uruguay",
+    "Argentina"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es la bandera de Argentina?",
+   "tr": "¡Argentina!",
+   "o_fotos": [
+    {
+     "flag": "uy"
+    },
+    {
+     "flag": "ar"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 397,
+   "p": "¿Cuál está en la India?",
+   "o": [
+    "Taj Mahal",
+    "Coliseo"
+   ],
+   "c": 0,
+   "tp": "¿Cuál está en la India?",
+   "tr": "¡El Taj Mahal!",
+   "o_fotos": [
+    {
+     "q": "taj mahal",
+     "src": "px"
+    },
+    {
+     "q": "colosseum",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 398,
+   "p": "¿Cuál está en México?",
+   "o": [
+    "Petra",
+    "Chichén Itzá"
+   ],
+   "c": 1,
+   "tp": "¿Cuál está en México?",
+   "tr": "¡Chichén Itzá!",
+   "o_fotos": [
+    {
+     "q": "petra jordan",
+     "src": "px"
+    },
+    {
+     "q": "chichen itza",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 399,
+   "p": "¿De qué país son los tacos?",
+   "o": [
+    "España",
+    "México"
+   ],
+   "c": 1,
+   "tp": "¿De qué país son los tacos?",
+   "tr": "¡México!",
+   "o_fotos": [
+    {
+     "flag": "es"
+    },
+    {
+     "flag": "mx"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 400,
+   "p": "¿De qué país es la pizza?",
+   "o": [
+    "Estados Unidos",
+    "Italia"
+   ],
+   "c": 1,
+   "tp": "¿De qué país es la pizza?",
+   "tr": "¡Italia!",
+   "o_fotos": [
+    {
+     "flag": "us"
+    },
+    {
+     "flag": "it"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 401,
+   "p": "¿Cuál está en Jordania?",
+   "o": [
+    "Petra",
+    "Chichén Itzá"
+   ],
+   "c": 0,
+   "tp": "¿Cuál está en Jordania?",
+   "tr": "¡Petra!",
+   "o_fotos": [
+    {
+     "q": "petra jordan",
+     "src": "px"
+    },
+    {
+     "q": "chichen itza",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 402,
+   "p": "¿Cuál es la bandera de Chile?",
+   "o": [
+    "Chile",
+    "Cuba"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es la bandera de Chile?",
+   "tr": "¡Chile!",
+   "o_fotos": [
+    {
+     "flag": "cl"
+    },
+    {
+     "flag": "cu"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 403,
+   "p": "¿Cuál es la bandera de México?",
+   "o": [
+    "México",
+    "Italia"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es la bandera de México?",
+   "tr": "¡México!",
+   "o_fotos": [
+    {
+     "flag": "mx"
+    },
+    {
+     "flag": "it"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 404,
+   "p": "¿Cuál nieva más?",
+   "o": [
+    "Canadá",
+    "Egipto"
+   ],
+   "c": 0,
+   "tp": "¿Cuál nieva más?",
+   "tr": "¡Canadá!",
+   "o_fotos": [
+    {
+     "flag": "ca"
+    },
+    {
+     "flag": "eg"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 405,
+   "p": "¿De qué país es el sushi?",
+   "o": [
+    "China",
+    "Japón"
+   ],
+   "c": 1,
+   "tp": "¿De qué país es el sushi?",
+   "tr": "¡Japón!",
+   "o_fotos": [
+    {
+     "flag": "cn"
+    },
+    {
+     "flag": "jp"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 406,
+   "p": "¿Cuál es la bandera de Brasil?",
+   "o": [
+    "Portugal",
+    "Brasil"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es la bandera de Brasil?",
+   "tr": "¡Brasil!",
+   "o_fotos": [
+    {
+     "flag": "pt"
+    },
+    {
+     "flag": "br"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 407,
+   "p": "¿Cuál es la bandera de Italia?",
+   "o": [
+    "Italia",
+    "México"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es la bandera de Italia?",
+   "tr": "¡Italia!",
+   "o_fotos": [
+    {
+     "flag": "it"
+    },
+    {
+     "flag": "mx"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 408,
+   "p": "¿Cuál es la bandera de Finlandia?",
+   "o": [
+    "Suecia",
+    "Finlandia"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es la bandera de Finlandia?",
+   "tr": "¡Finlandia! Ahí vive Papá Noel.",
+   "o_fotos": [
+    {
+     "flag": "se"
+    },
+    {
+     "flag": "fi"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 409,
+   "p": "¿Cuál es el país más pequeño?",
+   "o": [
+    "Vaticano",
+    "Mónaco"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es el país más pequeño?",
+   "tr": "¡El Vaticano!",
+   "o_fotos": [
+    {
+     "flag": "va"
+    },
+    {
+     "flag": "mc"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 410,
+   "p": "¿Cuál está en Nasca?",
+   "o": [
+    "Líneas de Nasca",
+    "Sacsayhuamán"
+   ],
+   "c": 0,
+   "tp": "¿Cuál está en Nasca?",
+   "tr": "¡Las líneas de Nasca!",
+   "o_fotos": [
+    {
+     "q": "Nazca lines",
+     "src": "cm",
+     "must": "Nazca"
+    },
+    {
+     "q": "Sacsayhuamán",
+     "src": "cm",
+     "must": "Sacsay"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 411,
+   "p": "¿Cuál es una maravilla del mundo?",
+   "o": [
+    "Torre de Pisa",
+    "Machu Picchu"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es una maravilla del mundo?",
+   "tr": "¡Machu Picchu!",
+   "o_fotos": [
+    {
+     "q": "leaning tower of pisa",
+     "src": "px"
+    },
+    {
+     "q": "machu picchu",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 412,
+   "p": "¿Cuál está en Brasil?",
+   "o": [
+    "Cristo Redentor",
+    "Estatua de la Libertad"
+   ],
+   "c": 0,
+   "tp": "¿Cuál está en Brasil?",
+   "tr": "¡El Cristo Redentor!",
+   "o_fotos": [
+    {
+     "q": "christ the redeemer",
+     "src": "px"
+    },
+    {
+     "q": "statue of liberty",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 413,
+   "p": "¿Cuál está en Londres?",
+   "o": [
+    "Big Ben",
+    "Torre Eiffel"
+   ],
+   "c": 0,
+   "tp": "¿Cuál está en Londres?",
+   "tr": "¡El Big Ben!",
+   "o_fotos": [
+    {
+     "q": "big ben london",
+     "src": "px"
+    },
+    {
+     "q": "eiffel tower",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 414,
+   "p": "¿Cuál es la bandera de Canadá?",
+   "o": [
+    "Canadá",
+    "Perú"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es la bandera de Canadá?",
+   "tr": "¡Canadá! La de la hoja de arce.",
+   "o_fotos": [
+    {
+     "flag": "ca"
+    },
+    {
+     "flag": "pe"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 415,
+   "p": "¿De qué país es la papa?",
+   "o": [
+    "Perú",
+    "Irlanda"
+   ],
+   "c": 0,
+   "tp": "¿De qué país es la papa?",
+   "tr": "¡Del Perú! Hay más de tres mil variedades.",
+   "o_fotos": [
+    {
+     "flag": "pe"
+    },
+    {
+     "flag": "ie"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 416,
+   "p": "¿Cuál está en Italia?",
+   "o": [
+    "Coliseo",
+    "Big Ben"
+   ],
+   "c": 0,
+   "tp": "¿Cuál está en Italia?",
+   "tr": "¡El Coliseo!",
+   "o_fotos": [
+    {
+     "q": "colosseum rome",
+     "src": "px"
+    },
+    {
+     "q": "big ben",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 417,
+   "p": "¿Cuál es la bandera de Japón?",
+   "o": [
+    "Bangladés",
+    "Japón"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es la bandera de Japón?",
+   "tr": "¡Japón!",
+   "o_fotos": [
+    {
+     "flag": "bd"
+    },
+    {
+     "flag": "jp"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 418,
+   "p": "¿Cuál come más panetón por persona?",
+   "o": [
+    "Italia",
+    "Perú"
+   ],
+   "c": 1,
+   "tp": "¿Cuál come más panetón por persona?",
+   "tr": "¡Perú! Es el que más come en el mundo.",
+   "o_fotos": [
+    {
+     "flag": "it"
+    },
+    {
+     "flag": "pe"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 419,
+   "p": "¿Cuál es la bandera de Alemania?",
+   "o": [
+    "Alemania",
+    "Bélgica"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es la bandera de Alemania?",
+   "tr": "¡Alemania!",
+   "o_fotos": [
+    {
+     "flag": "de"
+    },
+    {
+     "flag": "be"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 420,
+   "p": "¿Cuál es la capital de Perú?",
+   "o": [
+    "Cusco",
+    "Lima"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es la capital de Perú?",
+   "tr": "¡Lima!",
+   "o_fotos": [
+    {
+     "q": "cusco peru",
+     "src": "px"
+    },
+    {
+     "q": "lima peru",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 421,
+   "p": "¿Cuál es una maravilla del mundo?",
+   "o": [
+    "Gran Muralla China",
+    "Torre Eiffel"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es una maravilla del mundo?",
+   "tr": "¡La Gran Muralla China!",
+   "o_fotos": [
+    {
+     "q": "great wall of china",
+     "src": "px"
+    },
+    {
+     "q": "eiffel tower",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 422,
+   "p": "¿Cuál es la bandera de Bolivia?",
+   "o": [
+    "Ghana",
+    "Bolivia"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es la bandera de Bolivia?",
+   "tr": "¡Bolivia!",
+   "o_fotos": [
+    {
+     "flag": "gh"
+    },
+    {
+     "flag": "bo"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 423,
+   "p": "¿Cuál es la bandera de Francia?",
+   "o": [
+    "Países Bajos",
+    "Francia"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es la bandera de Francia?",
+   "tr": "¡Francia!",
+   "o_fotos": [
+    {
+     "flag": "nl"
+    },
+    {
+     "flag": "fr"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 424,
+   "p": "¿Cuál está en Trujillo?",
+   "o": [
+    "Machu Picchu",
+    "Chan Chan"
+   ],
+   "c": 1,
+   "tp": "¿Cuál está en Trujillo?",
+   "tr": "¡Chan Chan!",
+   "o_fotos": [
+    {
+     "q": "machu picchu",
+     "src": "px"
+    },
+    {
+     "q": "Chan Chan",
+     "src": "cm",
+     "must": "Chan Chan"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 425,
+   "p": "¿Qué país inventó el panetón?",
+   "o": [
+    "Perú",
+    "Italia"
+   ],
+   "c": 1,
+   "tp": "¿Qué país inventó el panetón?",
+   "tr": "¡Italia! Nació en Milán.",
+   "o_fotos": [
+    {
+     "flag": "pe"
+    },
+    {
+     "flag": "it"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 426,
+   "p": "¿Cuál está en Australia?",
+   "o": [
+    "Burj Khalifa",
+    "Ópera de Sídney"
+   ],
+   "c": 1,
+   "tp": "¿Cuál está en Australia?",
+   "tr": "¡La Ópera de Sídney!",
+   "o_fotos": [
+    {
+     "q": "burj khalifa",
+     "src": "px"
+    },
+    {
+     "q": "sydney opera house",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 427,
+   "p": "¿Cuál es el país más grande del mundo?",
+   "o": [
+    "China",
+    "Rusia"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el país más grande del mundo?",
+   "tr": "¡Rusia!",
+   "o_fotos": [
+    {
+     "flag": "cn"
+    },
+    {
+     "flag": "ru"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 428,
+   "p": "¿Cuál está en Cusco?",
+   "o": [
+    "Machu Picchu",
+    "Chan Chan"
+   ],
+   "c": 0,
+   "tp": "¿Cuál está en Cusco?",
+   "tr": "¡Machu Picchu!",
+   "o_fotos": [
+    {
+     "q": "machu picchu",
+     "src": "px"
+    },
+    {
+     "q": "Chan Chan",
+     "src": "cm",
+     "must": "Chan Chan"
+    }
+   ],
+   "zona": 8,
+   "nivel": 2
+  },
+  {
+   "n": 429,
+   "p": "¿Cuál es la ciudad más antigua de América?",
+   "o": [
+    "Caral",
+    "Cusco"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es la ciudad más antigua de América?",
+   "tr": "¡Caral!",
+   "o_fotos": [
+    {
+     "q": "Caral",
+     "src": "cm",
+     "must": "Caral"
+    },
+    {
+     "q": "cusco",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 3
+  },
+  {
+   "n": 430,
+   "p": "¿Cuál tiene más islas?",
+   "o": [
+    "Japón",
+    "Suecia"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene más islas?",
+   "tr": "¡Suecia! Más de doscientas mil.",
+   "o_fotos": [
+    {
+     "flag": "jp"
+    },
+    {
+     "flag": "se"
+    }
+   ],
+   "zona": 8,
+   "nivel": 3
+  },
+  {
+   "n": 431,
+   "p": "¿Cuál es la flor nacional del Perú?",
+   "o": [
+    "Rosa",
+    "Cantuta"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es la flor nacional del Perú?",
+   "tr": "¡La cantuta!",
+   "o_fotos": [
+    {
+     "q": "red rose",
+     "src": "px"
+    },
+    {
+     "q": "Cantua buxifolia",
+     "src": "cm",
+     "must": "Cantua"
+    }
+   ],
+   "zona": 8,
+   "nivel": 3
+  },
+  {
+   "n": 432,
+   "p": "¿De qué país son las posadas navideñas?",
+   "o": [
+    "México",
+    "Chile"
+   ],
+   "c": 0,
+   "tp": "¿De qué país son las posadas navideñas?",
+   "tr": "¡México!",
+   "o_fotos": [
+    {
+     "flag": "mx"
+    },
+    {
+     "flag": "cl"
+    }
+   ],
+   "zona": 8,
+   "nivel": 3
+  },
+  {
+   "n": 433,
+   "p": "¿Cuál es el país con más idiomas?",
+   "o": [
+    "India",
+    "Papúa Nueva Guinea"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el país con más idiomas?",
+   "tr": "¡Papúa Nueva Guinea! Más de ochocientos.",
+   "o_fotos": [
+    {
+     "flag": "in"
+    },
+    {
+     "flag": "pg"
+    }
+   ],
+   "zona": 8,
+   "nivel": 3
+  },
+  {
+   "n": 434,
+   "p": "¿De qué país es el villancico Noche de Paz?",
+   "o": [
+    "Estados Unidos",
+    "Austria"
+   ],
+   "c": 1,
+   "tp": "¿De qué país es el villancico Noche de Paz?",
+   "tr": "¡Austria! Se cantó por primera vez en 1818.",
+   "o_fotos": [
+    {
+     "flag": "us"
+    },
+    {
+     "flag": "at"
+    }
+   ],
+   "zona": 8,
+   "nivel": 3
+  },
+  {
+   "n": 435,
+   "p": "¿Cuál es la bandera de Islandia?",
+   "o": [
+    "Islandia",
+    "Noruega"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es la bandera de Islandia?",
+   "tr": "¡Islandia!",
+   "o_fotos": [
+    {
+     "flag": "is"
+    },
+    {
+     "flag": "no"
+    }
+   ],
+   "zona": 8,
+   "nivel": 3
+  },
+  {
+   "n": 436,
+   "p": "¿Cuál está en dos continentes?",
+   "o": [
+    "Turquía",
+    "Grecia"
+   ],
+   "c": 0,
+   "tp": "¿Cuál está en dos continentes?",
+   "tr": "¡Turquía! Europa y Asia.",
+   "o_fotos": [
+    {
+     "flag": "tr"
+    },
+    {
+     "flag": "gr"
+    }
+   ],
+   "zona": 8,
+   "nivel": 3
+  },
+  {
+   "n": 437,
+   "p": "¿Cuál tiene más pirámides?",
+   "o": [
+    "Egipto",
+    "Sudán"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene más pirámides?",
+   "tr": "¡Sudán! Aunque las famosas son de Egipto.",
+   "o_fotos": [
+    {
+     "flag": "eg"
+    },
+    {
+     "flag": "sd"
+    }
+   ],
+   "zona": 8,
+   "nivel": 3
+  },
+  {
+   "n": 438,
+   "p": "¿Cuál es más antigua?",
+   "o": [
+    "Machu Picchu",
+    "Caral"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más antigua?",
+   "tr": "¡Caral! Tiene unos cinco mil años.",
+   "o_fotos": [
+    {
+     "q": "machu picchu",
+     "src": "px"
+    },
+    {
+     "q": "Caral",
+     "src": "cm",
+     "must": "Caral"
+    }
+   ],
+   "zona": 8,
+   "nivel": 3
+  },
+  {
+   "n": 439,
+   "p": "¿Cuál es la bandera de Colombia?",
+   "o": [
+    "Ecuador",
+    "Colombia"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es la bandera de Colombia?",
+   "tr": "¡Colombia!",
+   "o_fotos": [
+    {
+     "flag": "ec"
+    },
+    {
+     "flag": "co"
+    }
+   ],
+   "zona": 8,
+   "nivel": 3
+  },
+  {
+   "n": 440,
+   "p": "¿Cuál es la bandera de Australia?",
+   "o": [
+    "Nueva Zelanda",
+    "Australia"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es la bandera de Australia?",
+   "tr": "¡Australia!",
+   "o_fotos": [
+    {
+     "flag": "nz"
+    },
+    {
+     "flag": "au"
+    }
+   ],
+   "zona": 8,
+   "nivel": 3
+  },
+  {
+   "n": 441,
+   "p": "¿Dónde comen pollo frito en Navidad?",
+   "o": [
+    "Japón",
+    "México"
+   ],
+   "c": 0,
+   "tp": "¿Dónde comen pollo frito en Navidad?",
+   "tr": "¡Japón! Es su tradición.",
+   "o_fotos": [
+    {
+     "flag": "jp"
+    },
+    {
+     "flag": "mx"
+    }
+   ],
+   "zona": 8,
+   "nivel": 3
+  },
+  {
+   "n": 442,
+   "p": "¿En qué país está la Laponia de Papá Noel?",
+   "o": [
+    "España",
+    "Finlandia"
+   ],
+   "c": 1,
+   "tp": "¿En qué país está la Laponia de Papá Noel?",
+   "tr": "¡Finlandia! En Rovaniemi.",
+   "o_fotos": [
+    {
+     "flag": "es"
+    },
+    {
+     "flag": "fi"
+    }
+   ],
+   "zona": 8,
+   "nivel": 3
+  },
+  {
+   "n": 443,
+   "p": "¿Cuál es el árbol del escudo del Perú?",
+   "o": [
+    "Eucalipto",
+    "Quina"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el árbol del escudo del Perú?",
+   "tr": "¡El árbol de la quina!",
+   "o_fotos": [
+    {
+     "q": "eucalyptus tree",
+     "src": "px"
+    },
+    {
+     "q": "Cinchona officinalis",
+     "src": "cm",
+     "must": "Cinchona"
+    }
+   ],
+   "zona": 8,
+   "nivel": 3
+  },
+  {
+   "n": 444,
+   "p": "¿Cuál es el pájaro nacional del Perú?",
+   "o": [
+    "Cóndor",
+    "Gallito de las rocas"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el pájaro nacional del Perú?",
+   "tr": "¡El gallito de las rocas!",
+   "o_fotos": [
+    {
+     "q": "andean condor",
+     "src": "px"
+    },
+    {
+     "q": "Rupicola peruvianus",
+     "src": "cm",
+     "must": "Rupicola"
+    }
+   ],
+   "zona": 8,
+   "nivel": 3
+  },
+  {
+   "n": 445,
+   "p": "¿De qué país es la tradición del árbol de Navidad?",
+   "o": [
+    "Japón",
+    "Alemania"
+   ],
+   "c": 1,
+   "tp": "¿De qué país es la tradición del árbol de Navidad?",
+   "tr": "¡Alemania!",
+   "o_fotos": [
+    {
+     "flag": "jp"
+    },
+    {
+     "flag": "de"
+    }
+   ],
+   "zona": 8,
+   "nivel": 3
+  },
+  {
+   "n": 446,
+   "p": "¿Dónde es verano en Navidad?",
+   "o": [
+    "Argentina",
+    "Rusia"
+   ],
+   "c": 0,
+   "tp": "¿Dónde es verano en Navidad?",
+   "tr": "¡Argentina!",
+   "o_fotos": [
+    {
+     "flag": "ar"
+    },
+    {
+     "flag": "ru"
+    }
+   ],
+   "zona": 8,
+   "nivel": 3
+  },
+  {
+   "n": 447,
+   "p": "¿Cuál es la bandera de Noruega?",
+   "o": [
+    "Dinamarca",
+    "Noruega"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es la bandera de Noruega?",
+   "tr": "¡Noruega!",
+   "o_fotos": [
+    {
+     "flag": "dk"
+    },
+    {
+     "flag": "no"
+    }
+   ],
+   "zona": 8,
+   "nivel": 3
+  },
+  {
+   "n": 448,
+   "p": "¿Qué país regala un árbol a Londres cada Navidad?",
+   "o": [
+    "Noruega",
+    "Francia"
+   ],
+   "c": 0,
+   "tp": "¿Qué país regala un árbol a Londres cada Navidad?",
+   "tr": "¡Noruega! Lo pone en Trafalgar Square.",
+   "o_fotos": [
+    {
+     "flag": "no"
+    },
+    {
+     "flag": "fr"
+    }
+   ],
+   "zona": 8,
+   "nivel": 3
+  },
+  {
+   "n": 449,
+   "p": "¿Cuál es el país con más volcanes?",
+   "o": [
+    "Italia",
+    "Indonesia"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el país con más volcanes?",
+   "tr": "¡Indonesia!",
+   "o_fotos": [
+    {
+     "flag": "it"
+    },
+    {
+     "flag": "id"
+    }
+   ],
+   "zona": 8,
+   "nivel": 3
+  },
+  {
+   "n": 450,
+   "p": "¿Cuál cruza el ecuador?",
+   "o": [
+    "Ecuador",
+    "Perú"
+   ],
+   "c": 0,
+   "tp": "¿Cuál cruza el ecuador?",
+   "tr": "¡Ecuador!",
+   "o_fotos": [
+    {
+     "flag": "ec"
+    },
+    {
+     "flag": "pe"
+    }
+   ],
+   "zona": 8,
+   "nivel": 3
+  },
+  {
+   "n": 451,
+   "p": "¿Cuál es la bandera de Mongolia?",
+   "o": [
+    "Mongolia",
+    "Kazajistán"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es la bandera de Mongolia?",
+   "tr": "¡Mongolia!",
+   "o_fotos": [
+    {
+     "flag": "mn"
+    },
+    {
+     "flag": "kz"
+    }
+   ],
+   "zona": 8,
+   "nivel": 4
+  },
+  {
+   "n": 452,
+   "p": "¿Cuál construyó Chan Chan?",
+   "o": [
+    "Chimú",
+    "Inca"
+   ],
+   "c": 0,
+   "tp": "¿Cuál construyó Chan Chan?",
+   "tr": "¡Los chimú!",
+   "o_fotos": [
+    {
+     "q": "Chan Chan",
+     "src": "cm",
+     "must": "Chan Chan"
+    },
+    {
+     "q": "machu picchu",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 4
+  },
+  {
+   "n": 453,
+   "p": "¿Qué país tiene más renos?",
+   "o": [
+    "Rusia",
+    "Finlandia"
+   ],
+   "c": 0,
+   "tp": "¿Qué país tiene más renos?",
+   "tr": "¡Rusia!",
+   "o_fotos": [
+    {
+     "flag": "ru"
+    },
+    {
+     "flag": "fi"
+    }
+   ],
+   "zona": 8,
+   "nivel": 4
+  },
+  {
+   "n": 454,
+   "p": "¿Qué país celebra Navidad el 7 de enero?",
+   "o": [
+    "Rusia",
+    "Italia"
+   ],
+   "c": 0,
+   "tp": "¿Qué país celebra Navidad el 7 de enero?",
+   "tr": "¡Rusia! Por el calendario ortodoxo.",
+   "o_fotos": [
+    {
+     "flag": "ru"
+    },
+    {
+     "flag": "it"
+    }
+   ],
+   "zona": 8,
+   "nivel": 4
+  },
+  {
+   "n": 455,
+   "p": "¿Cuál es el idioma más hablado del mundo?",
+   "o": [
+    "Español",
+    "Inglés"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el idioma más hablado del mundo?",
+   "tr": "¡El inglés! Contando a quienes lo aprenden.",
+   "o_fotos": [
+    {
+     "flag": "es"
+    },
+    {
+     "flag": "gb"
+    }
+   ],
+   "zona": 8,
+   "nivel": 4
+  },
+  {
+   "n": 456,
+   "p": "¿Cuál es el país más joven del mundo?",
+   "o": [
+    "Kosovo",
+    "Sudán del Sur"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el país más joven del mundo?",
+   "tr": "¡Sudán del Sur! Desde 2011.",
+   "o_fotos": [
+    {
+     "flag": "xk"
+    },
+    {
+     "flag": "ss"
+    }
+   ],
+   "zona": 8,
+   "nivel": 4
+  },
+  {
+   "n": 457,
+   "p": "¿Cuál es el idioma con más hablantes nativos?",
+   "o": [
+    "Chino mandarín",
+    "Inglés"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es el idioma con más hablantes nativos?",
+   "tr": "¡El chino mandarín!",
+   "o_fotos": [
+    {
+     "flag": "cn"
+    },
+    {
+     "flag": "gb"
+    }
+   ],
+   "zona": 8,
+   "nivel": 4
+  },
+  {
+   "n": 458,
+   "p": "¿Cuál es el segundo idioma nativo más hablado?",
+   "o": [
+    "Español",
+    "Inglés"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es el segundo idioma nativo más hablado?",
+   "tr": "¡El español!",
+   "o_fotos": [
+    {
+     "flag": "es"
+    },
+    {
+     "flag": "gb"
+    }
+   ],
+   "zona": 8,
+   "nivel": 4
+  },
+  {
+   "n": 459,
+   "p": "¿Cuál tiene más habitantes?",
+   "o": [
+    "Bogotá",
+    "Lima"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene más habitantes?",
+   "tr": "¡Lima!",
+   "o_fotos": [
+    {
+     "q": "bogota",
+     "src": "px"
+    },
+    {
+     "q": "lima peru",
+     "src": "px"
+    }
+   ],
+   "zona": 8,
+   "nivel": 4
+  },
+  {
+   "n": 460,
+   "p": "¿Cuál es la bandera de Nepal?",
+   "o": [
+    "Nepal",
+    "Bután"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es la bandera de Nepal?",
+   "tr": "¡Nepal! La única que no es rectangular.",
+   "o_fotos": [
+    {
+     "flag": "np"
+    },
+    {
+     "flag": "bt"
+    }
+   ],
+   "zona": 8,
+   "nivel": 4
+  },
+  {
+   "n": 461,
+   "p": "¿Cuál es la bandera de Rumania?",
+   "o": [
+    "Chad",
+    "Rumania"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es la bandera de Rumania?",
+   "tr": "¡Rumania! Casi igual a la de Chad.",
+   "o_fotos": [
+    {
+     "flag": "td"
+    },
+    {
+     "flag": "ro"
+    }
+   ],
+   "zona": 8,
+   "nivel": 4
+  },
+  {
+   "n": 462,
+   "p": "¿Cuál es el Señor de Sipán?",
+   "o": [
+    "Rey inca",
+    "Gobernante mochica"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el Señor de Sipán?",
+   "tr": "¡Un gobernante mochica de Lambayeque!",
+   "o_fotos": [
+    {
+     "q": "inca king",
+     "src": "px"
+    },
+    {
+     "q": "Señor de Sipán",
+     "src": "cm",
+     "must": "Sip"
+    }
+   ],
+   "zona": 8,
+   "nivel": 4
+  },
+  {
+   "n": 463,
+   "p": "¿Cuál cultura hizo las líneas de Nasca?",
+   "o": [
+    "Inca",
+    "Nasca"
+   ],
+   "c": 1,
+   "tp": "¿Cuál cultura hizo las líneas de Nasca?",
+   "tr": "¡La cultura Nasca!",
+   "o_fotos": [
+    {
+     "q": "inca",
+     "src": "px"
+    },
+    {
+     "q": "Nazca lines",
+     "src": "cm",
+     "must": "Nazca"
+    }
+   ],
+   "zona": 8,
+   "nivel": 4
+  },
+  {
+   "n": 464,
+   "p": "¿Cuál es la capital de Bolivia donde está el gobierno?",
+   "o": [
+    "La Paz",
+    "Sucre"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es la capital de Bolivia donde está el gobierno?",
+   "tr": "¡La Paz! La capital oficial es Sucre.",
+   "o_fotos": [
+    {
+     "q": "la paz bolivia",
+     "src": "px"
+    },
+    {
+     "q": "Sucre Bolivia",
+     "src": "cm",
+     "must": "Sucre"
+    }
+   ],
+   "zona": 8,
+   "nivel": 4
+  },
+  {
+   "n": 465,
+   "p": "¿Cuál es más antiguo?",
+   "o": [
+    "Machu Picchu",
+    "Chavín de Huántar"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más antiguo?",
+   "tr": "¡Chavín de Huántar!",
+   "o_fotos": [
+    {
+     "q": "machu picchu",
+     "src": "px"
+    },
+    {
+     "q": "Chavín de Huántar",
+     "src": "cm",
+     "must": "Chav"
+    }
+   ],
+   "zona": 8,
+   "nivel": 4
+  },
+  {
+   "n": 466,
+   "p": "¿Cuál es la bandera de Groenlandia?",
+   "o": [
+    "Polonia",
+    "Groenlandia"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es la bandera de Groenlandia?",
+   "tr": "¡Groenlandia!",
+   "o_fotos": [
+    {
+     "flag": "pl"
+    },
+    {
+     "flag": "gl"
+    }
+   ],
+   "zona": 8,
+   "nivel": 4
+  },
+  {
+   "n": 467,
+   "p": "¿Cuál va al espacio?",
+   "o": [
+    "Helicóptero",
+    "Cohete"
+   ],
+   "c": 1,
+   "tp": "¿Cuál va al espacio?",
+   "tr": "¡El cohete!",
+   "o_fotos": [
+    {
+     "q": "helicopter",
+     "src": "px"
+    },
+    {
+     "q": "rocket launch",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 1
+  },
+  {
+   "n": 468,
+   "p": "¿Cuál brilla con luz propia?",
+   "o": [
+    "Planeta",
+    "Estrella"
+   ],
+   "c": 1,
+   "tp": "¿Cuál brilla con luz propia?",
+   "tr": "¡La estrella!",
+   "o_fotos": [
+    {
+     "q": "planet",
+     "src": "px"
+    },
+    {
+     "q": "star night sky",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 1
+  },
+  {
+   "n": 469,
+   "p": "¿Cuál está más cerca del Sol?",
+   "o": [
+    "Mercurio",
+    "Tierra"
+   ],
+   "c": 0,
+   "tp": "¿Cuál está más cerca del Sol?",
+   "tr": "¡Mercurio!",
+   "o_fotos": [
+    {
+     "q": "planet mercury",
+     "src": "px"
+    },
+    {
+     "q": "planet earth space",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 1
+  },
+  {
+   "n": 470,
+   "p": "¿Cuál es un satélite?",
+   "o": [
+    "El Sol",
+    "La Luna"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un satélite?",
+   "tr": "¡La Luna!",
+   "o_fotos": [
+    {
+     "q": "sun sky",
+     "src": "px"
+    },
+    {
+     "q": "full moon night",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 1
+  },
+  {
+   "n": 471,
+   "p": "¿Cuál es el planeta rojo?",
+   "o": [
+    "Júpiter",
+    "Marte"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el planeta rojo?",
+   "tr": "¡Marte!",
+   "o_fotos": [
+    {
+     "q": "planet jupiter",
+     "src": "px"
+    },
+    {
+     "q": "planet mars",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 1
+  },
+  {
+   "n": 472,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "La Tierra",
+    "La Luna"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡La Tierra!",
+   "o_fotos": [
+    {
+     "q": "planet earth",
+     "src": "px"
+    },
+    {
+     "q": "moon surface",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 1
+  },
+  {
+   "n": 473,
+   "p": "¿Cuál es la Tierra?",
+   "o": [
+    "Planeta rojo",
+    "Planeta azul"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es la Tierra?",
+   "tr": "¡El planeta azul!",
+   "o_fotos": [
+    {
+     "q": "planet mars",
+     "src": "px"
+    },
+    {
+     "q": "earth from space",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 1
+  },
+  {
+   "n": 474,
+   "p": "¿Cuál tiene anillos?",
+   "o": [
+    "Tierra",
+    "Saturno"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene anillos?",
+   "tr": "¡Saturno!",
+   "o_fotos": [
+    {
+     "q": "planet earth",
+     "src": "px"
+    },
+    {
+     "q": "planet saturn",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 1
+  },
+  {
+   "n": 475,
+   "p": "¿Cuál está más lejos?",
+   "o": [
+    "El Sol",
+    "La Luna"
+   ],
+   "c": 0,
+   "tp": "¿Cuál está más lejos?",
+   "tr": "¡El Sol!",
+   "o_fotos": [
+    {
+     "q": "sun",
+     "src": "px"
+    },
+    {
+     "q": "full moon",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 1
+  },
+  {
+   "n": 476,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Marte",
+    "Júpiter"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡Júpiter!",
+   "o_fotos": [
+    {
+     "q": "planet mars",
+     "src": "px"
+    },
+    {
+     "q": "planet jupiter",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 1
+  },
+  {
+   "n": 477,
+   "p": "¿Cuál es una estrella fugaz?",
+   "o": [
+    "Estrella fugaz",
+    "Avión"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es una estrella fugaz?",
+   "tr": "¡La estrella fugaz!",
+   "o_fotos": [
+    {
+     "q": "shooting star",
+     "src": "px"
+    },
+    {
+     "q": "airplane night",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 1
+  },
+  {
+   "n": 478,
+   "p": "¿Cuál es más caliente?",
+   "o": [
+    "Una fogata",
+    "El Sol"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más caliente?",
+   "tr": "¡El Sol!",
+   "o_fotos": [
+    {
+     "q": "campfire",
+     "src": "px"
+    },
+    {
+     "q": "sun space",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 1
+  },
+  {
+   "n": 479,
+   "p": "¿Cuál va en la punta del árbol?",
+   "o": [
+    "Luna",
+    "Estrella"
+   ],
+   "c": 1,
+   "tp": "¿Cuál va en la punta del árbol?",
+   "tr": "¡La estrella!",
+   "o_fotos": [
+    {
+     "q": "crescent moon",
+     "src": "px"
+    },
+    {
+     "q": "christmas tree star top",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 1
+  },
+  {
+   "n": 480,
+   "p": "¿Cuál produce energía con el Sol?",
+   "o": [
+    "Aerogenerador",
+    "Panel solar"
+   ],
+   "c": 1,
+   "tp": "¿Cuál produce energía con el Sol?",
+   "tr": "¡El panel solar!",
+   "o_fotos": [
+    {
+     "q": "wind turbines",
+     "src": "px"
+    },
+    {
+     "q": "solar panels",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 1
+  },
+  {
+   "n": 481,
+   "p": "¿Cuál es un planeta?",
+   "o": [
+    "La Luna",
+    "Neptuno"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un planeta?",
+   "tr": "¡Neptuno!",
+   "o_fotos": [
+    {
+     "q": "moon",
+     "src": "px"
+    },
+    {
+     "q": "planet neptune",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 1
+  },
+  {
+   "n": 482,
+   "p": "¿Cuál es un astronauta?",
+   "o": [
+    "Astronauta",
+    "Buzo"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un astronauta?",
+   "tr": "¡El astronauta!",
+   "o_fotos": [
+    {
+     "q": "astronaut",
+     "src": "px"
+    },
+    {
+     "q": "scuba diver",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 1
+  },
+  {
+   "n": 483,
+   "p": "¿Cuál brilla de noche en el cielo?",
+   "o": [
+    "Estrellas",
+    "Nubes"
+   ],
+   "c": 0,
+   "tp": "¿Cuál brilla de noche en el cielo?",
+   "tr": "¡Las estrellas!",
+   "o_fotos": [
+    {
+     "q": "starry night sky",
+     "src": "px"
+    },
+    {
+     "q": "white clouds",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 1
+  },
+  {
+   "n": 484,
+   "p": "¿Cuál es un cometa?",
+   "o": [
+    "Meteorito",
+    "Cometa"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un cometa?",
+   "tr": "¡El cometa!",
+   "o_fotos": [
+    {
+     "q": "meteorite rock",
+     "src": "px"
+    },
+    {
+     "q": "comet",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 2
+  },
+  {
+   "n": 485,
+   "p": "¿Cuál es un satélite?",
+   "o": [
+    "Sol",
+    "Luna"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un satélite?",
+   "tr": "¡La Luna!",
+   "o_fotos": [
+    {
+     "q": "sun",
+     "src": "px"
+    },
+    {
+     "q": "moon",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 2
+  },
+  {
+   "n": 486,
+   "p": "¿Cuál es una luna creciente?",
+   "o": [
+    "Luna llena",
+    "Luna en forma de C"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es una luna creciente?",
+   "tr": "¡La luna en forma de C!",
+   "o_fotos": [
+    {
+     "q": "full moon",
+     "src": "px"
+    },
+    {
+     "q": "crescent moon",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 2
+  },
+  {
+   "n": 487,
+   "p": "¿Cuál es el planeta rojo?",
+   "o": [
+    "Venus",
+    "Marte"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el planeta rojo?",
+   "tr": "¡Marte!",
+   "o_fotos": [
+    {
+     "q": "Venus planet",
+     "src": "cm",
+     "must": "Venus"
+    },
+    {
+     "q": "Mars planet",
+     "src": "cm",
+     "must": "Mars"
+    }
+   ],
+   "zona": 9,
+   "nivel": 2
+  },
+  {
+   "n": 488,
+   "p": "¿Cuál es una constelación?",
+   "o": [
+    "Nubes juntas",
+    "Estrellas unidas"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es una constelación?",
+   "tr": "¡Las estrellas unidas!",
+   "o_fotos": [
+    {
+     "q": "clouds",
+     "src": "px"
+    },
+    {
+     "q": "constellation",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 2
+  },
+  {
+   "n": 489,
+   "p": "¿Cuál es el planeta más caliente?",
+   "o": [
+    "Mercurio",
+    "Venus"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el planeta más caliente?",
+   "tr": "¡Venus! Aunque Mercurio está más cerca.",
+   "o_fotos": [
+    {
+     "q": "Mercury planet MESSENGER",
+     "src": "cm",
+     "must": "Mercury"
+    },
+    {
+     "q": "Venus planet",
+     "src": "cm",
+     "must": "Venus"
+    }
+   ],
+   "zona": 9,
+   "nivel": 2
+  },
+  {
+   "n": 490,
+   "p": "¿Cuál es una nave espacial?",
+   "o": [
+    "Avioneta",
+    "Transbordador"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es una nave espacial?",
+   "tr": "¡El transbordador!",
+   "o_fotos": [
+    {
+     "q": "small airplane",
+     "src": "px"
+    },
+    {
+     "q": "space shuttle",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 2
+  },
+  {
+   "n": 491,
+   "p": "¿Cuál es un telescopio?",
+   "o": [
+    "Telescopio",
+    "Lupa"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es un telescopio?",
+   "tr": "¡El telescopio!",
+   "o_fotos": [
+    {
+     "q": "telescope",
+     "src": "px"
+    },
+    {
+     "q": "magnifying glass",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 2
+  },
+  {
+   "n": 492,
+   "p": "¿Cuál es una estrella?",
+   "o": [
+    "Luna",
+    "Sol"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es una estrella?",
+   "tr": "¡El Sol!",
+   "o_fotos": [
+    {
+     "q": "moon craters",
+     "src": "px"
+    },
+    {
+     "q": "sun space",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 2
+  },
+  {
+   "n": 493,
+   "p": "¿Cuál es líquido a temperatura ambiente?",
+   "o": [
+    "Hierro",
+    "Mercurio"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es líquido a temperatura ambiente?",
+   "tr": "¡El mercurio!",
+   "o_fotos": [
+    {
+     "q": "iron metal",
+     "src": "px"
+    },
+    {
+     "q": "Mercury liquid metal",
+     "src": "cm",
+     "must": "Mercury"
+    }
+   ],
+   "zona": 9,
+   "nivel": 2
+  },
+  {
+   "n": 494,
+   "p": "¿Cuál es un agujero negro?",
+   "o": [
+    "Nebulosa",
+    "Agujero negro"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es un agujero negro?",
+   "tr": "¡El agujero negro!",
+   "o_fotos": [
+    {
+     "q": "nebula",
+     "src": "px"
+    },
+    {
+     "q": "black hole",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 3
+  },
+  {
+   "n": 495,
+   "p": "¿Cuál es una nebulosa?",
+   "o": [
+    "Nube de colores",
+    "Arcoíris"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es una nebulosa?",
+   "tr": "¡La nube de colores!",
+   "o_fotos": [
+    {
+     "q": "nebula",
+     "src": "px"
+    },
+    {
+     "q": "rainbow",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 3
+  },
+  {
+   "n": 496,
+   "p": "¿Cuál se ve más brillante?",
+   "o": [
+    "Estrella Polar",
+    "Luna llena"
+   ],
+   "c": 1,
+   "tp": "¿Cuál se ve más brillante?",
+   "tr": "¡La Luna llena!",
+   "o_fotos": [
+    {
+     "q": "north star night sky",
+     "src": "px"
+    },
+    {
+     "q": "full moon",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 3
+  },
+  {
+   "n": 497,
+   "p": "¿Cuál es nuestra galaxia?",
+   "o": [
+    "Vía Láctea",
+    "Andrómeda"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es nuestra galaxia?",
+   "tr": "¡La Vía Láctea!",
+   "o_fotos": [
+    {
+     "q": "milky way",
+     "src": "px"
+    },
+    {
+     "q": "Andromeda Galaxy",
+     "src": "cm",
+     "must": "Andromeda"
+    }
+   ],
+   "zona": 9,
+   "nivel": 3
+  },
+  {
+   "n": 498,
+   "p": "¿Cuál es el planeta más grande?",
+   "o": [
+    "Júpiter",
+    "Neptuno"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es el planeta más grande?",
+   "tr": "¡Júpiter!",
+   "o_fotos": [
+    {
+     "q": "planet jupiter",
+     "src": "px"
+    },
+    {
+     "q": "Neptune Voyager",
+     "src": "cm",
+     "must": "Neptune"
+    }
+   ],
+   "zona": 9,
+   "nivel": 3
+  },
+  {
+   "n": 499,
+   "p": "¿Cuál está más lejos del Sol?",
+   "o": [
+    "Neptuno",
+    "Urano"
+   ],
+   "c": 0,
+   "tp": "¿Cuál está más lejos del Sol?",
+   "tr": "¡Neptuno!",
+   "o_fotos": [
+    {
+     "q": "Neptune Voyager",
+     "src": "cm",
+     "must": "Neptune"
+    },
+    {
+     "q": "Uranus Voyager",
+     "src": "cm",
+     "must": "Uranus"
+    }
+   ],
+   "zona": 9,
+   "nivel": 3
+  },
+  {
+   "n": 500,
+   "p": "¿Cuál tiene el volcán más alto del sistema solar?",
+   "o": [
+    "Marte",
+    "Tierra"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene el volcán más alto del sistema solar?",
+   "tr": "¡Marte! El monte Olimpo.",
+   "o_fotos": [
+    {
+     "q": "Olympus Mons",
+     "src": "cm",
+     "must": "Olympus"
+    },
+    {
+     "q": "volcano erupting",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 3
+  },
+  {
+   "n": 501,
+   "p": "¿Cuál tiene más lunas?",
+   "o": [
+    "Tierra",
+    "Saturno"
+   ],
+   "c": 1,
+   "tp": "¿Cuál tiene más lunas?",
+   "tr": "¡Saturno! Tiene más de cien.",
+   "o_fotos": [
+    {
+     "q": "earth from space",
+     "src": "px"
+    },
+    {
+     "q": "planet saturn",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 3
+  },
+  {
+   "n": 502,
+   "p": "¿Cuál es más grande?",
+   "o": [
+    "Júpiter",
+    "Saturno"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es más grande?",
+   "tr": "¡Júpiter!",
+   "o_fotos": [
+    {
+     "q": "planet jupiter",
+     "src": "px"
+    },
+    {
+     "q": "planet saturn",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 3
+  },
+  {
+   "n": 503,
+   "p": "¿Cuál sobrevive en el espacio?",
+   "o": [
+    "Tardígrado",
+    "Hormiga"
+   ],
+   "c": 0,
+   "tp": "¿Cuál sobrevive en el espacio?",
+   "tr": "¡El tardígrado, el osito de agua!",
+   "o_fotos": [
+    {
+     "q": "Tardigrade",
+     "src": "cm",
+     "must": "Tardigrad"
+    },
+    {
+     "q": "ant",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 3
+  },
+  {
+   "n": 504,
+   "p": "¿Cuál es la Estación Espacial?",
+   "o": [
+    "Satélite pequeño",
+    "Estación Espacial"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es la Estación Espacial?",
+   "tr": "¡La Estación Espacial!",
+   "o_fotos": [
+    {
+     "q": "satellite",
+     "src": "px"
+    },
+    {
+     "q": "international space station",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 3
+  },
+  {
+   "n": 505,
+   "p": "¿Cuál es más caliente?",
+   "o": [
+    "Estrella roja",
+    "Estrella azul"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más caliente?",
+   "tr": "¡La estrella azul!",
+   "o_fotos": [
+    {
+     "q": "red star space",
+     "src": "px"
+    },
+    {
+     "q": "blue star space",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 3
+  },
+  {
+   "n": 506,
+   "p": "¿Cuál gira acostado?",
+   "o": [
+    "Neptuno",
+    "Urano"
+   ],
+   "c": 1,
+   "tp": "¿Cuál gira acostado?",
+   "tr": "¡Urano! Gira de lado.",
+   "o_fotos": [
+    {
+     "q": "Neptune Voyager",
+     "src": "cm",
+     "must": "Neptune"
+    },
+    {
+     "q": "Uranus Voyager",
+     "src": "cm",
+     "must": "Uranus"
+    }
+   ],
+   "zona": 9,
+   "nivel": 3
+  },
+  {
+   "n": 507,
+   "p": "¿Cuál pisó primero la Luna?",
+   "o": [
+    "Neil Armstrong",
+    "Yuri Gagarin"
+   ],
+   "c": 0,
+   "tp": "¿Cuál pisó primero la Luna?",
+   "tr": "¡Neil Armstrong!",
+   "o_fotos": [
+    {
+     "q": "Neil Armstrong portrait",
+     "src": "cm",
+     "must": "Armstrong"
+    },
+    {
+     "q": "Yuri Gagarin portrait",
+     "src": "cm",
+     "must": "Gagarin"
+    }
+   ],
+   "zona": 9,
+   "nivel": 3
+  },
+  {
+   "n": 508,
+   "p": "¿Cuál fue el primer país en ir al espacio?",
+   "o": [
+    "Estados Unidos",
+    "Unión Soviética"
+   ],
+   "c": 1,
+   "tp": "¿Cuál fue el primer país en ir al espacio?",
+   "tr": "¡La Unión Soviética! Con el Sputnik.",
+   "o_fotos": [
+    {
+     "q": "nasa rocket",
+     "src": "px"
+    },
+    {
+     "q": "sputnik",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 4
+  },
+  {
+   "n": 509,
+   "p": "¿Cuál fue el primer hombre en el espacio?",
+   "o": [
+    "Neil Armstrong",
+    "Yuri Gagarin"
+   ],
+   "c": 1,
+   "tp": "¿Cuál fue el primer hombre en el espacio?",
+   "tr": "¡Yuri Gagarin!",
+   "o_fotos": [
+    {
+     "q": "Neil Armstrong portrait",
+     "src": "cm",
+     "must": "Armstrong"
+    },
+    {
+     "q": "Yuri Gagarin portrait",
+     "src": "cm",
+     "must": "Gagarin"
+    }
+   ],
+   "zona": 9,
+   "nivel": 4
+  },
+  {
+   "n": 510,
+   "p": "¿Cuál tiene el día más corto?",
+   "o": [
+    "Júpiter",
+    "Tierra"
+   ],
+   "c": 0,
+   "tp": "¿Cuál tiene el día más corto?",
+   "tr": "¡Júpiter! Unas diez horas.",
+   "o_fotos": [
+    {
+     "q": "planet jupiter",
+     "src": "px"
+    },
+    {
+     "q": "earth",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 4
+  },
+  {
+   "n": 511,
+   "p": "¿Cuál es la estrella más cercana?",
+   "o": [
+    "El Sol",
+    "Sirio"
+   ],
+   "c": 0,
+   "tp": "¿Cuál es la estrella más cercana?",
+   "tr": "¡El Sol!",
+   "o_fotos": [
+    {
+     "q": "sun",
+     "src": "px"
+    },
+    {
+     "q": "bright star night",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 4
+  },
+  {
+   "n": 512,
+   "p": "¿Cuánto tarda la luz del Sol en llegar?",
+   "o": [
+    "Ocho minutos",
+    "Un segundo"
+   ],
+   "c": 0,
+   "tp": "¿Cuánto tarda la luz del Sol en llegar?",
+   "tr": "¡Unos ocho minutos!",
+   "o_fotos": [
+    {
+     "q": "sunlight",
+     "src": "px"
+    },
+    {
+     "q": "clock",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 4
+  },
+  {
+   "n": 513,
+   "p": "¿Cuál es más caliente?",
+   "o": [
+    "Superficie del Sol",
+    "Rayo"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es más caliente?",
+   "tr": "¡El rayo! Unas cinco veces más.",
+   "o_fotos": [
+    {
+     "q": "sun surface",
+     "src": "px"
+    },
+    {
+     "q": "lightning",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 4
+  },
+  {
+   "n": 514,
+   "p": "¿Cuántas Tierras caben en el Sol?",
+   "o": [
+    "Un millón",
+    "Cien"
+   ],
+   "c": 0,
+   "tp": "¿Cuántas Tierras caben en el Sol?",
+   "tr": "¡Más de un millón!",
+   "o_fotos": [
+    {
+     "q": "sun",
+     "src": "px"
+    },
+    {
+     "q": "earth",
+     "src": "px"
+    }
+   ],
+   "zona": 9,
+   "nivel": 4
+  },
+  {
+   "n": 515,
+   "p": "¿Cuál es Plutón?",
+   "o": [
+    "Estrella",
+    "Planeta enano"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es Plutón?",
+   "tr": "¡Un planeta enano!",
+   "o_fotos": [
+    {
+     "q": "bright star",
+     "src": "px"
+    },
+    {
+     "q": "Pluto New Horizons",
+     "src": "cm",
+     "must": "Pluto"
+    }
+   ],
+   "zona": 9,
+   "nivel": 4
+  },
+  {
+   "n": 516,
+   "p": "¿Cuál es el planeta con el día más largo?",
+   "o": [
+    "Júpiter",
+    "Venus"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el planeta con el día más largo?",
+   "tr": "¡Venus! Su día dura más que su año.",
+   "o_fotos": [
+    {
+     "q": "planet jupiter",
+     "src": "px"
+    },
+    {
+     "q": "Venus planet",
+     "src": "cm",
+     "must": "Venus"
+    }
+   ],
+   "zona": 9,
+   "nivel": 4
+  },
+  {
+   "n": 517,
+   "p": "¿Cuál es el planeta más frío?",
+   "o": [
+    "Marte",
+    "Urano"
+   ],
+   "c": 1,
+   "tp": "¿Cuál es el planeta más frío?",
+   "tr": "¡Urano!",
+   "o_fotos": [
+    {
+     "q": "planet mars",
+     "src": "px"
+    },
+    {
+     "q": "Uranus Voyager",
+     "src": "cm",
+     "must": "Uranus"
+    }
+   ],
+   "zona": 9,
+   "nivel": 4
+  }
+ ]
+}

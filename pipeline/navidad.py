@@ -28,11 +28,11 @@ ZONAS = [
     dict(n='AVENIDA NEVADA', f='z1_avenida', hz=0.68, casas=('z1_avenida', (0, 0, 300, 540)), pinos=0, pub=['ciudad', 'granja'],
          tema='Tradiciones navideñas del mundo', col=(200, 40, 50), cam=((226, 232, 244), (212, 220, 236)), ver=(150, 120, 110), borde='baston'),
     dict(n='TALLER DE PAPÁ NOEL', f='z2_fabrica', hz=0.62, casas=('z2_fabrica', (0, 330, 330, 768)), pinos=0, pub=['dulces', 'ciudad'],
-         tema='Juguetes, inventos y ciencia', col=(176, 30, 40), cam=((150, 96, 60), (136, 86, 54)), ver=(110, 70, 44), borde='baston'),
+         tema='Juguetes, inventos, ciencia y deportes', col=(176, 30, 40), cam=((150, 96, 60), (136, 86, 54)), ver=(110, 70, 44), borde='baston'),
     dict(n='BOSQUE NEVADO', f='z3_bosque', hz=0.44, casas=None, pinos=2, pub=['bosque'],
-         tema='Animales del bosque y árboles', col=(30, 130, 70), cam=((226, 230, 246), (214, 218, 238)), ver=(190, 196, 224), borde='nieve'),
+         tema='Animales y naturaleza', col=(30, 130, 70), cam=((226, 230, 246), (214, 218, 238)), ver=(190, 196, 224), borde='nieve'),
     dict(n='LAGO CONGELADO', f='z4_lago', hz=0.54, casas=None, pinos=1, pub=['lago'],
-         tema='Frío, hielo y agua', col=(40, 120, 200), cam=((150, 205, 240), (136, 192, 232)), ver=(200, 220, 240), borde='hielo'),
+         tema='Frío, hielo, agua y mar', col=(40, 120, 200), cam=((150, 205, 240), (136, 192, 232)), ver=(200, 220, 240), borde='hielo'),
     dict(n='CIUDAD DE DULCES', f='z5_dulces', hz=0.52, casas=('z5_dulces', (0, 160, 310, 700)), pinos=0, pub=['dulces'],
          tema='Comida y postres', col=(230, 90, 150), cam=((176, 110, 60), (196, 128, 72)), ver=(246, 240, 236), borde='baston'),
     dict(n='POLO NORTE', f='z6_polo', hz=0.60, casas=None, pinos=0, pub=['polar', 'artico'],
@@ -40,11 +40,13 @@ ZONAS = [
     dict(n='MONTAÑA DE NIEVE', f='z7_montana', hz=0.47, casas=None, pinos=1, pub=['andes'],
          tema='Montañas, volcanes y geografía', col=(90, 110, 170), cam=((240, 242, 248), (226, 230, 242)), ver=(200, 206, 226), borde='nieve'),
     dict(n='SOBRE LOS TEJADOS', f='z8_tejados', hz=0.36, casas=None, pinos=1, pub=['africa', 'andes', 'selva', 'australia'],
-         tema='Papá Noel visita este país', col=(150, 60, 160), cam=((150, 70, 60), (132, 60, 52)), ver=(226, 232, 244), borde='luces'),
+         tema='Países, banderas y lugares', col=(150, 60, 160), cam=((150, 70, 60), (132, 60, 52)), ver=(226, 232, 244), borde='luces'),
     dict(n='CIELO DE NOCHEBUENA', f='z9_cielo', hz=0.36, casas=None, pinos=0, pub=['aves'],
          tema='Planetas y estrellas', col=(220, 170, 40), cam=((255, 220, 120), (250, 204, 96)), ver=(80, 70, 140), borde='luces'),
 ]
 COL_A, COL_B = (240, 80, 160), (70, 190, 240)
+# vehículo de cada zona (se pone en la 2.ª pregunta de la zona, después del cartel)
+VEH_ZONA = {0: 'corre', 1: 'patineta', 2: 'trineo_madera', 3: 'patines', 4: 'carrito', 5: 'reno', 6: 'corre', 7: 'pato', 8: 'trineo'}
 # vehículo → (alto en pantalla, base y, rebote, frecuencia del rebote)
 VEH_NAV = {'trineo': (540, 1090, 16, 2.6), 'reno': (620, 1110, 26, 5.0), 'trineo_madera': (560, 1100, 10, 7.0), 'patines': (470, 1095, 6, 1.6)}
 
@@ -187,6 +189,15 @@ class Regalo(C.Puerta):
 # ---------------------------------------------------------------- el episodio
 class Navidad(Ciudad):
     def __init__(s, meta, voces):
+        # si las preguntas traen su zona (preparar_navidad.py), recalcular zonas, vehículos y dragón tras el recorte
+        if meta['preguntas'] and all('zona' in q for q in meta['preguntas']):
+            ini = []
+            for i, q in enumerate(meta['preguntas']):
+                while len(ini) < q['zona']: ini.append(i)
+            while len(ini) < 9: ini.append(len(meta['preguntas']))
+            meta['zonas'] = ini
+            meta['vehiculos'] = {str(ini[z] + 1): v for z, v in VEH_ZONA.items() if ini[z] + 1 < len(meta['preguntas'])}
+            meta['dragon'] = {'meta_huevo': 5, 'antes_5': 'nace', f'antes_{ini[2]}': 'crece:joven', f'antes_{ini[5]}': 'crece:adulto'}
         super().__init__(meta, voces)
         s.bancon = os.path.join(RAIZ, 'banco', 'navidad')
         f = os.path.join(s.bancon, 'indice.json')
@@ -503,7 +514,25 @@ class Navidad(Ciudad):
             d.text((x0 + 115, 257), f'{nom} {pts_}', font=font('Black', int(40 * sc)), fill=TINTA, anchor='mm')
 
 
+def miniatura_navidad(meta, out, base='base1.jpg'):
+    """Miniatura 1280x720: base de Flow (dragón bebé saliendo del regalo + MAX y NOVA asombrados) + texto grande."""
+    im = Image.open(os.path.join(D, 'miniaturas', base)).convert('RGB')
+    im = ImageOps.fit(im, (1280, 720), Image.LANCZOS)
+    g = Image.new('L', (1, 720)); [g.putpixel((0, y), int(200 * max(0, 1 - y / 260))) for y in range(720)]
+    im.paste(Image.new('RGB', im.size, (10, 8, 40)), (0, 0), g.resize(im.size))      # sombra arriba para el título
+    d = ImageDraw.Draw(im)
+    t1 = '¡CRIAMOS UN DRAGÓN'; t2 = 'DE NAVIDAD!'
+    f = font('Black', 92)
+    d.text((640, 70), t1, font=f, fill=BLANCO, anchor='mm', stroke_width=10, stroke_fill=TINTA)
+    d.text((640, 165), t2, font=font('Black', 104), fill=ORO, anchor='mm', stroke_width=10, stroke_fill=TINTA)
+    for txt, x, col in (('A', 120, COL_A), ('B', 1160, COL_B)):   # fichas A / B en las esquinas de abajo
+        d.ellipse((x - 85, 545, x + 85, 715), fill=col, outline=BLANCO, width=10)
+        d.text((x, 632), txt, font=font('Black', 120), fill=BLANCO, anchor='mm', stroke_width=6, stroke_fill=TINTA)
+    im.save(out, quality=92)
+
+
 def main():
+    R0.miniatura = miniatura_navidad
     C.Ciudad = Navidad   # main() de ciudad.py arma con esta clase
     C.main()
 

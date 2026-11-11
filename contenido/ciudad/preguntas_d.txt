@@ -1,0 +1,131 @@
+# Episodio de Navidad · preguntas NUEVAS (11-nov-2026) para completar las zonas con menos preguntas.
+# Formato: pregunta ; correcta ; incorrecta ; foto correcta ; foto incorrecta ; respuesta que dice LA VOZ
+# «## zona N» fija la zona (1..9) y «## nivel N» la dificultad (1 fácil … 4 imposible).
+## zona 1
+## nivel 1
+¿Cuál es una vela de Navidad? ; Vela encendida ; Linterna ; px:christmas candle ; px:flashlight ; ¡La vela!
+¿Cuál es una guirnalda? ; Guirnalda ; Cuerda ; px:christmas garland ; px:rope coil ; ¡La guirnalda!
+¿Cuál se pone en la puerta en Navidad? ; Corona navideña ; Paraguas ; px:christmas wreath door ; px:umbrella ; ¡La corona navideña!
+¿Cuál es papel de regalo? ; Papel de regalo ; Periódico ; px:wrapping paper ; px:newspaper ; ¡El papel de regalo!
+¿Cuál es un adorno navideño? ; Estrella dorada ; Martillo ; px:gold christmas star ornament ; px:hammer tool ; ¡La estrella dorada!
+¿Cuál es un trineo de Papá Noel? ; Trineo rojo ; Bicicleta ; px:santa sleigh ; px:bicycle ; ¡El trineo!
+¿Cuál es un ángel de Navidad? ; Ángel ; Pirata ; px:christmas angel figurine ; px:pirate costume ; ¡El ángel!
+¿Cuál se escribe a Papá Noel? ; Carta ; Factura ; px:letter to santa ; px:invoice paper ; ¡La carta!
+¿Cuál brilla en la ventana en Navidad? ; Luces de colores ; Cortina ; px:christmas lights window ; px:curtain ; ¡Las luces de colores!
+## nivel 2
+¿Cuál es un calendario de Adviento? ; Calendario con ventanitas ; Agenda ; px:advent calendar ; px:planner notebook ; ¡El calendario de Adviento!
+¿Cuál es un suéter navideño? ; Suéter con renos ; Camiseta de fútbol ; px:christmas sweater ; px:soccer jersey ; ¡El suéter navideño!
+¿Cuál es la bota de Papá Noel? ; Bota negra ; Sandalia ; px:black boot ; px:sandal ; ¡La bota negra!
+¿Cuál es un nacimiento viviente? ; Personas actuando ; Muñecos de juguete ; px:living nativity scene ; px:toy figures ; ¡Personas actuando!
+¿Cuál se canta en Navidad? ; Villancico ; Himno de fútbol ; px:christmas carolers ; px:football fans singing ; ¡El villancico!
+¿Cuál es un bastón de Navidad? ; Rojo y blanco ; Verde y azul ; px:candy cane ; px:blue green striped ; ¡Rojo y blanco!
+¿Cuál es la estrella de Belén? ; Estrella con cola ; Luna llena ; px:star of bethlehem ; px:full moon ; ¡La estrella con cola!
+## nivel 3
+¿Cuántos Reyes Magos hay? ; Tres ; Cinco ; px:three kings figurines ; px:five toy soldiers ; ¡Tres!
+¿Cuál es el reno de nariz roja? ; Rodolfo ; Bambi ; px:reindeer red nose toy ; px:fawn deer ; ¡Rodolfo!
+¿Qué regalo trajo Melchor? ; Oro ; Chocolate ; px:gold coins ; px:chocolate bar ; ¡Oro!
+¿Cuál es la Misa de Gallo? ; Misa de medianoche ; Pelea de gallos ; px:midnight mass church candles ; px:rooster ; ¡La misa de medianoche!
+¿Cuál es un Niño Manuelito? ; Niño Jesús peruano ; Muñeco de trapo ; px:baby jesus figurine ; px:rag doll ; ¡El Niño Jesús peruano!
+¿En qué día se arma el árbol en Perú? ; 8 de diciembre ; 1 de enero ; px:decorating christmas tree ; px:new year fireworks ; ¡El 8 de diciembre!
+## nivel 4
+¿De qué país es el villancico Jingle Bells? ; Estados Unidos ; Inglaterra ; flag:us ; flag:gb ; ¡Estados Unidos!
+¿Cuál era Papá Noel antes? ; San Nicolás ; Rey Arturo ; px:saint nicholas statue ; px:king arthur statue ; ¡San Nicolás!
+¿Dónde vivía San Nicolás? ; Turquía ; Noruega ; flag:tr ; flag:no ; ¡Turquía!
+¿Cuál es la Navidad en inglés? ; Christmas ; Halloween ; px:merry christmas sign ; px:halloween pumpkin ; ¡Christmas!
+## zona 2
+## nivel 1
+¿Cuál es un juguete de cuerda? ; Robot de cuerda ; Tostadora ; px:wind up toy robot ; px:toaster ; ¡El robot de cuerda!
+¿Cuál es un cubo de Rubik? ; Cubo de colores ; Dado ; px:rubiks cube ; px:dice ; ¡El cubo de colores!
+¿Cuál es un yoyo? ; Yoyo ; Trompo ; px:yoyo toy ; px:spinning top ; ¡El yoyo!
+¿Cuál es una cometa? ; Cometa ; Paraguas ; px:kite flying ; px:umbrella ; ¡La cometa!
+## nivel 2
+¿Cuál inventó la bombilla? ; Thomas Edison ; Isaac Newton ; cm:Thomas Edison portrait|Edison ; cm:Isaac Newton portrait|Newton ; ¡Thomas Edison!
+¿Cuál funciona con pilas? ; Carrito a control remoto ; Pelota ; px:rc car toy ; px:ball ; ¡El carrito a control remoto!
+¿Cuál es un microscopio? ; Microscopio ; Telescopio ; px:microscope ; px:telescope ; ¡El microscopio!
+## nivel 3
+¿Cuál es más antiguo? ; Ajedrez ; Videojuego ; px:chess board ; px:video game controller ; ¡El ajedrez!
+¿Cuál descubrió la gravedad? ; Isaac Newton ; Albert Einstein ; cm:Isaac Newton portrait|Newton ; cm:Albert Einstein portrait|Einstein ; ¡Isaac Newton!
+¿Cuál es un dron? ; Dron ; Helicóptero ; px:drone flying ; px:helicopter ; ¡El dron!
+## zona 4
+## nivel 1
+¿Cuál es un guante de invierno? ; Guante de lana ; Guante de béisbol ; px:wool mittens ; px:baseball glove ; ¡El guante de lana!
+¿Cuál es una bola de nieve? ; Bola de nieve ; Pelota de tenis ; px:snowball ; px:tennis ball ; ¡La bola de nieve!
+¿Cuál se congela? ; Agua ; Arena ; px:frozen water ice ; px:sand ; ¡El agua!
+## nivel 2
+¿Cuál es un carámbano? ; Carámbano ; Vela ; px:icicles ; px:candle ; ¡El carámbano!
+¿Cuál es un témpano de hielo? ; Iceberg ; Isla ; px:iceberg ; px:tropical island ; ¡El iceberg!
+## nivel 3
+¿A qué temperatura se congela el agua? ; 0 grados ; 10 grados ; px:thermometer cold ; px:thermometer warm ; ¡A cero grados!
+¿Qué parte de un iceberg se ve? ; Una pequeña parte ; Casi todo ; px:iceberg tip ; px:floating ice ; ¡Solo una pequeña parte!
+## zona 5
+## nivel 1
+¿Cuál es una galleta navideña? ; Galleta con forma de estrella ; Pan de molde ; px:christmas star cookies ; px:sliced bread ; ¡La galleta de estrella!
+¿Cuál es chocolate? ; Chocolate ; Queso ; px:chocolate pieces ; px:cheese block ; ¡El chocolate!
+¿Cuál es un pastel de Navidad? ; Tronco de Navidad ; Hamburguesa ; px:yule log cake ; px:hamburger ; ¡El tronco de Navidad!
+¿Cuál es una mandarina? ; Mandarina ; Tomate ; px:tangerine ; px:tomato ; ¡La mandarina!
+## nivel 2
+¿Cuál lleva el panetón? ; Pasas y frutas ; Atún ; px:raisins dried fruit ; px:canned tuna ; ¡Pasas y frutas!
+¿Cuál es un buñuelo? ; Buñuelo ; Pan francés ; px:bunuelos ; px:baguette ; ¡El buñuelo!
+¿Cuál es un pavo al horno? ; Pavo al horno ; Pollo a la brasa ; px:roast turkey ; px:rotisserie chicken ; ¡El pavo al horno!
+¿Cuál es leche con canela? ; Canela ; Pimienta ; px:cinnamon sticks ; px:black pepper ; ¡La canela!
+## nivel 3
+¿De qué se hace el chocolate? ; Cacao ; Café ; px:cocoa beans ; px:coffee beans ; ¡Del cacao!
+¿Cuál es un mazapán? ; Mazapán ; Gelatina ; px:marzipan ; px:jelly dessert ; ¡El mazapán!
+¿Cuál es una rosca de Reyes? ; Rosca de Reyes ; Dona ; px:rosca de reyes ; px:donut ; ¡La rosca de Reyes!
+## nivel 4
+¿Cuál es de Italia? ; Panetón ; Turrón ; px:panettone ; px:turron nougat ; ¡El panetón!
+## zona 6
+## nivel 1
+¿Cuál es un oso polar? ; Oso polar ; Oso pardo ; px:polar bear ; px:brown bear ; ¡El oso polar!
+¿Cuál es una foca? ; Foca ; Nutria ; px:seal animal ; px:otter ; ¡La foca!
+¿Cuál es un perro de trineo? ; Husky ; Chihuahua ; px:husky dog snow ; px:chihuahua ; ¡El husky!
+## nivel 2
+¿Cuál es un zorro ártico? ; Zorro ártico ; Zorro rojo ; px:arctic fox ; px:red fox ; ¡El zorro ártico!
+¿Cuál es una liebre ártica? ; Liebre blanca ; Conejo café ; px:arctic hare ; px:brown rabbit ; ¡La liebre blanca!
+¿Cuál es un buey almizclero? ; Buey almizclero ; Bisonte ; px:muskox ; px:bison ; ¡El buey almizclero!
+## nivel 3
+¿Cuál es una beluga? ; Beluga ; Delfín ; px:beluga whale ; px:dolphin ; ¡La beluga!
+¿Cuál es un lobo ártico? ; Lobo blanco ; Coyote ; px:arctic wolf ; px:coyote ; ¡El lobo blanco!
+## zona 7
+## nivel 2
+¿Cuál es un nevado? ; Huascarán ; Morro Solar ; cm:Huascaran|Huascar ; cm:Morro Solar|Morro ; ¡El Huascarán!
+¿Cuál es un glaciar? ; Glaciar ; Duna ; px:glacier ; px:sand dune ; ¡El glaciar!
+¿Cuál tiene nieve todo el año? ; Cumbre del Everest ; Playa de Máncora ; px:everest summit ; px:tropical beach ; ¡La cumbre del Everest!
+## nivel 3
+¿Cuál es el volcán más alto del mundo? ; Ojos del Salado ; Misti ; cm:Ojos del Salado|Ojos del Salado ; cm:Misti volcano|Misti ; ¡El Ojos del Salado!
+¿Cuál es la montaña más alta del Perú? ; Huascarán ; Misti ; cm:Huascaran|Huascar ; cm:Misti volcano|Misti ; ¡El Huascarán!
+## zona 8
+## nivel 2
+¿Cuál es la bandera de Alemania? ; Alemania ; Bélgica ; flag:de ; flag:be ; ¡Alemania!
+¿Cuál es la bandera de México? ; México ; Italia ; flag:mx ; flag:it ; ¡México!
+¿Cuál es la bandera de Brasil? ; Brasil ; Portugal ; flag:br ; flag:pt ; ¡Brasil!
+¿Cuál es la bandera de Finlandia? ; Finlandia ; Suecia ; flag:fi ; flag:se ; ¡Finlandia! Ahí vive Papá Noel.
+## nivel 3
+¿Cuál es la bandera de Noruega? ; Noruega ; Dinamarca ; flag:no ; flag:dk ; ¡Noruega!
+¿Cuál es la bandera de Australia? ; Australia ; Nueva Zelanda ; flag:au ; flag:nz ; ¡Australia!
+¿Cuál es la bandera de Colombia? ; Colombia ; Ecuador ; flag:co ; flag:ec ; ¡Colombia!
+¿Cuál es la bandera de Islandia? ; Islandia ; Noruega ; flag:is ; flag:no ; ¡Islandia!
+## nivel 4
+¿Cuál es la bandera de Groenlandia? ; Groenlandia ; Polonia ; flag:gl ; flag:pl ; ¡Groenlandia!
+¿Cuál es la bandera de Rumania? ; Rumania ; Chad ; flag:ro ; flag:td ; ¡Rumania! Casi igual a la de Chad.
+## zona 9
+## nivel 1
+¿Cuál brilla de noche en el cielo? ; Estrellas ; Nubes ; px:starry night sky ; px:white clouds ; ¡Las estrellas!
+¿Cuál es un astronauta? ; Astronauta ; Buzo ; px:astronaut ; px:scuba diver ; ¡El astronauta!
+¿Cuál es una estrella fugaz? ; Estrella fugaz ; Avión ; px:shooting star ; px:airplane night ; ¡La estrella fugaz!
+¿Cuál es la Tierra? ; Planeta azul ; Planeta rojo ; px:earth from space ; px:planet mars ; ¡El planeta azul!
+## nivel 2
+¿Cuál es un telescopio? ; Telescopio ; Lupa ; px:telescope ; px:magnifying glass ; ¡El telescopio!
+¿Cuál es una luna creciente? ; Luna en forma de C ; Luna llena ; px:crescent moon ; px:full moon ; ¡La luna en forma de C!
+¿Cuál es una nave espacial? ; Transbordador ; Avioneta ; px:space shuttle ; px:small airplane ; ¡El transbordador!
+¿Cuál es una constelación? ; Estrellas unidas ; Nubes juntas ; px:constellation ; px:clouds ; ¡Las estrellas unidas!
+## nivel 3
+¿Cuál es el planeta más grande? ; Júpiter ; Neptuno ; px:planet jupiter ; cm:Neptune Voyager|Neptune ; ¡Júpiter!
+¿Cuál pisó primero la Luna? ; Neil Armstrong ; Yuri Gagarin ; cm:Neil Armstrong portrait|Armstrong ; cm:Yuri Gagarin portrait|Gagarin ; ¡Neil Armstrong!
+¿Cuál es la Estación Espacial? ; Estación Espacial ; Satélite pequeño ; px:international space station ; px:satellite ; ¡La Estación Espacial!
+¿Cuál es una nebulosa? ; Nube de colores ; Arcoíris ; px:nebula ; px:rainbow ; ¡La nube de colores!
+## nivel 4
+¿Cuál fue el primer hombre en el espacio? ; Yuri Gagarin ; Neil Armstrong ; cm:Yuri Gagarin portrait|Gagarin ; cm:Neil Armstrong portrait|Armstrong ; ¡Yuri Gagarin!
+¿Cuál es la estrella más cercana? ; El Sol ; Sirio ; px:sun ; px:bright star night ; ¡El Sol!
+¿Cuál es el planeta más frío? ; Urano ; Marte ; cm:Uranus Voyager|Uranus ; px:planet mars ; ¡Urano!
+¿Cuál es Plutón? ; Planeta enano ; Estrella ; cm:Pluto New Horizons|Pluto ; px:bright star ; ¡Un planeta enano!

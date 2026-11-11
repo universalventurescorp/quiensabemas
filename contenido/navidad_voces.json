@@ -22,19 +22,19 @@
   "an_zona_2": [
    "anunciador",
    [
-    "¡Zona dos: el taller de Papá Noel! Preguntas de juguetes, inventos y ciencia."
+    "¡Zona dos: el taller de Papá Noel! Juguetes, inventos, ciencia y deportes."
    ]
   ],
   "an_zona_3": [
    "anunciador",
    [
-    "¡Zona tres: el bosque nevado! Animales del bosque y árboles."
+    "¡Zona tres: el bosque nevado! Animales y naturaleza."
    ]
   ],
   "an_zona_4": [
    "anunciador",
    [
-    "¡Zona cuatro: el lago congelado! Preguntas de frío, hielo y agua."
+    "¡Zona cuatro: el lago congelado! Frío, hielo, agua y animales del mar."
    ]
   ],
   "an_zona_5": [
@@ -58,7 +58,7 @@
   "an_zona_8": [
    "anunciador",
    [
-    "¡Zona ocho: sobre los tejados! Papá Noel visita este país. ¿Lo reconoces?"
+    "¡Zona ocho: sobre los tejados! Papá Noel visita el mundo: países, banderas y lugares."
    ]
   ],
   "an_zona_9": [
@@ -83,6 +83,24 @@
    "anunciador",
    [
     "¡A correr otra vez!"
+   ]
+  ],
+  "an_patines": [
+   "anunciador",
+   [
+    "¡A patinar sobre el lago congelado!"
+   ]
+  ],
+  "an_reno": [
+   "anunciador",
+   [
+    "¡Un reno gigante! ¡Súbanse!"
+   ]
+  ],
+  "an_trineo_madera": [
+   "anunciador",
+   [
+    "¡Al trineo! ¡Cuesta abajo por el bosque!"
    ]
   ]
  }
