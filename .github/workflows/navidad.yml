@@ -52,17 +52,145 @@ jobs:
           pip install -q torch torchvision --index-url https://download.pytorch.org/whl/cpu
           pip install -q open_clip_torch
           python scripts/fotos_opciones.py trabajo/episodio.json - trabajo/opciones --hoja trabajo/hoja_fotos.jpg --revision trabajo/revision
-      - name: Claude revisa cada foto
+      - name: Guardar las fotos antes de revisar (por si algo falla después)
+        if: always() && hashFiles('trabajo/revision/indice.json') != ''
+        uses: actions/upload-artifact@v4
+        with: { name: fotos-sin-revisar, path: trabajo, retention-days: 7 }
+      - name: Claude revisa las fotos 1-70
         if: hashFiles('trabajo/revision/indice.json') != ''
         continue-on-error: true
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          prompt: Lee y sigue al pie de la letra las instrucciones de prompts/revisor_fotos.md. En este episodio cada imagen tiene solo 2 fotos (izquierda y derecha); en preguntas de comparación («¿cuál pesa más?») las fotos solo deben mostrar bien cada cosa.
+          prompt: >-
+            Lee y sigue al pie de la letra las instrucciones de prompts/revisor_fotos.md, pero revisa SOLO las imágenes
+            p001.jpg a p070.jpg que existan en trabajo/revision/ (salta las que no existan) y escribe tu veredicto en
+            trabajo/revision/veredicto_001.json (no en veredicto.json). Escribe ese archivo cada 20 imágenes con todo lo
+            revisado hasta ese momento, para no perder trabajo. En este episodio cada imagen tiene solo 2 fotos (izquierda y
+            derecha); en preguntas de comparación («¿cuál pesa más?») las fotos solo deben mostrar bien cada cosa.
           claude_args: >-
             --model sonnet
-            --max-turns 400
+            --max-turns 250
+            --allowedTools "Read,Write,Glob"
+      - name: Claude revisa las fotos 71-140
+        if: hashFiles('trabajo/revision/indice.json') != ''
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: >-
+            Lee y sigue al pie de la letra las instrucciones de prompts/revisor_fotos.md, pero revisa SOLO las imágenes
+            p071.jpg a p140.jpg que existan en trabajo/revision/ (salta las que no existan) y escribe tu veredicto en
+            trabajo/revision/veredicto_071.json (no en veredicto.json). Escribe ese archivo cada 20 imágenes con todo lo
+            revisado hasta ese momento, para no perder trabajo. En este episodio cada imagen tiene solo 2 fotos (izquierda y
+            derecha); en preguntas de comparación («¿cuál pesa más?») las fotos solo deben mostrar bien cada cosa.
+          claude_args: >-
+            --model sonnet
+            --max-turns 250
+            --allowedTools "Read,Write,Glob"
+      - name: Claude revisa las fotos 141-210
+        if: hashFiles('trabajo/revision/indice.json') != ''
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: >-
+            Lee y sigue al pie de la letra las instrucciones de prompts/revisor_fotos.md, pero revisa SOLO las imágenes
+            p141.jpg a p210.jpg que existan en trabajo/revision/ (salta las que no existan) y escribe tu veredicto en
+            trabajo/revision/veredicto_141.json (no en veredicto.json). Escribe ese archivo cada 20 imágenes con todo lo
+            revisado hasta ese momento, para no perder trabajo. En este episodio cada imagen tiene solo 2 fotos (izquierda y
+            derecha); en preguntas de comparación («¿cuál pesa más?») las fotos solo deben mostrar bien cada cosa.
+          claude_args: >-
+            --model sonnet
+            --max-turns 250
+            --allowedTools "Read,Write,Glob"
+      - name: Claude revisa las fotos 211-280
+        if: hashFiles('trabajo/revision/indice.json') != ''
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: >-
+            Lee y sigue al pie de la letra las instrucciones de prompts/revisor_fotos.md, pero revisa SOLO las imágenes
+            p211.jpg a p280.jpg que existan en trabajo/revision/ (salta las que no existan) y escribe tu veredicto en
+            trabajo/revision/veredicto_211.json (no en veredicto.json). Escribe ese archivo cada 20 imágenes con todo lo
+            revisado hasta ese momento, para no perder trabajo. En este episodio cada imagen tiene solo 2 fotos (izquierda y
+            derecha); en preguntas de comparación («¿cuál pesa más?») las fotos solo deben mostrar bien cada cosa.
+          claude_args: >-
+            --model sonnet
+            --max-turns 250
+            --allowedTools "Read,Write,Glob"
+      - name: Claude revisa las fotos 281-350
+        if: hashFiles('trabajo/revision/indice.json') != ''
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: >-
+            Lee y sigue al pie de la letra las instrucciones de prompts/revisor_fotos.md, pero revisa SOLO las imágenes
+            p281.jpg a p350.jpg que existan en trabajo/revision/ (salta las que no existan) y escribe tu veredicto en
+            trabajo/revision/veredicto_281.json (no en veredicto.json). Escribe ese archivo cada 20 imágenes con todo lo
+            revisado hasta ese momento, para no perder trabajo. En este episodio cada imagen tiene solo 2 fotos (izquierda y
+            derecha); en preguntas de comparación («¿cuál pesa más?») las fotos solo deben mostrar bien cada cosa.
+          claude_args: >-
+            --model sonnet
+            --max-turns 250
+            --allowedTools "Read,Write,Glob"
+      - name: Claude revisa las fotos 351-420
+        if: hashFiles('trabajo/revision/indice.json') != ''
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: >-
+            Lee y sigue al pie de la letra las instrucciones de prompts/revisor_fotos.md, pero revisa SOLO las imágenes
+            p351.jpg a p420.jpg que existan en trabajo/revision/ (salta las que no existan) y escribe tu veredicto en
+            trabajo/revision/veredicto_351.json (no en veredicto.json). Escribe ese archivo cada 20 imágenes con todo lo
+            revisado hasta ese momento, para no perder trabajo. En este episodio cada imagen tiene solo 2 fotos (izquierda y
+            derecha); en preguntas de comparación («¿cuál pesa más?») las fotos solo deben mostrar bien cada cosa.
+          claude_args: >-
+            --model sonnet
+            --max-turns 250
+            --allowedTools "Read,Write,Glob"
+      - name: Claude revisa las fotos 421-490
+        if: hashFiles('trabajo/revision/indice.json') != ''
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: >-
+            Lee y sigue al pie de la letra las instrucciones de prompts/revisor_fotos.md, pero revisa SOLO las imágenes
+            p421.jpg a p490.jpg que existan en trabajo/revision/ (salta las que no existan) y escribe tu veredicto en
+            trabajo/revision/veredicto_421.json (no en veredicto.json). Escribe ese archivo cada 20 imágenes con todo lo
+            revisado hasta ese momento, para no perder trabajo. En este episodio cada imagen tiene solo 2 fotos (izquierda y
+            derecha); en preguntas de comparación («¿cuál pesa más?») las fotos solo deben mostrar bien cada cosa.
+          claude_args: >-
+            --model sonnet
+            --max-turns 250
+            --allowedTools "Read,Write,Glob"
+      - name: Claude revisa las fotos 491-600
+        if: hashFiles('trabajo/revision/indice.json') != ''
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: >-
+            Lee y sigue al pie de la letra las instrucciones de prompts/revisor_fotos.md, pero revisa SOLO las imágenes
+            p491.jpg a p600.jpg que existan en trabajo/revision/ (salta las que no existan) y escribe tu veredicto en
+            trabajo/revision/veredicto_491.json (no en veredicto.json). Escribe ese archivo cada 20 imágenes con todo lo
+            revisado hasta ese momento, para no perder trabajo. En este episodio cada imagen tiene solo 2 fotos (izquierda y
+            derecha); en preguntas de comparación («¿cuál pesa más?») las fotos solo deben mostrar bien cada cosa.
+          claude_args: >-
+            --model sonnet
+            --max-turns 250
             --allowedTools "Read,Write,Glob"
       - name: Aplicar la revisión y descartar preguntas sin fotos
         run: |

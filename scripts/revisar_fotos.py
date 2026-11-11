@@ -10,10 +10,13 @@ import json, os, sys
 
 def main(ep_path, rev):
     ep = json.load(open(ep_path, encoding='utf-8'))
-    vf = os.path.join(rev, 'veredicto.json')
-    try: ver = json.load(open(vf, encoding='utf-8'))
-    except Exception as e:
-        print('::warning::Sin veredicto de la revisión de fotos (', e, '): el episodio sale con alternativas de texto'); ver = {}
+    # veredicto.json o varios veredicto_###.json (la revisión se hace por partes cuando hay muchas preguntas)
+    import glob
+    ver = {}
+    for vf in sorted(glob.glob(os.path.join(rev, 'veredicto*.json'))):
+        try: ver.update(json.load(open(vf, encoding='utf-8'))); print('veredicto:', os.path.basename(vf))
+        except Exception as e: print('::warning::veredicto ilegible', vf, e)
+    if not ver: print('::warning::Sin veredicto de la revisión de fotos: el episodio sale con alternativas de texto')
     ok_n = malas = 0
     for q in ep['preguntas']:
         if not q.get('o_img'): continue
