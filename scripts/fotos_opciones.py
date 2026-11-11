@@ -169,15 +169,18 @@ def main():
             fn = f"p{q['n']:03d}.jpg"; img.save(os.path.join(rev, fn), quality=85)
             ind[str(q['n'])] = {'archivo': fn, 'pregunta': q['p'], 'alternativas': q['o'], 'busquedas': [c.get('q') or c.get('flag') for c in cons[str(q['n'])]]}
         json.dump(ind, open(os.path.join(rev, 'indice.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-    if hoja and hojas:   # hoja de contacto para revisar
-        cw, ch = 220, 150; img = Image.new('RGB', (cw * 4 + 260, ch * len(hojas)), (20, 14, 50)); d = ImageDraw.Draw(img)
-        for r, (q, fs) in enumerate(hojas):
-            d.text((8, r * ch + 8), f"P{q['n']}", fill=(255, 200, 40))
-            for i, f in enumerate(fs):
-                t = Image.open(f).convert('RGB'); t.thumbnail((cw - 8, ch - 30)); img.paste(t, (260 + i * cw, r * ch + 4))
-                d.text((260 + i * cw, r * ch + ch - 22), q['o'][i][:28], fill=(255, 255, 255))
-            d.text((8, r * ch + 30), q['p'][:34], fill=(200, 200, 220))
-        img.save(hoja, quality=80)
+    if hoja and hojas:   # hoja de contacto para revisar (en partes de 300 filas: un JPG no puede pasar de 65 535 px de alto)
+        cw, ch, POR = 220, 150, 300
+        for k in range(0, len(hojas), POR):
+            parte = hojas[k:k + POR]
+            img = Image.new('RGB', (cw * 4 + 260, ch * len(parte)), (20, 14, 50)); d = ImageDraw.Draw(img)
+            for r, (q, fs) in enumerate(parte):
+                d.text((8, r * ch + 8), f"P{q['n']}", fill=(255, 200, 40))
+                for i, f in enumerate(fs):
+                    t = Image.open(f).convert('RGB'); t.thumbnail((cw - 8, ch - 30)); img.paste(t, (260 + i * cw, r * ch + 4))
+                    d.text((260 + i * cw, r * ch + ch - 22), q['o'][i][:28], fill=(255, 255, 255))
+                d.text((8, r * ch + 30), q['p'][:34], fill=(200, 200, 220))
+            img.save(hoja if k == 0 else hoja.replace('.jpg', f'_{k // POR + 1}.jpg'), quality=80)
 
 
 if __name__ == '__main__':
