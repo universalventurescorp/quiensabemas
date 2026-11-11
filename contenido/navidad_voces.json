@@ -102,6 +102,120 @@
    [
     "¡Al trineo! ¡Cuesta abajo por el bosque!"
    ]
+  ],
+  "an_nav_intro2": [
+   "anunciador",
+   [
+    "¡Hoy vamos a criar un dragón de Navidad! Cada respuesta correcta lo hace crecer. ¿Llegará a tirar del trineo de Papá Noel? ¡Vamos!"
+   ]
+  ],
+  "an_drag_2": [
+   "anunciador",
+   [
+    "¡El dragón creció! ¡Le crecieron las alas!"
+   ]
+  ],
+  "an_drag_3": [
+   "anunciador",
+   [
+    "¡Miren! ¡Le salieron cuernitos!"
+   ]
+  ],
+  "an_drag_4": [
+   "anunciador",
+   [
+    "¡Ya es un dragón joven!"
+   ]
+  ],
+  "an_drag_5": [
+   "anunciador",
+   [
+    "¡Se enrolló luces de Navidad! ¡Qué bonito!"
+   ]
+  ],
+  "an_drag_6": [
+   "anunciador",
+   [
+    "¡Nuevo poder! ¡Ahora echa fuego!"
+   ]
+  ],
+  "an_drag_7": [
+   "anunciador",
+   [
+    "¡Wow! ¡El dragón ya es adulto!"
+   ]
+  ],
+  "an_drag_8": [
+   "anunciador",
+   [
+    "¡Tiene armadura dorada!"
+   ]
+  ],
+  "an_drag_9": [
+   "anunciador",
+   [
+    "¡Le salieron alas de hielo!"
+   ]
+  ],
+  "an_drag_10": [
+   "anunciador",
+   [
+    "¡Nuevo poder! ¡Ahora hace piruetas en el aire!"
+   ]
+  ],
+  "an_drag_11": [
+   "anunciador",
+   [
+    "¡Una corona de estrellas para el dragón!"
+   ]
+  ],
+  "an_drag_12": [
+   "anunciador",
+   [
+    "¡Súbanse! ¡El dragón nos lleva volando!"
+   ]
+  ],
+  "an_drag_13": [
+   "anunciador",
+   [
+    "¡Brilla como una estrella de Navidad!"
+   ]
+  ],
+  "an_drag_14": [
+   "anunciador",
+   [
+    "¡Nivel máximo! ¡El dragón tira del trineo de Papá Noel!"
+   ]
+  ],
+  "an_pinguino": [
+   "anunciador",
+   [
+    "¡Un pingüino gigante! ¡A deslizarse de panza!"
+   ]
+  ],
+  "an_oso": [
+   "anunciador",
+   [
+    "¡Un oso polar nos lleva! ¡Agárrense!"
+   ]
+  ],
+  "an_snowboard": [
+   "anunciador",
+   [
+    "¡A la tabla de nieve! ¡Cuesta abajo!"
+   ]
+  ],
+  "an_tren": [
+   "anunciador",
+   [
+    "¡Todos al tren de Navidad! ¡Chu chu!"
+   ]
+  ],
+  "an_montados": [
+   "anunciador",
+   [
+    "¡Arriba del dragón! ¡A volar!"
+   ]
   ]
  }
 }

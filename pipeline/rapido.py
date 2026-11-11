@@ -763,6 +763,12 @@ class Show:
         cm = carpeta_musica(RAIZ)
         if not cm or os.environ.get('QSM_SIN_MUSICA'): print('Sin música (falta assets/musica)'); return mix
         M = MusicaArchivos(cm, s.sem); L = len(M.lista); n = len(mix)
+        if os.environ.get('QSM_MUSICA_ALEGRE'):   # Luis (11-nov): que arranque alegre → empezar en el tramo más movido
+            x = M.lista; hop = int(0.05 * SR); nf = len(x) // hop
+            e = np.sqrt((x[:nf * hop].reshape(nf, hop) ** 2).mean(1)); dx = np.abs(np.diff(x[:nf * hop + 1])).reshape(nf, hop).mean(1)
+            fl = np.maximum(0, np.diff(e, prepend=e[0])); w = int(15 / 0.05)
+            sc = np.convolve(fl, np.ones(w), 'valid') * np.convolve(dx / (e + 1e-4), np.ones(w), 'valid') ** 0.5
+            M.ini = int(np.argmax(sc)) * hop; print(f'Música: arranca en {M.ini / SR / 60:.1f} min de la lista (tramo más movido)')
         out = np.zeros(n, np.float32); pos = float(M.ini); X = int(0.04 * SR)
         tramos = s.tempos + [(s.t, 1.0)]
         tmp = '/tmp/qsm_mus.f32'

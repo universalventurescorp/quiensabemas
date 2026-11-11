@@ -272,8 +272,8 @@ class Ciudad(R0.Show):
             s.son('whoosh', t_abre, 0.9)
             tipo = s.ev.get(str(idx))
             ini = t_abre + Rt.pausa(0.2)
-            if tipo == 'tunel': ini = s.decir('an_tunel', t_abre + 0.1) + 0.05
-            if tipo == 'curvas': ini = s.decir('an_curvas', t_abre + 0.1) + 0.05
+            if tipo == 'tunel' and s.habla_ev(idx): ini = s.decir('an_tunel', t_abre + 0.1) + 0.05
+            if tipo == 'curvas' and s.habla_ev(idx): ini = s.decir('an_curvas', t_abre + 0.1) + 0.05
             if modo == 'relampago':   # no se lee: solo la banda de la pregunta
                 fin_p = t_abre + lleg + 0.35 + 0.5 * (1 - (Rt.p - 0.85) / 0.15)
                 if q.get('tp'): s.subs.agregar(t_abre + 0.05, np.ones(8, int), 'anunciador', q['tp'], '')
@@ -281,7 +281,7 @@ class Ciudad(R0.Show):
                 fin_p = s.decir(f'q{n:02d}_pregunta', max(ini, t_abre + lleg * 0.6), q['tp'])
             tc = fin_p + Rt.pausa(0.1); dc = {'normal': Rt.cuenta, 'rapido': 1.0, 'relampago': 0.45}[modo]
             if tipo == 'bajada':   # en la cuenta empieza la caída: todo (puertas incluidas) se va para abajo
-                f = s.decir('an_bajada', fin_p + 0.05); tc = f + 0.05; dc = max(dc, 2.0)
+                f = s.decir('an_bajada', fin_p + 0.05) if s.habla_ev(idx) else fin_p + 0.1; tc = f + 0.05; dc = max(dc, 2.0)
                 s.feat.append((t_abre, tc, 'cima', None)); s.feat.append((tc, tc + dc + 0.6, 'caida', None))
                 s.audio.append((tc + 0.1, s.S['viento'])); s.decir('pr_grito', tc + 0.3); s.decir('co_grito', tc + 1.1)
             for k in range(3): s.son('tick_hi' if k == 2 else 'tick', tc + k * dc / 3, 0.9)
@@ -323,7 +323,8 @@ class Ciudad(R0.Show):
                 elif idx < 2 or reacciones % 3 == 0:
                     fin = s.decir('an_equipo', fin) + 0.1
             s.esc.append((t_abre, fin, ('pregunta', idx, dict(lleg=lleg, tc=tc, dc=dc, tt=tt, t_m=t_m, t_n=t_n, tr=tr, tch=tch, ap=ap, modo=modo, vuelo=vuelo))))
-            if tipo in ('tunel', 'curvas', 'colinas'): s.feat.append((t_abre, fin, tipo, None))
+            if tipo in ('tunel', 'curvas', 'colinas', 'curvas2', 'subida', 'zigzag'): s.feat.append((t_abre, fin, tipo, None))
+            s.despues_pregunta(idx, t_abre, fin, tc)
             s.tiempos.append({'n': n, 'abre': round(t_abre, 2), 'reloj': round(tc, 2), 'cierra': round(tt, 2)})
             s.t = fin
         # final: todo el equipo
@@ -345,6 +346,26 @@ class Ciudad(R0.Show):
 
     def antes_pregunta(s, idx):
         pass
+
+    def despues_pregunta(s, idx, t_abre, fin, tc):
+        pass
+
+    puerta_limita = True
+    def puerta_z(s, t, esc, Pq, a):
+        """Distancia de las puertas: llegan, esperan mientras se lee y salen disparadas al choque."""
+        tr, tch = Pq['tr'], Pq['tch']; lt = t - esc[0]
+        if t < tr: return ZHOLD + (26000 - ZHOLD) * (1 - ease_out(clamp(lt / max(0.05, Pq['lleg']))))
+        return ZHOLD - (ZHOLD - ZRUN) * clamp((t - tr) / Pq['vuelo']) ** 1.6 - max(0, t - tch) * 3600 * a
+
+    def puerta_xy(s, z, i, idx, t, Pq):
+        return s.en_s(z, (-PX if i == 0 else PX), 0)
+
+    def puerta_tam(s, idx, i):
+        return 1.0
+
+    def habla_ev(s, idx):
+        """¿El anunciador presenta el rasgo de la pista de esta pregunta? (navidad.py: solo a veces)"""
+        return True
 
     def dragon_en(s, t):
         v = 'huevo'
@@ -380,6 +401,9 @@ class Ciudad(R0.Show):
             if tipo == 'cima': P.suave(a + (b - a) * 0.15, b + 6, 2600)
             elif tipo == 'caida': P.caida(a + 6, b + 10, 9000)
             elif tipo == 'curvas': P.curvas(a, b + 25, 5.5)
+            elif tipo == 'curvas2': P.curvas(a, b + 25, 9.0)
+            elif tipo == 'zigzag': P.curvas(a, (a + b) / 2 + 10, 8.0); P.curvas((a + b) / 2 + 10, b + 25, -8.0)
+            elif tipo == 'subida': P.suave(a, b + 20, 5200)
             elif tipo == 'colinas':
                 k = np.arange(int(a), min(int(b) + 30, P.n)); P.y[k] += 1600 * np.sin((k - a) / 9.0) ** 2
             elif tipo == 'tunel': P.tunel[int(a) + 8:int(b) + 22] = True
@@ -562,7 +586,7 @@ class Ciudad(R0.Show):
             v = veh if veh in ('dragon', 'carrito', 'pato') else 'dragon'
             u = clamp((t - s.veh_desde(t)) / 0.45)   # aparece con un salto («pop»)
             x = (xm + xn) / 2; ang = (xm + xn - 1920) / 1920 * 14
-            y = 1140 + 14 * math.sin(t * (3.2 if v == 'dragon' else 5)) + extra.get('dy', 0) + 500 * (1 - ease_back(u))
+            y = 1140 + 14 * math.sin(t * (3.2 if v == 'dragon' else 5)) + extra.get('dy', 0) + 500 * (1 - ease_back(u)) - 240 * math.sin(math.pi * clamp(extra.get('salto', 0)))
             im = V[v]
             if v == 'dragon':   # aleteo: las alas suben y bajan (se estira un poco a lo ancho y a lo alto)
                 a = math.sin(t * 4.5); im = im.resize((int(im.width * (1 + 0.04 * a)), int(im.height * (1 - 0.025 * a))), Image.BILINEAR)
@@ -631,9 +655,7 @@ class Ciudad(R0.Show):
                 else: xn = 1230 + (dest - 1230 + (0 if lado == 1 else 40)) * u
             puertas = s.puertas_de(idx, q)
             # distancia de las puertas
-            lt = t - esc[0]
-            if t < tr: z = ZHOLD + (26000 - ZHOLD) * (1 - ease_out(clamp(lt / max(0.05, Pq['lleg']))))
-            else: z = ZHOLD - (ZHOLD - ZRUN) * clamp((t - tr) / Pq['vuelo']) ** 1.6 - max(0, t - tch) * 3600 * a
+            z = s.puerta_z(t, esc, Pq, a)
             en_nave = s.nave_desde is not None and t >= s.nave_desde
             if en_nave:
                 cen = (590 if ap['presentador'] == 0 else 1330) * 0.5 + (590 if ap['copresentadora'] == 0 else 1330) * 0.5
@@ -643,10 +665,10 @@ class Ciudad(R0.Show):
                 for i in (0, 1):
                     ok = i == q['c']
                     if t >= tch and ok: continue       # la correcta ya reventó
-                    cx, cy, sc = s.en_s(z, (-PX if i == 0 else PX), 0)
-                    wpx = sc * PUERTA_W * PW
+                    cx, cy, sc = s.puerta_xy(z, i, idx, t, Pq)
+                    wpx = sc * PUERTA_W * PW * s.puerta_tam(idx, i)
                     im = puertas[i].escala(wpx)
-                    if t < tr: cy = min(max(cy, 230 + im.height), 790)
+                    if t < tr and s.puerta_limita: cy = min(max(cy, 230 + im.height), 790)
                     item = (cx, cy, im, i, ok, sc)
                     (frente if z < ZRUN + 60 else s._atras_lista(t)).append(item)
             s._ctx = dict(q=q, Pq=Pq, t=t, en_nave=en_nave, z=z)
