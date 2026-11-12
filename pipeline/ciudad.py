@@ -224,6 +224,7 @@ class Ciudad(R0.Show):
         for idx, q in enumerate(Q):
             Rt.p = idx / max(1, N - 1); n = q['n']
             modo = 'relampago' if Rt.p > 0.85 else 'rapido' if Rt.p > 0.6 else 'normal'
+            if s.agil and modo == 'relampago': modo = 'rapido'   # navidad (Luis): siempre se leen pregunta y respuesta
             # ---- eventos ENTRE preguntas
             s.antes_pregunta(idx)          # gancho (navidad.py: cartel de zona)
             ev = s.ev.get(f'antes_{idx}')
