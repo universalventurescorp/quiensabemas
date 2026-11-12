@@ -211,7 +211,7 @@ def anim_img(nombre, alto, t, vel=1.0):
     return _ANIM[k]
 
 
-DE_LADO = {'oso', 'pinguino', 'reno'}   # animaciones de perfil o lado a lado
+DE_LADO = {'reno'}   # reno: aún lado a lado (oso y pingüino ya vistos desde atrás, 11-nov)
 def veh_ok(v):
     """¿Hay imagen o animación para este vehículo? (los nuevos de Flow pueden faltar todavía)"""
     if v in DE_LADO: return False     # Luis: nada corre de costado; vuelven cuando haya clip visto desde atrás
@@ -773,10 +773,16 @@ class Navidad(Ciudad):
         v0 = s.vehiculo_en(t)
         libres = not any(k in extra for k in ('salto', 'cae', 'ocultar', 'dy')) and not extra.get('flota') and \
                  not any(extra.get(k) is not None for k in ('plaf_presentador', 'plaf_copresentadora'))
-        if v0 == 'corre' and libres and abs(xm - 690) < 3 and abs(xn - 1230) < 3 and not (s.hablando(t, 'presentador') or s.hablando(t, 'copresentadora')):
-            im = anim_img('corren', 600, t)    # MAX y NOVA corriendo de verdad (clip de Flow)
-            if im is not None:
-                fr.paste(im, (int(960 - im.width / 2), int(H + 30 - im.height)), im); return
+        sin_caer = not any(k in extra for k in ('cae', 'ocultar')) and \
+                   not any(extra.get(k) is not None for k in ('plaf_presentador', 'plaf_copresentadora'))
+        if v0 == 'corre' and sin_caer:
+            im = anim_img('corren', 600, t)    # MAX y NOVA siempre corriendo de verdad (clip de Flow, vistos de espaldas)
+            if im is not None:   # el clip trae a los dos: mitad izquierda MAX, derecha NOVA, cada uno en su carril
+                sube = 230 * extra.get('alto', 1) * math.sin(math.pi * clamp(extra.get('salto', 0))) - extra.get('dy', 0)
+                mx = im.width // 2
+                for half, x in ((im.crop((0, 0, mx, im.height)), xm), (im.crop((mx, 0, im.width, im.height)), xn)):
+                    fr.paste(half, (int(x - half.width / 2), int(H + 30 - im.height - sube)), half)
+                return
         if not hasattr(c, '_nav'):
             A = R0.Corredores.ALTO
             m = nav_img('max_gorro', A); n = nav_img('nova_gorro', A)
