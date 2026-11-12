@@ -211,8 +211,10 @@ def anim_img(nombre, alto, t, vel=1.0):
     return _ANIM[k]
 
 
+DE_LADO = {'oso', 'pinguino', 'reno'}   # animaciones de perfil o lado a lado
 def veh_ok(v):
     """¿Hay imagen o animación para este vehículo? (los nuevos de Flow pueden faltar todavía)"""
+    if v in DE_LADO: return False     # Luis: nada corre de costado; vuelven cuando haya clip visto desde atrás
     return v in ('corre', 'patineta') or os.path.exists(os.path.join(D, v + '.png')) or anim_n(v) > 0
 
 
