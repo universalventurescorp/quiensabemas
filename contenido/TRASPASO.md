@@ -73,3 +73,12 @@ Luis rechazó la v1 (tx6klgb0Zhc, NO publicar). La v2 (commit 214cd4a, run 43061
 
 ### Pendiente de animación
 - Montados en fila (uno detrás del otro): reno, oso y pingüino vistos de atrás o 3/4; snowboard y tren animados; etapas del dragón en más resolución.
+
+### Clips de Flow hechos el 11-nov (noche) — cuenta leaveapositivelegacy (créditos agotados hasta el 20-nov)
+- Hechos y en assets/navidad/anim/: corren (de espaldas, nuca de MAX), oso y pinguino (de espaldas, en fila), dragon_e02, dragon_e03, dragon_e05, dragon_e06.
+- Imágenes de inicio YA generadas en el proyecto «¿Quién Sabe Más?» (gratis, Nano Banana) para animar: etapas e08 (armadura), e09 (alas de hielo), e10 (capa roja), e11 (corona de estrellas), e12 (MAX y NOVA montados en el dragón), e13 (brilla), reno de espaldas en fila, snowboard de espaldas, tren de espaldas.
+- Falta animarlas (9 créditos c/u) con las cuentas gratuitas de 50 diarios: universalventures.corp (abierta en el navegador de Claude), equipo.ia.lab y tus100metas (abiertas solo en el Chrome de Luis, no en el navegador de Claude).
+- Esas cuentas no ven el proyecto: hay que bajar las imágenes de inicio (botón descargar → .tmp en Descargas → device_stage_files), subirlas al repo y cargarlas en su Flow.
+- Pendiente también: salto, caída y celebración de MAX y NOVA; patines y trineo de madera de espaldas.
+- Descargas: el botón «descargar → 720p» del editor de Flow deja un .tmp en C:\Users\Lenovo\Downloads (ojo: puede quedar abierta una ventana «Guardar como»).
+- clip_verde.py: corren/oso alto 600, pingüino 520, dragón 640.
