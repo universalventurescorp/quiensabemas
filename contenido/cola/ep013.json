@@ -1,0 +1,24 @@
+{
+ "id": "ep013",
+ "fecha": "2026-11-17",
+ "formato": "normal",
+ "estado": "en_proceso",
+ "codigo_sala": "MITOS",
+ "titulo": "Mitos y verdades: ¿lo sabías de verdad?",
+ "titulo_youtube": "¿Mito o verdad? 100 preguntas de cultura general para jugar en familia | ¿Quién Sabe Más?",
+ "descripcion": "Cien preguntas para jugar en familia frente a la tele, con datos que creías saber y mitos famosos que te van a sorprender. Con imágenes misteriosas, verdadero o falso y una ronda relámpago. ¿Cuántos mitos descubres? ¡Cuéntanos tu puntaje en los comentarios!",
+ "tags": [
+  "mitos",
+  "curiosidades",
+  "cultura general",
+  "trivia en familia",
+  "preguntas y respuestas",
+  "juego para la tele"
+ ],
+ "tema_miniatura": "MITOS Y VERDADES",
+ "reto_miniatura": "¿Te lo creías?",
+ "objetivo_preguntas": 100,
+ "total_anunciado": 100,
+ "preguntas": [],
+ "extra_tts": {}
+}

@@ -1,0 +1,24 @@
+{
+ "id": "ep014",
+ "fecha": "2026-11-18",
+ "formato": "normal",
+ "estado": "en_proceso",
+ "codigo_sala": "RITMO",
+ "titulo": "Música, instrumentos y bailes del mundo",
+ "titulo_youtube": "¿Cuánto sabes de música? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
+ "descripcion": "Cien preguntas de música para jugar en familia frente a la tele: instrumentos, bailes, compositores y ritmos de Latinoamérica y del mundo. Con imágenes misteriosas, verdadero o falso y una ronda relámpago. ¿Tienes buen oído? ¡Cuéntanos tu puntaje en los comentarios!",
+ "tags": [
+  "música",
+  "instrumentos",
+  "bailes",
+  "trivia en familia",
+  "preguntas y respuestas",
+  "juego para la tele"
+ ],
+ "tema_miniatura": "MÚSICA Y BAILES",
+ "reto_miniatura": "¿Tienes buen oído?",
+ "objetivo_preguntas": 100,
+ "total_anunciado": 100,
+ "preguntas": [],
+ "extra_tts": {}
+}
