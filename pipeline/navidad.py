@@ -215,7 +215,7 @@ DE_LADO = {'reno'}   # reno: aún lado a lado (oso y pingüino ya vistos desde a
 def veh_ok(v):
     """¿Hay imagen o animación para este vehículo? (los nuevos de Flow pueden faltar todavía)"""
     if v in DE_LADO: return False     # Luis: nada corre de costado; vuelven cuando haya clip visto desde atrás
-    return v in ('corre', 'patineta') or os.path.exists(os.path.join(D, v + '.png')) or anim_n(v) > 0
+    return v == 'corre' or anim_n(v) > 0     # Luis: solo vehículos con video (nada quieto)
 
 
 _ETAPA_RESPALDO = {'e02': 'bebe_vuela', 'e03': 'bebe_vuela', 'e05': 'joven', 'e06': 'joven', 'e08': 'adulto', 'e09': 'adulto',
@@ -224,6 +224,7 @@ def etapa_img(n, alto, t=None):
     """Dragón de la etapa n: animación si la hay, si no la imagen fija (y si aún no existe, la etapa anterior)."""
     if t is not None:
         im = anim_img('dragon_' + n, alto, t)
+        if im is None: im = anim_img('dragon_' + _ETAPA_RESPALDO.get(n, n), alto, t)   # Luis: el dragón nunca quieto
         if im is not None: return im
     if not os.path.exists(os.path.join(D, n + '.png')): n = _ETAPA_RESPALDO.get(n, n)
     return nav_img(n, alto)
@@ -780,6 +781,8 @@ class Navidad(Ciudad):
             if im is not None:   # el clip trae a los dos: mitad izquierda MAX, derecha NOVA, cada uno en su carril
                 sube = 230 * extra.get('alto', 1) * math.sin(math.pi * clamp(extra.get('salto', 0))) - extra.get('dy', 0)
                 mx = im.width // 2
+                if xn - xm < 300:   # van al mismo regalo: uno junto al otro, sin encimarse
+                    c_ = (xm + xn) / 2; xm, xn = c_ - 150, c_ + 150
                 for half, x in ((im.crop((0, 0, mx, im.height)), xm), (im.crop((mx, 0, im.width, im.height)), xn)):
                     fr.paste(half, (int(x - half.width / 2), int(H + 30 - im.height - sube)), half)
                 return
@@ -885,9 +888,9 @@ class Navidad(Ciudad):
             for k_ in range(7):
                 tt = t - k_ * 0.07; xx = 960 + 330 * math.sin(tt * 0.42) + 90 * math.sin(tt * 1.17) if tipo != 'nivel' else x + k_ * 40
                 estrella(d, xx + 30 * math.sin(k_ * 2.1), y + alto * 0.42 + k_ * 9, max(3, 11 - k_), ORO)
-        w0 = etapa_img(img, 100).width / 100
+        w0 = etapa_img(img, 100, t).width / 100
         alto = min(alto, (ancho_max or 760) / max(0.3, w0))   # que quepa entre los regalos / no tape todo
-        im = anim_img('dragon_' + img, max(20, int(alto)), t); a_ = math.sin(t * 6.5)
+        im = etapa_img(img, max(20, int(alto)), t); a_ = math.sin(t * 6.5)
         if im is None:
             im = etapa_img(img, max(20, int(alto)))
             im = im.resize((max(1, int(im.width * (1 + 0.08 * a_))), max(1, int(im.height * (1 - 0.03 * a_)))), Image.BILINEAR)
