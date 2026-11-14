@@ -1,0 +1,24 @@
+{
+ "id": "ep016",
+ "fecha": "2026-11-20",
+ "formato": "normal",
+ "estado": "en_proceso",
+ "codigo_sala": "ESCUELA",
+ "titulo": "Palabras, números y cuerpo humano: ¡de vuelta a la escuela!",
+ "titulo_youtube": "¿Pasarías el examen? 100 preguntas de escuela para jugar en familia | ¿Quién Sabe Más?",
+ "descripcion": "Cien preguntas de lenguaje, matemáticas, ciencias y cuerpo humano para jugar en familia frente a la tele, como en la escuela pero mucho más divertido. Con imágenes misteriosas, verdadero o falso y una ronda relámpago. ¿Pasas el examen? ¡Cuéntanos tu puntaje en los comentarios!",
+ "tags": [
+  "escuela",
+  "matemáticas",
+  "cuerpo humano",
+  "trivia en familia",
+  "preguntas y respuestas",
+  "juego para la tele"
+ ],
+ "tema_miniatura": "EL GRAN EXAMEN",
+ "reto_miniatura": "¿Pasas el examen?",
+ "objetivo_preguntas": 100,
+ "total_anunciado": 100,
+ "preguntas": [],
+ "extra_tts": {}
+}

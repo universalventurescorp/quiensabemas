@@ -1,0 +1,24 @@
+{
+ "id": "ep015",
+ "fecha": "2026-11-19",
+ "formato": "normal",
+ "estado": "en_proceso",
+ "codigo_sala": "NATURA",
+ "titulo": "Naturaleza: plantas, bosques y océanos",
+ "titulo_youtube": "¿Cuánto sabes de la naturaleza? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
+ "descripcion": "Cien preguntas sobre plantas, bosques, ríos y océanos para jugar en familia frente a la tele, con datos de Latinoamérica y del mundo. Con imágenes misteriosas, verdadero o falso y una ronda relámpago. ¿Eres amigo de la naturaleza? ¡Cuéntanos tu puntaje en los comentarios!",
+ "tags": [
+  "naturaleza",
+  "plantas",
+  "océanos",
+  "trivia en familia",
+  "preguntas y respuestas",
+  "juego para la tele"
+ ],
+ "tema_miniatura": "NATURALEZA Y OCÉANOS",
+ "reto_miniatura": "¿Eres amigo del planeta?",
+ "objetivo_preguntas": 100,
+ "total_anunciado": 100,
+ "preguntas": [],
+ "extra_tts": {}
+}
