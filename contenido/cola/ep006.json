@@ -2,7 +2,7 @@
  "id": "ep006",
  "fecha": "2026-11-14",
  "formato": "maraton",
- "estado": "en_proceso",
+ "estado": "listo",
  "codigo_sala": "MARATON1",
  "titulo": "Gran maratón de 3 horas: 370 preguntas de todo el mundo",
  "titulo_youtube": "MARATÓN de 3 HORAS: 370 preguntas para jugar en familia | ¿Quién Sabe Más?",
@@ -6909,6 +6909,412 @@
    "tp": "¿Cuál es la única de las siete maravillas antiguas que sigue en pie? ¿Faro de Alejandría, Jardines Colgantes, Coloso de Rodas o Gran Pirámide de Guiza?",
    "tr": "¡Gran Pirámide de Guiza!",
    "td": "La Gran Pirámide tiene unos cuatro mil quinientos años y fue la más alta del mundo durante siglos."
+  },
+  {
+   "n": 352,
+   "tema": "cuerpo",
+   "p": "¿Qué parte del ojo funciona como la lente de una cámara y enfoca la imagen?",
+   "o": [
+    "Córnea",
+    "Cristalino",
+    "Retina",
+    "Párpado"
+   ],
+   "c": 1,
+   "d": "El cristalino cambia de forma para enfocar de cerca y de lejos.",
+   "tp": "¿Qué parte del ojo funciona como la lente de una cámara y enfoca la imagen? ¿Córnea, Cristalino, Retina o Párpado?",
+   "tr": "¡El cristalino!",
+   "td": "El cristalino cambia de forma para enfocar de cerca y de lejos."
+  },
+  {
+   "n": 353,
+   "tema": "geografía",
+   "p": "¿Cuál es la capital de Etiopía?",
+   "o": [
+    "Nairobi",
+    "Jartum",
+    "Adís Abeba",
+    "Dar es Salam"
+   ],
+   "c": 2,
+   "d": "Su nombre significa «nueva flor» en amárico.",
+   "tp": "¿Cuál es la capital de Etiopía? ¿Nairobi, Jartum, Adís Abeba o Dar es Salam?",
+   "tr": "¡Adís Abeba!",
+   "td": "Su nombre significa «nueva flor» en amárico."
+  },
+  {
+   "n": 354,
+   "tema": "historia",
+   "p": "¿Cómo se llamaban los barcos alargados con proa de dragón de los vikingos?",
+   "o": [
+    "Drakkar",
+    "Galeón",
+    "Carabela",
+    "Trirreme"
+   ],
+   "c": 0,
+   "d": "Eran rápidos y de poco calado, ideales para remontar ríos.",
+   "tp": "¿Cómo se llamaban los barcos alargados con proa de dragón de los vikingos? ¿Drakkar, Galeón, Carabela o Trirreme?",
+   "tr": "¡Los drakkar!",
+   "td": "Eran rápidos y de poco calado, ideales para remontar ríos."
+  },
+  {
+   "n": 355,
+   "tema": "animales",
+   "p": "¿Qué animal terrestre es el más veloz en carreras cortas?",
+   "o": [
+    "León",
+    "Antílope",
+    "Caballo",
+    "Guepardo"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "lion",
+     "src": "px"
+    },
+    {
+     "q": "antelope",
+     "src": "px"
+    },
+    {
+     "q": "horse running",
+     "src": "px"
+    },
+    {
+     "q": "cheetah",
+     "src": "px"
+    }
+   ],
+   "d": "El guepardo alcanza unos 100 kilómetros por hora, pero solo aguanta unos segundos.",
+   "tp": "¿Qué animal terrestre es el más veloz en carreras cortas? ¿León, Antílope, Caballo o Guepardo?",
+   "tr": "¡El guepardo!",
+   "td": "El guepardo alcanza unos cien kilómetros por hora, pero solo aguanta unos segundos."
+  },
+  {
+   "n": 356,
+   "tema": "arte",
+   "p": "¿Quién pintó «La noche estrellada», con sus cielos llenos de remolinos?",
+   "o": [
+    "Vincent van Gogh",
+    "Claude Monet",
+    "Salvador Dalí",
+    "Pablo Picasso"
+   ],
+   "c": 0,
+   "img_q": "The Starry Night Van Gogh",
+   "img_modo": "revela",
+   "d": "La pintó en 1889 mirando desde la ventana de su cuarto en un hospital de Saint-Rémy.",
+   "tp": "¿Quién pintó «La noche estrellada», con sus cielos llenos de remolinos? ¿Vincent van Gogh, Claude Monet, Salvador Dalí o Pablo Picasso?",
+   "tr": "¡Vincent van Gogh!",
+   "td": "La pintó en mil ochocientos ochenta y nueve mirando desde la ventana de su cuarto en un hospital de Saint-Rémy."
+  },
+  {
+   "n": 357,
+   "tema": "ciencia",
+   "p": "¿Cuál es el símbolo químico del sodio?",
+   "o": [
+    "So",
+    "Sd",
+    "S",
+    "Na"
+   ],
+   "c": 3,
+   "d": "Viene del latín «natrium», y es un componente de la sal común.",
+   "tp": "¿Cuál es el símbolo químico del sodio? ¿ene a, so, ese de o ese?",
+   "tr": "¡Na!",
+   "td": "Viene del latín «natrium», y es un componente de la sal común."
+  },
+  {
+   "n": 358,
+   "tema": "geografía",
+   "p": "¿Qué estrecho separa España de Marruecos y une el Mediterráneo con el Atlántico?",
+   "o": [
+    "Bósforo",
+    "Gibraltar",
+    "Magallanes",
+    "Ormuz"
+   ],
+   "c": 1,
+   "img_q": "Strait of Gibraltar",
+   "img_modo": "revela",
+   "d": "En su punto más angosto mide unos 14 kilómetros.",
+   "tp": "¿Qué estrecho separa España de Marruecos y une el Mediterráneo con el Atlántico? ¿Bósforo, Gibraltar, Magallanes o Ormuz?",
+   "tr": "¡El estrecho de Gibraltar!",
+   "td": "En su punto más angosto mide unos catorce kilómetros."
+  },
+  {
+   "n": 359,
+   "tema": "música",
+   "p": "¿Qué instrumento de teclado y grandes tubos suena en las catedrales?",
+   "o": [
+    "Acordeón",
+    "Piano",
+    "Órgano",
+    "Clavecín"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "accordion",
+     "src": "px"
+    },
+    {
+     "q": "piano",
+     "src": "px"
+    },
+    {
+     "q": "pipe organ church",
+     "src": "px"
+    },
+    {
+     "q": "harpsichord",
+     "src": "px"
+    }
+   ],
+   "d": "Los órganos más grandes tienen miles de tubos de todos los tamaños.",
+   "tp": "¿Qué instrumento de teclado y grandes tubos suena en las catedrales? ¿Acordeón, Piano, Órgano o Clavecín?",
+   "tr": "¡El órgano!",
+   "td": "Los órganos más grandes tienen miles de tubos de todos los tamaños."
+  },
+  {
+   "n": 360,
+   "tema": "deportes",
+   "p": "¿Cuántos jugadores tiene cada equipo en un partido de rugby tradicional?",
+   "o": [
+    "Once",
+    "Trece",
+    "Dieciocho",
+    "Quince"
+   ],
+   "c": 3,
+   "d": "En el rugby de siete, que es olímpico, solo juegan siete.",
+   "tp": "¿Cuántos jugadores tiene cada equipo en un partido de rugby tradicional? ¿Once, Trece, Dieciocho o Quince?",
+   "tr": "¡Quince!",
+   "td": "En el rugby de siete, que es olímpico, solo juegan siete."
+  },
+  {
+   "n": 361,
+   "tema": "Latinoamérica",
+   "p": "¿Qué enormes cataratas comparten Argentina y Brasil?",
+   "o": [
+    "Salto Ángel",
+    "Cataratas del Niágara",
+    "Cataratas del Iguazú",
+    "Cataratas Victoria"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "Angel Falls Venezuela",
+     "src": "cm",
+     "must": "Angel"
+    },
+    {
+     "q": "Niagara Falls",
+     "src": "cm",
+     "must": "Niagara"
+    },
+    {
+     "q": "Iguazu Falls",
+     "src": "cm",
+     "must": "Iguazu",
+     "not": [
+      "map",
+      "panorama"
+     ]
+    },
+    {
+     "q": "Victoria Falls",
+     "src": "cm",
+     "must": "Victoria"
+    }
+   ],
+   "d": "Tienen unos 270 saltos de agua en plena selva.",
+   "tp": "¿Qué enormes cataratas comparten Argentina y Brasil? ¿Salto Ángel, Cataratas del Niágara, Cataratas del Iguazú o Cataratas Victoria?",
+   "tr": "¡Las cataratas del Iguazú!",
+   "td": "Tienen unos doscientos setenta saltos de agua en plena selva."
+  },
+  {
+   "n": 362,
+   "tema": "Perú",
+   "p": "¿Qué cañón de Arequipa es famoso por sus miradores para ver volar al cóndor?",
+   "o": [
+    "Cotahuasi",
+    "Colca",
+    "Del Pato",
+    "Santa"
+   ],
+   "c": 1,
+   "img_q": "Colca Canyon Peru",
+   "img_modo": "revela",
+   "d": "Los cóndores se ven mejor temprano, cuando suben con el aire cálido.",
+   "tp": "¿Qué cañón de Arequipa es famoso por sus miradores para ver volar al cóndor? ¿Cotahuasi, Colca, Del Pato o Santa?",
+   "tr": "¡El Cañón del Colca!",
+   "td": "Los cóndores se ven mejor temprano, cuando suben con el aire cálido."
+  },
+  {
+   "n": 363,
+   "tema": "historia",
+   "p": "¿Qué antigua civilización construyó el Partenón, en lo alto de la Acrópolis de Atenas?",
+   "o": [
+    "Griega",
+    "Romana",
+    "Egipcia",
+    "Persa"
+   ],
+   "c": 0,
+   "img_q": "Parthenon Athens",
+   "img_modo": "revela",
+   "d": "Se construyó hace unos 2.500 años como templo a la diosa Atenea.",
+   "tp": "¿Qué antigua civilización construyó el Partenón, en lo alto de la Acrópolis de Atenas? ¿Griega, Romana, Egipcia o Persa?",
+   "tr": "¡Los griegos!",
+   "td": "Se construyó hace unos dos mil quinientos años como templo a la diosa Atenea."
+  },
+  {
+   "n": 364,
+   "tema": "espacio",
+   "p": "¿Cómo se llama la galaxia donde vive nuestro sistema solar?",
+   "o": [
+    "Andrómeda",
+    "Triángulo",
+    "Sombrero",
+    "Vía Láctea"
+   ],
+   "c": 3,
+   "d": "Tiene cientos de miles de millones de estrellas y se ve como una franja clara en el cielo.",
+   "tp": "¿Cómo se llama la galaxia donde vive nuestro sistema solar? ¿Andrómeda, Triángulo, Sombrero o Vía Láctea?",
+   "tr": "¡La Vía Láctea!",
+   "td": "Tiene cientos de miles de millones de estrellas y se ve como una franja clara en el cielo."
+  },
+  {
+   "n": 365,
+   "tema": "naturaleza",
+   "p": "¿Cómo se llama el pigmento verde que permite a las plantas hacer la fotosíntesis?",
+   "o": [
+    "Melanina",
+    "Clorofila",
+    "Caroteno",
+    "Queratina"
+   ],
+   "c": 1,
+   "d": "Absorbe la luz del Sol para fabricar el alimento de la planta.",
+   "tp": "¿Cómo se llama el pigmento verde que permite a las plantas hacer la fotosíntesis? ¿Melanina, Clorofila, Caroteno o Queratina?",
+   "tr": "¡La clorofila!",
+   "td": "Absorbe la luz del Sol para fabricar el alimento de la planta."
+  },
+  {
+   "n": 366,
+   "tema": "inventos",
+   "p": "¿Qué invento de los hermanos Lumière dio origen al cine en 1895?",
+   "o": [
+    "Cinematógrafo",
+    "Fonógrafo",
+    "Telégrafo",
+    "Linterna mágica"
+   ],
+   "c": 0,
+   "d": "La primera función pública se hizo en París, a fines de ese año.",
+   "tp": "¿Qué invento de los hermanos Lumière dio origen al cine en mil ochocientos noventa y cinco? ¿Cinematógrafo, Fonógrafo, Telégrafo o Linterna mágica?",
+   "tr": "¡El cinematógrafo!",
+   "td": "La primera función pública se hizo en París, a fines de mil ochocientos noventa y cinco."
+  },
+  {
+   "n": 367,
+   "tema": "cuerpo",
+   "p": "¿Cómo se llaman las células de la sangre que llevan el oxígeno?",
+   "o": [
+    "Glóbulos blancos",
+    "Plaquetas",
+    "Glóbulos rojos",
+    "Neuronas"
+   ],
+   "c": 2,
+   "d": "Tienen hierro, y por eso la sangre es roja.",
+   "tp": "¿Cómo se llaman las células de la sangre que llevan el oxígeno? ¿Glóbulos blancos, Plaquetas, Glóbulos rojos o Neuronas?",
+   "tr": "¡Los glóbulos rojos!",
+   "td": "Tienen hierro, y por eso la sangre es roja."
+  },
+  {
+   "n": 368,
+   "tema": "comida",
+   "p": "¿Cuál es el ingrediente principal del hummus?",
+   "o": [
+    "Lentejas",
+    "Frijoles",
+    "Garbanzos",
+    "Habas"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "lentils",
+     "src": "px"
+    },
+    {
+     "q": "kidney beans",
+     "src": "px"
+    },
+    {
+     "q": "chickpeas",
+     "src": "px"
+    },
+    {
+     "q": "fava beans",
+     "src": "px"
+    }
+   ],
+   "d": "El hummus es un puré de Medio Oriente con garbanzos, ajo y limón.",
+   "tp": "¿Cuál es el ingrediente principal del hummus? ¿Lentejas, Frijoles, Garbanzos o Habas?",
+   "tr": "¡Garbanzos!",
+   "td": "El hummus es un puré de Medio Oriente con garbanzos, ajo y limón."
+  },
+  {
+   "n": 369,
+   "tema": "idiomas",
+   "p": "¿Qué idioma se habla en Angola y Mozambique, en África?",
+   "o": [
+    "Portugués",
+    "Francés",
+    "Inglés",
+    "Español"
+   ],
+   "c": 0,
+   "d": "Fueron colonias de Portugal, y allí el portugués sigue siendo idioma oficial.",
+   "tp": "¿Qué idioma se habla en Angola y Mozambique, en África? ¿Portugués, Francés, Inglés o Español?",
+   "tr": "¡Portugués!",
+   "td": "Fueron colonias de Portugal, y allí el portugués sigue siendo idioma oficial."
+  },
+  {
+   "n": 370,
+   "tema": "geografía",
+   "p": "¿Qué país es, a la vez, un continente entero?",
+   "o": [
+    "Brasil",
+    "Australia",
+    "Canadá",
+    "India"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "flag": "br"
+    },
+    {
+     "flag": "au"
+    },
+    {
+     "flag": "ca"
+    },
+    {
+     "flag": "in"
+    }
+   ],
+   "d": "Australia es el único país que ocupa por sí solo todo un continente.",
+   "tp": "¿Qué país es, a la vez, un continente entero? ¿Brasil, Australia, Canadá o India?",
+   "tr": "¡Australia!",
+   "td": "Australia es el único país que ocupa por sí solo todo un continente."
   }
  ],
  "fotos_miniatura": [
@@ -7505,6 +7911,34 @@
   "charla350_co": [
    "copresentadora",
    "Y en el mar Muerto se flota sin esfuerzo, MAX. ¡Gran final de bloque!"
+  ],
+  "charla355_pr": [
+   "presentador",
+   "¡Trescientos cincuenta y cinco! El guepardo corre a cien por hora y yo apenas me muevo con mis ruedas."
+  ],
+  "charla355_co": [
+   "copresentadora",
+   "Tú eres más de pensar que de correr, MAX. Familia, ¡miren su puesto en el ranking del celular!"
+  ],
+  "charla360_pr": [
+   "presentador",
+   "¡Trescientos sesenta! Un órgano de catedral tiene miles de tubos y yo, mil chistes."
+  ],
+  "charla360_co": [
+   "copresentadora",
+   "Y todos desafinan, MAX. Faltan solo diez preguntas, familia, ¡con mucha fuerza!"
+  ],
+  "charla365_pr": [
+   "presentador",
+   "¡Trescientos sesenta y cinco, como los días del año! Casi no me quedan tornillos sin apretar."
+  ],
+  "charla365_co": [
+   "copresentadora",
+   "Y cinco preguntas para el final, MAX. ¡Familia, la última es de las difíciles!"
+  ],
+  "pr_cierre": [
+   "presentador",
+   "¡Terminó la gran maratón, familia! Cuéntennos en los comentarios cuántas respondieron bien y cuál fue su puntaje. ¡Gracias por jugar con nosotros tres horas!"
   ]
  }
 }

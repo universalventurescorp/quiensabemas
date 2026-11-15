@@ -19,6 +19,525 @@
  "reto_miniatura": "¿Tienes buen oído?",
  "objetivo_preguntas": 100,
  "total_anunciado": 100,
- "preguntas": [],
- "extra_tts": {}
+ "preguntas": [
+  {
+   "n": 1,
+   "tema": "música",
+   "p": "¿Cómo se llama el gran disco de metal que se golpea con una maza y suena muy profundo?",
+   "o": [
+    "Platillo",
+    "Gong",
+    "Triángulo",
+    "Campana"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "cymbals",
+     "src": "px"
+    },
+    {
+     "q": "gong",
+     "src": "px"
+    },
+    {
+     "q": "triangle instrument",
+     "src": "px"
+    },
+    {
+     "q": "bell",
+     "src": "px"
+    }
+   ],
+   "d": "El gong viene de Asia y su sonido puede durar muchos segundos.",
+   "tp": "¿Cómo se llama el gran disco de metal que se golpea con una maza y suena muy profundo? ¿Platillo, Gong, Triángulo o Campana?",
+   "tr": "¡El gong!",
+   "td": "El gong viene de Asia y su sonido puede durar muchos segundos."
+  },
+  {
+   "n": 2,
+   "tema": "música",
+   "p": "¿Cómo se llama el conjunto de cinco líneas donde se escriben las notas?",
+   "o": [
+    "Compás",
+    "Clave",
+    "Octava",
+    "Pentagrama"
+   ],
+   "c": 3,
+   "d": "Cada línea y cada espacio entre ellas corresponde a una nota distinta.",
+   "tp": "¿Cómo se llama el conjunto de cinco líneas donde se escriben las notas? ¿Compás, Clave, Octava o Pentagrama?",
+   "tr": "¡El pentagrama!",
+   "td": "Cada línea y cada espacio entre ellas corresponde a una nota distinta."
+  },
+  {
+   "n": 3,
+   "tema": "música",
+   "p": "¿A qué familia de instrumentos pertenecen la flauta y el clarinete?",
+   "o": [
+    "Cuerdas",
+    "Percusión",
+    "Viento madera",
+    "Viento metal"
+   ],
+   "c": 2,
+   "d": "La flauta moderna es de metal, pero sigue en el grupo de «viento madera».",
+   "tp": "¿A qué familia de instrumentos pertenecen la flauta y el clarinete? ¿viento madera, cuerdas, percusión o viento metal?",
+   "tr": "¡Viento madera!",
+   "td": "La flauta moderna es de metal, pero sigue en el grupo de «viento madera»."
+  },
+  {
+   "n": 4,
+   "tema": "música",
+   "p": "¿De qué país es el flamenco, con su guitarra, su cante y su baile?",
+   "o": [
+    "España",
+    "México",
+    "Portugal",
+    "Argentina"
+   ],
+   "c": 0,
+   "d": "El flamenco nació en Andalucía y la UNESCO lo declaró patrimonio inmaterial.",
+   "tp": "¿De qué país es el flamenco, con su guitarra, su cante y su baile? ¿España, México, Portugal o Argentina?",
+   "tr": "¡España!",
+   "td": "El flamenco nació en Andalucía y la UNESCO lo declaró patrimonio inmaterial."
+  },
+  {
+   "n": 5,
+   "tema": "música",
+   "p": "¿Cómo se llaman los palillos con los que se toca el tambor?",
+   "o": [
+    "Baquetas",
+    "Varillas",
+    "Mazos",
+    "Agujas"
+   ],
+   "c": 0,
+   "d": "Las baquetas suelen ser de madera, aunque también las hay de otros materiales.",
+   "tp": "¿Cómo se llaman los palillos con los que se toca el tambor? ¿Baquetas, Varillas, Mazos o Agujas?",
+   "tr": "¡Las baquetas!",
+   "td": "Las baquetas suelen ser de madera, aunque también las hay de otros materiales."
+  },
+  {
+   "n": 6,
+   "tema": "Perú",
+   "p": "¿Qué instrumento andino de viento, un tubo con una muesca, suena suave y melancólico?",
+   "o": [
+    "Zampoña",
+    "Quena",
+    "Charango",
+    "Bombo"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "zampona panpipe",
+     "src": "cm",
+     "must": "pan"
+    },
+    {
+     "q": "quena Andean flute",
+     "src": "cm",
+     "must": "quena"
+    },
+    {
+     "q": "charango",
+     "src": "px"
+    },
+    {
+     "q": "bass drum",
+     "src": "px"
+    }
+   ],
+   "d": "La quena se toca desde mucho antes de los incas y se hacía de caña o de hueso.",
+   "tp": "¿Qué instrumento andino de viento, un tubo con una muesca, suena suave y melancólico? ¿Zampoña, Quena, Charango o Bombo?",
+   "tr": "¡La quena!",
+   "td": "La quena se toca desde mucho antes de los incas y se hacía de caña o de hueso."
+  },
+  {
+   "n": 7,
+   "tema": "música",
+   "p": "¿Qué baile de pareja, elegante y apasionado, es el más famoso de Argentina?",
+   "o": [
+    "Samba",
+    "Cumbia",
+    "Vals",
+    "Tango"
+   ],
+   "c": 3,
+   "d": "El tango nació a orillas del Río de la Plata, entre Buenos Aires y Montevideo.",
+   "tp": "¿Qué baile de pareja, elegante y apasionado, es el más famoso de Argentina? ¿Samba, Cumbia, Vals o Tango?",
+   "tr": "¡El tango!",
+   "td": "El tango nació a orillas del Río de la Plata, entre Buenos Aires y Montevideo."
+  },
+  {
+   "n": 8,
+   "tema": "música",
+   "p": "¿Qué instrumento de viento de metal tiene tres pistones?",
+   "o": [
+    "Flauta",
+    "Clarinete",
+    "Trompeta",
+    "Trombón"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "flute",
+     "src": "px"
+    },
+    {
+     "q": "clarinet",
+     "src": "px"
+    },
+    {
+     "q": "trumpet",
+     "src": "px"
+    },
+    {
+     "q": "trombone",
+     "src": "px"
+    }
+   ],
+   "d": "Los pistones cambian el largo del tubo y con eso, las notas.",
+   "tp": "¿Qué instrumento de viento de metal tiene tres pistones? ¿Flauta, Clarinete, Trompeta o Trombón?",
+   "tr": "¡La trompeta!",
+   "td": "Los pistones cambian el largo del tubo y con eso, las notas."
+  },
+  {
+   "n": 9,
+   "tema": "Latinoamérica",
+   "p": "¿Qué ritmo, nacido en Colombia, se baila con velas y vestidos largos?",
+   "o": [
+    "Merengue",
+    "Cumbia",
+    "Bachata",
+    "Salsa"
+   ],
+   "c": 1,
+   "d": "La cumbia nació en la costa colombiana y hoy se baila en todo el continente.",
+   "tp": "¿Qué ritmo, nacido en Colombia, se baila con velas y vestidos largos? ¿Merengue, Cumbia, Bachata o Salsa?",
+   "tr": "¡La cumbia!",
+   "td": "La cumbia nació en la costa colombiana y hoy se baila en todo el continente."
+  },
+  {
+   "n": 10,
+   "tema": "música",
+   "p": "¿Qué compositor escribió la pieza para piano «Para Elisa»?",
+   "o": [
+    "Beethoven",
+    "Mozart",
+    "Chopin",
+    "Bach"
+   ],
+   "c": 0,
+   "d": "Es una de las melodías más conocidas, y suele ser el primer tema que aprenden muchos pianistas.",
+   "tp": "¿Qué compositor escribió la pieza para piano «Para Elisa»? ¿Beethoven, Mozart, Chopin o Bach?",
+   "tr": "¡Ludwig van Beethoven!",
+   "td": "Es una de las melodías más conocidas, y suele ser el primer tema que aprenden muchos pianistas."
+  },
+  {
+   "n": 11,
+   "tema": "música",
+   "ronda": "misteriosa",
+   "p": "¿Qué instrumento de cuerdas es este, que se toca sentado, entre las piernas?",
+   "o": [
+    "Violín",
+    "Contrabajo",
+    "Arpa",
+    "Violonchelo"
+   ],
+   "c": 3,
+   "img_q": "Cello",
+   "img_modo": "pregunta",
+   "d": "El violonchelo suena parecido a una voz humana grave y cálida.",
+   "tp": "¿Qué instrumento de cuerdas es este, que se toca sentado, entre las piernas? ¿Violín, Contrabajo, Arpa o Violonchelo?",
+   "tr": "¡El violonchelo!",
+   "td": "El violonchelo suena parecido a una voz humana grave y cálida."
+  },
+  {
+   "n": 12,
+   "tema": "Perú",
+   "ronda": "misteriosa",
+   "p": "¿Qué instrumento andino, de diez cuerdas, es este?",
+   "o": [
+    "Guitarra",
+    "Mandolina",
+    "Charango",
+    "Ukelele"
+   ],
+   "c": 2,
+   "img_q": "Charango instrument",
+   "img_modo": "pregunta",
+   "d": "Es pequeño y de sonido brillante; antes se hacía con caparazón de armadillo.",
+   "tp": "¿Qué instrumento andino, de diez cuerdas, es este? ¿Guitarra, Mandolina, Charango o Ukelele?",
+   "tr": "¡El charango!",
+   "td": "Es pequeño y de sonido brillante; antes se hacía con caparazón de armadillo."
+  },
+  {
+   "n": 13,
+   "tema": "música",
+   "ronda": "misteriosa",
+   "p": "¿Qué instrumento de viento escocés es este, con una bolsa y varios tubos?",
+   "o": [
+    "Gaita",
+    "Acordeón",
+    "Flauta",
+    "Oboe"
+   ],
+   "c": 0,
+   "img_q": "Great Highland bagpipe",
+   "img_modo": "pregunta",
+   "d": "La bolsa se llena de aire y suena sin parar, aunque el gaitero tome aliento.",
+   "tp": "¿Qué instrumento de viento escocés es este, con una bolsa y varios tubos? ¿Gaita, Acordeón, Flauta o Oboe?",
+   "tr": "¡La gaita!",
+   "td": "La bolsa se llena de aire y suena sin parar, aunque el gaitero tome aliento."
+  },
+  {
+   "n": 14,
+   "tema": "música",
+   "p": "¿Qué instrumento latino se forma con dos bolitas con semillas que se agitan?",
+   "o": [
+    "Castañuelas",
+    "Panderos",
+    "Maracas",
+    "Güiro"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "castanets",
+     "src": "px"
+    },
+    {
+     "q": "tambourine",
+     "src": "px"
+    },
+    {
+     "q": "maracas",
+     "src": "px"
+    },
+    {
+     "q": "guiro instrument",
+     "src": "px"
+    }
+   ],
+   "d": "Las maracas se hacían con calabazas secas llenas de semillas.",
+   "tp": "¿Qué instrumento latino se forma con dos bolitas con semillas que se agitan? ¿Castañuelas, Panderos, Maracas o Güiro?",
+   "tr": "¡Las maracas!",
+   "td": "Las maracas se hacían con calabazas secas llenas de semillas."
+  },
+  {
+   "n": 15,
+   "tema": "música",
+   "p": "¿Cuántos músicos forman un cuarteto?",
+   "o": [
+    "Tres",
+    "Cuatro",
+    "Cinco",
+    "Seis"
+   ],
+   "c": 1,
+   "d": "Un cuarteto de cuerdas clásico usa dos violines, una viola y un violonchelo.",
+   "tp": "¿Cuántos músicos forman un cuarteto? ¿Tres, Cuatro, Cinco o Seis?",
+   "tr": "¡Cuatro!",
+   "td": "Un cuarteto de cuerdas clásico usa dos violines, una viola y un violonchelo."
+  },
+  {
+   "n": 16,
+   "tema": "música",
+   "p": "¿Qué instrumento lleva el nombre de su inventor belga, Adolphe Sax?",
+   "o": [
+    "Clarinete",
+    "Fagot",
+    "Oboe",
+    "Saxofón"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "clarinet",
+     "src": "px"
+    },
+    {
+     "q": "bassoon",
+     "src": "px"
+    },
+    {
+     "q": "oboe",
+     "src": "px"
+    },
+    {
+     "q": "saxophone",
+     "src": "px"
+    }
+   ],
+   "d": "Adolphe Sax lo inventó en la década de 1840.",
+   "tp": "¿Qué instrumento lleva el nombre de su inventor belga, Adolphe Sax? ¿Clarinete, Fagot, Oboe o Saxofón?",
+   "tr": "¡El saxofón!",
+   "td": "Adolphe Sax lo inventó en la década de mil ochocientos cuarenta."
+  },
+  {
+   "n": 17,
+   "tema": "Perú",
+   "p": "¿Cómo se llama el instrumento andino formado por tubos de distinto largo unidos?",
+   "o": [
+    "Quena",
+    "Charango",
+    "Zampoña",
+    "Ocarina"
+   ],
+   "c": 2,
+   "d": "También se le llama siku, y suele tocarse entre dos músicos que se turnan las notas.",
+   "tp": "¿Cómo se llama el instrumento andino formado por tubos de distinto largo unidos? ¿Quena, Charango, Zampoña o Ocarina?",
+   "tr": "¡La zampoña!",
+   "td": "También se le llama siku, y suele tocarse entre dos músicos que se turnan las notas."
+  },
+  {
+   "n": 18,
+   "tema": "música",
+   "p": "¿Qué instrumento de cuerdas tiene forma de triángulo y se toca con las dos manos?",
+   "o": [
+    "Arpa",
+    "Laúd",
+    "Lira",
+    "Mandolina"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "concert harp",
+     "src": "px"
+    },
+    {
+     "q": "lute",
+     "src": "px"
+    },
+    {
+     "q": "lyre",
+     "src": "px"
+    },
+    {
+     "q": "mandolin",
+     "src": "px"
+    }
+   ],
+   "d": "El arpa de concierto tiene 47 cuerdas y siete pedales.",
+   "tp": "¿Qué instrumento de cuerdas tiene forma de triángulo y se toca con las dos manos? ¿Arpa, Laúd, Lira o Mandolina?",
+   "tr": "¡El arpa!",
+   "td": "El arpa de concierto tiene cuarenta y siete cuerdas y siete pedales."
+  },
+  {
+   "n": 19,
+   "tema": "Latinoamérica",
+   "p": "¿De qué país es la música del mariachi, con trompetas, violines y guitarrones?",
+   "o": [
+    "Colombia",
+    "México",
+    "Cuba",
+    "Chile"
+   ],
+   "c": 1,
+   "d": "La UNESCO la declaró patrimonio cultural inmaterial en 2011.",
+   "tp": "¿De qué país es la música del mariachi, con trompetas, violines y guitarrones? ¿Colombia, México, Cuba o Chile?",
+   "tr": "¡México!",
+   "td": "La UNESCO la declaró patrimonio cultural inmaterial en dos mil once."
+  },
+  {
+   "n": 20,
+   "tema": "música",
+   "p": "¿De qué ciudad inglesa eran Los Beatles?",
+   "o": [
+    "Londres",
+    "Manchester",
+    "Bristol",
+    "Liverpool"
+   ],
+   "c": 3,
+   "d": "Se formaron en Liverpool en 1960 y se hicieron famosos en todo el mundo.",
+   "tp": "¿De qué ciudad inglesa eran Los Beatles? ¿Londres, Manchester, Bristol o Liverpool?",
+   "tr": "¡Liverpool!",
+   "td": "Se formaron en Liverpool en mil novecientos sesenta y se hicieron famosos en todo el mundo."
+  },
+  {
+   "n": 21,
+   "tema": "música",
+   "p": "¿Cómo se llama el baile tradicional de Hawái que cuenta historias con las manos?",
+   "o": [
+    "Haka",
+    "Sirtaki",
+    "Polka",
+    "Hula"
+   ],
+   "c": 3,
+   "d": "Cada movimiento de manos del hula tiene un significado.",
+   "tp": "¿Cómo se llama el baile tradicional de Hawái que cuenta historias con las manos? ¿Haka, Sirtaki, Polka o Hula?",
+   "tr": "¡El hula!",
+   "td": "Cada movimiento de manos del hula tiene un significado."
+  }
+ ],
+ "extra_tts": {
+  "an_tema": [
+   "anunciador",
+   "Hoy jugamos: ¡música, instrumentos y bailes del mundo!"
+  ],
+  "pr_intro": [
+   "presentador",
+   "¡Hola, familia! Hoy afinamos los oídos con cien preguntas de música, instrumentos y bailes. ¿Listos para sonar?"
+  ],
+  "co_intro": [
+   "copresentadora",
+   "Habrá guitarras, charangos, tangos y hasta una gaita. ¡Que gane quien tenga mejor oído!"
+  ],
+  "co_fama": [
+   "copresentadora",
+   "Y felicitaciones a los mejores jugadores del episodio anterior, que ya aparecen en pantalla. ¡Hoy tienen nuevos rivales!"
+  ],
+  "charla05_pr": [
+   "presentador",
+   "¡Cinco preguntas! Yo tengo ritmo hasta en los tornillos: ¡tic, tac, bum!"
+  ],
+  "charla05_co": [
+   "copresentadora",
+   "Eso se hace con baquetas, MAX. Familia, ¿ya miraron su puesto en el ranking del celular?"
+  ],
+  "charla10_pr": [
+   "presentador",
+   "¡Diez! Quería tocar la trompeta, pero soplar sin boca es difícil."
+  ],
+  "charla10_co": [
+   "copresentadora",
+   "Seguro lo intentas, MAX. Ahora vienen las imágenes misteriosas, ¡atentos, familia!"
+  ],
+  "charla15_pr": [
+   "presentador",
+   "¡Quince! Una gaita suena como un pato con mucho carácter, ¡me encanta!"
+  ],
+  "charla15_co": [
+   "copresentadora",
+   "Qué cosas dices, MAX. Familia, revisen el ranking en el celular."
+  ],
+  "charla20_pr": [
+   "presentador",
+   "¡Veinte! Adolphe Sax inventó el saxofón, y yo, el chiste malo de hoy."
+  ],
+  "charla20_co": [
+   "copresentadora",
+   "Ese chiste desafina, MAX. ¡Siguen las preguntas, familia!"
+  ]
+ },
+ "fotos_miniatura": [
+  [
+   6,
+   1
+  ],
+  [
+   18,
+   0
+  ],
+  [
+   14,
+   2
+  ]
+ ]
 }

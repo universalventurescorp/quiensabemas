@@ -2,7 +2,7 @@
  "id": "ep013",
  "fecha": "2026-11-17",
  "formato": "normal",
- "estado": "en_proceso",
+ "estado": "listo",
  "codigo_sala": "MITOS",
  "titulo": "Mitos y verdades: ¿lo sabías de verdad?",
  "titulo_youtube": "¿Mito o verdad? 100 preguntas de cultura general para jugar en familia | ¿Quién Sabe Más?",
@@ -19,6 +19,2501 @@
  "reto_miniatura": "¿Te lo creías?",
  "objetivo_preguntas": 100,
  "total_anunciado": 100,
- "preguntas": [],
- "extra_tts": {}
+ "preguntas": [
+  {
+   "n": 1,
+   "tema": "animales",
+   "p": "¿Qué comen la mayoría de los murciélagos?",
+   "o": [
+    "Sangre",
+    "Frutas",
+    "Pescado",
+    "Insectos"
+   ],
+   "c": 3,
+   "d": "Solo 3 de las más de 1.400 especies de murciélagos beben sangre.",
+   "tp": "¿Qué comen la mayoría de los murciélagos? ¿Sangre, Frutas, Pescado o Insectos?",
+   "tr": "¡Insectos! Los vampiros son rarísimos.",
+   "td": "Solo tres de las más de mil cuatrocientas especies de murciélagos beben sangre."
+  },
+  {
+   "n": 2,
+   "tema": "animales",
+   "p": "¿Qué hace de verdad un avestruz cuando siente peligro?",
+   "o": [
+    "Correr a toda velocidad",
+    "Esconder la cabeza",
+    "Volar a un árbol",
+    "Hacerse el dormido"
+   ],
+   "c": 0,
+   "img_q": "Ostrich running",
+   "img_modo": "revela",
+   "d": "Corre a más de 60 kilómetros por hora y nunca entierra la cabeza.",
+   "tp": "¿Qué hace de verdad un avestruz cuando siente peligro? ¿Correr a toda velocidad, Esconder la cabeza, Volar a un árbol o Hacerse el dormido?",
+   "tr": "¡Corre veloz! Nunca esconde la cabeza.",
+   "td": "Corre a más de sesenta kilómetros por hora y nunca entierra la cabeza."
+  },
+  {
+   "n": 3,
+   "tema": "cuerpo",
+   "p": "¿Qué pasa con un chicle que se traga sin querer?",
+   "o": [
+    "Se queda siete años",
+    "Sale del cuerpo en días",
+    "Se pega al estómago",
+    "Se vuelve saliva"
+   ],
+   "c": 1,
+   "d": "El cuerpo no lo digiere, pero lo empuja y sale con el resto de los desechos.",
+   "tp": "¿Qué pasa con un chicle que se traga sin querer? ¿sale del cuerpo en días, se queda siete años, se pega al estómago o se vuelve saliva?",
+   "tr": "¡Sale en pocos días! Nada de siete años.",
+   "td": "El cuerpo no lo digiere, pero lo empuja y sale con el resto de los desechos."
+  },
+  {
+   "n": 4,
+   "tema": "animales",
+   "p": "¿Cuánto puede recordar un pez dorado, contra el mito de los tres segundos?",
+   "o": [
+    "Tres segundos",
+    "Una hora",
+    "Meses",
+    "Un día"
+   ],
+   "c": 2,
+   "d": "Los científicos los han entrenado para reconocer sonidos y personas durante meses.",
+   "tp": "¿Cuánto puede recordar un pez dorado, contra el mito de los tres segundos? ¿Tres segundos, Una hora, Meses o Un día?",
+   "tr": "¡Meses! Tienen buena memoria.",
+   "td": "Los científicos los han entrenado para reconocer sonidos y personas durante meses."
+  },
+  {
+   "n": 5,
+   "tema": "historia",
+   "p": "¿Cómo eran en realidad los cascos de los guerreros vikingos?",
+   "o": [
+    "Con cuernos de toro",
+    "Con alas de águila",
+    "Hechos de madera",
+    "Redondos y sin cuernos"
+   ],
+   "c": 3,
+   "d": "Los cuernos se inventaron en un vestuario de ópera del siglo XIX.",
+   "tp": "¿Cómo eran en realidad los cascos de los guerreros vikingos? ¿Con cuernos de toro, Con alas de águila, Hechos de madera o Redondos y sin cuernos?",
+   "tr": "¡Sin cuernos! Eso fue cosa del teatro.",
+   "td": "Los cuernos se inventaron en un vestuario de ópera del siglo diecinueve."
+  },
+  {
+   "n": 6,
+   "tema": "cuerpo",
+   "p": "¿De qué color es la sangre dentro de las venas?",
+   "o": [
+    "Roja",
+    "Azul",
+    "Morada",
+    "Verde"
+   ],
+   "c": 0,
+   "d": "Las venas se ven azules por la piel, pero la sangre siempre es roja.",
+   "tp": "¿De qué color es la sangre dentro de las venas? ¿Roja, Azul, Morada o Verde?",
+   "tr": "¡Roja! Las venas solo parecen azules.",
+   "td": "Las venas se ven azules por la piel, pero la sangre siempre es roja."
+  },
+  {
+   "n": 7,
+   "tema": "comida",
+   "p": "¿Qué verdura comía Popeye para ponerse fuerte?",
+   "o": [
+    "Brócoli",
+    "Lechuga",
+    "Espinaca",
+    "Acelga"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "broccoli",
+     "src": "px"
+    },
+    {
+     "q": "lettuce",
+     "src": "px"
+    },
+    {
+     "q": "spinach",
+     "src": "px"
+    },
+    {
+     "q": "swiss chard",
+     "src": "px"
+    }
+   ],
+   "d": "Popeye la hizo famosa, pero comer espinaca no da superfuerza.",
+   "tp": "¿Qué verdura comía Popeye para ponerse fuerte? ¿Brócoli, Lechuga, Espinaca o Acelga?",
+   "tr": "¡Espinaca!",
+   "td": "Popeye la hizo famosa, pero comer espinaca no da superfuerza."
+  },
+  {
+   "n": 8,
+   "tema": "geografía",
+   "p": "¿Cuál es la capital de Australia, aunque muchos piensen en Sídney?",
+   "o": [
+    "Sídney",
+    "Canberra",
+    "Melbourne",
+    "Perth"
+   ],
+   "c": 1,
+   "d": "Canberra se diseñó a propósito como capital, entre Sídney y Melbourne.",
+   "tp": "¿Cuál es la capital de Australia, aunque muchos piensen en Sídney? ¿Sídney, Canberra, Melbourne o Perth?",
+   "tr": "¡Canberra, no Sídney!",
+   "td": "Canberra se diseñó a propósito como capital, entre Sídney y Melbourne."
+  },
+  {
+   "n": 9,
+   "tema": "ciencia",
+   "p": "¿Por qué vemos azul el cielo de día?",
+   "o": [
+    "Refleja el mar",
+    "Es pintura del aire",
+    "Hay gas azul",
+    "La luz azul se dispersa"
+   ],
+   "c": 3,
+   "d": "El aire desvía más la luz azul del Sol que la roja, y por eso lo vemos azul.",
+   "tp": "¿Por qué vemos azul el cielo de día? ¿la luz azul se dispersa, refleja el mar, es pintura del aire o hay gas azul?",
+   "tr": "¡La luz azul se dispersa más!",
+   "td": "El aire desvía más la luz azul del Sol que la roja, y por eso lo vemos azul."
+  },
+  {
+   "n": 10,
+   "tema": "animales",
+   "p": "¿Cuál de estos animales NO es un pez?",
+   "o": [
+    "Delfín",
+    "Atún",
+    "Tiburón",
+    "Caballito de mar"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "dolphin",
+     "src": "px"
+    },
+    {
+     "q": "tuna fish",
+     "src": "px"
+    },
+    {
+     "q": "shark",
+     "src": "px"
+    },
+    {
+     "q": "seahorse",
+     "src": "px"
+    }
+   ],
+   "d": "El delfín es un mamífero: respira aire y amamanta a sus crías.",
+   "tp": "¿Cuál de estos animales NO es un pez? ¿Delfín, Atún, Tiburón o Caballito de mar?",
+   "tr": "¡El delfín! Es un mamífero.",
+   "td": "El delfín es un mamífero: respira aire y amamanta a sus crías."
+  },
+  {
+   "n": 11,
+   "tema": "animales",
+   "ronda": "misteriosa",
+   "p": "¿Qué animal es este, cuya joroba guarda grasa y no agua?",
+   "o": [
+    "Alpaca",
+    "Búfalo",
+    "Camello",
+    "Caballo"
+   ],
+   "c": 2,
+   "img_q": "dromedary camel",
+   "img_modo": "pregunta",
+   "d": "La joroba almacena grasa, que usa como reserva de energía en el desierto.",
+   "tp": "¿Qué animal es este, cuya joroba guarda grasa y no agua? ¿Alpaca, Búfalo, Camello o Caballo?",
+   "tr": "¡El camello!",
+   "td": "La joroba almacena grasa, que usa como reserva de energía en el desierto."
+  },
+  {
+   "n": 12,
+   "tema": "animales",
+   "ronda": "misteriosa",
+   "p": "¿Qué animal es este, del que se dice que se enfurece al ver el color rojo?",
+   "o": [
+    "Caballo",
+    "Toro",
+    "Búfalo",
+    "Venado"
+   ],
+   "c": 1,
+   "img_q": "Spanish fighting bull",
+   "img_modo": "pregunta",
+   "d": "Los toros no distinguen bien el rojo: se enfurecen por el movimiento de la capa.",
+   "tp": "¿Qué animal es este, del que se dice que se enfurece al ver el color rojo? ¿Caballo, Toro, Búfalo o Venado?",
+   "tr": "¡El toro!",
+   "td": "Los toros no distinguen bien el rojo: se enfurecen por el movimiento de la capa."
+  },
+  {
+   "n": 13,
+   "tema": "geografía",
+   "ronda": "misteriosa",
+   "p": "¿Cómo se llama esta construcción china, de la que dicen que se ve desde el espacio?",
+   "o": [
+    "Ciudad Prohibida",
+    "Templo del Cielo",
+    "Palacio de Verano",
+    "Gran Muralla China"
+   ],
+   "c": 3,
+   "img_q": "Great Wall of China Badaling",
+   "img_modo": "pregunta",
+   "d": "Es muy larga pero angosta, y no se distingue a simple vista desde el espacio.",
+   "tp": "¿Cómo se llama esta construcción china, de la que dicen que se ve desde el espacio? ¿Ciudad Prohibida, Templo del Cielo, Palacio de Verano o Gran Muralla China?",
+   "tr": "¡La Gran Muralla China!",
+   "td": "Es muy larga pero angosta, y no se distingue a simple vista desde el espacio."
+  },
+  {
+   "n": 14,
+   "tema": "cuerpo",
+   "p": "¿Qué órgano, además del corazón, se escucha con un estetoscopio?",
+   "o": [
+    "Estómago",
+    "Hígado",
+    "Pulmón",
+    "Riñón"
+   ],
+   "c": 2,
+   "d": "El médico escucha el aire que entra y sale de los pulmones.",
+   "tp": "¿Qué órgano, además del corazón, se escucha con un estetoscopio? ¿pulmón, estómago, hígado o riñón?",
+   "tr": "¡El pulmón!",
+   "td": "El médico escucha el aire que entra y sale de los pulmones."
+  },
+  {
+   "n": 15,
+   "tema": "animales",
+   "p": "¿Por qué no es correcto llamar «oso» al koala?",
+   "o": [
+    "Es un marsupial",
+    "Es un roedor",
+    "Es un reptil",
+    "Es un primate"
+   ],
+   "c": 0,
+   "d": "Las crías de koala viven los primeros meses en la bolsa de su madre.",
+   "tp": "¿Por qué no es correcto llamar «oso» al koala? ¿Es un marsupial, Es un roedor, Es un reptil o Es un primate?",
+   "tr": "¡Es un marsupial!",
+   "td": "Las crías de koala viven los primeros meses en la bolsa de su madre."
+  },
+  {
+   "n": 16,
+   "tema": "cuerpo",
+   "p": "¿En qué zona de la lengua se perciben los sabores?",
+   "o": [
+    "Solo en la punta",
+    "En toda la lengua",
+    "Solo en el fondo",
+    "Solo en los bordes"
+   ],
+   "c": 1,
+   "d": "El famoso «mapa de la lengua» es un mito: todas las zonas detectan todos los sabores.",
+   "tp": "¿En qué zona de la lengua se perciben los sabores? ¿en toda la lengua, solo en la punta, solo en el fondo o solo en los bordes?",
+   "tr": "¡En toda la lengua!",
+   "td": "El famoso «mapa de la lengua» es un mito: todas las zonas detectan todos los sabores."
+  },
+  {
+   "n": 17,
+   "tema": "espacio",
+   "p": "¿Qué pasa con la «cara oculta» de la Luna?",
+   "o": [
+    "Siempre está a oscuras",
+    "Es de hielo",
+    "Es de otro color",
+    "También recibe luz del Sol"
+   ],
+   "c": 3,
+   "d": "La Luna gira tan despacio que siempre vemos la misma cara, pero la otra también se ilumina.",
+   "tp": "¿Qué pasa con la «cara oculta» de la Luna? ¿Siempre está a oscuras, Es de hielo, Es de otro color o También recibe luz del Sol?",
+   "tr": "¡También recibe luz!",
+   "td": "La Luna gira tan despacio que siempre vemos la misma cara, pero la otra también se ilumina."
+  },
+  {
+   "n": 18,
+   "tema": "historia",
+   "p": "¿Cuánto medía más o menos Napoleón Bonaparte, tan famoso por su fama de bajito?",
+   "o": [
+    "Menos de 1,40 metros",
+    "Unos 1,68 metros",
+    "Más de 1,90 metros",
+    "Unos 2 metros"
+   ],
+   "c": 1,
+   "d": "Para su época era una estatura normal; el mito vino de caricaturas y de confusiones con las medidas.",
+   "tp": "¿Cuánto medía más o menos Napoleón Bonaparte, tan famoso por su fama de bajito? ¿unos un metro sesenta y ocho, menos de un metro cuarenta, más de un metro noventa o unos dos metros?",
+   "tr": "¡Era de estatura normal!",
+   "td": "Para su época era una estatura normal; el mito vino de caricaturas y de confusiones con las medidas."
+  },
+  {
+   "n": 19,
+   "tema": "Perú",
+   "p": "¿Cuál de estos animales andinos NO es un camélido?",
+   "o": [
+    "Chinchilla",
+    "Llama",
+    "Alpaca",
+    "Vicuña"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "chinchilla",
+     "src": "px"
+    },
+    {
+     "q": "llama",
+     "src": "px"
+    },
+    {
+     "q": "alpaca",
+     "src": "px"
+    },
+    {
+     "q": "vicuna",
+     "src": "px"
+    }
+   ],
+   "d": "Llama, alpaca, vicuña y guanaco son camélidos sudamericanos; la chinchilla es un roedor.",
+   "tp": "¿Cuál de estos animales andinos NO es un camélido? ¿Chinchilla, Llama, Alpaca o Vicuña?",
+   "tr": "¡La chinchilla!",
+   "td": "Llama, alpaca, vicuña y guanaco son camélidos sudamericanos; la chinchilla es un roedor."
+  },
+  {
+   "n": 20,
+   "tema": "Latinoamérica",
+   "p": "¿Qué país tiene a La Paz como sede de gobierno y a Sucre como capital?",
+   "o": [
+    "Ecuador",
+    "Paraguay",
+    "Bolivia",
+    "Chile"
+   ],
+   "c": 2,
+   "d": "Bolivia tiene a Sucre como capital constitucional y a La Paz como sede del gobierno.",
+   "tp": "¿Qué país tiene a La Paz como sede de gobierno y a Sucre como capital? ¿Ecuador, Paraguay, Bolivia o Chile?",
+   "tr": "¡Bolivia!",
+   "td": "Bolivia tiene a Sucre como capital constitucional y a La Paz como sede del gobierno."
+  },
+  {
+   "n": 21,
+   "tema": "animales",
+   "ronda": "vf",
+   "p": "Las serpientes son animales viscosos y mojados al tocarlas.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Su piel es seca y lisa, cubierta de escamas.",
+   "tp": "¿Verdadero o falso? Las serpientes son animales viscosos y mojados al tocarlas.",
+   "tr": "¡Falso! Su piel es seca.",
+   "td": "Su piel es seca y lisa, cubierta de escamas."
+  },
+  {
+   "n": 22,
+   "tema": "animales",
+   "ronda": "vf",
+   "p": "Tocar un sapo da verrugas.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Las bolitas de su piel son glándulas; las verrugas las causa un virus humano.",
+   "tp": "¿Verdadero o falso? Tocar un sapo da verrugas.",
+   "tr": "¡Falso! Son glándulas, no verrugas.",
+   "td": "Las bolitas de su piel son glándulas; las verrugas las causa un virus humano."
+  },
+  {
+   "n": 23,
+   "tema": "animales",
+   "ronda": "vf",
+   "p": "Los osos polares tienen la piel negra.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Su pelo es transparente y debajo la piel es negra para absorber el calor del Sol.",
+   "tp": "¿Verdadero o falso? Los osos polares tienen la piel negra.",
+   "tr": "¡Verdadero! Debajo del pelo son negros.",
+   "td": "Su pelo es transparente y debajo la piel es negra para absorber el calor del Sol."
+  },
+  {
+   "n": 24,
+   "tema": "ciencia",
+   "p": "En una tormenta, ¿qué percibimos primero?",
+   "o": [
+    "El trueno",
+    "Los dos a la vez",
+    "El viento",
+    "El relámpago"
+   ],
+   "c": 3,
+   "d": "La luz viaja mucho más rápido que el sonido, y por eso vemos el relámpago antes de oír el trueno.",
+   "tp": "En una tormenta, ¿qué percibimos primero? ¿el relámpago, el trueno, los dos a la vez o el viento?",
+   "tr": "¡Primero el relámpago!",
+   "td": "La luz viaja mucho más rápido que el sonido, y por eso vemos el relámpago antes de oír el trueno."
+  },
+  {
+   "n": 25,
+   "tema": "comida",
+   "p": "¿Cuál de estos alimentos llegó a Europa desde América?",
+   "o": [
+    "Tomate",
+    "Naranja",
+    "Aceituna",
+    "Uva"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "tomato",
+     "src": "px"
+    },
+    {
+     "q": "orange fruit",
+     "src": "px"
+    },
+    {
+     "q": "olives",
+     "src": "px"
+    },
+    {
+     "q": "grapes",
+     "src": "px"
+    }
+   ],
+   "d": "El tomate, la papa y el maíz llegaron de América después de 1492.",
+   "tp": "¿Cuál de estos alimentos llegó a Europa desde América? ¿Tomate, Naranja, Aceituna o Uva?",
+   "tr": "¡El tomate!",
+   "td": "El tomate, la papa y el maíz llegaron de América después de mil cuatrocientos noventa y dos."
+  },
+  {
+   "n": 26,
+   "tema": "animales",
+   "p": "¿Cuál de estos animales NO es un reptil?",
+   "o": [
+    "Serpiente",
+    "Cocodrilo",
+    "Salamandra",
+    "Iguana"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "snake",
+     "src": "px"
+    },
+    {
+     "q": "crocodile",
+     "src": "px"
+    },
+    {
+     "q": "salamander",
+     "src": "px"
+    },
+    {
+     "q": "iguana",
+     "src": "px"
+    }
+   ],
+   "d": "La salamandra es un anfibio, de piel húmeda y sin escamas.",
+   "tp": "¿Cuál de estos animales NO es un reptil? ¿Serpiente, Cocodrilo, Salamandra o Iguana?",
+   "tr": "¡La salamandra!",
+   "td": "La salamandra es un anfibio, de piel húmeda y sin escamas."
+  },
+  {
+   "n": 27,
+   "tema": "deportes",
+   "p": "¿Qué deporte se juega con un palo llamado «taco» sobre una mesa con bolas?",
+   "o": [
+    "Golf",
+    "Billar",
+    "Croquet",
+    "Curling"
+   ],
+   "c": 1,
+   "d": "El taco golpea la bola blanca para meter las otras en las troneras.",
+   "tp": "¿Qué deporte se juega con un palo llamado «taco» sobre una mesa con bolas? ¿Golf, Billar, Croquet o Curling?",
+   "tr": "¡El billar!",
+   "td": "El taco golpea la bola blanca para meter las otras en las troneras."
+  },
+  {
+   "n": 28,
+   "tema": "geografía",
+   "p": "¿Qué mar baña las costas de Italia, España y Grecia?",
+   "o": [
+    "Báltico",
+    "Mediterráneo",
+    "Caribe",
+    "Negro"
+   ],
+   "c": 1,
+   "d": "Su nombre significa «en medio de las tierras».",
+   "tp": "¿Qué mar baña las costas de Italia, España y Grecia? ¿Báltico, Mediterráneo, Caribe o Negro?",
+   "tr": "¡El Mediterráneo!",
+   "td": "Su nombre significa «en medio de las tierras»."
+  },
+  {
+   "n": 29,
+   "tema": "música",
+   "p": "¿De qué país viene el sitar, un instrumento de cuerdas de cuello largo?",
+   "o": [
+    "Egipto",
+    "Japón",
+    "Grecia",
+    "India"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "flag": "eg"
+    },
+    {
+     "flag": "jp"
+    },
+    {
+     "flag": "gr"
+    },
+    {
+     "flag": "in"
+    }
+   ],
+   "d": "El sitar tiene muchas cuerdas, algunas que vibran solas por simpatía.",
+   "tp": "¿De qué país viene el sitar, un instrumento de cuerdas de cuello largo? ¿Egipto, Japón, Grecia o India?",
+   "tr": "¡La India!",
+   "td": "El sitar tiene muchas cuerdas, algunas que vibran solas por simpatía."
+  },
+  {
+   "n": 30,
+   "tema": "idiomas",
+   "p": "¿Qué país sudamericano tiene el neerlandés como idioma oficial?",
+   "o": [
+    "Surinam",
+    "Guyana",
+    "Paraguay",
+    "Bolivia"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "flag": "sr"
+    },
+    {
+     "flag": "gy"
+    },
+    {
+     "flag": "py"
+    },
+    {
+     "flag": "bo"
+    }
+   ],
+   "d": "El neerlandés es oficial en Surinam, aunque allí se hablan muchas lenguas más.",
+   "tp": "¿Qué país sudamericano tiene el neerlandés como idioma oficial? ¿Surinam, Guyana, Paraguay o Bolivia?",
+   "tr": "¡Surinam!",
+   "td": "El neerlandés es oficial en Surinam, aunque allí se hablan muchas lenguas más."
+  },
+  {
+   "n": 31,
+   "tema": "naturaleza",
+   "p": "¿Qué planta puede crecer casi un metro en un solo día?",
+   "o": [
+    "Roble",
+    "Pino",
+    "Bambú",
+    "Cactus"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "oak tree",
+     "src": "px"
+    },
+    {
+     "q": "pine tree",
+     "src": "px"
+    },
+    {
+     "q": "bamboo forest",
+     "src": "px"
+    },
+    {
+     "q": "cactus",
+     "src": "px"
+    }
+   ],
+   "d": "Algunas especies de bambú crecen tan rápido que casi se les ve moverse.",
+   "tp": "¿Qué planta puede crecer casi un metro en un solo día? ¿Roble, Pino, Bambú o Cactus?",
+   "tr": "¡El bambú!",
+   "td": "Algunas especies de bambú crecen tan rápido que casi se les ve moverse."
+  },
+  {
+   "n": 32,
+   "tema": "ciencia",
+   "p": "¿Qué pesa más: un kilo de plumas o un kilo de hierro?",
+   "o": [
+    "Pesan lo mismo",
+    "El hierro",
+    "Las plumas",
+    "Depende del día"
+   ],
+   "c": 0,
+   "d": "Un kilo es un kilo, sea de lo que sea; solo cambia el tamaño.",
+   "tp": "¿Qué pesa más: un kilo de plumas o un kilo de hierro? ¿pesan lo mismo, el hierro, las plumas o depende del día?",
+   "tr": "¡Pesan lo mismo!",
+   "td": "Un kilo es un kilo, sea de lo que sea; solo cambia el tamaño."
+  },
+  {
+   "n": 33,
+   "tema": "cuerpo",
+   "p": "¿Qué parte del cuerpo de un adulto es agua, más o menos?",
+   "o": [
+    "Alrededor del 10 %",
+    "Alrededor del 25 %",
+    "Casi el 95 %",
+    "Alrededor del 60 %"
+   ],
+   "c": 3,
+   "d": "Por eso necesitamos tomar agua todos los días.",
+   "tp": "¿Qué parte del cuerpo de un adulto es agua, más o menos? ¿alrededor del sesenta por ciento, alrededor del diez por ciento, alrededor del veinticinco por ciento o casi el noventa y cinco por ciento?",
+   "tr": "¡Más de la mitad!",
+   "td": "Por eso necesitamos tomar agua todos los días."
+  },
+  {
+   "n": 34,
+   "tema": "historia",
+   "p": "¿Quiénes construyeron las pirámides de Guiza, según los hallazgos?",
+   "o": [
+    "Esclavos extranjeros",
+    "Obreros egipcios pagados",
+    "Extraterrestres",
+    "Gigantes"
+   ],
+   "c": 1,
+   "d": "Se han hallado las aldeas, panaderías y tumbas de los trabajadores que las levantaron.",
+   "tp": "¿Quiénes construyeron las pirámides de Guiza, según los hallazgos? ¿obreros egipcios pagados, esclavos extranjeros, extraterrestres o gigantes?",
+   "tr": "¡Obreros egipcios! Con pan y cerveza incluidos.",
+   "td": "Se han hallado las aldeas, panaderías y tumbas de los trabajadores que las levantaron."
+  },
+  {
+   "n": 35,
+   "tema": "geografía",
+   "p": "¿Cuál es el desierto más grande del mundo?",
+   "o": [
+    "Sahara",
+    "Gobi",
+    "Antártida",
+    "Arábigo"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "Sahara desert dunes",
+     "src": "cm",
+     "must": "Sahara"
+    },
+    {
+     "q": "Gobi desert",
+     "src": "cm",
+     "must": "Gobi"
+    },
+    {
+     "q": "Antarctica ice desert",
+     "src": "cm",
+     "must": "Antarctic"
+    },
+    {
+     "q": "Rub al Khali desert",
+     "src": "cm",
+     "must": "Rub"
+    }
+   ],
+   "d": "Un desierto es un lugar con muy pocas lluvias, y la Antártida casi no recibe precipitaciones.",
+   "tp": "¿Cuál es el desierto más grande del mundo? ¿Sahara, Gobi, Antártida o Arábigo?",
+   "tr": "¡La Antártida! El Sahara es el mayor cálido.",
+   "td": "Un desierto es un lugar con muy pocas lluvias, y la Antártida casi no recibe precipitaciones."
+  },
+  {
+   "n": 36,
+   "tema": "animales",
+   "p": "¿Cuál de estos animales no puede saltar?",
+   "o": [
+    "Elefante",
+    "Canguro",
+    "Rana",
+    "Saltamontes"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "elephant",
+     "src": "px"
+    },
+    {
+     "q": "kangaroo",
+     "src": "px"
+    },
+    {
+     "q": "frog",
+     "src": "px"
+    },
+    {
+     "q": "grasshopper",
+     "src": "px"
+    }
+   ],
+   "d": "Sus patas rectas y su enorme peso se lo impiden.",
+   "tp": "¿Cuál de estos animales no puede saltar? ¿Elefante, Canguro, Rana o Saltamontes?",
+   "tr": "¡El elefante!",
+   "td": "Sus patas rectas y su enorme peso se lo impiden."
+  },
+  {
+   "n": 37,
+   "tema": "ciencia",
+   "p": "¿Cuál es el metal más ligero de todos?",
+   "o": [
+    "Aluminio",
+    "Hierro",
+    "Litio",
+    "Plomo"
+   ],
+   "c": 2,
+   "d": "Flota en el agua y se usa en las baterías de celulares.",
+   "tp": "¿Cuál es el metal más ligero de todos? ¿Aluminio, Hierro, Litio o Plomo?",
+   "tr": "¡El litio!",
+   "td": "Flota en el agua y se usa en las baterías de celulares."
+  },
+  {
+   "n": 38,
+   "tema": "Latinoamérica",
+   "p": "¿Qué país latinoamericano es el mayor productor de café del mundo?",
+   "o": [
+    "Colombia",
+    "Perú",
+    "México",
+    "Brasil"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "flag": "co"
+    },
+    {
+     "flag": "pe"
+    },
+    {
+     "flag": "mx"
+    },
+    {
+     "flag": "br"
+    }
+   ],
+   "d": "Brasil lleva muchas décadas como el mayor productor de café del planeta.",
+   "tp": "¿Qué país latinoamericano es el mayor productor de café del mundo? ¿Colombia, Perú, México o Brasil?",
+   "tr": "¡Brasil!",
+   "td": "Brasil lleva muchas décadas como el mayor productor de café del planeta."
+  },
+  {
+   "n": 39,
+   "tema": "historia",
+   "p": "En tiempos de Colón, los marinos y sabios ya sabían que la Tierra era…",
+   "o": [
+    "Plana",
+    "Redonda",
+    "Cuadrada",
+    "Hueca"
+   ],
+   "c": 1,
+   "d": "Los griegos ya lo sabían hace más de 2.000 años.",
+   "tp": "En tiempos de Colón, los marinos y sabios ya sabían que la Tierra era… ¿Plana, Redonda, Cuadrada o Hueca?",
+   "tr": "¡Redonda! Eso ya se sabía.",
+   "td": "Los griegos ya lo sabían hace más de dos mil años."
+  },
+  {
+   "n": 40,
+   "tema": "espacio",
+   "p": "¿Qué planeta tiene el volcán más alto del sistema solar, el monte Olimpo?",
+   "o": [
+    "Marte",
+    "Venus",
+    "Júpiter",
+    "Mercurio"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "Mars planet Hubble",
+     "src": "cm",
+     "must": "Mars",
+     "not": [
+      "comparison",
+      "size"
+     ]
+    },
+    {
+     "q": "Venus real color Mariner",
+     "src": "cm",
+     "must": "Venus",
+     "not": [
+      "comparison",
+      "size"
+     ]
+    },
+    {
+     "q": "Jupiter planet Cassini",
+     "src": "cm",
+     "must": "Jupiter",
+     "not": [
+      "comparison",
+      "size"
+     ]
+    },
+    {
+     "q": "Mercury planet MESSENGER",
+     "src": "cm",
+     "must": "Mercury",
+     "not": [
+      "comparison",
+      "size"
+     ]
+    }
+   ],
+   "d": "El monte Olimpo mide casi 22 kilómetros: unas 2,5 veces el Everest.",
+   "tp": "¿Qué planeta tiene el volcán más alto del sistema solar, el monte Olimpo? ¿Marte, Venus, Júpiter o Mercurio?",
+   "tr": "¡Marte!",
+   "td": "El monte Olimpo mide casi veintidós kilómetros: unas dos veces y media el Everest."
+  },
+  {
+   "n": 41,
+   "tema": "ciencia",
+   "ronda": "relampago",
+   "p": "¿Cuántos ojos tiene un cíclope de los mitos?",
+   "o": [
+    "Dos",
+    "Tres",
+    "Uno",
+    "Cuatro"
+   ],
+   "c": 2,
+   "d": "«Cíclope» viene del griego y significa «ojo redondo».",
+   "tp": "¿Cuántos ojos tiene un cíclope de los mitos? ¿Dos, Tres, Uno o Cuatro?",
+   "tr": "¡Uno!",
+   "td": "«Cíclope» viene del griego y significa «ojo redondo»."
+  },
+  {
+   "n": 42,
+   "tema": "animales",
+   "ronda": "relampago",
+   "p": "¿Qué animal salta y croa en el estanque?",
+   "o": [
+    "Pato",
+    "Tortuga",
+    "Pez",
+    "Rana"
+   ],
+   "c": 3,
+   "d": "Una rana puede saltar muchas veces su propia longitud.",
+   "tp": "¿Qué animal salta y croa en el estanque? ¿Pato, Tortuga, Pez o Rana?",
+   "tr": "¡Rana!",
+   "td": "Una rana puede saltar muchas veces su propia longitud."
+  },
+  {
+   "n": 43,
+   "tema": "comida",
+   "ronda": "relampago",
+   "p": "¿Qué fruta se llama igual que su color?",
+   "o": [
+    "Limón",
+    "Naranja",
+    "Fresa",
+    "Uva"
+   ],
+   "c": 1,
+   "d": "La fruta dio nombre al color, y no al revés.",
+   "tp": "¿Qué fruta se llama igual que su color? ¿Limón, Naranja, Fresa o Uva?",
+   "tr": "¡Naranja!",
+   "td": "La fruta dio nombre al color, y no al revés."
+  },
+  {
+   "n": 44,
+   "tema": "idiomas",
+   "ronda": "relampago",
+   "p": "¿Cuántas letras tiene la palabra «sol»?",
+   "o": [
+    "Tres",
+    "Dos",
+    "Cuatro",
+    "Cinco"
+   ],
+   "c": 0,
+   "d": "Es una palabra corta y se escribe igual en muchos idiomas.",
+   "tp": "¿Cuántas letras tiene la palabra «sol»? ¿Tres, Dos, Cuatro o Cinco?",
+   "tr": "¡Tres!",
+   "td": "Es una palabra corta y se escribe igual en muchos idiomas."
+  },
+  {
+   "n": 45,
+   "tema": "espacio",
+   "ronda": "relampago",
+   "p": "¿Qué brilla en el cielo de noche y cambia de forma?",
+   "o": [
+    "Sol",
+    "Nube",
+    "Avión",
+    "Luna"
+   ],
+   "c": 3,
+   "d": "La Luna no tiene luz propia: refleja la del Sol.",
+   "tp": "¿Qué brilla en el cielo de noche y cambia de forma? ¿Sol, Nube, Avión o Luna?",
+   "tr": "¡La Luna!",
+   "td": "La Luna no tiene luz propia: refleja la del Sol."
+  },
+  {
+   "n": 46,
+   "tema": "cuerpo",
+   "p": "¿Cómo se llama la parte coloreada del ojo?",
+   "o": [
+    "Pupila",
+    "Iris",
+    "Retina",
+    "Córnea"
+   ],
+   "c": 1,
+   "d": "Su color depende de la cantidad de melanina que tenga.",
+   "tp": "¿Cómo se llama la parte coloreada del ojo? ¿Pupila, Iris, Retina o Córnea?",
+   "tr": "¡El iris!",
+   "td": "Su color depende de la cantidad de melanina que tenga."
+  },
+  {
+   "n": 47,
+   "tema": "animales",
+   "p": "¿Qué ave que no vuela es el símbolo de Nueva Zelanda?",
+   "o": [
+    "Emú",
+    "Avestruz",
+    "Kiwi",
+    "Pingüino"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "emu",
+     "src": "px"
+    },
+    {
+     "q": "ostrich",
+     "src": "px"
+    },
+    {
+     "q": "kiwi bird",
+     "src": "px"
+    },
+    {
+     "q": "penguin",
+     "src": "px"
+    }
+   ],
+   "d": "El kiwi es nocturno y tiene su olfato en la punta del pico.",
+   "tp": "¿Qué ave que no vuela es el símbolo de Nueva Zelanda? ¿Emú, Avestruz, Kiwi o Pingüino?",
+   "tr": "¡El kiwi!",
+   "td": "El kiwi es nocturno y tiene su olfato en la punta del pico."
+  },
+  {
+   "n": 48,
+   "tema": "comida",
+   "p": "¿Cuál de estos granos es originario de los Andes?",
+   "o": [
+    "Arroz",
+    "Trigo",
+    "Centeno",
+    "Quinua"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "rice grain",
+     "src": "px"
+    },
+    {
+     "q": "wheat",
+     "src": "px"
+    },
+    {
+     "q": "rye",
+     "src": "px"
+    },
+    {
+     "q": "quinoa grain",
+     "src": "px"
+    }
+   ],
+   "d": "Los incas la llamaban «grano madre» y hoy se cultiva en todo el mundo.",
+   "tp": "¿Cuál de estos granos es originario de los Andes? ¿Arroz, Trigo, Centeno o Quinua?",
+   "tr": "¡La quinua!",
+   "td": "Los incas la llamaban «grano madre» y hoy se cultiva en todo el mundo."
+  },
+  {
+   "n": 49,
+   "tema": "ciencia",
+   "p": "¿Qué elemento químico tiene el símbolo Fe?",
+   "o": [
+    "Flúor",
+    "Fósforo",
+    "Hierro",
+    "Plata"
+   ],
+   "c": 2,
+   "d": "Viene del latín «ferrum».",
+   "tp": "¿Qué elemento químico tiene el símbolo Fe? ¿hierro, flúor, fósforo o plata?",
+   "tr": "¡El hierro!",
+   "td": "Viene del latín «ferrum»."
+  },
+  {
+   "n": 50,
+   "tema": "historia",
+   "p": "¿De qué origen era Cleopatra, la última reina de Egipto?",
+   "o": [
+    "Egipcio",
+    "Griego",
+    "Nubio",
+    "Persa"
+   ],
+   "c": 1,
+   "d": "Descendía de un general de Alejandro Magno, aunque aprendió el idioma egipcio.",
+   "tp": "¿De qué origen era Cleopatra, la última reina de Egipto? ¿Egipcio, Griego, Nubio o Persa?",
+   "tr": "¡Griego! Y eso que reinó en Egipto.",
+   "td": "Descendía de un general de Alejandro Magno, aunque aprendió el idioma egipcio."
+  },
+  {
+   "n": 51,
+   "tema": "geografía",
+   "p": "¿Cuál es el segundo país más grande del mundo por superficie?",
+   "o": [
+    "Canadá",
+    "China",
+    "Estados Unidos",
+    "Brasil"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "flag": "ca"
+    },
+    {
+     "flag": "cn"
+    },
+    {
+     "flag": "us"
+    },
+    {
+     "flag": "br"
+    }
+   ],
+   "d": "Solo Rusia es más grande, y Canadá tiene más lagos que ningún otro país.",
+   "tp": "¿Cuál es el segundo país más grande del mundo por superficie? ¿Canadá, China, Estados Unidos o Brasil?",
+   "tr": "¡Canadá!",
+   "td": "Solo Rusia es más grande, y Canadá tiene más lagos que ningún otro país."
+  },
+  {
+   "n": 52,
+   "tema": "animales",
+   "p": "¿Para qué cambian de color los camaleones, sobre todo?",
+   "o": [
+    "Esconderse siempre",
+    "Mostrar ánimo y calor",
+    "Asustar al sol",
+    "Pintar su casa"
+   ],
+   "c": 1,
+   "d": "Su color cambia según su estado de ánimo, la luz y la temperatura.",
+   "tp": "¿Para qué cambian de color los camaleones, sobre todo? ¿mostrar ánimo y calor, esconderse siempre, asustar al sol o pintar su casa?",
+   "tr": "¡Para comunicarse y regular su calor!",
+   "td": "Su color cambia según su estado de ánimo, la luz y la temperatura."
+  },
+  {
+   "n": 53,
+   "tema": "ciencia",
+   "p": "¿De qué están hechas las nubes?",
+   "o": [
+    "Gotitas de agua y hielo",
+    "Humo",
+    "Vapor invisible",
+    "Algodón"
+   ],
+   "c": 0,
+   "d": "El vapor de agua es invisible: lo que vemos son gotitas y cristales diminutos.",
+   "tp": "¿De qué están hechas las nubes? ¿gotitas de agua y hielo, humo, vapor invisible o algodón?",
+   "tr": "¡Gotitas de agua y hielo!",
+   "td": "El vapor de agua es invisible: lo que vemos son gotitas y cristales diminutos."
+  },
+  {
+   "n": 54,
+   "tema": "Perú",
+   "p": "¿Qué cultura hizo las enormes líneas de Nazca, en el desierto del Perú?",
+   "o": [
+    "Inca",
+    "Chimú",
+    "Nazca",
+    "Moche"
+   ],
+   "c": 2,
+   "img_q": "Nazca Lines hummingbird",
+   "img_modo": "revela",
+   "d": "Fueron hechas hace unos 2.000 años y se ven completas solo desde el aire.",
+   "tp": "¿Qué cultura hizo las enormes líneas de Nazca, en el desierto del Perú? ¿Inca, Chimú, Nazca o Moche?",
+   "tr": "¡La cultura Nazca!",
+   "td": "Fueron hechas hace unos dos mil años y se ven completas solo desde el aire."
+  },
+  {
+   "n": 55,
+   "tema": "deportes",
+   "p": "¿Qué deporte se inventó en 1891 usando cestas de duraznos como aros?",
+   "o": [
+    "Voleibol",
+    "Béisbol",
+    "Fútbol",
+    "Baloncesto"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "volleyball",
+     "src": "px"
+    },
+    {
+     "q": "baseball",
+     "src": "px"
+    },
+    {
+     "q": "soccer ball",
+     "src": "px"
+    },
+    {
+     "q": "basketball",
+     "src": "px"
+    }
+   ],
+   "d": "Lo inventó James Naismith, un profesor, para jugar en invierno bajo techo.",
+   "tp": "¿Qué deporte se inventó en mil ochocientos noventa y uno usando cestas de duraznos como aros? ¿Voleibol, Béisbol, Fútbol o Baloncesto?",
+   "tr": "¡El baloncesto!",
+   "td": "Lo inventó James Naismith, un profesor, para jugar en invierno bajo techo."
+  },
+  {
+   "n": 56,
+   "tema": "geografía",
+   "ronda": "misteriosa",
+   "p": "¿Cómo se llama esta torre italiana famosa por inclinarse?",
+   "o": [
+    "Torre de Pisa",
+    "Torre Eiffel",
+    "Big Ben",
+    "Torre de Belém"
+   ],
+   "c": 0,
+   "img_q": "Leaning Tower of Pisa",
+   "img_modo": "pregunta",
+   "d": "Empezó a inclinarse mientras la construían, porque el suelo era blando.",
+   "tp": "¿Cómo se llama esta torre italiana famosa por inclinarse? ¿Torre de Pisa, Torre Eiffel, Big Ben o Torre de Belém?",
+   "tr": "¡La Torre de Pisa!",
+   "td": "Empezó a inclinarse mientras la construían, porque el suelo era blando."
+  },
+  {
+   "n": 57,
+   "tema": "animales",
+   "ronda": "misteriosa",
+   "p": "¿Qué animal es este, de caparazón hecho de placas, que vive en América?",
+   "o": [
+    "Tortuga",
+    "Armadillo",
+    "Pangolín",
+    "Erizo"
+   ],
+   "c": 1,
+   "img_q": "armadillo",
+   "img_modo": "pregunta",
+   "d": "Algunos armadillos se hacen una bola, pero solo los de tres bandas lo hacen por completo.",
+   "tp": "¿Qué animal es este, de caparazón hecho de placas, que vive en América? ¿Tortuga, Armadillo, Pangolín o Erizo?",
+   "tr": "¡El armadillo!",
+   "td": "Algunos armadillos se hacen una bola, pero solo los de tres bandas lo hacen por completo."
+  },
+  {
+   "n": 58,
+   "tema": "comida",
+   "ronda": "misteriosa",
+   "p": "¿Cómo se llama esta fruta espinosa de olor muy fuerte, del sudeste de Asia?",
+   "o": [
+    "Lichi",
+    "Rambután",
+    "Durián",
+    "Papaya"
+   ],
+   "c": 2,
+   "img_q": "durian fruit",
+   "img_modo": "pregunta",
+   "d": "Su olor es tan intenso que está prohibida en algunos hoteles.",
+   "tp": "¿Cómo se llama esta fruta espinosa de olor muy fuerte, del sudeste de Asia? ¿Lichi, Rambután, Durián o Papaya?",
+   "tr": "¡El durián!",
+   "td": "Su olor es tan intenso que está prohibida en algunos hoteles."
+  },
+  {
+   "n": 59,
+   "tema": "ciencia",
+   "p": "¿Qué puede llegar a ser más caliente que la superficie del Sol?",
+   "o": [
+    "Un volcán",
+    "Un incendio",
+    "Un horno",
+    "Un rayo"
+   ],
+   "c": 3,
+   "d": "El aire alrededor de un rayo llega a unos 30.000 grados.",
+   "tp": "¿Qué puede llegar a ser más caliente que la superficie del Sol? ¿Un volcán, Un incendio, Un horno o Un rayo?",
+   "tr": "¡Un rayo!",
+   "td": "El aire alrededor de un rayo llega a unos treinta mil grados."
+  },
+  {
+   "n": 60,
+   "tema": "ciencia",
+   "p": "¿En qué dos ciencias ganó Marie Curie el Premio Nobel?",
+   "o": [
+    "Medicina y Física",
+    "Química y Paz",
+    "Física y Química",
+    "Biología y Física"
+   ],
+   "c": 2,
+   "d": "Fue la primera persona en ganar dos premios Nobel.",
+   "tp": "¿En qué dos ciencias ganó Marie Curie el Premio Nobel? ¿Medicina y Física, Química y Paz, Física y Química o Biología y Física?",
+   "tr": "¡Física y Química!",
+   "td": "Fue la primera persona en ganar dos premios Nobel."
+  },
+  {
+   "n": 61,
+   "tema": "animales",
+   "p": "¿Qué animal del Ártico tiene un largo cuerno en espiral?",
+   "o": [
+    "Narval",
+    "Morsa",
+    "Beluga",
+    "Orca"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "narwhal",
+     "src": "px"
+    },
+    {
+     "q": "walrus",
+     "src": "px"
+    },
+    {
+     "q": "beluga whale",
+     "src": "px"
+    },
+    {
+     "q": "orca",
+     "src": "px"
+    }
+   ],
+   "d": "El «cuerno» es en realidad un colmillo; dio pie a la leyenda del unicornio de mar.",
+   "tp": "¿Qué animal del Ártico tiene un largo cuerno en espiral? ¿Narval, Morsa, Beluga o Orca?",
+   "tr": "¡El narval!",
+   "td": "El «cuerno» es en realidad un colmillo; dio pie a la leyenda del unicornio de mar."
+  },
+  {
+   "n": 62,
+   "tema": "geografía",
+   "p": "¿Qué montaña es la más alta del mundo si se mide desde el fondo del mar?",
+   "o": [
+    "Everest",
+    "K2",
+    "Kilimanjaro",
+    "Mauna Kea"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "Mount Everest",
+     "src": "cm",
+     "must": "Everest",
+     "not": [
+      "map"
+     ]
+    },
+    {
+     "q": "K2 mountain",
+     "src": "cm",
+     "must": "K2",
+     "not": [
+      "map"
+     ]
+    },
+    {
+     "q": "Kilimanjaro",
+     "src": "cm",
+     "must": "Kilimanjaro",
+     "not": [
+      "map"
+     ]
+    },
+    {
+     "q": "Mauna Kea summit",
+     "src": "cm",
+     "must": "Mauna",
+     "not": [
+      "map"
+     ]
+    }
+   ],
+   "d": "Mide más de 10.000 metros desde el fondo del océano, aunque sobre el mar tiene unos 4.200.",
+   "tp": "¿Qué montaña es la más alta del mundo si se mide desde el fondo del mar? ¿Everest, K dos, Kilimanjaro o Mauna Kea?",
+   "tr": "¡El Mauna Kea!",
+   "td": "Mide más de diez mil metros desde el fondo del océano, aunque sobre el mar tiene unos cuatro mil doscientos."
+  },
+  {
+   "n": 63,
+   "tema": "ciencia",
+   "p": "¿Qué fruta es botánicamente una baya?",
+   "o": [
+    "Fresa",
+    "Plátano",
+    "Frambuesa",
+    "Mora"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "strawberry",
+     "src": "px"
+    },
+    {
+     "q": "banana",
+     "src": "px"
+    },
+    {
+     "q": "raspberry",
+     "src": "px"
+    },
+    {
+     "q": "blackberry",
+     "src": "px"
+    }
+   ],
+   "d": "El plátano sí lo es; la fresa, la frambuesa y la mora tienen otra estructura.",
+   "tp": "¿Qué fruta es botánicamente una baya? ¿Fresa, Plátano, Frambuesa o Mora?",
+   "tr": "¡El plátano!",
+   "td": "El plátano sí lo es; la fresa, la frambuesa y la mora tienen otra estructura."
+  },
+  {
+   "n": 64,
+   "tema": "Latinoamérica",
+   "p": "¿Qué río separa a México de Estados Unidos?",
+   "o": [
+    "Río Bravo",
+    "Misisipi",
+    "Colorado",
+    "Missouri"
+   ],
+   "c": 0,
+   "d": "Los mexicanos lo llaman Río Bravo y los estadounidenses, Río Grande.",
+   "tp": "¿Qué río separa a México de Estados Unidos? ¿Río Bravo, Misisipi, Colorado o Missouri?",
+   "tr": "¡El Río Bravo!",
+   "td": "Los mexicanos lo llaman Río Bravo y los estadounidenses, Río Grande."
+  },
+  {
+   "n": 65,
+   "tema": "Perú",
+   "p": "¿Cómo se llama la fruta peruana de pulpa amarilla y harinosa que se usa en helados?",
+   "o": [
+    "Granadilla",
+    "Aguaymanto",
+    "Tuna",
+    "Lúcuma"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "granadilla",
+     "src": "px"
+    },
+    {
+     "q": "goldenberry physalis",
+     "src": "px"
+    },
+    {
+     "q": "prickly pear",
+     "src": "px"
+    },
+    {
+     "q": "lucuma fruit",
+     "src": "px"
+    }
+   ],
+   "d": "Los incas ya la comían, y hoy es el sabor de helado más típico del Perú.",
+   "tp": "¿Cómo se llama la fruta peruana de pulpa amarilla y harinosa que se usa en helados? ¿Granadilla, Aguaymanto, Tuna o Lúcuma?",
+   "tr": "¡La lúcuma!",
+   "td": "Los incas ya la comían, y hoy es el sabor de helado más típico del Perú."
+  },
+  {
+   "n": 66,
+   "tema": "inventos",
+   "p": "¿Quién inventó la imprenta de tipos móviles en Europa?",
+   "o": [
+    "Da Vinci",
+    "Galileo",
+    "Gutenberg",
+    "Newton"
+   ],
+   "c": 2,
+   "d": "Su Biblia, impresa hacia 1455, fue uno de los primeros grandes libros impresos.",
+   "tp": "¿Quién inventó la imprenta de tipos móviles en Europa? ¿Da Vinci, Galileo, Gutenberg o Newton?",
+   "tr": "¡Gutenberg!",
+   "td": "Su Biblia, impresa hacia mil cuatrocientos cincuenta y cinco, fue uno de los primeros grandes libros impresos."
+  },
+  {
+   "n": 67,
+   "tema": "cuerpo",
+   "p": "¿Cómo se llama el músculo que separa el pecho del abdomen y ayuda a respirar?",
+   "o": [
+    "Bíceps",
+    "Diafragma",
+    "Glúteo",
+    "Trapecio"
+   ],
+   "c": 1,
+   "d": "Cuando se contrae, el aire entra a los pulmones; el hipo es un espasmo suyo.",
+   "tp": "¿Cómo se llama el músculo que separa el pecho del abdomen y ayuda a respirar? ¿Bíceps, Diafragma, Glúteo o Trapecio?",
+   "tr": "¡El diafragma!",
+   "td": "Cuando se contrae, el aire entra a los pulmones; el hipo es un espasmo suyo."
+  },
+  {
+   "n": 68,
+   "tema": "historia",
+   "p": "¿Qué zar ruso fundó la ciudad de San Petersburgo?",
+   "o": [
+    "Pedro el Grande",
+    "Iván el Terrible",
+    "Nicolás II",
+    "Alejandro I"
+   ],
+   "c": 0,
+   "d": "La fundó en 1703, a orillas del río Neva.",
+   "tp": "¿Qué zar ruso fundó la ciudad de San Petersburgo? ¿Pedro el Grande, Iván el Terrible, Nicolás II o Alejandro I?",
+   "tr": "¡Pedro el Grande!",
+   "td": "La fundó en mil setecientos tres, a orillas del río Neva."
+  },
+  {
+   "n": 69,
+   "tema": "animales",
+   "p": "¿Qué ave guarda peces en una bolsa bajo el pico?",
+   "o": [
+    "Flamenco",
+    "Garza",
+    "Gaviota",
+    "Pelícano"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "flamingo",
+     "src": "px"
+    },
+    {
+     "q": "heron",
+     "src": "px"
+    },
+    {
+     "q": "seagull",
+     "src": "px"
+    },
+    {
+     "q": "pelican",
+     "src": "px"
+    }
+   ],
+   "d": "La bolsa del pelícano puede cargar más agua que su propio estómago.",
+   "tp": "¿Qué ave guarda peces en una bolsa bajo el pico? ¿Flamenco, Garza, Gaviota o Pelícano?",
+   "tr": "¡El pelícano!",
+   "td": "La bolsa del pelícano puede cargar más agua que su propio estómago."
+  },
+  {
+   "n": 70,
+   "tema": "espacio",
+   "p": "¿Cómo se llama el fenómeno en que la Luna entra en la sombra de la Tierra?",
+   "o": [
+    "Eclipse solar",
+    "Eclipse lunar",
+    "Luna nueva",
+    "Marea alta"
+   ],
+   "c": 1,
+   "d": "Durante un eclipse total, la Luna se ve de un color rojizo.",
+   "tp": "¿Cómo se llama el fenómeno en que la Luna entra en la sombra de la Tierra? ¿Eclipse solar, Eclipse lunar, Luna nueva o Marea alta?",
+   "tr": "¡Un eclipse lunar!",
+   "td": "Durante un eclipse total, la Luna se ve de un color rojizo."
+  },
+  {
+   "n": 71,
+   "tema": "comida",
+   "ronda": "vf",
+   "p": "Los tomates son, para la botánica, una fruta.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Tienen semillas y salen de una flor, así que son frutos, aunque los usemos como verdura.",
+   "tp": "¿Verdadero o falso? Los tomates son, para la botánica, una fruta.",
+   "tr": "¡Verdadero! Son frutas.",
+   "td": "Tienen semillas y salen de una flor, así que son frutos, aunque los usemos como verdura."
+  },
+  {
+   "n": 72,
+   "tema": "animales",
+   "ronda": "vf",
+   "p": "Las ballenas son peces.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Son mamíferos: respiran aire, tienen sangre caliente y amamantan a sus crías.",
+   "tp": "¿Verdadero o falso? Las ballenas son peces.",
+   "tr": "¡Falso! Son mamíferos.",
+   "td": "Son mamíferos: respiran aire, tienen sangre caliente y amamantan a sus crías."
+  },
+  {
+   "n": 73,
+   "tema": "animales",
+   "ronda": "vf",
+   "p": "Las jirafas tienen siete huesos en el cuello, igual que los humanos.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Los de la jirafa son larguísimos: cada uno mide más de 25 centímetros.",
+   "tp": "¿Verdadero o falso? Las jirafas tienen siete huesos en el cuello, igual que los humanos.",
+   "tr": "¡Verdadero! Siete, igual que nosotros.",
+   "td": "Los de la jirafa son larguísimos: cada uno mide más de veinticinco centímetros."
+  },
+  {
+   "n": 74,
+   "tema": "espacio",
+   "p": "¿Qué luna de Júpiter tiene cientos de volcanes activos?",
+   "o": [
+    "Europa",
+    "Calisto",
+    "Ío",
+    "Ganímedes"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "Europa moon Juno",
+     "src": "cm",
+     "must": "Europa",
+     "not": [
+      "comparison",
+      "size"
+     ]
+    },
+    {
+     "q": "Callisto moon Galileo",
+     "src": "cm",
+     "must": "Callisto",
+     "not": [
+      "comparison",
+      "size"
+     ]
+    },
+    {
+     "q": "Io moon Galileo",
+     "src": "cm",
+     "must": "Io",
+     "not": [
+      "comparison",
+      "size"
+     ]
+    },
+    {
+     "q": "Ganymede moon Juno",
+     "src": "cm",
+     "must": "Ganymede",
+     "not": [
+      "comparison",
+      "size"
+     ]
+    }
+   ],
+   "d": "Ío es el cuerpo con más actividad volcánica de todo el sistema solar.",
+   "tp": "¿Qué luna de Júpiter tiene cientos de volcanes activos? ¿Europa, Calisto, Ío o Ganímedes?",
+   "tr": "¡Ío!",
+   "td": "Ío es el cuerpo con más actividad volcánica de todo el sistema solar."
+  },
+  {
+   "n": 75,
+   "tema": "Perú",
+   "p": "¿Cuál es el pico nevado más alto del Perú?",
+   "o": [
+    "Huascarán",
+    "Alpamayo",
+    "Ausangate",
+    "Misti"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "Huascaran Peru mountain",
+     "src": "cm",
+     "must": "Huascar"
+    },
+    {
+     "q": "Alpamayo mountain",
+     "src": "cm",
+     "must": "Alpamayo"
+    },
+    {
+     "q": "Ausangate mountain",
+     "src": "cm",
+     "must": "Ausangate"
+    },
+    {
+     "q": "Misti volcano Arequipa",
+     "src": "cm",
+     "must": "Misti"
+    }
+   ],
+   "d": "Tiene casi 6.800 metros, y está en la Cordillera Blanca, en Áncash.",
+   "tp": "¿Cuál es el pico nevado más alto del Perú? ¿Huascarán, Alpamayo, Ausangate o Misti?",
+   "tr": "¡El Huascarán!",
+   "td": "Tiene casi seis mil ochocientos metros, y está en la Cordillera Blanca, en Áncash."
+  },
+  {
+   "n": 76,
+   "tema": "Perú",
+   "p": "¿Qué camélido andino da la lana más fina y cara?",
+   "o": [
+    "Llama",
+    "Vicuña",
+    "Alpaca",
+    "Guanaco"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "llama",
+     "src": "px"
+    },
+    {
+     "q": "vicuna",
+     "src": "px"
+    },
+    {
+     "q": "alpaca",
+     "src": "px"
+    },
+    {
+     "q": "guanaco",
+     "src": "px"
+    }
+   ],
+   "d": "La vicuña vive libre en los Andes y solo se esquila cada pocos años.",
+   "tp": "¿Qué camélido andino da la lana más fina y cara? ¿Llama, Vicuña, Alpaca o Guanaco?",
+   "tr": "¡La vicuña!",
+   "td": "La vicuña vive libre en los Andes y solo se esquila cada pocos años."
+  },
+  {
+   "n": 77,
+   "tema": "naturaleza",
+   "p": "¿Qué planta carnívora atrapa insectos con hojas que se cierran como mandíbulas?",
+   "o": [
+    "Cactus",
+    "Helecho",
+    "Orquídea",
+    "Venus atrapamoscas"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "cactus",
+     "src": "px"
+    },
+    {
+     "q": "fern",
+     "src": "px"
+    },
+    {
+     "q": "orchid",
+     "src": "px"
+    },
+    {
+     "q": "venus flytrap",
+     "src": "px"
+    }
+   ],
+   "d": "Se cierra solo si el insecto roza dos veces los pelitos de su hoja.",
+   "tp": "¿Qué planta carnívora atrapa insectos con hojas que se cierran como mandíbulas? ¿Cactus, Helecho, Orquídea o Venus atrapamoscas?",
+   "tr": "¡La Venus atrapamoscas!",
+   "td": "Se cierra solo si el insecto roza dos veces los pelitos de su hoja."
+  },
+  {
+   "n": 78,
+   "tema": "animales",
+   "p": "¿Por qué las arañas no son insectos?",
+   "o": [
+    "No tienen ojos",
+    "Viven bajo tierra",
+    "Tienen ocho patas",
+    "Son muy grandes"
+   ],
+   "c": 2,
+   "d": "Las arañas son arácnidos; los insectos tienen seis patas.",
+   "tp": "¿Por qué las arañas no son insectos? ¿tienen ocho patas, no tienen ojos, viven bajo tierra o son muy grandes?",
+   "tr": "¡Porque tienen ocho patas!",
+   "td": "Las arañas son arácnidos; los insectos tienen seis patas."
+  },
+  {
+   "n": 79,
+   "tema": "arte",
+   "p": "¿Qué pintor holandés es famoso por «La ronda de noche»?",
+   "o": [
+    "Vermeer",
+    "Van Eyck",
+    "Rembrandt",
+    "Rubens"
+   ],
+   "c": 2,
+   "d": "Es un cuadro enorme: mide más de 4 metros de ancho.",
+   "tp": "¿Qué pintor holandés es famoso por «La ronda de noche»? ¿Vermeer, Van Eyck, Rembrandt o Rubens?",
+   "tr": "¡Rembrandt!",
+   "td": "Es un cuadro enorme: mide más de cuatro metros de ancho."
+  },
+  {
+   "n": 80,
+   "tema": "ciencia",
+   "p": "¿Qué dice la tercera ley de Newton?",
+   "o": [
+    "Todo cuerpo cae igual",
+    "Acción y reacción",
+    "Todo se mueve en círculos",
+    "El calor sube"
+   ],
+   "c": 1,
+   "d": "Por eso un cohete avanza al lanzar gases hacia atrás.",
+   "tp": "¿Qué dice la tercera ley de Newton? ¿a toda acción, una reacción, todo cuerpo cae igual, todo se mueve en círculos o el calor sube?",
+   "tr": "¡A toda acción, una reacción!",
+   "td": "Por eso un cohete avanza al lanzar gases hacia atrás."
+  },
+  {
+   "n": 81,
+   "tema": "geografía",
+   "p": "¿Cuál es la isla más grande del mar Mediterráneo?",
+   "o": [
+    "Sicilia",
+    "Cerdeña",
+    "Chipre",
+    "Creta"
+   ],
+   "c": 0,
+   "d": "En Sicilia está el Etna, uno de los volcanes más activos de Europa.",
+   "tp": "¿Cuál es la isla más grande del mar Mediterráneo? ¿Sicilia, Cerdeña, Chipre o Creta?",
+   "tr": "¡Sicilia!",
+   "td": "En Sicilia está el Etna, uno de los volcanes más activos de Europa."
+  },
+  {
+   "n": 82,
+   "tema": "comida",
+   "p": "¿De qué país es originario el queso feta, hecho con leche de oveja y cabra?",
+   "o": [
+    "Italia",
+    "Turquía",
+    "Francia",
+    "Grecia"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "flag": "it"
+    },
+    {
+     "flag": "tr"
+    },
+    {
+     "flag": "fr"
+    },
+    {
+     "flag": "gr"
+    }
+   ],
+   "d": "El feta es un queso en salmuera, y en la Unión Europea solo puede llamarse así el de Grecia.",
+   "tp": "¿De qué país es originario el queso feta, hecho con leche de oveja y cabra? ¿Italia, Turquía, Francia o Grecia?",
+   "tr": "¡Grecia!",
+   "td": "El feta es un queso en salmuera, y en la Unión Europea solo puede llamarse así el de Grecia."
+  },
+  {
+   "n": 83,
+   "tema": "cuerpo",
+   "p": "¿Qué vitamina produce el cuerpo con la luz del Sol?",
+   "o": [
+    "Vitamina A",
+    "Vitamina C",
+    "Vitamina K",
+    "Vitamina D"
+   ],
+   "c": 3,
+   "d": "Ayuda a que los huesos estén fuertes.",
+   "tp": "¿Qué vitamina produce el cuerpo con la luz del Sol? ¿Vitamina A, Vitamina C, Vitamina K o Vitamina D?",
+   "tr": "¡La vitamina D!",
+   "td": "Ayuda a que los huesos estén fuertes."
+  },
+  {
+   "n": 84,
+   "tema": "Perú",
+   "p": "¿Qué ciudad de adobe, cerca de Trujillo, fue la capital de los chimúes?",
+   "o": [
+    "Chan Chan",
+    "Machu Picchu",
+    "Caral",
+    "Kuélap"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "Chan Chan Peru",
+     "src": "cm",
+     "must": "Chan"
+    },
+    {
+     "q": "Machu Picchu",
+     "src": "cm",
+     "must": "Machu"
+    },
+    {
+     "q": "Caral Peru pyramid",
+     "src": "cm",
+     "must": "Caral"
+    },
+    {
+     "q": "Kuelap fortress",
+     "src": "cm",
+     "must": "Kuelap"
+    }
+   ],
+   "d": "Fue la ciudad de barro más grande de América, y sus muros aún tienen figuras de peces y aves.",
+   "tp": "¿Qué ciudad de adobe, cerca de Trujillo, fue la capital de los chimúes? ¿Chan Chan, Machu Picchu, Caral o Kuélap?",
+   "tr": "¡Chan Chan!",
+   "td": "Fue la ciudad de barro más grande de América, y sus muros aún tienen figuras de peces y aves."
+  },
+  {
+   "n": 85,
+   "tema": "espacio",
+   "p": "¿Qué planeta tiene un día más largo que su año?",
+   "o": [
+    "Mercurio",
+    "Marte",
+    "Venus",
+    "Júpiter"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "Mercury planet MESSENGER",
+     "src": "cm",
+     "must": "Mercury",
+     "not": [
+      "comparison",
+      "size"
+     ]
+    },
+    {
+     "q": "Mars planet Hubble",
+     "src": "cm",
+     "must": "Mars",
+     "not": [
+      "comparison",
+      "size"
+     ]
+    },
+    {
+     "q": "Venus real color Mariner",
+     "src": "cm",
+     "must": "Venus",
+     "not": [
+      "comparison",
+      "size"
+     ]
+    },
+    {
+     "q": "Jupiter planet Cassini",
+     "src": "cm",
+     "must": "Jupiter",
+     "not": [
+      "comparison",
+      "size"
+     ]
+    }
+   ],
+   "d": "Venus tarda unos 243 días en girar sobre sí mismo y 225 en dar la vuelta al Sol.",
+   "tp": "¿Qué planeta tiene un día más largo que su año? ¿Mercurio, Marte, Venus o Júpiter?",
+   "tr": "¡Venus!",
+   "td": "Venus tarda unos doscientos cuarenta y tres días en girar sobre sí mismo y doscientos veinticinco en dar la vuelta al Sol."
+  },
+  {
+   "n": 86,
+   "tema": "animales",
+   "p": "¿Qué animal sudamericano duerme unas 15 horas al día y baja del árbol una vez por semana?",
+   "o": [
+    "Mono aullador",
+    "Perezoso",
+    "Oso hormiguero",
+    "Tapir"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "howler monkey",
+     "src": "px"
+    },
+    {
+     "q": "sloth",
+     "src": "px"
+    },
+    {
+     "q": "giant anteater",
+     "src": "px"
+    },
+    {
+     "q": "tapir",
+     "src": "px"
+    }
+   ],
+   "d": "Se mueve tan despacio que a veces le crecen algas en el pelo.",
+   "tp": "¿Qué animal sudamericano duerme unas quince horas al día y baja del árbol una vez por semana? ¿perezoso, mono aullador, oso hormiguero o tapir?",
+   "tr": "¡El perezoso!",
+   "td": "Se mueve tan despacio que a veces le crecen algas en el pelo."
+  },
+  {
+   "n": 87,
+   "tema": "historia",
+   "p": "¿Qué pueblo antiguo construyó los acueductos y las calzadas más famosas de Europa?",
+   "o": [
+    "Romanos",
+    "Vikingos",
+    "Aztecas",
+    "Fenicios"
+   ],
+   "c": 0,
+   "d": "Muchas calzadas romanas siguen en uso, y de ahí viene el dicho «todos los caminos llevan a Roma».",
+   "tp": "¿Qué pueblo antiguo construyó los acueductos y las calzadas más famosas de Europa? ¿Romanos, Vikingos, Aztecas o Fenicios?",
+   "tr": "¡Los romanos!",
+   "td": "Muchas calzadas romanas siguen en uso, y de ahí viene el dicho «todos los caminos llevan a Roma»."
+  },
+  {
+   "n": 88,
+   "tema": "arte",
+   "p": "¿Qué color se forma al mezclar azul y amarillo?",
+   "o": [
+    "Naranja",
+    "Morado",
+    "Marrón",
+    "Verde"
+   ],
+   "c": 3,
+   "d": "Con los tres colores primarios, los pintores hacen casi todos los demás.",
+   "tp": "¿Qué color se forma al mezclar azul y amarillo? ¿Naranja, Morado, Marrón o Verde?",
+   "tr": "¡Verde!",
+   "td": "Con los tres colores primarios, los pintores hacen casi todos los demás."
+  },
+  {
+   "n": 89,
+   "tema": "geografía",
+   "p": "¿En qué país europeo está la ciudad de Praga?",
+   "o": [
+    "Polonia",
+    "Austria",
+    "República Checa",
+    "Hungría"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "flag": "pl"
+    },
+    {
+     "flag": "at"
+    },
+    {
+     "flag": "cz"
+    },
+    {
+     "flag": "hu"
+    }
+   ],
+   "d": "Praga es llamada «la ciudad de las cien torres».",
+   "tp": "¿En qué país europeo está la ciudad de Praga? ¿Polonia, Austria, República Checa o Hungría?",
+   "tr": "¡La República Checa!",
+   "td": "Praga es llamada «la ciudad de las cien torres»."
+  },
+  {
+   "n": 90,
+   "tema": "idiomas",
+   "p": "¿De qué lengua andina viene la palabra «papa»?",
+   "o": [
+    "Aimara",
+    "Quechua",
+    "Guaraní",
+    "Náhuatl"
+   ],
+   "c": 1,
+   "d": "El quechua nos dejó también cóndor, puma, quinua y pampa.",
+   "tp": "¿De qué lengua andina viene la palabra «papa»? ¿Aimara, Quechua, Guaraní o Náhuatl?",
+   "tr": "¡Del quechua!",
+   "td": "El quechua nos dejó también cóndor, puma, quinua y pampa."
+  },
+  {
+   "n": 91,
+   "tema": "inventos",
+   "p": "¿Qué cultura de la antigüedad inventó el papel?",
+   "o": [
+    "Egipto",
+    "Grecia",
+    "China",
+    "India"
+   ],
+   "c": 2,
+   "d": "Se atribuye a Cai Lun, un funcionario chino, hacia el año 105.",
+   "tp": "¿Qué cultura de la antigüedad inventó el papel? ¿Egipto, Grecia, China o India?",
+   "tr": "¡China!",
+   "td": "Se atribuye a Cai Lun, un funcionario chino, hacia el año ciento cinco."
+  },
+  {
+   "n": 92,
+   "tema": "animales",
+   "p": "¿Qué insecto puede levantar hasta unas 50 veces su propio peso?",
+   "o": [
+    "Mariposa",
+    "Mosca",
+    "Libélula",
+    "Hormiga"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "butterfly",
+     "src": "px"
+    },
+    {
+     "q": "fly insect",
+     "src": "px"
+    },
+    {
+     "q": "dragonfly",
+     "src": "px"
+    },
+    {
+     "q": "ant carrying leaf",
+     "src": "px"
+    }
+   ],
+   "d": "Algunas hormigas cargan hojas mucho más grandes que ellas.",
+   "tp": "¿Qué insecto puede levantar hasta unas cincuenta veces su propio peso? ¿hormiga, mariposa, mosca o libélula?",
+   "tr": "¡La hormiga!",
+   "td": "Algunas hormigas cargan hojas mucho más grandes que ellas."
+  },
+  {
+   "n": 93,
+   "tema": "espacio",
+   "p": "¿Qué cuerpo del sistema solar dejó de ser planeta en 2006?",
+   "o": [
+    "Plutón",
+    "Mercurio",
+    "Urano",
+    "Neptuno"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "Pluto New Horizons",
+     "src": "cm",
+     "must": "Pluto",
+     "not": [
+      "comparison",
+      "size"
+     ]
+    },
+    {
+     "q": "Mercury planet MESSENGER",
+     "src": "cm",
+     "must": "Mercury",
+     "not": [
+      "comparison",
+      "size"
+     ]
+    },
+    {
+     "q": "Uranus Voyager 2",
+     "src": "cm",
+     "must": "Uranus",
+     "not": [
+      "comparison",
+      "size"
+     ]
+    },
+    {
+     "q": "Neptune Voyager 2",
+     "src": "cm",
+     "must": "Neptune",
+     "not": [
+      "comparison",
+      "size"
+     ]
+    }
+   ],
+   "d": "La Unión Astronómica Internacional lo reclasificó como planeta enano.",
+   "tp": "¿Qué cuerpo del sistema solar dejó de ser planeta en dos mil seis? ¿Plutón, Mercurio, Urano o Neptuno?",
+   "tr": "¡Plutón!",
+   "td": "La Unión Astronómica Internacional lo reclasificó como planeta enano."
+  },
+  {
+   "n": 94,
+   "tema": "Perú",
+   "p": "¿Cómo se llaman las cuerdas con nudos que usaban los incas para llevar cuentas?",
+   "o": [
+    "Quenas",
+    "Quipus",
+    "Tupus",
+    "Chasquis"
+   ],
+   "c": 1,
+   "d": "Cada nudo y cada color guardaban un dato, como una cuenta o un tributo.",
+   "tp": "¿Cómo se llaman las cuerdas con nudos que usaban los incas para llevar cuentas? ¿Quenas, Quipus, Tupus o Chasquis?",
+   "tr": "¡Los quipus!",
+   "td": "Cada nudo y cada color guardaban un dato, como una cuenta o un tributo."
+  },
+  {
+   "n": 95,
+   "tema": "ciencia",
+   "p": "¿Qué hay en el centro de la Tierra?",
+   "o": [
+    "Un mar de lava",
+    "Aire caliente",
+    "Hierro y níquel",
+    "Agua líquida"
+   ],
+   "c": 2,
+   "d": "El núcleo es sólido en el centro y líquido alrededor, y está muy caliente.",
+   "tp": "¿Qué hay en el centro de la Tierra? ¿hierro y níquel, un mar de lava, aire caliente o agua líquida?",
+   "tr": "¡Hierro y níquel!",
+   "td": "El núcleo es sólido en el centro y líquido alrededor, y está muy caliente."
+  },
+  {
+   "n": 96,
+   "tema": "deportes",
+   "p": "¿Cuántas bases tiene un campo de béisbol, contando el home?",
+   "o": [
+    "Cuatro",
+    "Tres",
+    "Cinco",
+    "Seis"
+   ],
+   "c": 0,
+   "d": "Los jugadores recorren las bases formando un rombo.",
+   "tp": "¿Cuántas bases tiene un campo de béisbol, contando el home? ¿Cuatro, Tres, Cinco o Seis?",
+   "tr": "¡Cuatro!",
+   "td": "Los jugadores recorren las bases formando un rombo."
+  },
+  {
+   "n": 97,
+   "tema": "historia",
+   "p": "¿Cuánto duró en realidad la Guerra de los Cien Años, entre Francia e Inglaterra?",
+   "o": [
+    "100 años",
+    "116 años",
+    "99 años",
+    "150 años"
+   ],
+   "c": 1,
+   "d": "Duró desde 1337 hasta 1453, con varias pausas.",
+   "tp": "¿Cuánto duró en realidad la Guerra de los Cien Años, entre Francia e Inglaterra? ¿ciento dieciséis años, cien años, noventa y nueve años o ciento cincuenta años?",
+   "tr": "¡Ciento dieciséis años!",
+   "td": "Duró desde mil trescientos treinta y siete hasta mil cuatrocientos cincuenta y tres, con varias pausas."
+  },
+  {
+   "n": 98,
+   "tema": "cuerpo",
+   "p": "¿Cuántos grupos sanguíneos principales hay en el sistema ABO?",
+   "o": [
+    "Dos",
+    "Seis",
+    "Ocho",
+    "Cuatro"
+   ],
+   "c": 3,
+   "d": "Son A, B, AB y O.",
+   "tp": "¿Cuántos grupos sanguíneos principales hay en el sistema ABO? ¿Dos, Seis, Ocho o Cuatro?",
+   "tr": "¡Cuatro! A, B, AB y O.",
+   "td": "Son A, B, AB y O."
+  },
+  {
+   "n": 99,
+   "tema": "animales",
+   "p": "¿Cuántos ojos tiene una abeja?",
+   "o": [
+    "Dos",
+    "Cinco",
+    "Cuatro",
+    "Seis"
+   ],
+   "c": 1,
+   "d": "Tiene dos grandes ojos compuestos y tres ojos simples en la frente.",
+   "tp": "¿Cuántos ojos tiene una abeja? ¿Dos, Cinco, Cuatro o Seis?",
+   "tr": "¡Cinco ojos!",
+   "td": "Tiene dos grandes ojos compuestos y tres ojos simples en la frente."
+  },
+  {
+   "n": 100,
+   "tema": "animales",
+   "p": "¿Qué ave puede girar la cabeza hasta unos 270 grados?",
+   "o": [
+    "Águila",
+    "Loro",
+    "Búho",
+    "Pingüino"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "eagle",
+     "src": "px"
+    },
+    {
+     "q": "parrot",
+     "src": "px"
+    },
+    {
+     "q": "owl",
+     "src": "px"
+    },
+    {
+     "q": "penguin",
+     "src": "px"
+    }
+   ],
+   "d": "Tiene 14 huesos en el cuello, el doble que una persona.",
+   "tp": "¿Qué ave puede girar la cabeza hasta unos doscientos setenta grados? ¿Águila, Loro, Búho o Pingüino?",
+   "tr": "¡El búho!",
+   "td": "Tiene catorce huesos en el cuello, el doble que una persona."
+  }
+ ],
+ "extra_tts": {
+  "an_tema": [
+   "anunciador",
+   "Hoy jugamos: ¡mitos y verdades, para descubrir lo que creías saber!"
+  ],
+  "pr_intro": [
+   "presentador",
+   "¡Hola, familia! Hoy son cien preguntas para separar los mitos de las verdades. ¿Se atreven a descubrir lo que creían saber?"
+  ],
+  "co_intro": [
+   "copresentadora",
+   "Hoy se caen varias leyendas famosas, desde cascos con cuernos hasta rayos que caen dos veces. ¡Que gane quien más sabe!"
+  ],
+  "co_fama": [
+   "copresentadora",
+   "Y felicitaciones a los mejores jugadores del episodio anterior, que ya aparecen en pantalla. ¡Hoy les toca defender su puesto!"
+  ],
+  "charla05_pr": [
+   "presentador",
+   "¡Cinco preguntas y ya cayeron mitos! El avestruz salió limpio de culpa."
+  ],
+  "charla05_co": [
+   "copresentadora",
+   "Nunca escondió la cabeza, MAX. Familia, ¿ya vieron su puesto en el ranking del celular?"
+  ],
+  "charla10_pr": [
+   "presentador",
+   "¡Diez! Menos mal que el chicle no se queda siete años, ya me iba a preocupar."
+  ],
+  "charla10_co": [
+   "copresentadora",
+   "Tranquilo, MAX, tú ni estómago tienes. Familia, ¡miren el ranking del celular!"
+  ],
+  "charla15_pr": [
+   "presentador",
+   "¡Quince! Nunca más diré «oso koala», ahora sé que es un marsupial."
+  ],
+  "charla15_co": [
+   "copresentadora",
+   "Muy bien, MAX. Y la Gran Muralla tampoco se ve desde el espacio, familia."
+  ],
+  "charla20_pr": [
+   "presentador",
+   "¡Veinte! Napoleón medía lo normal, y yo no mido ni un metro con ruedas."
+  ],
+  "charla20_co": [
+   "copresentadora",
+   "Ya quisieras, MAX. Revisen el ranking del celular, ¡hay mucha pelea arriba!"
+  ],
+  "charla25_pr": [
+   "presentador",
+   "¡Veinticinco! Si la miel casi no caduca, ya sé qué guardo en mi despensa."
+  ],
+  "charla25_co": [
+   "copresentadora",
+   "Y los osos polares son negros por debajo del pelo, MAX. ¡Qué sorpresa!"
+  ],
+  "charla30_pr": [
+   "presentador",
+   "¡Treinta! Tocaré el sitar para celebrar, ¡ting, ting, ting!"
+  ],
+  "charla30_co": [
+   "copresentadora",
+   "Y en Surinam se habla neerlandés, MAX. Familia, ¿cómo va su ranking?"
+  ],
+  "charla35_pr": [
+   "presentador",
+   "¡Treinta y cinco! Un kilo de plumas pesa lo mismo que un kilo de hierro, ¡qué susto!"
+  ],
+  "charla35_co": [
+   "copresentadora",
+   "Y el desierto más grande es helado, MAX. ¡Miren el ranking del celular!"
+  ],
+  "charla40_pr": [
+   "presentador",
+   "¡Cuarenta! Yo tampoco salto, igual que el elefante, pero por falta de resortes."
+  ],
+  "charla40_co": [
+   "copresentadora",
+   "Y ahora viene una ronda relámpago, familia. ¡Dedos listos en el celular!"
+  ],
+  "charla45_pr": [
+   "presentador",
+   "¡Cinco en un suspiro! Me quedé sin aire, y eso que soy un robot."
+  ],
+  "charla45_co": [
+   "copresentadora",
+   "Eso fue una relámpago de verdad, MAX. ¡Miren cómo se movió el ranking!"
+  ],
+  "charla50_pr": [
+   "presentador",
+   "¡Cincuenta, la mitad! Cleopatra era griega y yo creía que era egipcia de pura cepa."
+  ],
+  "charla50_co": [
+   "copresentadora",
+   "Vamos por la mitad, familia. ¡Y la quinua nació en los Andes, ánimo!"
+  ],
+  "charla55_pr": [
+   "presentador",
+   "¡Cincuenta y cinco! Las nubes son gotitas y no algodón: qué decepción."
+  ],
+  "charla55_co": [
+   "copresentadora",
+   "Pero serían buenas almohadas, MAX. Miren el ranking en el celular."
+  ],
+  "charla60_pr": [
+   "presentador",
+   "¡Sesenta! ¿Alguien más sintió el olor del durián desde su casa?"
+  ],
+  "charla60_co": [
+   "copresentadora",
+   "¡Y un rayo es más caliente que el Sol, MAX! Revisen el ranking, familia."
+  ],
+  "charla65_pr": [
+   "presentador",
+   "¡Sesenta y cinco! Un narval con cuerno de unicornio: ¡la naturaleza se pasó!"
+  ],
+  "charla65_co": [
+   "copresentadora",
+   "Y el plátano es una baya, MAX. La naturaleza nos juega bromas."
+  ],
+  "charla70_pr": [
+   "presentador",
+   "¡Setenta! Mi piel es de metal, pero igual me emociona un eclipse lunar."
+  ],
+  "charla70_co": [
+   "copresentadora",
+   "Lo sé, MAX, se te encienden los ojos. Familia, ¡revisen sus puestos!"
+  ],
+  "charla75_pr": [
+   "presentador",
+   "¡Setenta y cinco! Siete huesos en el cuello de una jirafa: ¡qué bufanda más larga!"
+  ],
+  "charla75_co": [
+   "copresentadora",
+   "Ya llevamos tres cuartos del juego, familia. ¡Con todo!"
+  ],
+  "charla80_pr": [
+   "presentador",
+   "¡Ochenta! Aprendí que la Venus atrapamoscas cierra sus hojas como mandíbulas."
+  ],
+  "charla80_co": [
+   "copresentadora",
+   "Y que las arañas no son insectos. ¡Cuánto mito cae hoy! Miren el ranking."
+  ],
+  "charla85_pr": [
+   "presentador",
+   "¡Ochenta y cinco! Un día en Venus dura más que su año: ¡qué lío de calendario!"
+  ],
+  "charla85_co": [
+   "copresentadora",
+   "Mejor no te pido la agenda, MAX. ¡Revisen el ranking del celular, familia!"
+  ],
+  "charla90_pr": [
+   "presentador",
+   "¡Noventa! Si el perezoso baja del árbol una vez por semana, me apunto."
+  ],
+  "charla90_co": [
+   "copresentadora",
+   "Tú no te apuntas a nada sin micrófono, MAX. ¡Ya casi llegamos, familia!"
+  ],
+  "charla95_pr": [
+   "presentador",
+   "¡Noventa y cinco! Pobre Plutón: ya no es planeta, pero sigue siendo famoso."
+  ],
+  "charla95_co": [
+   "copresentadora",
+   "Quedan cinco preguntas, MAX. Familia, ¡a darlo todo!"
+  ],
+  "pr_cierre": [
+   "presentador",
+   "¡Eso fue todo, familia! Cuéntennos en los comentarios cuántos mitos se creían y cuál fue su puntaje. ¡Hasta la próxima, detectives de la verdad!"
+  ]
+ },
+ "fotos_miniatura": [
+  [
+   69,
+   3
+  ],
+  [
+   86,
+   1
+  ],
+  [
+   92,
+   3
+  ],
+  [
+   10,
+   0
+  ],
+  [
+   40,
+   0
+  ]
+ ]
 }
