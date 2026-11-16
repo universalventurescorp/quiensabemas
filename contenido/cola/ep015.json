@@ -19,6 +19,1478 @@
  "reto_miniatura": "¿Eres amigo del planeta?",
  "objetivo_preguntas": 100,
  "total_anunciado": 100,
- "preguntas": [],
- "extra_tts": {}
+ "preguntas": [
+  {
+   "n": 1,
+   "tema": "naturaleza",
+   "p": "¿Qué parte de la planta atrae a los insectos con su color y su olor?",
+   "o": [
+    "La raíz",
+    "La hoja",
+    "El tallo",
+    "La flor"
+   ],
+   "c": 3,
+   "d": "Las flores atraen a abejas y colibríes, que llevan el polen de una a otra.",
+   "tp": "¿Qué parte de la planta atrae a los insectos con su color y su olor? ¿La raíz, La hoja, El tallo o La flor?",
+   "tr": "¡La flor!",
+   "td": "Las flores atraen a abejas y colibríes, que llevan el polen de una a otra."
+  },
+  {
+   "n": 2,
+   "tema": "naturaleza",
+   "p": "¿Qué pigmento da el color verde a las hojas?",
+   "o": [
+    "Clorofila",
+    "Melanina",
+    "Caroteno",
+    "Hemoglobina"
+   ],
+   "c": 0,
+   "d": "La clorofila atrapa la luz del Sol para que la planta pueda fabricar su alimento.",
+   "tp": "¿Qué pigmento da el color verde a las hojas? ¿Clorofila, Melanina, Caroteno o Hemoglobina?",
+   "tr": "¡La clorofila!",
+   "td": "La clorofila atrapa la luz del Sol para que la planta pueda fabricar su alimento."
+  },
+  {
+   "n": 3,
+   "tema": "naturaleza",
+   "p": "¿Cuál de estos animales es un insecto?",
+   "o": [
+    "Araña",
+    "Escorpión",
+    "Hormiga",
+    "Ciempiés"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "spider",
+     "src": "px"
+    },
+    {
+     "q": "scorpion",
+     "src": "px"
+    },
+    {
+     "q": "ant",
+     "src": "px"
+    },
+    {
+     "q": "centipede",
+     "src": "px"
+    }
+   ],
+   "d": "Los insectos tienen seis patas; las arañas y los escorpiones, ocho.",
+   "tp": "¿Cuál de estos animales es un insecto? ¿Araña, Escorpión, Hormiga o Ciempiés?",
+   "tr": "¡La hormiga!",
+   "td": "Los insectos tienen seis patas; las arañas y los escorpiones, ocho."
+  },
+  {
+   "n": 4,
+   "tema": "naturaleza",
+   "p": "¿Qué fruto nace en una palmera y tiene agua dulce en su interior?",
+   "o": [
+    "Piña",
+    "Coco",
+    "Papaya",
+    "Sandía"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "pineapple",
+     "src": "px"
+    },
+    {
+     "q": "coconut",
+     "src": "px"
+    },
+    {
+     "q": "papaya",
+     "src": "px"
+    },
+    {
+     "q": "watermelon",
+     "src": "px"
+    }
+   ],
+   "d": "Los cocos flotan y pueden viajar por el mar hasta llegar a islas lejanas.",
+   "tp": "¿Qué fruto nace en una palmera y tiene agua dulce en su interior? ¿Piña, Coco, Papaya o Sandía?",
+   "tr": "¡El coco!",
+   "td": "Los cocos flotan y pueden viajar por el mar hasta llegar a islas lejanas."
+  },
+  {
+   "n": 5,
+   "tema": "naturaleza",
+   "p": "¿Qué árbol produce conos con escamas, donde guarda sus semillas?",
+   "o": [
+    "Pino",
+    "Palmera",
+    "Roble",
+    "Sauce"
+   ],
+   "c": 0,
+   "img_q": "Pine cone",
+   "img_modo": "revela",
+   "d": "Dentro de los conos del pino están los piñones, unas semillas comestibles.",
+   "tp": "¿Qué árbol produce conos con escamas, donde guarda sus semillas? ¿Pino, Palmera, Roble o Sauce?",
+   "tr": "¡El pino!",
+   "td": "Dentro de los conos del pino están los piñones, unas semillas comestibles."
+  },
+  {
+   "n": 6,
+   "tema": "naturaleza",
+   "p": "¿Cuál es el río que lleva más agua de todo el planeta?",
+   "o": [
+    "Nilo",
+    "Amazonas",
+    "Misisipi",
+    "Yangtsé"
+   ],
+   "c": 1,
+   "img_q": "Amazon River",
+   "img_modo": "revela",
+   "d": "El Amazonas aporta casi la quinta parte del agua dulce que los ríos llevan al mar.",
+   "tp": "¿Cuál es el río que lleva más agua de todo el planeta? ¿Nilo, Amazonas, Misisipi o Yangtsé?",
+   "tr": "¡El Amazonas!",
+   "td": "El Amazonas aporta casi la quinta parte del agua dulce que los ríos llevan al mar."
+  },
+  {
+   "n": 7,
+   "tema": "naturaleza",
+   "p": "¿Qué animal sudamericano, el roedor más grande del mundo, vive junto al agua?",
+   "o": [
+    "Castor",
+    "Nutria",
+    "Ardilla",
+    "Capibara"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "beaver",
+     "src": "px"
+    },
+    {
+     "q": "otter",
+     "src": "px"
+    },
+    {
+     "q": "squirrel",
+     "src": "px"
+    },
+    {
+     "q": "capybara",
+     "src": "px"
+    }
+   ],
+   "d": "Un capibara adulto puede pesar más de 50 kilos y nada muy bien.",
+   "tp": "¿Qué animal sudamericano, el roedor más grande del mundo, vive junto al agua? ¿Castor, Nutria, Ardilla o Capibara?",
+   "tr": "¡El capibara!",
+   "td": "Un capibara adulto puede pesar más de cincuenta kilos y nada muy bien."
+  },
+  {
+   "n": 8,
+   "tema": "naturaleza",
+   "p": "¿Qué animal del mar tiene tres corazones y sangre azul?",
+   "o": [
+    "Calamar",
+    "Estrella de mar",
+    "Pulpo",
+    "Medusa"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "squid",
+     "src": "px"
+    },
+    {
+     "q": "starfish",
+     "src": "px"
+    },
+    {
+     "q": "octopus",
+     "src": "px"
+    },
+    {
+     "q": "jellyfish",
+     "src": "px"
+    }
+   ],
+   "d": "Un pulpo tiene ocho brazos y puede cambiar de color para esconderse.",
+   "tp": "¿Qué animal del mar tiene tres corazones y sangre azul? ¿Calamar, Estrella de mar, Pulpo o Medusa?",
+   "tr": "¡El pulpo!",
+   "td": "Un pulpo tiene ocho brazos y puede cambiar de color para esconderse."
+  },
+  {
+   "n": 9,
+   "tema": "naturaleza",
+   "p": "¿Cómo se llama la selva más grande del mundo, que cubre buena parte de Sudamérica?",
+   "o": [
+    "El Congo",
+    "La Amazonía",
+    "La taiga",
+    "La sabana"
+   ],
+   "c": 1,
+   "d": "La Amazonía se extiende por 9 países, y más de la mitad del Perú es selva.",
+   "tp": "¿Cómo se llama la selva más grande del mundo, que cubre buena parte de Sudamérica? ¿La Amazonía, el Congo, la taiga o la sabana?",
+   "tr": "¡La Amazonía!",
+   "td": "La Amazonía se extiende por nueve países, y más de la mitad del Perú es selva."
+  },
+  {
+   "n": 10,
+   "tema": "naturaleza",
+   "p": "¿Qué insecto fabrica miel con el néctar de las flores?",
+   "o": [
+    "Mosca",
+    "Hormiga",
+    "Mariposa",
+    "Abeja"
+   ],
+   "c": 3,
+   "d": "Para hacer un kilo de miel, las abejas visitan millones de flores.",
+   "tp": "¿Qué insecto fabrica miel con el néctar de las flores? ¿Mosca, Hormiga, Mariposa o Abeja?",
+   "tr": "¡La abeja!",
+   "td": "Para hacer un kilo de miel, las abejas visitan millones de flores."
+  },
+  {
+   "n": 11,
+   "tema": "naturaleza",
+   "ronda": "misteriosa",
+   "p": "¿Qué animal marino es este, que vuelve a la playa donde nació para poner huevos?",
+   "o": [
+    "Manatí",
+    "Foca",
+    "Tortuga marina",
+    "Cocodrilo"
+   ],
+   "c": 2,
+   "img_q": "Sea turtle",
+   "img_modo": "pregunta",
+   "d": "Las tortugas marinas regresan a la playa donde nacieron para poner sus huevos.",
+   "tp": "¿Qué animal marino es este, que vuelve a la playa donde nació para poner huevos? ¿Manatí, Foca, Tortuga marina o Cocodrilo?",
+   "tr": "¡Una tortuga marina!",
+   "td": "Las tortugas marinas regresan a la playa donde nacieron para poner sus huevos."
+  },
+  {
+   "n": 12,
+   "tema": "naturaleza",
+   "ronda": "misteriosa",
+   "p": "¿Qué flor es esta, que gira siguiendo al Sol?",
+   "o": [
+    "Girasol",
+    "Margarita",
+    "Tulipán",
+    "Dalia"
+   ],
+   "c": 0,
+   "img_q": "Sunflower",
+   "img_modo": "pregunta",
+   "d": "Los girasoles jóvenes siguen al Sol durante el día; los adultos miran al este.",
+   "tp": "¿Qué flor es esta, que gira siguiendo al Sol? ¿Girasol, Margarita, Tulipán o Dalia?",
+   "tr": "¡El girasol!",
+   "td": "Los girasoles jóvenes siguen al Sol durante el día; los adultos miran al este."
+  },
+  {
+   "n": 13,
+   "tema": "naturaleza",
+   "ronda": "misteriosa",
+   "p": "¿Qué pez de los ríos amazónicos es este, famoso por sus dientes afilados?",
+   "o": [
+    "Pez payaso",
+    "Salmón",
+    "Piraña",
+    "Anguila"
+   ],
+   "c": 2,
+   "img_q": "Piranha",
+   "img_modo": "pregunta",
+   "d": "Las pirañas viven en grupo, pero casi siempre comen peces e insectos, no personas.",
+   "tp": "¿Qué pez de los ríos amazónicos es este, famoso por sus dientes afilados? ¿Pez payaso, Salmón, Piraña o Anguila?",
+   "tr": "¡La piraña!",
+   "td": "Las pirañas viven en grupo, pero casi siempre comen peces e insectos, no personas."
+  },
+  {
+   "n": 14,
+   "tema": "naturaleza",
+   "p": "¿Qué felino americano, de manchas en forma de rosetas, es el más grande de América?",
+   "o": [
+    "Jaguar",
+    "León",
+    "Tigre",
+    "Leopardo"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "jaguar",
+     "src": "px"
+    },
+    {
+     "q": "lion",
+     "src": "px"
+    },
+    {
+     "q": "tiger",
+     "src": "px"
+    },
+    {
+     "q": "leopard",
+     "src": "px"
+    }
+   ],
+   "d": "El jaguar tiene una de las mordidas más fuertes entre los felinos y le gusta nadar.",
+   "tp": "¿Qué felino americano, de manchas en forma de rosetas, es el más grande de América? ¿Jaguar, León, Tigre o Leopardo?",
+   "tr": "¡El jaguar!",
+   "td": "El jaguar tiene una de las mordidas más fuertes entre los felinos y le gusta nadar."
+  },
+  {
+   "n": 15,
+   "tema": "naturaleza",
+   "p": "¿Cuál de estos animales es el más grande que ha existido en la Tierra?",
+   "o": [
+    "Elefante africano",
+    "Ballena azul",
+    "Tiburón ballena",
+    "Jirafa"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "african elephant",
+     "src": "px"
+    },
+    {
+     "q": "blue whale",
+     "src": "cm",
+     "must": "whale"
+    },
+    {
+     "q": "whale shark",
+     "src": "px"
+    },
+    {
+     "q": "giraffe",
+     "src": "px"
+    }
+   ],
+   "d": "Una ballena azul mide casi 30 metros, casi tanto como tres autobuses juntos.",
+   "tp": "¿Cuál de estos animales es el más grande que ha existido en la Tierra? ¿Elefante africano, Ballena azul, Tiburón ballena o Jirafa?",
+   "tr": "¡La ballena azul!",
+   "td": "Una ballena azul mide casi treinta metros, casi tanto como tres autobuses juntos."
+  },
+  {
+   "n": 16,
+   "tema": "naturaleza",
+   "p": "¿De qué se alimenta la ballena azul, el animal más grande del mundo?",
+   "o": [
+    "Peces grandes",
+    "Focas",
+    "Medusas",
+    "Krill"
+   ],
+   "c": 3,
+   "d": "Una ballena azul puede comer hasta 4 toneladas de krill en un solo día.",
+   "tp": "¿De qué se alimenta la ballena azul, el animal más grande del mundo? ¿Krill, peces grandes, focas o medusas?",
+   "tr": "¡Krill, diminutos crustáceos!",
+   "td": "Una ballena azul puede comer hasta cuatro toneladas de krill en un solo día."
+  },
+  {
+   "n": 17,
+   "tema": "naturaleza",
+   "p": "¿Cómo se llama la parte alta de un árbol, con ramas y hojas?",
+   "o": [
+    "Copa",
+    "Tronco",
+    "Corteza",
+    "Raíz"
+   ],
+   "c": 0,
+   "d": "La copa da sombra y ayuda a que el suelo no se seque.",
+   "tp": "¿Cómo se llama la parte alta de un árbol, con ramas y hojas? ¿Copa, Tronco, Corteza o Raíz?",
+   "tr": "¡La copa!",
+   "td": "La copa da sombra y ayuda a que el suelo no se seque."
+  },
+  {
+   "n": 18,
+   "tema": "naturaleza",
+   "p": "¿Qué fruta amarilla y curva crece en racimos llamados «manos»?",
+   "o": [
+    "Piña",
+    "Mango",
+    "Papaya",
+    "Plátano"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "pineapple",
+     "src": "px"
+    },
+    {
+     "q": "mango",
+     "src": "px"
+    },
+    {
+     "q": "papaya",
+     "src": "px"
+    },
+    {
+     "q": "banana",
+     "src": "px"
+    }
+   ],
+   "d": "Cada plátano de un racimo se llama «dedo» y el racimo entero, «mano».",
+   "tp": "¿Qué fruta amarilla y curva crece en racimos llamados «manos»? ¿Piña, Mango, Papaya o Plátano?",
+   "tr": "¡El plátano!",
+   "td": "Cada plátano de un racimo se llama «dedo» y el racimo entero, «mano»."
+  },
+  {
+   "n": 19,
+   "tema": "naturaleza",
+   "p": "¿Qué diminutos animales construyen los arrecifes de coral?",
+   "o": [
+    "Pulpos",
+    "Cangrejos",
+    "Pólipos",
+    "Camarones"
+   ],
+   "c": 2,
+   "d": "Los pólipos forman esqueletos de piedra y, con los años, crean enormes arrecifes.",
+   "tp": "¿Qué diminutos animales construyen los arrecifes de coral? ¿Pulpos, Cangrejos, Pólipos o Camarones?",
+   "tr": "¡Los pólipos!",
+   "td": "Los pólipos forman esqueletos de piedra y, con los años, crean enormes arrecifes."
+  },
+  {
+   "n": 20,
+   "tema": "naturaleza",
+   "p": "¿En qué país está el Serengueti, famoso por la gran migración de ñus y cebras?",
+   "o": [
+    "Kenia",
+    "Tanzania",
+    "Sudáfrica",
+    "Namibia"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "flag": "ke"
+    },
+    {
+     "flag": "tz"
+    },
+    {
+     "flag": "za"
+    },
+    {
+     "flag": "na"
+    }
+   ],
+   "d": "Cada año más de un millón de ñus cruzan la sabana buscando pasto fresco.",
+   "tp": "¿En qué país está el Serengueti, famoso por la gran migración de ñus y cebras? ¿Kenia, Tanzania, Sudáfrica o Namibia?",
+   "tr": "¡Tanzania!",
+   "td": "Cada año más de un millón de ñus cruzan la sabana buscando pasto fresco."
+  },
+  {
+   "n": 21,
+   "tema": "naturaleza",
+   "p": "¿Para qué le sirven sus enormes orejas al zorro del desierto llamado fénec?",
+   "o": [
+    "Para volar",
+    "Para nadar",
+    "Para refrescarse",
+    "Para guardar agua"
+   ],
+   "c": 2,
+   "d": "Por sus orejas el fénec pierde calor, y además oye a sus presas bajo la arena.",
+   "tp": "¿Para qué le sirven sus enormes orejas al zorro del desierto llamado fénec? ¿Para volar, Para nadar, Para refrescarse o Para guardar agua?",
+   "tr": "¡Para refrescarse!",
+   "td": "Por sus orejas el fénec pierde calor, y además oye a sus presas bajo la arena."
+  },
+  {
+   "n": 22,
+   "tema": "naturaleza",
+   "p": "¿En qué país está Yellowstone, considerado el primer parque nacional del mundo?",
+   "o": [
+    "Estados Unidos",
+    "Canadá",
+    "México",
+    "Brasil"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "flag": "us"
+    },
+    {
+     "flag": "ca"
+    },
+    {
+     "flag": "mx"
+    },
+    {
+     "flag": "br"
+    }
+   ],
+   "d": "Yellowstone se creó en 1872 y tiene géiseres que lanzan agua caliente al cielo.",
+   "tp": "¿En qué país está Yellowstone, considerado el primer parque nacional del mundo? ¿Estados Unidos, Canadá, México o Brasil?",
+   "tr": "¡Estados Unidos!",
+   "td": "Yellowstone se creó en mil ochocientos setenta y dos y tiene géiseres que lanzan agua caliente al cielo."
+  },
+  {
+   "n": 23,
+   "tema": "naturaleza",
+   "p": "¿Cuál de estos animales vive en el Polo Sur?",
+   "o": [
+    "Oso polar",
+    "Pingüino",
+    "Morsa",
+    "Reno"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "polar bear",
+     "src": "px"
+    },
+    {
+     "q": "penguin",
+     "src": "px"
+    },
+    {
+     "q": "walrus",
+     "src": "px"
+    },
+    {
+     "q": "reindeer",
+     "src": "px"
+    }
+   ],
+   "d": "Los osos polares viven en el Ártico, al otro extremo del planeta.",
+   "tp": "¿Cuál de estos animales vive en el Polo Sur? ¿Oso polar, Pingüino, Morsa o Reno?",
+   "tr": "¡El pingüino!",
+   "td": "Los osos polares viven en el Ártico, al otro extremo del planeta."
+  },
+  {
+   "n": 24,
+   "tema": "naturaleza",
+   "p": "¿Cuántos océanos hay en la Tierra, según la división más común?",
+   "o": [
+    "Tres",
+    "Cuatro",
+    "Siete",
+    "Cinco"
+   ],
+   "c": 3,
+   "d": "Todos los océanos están conectados y forman un solo gran mar.",
+   "tp": "¿Cuántos océanos hay en la Tierra, según la división más común? ¿Tres, cuatro, cinco o siete?",
+   "tr": "¡Cinco!",
+   "td": "Todos los océanos están conectados y forman un solo gran mar."
+  },
+  {
+   "n": 25,
+   "tema": "naturaleza",
+   "p": "¿Cómo se llaman las crías de la rana?",
+   "o": [
+    "Renacuajos",
+    "Larvas",
+    "Alevines",
+    "Polluelos"
+   ],
+   "c": 0,
+   "d": "Los renacuajos respiran por branquias y, al crecer, desarrollan pulmones y patas.",
+   "tp": "¿Cómo se llaman las crías de la rana? ¿Renacuajos, Larvas, Alevines o Polluelos?",
+   "tr": "¡Renacuajos!",
+   "td": "Los renacuajos respiran por branquias y, al crecer, desarrollan pulmones y patas."
+  },
+  {
+   "n": 26,
+   "tema": "naturaleza",
+   "p": "¿Cómo se llama el lugar más profundo de todos los océanos?",
+   "o": [
+    "Mar Muerto",
+    "Gran Barrera",
+    "Fosa de las Marianas",
+    "Cabo de Hornos"
+   ],
+   "c": 2,
+   "d": "Mide casi 11.000 metros de profundidad: ¡el monte Everest cabría adentro!",
+   "tp": "¿Cómo se llama el lugar más profundo de todos los océanos? ¿Mar Muerto, Gran Barrera, Fosa de las Marianas o Cabo de Hornos?",
+   "tr": "¡La fosa de las Marianas!",
+   "td": "Mide casi once mil metros de profundidad: ¡el monte Everest cabría adentro!"
+  },
+  {
+   "n": 27,
+   "tema": "naturaleza",
+   "p": "¿Cuál de estas plantas atrapa insectos para comérselos?",
+   "o": [
+    "Cactus",
+    "Atrapamoscas",
+    "Helecho",
+    "Orquídea"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "cactus",
+     "src": "px"
+    },
+    {
+     "q": "venus flytrap",
+     "src": "px"
+    },
+    {
+     "q": "fern",
+     "src": "px"
+    },
+    {
+     "q": "orchid",
+     "src": "px"
+    }
+   ],
+   "d": "La atrapamoscas cierra sus hojas en menos de un segundo cuando un insecto la toca.",
+   "tp": "¿Cuál de estas plantas atrapa insectos para comérselos? ¿Cactus, Atrapamoscas, Helecho o Orquídea?",
+   "tr": "¡La atrapamoscas!",
+   "td": "La atrapamoscas cierra sus hojas en menos de un segundo cuando un insecto la toca."
+  },
+  {
+   "n": 28,
+   "tema": "naturaleza",
+   "p": "¿Qué grano andino, la «madre de todos los granos» para los incas, es hoy famoso?",
+   "o": [
+    "Arroz",
+    "Trigo",
+    "Cebada",
+    "Quinua"
+   ],
+   "c": 3,
+   "d": "La quinua es muy nutritiva y crece en los Andes, incluso a gran altura.",
+   "tp": "¿Qué grano andino, la «madre de todos los granos» para los incas, es hoy famoso? ¿Arroz, Trigo, Cebada o Quinua?",
+   "tr": "¡La quinua!",
+   "td": "La quinua es muy nutritiva y crece en los Andes, incluso a gran altura."
+  },
+  {
+   "n": 29,
+   "tema": "naturaleza",
+   "p": "¿Qué se puede saber contando los anillos del tronco de un árbol?",
+   "o": [
+    "Su altura",
+    "Su edad",
+    "Su peso",
+    "Su nombre"
+   ],
+   "c": 1,
+   "d": "Cada anillo suele marcar un año de vida del árbol.",
+   "tp": "¿Qué se puede saber contando los anillos del tronco de un árbol? ¿Su altura, Su edad, Su peso o Su nombre?",
+   "tr": "¡Su edad!",
+   "td": "Cada anillo suele marcar un año de vida del árbol."
+  },
+  {
+   "n": 30,
+   "tema": "naturaleza",
+   "p": "¿Qué tipo de árbol es el más alto del mundo?",
+   "o": [
+    "Secuoya",
+    "Baobab",
+    "Roble",
+    "Ceiba"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "redwood tree",
+     "src": "px"
+    },
+    {
+     "q": "baobab",
+     "src": "px"
+    },
+    {
+     "q": "oak tree",
+     "src": "px"
+    },
+    {
+     "q": "kapok tree",
+     "src": "px"
+    }
+   ],
+   "d": "La secuoya más alta, llamada Hyperion, mide más de 115 metros.",
+   "tp": "¿Qué tipo de árbol es el más alto del mundo? ¿Secuoya, Baobab, Roble o Ceiba?",
+   "tr": "¡La secuoya!",
+   "td": "La secuoya más alta, llamada Hyperion, mide más de ciento quince metros."
+  },
+  {
+   "n": 31,
+   "tema": "naturaleza",
+   "ronda": "vf",
+   "p": "Las jirafas tienen más huesos en el cuello que las personas.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Jirafas y personas tenemos 7 huesos en el cuello; los de la jirafa son larguísimos.",
+   "tp": "¿Verdadero o falso? Las jirafas tienen más huesos en el cuello que las personas.",
+   "tr": "¡Falso! Los dos tenemos siete.",
+   "td": "Jirafas y personas tenemos siete huesos en el cuello; los de la jirafa son larguísimos."
+  },
+  {
+   "n": 32,
+   "tema": "naturaleza",
+   "ronda": "vf",
+   "p": "Las estrellas de mar no tienen cerebro.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Tampoco tienen sangre: usan agua de mar para moverse y respirar.",
+   "tp": "¿Verdadero o falso? Las estrellas de mar no tienen cerebro.",
+   "tr": "¡Verdadero! Sin cerebro.",
+   "td": "Tampoco tienen sangre: usan agua de mar para moverse y respirar."
+  },
+  {
+   "n": 33,
+   "tema": "naturaleza",
+   "ronda": "vf",
+   "p": "El río Amazonas nace en los Andes del Perú.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Su fuente más lejana está en los Andes, en la región de Arequipa.",
+   "tp": "¿Verdadero o falso? El río Amazonas nace en los Andes del Perú.",
+   "tr": "¡Verdadero! Nace en el Perú.",
+   "td": "Su fuente más lejana está en los Andes, en la región de Arequipa."
+  },
+  {
+   "n": 34,
+   "tema": "naturaleza",
+   "p": "¿Qué mamífero pone huevos en lugar de parir a sus crías?",
+   "o": [
+    "Canguro",
+    "Murciélago",
+    "Ornitorrinco",
+    "Delfín"
+   ],
+   "c": 2,
+   "d": "El ornitorrinco vive en Australia y tiene pico de pato y cola de castor.",
+   "tp": "¿Qué mamífero pone huevos en lugar de parir a sus crías? ¿Canguro, Murciélago, Ornitorrinco o Delfín?",
+   "tr": "¡El ornitorrinco!",
+   "td": "El ornitorrinco vive en Australia y tiene pico de pato y cola de castor."
+  },
+  {
+   "n": 35,
+   "tema": "naturaleza",
+   "p": "¿Cuál de estas aves no puede volar?",
+   "o": [
+    "Cóndor",
+    "Águila",
+    "Colibrí",
+    "Avestruz"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "andean condor",
+     "src": "px"
+    },
+    {
+     "q": "eagle",
+     "src": "px"
+    },
+    {
+     "q": "hummingbird",
+     "src": "px"
+    },
+    {
+     "q": "ostrich",
+     "src": "px"
+    }
+   ],
+   "d": "El avestruz es el ave más grande y corre a unos 70 kilómetros por hora.",
+   "tp": "¿Cuál de estas aves no puede volar? ¿Cóndor, Águila, Colibrí o Avestruz?",
+   "tr": "¡El avestruz!",
+   "td": "El avestruz es el ave más grande y corre a unos setenta kilómetros por hora."
+  },
+  {
+   "n": 36,
+   "tema": "naturaleza",
+   "p": "¿Qué ave hace el viaje más largo del mundo, del Ártico a la Antártida y de regreso?",
+   "o": [
+    "Albatros",
+    "Charrán ártico",
+    "Cigüeña",
+    "Ganso"
+   ],
+   "c": 1,
+   "d": "El charrán ártico vuela unos 70.000 kilómetros al año entre los dos polos.",
+   "tp": "¿Qué ave hace el viaje más largo del mundo, del Ártico a la Antártida y de regreso? ¿Albatros, Charrán ártico, Cigüeña o Ganso?",
+   "tr": "¡El charrán ártico!",
+   "td": "El charrán ártico vuela unos setenta mil kilómetros al año entre los dos polos."
+  },
+  {
+   "n": 37,
+   "tema": "naturaleza",
+   "p": "¿Qué pez nada de regreso al río donde nació para poner sus huevos?",
+   "o": [
+    "Atún",
+    "Sardina",
+    "Salmón",
+    "Pez espada"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "tuna fish",
+     "src": "px"
+    },
+    {
+     "q": "sardines",
+     "src": "px"
+    },
+    {
+     "q": "salmon fish",
+     "src": "px"
+    },
+    {
+     "q": "swordfish",
+     "src": "px"
+    }
+   ],
+   "d": "Algunos salmones nadan cientos de kilómetros contra la corriente para volver a casa.",
+   "tp": "¿Qué pez nada de regreso al río donde nació para poner sus huevos? ¿Atún, Sardina, Salmón o Pez espada?",
+   "tr": "¡El salmón!",
+   "td": "Algunos salmones nadan cientos de kilómetros contra la corriente para volver a casa."
+  },
+  {
+   "n": 38,
+   "tema": "naturaleza",
+   "p": "¿Qué ave marina tiene alas de más de tres metros y pasa meses sobre el océano?",
+   "o": [
+    "Pelícano",
+    "Gaviota",
+    "Cormorán",
+    "Albatros"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "pelican",
+     "src": "px"
+    },
+    {
+     "q": "seagull",
+     "src": "px"
+    },
+    {
+     "q": "cormorant",
+     "src": "px"
+    },
+    {
+     "q": "albatross",
+     "src": "px"
+    }
+   ],
+   "d": "El albatros viajero planea durante horas casi sin batir las alas.",
+   "tp": "¿Qué ave marina tiene alas de más de tres metros y pasa meses sobre el océano? ¿Pelícano, Gaviota, Cormorán o Albatros?",
+   "tr": "¡El albatros!",
+   "td": "El albatros viajero planea durante horas casi sin batir las alas."
+  },
+  {
+   "n": 39,
+   "tema": "naturaleza",
+   "p": "¿Qué islas del Ecuador inspiraron a Darwin su teoría de la evolución?",
+   "o": [
+    "Galápagos",
+    "Malvinas",
+    "Juan Fernández",
+    "Chiloé"
+   ],
+   "c": 0,
+   "d": "Darwin visitó Galápagos en 1835 y observó cómo cambiaban los pinzones y las tortugas de isla en isla.",
+   "tp": "¿Qué islas del Ecuador inspiraron a Darwin su teoría de la evolución? ¿Galápagos, Malvinas, Juan Fernández o Chiloé?",
+   "tr": "¡Galápagos!",
+   "td": "Darwin visitó Galápagos en mil ochocientos treinta y cinco y observó cómo cambiaban los pinzones y las tortugas de isla en isla."
+  },
+  {
+   "n": 40,
+   "tema": "naturaleza",
+   "p": "La papa, tesoro del Perú, ¿qué parte de la planta es en realidad?",
+   "o": [
+    "Una raíz",
+    "Un fruto",
+    "Una semilla",
+    "Un tallo subterráneo"
+   ],
+   "c": 3,
+   "d": "En el Perú existen miles de variedades de papa, y se domesticó hace unos 8.000 años.",
+   "tp": "La papa, tesoro del Perú, ¿qué parte de la planta es en realidad? ¿Una raíz, Un fruto, Una semilla o Un tallo subterráneo?",
+   "tr": "¡Un tallo bajo tierra!",
+   "td": "En el Perú existen miles de variedades de papa, y se domesticó hace unos ocho mil años."
+  },
+  {
+   "n": 41,
+   "tema": "naturaleza",
+   "ronda": "relampago",
+   "p": "¿Qué planta con espinas vive en el desierto?",
+   "o": [
+    "Helecho",
+    "Cactus",
+    "Trébol",
+    "Lirio"
+   ],
+   "c": 1,
+   "d": "Guarda agua en su tallo grueso.",
+   "tp": "¿Qué planta con espinas vive en el desierto? ¿Helecho, Cactus, Trébol o Lirio?",
+   "tr": "¡Cactus!",
+   "td": "Guarda agua en su tallo grueso."
+  },
+  {
+   "n": 42,
+   "tema": "naturaleza",
+   "ronda": "relampago",
+   "p": "¿Qué insecto «canta» frotando sus alas?",
+   "o": [
+    "Grillo",
+    "Hormiga",
+    "Libélula",
+    "Escarabajo"
+   ],
+   "c": 0,
+   "d": "Se oye mejor de noche.",
+   "tp": "¿Qué insecto «canta» frotando sus alas? ¿Grillo, Hormiga, Libélula o Escarabajo?",
+   "tr": "¡Grillo!",
+   "td": "Se oye mejor de noche."
+  },
+  {
+   "n": 43,
+   "tema": "naturaleza",
+   "ronda": "relampago",
+   "p": "¿Qué árbol da manzanas?",
+   "o": [
+    "Peral",
+    "Naranjo",
+    "Manzano",
+    "Olivo"
+   ],
+   "c": 2,
+   "d": "El manzano florece en primavera.",
+   "tp": "¿Qué árbol da manzanas? ¿Peral, Naranjo, Manzano o Olivo?",
+   "tr": "¡Manzano!",
+   "td": "El manzano florece en primavera."
+  },
+  {
+   "n": 44,
+   "tema": "naturaleza",
+   "ronda": "relampago",
+   "p": "¿Qué animal tiene un cuerno en la nariz?",
+   "o": [
+    "Rinoceronte",
+    "Hipopótamo",
+    "Cebra",
+    "Búfalo"
+   ],
+   "c": 0,
+   "d": "Su cuerno es de queratina, como nuestras uñas.",
+   "tp": "¿Qué animal tiene un cuerno en la nariz? ¿Rinoceronte, Hipopótamo, Cebra o Búfalo?",
+   "tr": "¡Rinoceronte!",
+   "td": "Su cuerno es de queratina, como nuestras uñas."
+  },
+  {
+   "n": 45,
+   "tema": "naturaleza",
+   "ronda": "relampago",
+   "p": "¿Qué mamífero marino es blanco y negro?",
+   "o": [
+    "Foca",
+    "Orca",
+    "Manatí",
+    "Morsa"
+   ],
+   "c": 1,
+   "d": "Las orcas viven en grupos familiares.",
+   "tp": "¿Qué mamífero marino es blanco y negro? ¿Foca, Orca, Manatí o Morsa?",
+   "tr": "¡La orca!",
+   "td": "Las orcas viven en grupos familiares."
+  },
+  {
+   "n": 46,
+   "tema": "naturaleza",
+   "p": "¿Qué insecto produce luz propia en las noches de verano?",
+   "o": [
+    "Mariposa",
+    "Grillo",
+    "Luciérnaga",
+    "Mosquito"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "butterfly",
+     "src": "px"
+    },
+    {
+     "q": "cricket insect",
+     "src": "px"
+    },
+    {
+     "q": "firefly",
+     "src": "px"
+    },
+    {
+     "q": "mosquito",
+     "src": "px"
+    }
+   ],
+   "d": "Las luciérnagas hacen luz con un químico en su cuerpo, casi sin calor.",
+   "tp": "¿Qué insecto produce luz propia en las noches de verano? ¿Mariposa, Grillo, Luciérnaga o Mosquito?",
+   "tr": "¡La luciérnaga!",
+   "td": "Las luciérnagas hacen luz con un químico en su cuerpo, casi sin calor."
+  },
+  {
+   "n": 47,
+   "tema": "naturaleza",
+   "p": "¿Qué árbol gigante de la Amazonía, de tronco ancho, es sagrado para muchos pueblos?",
+   "o": [
+    "Pino",
+    "Sauce",
+    "Palmera",
+    "Ceiba"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "pine tree",
+     "src": "px"
+    },
+    {
+     "q": "willow tree",
+     "src": "px"
+    },
+    {
+     "q": "palm tree",
+     "src": "px"
+    },
+    {
+     "q": "Ceiba pentandra tree",
+     "src": "cm",
+     "must": "ceiba"
+    }
+   ],
+   "d": "La ceiba puede pasar los 50 metros de altura.",
+   "tp": "¿Qué árbol gigante de la Amazonía, de tronco ancho, es sagrado para muchos pueblos? ¿Pino, Sauce, Palmera o Ceiba?",
+   "tr": "¡La ceiba!",
+   "td": "La ceiba puede pasar los cincuenta metros de altura."
+  },
+  {
+   "n": 48,
+   "tema": "naturaleza",
+   "p": "¿Qué parque nacional de la selva peruana es famoso por su variedad de aves y plantas?",
+   "o": [
+    "Manu",
+    "Huascarán",
+    "Paracas",
+    "Cutervo"
+   ],
+   "c": 0,
+   "img_q": "Manu National Park",
+   "img_modo": "revela",
+   "d": "El Manu es uno de los lugares con más especies de aves y plantas del planeta.",
+   "tp": "¿Qué parque nacional de la selva peruana es famoso por su variedad de aves y plantas? ¿Manu, Huascarán, Paracas o Cutervo?",
+   "tr": "¡El Manu!",
+   "td": "El Manu es uno de los lugares con más especies de aves y plantas del planeta."
+  },
+  {
+   "n": 49,
+   "tema": "naturaleza",
+   "p": "¿Qué mamífero marino tiene un «cuerno» largo en la cabeza?",
+   "o": [
+    "Pez espada",
+    "Delfín",
+    "Narval",
+    "Orca"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "swordfish",
+     "src": "px"
+    },
+    {
+     "q": "dolphin",
+     "src": "px"
+    },
+    {
+     "q": "narwhal",
+     "src": "px"
+    },
+    {
+     "q": "orca",
+     "src": "px"
+    }
+   ],
+   "d": "El «cuerno» del narval es en realidad un diente larguísimo.",
+   "tp": "¿Qué mamífero marino tiene un «cuerno» largo en la cabeza? ¿Pez espada, Delfín, Narval o Orca?",
+   "tr": "¡El narval!",
+   "td": "El «cuerno» del narval es en realidad un diente larguísimo."
+  },
+  {
+   "n": 50,
+   "tema": "naturaleza",
+   "p": "¿Qué corriente fría, que baña la costa del Perú, lleva el nombre de un sabio alemán?",
+   "o": [
+    "Corriente del Golfo",
+    "Corriente de Humboldt",
+    "Corriente de Kuroshio",
+    "Corriente del Labrador"
+   ],
+   "c": 1,
+   "d": "La corriente de Humboldt trae aguas frías y llenas de peces: el mar peruano es de los más ricos.",
+   "tp": "¿Qué corriente fría, que baña la costa del Perú, lleva el nombre de un sabio alemán? ¿Corriente del Golfo, Corriente de Humboldt, Corriente de Kuroshio o Corriente del Labrador?",
+   "tr": "¡La corriente de Humboldt!",
+   "td": "La corriente de Humboldt trae aguas frías y llenas de peces: el mar peruano es de los más ricos."
+  },
+  {
+   "n": 51,
+   "tema": "naturaleza",
+   "p": "¿Qué árbol andino, de corteza medicinal contra la malaria, está en el escudo del Perú?",
+   "o": [
+    "Eucalipto",
+    "Molle",
+    "Cedro",
+    "Quina"
+   ],
+   "c": 3,
+   "d": "De la corteza de la quina se obtiene la quinina, que se usó contra la malaria.",
+   "tp": "¿Qué árbol andino, de corteza medicinal contra la malaria, está en el escudo del Perú? ¿Eucalipto, Molle, Cedro o Quina?",
+   "tr": "¡La quina!",
+   "td": "De la corteza de la quina se obtiene la quinina, que se usó contra la malaria."
+  },
+  {
+   "n": 52,
+   "tema": "naturaleza",
+   "p": "¿Cómo se llaman los bosques submarinos formados por algas gigantes?",
+   "o": [
+    "Arrecifes",
+    "Dunas",
+    "Bosques de kelp",
+    "Praderas"
+   ],
+   "c": 2,
+   "d": "El kelp puede crecer hasta medio metro en un solo día.",
+   "tp": "¿Cómo se llaman los bosques submarinos formados por algas gigantes? ¿Arrecifes, Dunas, Bosques de kelp o Praderas?",
+   "tr": "¡Bosques de kelp!",
+   "td": "El kelp puede crecer hasta medio metro en un solo día."
+  },
+  {
+   "n": 53,
+   "tema": "naturaleza",
+   "p": "¿Cómo se llaman los árboles que crecen con sus raíces dentro del agua salada de la costa?",
+   "o": [
+    "Manglares",
+    "Cactus",
+    "Pinos",
+    "Bambúes"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "mangrove",
+     "src": "px"
+    },
+    {
+     "q": "cactus",
+     "src": "px"
+    },
+    {
+     "q": "pine trees",
+     "src": "px"
+    },
+    {
+     "q": "bamboo",
+     "src": "px"
+    }
+   ],
+   "d": "En Tumbes, al norte del Perú, hay manglares protegidos, hogar de cangrejos y aves.",
+   "tp": "¿Cómo se llaman los árboles que crecen con sus raíces dentro del agua salada de la costa? ¿Manglares, Cactus, Pinos o Bambúes?",
+   "tr": "¡Los manglares!",
+   "td": "En Tumbes, al norte del Perú, hay manglares protegidos, hogar de cangrejos y aves."
+  },
+  {
+   "n": 54,
+   "tema": "naturaleza",
+   "p": "¿Cómo se llama la región muy fría con suelo congelado y sin árboles?",
+   "o": [
+    "Sabana",
+    "Selva",
+    "Pradera",
+    "Tundra"
+   ],
+   "c": 3,
+   "d": "En la tundra, el suelo congelado impide que crezcan árboles de raíces profundas.",
+   "tp": "¿Cómo se llama la región muy fría con suelo congelado y sin árboles? ¿Sabana, Selva, Pradera o Tundra?",
+   "tr": "¡La tundra!",
+   "td": "En la tundra, el suelo congelado impide que crezcan árboles de raíces profundas."
+  },
+  {
+   "n": 55,
+   "tema": "naturaleza",
+   "p": "¿Qué fruto seco, cosechado en Madre de Dios, Perú, también se llama nuez de Brasil?",
+   "o": [
+    "Almendra",
+    "Castaña",
+    "Nuez",
+    "Maní"
+   ],
+   "c": 1,
+   "d": "Los árboles de castaña crecen en la selva de Madre de Dios y se cosechan sin talarlos.",
+   "tp": "¿Qué fruto seco, cosechado en Madre de Dios, Perú, también se llama nuez de Brasil? ¿Almendra, Castaña, Nuez o Maní?",
+   "tr": "¡La castaña!",
+   "td": "Los árboles de castaña crecen en la selva de Madre de Dios y se cosechan sin talarlos."
+  },
+  {
+   "n": 56,
+   "tema": "naturaleza",
+   "ronda": "misteriosa",
+   "p": "¿Qué ave marina es esta, con un pico enorme en forma de bolsa?",
+   "o": [
+    "Gaviota",
+    "Albatros",
+    "Pelícano",
+    "Cormorán"
+   ],
+   "c": 2,
+   "img_q": "Pelican",
+   "img_modo": "pregunta",
+   "d": "El pelícano guarda agua y peces en la bolsa de su pico.",
+   "tp": "¿Qué ave marina es esta, con un pico enorme en forma de bolsa? ¿Gaviota, Albatros, Pelícano o Cormorán?",
+   "tr": "¡El pelícano!",
+   "td": "El pelícano guarda agua y peces en la bolsa de su pico."
+  },
+  {
+   "n": 57,
+   "tema": "naturaleza",
+   "ronda": "misteriosa",
+   "p": "¿Qué ave es esta, símbolo de los Andes?",
+   "o": [
+    "Águila",
+    "Cóndor",
+    "Buitre",
+    "Halcón"
+   ],
+   "c": 1,
+   "img_q": "Andean condor",
+   "img_modo": "pregunta",
+   "d": "El cóndor andino puede abrir sus alas más de 3 metros.",
+   "tp": "¿Qué ave es esta, símbolo de los Andes? ¿Águila, Cóndor, Buitre o Halcón?",
+   "tr": "¡El cóndor!",
+   "td": "El cóndor andino puede abrir sus alas más de tres metros."
+  },
+  {
+   "n": 58,
+   "tema": "naturaleza",
+   "ronda": "misteriosa",
+   "p": "¿Qué ave de la selva es esta, con un pico enorme y colorido?",
+   "o": [
+    "Loro",
+    "Guacamayo",
+    "Colibrí",
+    "Tucán"
+   ],
+   "c": 3,
+   "img_q": "Toucan",
+   "img_modo": "pregunta",
+   "d": "El pico del tucán es grande pero liviano, y le ayuda a regular su temperatura.",
+   "tp": "¿Qué ave de la selva es esta, con un pico enorme y colorido? ¿Loro, Guacamayo, Colibrí o Tucán?",
+   "tr": "¡El tucán!",
+   "td": "El pico del tucán es grande pero liviano, y le ayuda a regular su temperatura."
+  },
+  {
+   "n": 59,
+   "tema": "naturaleza",
+   "p": "¿Cómo se llama el oasis rodeado de dunas que está en Ica, Perú?",
+   "o": [
+    "Huacachina",
+    "Paracas",
+    "Nazca",
+    "Chincha"
+   ],
+   "c": 0,
+   "img_q": "Huacachina oasis",
+   "img_modo": "revela",
+   "d": "En Huacachina hay una laguna con palmeras, rodeada de grandes dunas para deslizarse.",
+   "tp": "¿Cómo se llama el oasis rodeado de dunas que está en Ica, Perú? ¿Huacachina, Paracas, Nazca o Chincha?",
+   "tr": "¡Huacachina!",
+   "td": "En Huacachina hay una laguna con palmeras, rodeada de grandes dunas para deslizarse."
+  },
+  {
+   "n": 60,
+   "tema": "naturaleza",
+   "p": "¿Cómo se llama el líquido que recorre las plantas llevando alimento?",
+   "o": [
+    "Resina",
+    "Néctar",
+    "Savia",
+    "Rocío"
+   ],
+   "c": 2,
+   "d": "Del arce se saca la savia para hacer jarabe de arce.",
+   "tp": "¿Cómo se llama el líquido que recorre las plantas llevando alimento? ¿Resina, Néctar, Savia o Rocío?",
+   "tr": "¡La savia!",
+   "td": "Del arce se saca la savia para hacer jarabe de arce."
+  },
+  {
+   "n": 61,
+   "tema": "naturaleza",
+   "p": "¿Qué ave marina de las islas peruanas es famosa por producir el guano?",
+   "o": [
+    "Pelícano",
+    "Gaviota",
+    "Pingüino",
+    "Guanay"
+   ],
+   "c": 3,
+   "d": "El guano de las islas fue tan valioso que en el siglo XIX se exportaba como abono a Europa.",
+   "tp": "¿Qué ave marina de las islas peruanas es famosa por producir el guano? ¿Pelícano, Gaviota, Pingüino o Guanay?",
+   "tr": "¡El guanay!",
+   "td": "El guano de las islas fue tan valioso que en el siglo diecinueve se exportaba como abono a Europa."
+  }
+ ],
+ "extra_tts": {
+  "an_tema": [
+   "anunciador",
+   "Hoy jugamos: ¡naturaleza, plantas, bosques y océanos!"
+  ],
+  "pr_intro": [
+   "presentador",
+   "¡Hola, familia! Hoy nos metemos en la selva, el desierto y el fondo del mar con cien preguntas de naturaleza. ¿Listos para explorar?"
+  ],
+  "co_intro": [
+   "copresentadora",
+   "Habrá pulpos, secuoyas, un cóndor y hasta un perezoso. ¡Que gane el mejor amigo del planeta!"
+  ],
+  "co_fama": [
+   "copresentadora",
+   "Y felicitaciones a los mejores jugadores del episodio anterior, que ya aparecen en pantalla. ¡Hoy tienen nuevos rivales!"
+  ],
+  "charla05_pr": [
+   "presentador",
+   "¡Cinco! Yo también hago fotosíntesis: me pongo al sol y me cargan las baterías."
+  ],
+  "charla05_co": [
+   "copresentadora",
+   "Eso se llama panel solar, MAX. Familia, ¿ya vieron su puesto en el ranking del celular?"
+  ],
+  "charla10_pr": [
+   "presentador",
+   "¡Diez! Quise ser castor y construir un dique, pero solo me salió una pila de bloques."
+  ],
+  "charla10_co": [
+   "copresentadora",
+   "Buen intento, MAX. Ahora vienen las imágenes misteriosas: ¡abran bien los ojos, familia!"
+  ],
+  "charla15_pr": [
+   "presentador",
+   "¡Quince! Un perezoso con algas en el pelo. ¡Quiero un peinado así de verde!"
+  ],
+  "charla15_co": [
+   "copresentadora",
+   "Qué ocurrencia, MAX. Familia, revisen el ranking en el celular."
+  ],
+  "charla20_pr": [
+   "presentador",
+   "¡Veinte! Una ballena azul come cuatro toneladas de krill al día. ¡Yo con un tornillo estoy lleno!"
+  ],
+  "charla20_co": [
+   "copresentadora",
+   "Menos mal, MAX, porque el krill no cabe en tu plato. ¡Siguen las preguntas, familia!"
+  ],
+  "charla25_pr": [
+   "presentador",
+   "¡Veinticinco! Los renacuajos crecen y se vuelven ranas. Yo solo me pongo más brillante."
+  ],
+  "charla25_co": [
+   "copresentadora",
+   "Siempre brillas, MAX. Familia, ¿cómo van en el ranking del celular?"
+  ],
+  "charla30_pr": [
+   "presentador",
+   "¡Treinta! Una secuoya alta como un edificio gigante. ¡Casi me da vértigo mirar arriba!"
+  ],
+  "charla30_co": [
+   "copresentadora",
+   "Y viene lo mejor, MAX: tres afirmaciones. Familia, ¿verdadero o falso? ¡Piensen bien!"
+  ],
+  "charla35_pr": [
+   "presentador",
+   "¡Treinta y cinco! Yo pensaba que las jirafas tenían cuello con cien huesos. ¡Qué mito!"
+  ],
+  "charla35_co": [
+   "copresentadora",
+   "Siete, igual que nosotros, MAX. Familia, revisen sus puntos en el celular."
+  ],
+  "charla40_pr": [
+   "presentador",
+   "¡Cuarenta! Ahora llega la ronda relámpago: cinco preguntas sin tiempo para dudar."
+  ],
+  "charla40_co": [
+   "copresentadora",
+   "Respiren hondo, familia. Cinco segundos por pregunta y ni uno más."
+  ],
+  "charla45_pr": [
+   "presentador",
+   "¡Zas! ¡Esa ronda pasó volando! Hasta el colibrí quedó mareado."
+  ],
+  "charla45_co": [
+   "copresentadora",
+   "Rapidísima, MAX. Familia, ¿cuántas acertaron? Miren el ranking en el celular."
+  ],
+  "charla50_pr": [
+   "presentador",
+   "¡Cincuenta, la mitad! Un narval con un diente de dos metros. ¡Yo solo tengo una antena!"
+  ],
+  "charla50_co": [
+   "copresentadora",
+   "Tu antena es suficiente, MAX. Mitad de camino, familia: ¡atentos al ranking!"
+  ],
+  "charla55_pr": [
+   "presentador",
+   "¡Cincuenta y cinco! Ahora tres animales misteriosos escondidos tras los píxeles. ¡Qué emoción!"
+  ],
+  "charla55_co": [
+   "copresentadora",
+   "Abran bien los ojos, familia. Mientras pasa el tiempo, la imagen se aclara."
+  ],
+  "charla60_pr": [
+   "presentador",
+   "¡Sesenta! El Titicaca queda tan alto que casi me despeino las antenas."
+  ],
+  "charla60_co": [
+   "copresentadora",
+   "Tranquilo, MAX. Familia, ¡sigan sumando puntos y vigilen el ranking del celular!"
+  ]
+ },
+ "fotos_miniatura": [
+  [
+   4,
+   1
+  ],
+  [
+   8,
+   2
+  ],
+  [
+   23,
+   1
+  ],
+  [
+   27,
+   1
+  ]
+ ]
 }

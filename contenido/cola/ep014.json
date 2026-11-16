@@ -2,7 +2,7 @@
  "id": "ep014",
  "fecha": "2026-11-18",
  "formato": "normal",
- "estado": "en_proceso",
+ "estado": "listo",
  "codigo_sala": "RITMO",
  "titulo": "Música, instrumentos y bailes del mundo",
  "titulo_youtube": "¿Cuánto sabes de música? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
@@ -474,6 +474,1719 @@
    "tp": "¿Cómo se llama el baile tradicional de Hawái que cuenta historias con las manos? ¿Haka, Sirtaki, Polka o Hula?",
    "tr": "¡El hula!",
    "td": "Cada movimiento de manos del hula tiene un significado."
+  },
+  {
+   "n": 22,
+   "tema": "música",
+   "p": "¿Qué instrumento tiene el cuerpo con forma de ocho y se toca rasgando sus cuerdas?",
+   "o": [
+    "Violín",
+    "Guitarra",
+    "Arpa",
+    "Tambor"
+   ],
+   "c": 1,
+   "img_q": "Acoustic guitar",
+   "img_modo": "revela",
+   "d": "La guitarra clásica nació en España y es de los instrumentos más tocados del mundo.",
+   "tp": "¿Qué instrumento tiene el cuerpo con forma de ocho y se toca rasgando sus cuerdas? ¿Violín, Guitarra, Arpa o Tambor?",
+   "tr": "¡La guitarra!",
+   "td": "La guitarra clásica nació en España y es de los instrumentos más tocados del mundo."
+  },
+  {
+   "n": 23,
+   "tema": "música",
+   "p": "¿Cuál de estos instrumentos es de percusión?",
+   "o": [
+    "La flauta",
+    "El violín",
+    "El tambor",
+    "La trompeta"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "flute",
+     "src": "px"
+    },
+    {
+     "q": "violin",
+     "src": "px"
+    },
+    {
+     "q": "drum",
+     "src": "px"
+    },
+    {
+     "q": "trumpet",
+     "src": "px"
+    }
+   ],
+   "d": "Los instrumentos de percusión suenan al golpearlos, con baquetas o con las manos.",
+   "tp": "¿Cuál de estos instrumentos es de percusión? ¿La flauta, El violín, El tambor o La trompeta?",
+   "tr": "¡El tambor!",
+   "td": "Los instrumentos de percusión suenan al golpearlos, con baquetas o con las manos."
+  },
+  {
+   "n": 24,
+   "tema": "música",
+   "p": "¿Cuál de estos instrumentos es de viento metal?",
+   "o": [
+    "Clarinete",
+    "Violín",
+    "Tambor",
+    "Tuba"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "clarinet",
+     "src": "px"
+    },
+    {
+     "q": "violin",
+     "src": "px"
+    },
+    {
+     "q": "drum",
+     "src": "px"
+    },
+    {
+     "q": "tuba",
+     "src": "px"
+    }
+   ],
+   "d": "Los metales suenan al soplar dentro de una boquilla, haciendo vibrar los labios.",
+   "tp": "¿Cuál de estos instrumentos es de viento metal? ¿Clarinete, Violín, Tambor o Tuba?",
+   "tr": "¡La tuba!",
+   "td": "Los metales suenan al soplar dentro de una boquilla, haciendo vibrar los labios."
+  },
+  {
+   "n": 25,
+   "tema": "música",
+   "p": "¿Cómo se llama la parte de una canción que se repite una y otra vez?",
+   "o": [
+    "Estribillo",
+    "Introducción",
+    "Final",
+    "Compás"
+   ],
+   "c": 0,
+   "d": "El estribillo es la parte que todos cantan juntos y la que más se queda en la cabeza.",
+   "tp": "¿Cómo se llama la parte de una canción que se repite una y otra vez? ¿Estribillo, Introducción, Final o Compás?",
+   "tr": "¡El estribillo!",
+   "td": "El estribillo es la parte que todos cantan juntos y la que más se queda en la cabeza."
+  },
+  {
+   "n": 26,
+   "tema": "música",
+   "p": "Do, re… ¿qué nota musical sigue después?",
+   "o": [
+    "Fa",
+    "Sol",
+    "La",
+    "Mi"
+   ],
+   "c": 3,
+   "d": "Los nombres do, re, mi vienen de un himno latino de hace unos mil años.",
+   "tp": "Do, re… ¿qué nota musical sigue después? ¿Fa, Sol, La o Mi?",
+   "tr": "¡Mi!",
+   "td": "Los nombres do, re, mi vienen de un himno latino de hace unos mil años."
+  },
+  {
+   "n": 27,
+   "tema": "música",
+   "p": "¿Cómo se llama este pequeño instrumento de metal que se sopla deslizándolo por los labios?",
+   "o": [
+    "Acordeón",
+    "Armónica",
+    "Ocarina",
+    "Kazoo"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "accordion",
+     "src": "px"
+    },
+    {
+     "q": "harmonica",
+     "src": "px"
+    },
+    {
+     "q": "ocarina",
+     "src": "px"
+    },
+    {
+     "q": "kazoo",
+     "src": "px"
+    }
+   ],
+   "d": "La armónica clásica tiene 10 agujeros y cabe en un bolsillo.",
+   "tp": "¿Cómo se llama este pequeño instrumento de metal que se sopla deslizándolo por los labios? ¿Acordeón, Armónica, Ocarina o Kazoo?",
+   "tr": "¡La armónica!",
+   "td": "La armónica clásica tiene diez agujeros y cabe en un bolsillo."
+  },
+  {
+   "n": 28,
+   "tema": "cine",
+   "p": "¿Qué película de Disney, ambientada en Colombia, tiene la canción «No se habla de Bruno»?",
+   "o": [
+    "Encanto",
+    "Coco",
+    "Moana",
+    "Frozen"
+   ],
+   "c": 0,
+   "d": "«No se habla de Bruno» llegó al primer lugar de la lista Billboard Hot 100 en 2022.",
+   "tp": "¿Qué película de Disney, ambientada en Colombia, tiene la canción «No se habla de Bruno»? ¿Encanto, Coco, Moana o Frozen?",
+   "tr": "¡Encanto!",
+   "td": "«No se habla de Bruno» llegó al primer lugar de la lista Billboard Hot cien en dos mil veintidós."
+  },
+  {
+   "n": 29,
+   "tema": "música",
+   "p": "¿Qué ritmo afroperuano, alegre y de la costa, se baila al son del cajón?",
+   "o": [
+    "Huayno",
+    "Tondero",
+    "Festejo",
+    "Vals criollo"
+   ],
+   "c": 2,
+   "d": "El festejo nació entre la población afroperuana y es de los bailes más alegres del Perú.",
+   "tp": "¿Qué ritmo afroperuano, alegre y de la costa, se baila al son del cajón? ¿Huayno, Tondero, Festejo o Vals criollo?",
+   "tr": "¡El festejo!",
+   "td": "El festejo nació entre la población afroperuana y es de los bailes más alegres del Perú."
+  },
+  {
+   "n": 30,
+   "tema": "música",
+   "p": "¿Qué instrumento cubano tiene dos tamborcitos unidos que se tocan con las manos?",
+   "o": [
+    "Cajón",
+    "Bongó",
+    "Timbal",
+    "Conga"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "cajon",
+     "src": "px"
+    },
+    {
+     "q": "bongo drums",
+     "src": "px"
+    },
+    {
+     "q": "timbales",
+     "src": "px"
+    },
+    {
+     "q": "conga drum",
+     "src": "px"
+    }
+   ],
+   "d": "El bongó nació en Cuba y es clave en el son y la salsa.",
+   "tp": "¿Qué instrumento cubano tiene dos tamborcitos unidos que se tocan con las manos? ¿Cajón, Bongó, Timbal o Conga?",
+   "tr": "¡El bongó!",
+   "td": "El bongó nació en Cuba y es clave en el son y la salsa."
+  },
+  {
+   "n": 31,
+   "tema": "música",
+   "ronda": "vf",
+   "p": "El violín tiene más cuerdas que la guitarra clásica.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "El violín tiene 4 cuerdas y la guitarra clásica, 6.",
+   "tp": "¿Verdadero o falso? El violín tiene más cuerdas que la guitarra clásica.",
+   "tr": "¡Falso! Cuatro contra seis.",
+   "td": "El violín tiene cuatro cuerdas y la guitarra clásica, seis."
+  },
+  {
+   "n": 32,
+   "tema": "música",
+   "ronda": "vf",
+   "p": "El piano es un instrumento de cuerdas y de percusión a la vez.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Al pulsar una tecla, un martillito golpea las cuerdas dentro del piano.",
+   "tp": "¿Verdadero o falso? El piano es un instrumento de cuerdas y de percusión a la vez.",
+   "tr": "¡Verdadero! Martillitos que golpean cuerdas.",
+   "td": "Al pulsar una tecla, un martillito golpea las cuerdas dentro del piano."
+  },
+  {
+   "n": 33,
+   "tema": "música",
+   "ronda": "vf",
+   "p": "Mozart empezó a componer música cuando tenía unos cinco años.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Mozart compuso sus primeras piezas siendo un niño de 5 años.",
+   "tp": "¿Verdadero o falso? Mozart empezó a componer música cuando tenía unos cinco años.",
+   "tr": "¡Verdadero! Un genio desde niño.",
+   "td": "Mozart compuso sus primeras piezas siendo un niño de cinco años."
+  },
+  {
+   "n": 34,
+   "tema": "música",
+   "p": "¿Qué compositor alemán escribió los «Conciertos de Brandeburgo»?",
+   "o": [
+    "Bach",
+    "Wagner",
+    "Brahms",
+    "Händel"
+   ],
+   "c": 0,
+   "d": "Bach tuvo 20 hijos y varios de ellos también fueron músicos famosos.",
+   "tp": "¿Qué compositor alemán escribió los «Conciertos de Brandeburgo»? ¿Bach, Wagner, Brahms o Händel?",
+   "tr": "¡Bach!",
+   "td": "Bach tuvo veinte hijos y varios de ellos también fueron músicos famosos."
+  },
+  {
+   "n": 35,
+   "tema": "música",
+   "p": "¿Qué instrumento da la nota «la» para que toda la orquesta se afine?",
+   "o": [
+    "Violín",
+    "Flauta",
+    "Trompeta",
+    "Oboe"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "violin",
+     "src": "px"
+    },
+    {
+     "q": "flute",
+     "src": "px"
+    },
+    {
+     "q": "trumpet",
+     "src": "px"
+    },
+    {
+     "q": "oboe",
+     "src": "px"
+    }
+   ],
+   "d": "Antes del concierto, el oboe da el «la» y los demás se afinan con él.",
+   "tp": "¿Qué instrumento da la nota «la» para que toda la orquesta se afine? ¿Violín, Flauta, Trompeta o Oboe?",
+   "tr": "¡El oboe!",
+   "td": "Antes del concierto, el oboe da el «la» y los demás se afinan con él."
+  },
+  {
+   "n": 36,
+   "tema": "música",
+   "p": "¿De qué país es el didgeridoo, un largo tubo de madera que se sopla?",
+   "o": [
+    "Canadá",
+    "Sudáfrica",
+    "Australia",
+    "Nueva Zelanda"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "flag": "ca"
+    },
+    {
+     "flag": "za"
+    },
+    {
+     "flag": "au"
+    },
+    {
+     "flag": "nz"
+    }
+   ],
+   "d": "Los pueblos aborígenes de Australia lo tocan desde hace muchos siglos.",
+   "tp": "¿De qué país es el didgeridoo, un largo tubo de madera que se sopla? ¿Canadá, Sudáfrica, Australia o Nueva Zelanda?",
+   "tr": "¡Australia!",
+   "td": "Los pueblos aborígenes de Australia lo tocan desde hace muchos siglos."
+  },
+  {
+   "n": 37,
+   "tema": "música",
+   "p": "¿Cuál de estos instrumentos viene de la India?",
+   "o": [
+    "Ukelele",
+    "Sitar",
+    "Gaita",
+    "Banjo"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "ukulele",
+     "src": "px"
+    },
+    {
+     "q": "sitar",
+     "src": "px"
+    },
+    {
+     "q": "bagpipes",
+     "src": "px"
+    },
+    {
+     "q": "banjo",
+     "src": "px"
+    }
+   ],
+   "d": "El sitar se hizo famoso en Occidente gracias a George Harrison, de los Beatles.",
+   "tp": "¿Cuál de estos instrumentos viene de la India? ¿Ukelele, Sitar, Gaita o Banjo?",
+   "tr": "¡El sitar!",
+   "td": "El sitar se hizo famoso en Occidente gracias a George Harrison, de los Beatles."
+  },
+  {
+   "n": 38,
+   "tema": "música",
+   "p": "¿Qué instrumento de percusión tiene barras de madera de distintos tamaños?",
+   "o": [
+    "Pandereta",
+    "Platillos",
+    "Triángulo",
+    "Xilófono"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "tambourine",
+     "src": "px"
+    },
+    {
+     "q": "cymbals",
+     "src": "px"
+    },
+    {
+     "q": "triangle instrument",
+     "src": "px"
+    },
+    {
+     "q": "xylophone",
+     "src": "px"
+    }
+   ],
+   "d": "«Xilófono» viene del griego: «xylon» es madera y «phone», sonido.",
+   "tp": "¿Qué instrumento de percusión tiene barras de madera de distintos tamaños? ¿Pandereta, Platillos, Triángulo o Xilófono?",
+   "tr": "¡El xilófono!",
+   "td": "«Xilófono» viene del griego: «xylon» es madera y «phone», sonido."
+  },
+  {
+   "n": 39,
+   "tema": "música",
+   "p": "¿De qué país es la bachata, un ritmo romántico que se baila en pareja?",
+   "o": [
+    "Cuba",
+    "Puerto Rico",
+    "República Dominicana",
+    "Venezuela"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "flag": "cu"
+    },
+    {
+     "flag": "pr"
+    },
+    {
+     "flag": "do"
+    },
+    {
+     "flag": "ve"
+    }
+   ],
+   "d": "La bachata nació en los barrios dominicanos y la UNESCO la declaró Patrimonio en 2019.",
+   "tp": "¿De qué país es la bachata, un ritmo romántico que se baila en pareja? ¿Cuba, Puerto Rico, República Dominicana o Venezuela?",
+   "tr": "¡República Dominicana!",
+   "td": "La bachata nació en los barrios dominicanos y la UNESCO la declaró Patrimonio en dos mil diecinueve."
+  },
+  {
+   "n": 40,
+   "tema": "música",
+   "p": "¿Cómo se llama el palito que usa el director de una orquesta?",
+   "o": [
+    "Batuta",
+    "Varita",
+    "Cetro",
+    "Puntero"
+   ],
+   "c": 0,
+   "d": "La batuta marca el ritmo y ayuda a que todos toquen juntos.",
+   "tp": "¿Cómo se llama el palito que usa el director de una orquesta? ¿Batuta, Varita, Cetro o Puntero?",
+   "tr": "¡La batuta!",
+   "td": "La batuta marca el ritmo y ayuda a que todos toquen juntos."
+  },
+  {
+   "n": 41,
+   "tema": "música",
+   "ronda": "relampago",
+   "p": "¿Cuántos músicos forman un dúo?",
+   "o": [
+    "Uno",
+    "Dos",
+    "Tres",
+    "Cuatro"
+   ],
+   "c": 1,
+   "d": "Dúo viene de «dos».",
+   "tp": "¿Cuántos músicos forman un dúo? ¿Uno, Dos, Tres o Cuatro?",
+   "tr": "¡Dos!",
+   "td": "Dúo viene de dos."
+  },
+  {
+   "n": 42,
+   "tema": "música",
+   "ronda": "relampago",
+   "p": "Do, re, mi, fa… ¿cuál sigue?",
+   "o": [
+    "Si",
+    "La",
+    "Sol",
+    "Do"
+   ],
+   "c": 2,
+   "d": "Después del sol vienen la y si.",
+   "tp": "Do, re, mi, fa… ¿cuál sigue? ¿Si, La, Sol o Do?",
+   "tr": "¡Sol!",
+   "td": "Después del sol vienen la y si."
+  },
+  {
+   "n": 43,
+   "tema": "música",
+   "ronda": "relampago",
+   "p": "¿Qué instrumento suena «bum, bum»?",
+   "o": [
+    "Flauta",
+    "Arpa",
+    "Violín",
+    "Bombo"
+   ],
+   "c": 3,
+   "d": "El bombo es un tambor grande y grave.",
+   "tp": "¿Qué instrumento suena «bum, bum»? ¿Flauta, Arpa, Violín o Bombo?",
+   "tr": "¡Bombo!",
+   "td": "El bombo es un tambor grande y grave."
+  },
+  {
+   "n": 44,
+   "tema": "música",
+   "ronda": "relampago",
+   "p": "¿Con qué se toca el violín?",
+   "o": [
+    "Arco",
+    "Baqueta",
+    "Mazo",
+    "Púa"
+   ],
+   "c": 0,
+   "d": "El arco lleva crines de caballo.",
+   "tp": "¿Con qué se toca el violín? ¿Arco, Baqueta, Mazo o Púa?",
+   "tr": "¡Arco!",
+   "td": "El arco lleva crines de caballo."
+  },
+  {
+   "n": 45,
+   "tema": "música",
+   "ronda": "relampago",
+   "p": "¿Qué instrumento español hace «clac, clac»?",
+   "o": [
+    "Piano",
+    "Castañuelas",
+    "Flauta",
+    "Arpa"
+   ],
+   "c": 1,
+   "d": "Se tocan con los dedos de una mano.",
+   "tp": "¿Qué instrumento español hace «clac, clac»? ¿Piano, Castañuelas, Flauta o Arpa?",
+   "tr": "¡Castañuelas!",
+   "td": "Se tocan con los dedos de una mano."
+  },
+  {
+   "n": 46,
+   "tema": "música",
+   "p": "¿Qué compositor escribió el vals «El Danubio azul»?",
+   "o": [
+    "Brahms",
+    "Liszt",
+    "Schubert",
+    "Johann Strauss"
+   ],
+   "c": 3,
+   "d": "Este vals, de 1867, se toca cada Año Nuevo en Viena.",
+   "tp": "¿Qué compositor escribió el vals «El Danubio azul»? ¿Brahms, Liszt, Schubert o Johann Strauss?",
+   "tr": "¡Johann Strauss!",
+   "td": "Este vals, de mil ochocientos sesenta y siete, se toca cada Año Nuevo en Viena."
+  },
+  {
+   "n": 47,
+   "tema": "música",
+   "p": "¿En qué país nació la ópera, hacia el año 1600?",
+   "o": [
+    "Francia",
+    "Alemania",
+    "Italia",
+    "Inglaterra"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "flag": "fr"
+    },
+    {
+     "flag": "de"
+    },
+    {
+     "flag": "it"
+    },
+    {
+     "flag": "gb"
+    }
+   ],
+   "d": "La ópera nació en Florencia, cuando unos músicos quisieron cantar las obras de teatro.",
+   "tp": "¿En qué país nació la ópera, hacia el año mil seiscientos? ¿Italia, Francia, Alemania o Inglaterra?",
+   "tr": "¡Italia!",
+   "td": "La ópera nació en Florencia, cuando unos músicos quisieron cantar las obras de teatro."
+  },
+  {
+   "n": 48,
+   "tema": "música",
+   "p": "¿Qué instrumento de teclado, antepasado del piano, pulsa sus cuerdas con plumas?",
+   "o": [
+    "Clavecín",
+    "Arpa",
+    "Órgano",
+    "Acordeón"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "harpsichord",
+     "src": "px"
+    },
+    {
+     "q": "harp",
+     "src": "px"
+    },
+    {
+     "q": "pipe organ",
+     "src": "px"
+    },
+    {
+     "q": "accordion",
+     "src": "px"
+    }
+   ],
+   "d": "Sus cuerdas se pulsan con plumas, no se golpean con martillos como en el piano.",
+   "tp": "¿Qué instrumento de teclado, antepasado del piano, pulsa sus cuerdas con plumas? ¿Clavecín, Arpa, Órgano o Acordeón?",
+   "tr": "¡El clavecín!",
+   "td": "Sus cuerdas se pulsan con plumas, no se golpean con martillos como en el piano."
+  },
+  {
+   "n": 49,
+   "tema": "música",
+   "p": "¿Qué famosa canción peruana, de 1913, es un himno de los Andes?",
+   "o": [
+    "Contigo Perú",
+    "El cóndor pasa",
+    "Valicha",
+    "Cholo soy"
+   ],
+   "c": 1,
+   "d": "Daniel Alomía Robles la compuso en 1913 y Simon y Garfunkel la hicieron famosa en el mundo en 1970.",
+   "tp": "¿Qué famosa canción peruana, de mil novecientos trece, es un himno de los Andes? ¿El cóndor pasa, La flor de la canela, Valicha o Cholo soy?",
+   "tr": "¡El cóndor pasa!",
+   "td": "Daniel Alomía Robles la compuso en mil novecientos trece y Simon y Garfunkel la hicieron famosa en el mundo en mil novecientos setenta."
+  },
+  {
+   "n": 50,
+   "tema": "música",
+   "p": "¿Qué canción de Luis Fonsi y Daddy Yankee fue el video más visto de YouTube en 2017?",
+   "o": [
+    "Bailando",
+    "Vivir mi vida",
+    "La Bamba",
+    "Despacito"
+   ],
+   "c": 3,
+   "d": "En 2017, «Despacito» se convirtió en el video más visto de la historia de YouTube.",
+   "tp": "¿Qué canción de Luis Fonsi y Daddy Yankee fue el video más visto de YouTube en dos mil diecisiete? ¿Despacito, Bailando, Vivir mi vida o La Bamba?",
+   "tr": "¡Despacito!",
+   "td": "En dos mil diecisiete, «Despacito» se convirtió en el video más visto de la historia de YouTube."
+  },
+  {
+   "n": 51,
+   "tema": "música",
+   "p": "¿De qué país viene el K-pop, el pop de grupos como BTS?",
+   "o": [
+    "Corea del Sur",
+    "Japón",
+    "China",
+    "Tailandia"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "flag": "kr"
+    },
+    {
+     "flag": "jp"
+    },
+    {
+     "flag": "cn"
+    },
+    {
+     "flag": "th"
+    }
+   ],
+   "d": "K-pop significa «pop coreano» y mezcla canto, baile y mucho espectáculo.",
+   "tp": "¿De qué país viene el K-pop, el pop de grupos como BTS? ¿Corea del Sur, Japón, China o Tailandia?",
+   "tr": "¡Corea del Sur!",
+   "td": "K-pop significa «pop coreano» y mezcla canto, baile y mucho espectáculo."
+  },
+  {
+   "n": 52,
+   "tema": "música",
+   "p": "¿Qué ritmo, con arpa, cuatro y maracas, es la música típica de los llanos de Venezuela?",
+   "o": [
+    "Cumbia",
+    "Bambuco",
+    "Joropo",
+    "Pasillo"
+   ],
+   "c": 2,
+   "d": "El joropo también se baila en los llanos de Colombia, con mucho zapateo.",
+   "tp": "¿Qué ritmo, con arpa, cuatro y maracas, es la música típica de los llanos de Venezuela? ¿Cumbia, Bambuco, Joropo o Pasillo?",
+   "tr": "¡El joropo!",
+   "td": "El joropo también se baila en los llanos de Colombia, con mucho zapateo."
+  },
+  {
+   "n": 53,
+   "tema": "música",
+   "p": "¿Qué instrumento de Trinidad y Tobago se hace con barriles de metal?",
+   "o": [
+    "Tambor de acero",
+    "Bongó",
+    "Conga",
+    "Pandereta"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "steel drum",
+     "src": "px"
+    },
+    {
+     "q": "bongo drums",
+     "src": "px"
+    },
+    {
+     "q": "conga drum",
+     "src": "px"
+    },
+    {
+     "q": "tambourine",
+     "src": "px"
+    }
+   ],
+   "d": "Los tambores de acero nacieron en Trinidad y Tobago en el siglo XX con barriles de petróleo.",
+   "tp": "¿Qué instrumento de Trinidad y Tobago se hace con barriles de metal? ¿Tambor de acero, Bongó, Conga o Pandereta?",
+   "tr": "¡El tambor de acero!",
+   "td": "Los tambores de acero nacieron en Trinidad y Tobago en el siglo veinte con barriles de petróleo."
+  },
+  {
+   "n": 54,
+   "tema": "música",
+   "p": "¿Qué compositor escribió «El Mesías», que incluye el famoso «Aleluya»?",
+   "o": [
+    "Mozart",
+    "Haydn",
+    "Chopin",
+    "Händel"
+   ],
+   "c": 3,
+   "d": "Händel compuso «El Mesías» en solo 24 días, en 1741.",
+   "tp": "¿Qué compositor escribió «El Mesías», que incluye el famoso «Aleluya»? ¿Händel, Mozart, Haydn o Chopin?",
+   "tr": "¡Händel!",
+   "td": "Händel compuso «El Mesías» en solo veinticuatro días, en mil setecientos cuarenta y uno."
+  },
+  {
+   "n": 55,
+   "tema": "música",
+   "p": "¿Cómo se llama la famosa casa de ópera de Milán, en Italia?",
+   "o": [
+    "Covent Garden",
+    "La Scala",
+    "Teatro Colón",
+    "Carnegie Hall"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "Royal Opera House Covent Garden",
+     "src": "cm",
+     "must": "Opera"
+    },
+    {
+     "q": "La Scala Milan opera house",
+     "src": "cm",
+     "must": "Scala"
+    },
+    {
+     "q": "Teatro Colon Buenos Aires",
+     "src": "cm",
+     "must": "Colon"
+    },
+    {
+     "q": "Carnegie Hall New York",
+     "src": "cm",
+     "must": "Carnegie"
+    }
+   ],
+   "d": "El teatro La Scala de Milán se inauguró en 1778.",
+   "tp": "¿Cómo se llama la famosa casa de ópera de Milán, en Italia? ¿Covent Garden, La Scala, Teatro Colón o Carnegie Hall?",
+   "tr": "¡La Scala!",
+   "td": "El teatro La Scala de Milán se inauguró en mil setecientos setenta y ocho."
+  },
+  {
+   "n": 56,
+   "tema": "música",
+   "ronda": "misteriosa",
+   "p": "¿Qué instrumento de metal es este, enrollado como un caracol?",
+   "o": [
+    "Tuba",
+    "Trombón",
+    "Trompa",
+    "Saxofón"
+   ],
+   "c": 2,
+   "img_q": "French horn",
+   "img_modo": "pregunta",
+   "d": "La trompa mide unos 3 metros de tubo, ¡pero está enrollada para que quepa en los brazos!",
+   "tp": "¿Qué instrumento de metal es este, enrollado como un caracol? ¿Tuba, Trombón, Trompa o Saxofón?",
+   "tr": "¡La trompa!",
+   "td": "La trompa mide unos tres metros de tubo, ¡pero está enrollada para que quepa en los brazos!"
+  },
+  {
+   "n": 57,
+   "tema": "música",
+   "ronda": "misteriosa",
+   "p": "¿Qué instrumento de cuerdas es este, con caja redonda como un tambor?",
+   "o": [
+    "Banjo",
+    "Mandolina",
+    "Ukelele",
+    "Laúd"
+   ],
+   "c": 0,
+   "img_q": "Banjo",
+   "img_modo": "pregunta",
+   "d": "El banjo es muy famoso en la música country de Estados Unidos.",
+   "tp": "¿Qué instrumento de cuerdas es este, con caja redonda como un tambor? ¿Banjo, Mandolina, Ukelele o Laúd?",
+   "tr": "¡El banjo!",
+   "td": "El banjo es muy famoso en la música country de Estados Unidos."
+  },
+  {
+   "n": 58,
+   "tema": "música",
+   "ronda": "misteriosa",
+   "p": "¿Qué instrumento es este, que cambia de nota moviendo una vara larga?",
+   "o": [
+    "Trompeta",
+    "Trombón",
+    "Tuba",
+    "Clarinete"
+   ],
+   "c": 1,
+   "img_q": "Trombone",
+   "img_modo": "pregunta",
+   "d": "El trombón cambia de nota deslizando la vara, así que puede «resbalar» entre sonidos.",
+   "tp": "¿Qué instrumento es este, que cambia de nota moviendo una vara larga? ¿Trompeta, Trombón, Tuba o Clarinete?",
+   "tr": "¡El trombón!",
+   "td": "El trombón cambia de nota deslizando la vara, así que puede «resbalar» entre sonidos."
+  },
+  {
+   "n": 59,
+   "tema": "música",
+   "p": "¿Qué ritmo nació en las calles de Nueva York con DJs y raperos en los años setenta?",
+   "o": [
+    "Reggae",
+    "Tango",
+    "Flamenco",
+    "Hip hop"
+   ],
+   "c": 3,
+   "d": "El hip hop nació en el Bronx, en Nueva York, a comienzos de los años 70.",
+   "tp": "¿Qué ritmo nació en las calles de Nueva York con DJs y raperos en los años setenta? ¿Reggae, Tango, Flamenco o Hip hop?",
+   "tr": "¡El hip hop!",
+   "td": "El hip hop nació en el Bronx, en Nueva York, a comienzos de los años setenta."
+  },
+  {
+   "n": 60,
+   "tema": "música",
+   "p": "¿Qué grupo sueco cantó «Dancing Queen»?",
+   "o": [
+    "Roxette",
+    "Queen",
+    "ABBA",
+    "Bee Gees"
+   ],
+   "c": 2,
+   "d": "El nombre ABBA sale de las iniciales de sus cuatro integrantes.",
+   "tp": "¿Qué grupo sueco cantó «Dancing Queen»? ¿Roxette, Queen, ABBA o Bee Gees?",
+   "tr": "¡ABBA!",
+   "td": "El nombre ABBA sale de las iniciales de sus cuatro integrantes."
+  },
+  {
+   "n": 61,
+   "tema": "música",
+   "p": "¿Qué cantante peruana escribió el vals «La flor de la canela»?",
+   "o": [
+    "Yma Sumac",
+    "Susana Baca",
+    "Eva Ayllón",
+    "Chabuca Granda"
+   ],
+   "c": 3,
+   "d": "Es un vals peruano que describe a una mujer limeña de paso elegante.",
+   "tp": "¿Qué cantante peruana escribió el vals «La flor de la canela»? ¿Yma Sumac, Susana Baca, Eva Ayllón o Chabuca Granda?",
+   "tr": "¡Chabuca Granda!",
+   "td": "Es un vals peruano que describe a una mujer limeña de paso elegante."
+  },
+  {
+   "n": 62,
+   "tema": "música",
+   "p": "¿De qué país es originario el bandoneón, el instrumento del tango?",
+   "o": [
+    "Argentina",
+    "Uruguay",
+    "Alemania",
+    "España"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "flag": "ar"
+    },
+    {
+     "flag": "uy"
+    },
+    {
+     "flag": "de"
+    },
+    {
+     "flag": "es"
+    }
+   ],
+   "d": "El bandoneón nació en Alemania y llegó a Argentina con los inmigrantes.",
+   "tp": "¿De qué país es originario el bandoneón, el instrumento del tango? ¿Argentina, Uruguay, Alemania o España?",
+   "tr": "¡Alemania! Sorpresa.",
+   "td": "El bandoneón nació en Alemania y llegó a Argentina con los inmigrantes."
+  },
+  {
+   "n": 63,
+   "tema": "música",
+   "p": "¿Qué instrumento brasileño, un arco con una calabaza, acompaña la capoeira?",
+   "o": [
+    "Berimbau",
+    "Cuíca",
+    "Pandeiro",
+    "Atabaque"
+   ],
+   "c": 0,
+   "d": "El berimbau marca el ritmo en la roda de capoeira.",
+   "tp": "¿Qué instrumento brasileño, un arco con una calabaza, acompaña la capoeira? ¿Berimbau, Cuíca, Pandeiro o Atabaque?",
+   "tr": "¡El berimbau!",
+   "td": "El berimbau marca el ritmo en la roda de capoeira."
+  },
+  {
+   "n": 64,
+   "tema": "música",
+   "p": "¿Qué tenor italiano hizo famosa «Nessun dorma» en el Mundial de fútbol de 1990?",
+   "o": [
+    "Caruso",
+    "Pavarotti",
+    "Plácido Domingo",
+    "Carreras"
+   ],
+   "c": 1,
+   "d": "Su versión se oyó en la televisión de todo el mundo durante ese Mundial.",
+   "tp": "¿Qué tenor italiano hizo famosa «Nessun dorma» en el Mundial de fútbol de mil novecientos noventa? ¿Pavarotti, Caruso, Plácido Domingo o Carreras?",
+   "tr": "¡Pavarotti!",
+   "td": "Su versión se oyó en la televisión de todo el mundo durante ese Mundial."
+  },
+  {
+   "n": 65,
+   "tema": "música",
+   "p": "¿Cómo se llama la flauta pequeña y muy aguda de la orquesta?",
+   "o": [
+    "Fagot",
+    "Oboe",
+    "Flautín",
+    "Clarinete"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "bassoon",
+     "src": "px"
+    },
+    {
+     "q": "oboe",
+     "src": "px"
+    },
+    {
+     "q": "piccolo flute",
+     "src": "px"
+    },
+    {
+     "q": "clarinet",
+     "src": "px"
+    }
+   ],
+   "d": "El flautín suena una octava más agudo que la flauta normal.",
+   "tp": "¿Cómo se llama la flauta pequeña y muy aguda de la orquesta? ¿Fagot, Oboe, Flautín o Clarinete?",
+   "tr": "¡El flautín!",
+   "td": "El flautín suena una octava más agudo que la flauta normal."
+  },
+  {
+   "n": 66,
+   "tema": "música",
+   "p": "¿Qué cantante apodado el «Rey del pop» lanzó el disco «Thriller»?",
+   "o": [
+    "Elvis Presley",
+    "Michael Jackson",
+    "Prince",
+    "Stevie Wonder"
+   ],
+   "c": 1,
+   "d": "«Thriller» es de los discos más vendidos de la historia, con su famoso baile de zombis.",
+   "tp": "¿Qué cantante apodado el «Rey del pop» lanzó el disco «Thriller»? ¿Elvis Presley, Michael Jackson, Prince o Stevie Wonder?",
+   "tr": "¡Michael Jackson!",
+   "td": "«Thriller» es de los discos más vendidos de la historia, con su famoso baile de zombis."
+  },
+  {
+   "n": 67,
+   "tema": "música",
+   "p": "¿Cuántas sinfonías numeradas dejó Mozart?",
+   "o": [
+    "21",
+    "61",
+    "104",
+    "41"
+   ],
+   "c": 3,
+   "d": "Su última sinfonía, la número 41, se llama «Júpiter».",
+   "tp": "¿Cuántas sinfonías numeradas dejó Mozart? ¿Veintiuna, cuarenta y una, sesenta y una o ciento cuatro?",
+   "tr": "¡Cuarenta y una!",
+   "td": "Su última sinfonía, la número cuarenta y uno, se llama «Júpiter»."
+  },
+  {
+   "n": 68,
+   "tema": "música",
+   "p": "¿Cuántos pedales tiene un piano normal?",
+   "o": [
+    "Tres",
+    "Uno",
+    "Dos",
+    "Cuatro"
+   ],
+   "c": 0,
+   "img_q": "Piano pedals",
+   "img_modo": "revela",
+   "d": "Los pedales cambian el sonido: uno lo alarga y otro lo suaviza.",
+   "tp": "¿Cuántos pedales tiene un piano normal? ¿Tres, Uno, Dos o Cuatro?",
+   "tr": "¡Tres!",
+   "td": "Los pedales cambian el sonido: uno lo alarga y otro lo suaviza."
+  },
+  {
+   "n": 69,
+   "tema": "música",
+   "p": "En música, ¿qué significa la palabra «piano»?",
+   "o": [
+    "Fuerte",
+    "Rápido",
+    "Suave",
+    "Lento"
+   ],
+   "c": 2,
+   "d": "El piano se llamó «pianoforte» porque podía sonar suave (piano) y fuerte (forte).",
+   "tp": "En música, ¿qué significa la palabra «piano»? ¿Fuerte, Rápido, Suave o Lento?",
+   "tr": "¡Suave!",
+   "td": "El piano se llamó «pianoforte» porque podía sonar suave, piano, y fuerte, forte."
+  },
+  {
+   "n": 70,
+   "tema": "música",
+   "p": "¿Cómo se llama el pequeño objeto de metal en forma de U que da la nota «la» para afinar?",
+   "o": [
+    "Metrónomo",
+    "Batuta",
+    "Partitura",
+    "Diapasón"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "metronome",
+     "src": "px"
+    },
+    {
+     "q": "conductor baton",
+     "src": "px"
+    },
+    {
+     "q": "sheet music",
+     "src": "px"
+    },
+    {
+     "q": "tuning fork",
+     "src": "px"
+    }
+   ],
+   "d": "El diapasón vibra siempre igual: el «la» suena a 440 vibraciones por segundo.",
+   "tp": "¿Cómo se llama el pequeño objeto de metal en forma de U que da la nota «la» para afinar? ¿Metrónomo, Batuta, Partitura o Diapasón?",
+   "tr": "¡El diapasón!",
+   "td": "El diapasón vibra siempre igual: el «la» suena a cuatrocientas cuarenta vibraciones por segundo."
+  },
+  {
+   "n": 71,
+   "tema": "música",
+   "ronda": "vf",
+   "p": "Escuchar música de Mozart vuelve más inteligentes a los bebés.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "El «efecto Mozart» nació de un estudio de 1993 con universitarios, y no se confirmó en bebés.",
+   "tp": "¿Verdadero o falso? Escuchar música de Mozart vuelve más inteligentes a los bebés.",
+   "tr": "¡Falso! Es un mito famoso.",
+   "td": "El «efecto Mozart» nació de un estudio de mil novecientos noventa y tres con universitarios, y no se confirmó en bebés."
+  },
+  {
+   "n": 72,
+   "tema": "música",
+   "ronda": "vf",
+   "p": "Un piano de cola tiene más de doscientas cuerdas.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Un piano tiene unas 230 cuerdas, aunque solo 88 teclas.",
+   "tp": "¿Verdadero o falso? Un piano de cola tiene más de doscientas cuerdas.",
+   "tr": "¡Verdadero! Unas doscientas treinta.",
+   "td": "Un piano tiene unas doscientas treinta cuerdas, aunque solo ochenta y ocho teclas."
+  },
+  {
+   "n": 73,
+   "tema": "música",
+   "ronda": "vf",
+   "p": "El saxofón se fabrica con madera.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "El saxofón es de metal, pero se considera de viento madera porque suena con una caña.",
+   "tp": "¿Verdadero o falso? El saxofón se fabrica con madera.",
+   "tr": "¡Falso! Es de metal.",
+   "td": "El saxofón es de metal, pero se considera de viento madera porque suena con una caña."
+  },
+  {
+   "n": 74,
+   "tema": "música",
+   "p": "¿Qué compositor ruso escribió «Pedro y el lobo» para enseñar los instrumentos a los niños?",
+   "o": [
+    "Prokófiev",
+    "Chaikovski",
+    "Stravinski",
+    "Rajmáninov"
+   ],
+   "c": 0,
+   "d": "En «Pedro y el lobo» el pájaro es la flauta, el gato el clarinete y el lobo, las trompas.",
+   "tp": "¿Qué compositor ruso escribió «Pedro y el lobo» para enseñar los instrumentos a los niños? ¿Prokófiev, Chaikovski, Stravinski o Rajmáninov?",
+   "tr": "¡Prokófiev!",
+   "td": "En «Pedro y el lobo» el pájaro es la flauta, el gato el clarinete y el lobo, las trompas."
+  },
+  {
+   "n": 75,
+   "tema": "música",
+   "p": "¿En qué ciudad de Austria nació Mozart?",
+   "o": [
+    "Viena",
+    "Salzburgo",
+    "Praga",
+    "Múnich"
+   ],
+   "c": 1,
+   "img_q": "Salzburg",
+   "img_modo": "revela",
+   "d": "Mozart nació en Salzburgo en 1756 y de niño dio conciertos por toda Europa.",
+   "tp": "¿En qué ciudad de Austria nació Mozart? ¿Viena, Salzburgo, Praga o Múnich?",
+   "tr": "¡Salzburgo!",
+   "td": "Mozart nació en Salzburgo en mil setecientos cincuenta y seis y de niño dio conciertos por toda Europa."
+  },
+  {
+   "n": 76,
+   "tema": "música",
+   "p": "¿En qué país se celebra el Festival de la Canción de Viña del Mar?",
+   "o": [
+    "Chile",
+    "Argentina",
+    "Uruguay",
+    "Perú"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "flag": "cl"
+    },
+    {
+     "flag": "ar"
+    },
+    {
+     "flag": "uy"
+    },
+    {
+     "flag": "pe"
+    }
+   ],
+   "d": "Se celebra desde 1960 y su premio más famoso es la «Gaviota».",
+   "tp": "¿En qué país se celebra el Festival de la Canción de Viña del Mar? ¿Chile, Argentina, Uruguay o Perú?",
+   "tr": "¡Chile!",
+   "td": "Se celebra desde mil novecientos sesenta y su premio más famoso es la «Gaviota»."
+  },
+  {
+   "n": 77,
+   "tema": "música",
+   "p": "¿En qué país se estrenó la ópera «Aida», de Verdi, en 1871?",
+   "o": [
+    "Italia",
+    "Francia",
+    "Egipto",
+    "Grecia"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "flag": "it"
+    },
+    {
+     "flag": "fr"
+    },
+    {
+     "flag": "eg"
+    },
+    {
+     "flag": "gr"
+    }
+   ],
+   "d": "Verdi la escribió por encargo del gobernante de Egipto.",
+   "tp": "¿En qué país se estrenó la ópera «Aida», de Verdi, en mil ochocientos setenta y uno? ¿Egipto, Italia, Francia o Grecia?",
+   "tr": "¡Egipto!",
+   "td": "Verdi la escribió por encargo del gobernante de Egipto."
+  },
+  {
+   "n": 78,
+   "tema": "música",
+   "p": "¿Qué obra de Beethoven lleva el apodo de «Claro de luna»?",
+   "o": [
+    "Novena Sinfonía",
+    "Para Elisa",
+    "Quinta Sinfonía",
+    "Sonata para piano n.° 14"
+   ],
+   "c": 3,
+   "d": "El apodo lo inventó un crítico años después: le recordó la luz de la luna sobre un lago.",
+   "tp": "¿Qué obra de Beethoven lleva el apodo de «Claro de luna»? ¿Sonata para piano número catorce, Novena Sinfonía, Para Elisa o Quinta Sinfonía?",
+   "tr": "¡La sonata número catorce!",
+   "td": "El apodo lo inventó un crítico años después: le recordó la luz de la luna sobre un lago."
+  },
+  {
+   "n": 79,
+   "tema": "música",
+   "p": "¿Qué compositor francés escribió «El carnaval de los animales»?",
+   "o": [
+    "Debussy",
+    "Saint-Saëns",
+    "Ravel",
+    "Bizet"
+   ],
+   "c": 1,
+   "d": "En esta obra hay un león, tortugas, elefantes y un famoso cisne tocado por un violonchelo.",
+   "tp": "¿Qué compositor francés escribió «El carnaval de los animales»? ¿Debussy, Saint-Saëns, Ravel o Bizet?",
+   "tr": "¡Saint-Saëns!",
+   "td": "En esta obra hay un león, tortugas, elefantes y un famoso cisne tocado por un violonchelo."
+  },
+  {
+   "n": 80,
+   "tema": "música",
+   "p": "¿De qué material eran las flautas más antiguas conocidas, de hace unos 35.000 años?",
+   "o": [
+    "Hueso",
+    "Bambú",
+    "Cobre",
+    "Arcilla"
+   ],
+   "c": 0,
+   "img_q": "Hohle Fels flute",
+   "img_modo": "revela",
+   "d": "Se hallaron en cuevas de Alemania: una era de hueso de buitre y otras, de marfil de mamut.",
+   "tp": "¿De qué material eran las flautas más antiguas conocidas, de hace unos treinta y cinco mil años? ¿Hueso, bambú, cobre o arcilla?",
+   "tr": "¡Hueso!",
+   "td": "Se hallaron en cuevas de Alemania: una era de hueso de buitre y otras, de marfil de mamut."
+  },
+  {
+   "n": 81,
+   "tema": "música",
+   "p": "¿De qué país llegó a Hawái el instrumento que dio origen al ukelele?",
+   "o": [
+    "España",
+    "Portugal",
+    "Inglaterra",
+    "Japón"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "flag": "es"
+    },
+    {
+     "flag": "pt"
+    },
+    {
+     "flag": "gb"
+    },
+    {
+     "flag": "jp"
+    }
+   ],
+   "d": "Inmigrantes portugueses llevaron a Hawái el «machete» en 1879. «Ukelele» significa «pulga saltarina».",
+   "tp": "¿De qué país llegó a Hawái el instrumento que dio origen al ukelele? ¿España, Portugal, Inglaterra o Japón?",
+   "tr": "¡Portugal!",
+   "td": "Inmigrantes portugueses llevaron a Hawái el «machete» en mil ochocientos setenta y nueve. «Ukelele» significa «pulga saltarina»."
+  },
+  {
+   "n": 82,
+   "tema": "música",
+   "p": "¿Qué país celebra el Carnaval de Oruro, con diabladas y morenadas?",
+   "o": [
+    "Perú",
+    "Ecuador",
+    "Chile",
+    "Bolivia"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "flag": "pe"
+    },
+    {
+     "flag": "ec"
+    },
+    {
+     "flag": "cl"
+    },
+    {
+     "flag": "bo"
+    }
+   ],
+   "d": "La UNESCO lo reconoció en 2001 como Obra Maestra del Patrimonio de la Humanidad.",
+   "tp": "¿Qué país celebra el Carnaval de Oruro, con diabladas y morenadas? ¿Perú, Ecuador, Chile o Bolivia?",
+   "tr": "¡Bolivia!",
+   "td": "La UNESCO lo reconoció en dos mil uno como Obra Maestra del Patrimonio de la Humanidad."
+  },
+  {
+   "n": 83,
+   "tema": "música",
+   "p": "¿Cuántas teclas negras hay en cada octava del piano?",
+   "o": [
+    "Tres",
+    "Siete",
+    "Cinco",
+    "Doce"
+   ],
+   "c": 2,
+   "img_q": "Piano keyboard octave",
+   "img_modo": "revela",
+   "d": "En cada octava hay 7 teclas blancas y 5 negras: ¡12 en total!",
+   "tp": "¿Cuántas teclas negras hay en cada octava del piano? ¿Tres, Siete, Cinco o Doce?",
+   "tr": "¡Cinco!",
+   "td": "En cada octava hay siete teclas blancas y cinco negras: ¡doce en total!"
+  },
+  {
+   "n": 84,
+   "tema": "música",
+   "p": "¿De qué país son los taiko, enormes tambores que se tocan con grandes baquetas?",
+   "o": [
+    "Corea del Sur",
+    "China",
+    "India",
+    "Japón"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "flag": "kr"
+    },
+    {
+     "flag": "cn"
+    },
+    {
+     "flag": "in"
+    },
+    {
+     "flag": "jp"
+    }
+   ],
+   "d": "Hoy hay grupos de taiko que dan conciertos por todo el mundo.",
+   "tp": "¿De qué país son los taiko, enormes tambores que se tocan con grandes baquetas? ¿Corea del Sur, China, India o Japón?",
+   "tr": "¡Japón!",
+   "td": "Hoy hay grupos de taiko que dan conciertos por todo el mundo."
+  },
+  {
+   "n": 85,
+   "tema": "música",
+   "p": "¿Cómo se llama el instrumento que se toca sin tocarlo, moviendo las manos en el aire?",
+   "o": [
+    "Theremín",
+    "Sintetizador",
+    "Armónica",
+    "Órgano"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "theremin",
+     "src": "cm",
+     "must": "theremin"
+    },
+    {
+     "q": "synthesizer",
+     "src": "px"
+    },
+    {
+     "q": "harmonica",
+     "src": "px"
+    },
+    {
+     "q": "pipe organ",
+     "src": "px"
+    }
+   ],
+   "d": "Lo inventó el ruso Lev Termen en 1920 y suena en muchas películas de ciencia ficción.",
+   "tp": "¿Cómo se llama el instrumento que se toca sin tocarlo, moviendo las manos en el aire? ¿Theremín, Sintetizador, Armónica o Órgano?",
+   "tr": "¡El theremín!",
+   "td": "Lo inventó el ruso Lev Termen en mil novecientos veinte y suena en muchas películas de ciencia ficción."
+  },
+  {
+   "n": 86,
+   "tema": "música",
+   "p": "¿Cuál es la voz masculina más grave en el canto?",
+   "o": [
+    "Tenor",
+    "Bajo",
+    "Barítono",
+    "Contralto"
+   ],
+   "c": 1,
+   "d": "De más aguda a más grave, las voces masculinas son tenor, barítono y bajo.",
+   "tp": "¿Cuál es la voz masculina más grave en el canto? ¿Tenor, Bajo, Barítono o Contralto?",
+   "tr": "¡El bajo!",
+   "td": "De más aguda a más grave, las voces masculinas son tenor, barítono y bajo."
+  },
+  {
+   "n": 87,
+   "tema": "música",
+   "p": "¿Qué grupo británico cantó «Bohemian Rhapsody»?",
+   "o": [
+    "The Who",
+    "Pink Floyd",
+    "Queen",
+    "Oasis"
+   ],
+   "c": 2,
+   "d": "Esta canción de 1975 dura casi seis minutos y mezcla balada, ópera y rock.",
+   "tp": "¿Qué grupo británico cantó «Bohemian Rhapsody»? ¿The Who, Pink Floyd, Queen o Oasis?",
+   "tr": "¡Queen!",
+   "td": "Esta canción de mil novecientos setenta y cinco dura casi seis minutos y mezcla balada, ópera y rock."
+  },
+  {
+   "n": 88,
+   "tema": "música",
+   "p": "¿Qué ciudad de Estados Unidos es famosa como la «capital de la música country»?",
+   "o": [
+    "Nashville",
+    "Dallas",
+    "Austin",
+    "Chicago"
+   ],
+   "c": 0,
+   "img_q": "Nashville skyline",
+   "img_modo": "revela",
+   "d": "Nashville se apoda «Music City» y allí está el teatro Grand Ole Opry.",
+   "tp": "¿Qué ciudad de Estados Unidos es famosa como la «capital de la música country»? ¿Nashville, Dallas, Austin o Chicago?",
+   "tr": "¡Nashville!",
+   "td": "Nashville se apoda «Music City» y allí está el teatro Grand Ole Opry."
+  },
+  {
+   "n": 89,
+   "tema": "música",
+   "p": "¿Qué se escucha en «4'33''», la obra más rara del compositor John Cage?",
+   "o": [
+    "Un coro de aves",
+    "Casi puro silencio",
+    "Solo percusión",
+    "Ruido de ciudad"
+   ],
+   "c": 1,
+   "d": "El pianista no toca nada durante 4 minutos y 33 segundos: la música son los sonidos del público.",
+   "tp": "¿Qué se escucha en «cuatro minutos treinta y tres segundos», la obra más rara del compositor John Cage? ¿Casi puro silencio, un coro de aves, solo percusión o ruido de ciudad?",
+   "tr": "¡Silencio, casi total!",
+   "td": "El pianista no toca nada durante cuatro minutos y treinta y tres segundos: la música son los sonidos del público."
+  },
+  {
+   "n": 90,
+   "tema": "música",
+   "p": "¿Qué compositor español escribió el «Concierto de Aranjuez», para guitarra?",
+   "o": [
+    "Isaac Albéniz",
+    "Manuel de Falla",
+    "Joaquín Rodrigo",
+    "Andrés Segovia"
+   ],
+   "c": 2,
+   "d": "Rodrigo era casi ciego desde niño y compuso el concierto en 1939.",
+   "tp": "¿Qué compositor español escribió el «Concierto de Aranjuez», para guitarra? ¿Isaac Albéniz, Manuel de Falla, Joaquín Rodrigo o Andrés Segovia?",
+   "tr": "¡Joaquín Rodrigo!",
+   "td": "Rodrigo era casi ciego desde niño y compuso el concierto en mil novecientos treinta y nueve."
+  },
+  {
+   "n": 91,
+   "tema": "música",
+   "p": "¿Qué ritmo nacido en Brasil mezcla la samba con el jazz?",
+   "o": [
+    "Lambada",
+    "Forró",
+    "Axé",
+    "Bossa nova"
+   ],
+   "c": 3,
+   "d": "«La chica de Ipanema» es una de las canciones más grabadas del mundo.",
+   "tp": "¿Qué ritmo nacido en Brasil mezcla la samba con el jazz? ¿Lambada, Forró, Axé o Bossa nova?",
+   "tr": "¡La bossa nova!",
+   "td": "«La chica de Ipanema» es una de las canciones más grabadas del mundo."
+  },
+  {
+   "n": 92,
+   "tema": "música",
+   "p": "¿Cuál de estos instrumentos suena porque unos martillitos golpean sus cuerdas?",
+   "o": [
+    "Piano",
+    "Clavecín",
+    "Guitarra",
+    "Arpa"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "piano",
+     "src": "px"
+    },
+    {
+     "q": "harpsichord",
+     "src": "px"
+    },
+    {
+     "q": "guitar",
+     "src": "px"
+    },
+    {
+     "q": "harp",
+     "src": "px"
+    }
+   ],
+   "d": "Por eso su nombre completo era «pianoforte»: puede sonar suave o fuerte según la fuerza del golpe.",
+   "tp": "¿Cuál de estos instrumentos suena porque unos martillitos golpean sus cuerdas? ¿Piano, Clavecín, Guitarra o Arpa?",
+   "tr": "¡El piano!",
+   "td": "Por eso su nombre completo era «pianoforte»: puede sonar suave o fuerte según la fuerza del golpe."
+  },
+  {
+   "n": 93,
+   "tema": "música",
+   "p": "¿En qué país nació el compositor Fryderyk Chopin?",
+   "o": [
+    "Francia",
+    "Hungría",
+    "Polonia",
+    "Rusia"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "flag": "fr"
+    },
+    {
+     "flag": "hu"
+    },
+    {
+     "flag": "pl"
+    },
+    {
+     "flag": "ru"
+    }
+   ],
+   "d": "Chopin nació cerca de Varsovia en 1810 y escribió casi toda su música para piano.",
+   "tp": "¿En qué país nació el compositor Fryderyk Chopin? ¿Francia, Hungría, Polonia o Rusia?",
+   "tr": "¡Polonia!",
+   "td": "Chopin nació cerca de Varsovia en mil ochocientos diez y escribió casi toda su música para piano."
+  },
+  {
+   "n": 94,
+   "tema": "música",
+   "p": "¿Qué canción escocesa se canta en muchos países al llegar el Año Nuevo?",
+   "o": [
+    "Greensleeves",
+    "Danny Boy",
+    "Loch Lomond",
+    "Auld Lang Syne"
+   ],
+   "c": 3,
+   "d": "Su título significa «hace mucho tiempo» y la letra es del poeta Robert Burns.",
+   "tp": "¿Qué canción escocesa se canta en muchos países al llegar el Año Nuevo? ¿Greensleeves, Danny Boy, Loch Lomond o Auld Lang Syne?",
+   "tr": "¡Auld Lang Syne!",
+   "td": "Su título significa «hace mucho tiempo» y la letra es del poeta Robert Burns."
+  },
+  {
+   "n": 95,
+   "tema": "ciencia",
+   "p": "¿Qué unidad mide cuántas vibraciones por segundo tiene un sonido?",
+   "o": [
+    "Decibelio",
+    "Hercio",
+    "Voltio",
+    "Vatio"
+   ],
+   "c": 1,
+   "d": "El oído humano oye de unos 20 a 20.000 hercios.",
+   "tp": "¿Qué unidad mide cuántas vibraciones por segundo tiene un sonido? ¿Decibelio, Hercio, Voltio o Vatio?",
+   "tr": "¡El hercio!",
+   "td": "El oído humano oye de unos veinte a veinte mil hercios."
+  },
+  {
+   "n": 96,
+   "tema": "música",
+   "p": "¿Cuál es la voz femenina más aguda en el canto?",
+   "o": [
+    "Soprano",
+    "Mezzosoprano",
+    "Contralto",
+    "Tenor"
+   ],
+   "c": 0,
+   "d": "En la ópera, las sopranos suelen cantar los papeles de heroínas.",
+   "tp": "¿Cuál es la voz femenina más aguda en el canto? ¿Soprano, Mezzosoprano, Contralto o Tenor?",
+   "tr": "¡La soprano!",
+   "td": "En la ópera, las sopranos suelen cantar los papeles de heroínas."
+  },
+  {
+   "n": 97,
+   "tema": "música",
+   "p": "¿Qué compositor francés escribió «Bolero», una melodía que se repite y va creciendo?",
+   "o": [
+    "Debussy",
+    "Ravel",
+    "Satie",
+    "Bizet"
+   ],
+   "c": 1,
+   "d": "En el «Bolero», de 1928, la orquesta suma instrumentos poco a poco.",
+   "tp": "¿Qué compositor francés escribió «Bolero», una melodía que se repite y va creciendo? ¿Debussy, Ravel, Satie o Bizet?",
+   "tr": "¡Ravel!",
+   "td": "En el «Bolero», de mil novecientos veintiocho, la orquesta suma instrumentos poco a poco."
+  },
+  {
+   "n": 98,
+   "tema": "música",
+   "p": "¿Quién compuso la música del Himno Nacional del Perú?",
+   "o": [
+    "José de la Torre Ugarte",
+    "Daniel Alomía Robles",
+    "José Bernardo Alcedo",
+    "Felipe Pinglo"
+   ],
+   "c": 2,
+   "d": "La letra es de José de la Torre Ugarte y se cantó por primera vez en 1821.",
+   "tp": "¿Quién compuso la música del Himno Nacional del Perú? ¿José de la Torre Ugarte, Daniel Alomía Robles, José Bernardo Alcedo o Felipe Pinglo?",
+   "tr": "¡José Bernardo Alcedo!",
+   "td": "La letra es de José de la Torre Ugarte y se cantó por primera vez en mil ochocientos veintiuno."
+  },
+  {
+   "n": 99,
+   "tema": "música",
+   "p": "¿De qué instrumento antiguo viene la palabra «lírica», como en «poesía lírica»?",
+   "o": [
+    "Laúd",
+    "Arpa",
+    "Cítara",
+    "Lira"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "lute",
+     "src": "px"
+    },
+    {
+     "q": "harp",
+     "src": "px"
+    },
+    {
+     "q": "zither",
+     "src": "px"
+    },
+    {
+     "q": "lyre instrument",
+     "src": "px"
+    }
+   ],
+   "d": "En la antigua Grecia los poemas se cantaban acompañados de una lira.",
+   "tp": "¿De qué instrumento antiguo viene la palabra «lírica», como en «poesía lírica»? ¿Laúd, Arpa, Cítara o Lira?",
+   "tr": "¡La lira!",
+   "td": "En la antigua Grecia los poemas se cantaban acompañados de una lira."
+  },
+  {
+   "n": 100,
+   "tema": "música",
+   "p": "¿Dónde nació la orquesta con violines hechos de latas, tenedores y madera de desecho?",
+   "o": [
+    "Cateura, Paraguay",
+    "Oruro, Bolivia",
+    "Cusco, Perú",
+    "Cali, Colombia"
+   ],
+   "c": 0,
+   "d": "Los niños de Cateura, un barrio junto a un basural, fabrican instrumentos con basura reciclada.",
+   "tp": "¿Dónde nació la orquesta con violines hechos de latas, tenedores y madera de desecho? ¿Cateura, Paraguay, Oruro, Bolivia, Cusco, Perú o Cali, Colombia?",
+   "tr": "¡Cateura, en Paraguay!",
+   "td": "Los niños de Cateura, un barrio junto a un basural, fabrican instrumentos con basura reciclada."
   }
  ],
  "extra_tts": {
@@ -524,6 +2237,130 @@
   "charla20_co": [
    "copresentadora",
    "Ese chiste desafina, MAX. ¡Siguen las preguntas, familia!"
+  ],
+  "charla25_pr": [
+   "presentador",
+   "¡Veinticinco! Casi toco el piano con sus ochenta y ocho teclas, pero me quedé sin dedos."
+  ],
+  "charla25_co": [
+   "copresentadora",
+   "Esa no es excusa, MAX. Familia, ¿ya miraron el ranking del celular?"
+  ],
+  "charla30_pr": [
+   "presentador",
+   "¡Treinta! El bongó me encantó. Ya me estoy poniendo dos tamborcitos en la cabeza."
+  ],
+  "charla30_co": [
+   "copresentadora",
+   "Primero practica el ritmo, MAX. Ahora vienen tres afirmaciones: ¿verdaderas o falsas?"
+  ],
+  "charla35_pr": [
+   "presentador",
+   "¡Treinta y cinco! Mozart componía de niño y yo todavía no sé qué almorzar."
+  ],
+  "charla35_co": [
+   "copresentadora",
+   "Tú no almuerzas, MAX. Familia, revisen sus puntos en el celular."
+  ],
+  "charla40_pr": [
+   "presentador",
+   "¡Cuarenta! Ahora llega la ronda relámpago: ¡cinco preguntas sin tiempo para pensar!"
+  ],
+  "charla40_co": [
+   "copresentadora",
+   "Respiren hondo, familia. Cinco segundos por pregunta y ni uno más."
+  ],
+  "charla45_pr": [
+   "presentador",
+   "¡Zas! ¡Esa ronda pasó volando! Mis circuitos todavía dan vueltas."
+  ],
+  "charla45_co": [
+   "copresentadora",
+   "Fue rapidísima, MAX. Familia, ¿cuántas acertaron? Miren el ranking en el celular."
+  ],
+  "charla50_pr": [
+   "presentador",
+   "¡Cincuenta, la mitad! Despacito, despacito, pero sin parar de jugar."
+  ],
+  "charla50_co": [
+   "copresentadora",
+   "Qué ocurrente, MAX. Mitad de camino, familia: ¡atentos al ranking!"
+  ],
+  "charla55_pr": [
+   "presentador",
+   "¡Cincuenta y cinco! Ahora vienen imágenes misteriosas: tres instrumentos escondidos tras los píxeles."
+  ],
+  "charla55_co": [
+   "copresentadora",
+   "Abran bien los ojos, familia. Mientras pasa el tiempo, la imagen se aclara."
+  ],
+  "charla60_pr": [
+   "presentador",
+   "¡Sesenta! Yo pensaba que el banjo era un tambor con mástil. ¡Casi acierto!"
+  ],
+  "charla60_co": [
+   "copresentadora",
+   "Casi, MAX. Familia, ¡a mirar cómo va el ranking en el celular!"
+  ],
+  "charla65_pr": [
+   "presentador",
+   "¡Sesenta y cinco! El bandoneón es alemán. ¡Un tango con salchichas!"
+  ],
+  "charla65_co": [
+   "copresentadora",
+   "No lo digas tan fuerte, MAX. Siguen las preguntas, familia."
+  ],
+  "charla70_pr": [
+   "presentador",
+   "¡Setenta! Pavarotti cantó para el mundo entero y yo canto para ustedes: ¡la, la, la!"
+  ],
+  "charla70_co": [
+   "copresentadora",
+   "Desafinas un poquito, MAX. Ahora vienen tres afirmaciones, y alguna es un mito."
+  ],
+  "charla75_pr": [
+   "presentador",
+   "¡Setenta y cinco! ¿El efecto Mozart era un mito? ¡Y yo con mis audífonos puestos!"
+  ],
+  "charla75_co": [
+   "copresentadora",
+   "Los audífonos no bastan, MAX. Familia, revisen el ranking del celular."
+  ],
+  "charla80_pr": [
+   "presentador",
+   "¡Ochenta! Una flauta de hueso de buitre. La mía es de metal y suena mejor."
+  ],
+  "charla80_co": [
+   "copresentadora",
+   "Eso dices tú, MAX. Ya falta poco, familia: ¡un último esfuerzo!"
+  ],
+  "charla85_pr": [
+   "presentador",
+   "¡Ochenta y cinco! El theremín se toca sin tocarlo. ¡Ese sí es mi instrumento!"
+  ],
+  "charla85_co": [
+   "copresentadora",
+   "Claro, MAX, igual que tus chistes: suenan solos. ¡Sigan jugando, familia!"
+  ],
+  "charla90_pr": [
+   "presentador",
+   "¡Noventa! Una obra de silencio total. ¡Por fin una pieza que puedo tocar perfecto!"
+  ],
+  "charla90_co": [
+   "copresentadora",
+   "Sería un milagro verte callado, MAX. Familia, ¡solo diez preguntas más!"
+  ],
+  "charla95_pr": [
+   "presentador",
+   "¡Noventa y cinco! Ya casi llegamos y mis baterías todavía suenan a todo ritmo."
+  ],
+  "charla95_co": [
+   "copresentadora",
+   "Estás en forma, MAX. Cinco preguntas finales, familia: ¡el ranking se decide ahora!"
+  ],
+  "pr_cierre": [
+   "presentador",
+   "¡Y así terminamos, familia! Cuéntennos en los comentarios cuántas acertaron y qué instrumento les gustó más. ¡Hasta el próximo juego!"
   ]
  },
  "fotos_miniatura": [
@@ -538,6 +2375,14 @@
   [
    14,
    2
+  ],
+  [
+   38,
+   3
+  ],
+  [
+   53,
+   0
   ]
  ]
 }
