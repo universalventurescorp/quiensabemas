@@ -2,7 +2,7 @@
  "id": "ep015",
  "fecha": "2026-11-19",
  "formato": "normal",
- "estado": "en_proceso",
+ "estado": "listo",
  "codigo_sala": "NATURA",
  "titulo": "Naturaleza: plantas, bosques y océanos",
  "titulo_youtube": "¿Cuánto sabes de la naturaleza? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
@@ -1359,6 +1359,763 @@
    "tp": "¿Qué ave marina de las islas peruanas es famosa por producir el guano? ¿Pelícano, Gaviota, Pingüino o Guanay?",
    "tr": "¡El guanay!",
    "td": "El guano de las islas fue tan valioso que en el siglo diecinueve se exportaba como abono a Europa."
+  },
+  {
+   "n": 62,
+   "tema": "naturaleza",
+   "p": "¿Cómo se llaman los animales que comen solo plantas?",
+   "o": [
+    "Carnívoros",
+    "Herbívoros",
+    "Omnívoros",
+    "Insectívoros"
+   ],
+   "c": 1,
+   "d": "Los herbívoros, como las vacas y las llamas, se alimentan solo de plantas.",
+   "tp": "¿Cómo se llaman los animales que comen solo plantas? ¿Carnívoros, Herbívoros, Omnívoros o Insectívoros?",
+   "tr": "¡Los herbívoros!",
+   "td": "Los herbívoros, como las vacas y las llamas, se alimentan solo de plantas."
+  },
+  {
+   "n": 63,
+   "tema": "naturaleza",
+   "p": "¿Cómo se llama el cambio de oruga a mariposa?",
+   "o": [
+    "Metamorfosis",
+    "Migración",
+    "Hibernación",
+    "Germinación"
+   ],
+   "c": 0,
+   "d": "Dentro de la crisálida, el cuerpo de la oruga se transforma por completo.",
+   "tp": "¿Cómo se llama el cambio de oruga a mariposa? ¿Metamorfosis, Migración, Hibernación o Germinación?",
+   "tr": "¡Metamorfosis!",
+   "td": "Dentro de la crisálida, el cuerpo de la oruga se transforma por completo."
+  },
+  {
+   "n": 64,
+   "tema": "naturaleza",
+   "p": "¿Cómo se llama el subir y bajar del nivel del mar durante el día?",
+   "o": [
+    "Las mareas",
+    "Las olas",
+    "Los tsunamis",
+    "Las corrientes"
+   ],
+   "c": 0,
+   "d": "Las mareas ocurren sobre todo por la atracción de la Luna sobre el agua.",
+   "tp": "¿Cómo se llama el subir y bajar del nivel del mar durante el día? ¿Las mareas, Las olas, Los tsunamis o Las corrientes?",
+   "tr": "¡Las mareas!",
+   "td": "Las mareas ocurren sobre todo por la atracción de la Luna sobre el agua."
+  },
+  {
+   "n": 65,
+   "tema": "naturaleza",
+   "p": "¿Qué planta mexicana de hojas puntiagudas se usa para hacer el tequila?",
+   "o": [
+    "Nopal",
+    "Agave",
+    "Maíz",
+    "Yuca"
+   ],
+   "c": 1,
+   "img_q": "Agave tequilana",
+   "img_modo": "revela",
+   "d": "El agave azul crece en Jalisco y tarda varios años en madurar antes de cosecharse.",
+   "tp": "¿Qué planta mexicana de hojas puntiagudas se usa para hacer el tequila? ¿Nopal, Agave, Maíz o Yuca?",
+   "tr": "¡El agave!",
+   "td": "El agave azul crece en Jalisco y tarda varios años en madurar antes de cosecharse."
+  },
+  {
+   "n": 66,
+   "tema": "animales",
+   "p": "¿Cuál es el mamífero terrestre más grande de la selva amazónica?",
+   "o": [
+    "El jaguar",
+    "El capibara",
+    "El tapir",
+    "El oso hormiguero"
+   ],
+   "c": 2,
+   "img_q": "Lowland tapir",
+   "img_modo": "revela",
+   "d": "El tapir pesa unos 250 kilos y usa su trompa corta para agarrar hojas y frutos.",
+   "tp": "¿Cuál es el mamífero terrestre más grande de la selva amazónica? ¿El jaguar, El capibara, El tapir o El oso hormiguero?",
+   "tr": "¡El tapir!",
+   "td": "El tapir pesa unos doscientos cincuenta kilos y usa su trompa corta para agarrar hojas y frutos."
+  },
+  {
+   "n": 67,
+   "tema": "geografía",
+   "p": "¿Qué desierto sudamericano es el más árido del mundo?",
+   "o": [
+    "Sechura",
+    "Patagonia",
+    "Monte",
+    "Atacama"
+   ],
+   "c": 3,
+   "img_q": "Atacama Desert",
+   "img_modo": "revela",
+   "d": "En algunas zonas del Atacama pasan años sin que caiga una gota de lluvia.",
+   "tp": "¿Qué desierto sudamericano es el más árido del mundo? ¿Sechura, Patagonia, Monte o Atacama?",
+   "tr": "¡El Atacama!",
+   "td": "En algunas zonas del Atacama pasan años sin que caiga una gota de lluvia."
+  },
+  {
+   "n": 68,
+   "tema": "geografía",
+   "p": "¿Qué cordillera, de unos 7.000 kilómetros, es la más larga del mundo?",
+   "o": [
+    "Los Andes",
+    "Los Alpes",
+    "El Himalaya",
+    "Las Rocosas"
+   ],
+   "c": 0,
+   "d": "Los Andes cruzan siete países de Sudamérica, desde Venezuela hasta Argentina y Chile.",
+   "tp": "¿Qué cordillera, de unos siete mil kilómetros, es la más larga del mundo? ¿Los Andes, Los Alpes, El Himalaya o Las Rocosas?",
+   "tr": "¡Los Andes!",
+   "td": "Los Andes cruzan siete países de Sudamérica, desde Venezuela hasta Argentina y Chile."
+  },
+  {
+   "n": 69,
+   "tema": "naturaleza",
+   "p": "¿Cómo se llaman los seres diminutos que flotan en el mar y alimentan a las ballenas?",
+   "o": [
+    "Corales",
+    "Plancton",
+    "Esponjas",
+    "Algas gigantes"
+   ],
+   "c": 1,
+   "d": "El plancton incluye algas y animalitos tan pequeños que casi no se ven a simple vista.",
+   "tp": "¿Cómo se llaman los seres diminutos que flotan en el mar y alimentan a las ballenas? ¿Corales, Plancton, Esponjas o Algas gigantes?",
+   "tr": "¡El plancton!",
+   "td": "El plancton incluye algas y animalitos tan pequeños que casi no se ven a simple vista."
+  },
+  {
+   "n": 70,
+   "tema": "perú",
+   "p": "¿Qué dos ríos se unen para formar el río Amazonas?",
+   "o": [
+    "Napo y Putumayo",
+    "Madeira y Negro",
+    "Marañón y Ucayali",
+    "Huallaga y Apurímac"
+   ],
+   "c": 2,
+   "d": "El Marañón y el Ucayali se juntan en Perú, cerca de Nauta, y desde allí nace el Amazonas.",
+   "tp": "¿Qué dos ríos se unen para formar el río Amazonas? ¿Napo y Putumayo, Madeira y Negro, Marañón y Ucayali o Huallaga y Apurímac?",
+   "tr": "¡El Marañón y el Ucayali!",
+   "td": "El Marañón y el Ucayali se juntan en Perú, cerca de Nauta, y desde allí nace el Amazonas."
+  },
+  {
+   "n": 71,
+   "tema": "animales",
+   "ronda": "vf",
+   "p": "Las jirafas duermen muchas horas cada noche.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Duermen muy poco: entre media hora y dos horas al día, a veces de pie.",
+   "tp": "¿Verdadero o falso? Las jirafas duermen muchas horas cada noche.",
+   "tr": "¡Falso! Duermen muy poquito.",
+   "td": "Duermen muy poco: entre media hora y dos horas al día, a veces de pie."
+  },
+  {
+   "n": 72,
+   "tema": "comida",
+   "ronda": "vf",
+   "p": "Las primeras zanahorias cultivadas eran moradas o amarillas, no naranjas.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "La zanahoria naranja apareció siglos después, gracias a cultivos hechos en Europa.",
+   "tp": "¿Verdadero o falso? Las primeras zanahorias cultivadas eran moradas o amarillas, no naranjas.",
+   "tr": "¡Verdadero! No eran naranjas.",
+   "td": "La zanahoria naranja apareció siglos después, gracias a cultivos hechos en Europa."
+  },
+  {
+   "n": 73,
+   "tema": "animales",
+   "ronda": "vf",
+   "p": "Las arañas son insectos.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Las arañas tienen ocho patas y dos partes en el cuerpo; los insectos tienen seis patas.",
+   "tp": "¿Verdadero o falso? Las arañas son insectos.",
+   "tr": "¡Falso! Son arácnidos.",
+   "td": "Las arañas tienen ocho patas y dos partes en el cuerpo; los insectos tienen seis patas."
+  },
+  {
+   "n": 74,
+   "tema": "animales",
+   "p": "¿Qué felino es el más veloz del mundo?",
+   "o": [
+    "León",
+    "Leopardo",
+    "Jaguar",
+    "Guepardo"
+   ],
+   "c": 3,
+   "d": "El guepardo llega a unos 100 km/h en carreras cortas, pero se cansa pronto.",
+   "tp": "¿Qué felino es el más veloz del mundo? ¿León, Leopardo, Jaguar o Guepardo?",
+   "tr": "¡El guepardo!",
+   "td": "El guepardo llega a unos cien kilómetros por hora en carreras cortas, pero se cansa pronto."
+  },
+  {
+   "n": 75,
+   "tema": "naturaleza",
+   "p": "¿De las semillas de qué árbol tropical se obtiene el chocolate?",
+   "o": [
+    "Café",
+    "Caucho",
+    "Coco",
+    "Cacao"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "coffee beans plant",
+     "src": "px"
+    },
+    {
+     "q": "rubber tree latex",
+     "src": "px"
+    },
+    {
+     "q": "coconut palm",
+     "src": "px"
+    },
+    {
+     "q": "cacao pod",
+     "src": "px"
+    }
+   ],
+   "d": "Cada fruto del cacao guarda decenas de semillas, que se secan y se muelen para hacer chocolate.",
+   "tp": "¿De las semillas de qué árbol tropical se obtiene el chocolate? ¿Café, Caucho, Coco o Cacao?",
+   "tr": "¡El cacao!",
+   "td": "Cada fruto del cacao guarda decenas de semillas, que se secan y se muelen para hacer chocolate."
+  },
+  {
+   "n": 76,
+   "tema": "ciencia",
+   "p": "¿Cómo se llama el chorro de agua caliente que brota del suelo cada cierto tiempo?",
+   "o": [
+    "Géiser",
+    "Cascada",
+    "Manantial",
+    "Pozo"
+   ],
+   "c": 0,
+   "img_q": "Geyser eruption",
+   "img_modo": "revela",
+   "d": "Los géiseres lanzan agua y vapor porque bajo el suelo hay rocas muy calientes.",
+   "tp": "¿Cómo se llama el chorro de agua caliente que brota del suelo cada cierto tiempo? ¿Géiser, Cascada, Manantial o Pozo?",
+   "tr": "¡Un géiser!",
+   "td": "Los géiseres lanzan agua y vapor porque bajo el suelo hay rocas muy calientes."
+  },
+  {
+   "n": 77,
+   "tema": "geografía",
+   "p": "¿En qué país está la Gran Barrera de Coral, el mayor arrecife del mundo?",
+   "o": [
+    "Filipinas",
+    "Australia",
+    "México",
+    "Brasil"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "flag": "ph"
+    },
+    {
+     "flag": "au"
+    },
+    {
+     "flag": "mx"
+    },
+    {
+     "flag": "br"
+    }
+   ],
+   "d": "La Gran Barrera mide más de 2.000 kilómetros y se ve desde el espacio.",
+   "tp": "¿En qué país está la Gran Barrera de Coral, el mayor arrecife del mundo? ¿Filipinas, Australia, México o Brasil?",
+   "tr": "¡Australia!",
+   "td": "La Gran Barrera mide más de dos mil kilómetros y se ve desde el espacio."
+  },
+  {
+   "n": 78,
+   "tema": "naturaleza",
+   "p": "¿Qué planta amazónica de hojas redondas gigantes flota sobre el agua?",
+   "o": [
+    "Totora",
+    "Camalote",
+    "Victoria regia",
+    "Helecho"
+   ],
+   "c": 2,
+   "img_q": "Victoria amazonica leaf",
+   "img_modo": "revela",
+   "d": "Sus hojas miden más de 2 metros de ancho y pueden resistir el peso de un niño pequeño.",
+   "tp": "¿Qué planta amazónica de hojas redondas gigantes flota sobre el agua? ¿Totora, Camalote, Victoria regia o Helecho?",
+   "tr": "¡La Victoria regia!",
+   "td": "Sus hojas miden más de dos metros de ancho y pueden resistir el peso de un niño pequeño."
+  },
+  {
+   "n": 79,
+   "tema": "perú",
+   "p": "¿Qué fruta amazónica del Perú tiene muchísima vitamina C?",
+   "o": [
+    "Lúcuma",
+    "Chirimoya",
+    "Aguaymanto",
+    "Camu camu"
+   ],
+   "c": 3,
+   "img_q": "Camu camu fruit",
+   "img_modo": "revela",
+   "d": "El camu camu tiene muchas más veces vitamina C que la naranja.",
+   "tp": "¿Qué fruta amazónica del Perú tiene muchísima vitamina C? ¿Lúcuma, Chirimoya, Aguaymanto o Camu camu?",
+   "tr": "¡El camu camu!",
+   "td": "El camu camu tiene muchas más veces vitamina C que la naranja."
+  },
+  {
+   "n": 80,
+   "tema": "animales",
+   "p": "¿Cómo se llama el gigante pez amazónico que respira aire?",
+   "o": [
+    "Paiche",
+    "Piraña",
+    "Sábalo",
+    "Doncella"
+   ],
+   "c": 0,
+   "img_q": "Arapaima",
+   "img_modo": "revela",
+   "d": "El paiche puede superar los 2 metros y sube a la superficie para respirar aire.",
+   "tp": "¿Cómo se llama el gigante pez amazónico que respira aire? ¿Paiche, Piraña, Sábalo o Doncella?",
+   "tr": "¡El paiche!",
+   "td": "El paiche puede superar los dos metros y sube a la superficie para respirar aire."
+  },
+  {
+   "n": 81,
+   "tema": "geografía",
+   "p": "¿Cuál es el continente más seco de la Tierra?",
+   "o": [
+    "África",
+    "Antártida",
+    "Asia",
+    "Australia"
+   ],
+   "c": 1,
+   "d": "En la Antártida casi no cae nieve nueva: por eso se considera un desierto helado.",
+   "tp": "¿Cuál es el continente más seco de la Tierra? ¿África, Antártida, Asia o Australia?",
+   "tr": "¡La Antártida!",
+   "td": "En la Antártida casi no cae nieve nueva: por eso se considera un desierto helado."
+  },
+  {
+   "n": 82,
+   "tema": "animales",
+   "p": "¿Qué animal sudamericano de lengua larguísima come hormigas y termitas?",
+   "o": [
+    "Pangolín",
+    "Armadillo",
+    "Oso hormiguero",
+    "Perezoso"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "pangolin",
+     "src": "px"
+    },
+    {
+     "q": "armadillo",
+     "src": "px"
+    },
+    {
+     "q": "giant anteater",
+     "src": "px"
+    },
+    {
+     "q": "sloth",
+     "src": "px"
+    }
+   ],
+   "d": "El oso hormiguero mueve su lengua a gran velocidad para atrapar insectos.",
+   "tp": "¿Qué animal sudamericano de lengua larguísima come hormigas y termitas? ¿Pangolín, Armadillo, Oso hormiguero o Perezoso?",
+   "tr": "¡El oso hormiguero!",
+   "td": "El oso hormiguero mueve su lengua a gran velocidad para atrapar insectos."
+  },
+  {
+   "n": 83,
+   "tema": "animales",
+   "p": "¿Qué animal australiano se alimenta casi solo de hojas de eucalipto?",
+   "o": [
+    "Canguro",
+    "Wombat",
+    "Demonio de Tasmania",
+    "Koala"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "kangaroo",
+     "src": "px"
+    },
+    {
+     "q": "wombat",
+     "src": "px"
+    },
+    {
+     "q": "tasmanian devil",
+     "src": "px"
+    },
+    {
+     "q": "koala",
+     "src": "px"
+    }
+   ],
+   "d": "El koala duerme hasta 20 horas al día porque las hojas de eucalipto dan poca energía.",
+   "tp": "¿Qué animal australiano se alimenta casi solo de hojas de eucalipto? ¿Canguro, Wombat, Demonio de Tasmania o Koala?",
+   "tr": "¡El koala!",
+   "td": "El koala duerme hasta veinte horas al día porque las hojas de eucalipto dan poca energía."
+  },
+  {
+   "n": 84,
+   "tema": "naturaleza",
+   "p": "¿Cómo se llaman las rocas puntiagudas que cuelgan del techo de una cueva?",
+   "o": [
+    "Estalactitas",
+    "Estalagmitas",
+    "Geodas",
+    "Dunas"
+   ],
+   "c": 0,
+   "d": "Las estalactitas cuelgan del techo; las estalagmitas crecen desde el suelo hacia arriba.",
+   "tp": "¿Cómo se llaman las rocas puntiagudas que cuelgan del techo de una cueva? ¿Estalactitas, Estalagmitas, Geodas o Dunas?",
+   "tr": "¡Las estalactitas!",
+   "td": "Las estalactitas cuelgan del techo; las estalagmitas crecen desde el suelo hacia arriba."
+  },
+  {
+   "n": 85,
+   "tema": "ciencia",
+   "p": "¿Qué parte de la flor produce el polen?",
+   "o": [
+    "El pistilo",
+    "Los estambres",
+    "Los pétalos",
+    "Los sépalos"
+   ],
+   "c": 1,
+   "d": "Las abejas llevan el polen de flor en flor y ayudan a que nazcan frutos.",
+   "tp": "¿Qué parte de la flor produce el polen? ¿El pistilo, Los estambres, Los pétalos o Los sépalos?",
+   "tr": "¡Los estambres!",
+   "td": "Las abejas llevan el polen de flor en flor y ayudan a que nazcan frutos."
+  },
+  {
+   "n": 86,
+   "tema": "geografía",
+   "p": "¿Cómo se llama el mayor desierto de sal del mundo, en Bolivia?",
+   "o": [
+    "Salar de Atacama",
+    "Salinas Grandes",
+    "Salar de Uyuni",
+    "Salinas de Maras"
+   ],
+   "c": 2,
+   "img_q": "Salar de Uyuni",
+   "img_modo": "revela",
+   "d": "Con una fina capa de agua, el salar de Uyuni parece un espejo gigante.",
+   "tp": "¿Cómo se llama el mayor desierto de sal del mundo, en Bolivia? ¿Salar de Atacama, Salinas Grandes, Salar de Uyuni o Salinas de Maras?",
+   "tr": "¡El salar de Uyuni!",
+   "td": "Con una fina capa de agua, el salar de Uyuni parece un espejo gigante."
+  },
+  {
+   "n": 87,
+   "tema": "geografía",
+   "p": "¿Cómo se llama una isla de coral en forma de anillo que rodea una laguna?",
+   "o": [
+    "Península",
+    "Archipiélago",
+    "Delta",
+    "Atolón"
+   ],
+   "c": 3,
+   "d": "Los atolones se forman sobre volcanes hundidos; Charles Darwin explicó cómo nacen.",
+   "tp": "¿Cómo se llama una isla de coral en forma de anillo que rodea una laguna? ¿Península, Archipiélago, Delta o Atolón?",
+   "tr": "¡Un atolón!",
+   "td": "Los atolones se forman sobre volcanes hundidos; Charles Darwin explicó cómo nacen."
+  },
+  {
+   "n": 88,
+   "tema": "geografía",
+   "p": "¿Qué mar, entre Israel y Jordania, es tan salado que uno flota sin esfuerzo?",
+   "o": [
+    "Mar Muerto",
+    "Mar Rojo",
+    "Mar Negro",
+    "Mar Caspio"
+   ],
+   "c": 0,
+   "img_q": "Dead Sea",
+   "img_modo": "revela",
+   "d": "En el mar Muerto es casi imposible hundirse por la cantidad de sal.",
+   "tp": "¿Qué mar, entre Israel y Jordania, es tan salado que uno flota sin esfuerzo? ¿Mar Muerto, Mar Rojo, Mar Negro o Mar Caspio?",
+   "tr": "¡El mar Muerto!",
+   "td": "En el mar Muerto es casi imposible hundirse por la cantidad de sal."
+  },
+  {
+   "n": 89,
+   "tema": "animales",
+   "p": "¿Qué hormigas de la selva cortan hojas para cultivar hongos?",
+   "o": [
+    "Las guerreras",
+    "Las arrieras",
+    "Las carpinteras",
+    "Las de fuego"
+   ],
+   "c": 1,
+   "img_q": "Leafcutter ant",
+   "img_modo": "revela",
+   "d": "No comen las hojas: las usan para cultivar un hongo que les sirve de alimento.",
+   "tp": "¿Qué hormigas de la selva cortan hojas para cultivar hongos? ¿Las guerreras, Las arrieras, Las carpinteras o Las de fuego?",
+   "tr": "¡Las hormigas arrieras!",
+   "td": "No comen las hojas: las usan para cultivar un hongo que les sirve de alimento."
+  },
+  {
+   "n": 90,
+   "tema": "naturaleza",
+   "p": "¿Qué tipo de árbol es «Matusalén», con más de 4.800 años en California?",
+   "o": [
+    "Secuoya",
+    "Baobab",
+    "Pino longevo",
+    "Roble"
+   ],
+   "c": 2,
+   "img_q": "Bristlecone pine",
+   "img_modo": "revela",
+   "d": "Matusalén tiene más de 4.800 años: nació antes de que se construyera la Gran Pirámide de Guiza.",
+   "tp": "¿Qué tipo de árbol es «Matusalén», con más de cuatro mil ochocientos años en California? ¿Secuoya, Baobab, Pino longevo o Roble?",
+   "tr": "¡Un pino longevo!",
+   "td": "Matusalén tiene más de cuatro mil ochocientos años: nació antes de que se construyera la Gran Pirámide de Guiza."
+  },
+  {
+   "n": 91,
+   "tema": "animales",
+   "p": "¿Cuántos ojos tiene la mayoría de las arañas?",
+   "o": [
+    "Dos",
+    "Cuatro",
+    "Seis",
+    "Ocho"
+   ],
+   "c": 3,
+   "d": "Casi todas las arañas tienen ocho ojos, aunque algunas ven muy poco.",
+   "tp": "¿Cuántos ojos tiene la mayoría de las arañas? ¿Dos, Cuatro, Seis o Ocho?",
+   "tr": "¡Ocho!",
+   "td": "Casi todas las arañas tienen ocho ojos, aunque algunas ven muy poco."
+  },
+  {
+   "n": 92,
+   "tema": "animales",
+   "p": "¿Cómo se llama el delfín rosado de los ríos de la Amazonía?",
+   "o": [
+    "Boto",
+    "Beluga",
+    "Narval",
+    "Marsopa"
+   ],
+   "c": 0,
+   "d": "El boto, también llamado bufeo, se vuelve más rosado cuando se hace adulto.",
+   "tp": "¿Cómo se llama el delfín rosado de los ríos de la Amazonía? ¿Boto, Beluga, Narval o Marsopa?",
+   "tr": "¡El boto!",
+   "td": "El boto, también llamado bufeo, se vuelve más rosado cuando se hace adulto."
+  },
+  {
+   "n": 93,
+   "tema": "animales",
+   "p": "¿Qué animales de cola anillada viven de forma natural solo en Madagascar?",
+   "o": [
+    "Los monos araña",
+    "Los lémures",
+    "Los orangutanes",
+    "Los titíes"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "spider monkey",
+     "src": "px"
+    },
+    {
+     "q": "ring-tailed lemur",
+     "src": "px"
+    },
+    {
+     "q": "orangutan",
+     "src": "px"
+    },
+    {
+     "q": "marmoset",
+     "src": "px"
+    }
+   ],
+   "d": "Madagascar se separó de África hace millones de años, y allí evolucionaron animales únicos.",
+   "tp": "¿Qué animales de cola anillada viven de forma natural solo en Madagascar? ¿Los monos araña, Los lémures, Los orangutanes o Los titíes?",
+   "tr": "¡Los lémures!",
+   "td": "Madagascar se separó de África hace millones de años, y allí evolucionaron animales únicos."
+  },
+  {
+   "n": 94,
+   "tema": "naturaleza",
+   "p": "¿Cómo se llaman las plantas que viven sobre otras sin dañarlas, como las orquídeas?",
+   "o": [
+    "Parásitas",
+    "Carnívoras",
+    "Epífitas",
+    "Acuáticas"
+   ],
+   "c": 2,
+   "d": "Las epífitas toman agua de la lluvia y la humedad, y no dañan al árbol que las sostiene.",
+   "tp": "¿Cómo se llaman las plantas que viven sobre otras sin dañarlas, como las orquídeas? ¿Parásitas, Carnívoras, Epífitas o Acuáticas?",
+   "tr": "¡Las epífitas!",
+   "td": "Las epífitas toman agua de la lluvia y la humedad, y no dañan al árbol que las sostiene."
+  },
+  {
+   "n": 95,
+   "tema": "perú",
+   "p": "¿Cómo se llama la flor nacional del Perú, «flor sagrada de los incas»?",
+   "o": [
+    "Amancay",
+    "Orquídea",
+    "Girasol",
+    "Cantuta"
+   ],
+   "c": 3,
+   "img_q": "Cantua buxifolia",
+   "img_modo": "revela",
+   "d": "La cantuta tiene flores rojas en forma de trompeta y crece en los Andes.",
+   "tp": "¿Cómo se llama la flor nacional del Perú, «flor sagrada de los incas»? ¿Amancay, Orquídea, Girasol o Cantuta?",
+   "tr": "¡La cantuta!",
+   "td": "La cantuta tiene flores rojas en forma de trompeta y crece en los Andes."
+  },
+  {
+   "n": 96,
+   "tema": "animales",
+   "p": "¿Qué anfibio de México puede regenerar sus patas?",
+   "o": [
+    "Axolote",
+    "Rana toro",
+    "Sapo",
+    "Tritón"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "axolotl",
+     "src": "px"
+    },
+    {
+     "q": "bullfrog",
+     "src": "px"
+    },
+    {
+     "q": "toad",
+     "src": "px"
+    },
+    {
+     "q": "newt",
+     "src": "px"
+    }
+   ],
+   "d": "El axolote vive en los canales de Xochimilco y puede regenerar partes de su cuerpo.",
+   "tp": "¿Qué anfibio de México puede regenerar sus patas? ¿Axolote, Rana toro, Sapo o Tritón?",
+   "tr": "¡El axolote!",
+   "td": "El axolote vive en los canales de Xochimilco y puede regenerar partes de su cuerpo."
+  },
+  {
+   "n": 97,
+   "tema": "naturaleza",
+   "p": "¿Qué árbol amazónico produce el látex del caucho?",
+   "o": [
+    "Cedro",
+    "Shiringa",
+    "Caoba",
+    "Quina"
+   ],
+   "c": 1,
+   "img_q": "Hevea brasiliensis",
+   "img_modo": "revela",
+   "d": "La shiringa, o árbol del caucho, dio origen al «boom del caucho» a fines del siglo XIX.",
+   "tp": "¿Qué árbol amazónico produce el látex del caucho? ¿Cedro, Shiringa, Caoba o Quina?",
+   "tr": "¡La shiringa!",
+   "td": "La shiringa, o árbol del caucho, dio origen al «boom del caucho» a fines del siglo XIX."
+  },
+  {
+   "n": 98,
+   "tema": "naturaleza",
+   "p": "¿Qué árbol del sur de Chile puede vivir más de 3.000 años?",
+   "o": [
+    "Araucaria",
+    "Roble",
+    "Alerce",
+    "Quillay"
+   ],
+   "c": 2,
+   "img_q": "Fitzroya cupressoides",
+   "img_modo": "revela",
+   "d": "Algunos alerces pasan los 3.000 años: están entre los árboles más viejos del mundo.",
+   "tp": "¿Qué árbol del sur de Chile puede vivir más de tres mil años? ¿Araucaria, Roble, Alerce o Quillay?",
+   "tr": "¡El alerce!",
+   "td": "Algunos alerces pasan los tres mil años: están entre los árboles más viejos del mundo."
+  },
+  {
+   "n": 99,
+   "tema": "animales",
+   "p": "¿Qué tiburón podría vivir cerca de 400 años?",
+   "o": [
+    "Tiburón blanco",
+    "Tiburón martillo",
+    "Tiburón ballena",
+    "Tiburón de Groenlandia"
+   ],
+   "c": 3,
+   "img_q": "Greenland shark",
+   "img_modo": "revela",
+   "d": "Es el vertebrado más longevo que se conoce, con edades estimadas de hasta unos 400 años.",
+   "tp": "¿Qué tiburón podría vivir cerca de cuatrocientos años? ¿Tiburón blanco, Tiburón martillo, Tiburón ballena o Tiburón de Groenlandia?",
+   "tr": "¡El tiburón de Groenlandia!",
+   "td": "Es el vertebrado más longevo que se conoce, con edades estimadas de hasta unos cuatrocientos años."
+  },
+  {
+   "n": 100,
+   "tema": "animales",
+   "p": "¿Qué ave puede pasar hasta diez meses seguidos en el aire sin posarse?",
+   "o": [
+    "Vencejo común",
+    "Albatros",
+    "Charrán ártico",
+    "Fragata"
+   ],
+   "c": 0,
+   "img_q": "Common swift",
+   "img_modo": "revela",
+   "d": "Un estudio mostró que el vencejo común puede volar unos 10 meses sin aterrizar.",
+   "tp": "¿Qué ave puede pasar hasta diez meses seguidos en el aire sin posarse? ¿Vencejo común, Albatros, Charrán ártico o Fragata?",
+   "tr": "¡El vencejo común!",
+   "td": "Un estudio mostró que el vencejo común puede volar unos diez meses sin aterrizar."
   }
  ],
  "extra_tts": {
@@ -1468,11 +2225,71 @@
   ],
   "charla60_pr": [
    "presentador",
-   "¡Sesenta! El Titicaca queda tan alto que casi me despeino las antenas."
+   "¡Sesenta! La savia es la sangre de las plantas. ¡Yo me conformo con aceite!"
   ],
   "charla60_co": [
    "copresentadora",
-   "Tranquilo, MAX. Familia, ¡sigan sumando puntos y vigilen el ranking del celular!"
+   "Con aceite sí, MAX. Familia, ¡sigan sumando puntos y vigilen el ranking del celular!"
+  ],
+  "charla65_pr": [
+   "presentador",
+   "¡Sesenta y cinco! Yo también me transformo: de oruga a mariposa en un solo parpadeo."
+  ],
+  "charla65_co": [
+   "copresentadora",
+   "Tú solo cambias de baterías, MAX. Familia, ¡revisen el ranking en el celular!"
+  ],
+  "charla70_pr": [
+   "presentador",
+   "¡Setenta! Ahora llegan tres afirmaciones, y yo ya estoy dudando de todo."
+  ],
+  "charla70_co": [
+   "copresentadora",
+   "Tranquilo, MAX. Familia, piensen bien: ¿verdadero o falso? ¡Vamos!"
+  ],
+  "charla75_pr": [
+   "presentador",
+   "¡Setenta y cinco! Dicen que los camellos guardan agua en la joroba. ¡Qué mito tan jorobado!"
+  ],
+  "charla75_co": [
+   "copresentadora",
+   "Muy jorobado, MAX. Familia, vigilen su puesto en el ranking del celular."
+  ],
+  "charla80_pr": [
+   "presentador",
+   "¡Ochenta! Un paiche de dos metros. ¡Y yo con miedo de una piraña de juguete!"
+  ],
+  "charla80_co": [
+   "copresentadora",
+   "Valiente, MAX. Familia, ¡ya falta poco, sigan sumando puntos!"
+  ],
+  "charla85_pr": [
+   "presentador",
+   "¡Ochenta y cinco! El koala duerme casi todo el día. ¡Es mi mascota ideal!"
+  ],
+  "charla85_co": [
+   "copresentadora",
+   "Y tú nunca duermes, MAX. Familia, ¿ya miraron el ranking del celular?"
+  ],
+  "charla90_pr": [
+   "presentador",
+   "¡Noventa! Las hormigas arrieras cultivan hongos. ¡Yo apenas logro cultivar un cactus!"
+  ],
+  "charla90_co": [
+   "copresentadora",
+   "Con mucho cariño, MAX. Familia, ¡solo diez preguntas más y llegamos a la meta!"
+  ],
+  "charla95_pr": [
+   "presentador",
+   "¡Noventa y cinco! Un delfín rosado y una mariposa viajera. ¡Esta selva tiene de todo!"
+  ],
+  "charla95_co": [
+   "copresentadora",
+   "Faltan solo cinco preguntas, familia. ¡Revisen el ranking del celular y no se rindan!"
+  ],
+  "pr_cierre": [
+   "presentador",
+   "¡Y llegamos al final de la naturaleza! Cuéntennos cuántas acertaron en los comentarios, familia, y vuelvan mañana a jugar."
   ]
  },
  "fotos_miniatura": [

@@ -2,7 +2,7 @@
  "id": "ep016",
  "fecha": "2026-11-20",
  "formato": "normal",
- "estado": "en_proceso",
+ "estado": "listo",
  "codigo_sala": "ESCUELA",
  "titulo": "Palabras, números y cuerpo humano: ¡de vuelta a la escuela!",
  "titulo_youtube": "¿Pasarías el examen? 100 preguntas de escuela para jugar en familia | ¿Quién Sabe Más?",
@@ -19,6 +19,2059 @@
  "reto_miniatura": "¿Pasas el examen?",
  "objetivo_preguntas": 100,
  "total_anunciado": 100,
- "preguntas": [],
- "extra_tts": {}
+ "preguntas": [
+  {
+   "n": 1,
+   "tema": "lenguaje",
+   "p": "¿Cuántas vocales tiene el abecedario español?",
+   "o": [
+    "Tres",
+    "Cinco",
+    "Cuatro",
+    "Seis"
+   ],
+   "c": 1,
+   "d": "Las vocales son A, E, I, O y U; las demás letras son consonantes.",
+   "tp": "¿Cuántas vocales tiene el abecedario español? ¿Tres, Cinco, Cuatro o Seis?",
+   "tr": "¡Cinco!",
+   "td": "Las vocales son A, E, I, O y U; las demás letras son consonantes."
+  },
+  {
+   "n": 2,
+   "tema": "cuerpo",
+   "p": "¿Qué órgano late dentro de tu pecho y bombea la sangre?",
+   "o": [
+    "Pulmón",
+    "Estómago",
+    "Corazón",
+    "Hígado"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "human lungs anatomy model",
+     "src": "px"
+    },
+    {
+     "q": "human stomach anatomy model",
+     "src": "px"
+    },
+    {
+     "q": "human heart anatomy model",
+     "src": "px"
+    },
+    {
+     "q": "human liver anatomy model",
+     "src": "px"
+    }
+   ],
+   "d": "Tu corazón es del tamaño aproximado de tu puño cerrado.",
+   "tp": "¿Qué órgano late dentro de tu pecho y bombea la sangre? ¿Pulmón, Estómago, Corazón o Hígado?",
+   "tr": "¡El corazón!",
+   "td": "Tu corazón es del tamaño aproximado de tu puño cerrado."
+  },
+  {
+   "n": 3,
+   "tema": "matemáticas",
+   "p": "¿Cuánto es 7 por 8?",
+   "o": [
+    "54",
+    "48",
+    "63",
+    "56"
+   ],
+   "c": 3,
+   "d": "Un truco para recordarlo: 56 es 7 × 8, o sea, 5, 6, 7, 8.",
+   "tp": "¿Cuánto es siete por ocho? ¿Cincuenta y cuatro, Cuarenta y ocho, Sesenta y tres o Cincuenta y seis?",
+   "tr": "¡Cincuenta y seis!",
+   "td": "Un truco para recordarlo: cincuenta y seis es siete por ocho, o sea, cinco, seis, siete, ocho."
+  },
+  {
+   "n": 4,
+   "tema": "lenguaje",
+   "p": "¿Cómo se llama la palabra que significa lo contrario de otra, como «alto» y «bajo»?",
+   "o": [
+    "Antónimo",
+    "Sinónimo",
+    "Homónimo",
+    "Sustantivo"
+   ],
+   "c": 0,
+   "d": "Antónimo viene del griego: «anti» significa contra y «onoma», nombre.",
+   "tp": "¿Cómo se llama la palabra que significa lo contrario de otra, como «alto» y «bajo»? ¿Antónimo, Sinónimo, Homónimo o Sustantivo?",
+   "tr": "¡Antónimo!",
+   "td": "Antónimo viene del griego: «anti» significa contra y «onoma», nombre."
+  },
+  {
+   "n": 5,
+   "tema": "cuerpo",
+   "p": "¿Con qué sentido percibimos el aroma de una flor?",
+   "o": [
+    "Oído",
+    "Olfato",
+    "Tacto",
+    "Gusto"
+   ],
+   "c": 1,
+   "d": "La nariz tiene millones de células que detectan los olores.",
+   "tp": "¿Con qué sentido percibimos el aroma de una flor? ¿Oído, Olfato, Tacto o Gusto?",
+   "tr": "¡El olfato!",
+   "td": "La nariz tiene millones de células que detectan los olores."
+  },
+  {
+   "n": 6,
+   "tema": "animales",
+   "p": "¿Cuál de estos animales es un ave?",
+   "o": [
+    "Murciélago",
+    "Libélula",
+    "Búho",
+    "Mariposa"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "bat flying",
+     "src": "px"
+    },
+    {
+     "q": "dragonfly",
+     "src": "px"
+    },
+    {
+     "q": "owl",
+     "src": "px"
+    },
+    {
+     "q": "butterfly",
+     "src": "px"
+    }
+   ],
+   "d": "Los búhos son aves nocturnas; los murciélagos vuelan, pero son mamíferos.",
+   "tp": "¿Cuál de estos animales es un ave? ¿Murciélago, Libélula, Búho o Mariposa?",
+   "tr": "¡El búho!",
+   "td": "Los búhos son aves nocturnas; los murciélagos vuelan, pero son mamíferos."
+  },
+  {
+   "n": 7,
+   "tema": "matemáticas",
+   "p": "¿Cuántos lados tiene un octágono?",
+   "o": [
+    "Seis",
+    "Siete",
+    "Nueve",
+    "Ocho"
+   ],
+   "c": 3,
+   "d": "La señal de tránsito de «pare» tiene forma de octágono.",
+   "tp": "¿Cuántos lados tiene un octágono? ¿Seis, Siete, Nueve o Ocho?",
+   "tr": "¡Ocho!",
+   "td": "La señal de tránsito de «pare» tiene forma de octágono."
+  },
+  {
+   "n": 8,
+   "tema": "cuerpo",
+   "p": "¿Cómo se llama la banda resistente que une el músculo con el hueso?",
+   "o": [
+    "Tendón",
+    "Nervio",
+    "Vena",
+    "Cartílago"
+   ],
+   "c": 0,
+   "d": "El tendón de Aquiles, en el talón, es el más grande y fuerte del cuerpo.",
+   "tp": "¿Cómo se llama la banda resistente que une el músculo con el hueso? ¿Tendón, Nervio, Vena o Cartílago?",
+   "tr": "¡El tendón!",
+   "td": "El tendón de Aquiles, en el talón, es el más grande y fuerte del cuerpo."
+  },
+  {
+   "n": 9,
+   "tema": "lenguaje",
+   "p": "¿Qué letra del abecedario es muda en español, como en «hotel»?",
+   "o": [
+    "La Ñ",
+    "La H",
+    "La LL",
+    "La Q"
+   ],
+   "c": 1,
+   "d": "La H casi nunca se pronuncia, pero hay que escribirla: «hotel», «huevo».",
+   "tp": "¿Qué letra del abecedario es muda en español, como en «hotel»? ¿La eñe, La hache, La elle o La cu?",
+   "tr": "¡La hache!",
+   "td": "La H casi nunca se pronuncia, pero hay que escribirla: «hotel», «huevo»."
+  },
+  {
+   "n": 10,
+   "tema": "matemáticas",
+   "p": "¿Con qué instrumento se dibujan círculos perfectos?",
+   "o": [
+    "Regla",
+    "Escuadra",
+    "Compás",
+    "Transportador"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "ruler",
+     "src": "px"
+    },
+    {
+     "q": "set square triangle ruler",
+     "src": "px"
+    },
+    {
+     "q": "drawing compass tool",
+     "src": "px"
+    },
+    {
+     "q": "protractor",
+     "src": "px"
+    }
+   ],
+   "d": "El compás tiene una punta fija y otra con lápiz que gira alrededor.",
+   "tp": "¿Con qué instrumento se dibujan círculos perfectos? ¿Regla, Escuadra, Compás o Transportador?",
+   "tr": "¡El compás!",
+   "td": "El compás tiene una punta fija y otra con lápiz que gira alrededor."
+  },
+  {
+   "n": 11,
+   "tema": "ciencia",
+   "ronda": "misteriosa",
+   "p": "¿Qué instrumento es este, que sirve para ver cosas muy pequeñas?",
+   "o": [
+    "Telescopio",
+    "Periscopio",
+    "Estetoscopio",
+    "Microscopio"
+   ],
+   "c": 3,
+   "img_q": "Microscope",
+   "img_modo": "pregunta",
+   "d": "Con un microscopio se pueden ver células y bacterias invisibles a simple vista.",
+   "tp": "¿Qué instrumento es este, que sirve para ver cosas muy pequeñas? ¿Telescopio, Periscopio, Estetoscopio o Microscopio?",
+   "tr": "¡El microscopio!",
+   "td": "Con un microscopio se pueden ver células y bacterias invisibles a simple vista."
+  },
+  {
+   "n": 12,
+   "tema": "geografía",
+   "ronda": "misteriosa",
+   "p": "¿Cómo se llama este objeto, que muestra todo el planeta en forma de esfera?",
+   "o": [
+    "Globo terráqueo",
+    "Brújula",
+    "Astrolabio",
+    "Sextante"
+   ],
+   "c": 0,
+   "img_q": "Terrestrial globe",
+   "img_modo": "pregunta",
+   "d": "El globo terráqueo más antiguo que se conserva es de 1492, hecho por Martin Behaim.",
+   "tp": "¿Cómo se llama este objeto, que muestra todo el planeta en forma de esfera? ¿Globo terráqueo, Brújula, Astrolabio o Sextante?",
+   "tr": "¡El globo terráqueo!",
+   "td": "El globo terráqueo más antiguo que se conserva es de mil cuatrocientos noventa y dos, hecho por Martin Behaim."
+  },
+  {
+   "n": 13,
+   "tema": "geografía",
+   "ronda": "misteriosa",
+   "p": "¿A qué país sudamericano pertenece esta bandera?",
+   "o": [
+    "Ecuador",
+    "Colombia",
+    "Venezuela",
+    "Bolivia"
+   ],
+   "c": 1,
+   "bandera": "co",
+   "img_modo": "pregunta",
+   "d": "En la bandera de Colombia, el amarillo representa la riqueza, el azul el mar y el rojo la sangre de los héroes.",
+   "tp": "¿A qué país sudamericano pertenece esta bandera? ¿Ecuador, Colombia, Venezuela o Bolivia?",
+   "tr": "¡Colombia!",
+   "td": "En la bandera de Colombia, el amarillo representa la riqueza, el azul el mar y el rojo la sangre de los héroes."
+  },
+  {
+   "n": 14,
+   "tema": "cuerpo",
+   "p": "¿Cuántos huesos tiene una sola mano humana?",
+   "o": [
+    "20",
+    "32",
+    "27",
+    "14"
+   ],
+   "c": 2,
+   "d": "Cada mano tiene 27 huesos, ¡más de los que parecen!",
+   "tp": "¿Cuántos huesos tiene una sola mano humana? ¿Veinte, Treinta y dos, Veintisiete o Catorce?",
+   "tr": "¡Veintisiete!",
+   "td": "Cada mano tiene veintisiete huesos, ¡más de los que parecen!"
+  },
+  {
+   "n": 15,
+   "tema": "lenguaje",
+   "p": "¿Qué clase de palabra es «rápidamente»?",
+   "o": [
+    "Adjetivo",
+    "Verbo",
+    "Sustantivo",
+    "Adverbio"
+   ],
+   "c": 3,
+   "d": "Muchos adverbios terminan en «-mente»: lentamente, felizmente.",
+   "tp": "¿Qué clase de palabra es «rápidamente»? ¿Adjetivo, Verbo, Sustantivo o Adverbio?",
+   "tr": "¡Un adverbio!",
+   "td": "Muchos adverbios terminan en «-mente»: lentamente, felizmente."
+  },
+  {
+   "n": 16,
+   "tema": "matemáticas",
+   "p": "¿Cómo se llama el triángulo que tiene sus tres lados iguales?",
+   "o": [
+    "Equilátero",
+    "Isósceles",
+    "Escaleno",
+    "Rectángulo"
+   ],
+   "c": 0,
+   "d": "En un triángulo equilátero, además, los tres ángulos miden lo mismo.",
+   "tp": "¿Cómo se llama el triángulo que tiene sus tres lados iguales? ¿Equilátero, Isósceles, Escaleno o Rectángulo?",
+   "tr": "¡El equilátero!",
+   "td": "En un triángulo equilátero, además, los tres ángulos miden lo mismo."
+  },
+  {
+   "n": 17,
+   "tema": "matemáticas",
+   "p": "¿Qué instrumento sirve para medir ángulos?",
+   "o": [
+    "Balanza",
+    "Transportador",
+    "Cinta métrica",
+    "Lupa"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "kitchen scale",
+     "src": "px"
+    },
+    {
+     "q": "protractor",
+     "src": "px"
+    },
+    {
+     "q": "measuring tape",
+     "src": "px"
+    },
+    {
+     "q": "magnifying glass",
+     "src": "px"
+    }
+   ],
+   "d": "El transportador suele tener forma de semicírculo y viene marcado de 0 a 180 grados.",
+   "tp": "¿Qué instrumento sirve para medir ángulos? ¿Balanza, Transportador, Cinta métrica o Lupa?",
+   "tr": "¡El transportador!",
+   "td": "El transportador suele tener forma de semicírculo y viene marcado de cero a ciento ochenta grados."
+  },
+  {
+   "n": 18,
+   "tema": "historia",
+   "p": "¿Qué idioma se hablaba en el Imperio romano?",
+   "o": [
+    "Griego",
+    "Italiano",
+    "Latín",
+    "Árabe"
+   ],
+   "c": 2,
+   "d": "El latín dio origen al español, al francés, al italiano y al portugués.",
+   "tp": "¿Qué idioma se hablaba en el Imperio romano? ¿Griego, Italiano, Latín o Árabe?",
+   "tr": "¡El latín!",
+   "td": "El latín dio origen al español, al francés, al italiano y al portugués."
+  },
+  {
+   "n": 19,
+   "tema": "perú",
+   "p": "¿En qué fecha se celebra el Día de la Independencia del Perú?",
+   "o": [
+    "9 de diciembre",
+    "7 de junio",
+    "6 de agosto",
+    "28 de julio"
+   ],
+   "c": 3,
+   "d": "El 28 de julio de 1821 José de San Martín proclamó la independencia en Lima.",
+   "tp": "¿En qué fecha se celebra el Día de la Independencia del Perú? ¿Nueve de diciembre, Siete de junio, Seis de agosto o Veintiocho de julio?",
+   "tr": "¡El veintiocho de julio!",
+   "td": "El veintiocho de julio de mil ochocientos veintiuno, José de San Martín proclamó la independencia en Lima."
+  },
+  {
+   "n": 20,
+   "tema": "matemáticas",
+   "p": "¿Cuántos meses del año tienen 31 días?",
+   "o": [
+    "Siete",
+    "Cinco",
+    "Seis",
+    "Ocho"
+   ],
+   "c": 0,
+   "d": "Son enero, marzo, mayo, julio, agosto, octubre y diciembre.",
+   "tp": "¿Cuántos meses del año tienen treinta y un días? ¿Siete, Cinco, Seis o Ocho?",
+   "tr": "¡Siete!",
+   "td": "Son enero, marzo, mayo, julio, agosto, octubre y diciembre."
+  },
+  {
+   "n": 21,
+   "tema": "música",
+   "p": "¿Cuál de estos instrumentos musicales se toca soplando?",
+   "o": [
+    "Violín",
+    "Flauta",
+    "Piano",
+    "Arpa"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "violin",
+     "src": "px"
+    },
+    {
+     "q": "flute",
+     "src": "px"
+    },
+    {
+     "q": "piano keys",
+     "src": "px"
+    },
+    {
+     "q": "harp",
+     "src": "px"
+    }
+   ],
+   "d": "Al soplar, el aire vibra dentro del tubo y produce el sonido.",
+   "tp": "¿Cuál de estos instrumentos musicales se toca soplando? ¿Violín, Flauta, Piano o Arpa?",
+   "tr": "¡La flauta!",
+   "td": "Al soplar, el aire vibra dentro del tubo y produce el sonido."
+  },
+  {
+   "n": 22,
+   "tema": "cuerpo",
+   "p": "¿Cuántos dientes tiene una persona adulta?",
+   "o": [
+    "28",
+    "30",
+    "32",
+    "36"
+   ],
+   "c": 2,
+   "d": "Los niños tienen 20 dientes de leche, que se caen y son reemplazados.",
+   "tp": "¿Cuántos dientes tiene una persona adulta? ¿Veintiocho, Treinta, Treinta y dos o Treinta y seis?",
+   "tr": "¡Treinta y dos!",
+   "td": "Los niños tienen veinte dientes de leche, que se caen y son reemplazados."
+  },
+  {
+   "n": 23,
+   "tema": "lenguaje",
+   "p": "¿Qué palabra es un sinónimo de «contento»?",
+   "o": [
+    "Triste",
+    "Enojado",
+    "Cansado",
+    "Alegre"
+   ],
+   "c": 3,
+   "d": "Los sinónimos son palabras con significado parecido, como «bonito» y «lindo».",
+   "tp": "¿Qué palabra es un sinónimo de «contento»? ¿Triste, Enojado, Cansado o Alegre?",
+   "tr": "¡Alegre!",
+   "td": "Los sinónimos son palabras con significado parecido, como «bonito» y «lindo»."
+  },
+  {
+   "n": 24,
+   "tema": "ciencia",
+   "p": "¿Qué compuesto es la sal de cocina?",
+   "o": [
+    "Cloruro de sodio",
+    "Bicarbonato",
+    "Azúcar",
+    "Yeso"
+   ],
+   "c": 0,
+   "d": "La sal de cocina se obtiene del mar y de minas, como las salinas de Maras en el Perú.",
+   "tp": "¿Qué compuesto es la sal de cocina? ¿Cloruro de sodio, Bicarbonato, Azúcar o Yeso?",
+   "tr": "¡Cloruro de sodio!",
+   "td": "La sal de cocina se obtiene del mar y de minas, como las salinas de Maras en el Perú."
+  },
+  {
+   "n": 25,
+   "tema": "música",
+   "p": "¿Cuál de estos instrumentos es de cuerda?",
+   "o": [
+    "Tambor",
+    "Guitarra",
+    "Trompeta",
+    "Xilófono"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "drum",
+     "src": "px"
+    },
+    {
+     "q": "acoustic guitar",
+     "src": "px"
+    },
+    {
+     "q": "trumpet",
+     "src": "px"
+    },
+    {
+     "q": "xylophone",
+     "src": "px"
+    }
+   ],
+   "d": "La guitarra moderna tiene seis cuerdas y es muy popular en toda Latinoamérica.",
+   "tp": "¿Cuál de estos instrumentos es de cuerda? ¿Tambor, Guitarra, Trompeta o Xilófono?",
+   "tr": "¡La guitarra!",
+   "td": "La guitarra moderna tiene seis cuerdas y es muy popular en toda Latinoamérica."
+  },
+  {
+   "n": 26,
+   "tema": "animales",
+   "p": "¿Cuál de estos animales es un anfibio?",
+   "o": [
+    "Lagarto",
+    "Serpiente",
+    "Rana",
+    "Tortuga"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "lizard",
+     "src": "px"
+    },
+    {
+     "q": "snake",
+     "src": "px"
+    },
+    {
+     "q": "frog",
+     "src": "px"
+    },
+    {
+     "q": "turtle",
+     "src": "px"
+    }
+   ],
+   "d": "Las ranas empiezan su vida en el agua como renacuajos y luego salen a la tierra.",
+   "tp": "¿Cuál de estos animales es un anfibio? ¿Lagarto, Serpiente, Rana o Tortuga?",
+   "tr": "¡La rana!",
+   "td": "Las ranas empiezan su vida en el agua como renacuajos y luego salen a la tierra."
+  },
+  {
+   "n": 27,
+   "tema": "literatura",
+   "p": "¿Quién escribió «Viaje al centro de la Tierra»?",
+   "o": [
+    "H. G. Wells",
+    "Jonathan Swift",
+    "Daniel Defoe",
+    "Julio Verne"
+   ],
+   "c": 3,
+   "d": "Julio Verne también escribió «La vuelta al mundo en ochenta días».",
+   "tp": "¿Quién escribió «Viaje al centro de la Tierra»? ¿H. G. Wells, Jonathan Swift, Daniel Defoe o Julio Verne?",
+   "tr": "¡Julio Verne!",
+   "td": "Julio Verne también escribió «La vuelta al mundo en ochenta días»."
+  },
+  {
+   "n": 28,
+   "tema": "perú",
+   "p": "¿Qué poeta peruano escribió el libro «Trilce»?",
+   "o": [
+    "César Vallejo",
+    "Ricardo Palma",
+    "Ciro Alegría",
+    "Blanca Varela"
+   ],
+   "c": 0,
+   "d": "Vallejo nació en Santiago de Chuco y es uno de los grandes poetas de Latinoamérica.",
+   "tp": "¿Qué poeta peruano escribió el libro «Trilce»? ¿César Vallejo, Ricardo Palma, Ciro Alegría o Blanca Varela?",
+   "tr": "¡César Vallejo!",
+   "td": "Vallejo nació en Santiago de Chuco y es uno de los grandes poetas de Latinoamérica."
+  },
+  {
+   "n": 29,
+   "tema": "matemáticas",
+   "p": "¿Cuánto es 2 elevado a la quinta, es decir, 2 × 2 × 2 × 2 × 2?",
+   "o": [
+    "16",
+    "32",
+    "25",
+    "64"
+   ],
+   "c": 1,
+   "d": "Cada vez que multiplicas por dos, el resultado se duplica: 2, 4, 8, 16, 32.",
+   "tp": "¿Cuánto es dos elevado a la quinta, es decir, dos por dos por dos por dos por dos? ¿Dieciséis, Treinta y dos, Veinticinco o Sesenta y cuatro?",
+   "tr": "¡Treinta y dos!",
+   "td": "Cada vez que multiplicas por dos, el resultado se duplica: dos, cuatro, ocho, dieciséis, treinta y dos."
+  },
+  {
+   "n": 30,
+   "tema": "animales",
+   "p": "¿Cuál de estos animales es un reptil?",
+   "o": [
+    "Delfín",
+    "Pingüino",
+    "Cocodrilo",
+    "Salamandra"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "dolphin jumping",
+     "src": "px"
+    },
+    {
+     "q": "emperor penguin",
+     "src": "px"
+    },
+    {
+     "q": "crocodile",
+     "src": "px"
+    },
+    {
+     "q": "salamander",
+     "src": "px"
+    }
+   ],
+   "d": "Los reptiles tienen la piel cubierta de escamas y la mayoría pone huevos.",
+   "tp": "¿Cuál de estos animales es un reptil? ¿Delfín, Pingüino, Cocodrilo o Salamandra?",
+   "tr": "¡El cocodrilo!",
+   "td": "Los reptiles tienen la piel cubierta de escamas y la mayoría pone huevos."
+  },
+  {
+   "n": 31,
+   "tema": "cuerpo",
+   "ronda": "vf",
+   "p": "El ser humano usa solo el diez por ciento de su cerebro.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Usamos todo el cerebro; incluso al dormir muchas zonas trabajan sin parar.",
+   "tp": "¿Verdadero o falso? El ser humano usa solo el diez por ciento de su cerebro.",
+   "tr": "¡Falso! Usamos todo el cerebro.",
+   "td": "Usamos todo el cerebro; incluso al dormir muchas zonas trabajan sin parar."
+  },
+  {
+   "n": 32,
+   "tema": "ciencia",
+   "ronda": "vf",
+   "p": "La Tierra no es una esfera perfecta: está un poco achatada en los polos.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Como gira sobre sí misma, la Tierra se ensancha un poco en el ecuador.",
+   "tp": "¿Verdadero o falso? La Tierra no es una esfera perfecta: está un poco achatada en los polos.",
+   "tr": "¡Verdadero! Está algo achatada.",
+   "td": "Como gira sobre sí misma, la Tierra se ensancha un poco en el ecuador."
+  },
+  {
+   "n": 33,
+   "tema": "idiomas",
+   "ronda": "vf",
+   "p": "«Azúcar» y «aceituna» son palabras españolas de origen árabe.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Muchas palabras con «al-» o «az-», como almohada y azúcar, vienen del árabe.",
+   "tp": "¿Verdadero o falso? «Azúcar» y «aceituna» son palabras españolas de origen árabe.",
+   "tr": "¡Verdadero! Vienen del árabe.",
+   "td": "Muchas palabras con «al-» o «az-», como almohada y azúcar, vienen del árabe."
+  },
+  {
+   "n": 34,
+   "tema": "ciencia",
+   "p": "¿Qué científico, según la leyenda, descubrió la gravedad al ver caer una manzana?",
+   "o": [
+    "Albert Einstein",
+    "Galileo Galilei",
+    "Charles Darwin",
+    "Isaac Newton"
+   ],
+   "c": 3,
+   "d": "Newton publicó su ley de la gravitación universal en 1687.",
+   "tp": "¿Qué científico, según la leyenda, descubrió la gravedad al ver caer una manzana? ¿Albert Einstein, Galileo Galilei, Charles Darwin o Isaac Newton?",
+   "tr": "¡Isaac Newton!",
+   "td": "Newton publicó su ley de la gravitación universal en mil seiscientos ochenta y siete."
+  },
+  {
+   "n": 35,
+   "tema": "cuerpo",
+   "p": "¿Qué glándula del cuello regula el metabolismo del cuerpo?",
+   "o": [
+    "Tiroides",
+    "Hipófisis",
+    "Páncreas",
+    "Timo"
+   ],
+   "c": 0,
+   "d": "La tiroides tiene forma de mariposa y está delante de la tráquea.",
+   "tp": "¿Qué glándula del cuello regula el metabolismo del cuerpo? ¿Tiroides, Hipófisis, Páncreas o Timo?",
+   "tr": "¡La tiroides!",
+   "td": "La tiroides tiene forma de mariposa y está delante de la tráquea."
+  },
+  {
+   "n": 36,
+   "tema": "lenguaje",
+   "p": "¿Cuántas letras tiene el abecedario español?",
+   "o": [
+    "27",
+    "26",
+    "28",
+    "29"
+   ],
+   "c": 0,
+   "d": "La Real Academia Española cuenta 27 letras; la ñ es la letra propia del español.",
+   "tp": "¿Cuántas letras tiene el abecedario español? ¿Veintisiete, Veintiséis, Veintiocho o Veintinueve?",
+   "tr": "¡Veintisiete!",
+   "td": "La Real Academia Española cuenta veintisiete letras; la eñe es la letra propia del español."
+  },
+  {
+   "n": 37,
+   "tema": "matemáticas",
+   "p": "¿Cómo se llama un polígono de cinco lados?",
+   "o": [
+    "Hexágono",
+    "Pentágono",
+    "Octágono",
+    "Cuadrilátero"
+   ],
+   "c": 1,
+   "d": "La sede militar de Estados Unidos se llama el Pentágono por su forma.",
+   "tp": "¿Cómo se llama un polígono de cinco lados? ¿Hexágono, Pentágono, Octágono o Cuadrilátero?",
+   "tr": "¡El pentágono!",
+   "td": "La sede militar de Estados Unidos se llama el Pentágono por su forma."
+  },
+  {
+   "n": 38,
+   "tema": "matemáticas",
+   "p": "¿Qué número sigue después de 99 en el sistema que usamos?",
+   "o": [
+    "90",
+    "101",
+    "100",
+    "1.000"
+   ],
+   "c": 2,
+   "d": "El 100 es el primer número de tres cifras.",
+   "tp": "¿Qué número sigue después de noventa y nueve? ¿Noventa, Ciento uno, Cien o Mil?",
+   "tr": "¡Cien!",
+   "td": "El cien es el primer número de tres cifras."
+  },
+  {
+   "n": 39,
+   "tema": "cuerpo",
+   "p": "¿Qué vitamina nos ayuda a producir el Sol a través de la piel?",
+   "o": [
+    "Vitamina A",
+    "Vitamina C",
+    "Vitamina K",
+    "Vitamina D"
+   ],
+   "c": 3,
+   "d": "El Sol ayuda a que la piel produzca vitamina D, buena para los huesos.",
+   "tp": "¿Qué vitamina nos ayuda a producir el Sol a través de la piel? ¿Vitamina A, Vitamina C, Vitamina K o Vitamina D?",
+   "tr": "¡La vitamina D!",
+   "td": "El Sol ayuda a que la piel produzca vitamina D, buena para los huesos."
+  },
+  {
+   "n": 40,
+   "tema": "perú",
+   "p": "¿Cuál es la lengua nativa más hablada del Perú?",
+   "o": [
+    "Quechua",
+    "Aimara",
+    "Asháninka",
+    "Guaraní"
+   ],
+   "c": 0,
+   "d": "Millones de peruanos hablan quechua, la lengua de los incas.",
+   "tp": "¿Cuál es la lengua nativa más hablada del Perú? ¿Quechua, Aimara, Asháninka o Guaraní?",
+   "tr": "¡El quechua!",
+   "td": "Millones de peruanos hablan quechua, la lengua de los incas."
+  },
+  {
+   "n": 41,
+   "tema": "matemáticas",
+   "ronda": "relampago",
+   "p": "¿Cuánto es 5 por 5?",
+   "o": [
+    "10",
+    "25",
+    "20",
+    "30"
+   ],
+   "c": 1,
+   "d": "Cinco por cinco: 25.",
+   "tp": "¿Cuánto es cinco por cinco? ¿Diez, Veinticinco, Veinte o Treinta?",
+   "tr": "¡Veinticinco!",
+   "td": "Cinco por cinco: veinticinco."
+  },
+  {
+   "n": 42,
+   "tema": "lenguaje",
+   "ronda": "relampago",
+   "p": "¿Cuál es lo contrario de «subir»?",
+   "o": [
+    "Correr",
+    "Saltar",
+    "Bajar",
+    "Volar"
+   ],
+   "c": 2,
+   "d": "Subir y bajar son antónimos.",
+   "tp": "¿Cuál es lo contrario de «subir»? ¿Correr, Saltar, Bajar o Volar?",
+   "tr": "¡Bajar!",
+   "td": "Subir y bajar son antónimos."
+  },
+  {
+   "n": 43,
+   "tema": "matemáticas",
+   "ronda": "relampago",
+   "p": "¿Cuántos segundos tiene un minuto?",
+   "o": [
+    "Cincuenta",
+    "Cien",
+    "Setenta",
+    "Sesenta"
+   ],
+   "c": 3,
+   "d": "Sesenta minutos hacen una hora.",
+   "tp": "¿Cuántos segundos tiene un minuto? ¿Cincuenta, Cien, Setenta o Sesenta?",
+   "tr": "¡Sesenta!",
+   "td": "Sesenta minutos hacen una hora."
+  },
+  {
+   "n": 44,
+   "tema": "arte",
+   "ronda": "relampago",
+   "p": "¿Qué color sale al mezclar rojo y blanco?",
+   "o": [
+    "Rosado",
+    "Naranja",
+    "Morado",
+    "Marrón"
+   ],
+   "c": 0,
+   "d": "Cuanto más blanco añades, más claro queda el rosado.",
+   "tp": "¿Qué color sale al mezclar rojo y blanco? ¿Rosado, Naranja, Morado o Marrón?",
+   "tr": "¡Rosado!",
+   "td": "Cuanto más blanco añades, más claro queda el rosado."
+  },
+  {
+   "n": 45,
+   "tema": "escuela",
+   "ronda": "relampago",
+   "p": "¿Qué sirve para borrar el lápiz?",
+   "o": [
+    "Compás",
+    "Borrador",
+    "Cuaderno",
+    "Mochila"
+   ],
+   "c": 1,
+   "d": "El borrador quita las marcas del lápiz.",
+   "tp": "¿Qué sirve para borrar el lápiz? ¿Compás, Borrador, Cuaderno o Mochila?",
+   "tr": "¡El borrador!",
+   "td": "El borrador quita las marcas del lápiz."
+  },
+  {
+   "n": 46,
+   "tema": "ciencia",
+   "p": "¿Cómo se llama el paso del agua líquida a vapor por el calor del Sol?",
+   "o": [
+    "Condensación",
+    "Congelación",
+    "Evaporación",
+    "Erosión"
+   ],
+   "c": 2,
+   "d": "El agua de los océanos se evapora y forma nubes.",
+   "tp": "¿Cómo se llama el paso del agua líquida a vapor por el calor del Sol? ¿Condensación, Congelación, Evaporación o Erosión?",
+   "tr": "¡Evaporación!",
+   "td": "El agua de los océanos se evapora y forma nubes."
+  },
+  {
+   "n": 47,
+   "tema": "cuerpo",
+   "p": "¿Cuántas costillas tiene una persona adulta?",
+   "o": [
+    "12",
+    "20",
+    "32",
+    "24"
+   ],
+   "c": 3,
+   "d": "Son doce pares de costillas que protegen el corazón y los pulmones.",
+   "tp": "¿Cuántas costillas tiene una persona adulta? ¿Doce, Veinte, Treinta y dos o Veinticuatro?",
+   "tr": "¡Veinticuatro!",
+   "td": "Son doce pares de costillas que protegen el corazón y los pulmones."
+  },
+  {
+   "n": 48,
+   "tema": "lenguaje",
+   "p": "¿Cómo se llama la sílaba que se pronuncia con más fuerza en una palabra?",
+   "o": [
+    "Sílaba tónica",
+    "Sílaba átona",
+    "Diptongo",
+    "Hiato"
+   ],
+   "c": 0,
+   "d": "En «teléfono», la sílaba tónica es «lé».",
+   "tp": "¿Cómo se llama la sílaba que se pronuncia con más fuerza en una palabra? ¿Sílaba tónica, Sílaba átona, Diptongo o Hiato?",
+   "tr": "¡La sílaba tónica!",
+   "td": "En «teléfono», la sílaba tónica es «lé»."
+  },
+  {
+   "n": 49,
+   "tema": "matemáticas",
+   "p": "¿Cuánto es la raíz cuadrada de 81?",
+   "o": [
+    "7",
+    "9",
+    "8",
+    "11"
+   ],
+   "c": 1,
+   "d": "Nueve por nueve es 81.",
+   "tp": "¿Cuánto es la raíz cuadrada de ochenta y uno? ¿Siete, Nueve, Ocho o Once?",
+   "tr": "¡Nueve!",
+   "td": "Nueve por nueve es ochenta y uno."
+  },
+  {
+   "n": 50,
+   "tema": "perú",
+   "p": "¿Cuántos departamentos tiene el Perú, sin contar la provincia constitucional del Callao?",
+   "o": [
+    "20",
+    "25",
+    "24",
+    "26"
+   ],
+   "c": 2,
+   "d": "Perú tiene 24 departamentos y, además, el Callao como provincia constitucional.",
+   "tp": "¿Cuántos departamentos tiene el Perú, sin contar la provincia constitucional del Callao? ¿Veinte, Veinticinco, Veinticuatro o Veintiséis?",
+   "tr": "¡Veinticuatro!",
+   "td": "Perú tiene veinticuatro departamentos y, además, el Callao como provincia constitucional."
+  },
+  {
+   "n": 51,
+   "tema": "matemáticas",
+   "p": "¿Cuántos grados tiene una vuelta completa a un círculo?",
+   "o": [
+    "90",
+    "180",
+    "400",
+    "360"
+   ],
+   "c": 3,
+   "d": "Los antiguos babilonios dividieron el círculo en 360 partes.",
+   "tp": "¿Cuántos grados tiene una vuelta completa a un círculo? ¿Noventa, Ciento ochenta, Cuatrocientos o Trescientos sesenta?",
+   "tr": "¡Trescientos sesenta!",
+   "td": "Los antiguos babilonios dividieron el círculo en trescientas sesenta partes."
+  },
+  {
+   "n": 52,
+   "tema": "ciencia",
+   "p": "¿Qué parte de la célula guarda la información genética?",
+   "o": [
+    "Núcleo",
+    "Membrana",
+    "Citoplasma",
+    "Pared celular"
+   ],
+   "c": 0,
+   "d": "El ADN guarda las instrucciones para formar cada parte de tu cuerpo.",
+   "tp": "¿Qué parte de la célula guarda la información genética? ¿Núcleo, Membrana, Citoplasma o Pared celular?",
+   "tr": "¡El núcleo!",
+   "td": "El ADN guarda las instrucciones para formar cada parte de tu cuerpo."
+  },
+  {
+   "n": 53,
+   "tema": "lenguaje",
+   "p": "¿Qué figura literaria compara dos cosas usando la palabra «como»?",
+   "o": [
+    "Metáfora",
+    "Símil",
+    "Rima",
+    "Hipérbole"
+   ],
+   "c": 1,
+   "d": "«Rápido como un rayo» es un símil.",
+   "tp": "¿Qué figura literaria compara dos cosas usando la palabra «como»? ¿Metáfora, Símil, Rima o Hipérbole?",
+   "tr": "¡El símil!",
+   "td": "«Rápido como un rayo» es un símil."
+  },
+  {
+   "n": 54,
+   "tema": "historia",
+   "p": "¿En qué año llegó el ser humano a la Luna?",
+   "o": [
+    "1959",
+    "1972",
+    "1969",
+    "1979"
+   ],
+   "c": 2,
+   "d": "Neil Armstrong pisó la Luna el 20 de julio de 1969 con el Apolo 11.",
+   "tp": "¿En qué año llegó el ser humano a la Luna? ¿Mil novecientos cincuenta y nueve, Mil novecientos setenta y dos, Mil novecientos sesenta y nueve o Mil novecientos setenta y nueve?",
+   "tr": "¡En mil novecientos sesenta y nueve!",
+   "td": "Neil Armstrong pisó la Luna el veinte de julio de mil novecientos sesenta y nueve con el Apolo once."
+  },
+  {
+   "n": 55,
+   "tema": "música",
+   "p": "¿Cuál de estos instrumentos andinos es una flauta?",
+   "o": [
+    "Charango",
+    "Bombo",
+    "Cajón",
+    "Quena"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "charango instrument",
+     "src": "cm"
+    },
+    {
+     "q": "bombo legüero drum",
+     "src": "cm"
+    },
+    {
+     "q": "cajón peruano instrument",
+     "src": "cm"
+    },
+    {
+     "q": "quena flute",
+     "src": "cm"
+    }
+   ],
+   "d": "La quena se toca soplando por un extremo y tiene agujeros para tapar con los dedos.",
+   "tp": "¿Cuál de estos instrumentos andinos es una flauta? ¿Charango, Bombo, Cajón o Quena?",
+   "tr": "¡La quena!",
+   "td": "La quena se toca soplando por un extremo y tiene agujeros para tapar con los dedos."
+  },
+  {
+   "n": 56,
+   "tema": "animales",
+   "ronda": "misteriosa",
+   "p": "¿Qué animal es este, que puede cambiar de color?",
+   "o": [
+    "Camaleón",
+    "Iguana",
+    "Lagarto",
+    "Gecko"
+   ],
+   "c": 0,
+   "img_q": "Chameleon",
+   "img_modo": "pregunta",
+   "d": "Los camaleones cambian de color para comunicarse y regular su temperatura.",
+   "tp": "¿Qué animal es este, que puede cambiar de color? ¿Camaleón, Iguana, Lagarto o Gecko?",
+   "tr": "¡El camaleón!",
+   "td": "Los camaleones cambian de color para comunicarse y regular su temperatura."
+  },
+  {
+   "n": 57,
+   "tema": "historia",
+   "ronda": "misteriosa",
+   "p": "¿Cómo se llama este antiguo anfiteatro de Roma?",
+   "o": [
+    "Partenón",
+    "Coliseo",
+    "Acrópolis",
+    "Panteón"
+   ],
+   "c": 1,
+   "img_q": "Colosseum Rome",
+   "img_modo": "pregunta",
+   "d": "El Coliseo podía recibir a unos 50.000 espectadores.",
+   "tp": "¿Cómo se llama este antiguo anfiteatro de Roma? ¿Partenón, Coliseo, Acrópolis o Panteón?",
+   "tr": "¡El Coliseo!",
+   "td": "El Coliseo podía recibir a unos cincuenta mil espectadores."
+  },
+  {
+   "n": 58,
+   "tema": "geografía",
+   "ronda": "misteriosa",
+   "p": "¿Qué país de Norteamérica tiene esta bandera?",
+   "o": [
+    "Estados Unidos",
+    "México",
+    "Canadá",
+    "Cuba"
+   ],
+   "c": 2,
+   "bandera": "ca",
+   "img_modo": "pregunta",
+   "d": "La hoja de arce apareció en la bandera de Canadá en 1965.",
+   "tp": "¿Qué país de Norteamérica tiene esta bandera? ¿Estados Unidos, México, Canadá o Cuba?",
+   "tr": "¡Canadá!",
+   "td": "La hoja de arce apareció en la bandera de Canadá en mil novecientos sesenta y cinco."
+  },
+  {
+   "n": 59,
+   "tema": "ciencia",
+   "p": "¿Cómo se llaman los dos días del año en que el día y la noche duran lo mismo?",
+   "o": [
+    "Solsticios",
+    "Eclipses",
+    "Mareas",
+    "Equinoccios"
+   ],
+   "c": 3,
+   "d": "Ocurren en marzo y en septiembre.",
+   "tp": "¿Cómo se llaman los dos días del año en que el día y la noche duran lo mismo? ¿Solsticios, Eclipses, Mareas o Equinoccios?",
+   "tr": "¡Los equinoccios!",
+   "td": "Ocurren en marzo y en septiembre."
+  },
+  {
+   "n": 60,
+   "tema": "idiomas",
+   "p": "¿Cuál de estas palabras viene del quechua?",
+   "o": [
+    "Cóndor",
+    "Chocolate",
+    "Tomate",
+    "Canoa"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "andean condor",
+     "src": "px"
+    },
+    {
+     "q": "chocolate",
+     "src": "px"
+    },
+    {
+     "q": "tomato",
+     "src": "px"
+    },
+    {
+     "q": "canoe",
+     "src": "px"
+    }
+   ],
+   "d": "«Cóndor» viene de «kuntur»; «chocolate» y «tomate» vienen del náhuatl.",
+   "tp": "¿Cuál de estas palabras viene del quechua? ¿Cóndor, Chocolate, Tomate o Canoa?",
+   "tr": "¡Cóndor!",
+   "td": "«Cóndor» viene de «kuntur»; «chocolate» y «tomate» vienen del náhuatl."
+  },
+  {
+   "n": 61,
+   "tema": "cuerpo",
+   "p": "¿Cómo se llama el círculo negro del ojo que cambia de tamaño con la luz?",
+   "o": [
+    "Retina",
+    "Pupila",
+    "Córnea",
+    "Párpado"
+   ],
+   "c": 1,
+   "d": "Con mucha luz la pupila se achica; en la oscuridad se agranda.",
+   "tp": "¿Cómo se llama el círculo negro del ojo que cambia de tamaño con la luz? ¿Retina, Pupila, Córnea o Párpado?",
+   "tr": "¡La pupila!",
+   "td": "Con mucha luz la pupila se achica; en la oscuridad se agranda."
+  },
+  {
+   "n": 62,
+   "tema": "matemáticas",
+   "p": "¿Cuál de estos números es primo?",
+   "o": [
+    "9",
+    "15",
+    "13",
+    "21"
+   ],
+   "c": 2,
+   "d": "Un número primo solo se divide exactamente entre 1 y entre sí mismo.",
+   "tp": "¿Cuál de estos números es primo? ¿Nueve, Quince, Trece o Veintiuno?",
+   "tr": "¡Trece!",
+   "td": "Un número primo solo se divide exactamente entre uno y entre sí mismo."
+  },
+  {
+   "n": 63,
+   "tema": "inventos",
+   "p": "¿Qué invento de Gutenberg hizo los libros mucho más baratos?",
+   "o": [
+    "Telégrafo",
+    "Brújula",
+    "Telescopio",
+    "Imprenta"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "telegraph key",
+     "src": "cm"
+    },
+    {
+     "q": "magnetic compass antique",
+     "src": "cm"
+    },
+    {
+     "q": "refracting telescope",
+     "src": "cm"
+    },
+    {
+     "q": "Gutenberg printing press replica",
+     "src": "cm"
+    }
+   ],
+   "d": "La imprenta de tipos móviles se popularizó en Europa hacia el año 1450.",
+   "tp": "¿Qué invento de Gutenberg hizo los libros mucho más baratos? ¿Telégrafo, Brújula, Telescopio o Imprenta?",
+   "tr": "¡La imprenta!",
+   "td": "La imprenta de tipos móviles se popularizó en Europa hacia el año mil cuatrocientos cincuenta."
+  },
+  {
+   "n": 64,
+   "tema": "ciencia",
+   "p": "¿Qué elemento químico tiene el símbolo Na?",
+   "o": [
+    "Sodio",
+    "Nitrógeno",
+    "Níquel",
+    "Neón"
+   ],
+   "c": 0,
+   "d": "«Na» viene del latín «natrium»; el sodio es parte de la sal de cocina.",
+   "tp": "¿Qué elemento químico tiene el símbolo Na? ¿Sodio, Nitrógeno, Níquel o Neón?",
+   "tr": "¡El sodio!",
+   "td": "«Na» viene del latín «natrium»; el sodio es parte de la sal de cocina."
+  },
+  {
+   "n": 65,
+   "tema": "lenguaje",
+   "p": "¿Cuál de estas palabras es esdrújula?",
+   "o": [
+    "Camión",
+    "Teléfono",
+    "Árbol",
+    "Canción"
+   ],
+   "c": 1,
+   "d": "Las esdrújulas se acentúan en la antepenúltima sílaba y siempre llevan tilde.",
+   "tp": "¿Cuál de estas palabras es esdrújula? ¿Camión, Teléfono, Árbol o Canción?",
+   "tr": "¡Teléfono!",
+   "td": "Las esdrújulas se acentúan en la antepenúltima sílaba y siempre llevan tilde."
+  },
+  {
+   "n": 66,
+   "tema": "geografía",
+   "p": "¿Qué país sudamericano lleva el nombre de un libertador?",
+   "o": [
+    "Colombia",
+    "Ecuador",
+    "Bolivia",
+    "Venezuela"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "flag": "co"
+    },
+    {
+     "flag": "ec"
+    },
+    {
+     "flag": "bo"
+    },
+    {
+     "flag": "ve"
+    }
+   ],
+   "d": "Bolivia se llama así en honor a Simón Bolívar.",
+   "tp": "¿Qué país sudamericano lleva el nombre de un libertador? ¿Colombia, Ecuador, Bolivia o Venezuela?",
+   "tr": "¡Bolivia!",
+   "td": "Bolivia se llama así en honor a Simón Bolívar."
+  },
+  {
+   "n": 67,
+   "tema": "matemáticas",
+   "p": "¿Cuántos grados suman los ángulos de un triángulo?",
+   "o": [
+    "90",
+    "270",
+    "360",
+    "180"
+   ],
+   "c": 3,
+   "d": "Sea grande o pequeño, los tres ángulos de un triángulo siempre suman 180 grados.",
+   "tp": "¿Cuántos grados suman los ángulos de un triángulo? ¿Noventa, Doscientos setenta, Trescientos sesenta o Ciento ochenta?",
+   "tr": "¡Ciento ochenta!",
+   "td": "Sea grande o pequeño, los tres ángulos de un triángulo siempre suman ciento ochenta grados."
+  },
+  {
+   "n": 68,
+   "tema": "cuerpo",
+   "p": "¿En qué órgano se absorben casi todos los nutrientes de los alimentos?",
+   "o": [
+    "Intestino delgado",
+    "Estómago",
+    "Esófago",
+    "Hígado"
+   ],
+   "c": 0,
+   "d": "El intestino delgado de un adulto mide unos 6 metros de largo.",
+   "tp": "¿En qué órgano se absorben casi todos los nutrientes de los alimentos? ¿Intestino delgado, Estómago, Esófago o Hígado?",
+   "tr": "¡El intestino delgado!",
+   "td": "El intestino delgado de un adulto mide unos seis metros de largo."
+  },
+  {
+   "n": 69,
+   "tema": "literatura",
+   "p": "¿Quién escribió la novela «Rayuela»?",
+   "o": [
+    "Gabriel García Márquez",
+    "Julio Cortázar",
+    "Isabel Allende",
+    "Jorge Luis Borges"
+   ],
+   "c": 1,
+   "d": "«Rayuela» se puede leer en orden o saltando capítulos, como en el juego.",
+   "tp": "¿Quién escribió la novela «Rayuela»? ¿Gabriel García Márquez, Julio Cortázar, Isabel Allende o Jorge Luis Borges?",
+   "tr": "¡Julio Cortázar!",
+   "td": "«Rayuela» se puede leer en orden o saltando capítulos, como en el juego."
+  },
+  {
+   "n": 70,
+   "tema": "perú",
+   "p": "¿Qué escritor peruano escribió «Los ríos profundos»?",
+   "o": [
+    "Manuel Scorza",
+    "Julio Ramón Ribeyro",
+    "José María Arguedas",
+    "Clorinda Matto"
+   ],
+   "c": 2,
+   "d": "Arguedas escribió en español, pero siempre quiso mostrar la cultura quechua.",
+   "tp": "¿Qué escritor peruano escribió «Los ríos profundos»? ¿Manuel Scorza, Julio Ramón Ribeyro, José María Arguedas o Clorinda Matto?",
+   "tr": "¡José María Arguedas!",
+   "td": "Arguedas escribió en español, pero siempre quiso mostrar la cultura quechua."
+  },
+  {
+   "n": 71,
+   "tema": "ciencia",
+   "ronda": "vf",
+   "p": "El agua hierve a cien grados centígrados en cualquier lugar del mundo.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "En Cusco, a 3.400 metros de altura, el agua hierve a unos 90 grados.",
+   "tp": "¿Verdadero o falso? El agua hierve a cien grados centígrados en cualquier lugar del mundo.",
+   "tr": "¡Falso! Depende de la altura.",
+   "td": "En Cusco, a tres mil cuatrocientos metros de altura, el agua hierve a unos noventa grados."
+  },
+  {
+   "n": 72,
+   "tema": "cuerpo",
+   "ronda": "vf",
+   "p": "El corazón humano late unas cien mil veces al día.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Late sin descanso: son unas 100.000 veces cada día.",
+   "tp": "¿Verdadero o falso? El corazón humano late unas cien mil veces al día.",
+   "tr": "¡Verdadero! Nunca descansa.",
+   "td": "Late sin descanso: son unas cien mil veces cada día."
+  },
+  {
+   "n": 73,
+   "tema": "ciencia",
+   "ronda": "vf",
+   "p": "Un kilo de plomo pesa más que un kilo de plumas.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Los dos pesan lo mismo: un kilo. El plomo solo ocupa menos espacio.",
+   "tp": "¿Verdadero o falso? Un kilo de plomo pesa más que un kilo de plumas.",
+   "tr": "¡Falso! Los dos pesan un kilo.",
+   "td": "Los dos pesan lo mismo: un kilo. El plomo solo ocupa menos espacio."
+  },
+  {
+   "n": 74,
+   "tema": "matemáticas",
+   "p": "¿Cuál es el valor aproximado de pi?",
+   "o": [
+    "2,71",
+    "1,61",
+    "4,13",
+    "3,14"
+   ],
+   "c": 3,
+   "d": "El 14 de marzo, escrito 3/14, se celebra el Día de Pi.",
+   "tp": "¿Cuál es el valor aproximado de pi? ¿Dos coma setenta y uno, Uno coma sesenta y uno, Cuatro coma trece o Tres coma catorce?",
+   "tr": "¡Tres coma catorce!",
+   "td": "El catorce de marzo, escrito tres catorce, se celebra el Día de Pi."
+  },
+  {
+   "n": 75,
+   "tema": "ciencia",
+   "p": "¿Qué partícula del átomo tiene carga negativa?",
+   "o": [
+    "Protón",
+    "Neutrón",
+    "Núcleo",
+    "Electrón"
+   ],
+   "c": 3,
+   "d": "Los electrones giran alrededor del núcleo del átomo.",
+   "tp": "¿Qué partícula del átomo tiene carga negativa? ¿Protón, Neutrón, Núcleo o Electrón?",
+   "tr": "¡El electrón!",
+   "td": "Los electrones giran alrededor del núcleo del átomo."
+  },
+  {
+   "n": 76,
+   "tema": "lenguaje",
+   "p": "¿Cómo se llama la figura que exagera, como «te lo dije un millón de veces»?",
+   "o": [
+    "Hipérbole",
+    "Metáfora",
+    "Símil",
+    "Rima"
+   ],
+   "c": 0,
+   "d": "La hipérbole exagera para dar más fuerza a lo que se dice.",
+   "tp": "¿Cómo se llama la figura que exagera, como «te lo dije un millón de veces»? ¿Hipérbole, Metáfora, Símil o Rima?",
+   "tr": "¡La hipérbole!",
+   "td": "La hipérbole exagera para dar más fuerza a lo que se dice."
+  },
+  {
+   "n": 77,
+   "tema": "historia",
+   "p": "¿Qué cultura peruana dibujó enormes figuras en el desierto, como un colibrí y un mono?",
+   "o": [
+    "Moche",
+    "Nazca",
+    "Chavín",
+    "Wari"
+   ],
+   "c": 1,
+   "d": "Las líneas de Nazca son tan grandes que se ven mejor desde el aire.",
+   "tp": "¿Qué cultura peruana dibujó enormes figuras en el desierto, como un colibrí y un mono? ¿Moche, Nazca, Chavín o Wari?",
+   "tr": "¡La cultura Nazca!",
+   "td": "Las líneas de Nazca son tan grandes que se ven mejor desde el aire."
+  },
+  {
+   "n": 78,
+   "tema": "cuerpo",
+   "p": "¿Cómo se llama el hueso plano que está en el centro del pecho?",
+   "o": [
+    "Clavícula",
+    "Omóplato",
+    "Esternón",
+    "Sacro"
+   ],
+   "c": 2,
+   "d": "Las costillas se unen al esternón y forman la caja que protege el corazón.",
+   "tp": "¿Cómo se llama el hueso plano que está en el centro del pecho? ¿Clavícula, Omóplato, Esternón o Sacro?",
+   "tr": "¡El esternón!",
+   "td": "Las costillas se unen al esternón y forman la caja que protege el corazón."
+  },
+  {
+   "n": 79,
+   "tema": "geografía",
+   "p": "¿Qué línea imaginaria pasa por Greenwich, en Londres?",
+   "o": [
+    "Ecuador",
+    "Trópico de Capricornio",
+    "Línea de cambio de fecha",
+    "Meridiano cero"
+   ],
+   "c": 3,
+   "d": "A partir del meridiano de Greenwich se miden las longitudes del mundo.",
+   "tp": "¿Qué línea imaginaria pasa por Greenwich, en Londres? ¿Ecuador, Trópico de Capricornio, Línea de cambio de fecha o Meridiano cero?",
+   "tr": "¡El meridiano cero!",
+   "td": "A partir del meridiano de Greenwich se miden las longitudes del mundo."
+  },
+  {
+   "n": 80,
+   "tema": "matemáticas",
+   "p": "¿Cuánto es la mitad de un cuarto?",
+   "o": [
+    "Un octavo",
+    "Un sexto",
+    "Un tercio",
+    "Un medio"
+   ],
+   "c": 0,
+   "d": "Si partes una pizza en cuatro y cada trozo en dos, tienes ocho pedazos iguales.",
+   "tp": "¿Cuánto es la mitad de un cuarto? ¿Un octavo, Un sexto, Un tercio o Un medio?",
+   "tr": "¡Un octavo!",
+   "td": "Si partes una pizza en cuatro y cada trozo en dos, tienes ocho pedazos iguales."
+  },
+  {
+   "n": 81,
+   "tema": "matemáticas",
+   "p": "¿Cuántos minutos hay en un día?",
+   "o": [
+    "1.200",
+    "1.440",
+    "1.640",
+    "2.400"
+   ],
+   "c": 1,
+   "d": "Son 24 horas por 60 minutos.",
+   "tp": "¿Cuántos minutos hay en un día? ¿Mil doscientos, Mil cuatrocientos cuarenta, Mil seiscientos cuarenta o Dos mil cuatrocientos?",
+   "tr": "¡Mil cuatrocientos cuarenta!",
+   "td": "Son veinticuatro horas por sesenta minutos."
+  },
+  {
+   "n": 82,
+   "tema": "idiomas",
+   "p": "¿En qué país casi toda la población habla guaraní además de español?",
+   "o": [
+    "Uruguay",
+    "Chile",
+    "Paraguay",
+    "Ecuador"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "flag": "uy"
+    },
+    {
+     "flag": "cl"
+    },
+    {
+     "flag": "py"
+    },
+    {
+     "flag": "ec"
+    }
+   ],
+   "d": "En Paraguay el guaraní es idioma oficial y lo hablan la mayoría de las personas.",
+   "tp": "¿En qué país casi toda la población habla guaraní además de español? ¿Uruguay, Chile, Paraguay o Ecuador?",
+   "tr": "¡Paraguay!",
+   "td": "En Paraguay el guaraní es idioma oficial y lo hablan la mayoría de las personas."
+  },
+  {
+   "n": 83,
+   "tema": "historia",
+   "p": "¿Qué país sudamericano celebra su independencia el 9 de julio?",
+   "o": [
+    "Chile",
+    "Bolivia",
+    "Ecuador",
+    "Argentina"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "flag": "cl"
+    },
+    {
+     "flag": "bo"
+    },
+    {
+     "flag": "ec"
+    },
+    {
+     "flag": "ar"
+    }
+   ],
+   "d": "El 9 de julio de 1816 se declaró la independencia en la ciudad de Tucumán.",
+   "tp": "¿Qué país sudamericano celebra su independencia el nueve de julio? ¿Chile, Bolivia, Ecuador o Argentina?",
+   "tr": "¡Argentina!",
+   "td": "El nueve de julio de mil ochocientos dieciséis se declaró la independencia en la ciudad de Tucumán."
+  },
+  {
+   "n": 84,
+   "tema": "cuerpo",
+   "p": "¿Cómo se llaman los vasos que llevan la sangre desde el corazón al resto del cuerpo?",
+   "o": [
+    "Arterias",
+    "Venas",
+    "Capilares",
+    "Bronquios"
+   ],
+   "c": 0,
+   "d": "Las venas, en cambio, devuelven la sangre al corazón.",
+   "tp": "¿Cómo se llaman los vasos que llevan la sangre desde el corazón al resto del cuerpo? ¿Arterias, Venas, Capilares o Bronquios?",
+   "tr": "¡Las arterias!",
+   "td": "Las venas, en cambio, devuelven la sangre al corazón."
+  },
+  {
+   "n": 85,
+   "tema": "matemáticas",
+   "p": "¿Qué número representa la letra L en los números romanos?",
+   "o": [
+    "5",
+    "50",
+    "100",
+    "500"
+   ],
+   "c": 1,
+   "d": "Los números romanos usan I, V, X, L, C, D y M.",
+   "tp": "¿Qué número representa la letra L en los números romanos? ¿Cinco, Cincuenta, Cien o Quinientos?",
+   "tr": "¡Cincuenta!",
+   "td": "Los números romanos usan I, V, X, L, C, D y M."
+  },
+  {
+   "n": 86,
+   "tema": "lenguaje",
+   "p": "¿Cómo se llama la ciencia que estudia el origen de las palabras?",
+   "o": [
+    "Ortografía",
+    "Fonética",
+    "Etimología",
+    "Gramática"
+   ],
+   "c": 2,
+   "d": "La etimología nos dice, por ejemplo, que «ojalá» viene del árabe.",
+   "tp": "¿Cómo se llama la ciencia que estudia el origen de las palabras? ¿Ortografía, Fonética, Etimología o Gramática?",
+   "tr": "¡La etimología!",
+   "td": "La etimología nos dice, por ejemplo, que «ojalá» viene del árabe."
+  },
+  {
+   "n": 87,
+   "tema": "perú",
+   "p": "¿En qué valle de Arequipa se ven cóndores volar cerca de los visitantes?",
+   "o": [
+    "Sagrado",
+    "Mantaro",
+    "Chillón",
+    "Colca"
+   ],
+   "c": 3,
+   "d": "En el Colca, los cóndores aprovechan el aire caliente de la mañana para planear.",
+   "tp": "¿En qué valle de Arequipa se ven cóndores volar cerca de los visitantes? ¿Sagrado, Mantaro, Chillón o Colca?",
+   "tr": "¡El valle del Colca!",
+   "td": "En el Colca, los cóndores aprovechan el aire caliente de la mañana para planear."
+  },
+  {
+   "n": 88,
+   "tema": "cuerpo",
+   "p": "¿Cuál es el único hueso de la cabeza que se puede mover?",
+   "o": [
+    "Mandíbula",
+    "Frontal",
+    "Occipital",
+    "Parietal"
+   ],
+   "c": 0,
+   "d": "La mandíbula se mueve para masticar y para hablar.",
+   "tp": "¿Cuál es el único hueso de la cabeza que se puede mover? ¿Mandíbula, Frontal, Occipital o Parietal?",
+   "tr": "¡La mandíbula!",
+   "td": "La mandíbula se mueve para masticar y para hablar."
+  },
+  {
+   "n": 89,
+   "tema": "ciencia",
+   "p": "¿De qué están hechas principalmente las estrellas?",
+   "o": [
+    "Oxígeno",
+    "Hidrógeno",
+    "Carbono",
+    "Hierro"
+   ],
+   "c": 1,
+   "d": "En el Sol, el hidrógeno se transforma en helio y libera luz y calor.",
+   "tp": "¿De qué están hechas principalmente las estrellas? ¿Oxígeno, Hidrógeno, Carbono o Hierro?",
+   "tr": "¡Hidrógeno!",
+   "td": "En el Sol, el hidrógeno se transforma en helio y libera luz y calor."
+  },
+  {
+   "n": 90,
+   "tema": "ciencia",
+   "p": "¿A qué velocidad viaja la luz en el vacío?",
+   "o": [
+    "30.000 km/s",
+    "3.000 km/s",
+    "300.000 km/s",
+    "3.000.000 km/s"
+   ],
+   "c": 2,
+   "d": "En un segundo, la luz da casi siete vueltas y media a la Tierra.",
+   "tp": "¿A qué velocidad viaja la luz en el vacío? ¿Treinta mil kilómetros por segundo, Tres mil kilómetros por segundo, Trescientos mil kilómetros por segundo o Tres millones de kilómetros por segundo?",
+   "tr": "¡Trescientos mil kilómetros por segundo!",
+   "td": "En un segundo, la luz da casi siete vueltas y media a la Tierra."
+  },
+  {
+   "n": 91,
+   "tema": "perú",
+   "p": "¿En qué fecha se celebra el Día del Maestro en el Perú?",
+   "o": [
+    "1 de mayo",
+    "8 de octubre",
+    "30 de agosto",
+    "6 de julio"
+   ],
+   "c": 3,
+   "d": "Ese día los estudiantes agradecen a sus profesores con saludos y regalos.",
+   "tp": "¿En qué fecha se celebra el Día del Maestro en el Perú? ¿Primero de mayo, Ocho de octubre, Treinta de agosto o Seis de julio?",
+   "tr": "¡El seis de julio!",
+   "td": "Ese día los estudiantes agradecen a sus profesores con saludos y regalos."
+  },
+  {
+   "n": 92,
+   "tema": "cuerpo",
+   "p": "¿Cómo se llaman las células del sistema nervioso que mandan mensajes?",
+   "o": [
+    "Neuronas",
+    "Plaquetas",
+    "Glóbulos rojos",
+    "Fibras"
+   ],
+   "c": 0,
+   "d": "El cerebro humano tiene unos 86.000 millones de neuronas.",
+   "tp": "¿Cómo se llaman las células del sistema nervioso que mandan mensajes? ¿Neuronas, Plaquetas, Glóbulos rojos o Fibras?",
+   "tr": "¡Las neuronas!",
+   "td": "El cerebro humano tiene unos ochenta y seis mil millones de neuronas."
+  },
+  {
+   "n": 93,
+   "tema": "geografía",
+   "p": "¿Cómo se llama el mar que separa el sur de América de la Antártida?",
+   "o": [
+    "Estrecho de Bering",
+    "Paso de Drake",
+    "Estrecho de Gibraltar",
+    "Canal de Panamá"
+   ],
+   "c": 1,
+   "d": "Es una de las zonas de mar más agitadas del mundo.",
+   "tp": "¿Cómo se llama el mar que separa el sur de América de la Antártida? ¿Estrecho de Bering, Paso de Drake, Estrecho de Gibraltar o Canal de Panamá?",
+   "tr": "¡El paso de Drake!",
+   "td": "Es una de las zonas de mar más agitadas del mundo."
+  },
+  {
+   "n": 94,
+   "tema": "literatura",
+   "p": "¿Quién escribió «Platero y yo»?",
+   "o": [
+    "Federico García Lorca",
+    "Gabriela Mistral",
+    "Juan Ramón Jiménez",
+    "Rubén Darío"
+   ],
+   "c": 2,
+   "d": "«Platero y yo» cuenta la vida de un burrito plateado en un pueblo de Andalucía.",
+   "tp": "¿Quién escribió «Platero y yo»? ¿Federico García Lorca, Gabriela Mistral, Juan Ramón Jiménez o Rubén Darío?",
+   "tr": "¡Juan Ramón Jiménez!",
+   "td": "«Platero y yo» cuenta la vida de un burrito plateado en un pueblo de Andalucía."
+  },
+  {
+   "n": 95,
+   "tema": "perú",
+   "p": "¿Cómo se llamaba el mensajero corredor del Imperio inca?",
+   "o": [
+    "Curaca",
+    "Yanacona",
+    "Amauta",
+    "Chasqui"
+   ],
+   "c": 3,
+   "d": "Los chasquis se relevaban en postas para llevar mensajes por los caminos incas.",
+   "tp": "¿Cómo se llamaba el mensajero corredor del Imperio inca? ¿Curaca, Yanacona, Amauta o Chasqui?",
+   "tr": "¡El chasqui!",
+   "td": "Los chasquis se relevaban en postas para llevar mensajes por los caminos incas."
+  },
+  {
+   "n": 96,
+   "tema": "ciencia",
+   "p": "¿Qué astrónomo vio las cuatro lunas más grandes de Júpiter en 1610?",
+   "o": [
+    "Galileo Galilei",
+    "Nicolás Copérnico",
+    "Johannes Kepler",
+    "Isaac Newton"
+   ],
+   "c": 0,
+   "d": "Esas lunas hoy se llaman galileanas en su honor.",
+   "tp": "¿Qué astrónomo vio las cuatro lunas más grandes de Júpiter en mil seiscientos diez? ¿Galileo Galilei, Nicolás Copérnico, Johannes Kepler o Isaac Newton?",
+   "tr": "¡Galileo!",
+   "td": "Esas lunas hoy se llaman galileanas en su honor."
+  },
+  {
+   "n": 97,
+   "tema": "lenguaje",
+   "p": "¿Cuál de estas palabras es un palíndromo, es decir, se lee igual al revés?",
+   "o": [
+    "Recordar",
+    "Reconocer",
+    "Recorrer",
+    "Reconstruir"
+   ],
+   "c": 1,
+   "d": "«Reconocer» se lee igual de izquierda a derecha y de derecha a izquierda.",
+   "tp": "¿Cuál de estas palabras es un palíndromo, es decir, se lee igual al revés? ¿Recordar, Reconocer, Recorrer o Reconstruir?",
+   "tr": "¡Reconocer!",
+   "td": "«Reconocer» se lee igual de izquierda a derecha y de derecha a izquierda."
+  },
+  {
+   "n": 98,
+   "tema": "cuerpo",
+   "p": "¿Qué hormona nos ayuda a dormir y se produce con la oscuridad?",
+   "o": [
+    "Insulina",
+    "Adrenalina",
+    "Melatonina",
+    "Oxitocina"
+   ],
+   "c": 2,
+   "d": "Por eso conviene dormir en la oscuridad: la melatonina avisa al cuerpo que es hora de descansar.",
+   "tp": "¿Qué hormona nos ayuda a dormir y se produce con la oscuridad? ¿Insulina, Adrenalina, Melatonina o Oxitocina?",
+   "tr": "¡La melatonina!",
+   "td": "Por eso conviene dormir en la oscuridad: la melatonina avisa al cuerpo que es hora de descansar."
+  },
+  {
+   "n": 99,
+   "tema": "cuerpo",
+   "p": "¿Qué proteína de los glóbulos rojos lleva el oxígeno y da color a la sangre?",
+   "o": [
+    "Clorofila",
+    "Melanina",
+    "Insulina",
+    "Hemoglobina"
+   ],
+   "c": 3,
+   "d": "La hemoglobina contiene hierro, por eso la sangre es roja.",
+   "tp": "¿Qué proteína de los glóbulos rojos lleva el oxígeno y da color a la sangre? ¿Clorofila, Melanina, Insulina o Hemoglobina?",
+   "tr": "¡La hemoglobina!",
+   "td": "La hemoglobina contiene hierro, por eso la sangre es roja."
+  },
+  {
+   "n": 100,
+   "tema": "matemáticas",
+   "p": "¿Cuál es el único número primo que es par?",
+   "o": [
+    "El dos",
+    "El uno",
+    "El cuatro",
+    "El seis"
+   ],
+   "c": 0,
+   "d": "Todos los demás números pares se pueden dividir entre dos, así que no son primos.",
+   "tp": "¿Cuál es el único número primo que es par? ¿El dos, El uno, El cuatro o El seis?",
+   "tr": "¡El dos!",
+   "td": "Todos los demás números pares se pueden dividir entre dos, así que no son primos."
+  }
+ ],
+ "extra_tts": {
+  "an_tema": [
+   "anunciador",
+   "Hoy jugamos: ¡de vuelta a la escuela con palabras, números y cuerpo humano!"
+  ],
+  "pr_intro": [
+   "presentador",
+   "¡Hola, familia! Hoy volvemos a la escuela con cien preguntas de palabras, números y cuerpo humano. ¿Listos para el examen?"
+  ],
+  "co_intro": [
+   "copresentadora",
+   "Habrá mates, un poco de lenguaje y hasta huesos. ¡Que gane el mejor alumno de la sala!"
+  ],
+  "co_fama": [
+   "copresentadora",
+   "Y felicitaciones a los mejores jugadores del episodio anterior, que ya aparecen en pantalla. ¡Hoy tienen nuevos rivales!"
+  ],
+  "charla05_pr": [
+   "presentador",
+   "¡Cinco preguntas! Mi sentido del olfato me dice que huele a examen sorpresa."
+  ],
+  "charla05_co": [
+   "copresentadora",
+   "Solo huele a aceite de robot, MAX. Familia, ¿ya vieron su puesto en el ranking del celular?"
+  ],
+  "charla10_pr": [
+   "presentador",
+   "¡Diez! Ahora llegan tres imágenes misteriosas. ¡Mis ojos de robot están listos!"
+  ],
+  "charla10_co": [
+   "copresentadora",
+   "Los de ustedes también, familia: abran bien los ojos mientras la imagen se aclara."
+  ],
+  "charla15_pr": [
+   "presentador",
+   "¡Quince! Veintisiete huesos en una mano. ¡Yo solo tengo cinco dedos de metal!"
+  ],
+  "charla15_co": [
+   "copresentadora",
+   "Y no se rompen, MAX. Familia, revisen el ranking en el celular."
+  ],
+  "charla20_pr": [
+   "presentador",
+   "¡Veinte! Siete meses tienen treinta y un días. ¡Qué meses tan generosos!"
+  ],
+  "charla20_co": [
+   "copresentadora",
+   "Y febrero, tan chiquito. Familia, ¡sigan sumando puntos!"
+  ],
+  "charla25_pr": [
+   "presentador",
+   "¡Veinticinco! Una guitarra, una flauta, un tambor. ¡Quiero formar una banda de robots!"
+  ],
+  "charla25_co": [
+   "copresentadora",
+   "Ya me imagino el ruido, MAX. Familia, ¿cómo van en el ranking del celular?"
+  ],
+  "charla30_pr": [
+   "presentador",
+   "¡Treinta! Ahora vienen tres afirmaciones. ¡Yo siempre digo verdadero a todo!"
+  ],
+  "charla30_co": [
+   "copresentadora",
+   "Con razón no ganas, MAX. Familia, ¿verdadero o falso? ¡Piensen bien!"
+  ],
+  "charla35_pr": [
+   "presentador",
+   "¡Treinta y cinco! Newton y su manzana. ¡Yo prefiero una manzana en la mano que en la cabeza!"
+  ],
+  "charla35_co": [
+   "copresentadora",
+   "Muy sabio, MAX. Familia, ¡revisen sus puntos en el celular!"
+  ],
+  "charla40_pr": [
+   "presentador",
+   "¡Cuarenta! Llega la ronda relámpago: cinco preguntas con solo cinco segundos cada una."
+  ],
+  "charla40_co": [
+   "copresentadora",
+   "Respiren hondo, familia. ¡Aquí no hay tiempo para dudar!"
+  ],
+  "charla45_pr": [
+   "presentador",
+   "¡Zas! ¡Esa ronda relámpago pasó volando! Hasta mi antena quedó despeinada."
+  ],
+  "charla45_co": [
+   "copresentadora",
+   "Rapidísima, MAX. Familia, ¿cuántas acertaron? Miren el ranking en el celular."
+  ],
+  "charla50_pr": [
+   "presentador",
+   "¡Cincuenta, la mitad del examen! Yo ya merezco un diez en robótica."
+  ],
+  "charla50_co": [
+   "copresentadora",
+   "Con humildad, MAX. Mitad de camino, familia: ¡atentos al ranking del celular!"
+  ],
+  "charla55_pr": [
+   "presentador",
+   "¡Cincuenta y cinco! Ahora tres imágenes misteriosas más. ¡Me encantan los píxeles!"
+  ],
+  "charla55_co": [
+   "copresentadora",
+   "Abran bien los ojos, familia. La imagen se va aclarando con el tiempo."
+  ],
+  "charla60_pr": [
+   "presentador",
+   "¡Sesenta! Cóndor viene del quechua y chocolate del náhuatl. ¡Yo hablo robot y un poquito de todo!"
+  ],
+  "charla60_co": [
+   "copresentadora",
+   "Con acento de lata, MAX. Familia, ¡sigan sumando puntos!"
+  ],
+  "charla65_pr": [
+   "presentador",
+   "¡Sesenta y cinco! Mi número primo favorito es el trece. ¡Me trae buena suerte!"
+  ],
+  "charla65_co": [
+   "copresentadora",
+   "Qué ocurrente, MAX. Familia, ¡no se queden sin sumar puntos!"
+  ],
+  "charla70_pr": [
+   "presentador",
+   "¡Setenta! Ahora llegan tres afirmaciones más. ¡Voy a dudar de todo otra vez!"
+  ],
+  "charla70_co": [
+   "copresentadora",
+   "Ya lo hiciste antes, MAX. Familia, ¿verdadero o falso? ¡Piensen bien!"
+  ],
+  "charla75_pr": [
+   "presentador",
+   "¡Setenta y cinco! Un kilo de plomo y un kilo de plumas pesan igual. ¡Pero las plumas hacen cosquillas!"
+  ],
+  "charla75_co": [
+   "copresentadora",
+   "Qué dato tan útil, MAX. Familia, revisen su puesto en el ranking del celular."
+  ],
+  "charla80_pr": [
+   "presentador",
+   "¡Ochenta! Un octavo de pizza me dejaría con hambre. ¡Mejor la pizza entera!"
+  ],
+  "charla80_co": [
+   "copresentadora",
+   "Siempre pensando en comida, MAX. Familia, ¡ya faltan veinte preguntas para el final!"
+  ],
+  "charla85_pr": [
+   "presentador",
+   "¡Ochenta y cinco! Un mundo de libros, desde Platero hasta el Principito. ¡Quiero leerlos todos!"
+  ],
+  "charla85_co": [
+   "copresentadora",
+   "Empieza por uno, MAX. Familia, ¡revisen el ranking en el celular!"
+  ],
+  "charla90_pr": [
+   "presentador",
+   "¡Noventa! Solo diez preguntas más y me gradúo de robot sabelotodo."
+  ],
+  "charla90_co": [
+   "copresentadora",
+   "Todavía te falta, MAX. Familia, ¡a un paso de la meta! Atentos al ranking."
+  ],
+  "charla95_pr": [
+   "presentador",
+   "¡Noventa y cinco! Un quipu inca con nudos de colores. ¡Yo sí que me hago nudos!"
+  ],
+  "charla95_co": [
+   "copresentadora",
+   "Con los cables, MAX. Faltan solo cinco preguntas, familia: ¡no se rindan!"
+  ],
+  "pr_cierre": [
+   "presentador",
+   "¡Y se acabó el examen, familia! Cuéntennos su puntaje en los comentarios y vuelvan mañana para jugar otra vez."
+  ]
+ },
+ "fotos_miniatura": [
+  [
+   26,
+   2
+  ],
+  [
+   6,
+   2
+  ],
+  [
+   60,
+   0
+  ],
+  [
+   55,
+   3
+  ],
+  [
+   25,
+   1
+  ]
+ ]
 }
