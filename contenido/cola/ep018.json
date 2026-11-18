@@ -1,0 +1,24 @@
+{
+ "id": "ep018",
+ "fecha": "2026-11-23",
+ "formato": "normal",
+ "estado": "en_proceso",
+ "codigo_sala": "CUENTOS",
+ "titulo": "Cuentos, películas y personajes: ¡la noche de los clásicos!",
+ "titulo_youtube": "¿Conoces estos cuentos y películas? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
+ "descripcion": "Cien preguntas de cuentos, películas clásicas, personajes famosos y libros para jugar en familia frente a la tele. Con imágenes misteriosas, verdadero o falso y una ronda relámpago. ¿Llegas a la 100? ¡Cuéntanos tu puntaje en los comentarios!",
+ "tags": [
+  "cuentos",
+  "películas",
+  "personajes",
+  "trivia en familia",
+  "preguntas y respuestas",
+  "juego para la tele"
+ ],
+ "tema_miniatura": "CUENTOS Y PELÍCULAS",
+ "reto_miniatura": "¿Llegas a la 100?",
+ "objetivo_preguntas": 100,
+ "total_anunciado": 100,
+ "preguntas": [],
+ "extra_tts": {}
+}
