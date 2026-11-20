@@ -1,0 +1,24 @@
+{
+ "id": "ep020",
+ "fecha": "2026-11-25",
+ "formato": "normal",
+ "estado": "en_proceso",
+ "codigo_sala": "CASTILLO",
+ "titulo": "Castillos, caballeros y piratas: aventuras de la historia",
+ "titulo_youtube": "¿Sabes de CASTILLOS, CABALLEROS y PIRATAS? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
+ "descripcion": "Cien preguntas de castillos, caballeros, exploradores y piratas, con historia, inventos y mucha aventura, para jugar en familia frente a la tele. Con imágenes misteriosas, verdadero o falso y una ronda relámpago. ¿Llegas a la 100? ¡Cuéntanos tu puntaje en los comentarios!",
+ "tags": [
+  "historia",
+  "castillos",
+  "piratas",
+  "exploradores",
+  "trivia en familia",
+  "juego para la tele"
+ ],
+ "tema_miniatura": "CASTILLOS Y PIRATAS",
+ "reto_miniatura": "¿Llegas a la 100?",
+ "objetivo_preguntas": 100,
+ "total_anunciado": 100,
+ "preguntas": [],
+ "extra_tts": {}
+}
