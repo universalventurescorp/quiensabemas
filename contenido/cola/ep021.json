@@ -1,0 +1,25 @@
+{
+ "id": "ep021",
+ "fecha": "2026-11-26",
+ "formato": "normal",
+ "estado": "en_proceso",
+ "codigo_sala": "VIAJES",
+ "titulo": "Trenes, barcos, aviones y cohetes: ¡viaja con las preguntas!",
+ "titulo_youtube": "¿Cuánto sabes de trenes, aviones y cohetes? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
+ "descripcion": "Cien preguntas sobre trenes, barcos, aviones, cohetes y los viajes más increíbles del mundo para jugar en familia frente a la tele. Con imágenes misteriosas, verdadero o falso y una ronda relámpago. ¿Llegas a la 100? ¡Cuéntanos tu puntaje en los comentarios!",
+ "tags": [
+  "transportes",
+  "trenes",
+  "aviones",
+  "cohetes",
+  "trivia en familia",
+  "preguntas y respuestas",
+  "juego para la tele"
+ ],
+ "tema_miniatura": "TRENES, AVIONES Y COHETES",
+ "reto_miniatura": "¿Llegas a la 100?",
+ "objetivo_preguntas": 100,
+ "total_anunciado": 100,
+ "preguntas": [],
+ "extra_tts": {}
+}

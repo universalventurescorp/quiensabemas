@@ -19,6 +19,1095 @@
  "reto_miniatura": "¿Llegas a la 100?",
  "objetivo_preguntas": 100,
  "total_anunciado": 100,
- "preguntas": [],
- "extra_tts": {}
+ "preguntas": [
+  {
+   "n": 1,
+   "tema": "cuentos",
+   "p": "¿Cómo se llama el niño de madera cuya nariz crece cuando dice mentiras?",
+   "o": [
+    "Peter Pan",
+    "Pinocho",
+    "Pulgarcito",
+    "Aladino"
+   ],
+   "c": 1,
+   "d": "Pinocho fue creado por el escritor italiano Carlo Collodi.",
+   "tp": "¿Cómo se llama el niño de madera cuya nariz crece cuando dice mentiras? ¿Peter Pan, Pinocho, Pulgarcito o Aladino?",
+   "tr": "¡Pinocho!",
+   "td": "Pinocho fue creado por el escritor italiano Carlo Collodi."
+  },
+  {
+   "n": 2,
+   "tema": "cuentos",
+   "p": "¿Qué animal se disfraza de abuelita en «Caperucita Roja»?",
+   "o": [
+    "El lobo",
+    "El zorro",
+    "El oso",
+    "El gato"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "wolf",
+     "src": "px"
+    },
+    {
+     "q": "fox",
+     "src": "px"
+    },
+    {
+     "q": "brown bear",
+     "src": "px"
+    },
+    {
+     "q": "cat",
+     "src": "px"
+    }
+   ],
+   "d": "En el cuento, Caperucita lleva una canasta con comida para su abuelita.",
+   "tp": "¿Qué animal se disfraza de abuelita en «Caperucita Roja»? ¿El lobo, El zorro, El oso o El gato?",
+   "tr": "¡El lobo!",
+   "td": "En el cuento, Caperucita lleva una canasta con comida para su abuelita."
+  },
+  {
+   "n": 3,
+   "tema": "cuentos",
+   "p": "¿Qué fruta le da la bruja a Blancanieves para envenenarla?",
+   "o": [
+    "Una manzana",
+    "Una pera",
+    "Un durazno",
+    "Una uva"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "red apple",
+     "src": "px"
+    },
+    {
+     "q": "pear",
+     "src": "px"
+    },
+    {
+     "q": "peach",
+     "src": "px"
+    },
+    {
+     "q": "grapes",
+     "src": "px"
+    }
+   ],
+   "d": "La manzana era roja y brillante, pero estaba hechizada.",
+   "tp": "¿Qué fruta le da la bruja a Blancanieves para envenenarla? ¿Una manzana, Una pera, Un durazno o Una uva?",
+   "tr": "¡Una manzana!",
+   "td": "La manzana era roja y brillante, pero estaba hechizada."
+  },
+  {
+   "n": 4,
+   "tema": "cuentos",
+   "p": "¿Qué pierde Cenicienta al salir corriendo del baile a medianoche?",
+   "o": [
+    "Una corona",
+    "Un guante",
+    "Una zapatilla",
+    "Un collar"
+   ],
+   "c": 2,
+   "img_q": "Glass slipper",
+   "img_modo": "revela",
+   "d": "El príncipe la usa para encontrarla por todo el reino.",
+   "tp": "¿Qué pierde Cenicienta al salir corriendo del baile a medianoche? ¿Una corona, Un guante, Una zapatilla o Un collar?",
+   "tr": "¡Una zapatilla!",
+   "td": "El príncipe la usa para encontrarla por todo el reino."
+  },
+  {
+   "n": 5,
+   "tema": "cine",
+   "p": "¿Cómo se llama el dinosaurio verde y miedoso de «Toy Story»?",
+   "o": [
+    "Hamm",
+    "Rex",
+    "Slinky",
+    "Mr. Potato"
+   ],
+   "c": 1,
+   "d": "«Toy Story», de 1995, fue la primera película hecha totalmente por computadora.",
+   "tp": "¿Cómo se llama el dinosaurio verde y miedoso de «Toy Story»? ¿Hamm, Rex, Slinky o Mr. Potato?",
+   "tr": "¡Rex!",
+   "td": "«Toy Story», de mil novecientos noventa y cinco, fue la primera película hecha totalmente por computadora."
+  },
+  {
+   "n": 6,
+   "tema": "cine",
+   "p": "¿Qué frase cantan Timón y Pumba en «El Rey León»?",
+   "o": [
+    "Bibidi Bobidi",
+    "Supercalifragilístico",
+    "Hakuna Matata",
+    "Abracadabra"
+   ],
+   "c": 2,
+   "d": "«Hakuna matata» significa «no hay problema» en suajili.",
+   "tp": "¿Qué frase cantan Timón y Pumba en «El Rey León»? ¿Bibidi Bobidi, Supercalifragilístico, Hakuna Matata o Abracadabra?",
+   "tr": "¡Hakuna Matata!",
+   "td": "«Hakuna matata» significa «no hay problema» en suajili."
+  },
+  {
+   "n": 7,
+   "tema": "cine",
+   "p": "¿Qué tipo de pez es Nemo, de «Buscando a Nemo»?",
+   "o": [
+    "Pez ángel",
+    "Pez payaso",
+    "Pez globo",
+    "Caballito de mar"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "angelfish",
+     "src": "px"
+    },
+    {
+     "q": "clownfish",
+     "src": "px"
+    },
+    {
+     "q": "pufferfish",
+     "src": "px"
+    },
+    {
+     "q": "seahorse",
+     "src": "px"
+    }
+   ],
+   "d": "Los peces payaso viven entre las anémonas del mar.",
+   "tp": "¿Qué tipo de pez es Nemo, de «Buscando a Nemo»? ¿Pez ángel, Pez payaso, Pez globo o Caballito de mar?",
+   "tr": "¡Un pez payaso!",
+   "td": "Los peces payaso viven entre las anémonas del mar."
+  },
+  {
+   "n": 8,
+   "tema": "cine",
+   "p": "¿Cómo se llama el reino de hielo de Elsa y Anna?",
+   "o": [
+    "Agrabah",
+    "Corona",
+    "Arendelle",
+    "Atlántida"
+   ],
+   "c": 2,
+   "d": "Elsa puede crear nieve y hielo con sus manos.",
+   "tp": "¿Cómo se llama el reino de hielo de Elsa y Anna? ¿Agrabah, Corona, Arendelle o Atlántida?",
+   "tr": "¡Arendelle!",
+   "td": "Elsa puede crear nieve y hielo con sus manos."
+  },
+  {
+   "n": 9,
+   "tema": "cuentos",
+   "p": "¿Cómo se llama el hada pequeña y luminosa que acompaña a Peter Pan?",
+   "o": [
+    "Wendy",
+    "Tigrilla",
+    "Campanilla",
+    "Cenicienta"
+   ],
+   "c": 2,
+   "d": "Campanilla deja un polvo mágico que hace volar.",
+   "tp": "¿Cómo se llama el hada pequeña y luminosa que acompaña a Peter Pan? ¿Wendy, Tigrilla, Campanilla o Cenicienta?",
+   "tr": "¡Campanilla!",
+   "td": "Campanilla deja un polvo mágico que hace volar."
+  },
+  {
+   "n": 10,
+   "tema": "cuentos",
+   "p": "¿Quién es el enemigo de Peter Pan, con un garfio en lugar de mano?",
+   "o": [
+    "Barbanegra",
+    "Capitán Garfio",
+    "Jack Sparrow",
+    "Long John Silver"
+   ],
+   "c": 1,
+   "img_q": "Pirate ship",
+   "img_modo": "revela",
+   "d": "Garfio huye de un cocodrilo que se tragó su reloj.",
+   "tp": "¿Quién es el enemigo de Peter Pan, con un garfio en lugar de mano? ¿Barbanegra, Capitán Garfio, Jack Sparrow o Long John Silver?",
+   "tr": "¡El Capitán Garfio!",
+   "td": "Garfio huye de un cocodrilo que se tragó su reloj."
+  },
+  {
+   "n": 11,
+   "tema": "cuentos",
+   "ronda": "misteriosa",
+   "p": "¿En qué país está este castillo que inspiró al de las películas de Disney?",
+   "o": [
+    "Francia",
+    "España",
+    "Alemania",
+    "Austria"
+   ],
+   "c": 2,
+   "img_q": "Neuschwanstein Castle",
+   "img_modo": "pregunta",
+   "d": "Se construyó en el siglo diecinueve para el rey Luis II de Baviera.",
+   "tp": "Miren bien la foto. ¿En qué país está este castillo que inspiró al de las películas de Disney? ¿Francia, España, Alemania o Austria?",
+   "tr": "¡Alemania! Es el castillo de Neuschwanstein.",
+   "td": "Se construyó en el siglo diecinueve para el rey Luis II de Baviera."
+  },
+  {
+   "n": 12,
+   "tema": "cine",
+   "ronda": "misteriosa",
+   "p": "¿Qué animal es este, como Dumbo, con trompa y orejas enormes?",
+   "o": [
+    "Rinoceronte",
+    "Hipopótamo",
+    "Jirafa",
+    "Elefante"
+   ],
+   "c": 3,
+   "img_q": "African elephant",
+   "img_modo": "pregunta",
+   "d": "Dumbo es un elefantito que aprende a volar con sus orejas.",
+   "tp": "Miren bien la foto. ¿Qué animal es este, como Dumbo, con trompa y orejas enormes? ¿Rinoceronte, Hipopótamo, Jirafa o Elefante?",
+   "tr": "¡Un elefante!",
+   "td": "Dumbo es un elefantito que aprende a volar con sus orejas."
+  },
+  {
+   "n": 13,
+   "tema": "cine",
+   "ronda": "misteriosa",
+   "p": "¿Qué comen estos perritos enamorados en «La dama y el vagabundo»?",
+   "o": [
+    "Lasaña",
+    "Ravioles",
+    "Pizza",
+    "Espaguetis"
+   ],
+   "c": 3,
+   "img_q": "Spaghetti with meatballs",
+   "img_modo": "pregunta",
+   "d": "La escena del espagueti es una de las más famosas del cine animado.",
+   "tp": "Miren bien la foto. ¿Qué comen estos perritos enamorados en «La dama y el vagabundo»? ¿Lasaña, Ravioles, Pizza o Espaguetis?",
+   "tr": "¡Espaguetis!",
+   "td": "La escena del espagueti es una de las más famosas del cine animado."
+  },
+  {
+   "n": 14,
+   "tema": "cuentos",
+   "p": "¿Quién encuentra una lámpara mágica con un genio dentro?",
+   "o": [
+    "Aladino",
+    "Simbad",
+    "Alí Babá",
+    "Sherezade"
+   ],
+   "c": 0,
+   "img_q": "Oil lamp",
+   "img_modo": "revela",
+   "d": "Aladino vive en la ciudad de Agrabah.",
+   "tp": "¿Quién encuentra una lámpara mágica con un genio dentro? ¿Aladino, Simbad, Alí Babá o Sherezade?",
+   "tr": "¡Aladino!",
+   "td": "Aladino vive en la ciudad de Agrabah."
+  },
+  {
+   "n": 15,
+   "tema": "cine",
+   "p": "¿Qué flor mágica va perdiendo pétalos en «La Bella y la Bestia»?",
+   "o": [
+    "Un tulipán",
+    "Una margarita",
+    "Un girasol",
+    "Una rosa"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "tulip",
+     "src": "px"
+    },
+    {
+     "q": "daisy",
+     "src": "px"
+    },
+    {
+     "q": "sunflower",
+     "src": "px"
+    },
+    {
+     "q": "red rose",
+     "src": "px"
+    }
+   ],
+   "d": "Si caía el último pétalo, el hechizo de la Bestia sería eterno.",
+   "tp": "¿Qué flor mágica va perdiendo pétalos en «La Bella y la Bestia»? ¿Un tulipán, Una margarita, Un girasol o Una rosa?",
+   "tr": "¡Una rosa!",
+   "td": "Si caía el último pétalo, el hechizo de la Bestia sería eterno."
+  },
+  {
+   "n": 16,
+   "tema": "cine",
+   "p": "¿Cómo se llama la robot blanca de la que se enamora WALL-E?",
+   "o": [
+    "EVA",
+    "Rosie",
+    "Ada",
+    "Zoe"
+   ],
+   "c": 0,
+   "d": "WALL-E pasa los días compactando basura y coleccionando tesoros.",
+   "tp": "¿Cómo se llama la robot blanca de la que se enamora WALL-E? ¿EVA, Rosie, Ada o Zoe?",
+   "tr": "¡EVA!",
+   "td": "WALL-E pasa los días compactando basura y coleccionando tesoros."
+  },
+  {
+   "n": 17,
+   "tema": "cuentos",
+   "p": "¿Cómo se llama el burrito gris y triste de Winnie Pooh?",
+   "o": [
+    "Tigre",
+    "Piglet",
+    "Igor",
+    "Conejo"
+   ],
+   "c": 2,
+   "d": "Igor siempre pierde su cola, pero sus amigos se la vuelven a poner.",
+   "tp": "¿Cómo se llama el burrito gris y triste de Winnie Pooh? ¿Tigre, Piglet, Igor o Conejo?",
+   "tr": "¡Igor!",
+   "td": "Igor siempre pierde su cola, pero sus amigos se la vuelven a poner."
+  },
+  {
+   "n": 18,
+   "tema": "cuentos",
+   "p": "¿Qué sigue Alicia para llegar al País de las Maravillas?",
+   "o": [
+    "Un gato rayado",
+    "Un ratón",
+    "Una mariposa",
+    "Un conejo blanco"
+   ],
+   "c": 3,
+   "d": "El conejo llevaba un reloj y siempre iba tarde.",
+   "tp": "¿Qué sigue Alicia para llegar al País de las Maravillas? ¿Un gato rayado, Un ratón, Una mariposa o Un conejo blanco?",
+   "tr": "¡Un conejo blanco!",
+   "td": "El conejo llevaba un reloj y siempre iba tarde."
+  },
+  {
+   "n": 19,
+   "tema": "cuentos",
+   "p": "¿Qué personaje de «El Mago de Oz» quería un cerebro?",
+   "o": [
+    "Hombre de Hojalata",
+    "Espantapájaros",
+    "León",
+    "Dorothy"
+   ],
+   "c": 1,
+   "img_q": "Scarecrow",
+   "img_modo": "revela",
+   "d": "El hombre de hojalata quería un corazón y el león, valentía.",
+   "tp": "¿Qué personaje de «El Mago de Oz» quería un cerebro? ¿Hombre de Hojalata, Espantapájaros, León o Dorothy?",
+   "tr": "¡El Espantapájaros!",
+   "td": "El hombre de hojalata quería un corazón y el león, valentía."
+  },
+  {
+   "n": 20,
+   "tema": "cuentos",
+   "p": "¿De qué color es el camino que sigue Dorothy en «El Mago de Oz»?",
+   "o": [
+    "Rojo",
+    "Amarillo",
+    "Azul",
+    "Verde"
+   ],
+   "c": 1,
+   "d": "Ese camino lleva hasta la Ciudad Esmeralda.",
+   "tp": "¿De qué color es el camino que sigue Dorothy en «El Mago de Oz»? ¿Rojo, Amarillo, Azul o Verde?",
+   "tr": "¡Amarillo!",
+   "td": "Ese camino lleva hasta la Ciudad Esmeralda."
+  },
+  {
+   "n": 21,
+   "tema": "cuentos",
+   "p": "¿Quién escribió los libros de «Harry Potter»?",
+   "o": [
+    "J. R. R. Tolkien",
+    "Roald Dahl",
+    "J. K. Rowling",
+    "C. S. Lewis"
+   ],
+   "c": 2,
+   "d": "El primer libro de Harry Potter salió en 1997.",
+   "tp": "¿Quién escribió los libros de «Harry Potter»? ¿J. R. R. Tolkien, Roald Dahl, J. K. Rowling o C. S. Lewis?",
+   "tr": "¡J. K. Rowling!",
+   "td": "El primer libro de Harry Potter salió en mil novecientos noventa y siete."
+  },
+  {
+   "n": 22,
+   "tema": "cuentos",
+   "p": "¿Cómo se llama la escuela de magia a la que va Harry Potter?",
+   "o": [
+    "Beauxbatons",
+    "Durmstrang",
+    "Ilvermorny",
+    "Hogwarts"
+   ],
+   "c": 3,
+   "d": "Para llegar a Hogwarts, los alumnos suben a un tren en el andén nueve y tres cuartos.",
+   "tp": "¿Cómo se llama la escuela de magia a la que va Harry Potter? ¿Beauxbatons, Durmstrang, Ilvermorny o Hogwarts?",
+   "tr": "¡Hogwarts!",
+   "td": "Para llegar a Hogwarts, los alumnos suben a un tren en el andén nueve y tres cuartos."
+  },
+  {
+   "n": 23,
+   "tema": "cine",
+   "p": "¿Qué tipo de criatura es Shrek?",
+   "o": [
+    "Un troll",
+    "Un gigante",
+    "Un duende",
+    "Un ogro"
+   ],
+   "c": 3,
+   "d": "«Shrek» se estrenó en 2001 y es de color verde.",
+   "tp": "¿Qué tipo de criatura es Shrek? ¿Un troll, Un gigante, Un duende o Un ogro?",
+   "tr": "¡Un ogro!",
+   "td": "«Shrek» se estrenó en dos mil uno y es de color verde."
+  },
+  {
+   "n": 24,
+   "tema": "cine",
+   "ronda": "vf",
+   "p": "Blancanieves fue la primera película de larga duración de Disney.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Se estrenó en 1937, hace casi 90 años.",
+   "tp": "¿Verdadero o falso? Blancanieves fue la primera película de larga duración de Disney.",
+   "tr": "¡Verdadero! Fue la primera.",
+   "td": "Se estrenó en mil novecientos treinta y siete, hace casi noventa años."
+  },
+  {
+   "n": 25,
+   "tema": "cuentos",
+   "ronda": "vf",
+   "p": "Peter Pan vive en el País de las Maravillas.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Peter Pan vive en el País de Nunca Jamás; las maravillas son de Alicia.",
+   "tp": "¿Verdadero o falso? Peter Pan vive en el País de las Maravillas.",
+   "tr": "¡Falso! Vive en Nunca Jamás.",
+   "td": "Peter Pan vive en el País de Nunca Jamás; las maravillas son de Alicia."
+  },
+  {
+   "n": 26,
+   "tema": "cine",
+   "ronda": "vf",
+   "p": "Mickey Mouse casi se llamó Mortimer.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Walt Disney quería ese nombre, pero su esposa le sugirió Mickey.",
+   "tp": "¿Verdadero o falso? Mickey Mouse casi se llamó Mortimer.",
+   "tr": "¡Verdadero! Qué susto.",
+   "td": "Walt Disney quería ese nombre, pero su esposa le sugirió Mickey."
+  },
+  {
+   "n": 27,
+   "tema": "cuentos",
+   "p": "¿Qué instrumento tocaba el flautista de Hamelín?",
+   "o": [
+    "Violín",
+    "Trompeta",
+    "Flauta",
+    "Tambor"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "violin",
+     "src": "px"
+    },
+    {
+     "q": "trumpet",
+     "src": "px"
+    },
+    {
+     "q": "flute",
+     "src": "px"
+    },
+    {
+     "q": "drum",
+     "src": "px"
+    }
+   ],
+   "d": "Con su música, el flautista se llevó a todas las ratas del pueblo.",
+   "tp": "¿Qué instrumento tocaba el flautista de Hamelín? ¿Violín, Trompeta, Flauta o Tambor?",
+   "tr": "¡Una flauta!",
+   "td": "Con su música, el flautista se llevó a todas las ratas del pueblo."
+  },
+  {
+   "n": 28,
+   "tema": "cuentos",
+   "p": "¿En qué país nacieron los hermanos Grimm, autores de cuentos famosos?",
+   "o": [
+    "Alemania",
+    "Francia",
+    "Dinamarca",
+    "Rusia"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "flag": "de"
+    },
+    {
+     "flag": "fr"
+    },
+    {
+     "flag": "dk"
+    },
+    {
+     "flag": "ru"
+    }
+   ],
+   "d": "Recogieron cuentos como «Hansel y Gretel» y «Rapunzel».",
+   "tp": "¿En qué país nacieron los hermanos Grimm, autores de cuentos famosos? ¿Alemania, Francia, Dinamarca o Rusia?",
+   "tr": "¡Alemania!",
+   "td": "Recogieron cuentos como «Hansel y Gretel» y «Rapunzel»."
+  },
+  {
+   "n": 29,
+   "tema": "cuentos",
+   "p": "¿Qué escritor danés creó «El patito feo» y «La sirenita»?",
+   "o": [
+    "Hermanos Grimm",
+    "Charles Perrault",
+    "Hans Christian Andersen",
+    "Carlo Collodi"
+   ],
+   "c": 2,
+   "d": "Andersen escribió más de 150 cuentos.",
+   "tp": "¿Qué escritor danés creó «El patito feo» y «La sirenita»? ¿Hermanos Grimm, Charles Perrault, Hans Christian Andersen o Carlo Collodi?",
+   "tr": "¡Hans Christian Andersen!",
+   "td": "Andersen escribió más de ciento cincuenta cuentos."
+  },
+  {
+   "n": 30,
+   "tema": "cine",
+   "p": "¿Cómo se llama el niño que crece entre lobos en «El libro de la selva»?",
+   "o": [
+    "Mowgli",
+    "Tarzán",
+    "Simba",
+    "Peter"
+   ],
+   "c": 0,
+   "d": "El libro original fue escrito por Rudyard Kipling.",
+   "tp": "¿Cómo se llama el niño que crece entre lobos en «El libro de la selva»? ¿Mowgli, Tarzán, Simba o Peter?",
+   "tr": "¡Mowgli!",
+   "td": "El libro original fue escrito por Rudyard Kipling."
+  },
+  {
+   "n": 31,
+   "tema": "cuentos",
+   "p": "¿Cuántos cerditos aparecen en el cuento del lobo feroz?",
+   "o": [
+    "Dos",
+    "Tres",
+    "Cuatro",
+    "Siete"
+   ],
+   "c": 1,
+   "d": "Un cerdito hace su casa de paja, otro de palos y otro de ladrillos.",
+   "tp": "¿Cuántos cerditos aparecen en el cuento del lobo feroz? ¿Dos, Tres, Cuatro o Siete?",
+   "tr": "¡Tres!",
+   "td": "Un cerdito hace su casa de paja, otro de palos y otro de ladrillos."
+  },
+  {
+   "n": 32,
+   "tema": "cine",
+   "p": "¿Qué personaje de «Toy Story» dice «¡Hasta el infinito y más allá!»?",
+   "o": [
+    "Woody",
+    "Buzz Lightyear",
+    "Rex",
+    "Jessie"
+   ],
+   "c": 1,
+   "d": "Buzz es un muñeco astronauta con alas y un láser.",
+   "tp": "¿Qué personaje de «Toy Story» dice «¡Hasta el infinito y más allá!»? ¿Woody, Buzz Lightyear, Rex o Jessie?",
+   "tr": "¡Buzz Lightyear!",
+   "td": "Buzz es un muñeco astronauta con alas y un láser."
+  },
+  {
+   "n": 33,
+   "tema": "cine",
+   "p": "¿Qué muñeco de nieve sueña con el verano en «Frozen»?",
+   "o": [
+    "Sven",
+    "Kristoff",
+    "Hans",
+    "Olaf"
+   ],
+   "c": 3,
+   "d": "Olaf nació de la magia de Elsa y quiere conocer el calor.",
+   "tp": "¿Qué muñeco de nieve sueña con el verano en «Frozen»? ¿Sven, Kristoff, Hans o Olaf?",
+   "tr": "¡Olaf!",
+   "td": "Olaf nació de la magia de Elsa y quiere conocer el calor."
+  },
+  {
+   "n": 34,
+   "tema": "literatura",
+   "p": "¿Qué escritor inglés creó a Winnie Pooh?",
+   "o": [
+    "Lewis Carroll",
+    "A. A. Milne",
+    "J. M. Barrie",
+    "Roald Dahl"
+   ],
+   "c": 1,
+   "d": "El osito se inspiró en el peluche del hijo del autor.",
+   "tp": "¿Qué escritor inglés creó a Winnie Pooh? ¿Lewis Carroll, A. A. Milne, J. M. Barrie o Roald Dahl?",
+   "tr": "¡A. A. Milne!",
+   "td": "El osito se inspiró en el peluche del hijo del autor."
+  },
+  {
+   "n": 35,
+   "tema": "cine",
+   "p": "¿Qué estudio japonés de animación hizo «Mi vecino Totoro»?",
+   "o": [
+    "Studio Ghibli",
+    "Pixar",
+    "DreamWorks",
+    "Illumination"
+   ],
+   "c": 0,
+   "d": "«El viaje de Chihiro», de Ghibli, ganó un Óscar en 2003.",
+   "tp": "¿Qué estudio japonés de animación hizo «Mi vecino Totoro»? ¿Studio Ghibli, Pixar, DreamWorks o Illumination?",
+   "tr": "¡Studio Ghibli!",
+   "td": "«El viaje de Chihiro», de Ghibli, ganó un Óscar en dos mil tres."
+  },
+  {
+   "n": 36,
+   "tema": "cuentos",
+   "p": "¿Cómo se llama el joven ayudante de Batman?",
+   "o": [
+    "Robin",
+    "Flash",
+    "Aquaman",
+    "Linterna Verde"
+   ],
+   "c": 0,
+   "d": "Robin lleva un traje rojo, verde y amarillo.",
+   "tp": "¿Cómo se llama el joven ayudante de Batman? ¿Robin, Flash, Aquaman o Linterna Verde?",
+   "tr": "¡Robin!",
+   "td": "Robin lleva un traje rojo, verde y amarillo."
+  },
+  {
+   "n": 37,
+   "tema": "cuentos",
+   "p": "¿De qué planeta viene Superman?",
+   "o": [
+    "Marte",
+    "Krypton",
+    "Tatooine",
+    "Vulcano"
+   ],
+   "c": 1,
+   "d": "Superman llegó a la Tierra de bebé en una nave pequeña.",
+   "tp": "¿De qué planeta viene Superman? ¿Marte, Krypton, Tatooine o Vulcano?",
+   "tr": "¡Krypton!",
+   "td": "Superman llegó a la Tierra de bebé en una nave pequeña."
+  },
+  {
+   "n": 38,
+   "tema": "cine",
+   "p": "¿Cómo se llama el perrito sin pelo que acompaña a Miguel en «Coco»?",
+   "o": [
+    "Dante",
+    "Pancho",
+    "Bruno",
+    "Chispa"
+   ],
+   "c": 0,
+   "d": "Dante es un perro xoloitzcuintle, una raza de México.",
+   "tp": "¿Cómo se llama el perrito sin pelo que acompaña a Miguel en «Coco»? ¿Dante, Pancho, Bruno o Chispa?",
+   "tr": "¡Dante!",
+   "td": "Dante es un perro xoloitzcuintle, una raza de México."
+  },
+  {
+   "n": 39,
+   "tema": "Latinoamérica",
+   "p": "¿En qué país latinoamericano se ambienta la película «Encanto»?",
+   "o": [
+    "México",
+    "Colombia",
+    "Perú",
+    "Argentina"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "flag": "mx"
+    },
+    {
+     "flag": "co"
+    },
+    {
+     "flag": "pe"
+    },
+    {
+     "flag": "ar"
+    }
+   ],
+   "d": "La familia Madrigal vive en una casa mágica en las montañas.",
+   "tp": "¿En qué país latinoamericano se ambienta la película «Encanto»? ¿México, Colombia, Perú o Argentina?",
+   "tr": "¡Colombia!",
+   "td": "La familia Madrigal vive en una casa mágica en las montañas."
+  },
+  {
+   "n": 40,
+   "tema": "Perú",
+   "p": "¿De qué país viene el oso Paddington, que ama la mermelada?",
+   "o": [
+    "Inglaterra",
+    "Canadá",
+    "Perú",
+    "Chile"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "flag": "gb"
+    },
+    {
+     "flag": "ca"
+    },
+    {
+     "flag": "pe"
+    },
+    {
+     "flag": "cl"
+    }
+   ],
+   "d": "Paddington llegó a Londres con una maleta y un sombrero.",
+   "tp": "¿De qué país viene el oso Paddington, que ama la mermelada? ¿Inglaterra, Canadá, Perú o Chile?",
+   "tr": "¡Del Perú!",
+   "td": "Paddington llegó a Londres con una maleta y un sombrero."
+  },
+  {
+   "n": 41,
+   "tema": "cine",
+   "ronda": "relampago",
+   "p": "¿De qué color es Pikachu?",
+   "o": [
+    "Rojo",
+    "Azul",
+    "Verde",
+    "Amarillo"
+   ],
+   "c": 3,
+   "d": "Pikachu es un Pokémon eléctrico.",
+   "tp": "¿De qué color es Pikachu? ¿Rojo, Azul, Verde o Amarillo?",
+   "tr": "¡Amarillo!",
+   "td": "Pikachu es un Pokémon eléctrico."
+  },
+  {
+   "n": 42,
+   "tema": "cine",
+   "ronda": "relampago",
+   "p": "¿Qué animal es Mickey Mouse?",
+   "o": [
+    "Perro",
+    "Gato",
+    "Ratón",
+    "Pato"
+   ],
+   "c": 2,
+   "d": "Mickey nació en 1928.",
+   "tp": "¿Qué animal es Mickey Mouse? ¿Perro, Gato, Ratón o Pato?",
+   "tr": "¡Un ratón!",
+   "td": "Mickey nació en mil novecientos veintiocho."
+  },
+  {
+   "n": 43,
+   "tema": "cine",
+   "ronda": "relampago",
+   "p": "¿Qué animal es Garfield?",
+   "o": [
+    "Perro",
+    "Conejo",
+    "Oso",
+    "Gato"
+   ],
+   "c": 3,
+   "d": "A Garfield le encanta la lasaña.",
+   "tp": "¿Qué animal es Garfield? ¿Perro, Conejo, Oso o Gato?",
+   "tr": "¡Un gato!",
+   "td": "A Garfield le encanta la lasaña."
+  },
+  {
+   "n": 44,
+   "tema": "cine",
+   "ronda": "relampago",
+   "p": "¿Cómo se llama el pato gruñón de Disney?",
+   "o": [
+    "Daisy",
+    "Mickey",
+    "Pluto",
+    "Donald"
+   ],
+   "c": 3,
+   "d": "Donald tiene una voz muy peculiar.",
+   "tp": "¿Cómo se llama el pato gruñón de Disney? ¿Daisy, Mickey, Pluto o Donald?",
+   "tr": "¡Donald!",
+   "td": "Donald tiene una voz muy peculiar."
+  },
+  {
+   "n": 45,
+   "tema": "cine",
+   "ronda": "relampago",
+   "p": "¿De qué color es el sable de luz de Yoda?",
+   "o": [
+    "Verde",
+    "Rojo",
+    "Azul",
+    "Dorado"
+   ],
+   "c": 0,
+   "d": "Yoda tiene más de 800 años en la saga.",
+   "tp": "¿De qué color es el sable de luz de Yoda? ¿Verde, Rojo, Azul o Dorado?",
+   "tr": "¡Verde!",
+   "td": "Yoda tiene más de ochocientos años en la saga."
+  },
+  {
+   "n": 46,
+   "tema": "cuentos",
+   "p": "¿Qué se convierte en carroza en el cuento de Cenicienta?",
+   "o": [
+    "Una calabaza",
+    "Un melón",
+    "Una sandía",
+    "Una papa"
+   ],
+   "c": 0,
+   "d": "Los ratones se convierten en caballos.",
+   "tp": "¿Qué se convierte en carroza en el cuento de Cenicienta? ¿Una calabaza, Un melón, Una sandía o Una papa?",
+   "tr": "¡Una calabaza!",
+   "td": "Los ratones se convierten en caballos."
+  },
+  {
+   "n": 47,
+   "tema": "cuentos",
+   "p": "¿Qué princesa tiene un cabello larguísimo y vive encerrada en una torre?",
+   "o": [
+    "Ariel",
+    "Mulán",
+    "Jazmín",
+    "Rapunzel"
+   ],
+   "c": 3,
+   "d": "En la película «Enredados», su cabello mide más de 20 metros.",
+   "tp": "¿Qué princesa tiene un cabello larguísimo y vive encerrada en una torre? ¿Ariel, Mulán, Jazmín o Rapunzel?",
+   "tr": "¡Rapunzel!",
+   "td": "En la película «Enredados», su cabello mide más de veinte metros."
+  },
+  {
+   "n": 48,
+   "tema": "cine",
+   "p": "¿Qué princesa de Disney se disfraza de soldado para defender a su familia?",
+   "o": [
+    "Pocahontas",
+    "Moana",
+    "Tiana",
+    "Mulán"
+   ],
+   "c": 3,
+   "d": "La historia de Mulán viene de una leyenda de la antigua China.",
+   "tp": "¿Qué princesa de Disney se disfraza de soldado para defender a su familia? ¿Pocahontas, Moana, Tiana o Mulán?",
+   "tr": "¡Mulán!",
+   "td": "La historia de Mulán viene de una leyenda de la antigua China."
+  },
+  {
+   "n": 49,
+   "tema": "cine",
+   "p": "¿Qué película de Disney trata de una joven polinesia que cruza el océano?",
+   "o": [
+    "Mulán",
+    "Moana",
+    "Frozen",
+    "Valiente"
+   ],
+   "c": 1,
+   "d": "«Moana» se estrenó en 2016 y es una película llena de música.",
+   "tp": "¿Qué película de Disney trata de una joven polinesia que cruza el océano? ¿Mulán, Moana, Frozen o Valiente?",
+   "tr": "¡Moana!",
+   "td": "«Moana» se estrenó en dos mil dieciséis y es una película llena de música."
+  },
+  {
+   "n": 50,
+   "tema": "cuentos",
+   "p": "¿Qué ave dice la leyenda que lleva a los bebés en un pañal?",
+   "o": [
+    "Cisne",
+    "Pelícano",
+    "Cigüeña",
+    "Garza"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "swan",
+     "src": "px"
+    },
+    {
+     "q": "pelican",
+     "src": "px"
+    },
+    {
+     "q": "stork",
+     "src": "px"
+    },
+    {
+     "q": "heron",
+     "src": "px"
+    }
+   ],
+   "d": "Es una historia que se cuenta a los niños en Europa.",
+   "tp": "¿Qué ave dice la leyenda que lleva a los bebés en un pañal? ¿Cisne, Pelícano, Cigüeña o Garza?",
+   "tr": "¡La cigüeña!",
+   "td": "Es una historia que se cuenta a los niños en Europa."
+  }
+ ],
+ "extra_tts": {
+  "an_tema": [
+   "anunciador",
+   "Hoy jugamos: ¡cuentos, películas y personajes! ¡La noche de los clásicos!"
+  ],
+  "pr_intro": [
+   "presentador",
+   "¡Hola, familia! Hoy les traigo cien preguntas de cuentos, películas y personajes que todos conocemos. ¿Podrán con todas?"
+  ],
+  "co_intro": [
+   "copresentadora",
+   "Hoy repasamos desde princesas hasta robots. ¡Prepárense para recordar los clásicos de su infancia!"
+  ],
+  "co_fama": [
+   "copresentadora",
+   "Antes de empezar, un aplauso para los mejores jugadores del episodio anterior. ¡Sus nombres brillan en pantalla!"
+  ],
+  "pr_cierre": [
+   "presentador",
+   "¡Terminó la noche de los clásicos, familia! Cuéntennos en los comentarios cuántas respondieron bien y cuál fue su puntaje. ¡Gracias por jugar!"
+  ],
+  "charla05_pr": [
+   "presentador",
+   "¡Pinocho mintió y le creció la nariz! A mí nunca me crece, porque no tengo."
+  ],
+  "charla05_co": [
+   "copresentadora",
+   "Menos mal, MAX, o chocarías con todo. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla10_pr": [
+   "presentador",
+   "¡Hakuna Matata! Es mi lema: no hay problema, solo baterías llenas."
+  ],
+  "charla10_co": [
+   "copresentadora",
+   "Y chistes con poca batería, MAX. Ahora vienen tres fotos misteriosas. ¡Atentos!"
+  ],
+  "charla15_pr": [
+   "presentador",
+   "¡Ese castillo parecía de cuento! Yo quiero uno con cargador incluido."
+  ],
+  "charla15_co": [
+   "copresentadora",
+   "Y con foso para los chistes malos, MAX. Familia, ¿cómo va su puntaje?"
+  ],
+  "charla20_pr": [
+   "presentador",
+   "¡El camino amarillo me encanta! Lo seguiría hasta la Ciudad Esmeralda."
+  ],
+  "charla20_co": [
+   "copresentadora",
+   "Mejor sigue las preguntas, MAX. Familia, ¡no pierdan el ritmo!"
+  ],
+  "charla25_pr": [
+   "presentador",
+   "¡Peter Pan vive en Nunca Jamás! Yo preferiría vivir en Siempre Cargado."
+  ],
+  "charla25_co": [
+   "copresentadora",
+   "Qué ocurrencia, MAX. Familia, ¡sigan sumando puntos!"
+  ],
+  "charla30_pr": [
+   "presentador",
+   "¡Mickey casi se llamó Mortimer! Imaginen decir: ¡Hola, soy Mortimer Mouse!"
+  ],
+  "charla30_co": [
+   "copresentadora",
+   "Mejor Mickey, MAX. Familia, miren el ranking del celular: ¡hay mucha pelea!"
+  ],
+  "charla35_pr": [
+   "presentador",
+   "¡Tres cerditos y un lobo muy soplón! Mis ventiladores también soplan fuerte."
+  ],
+  "charla35_co": [
+   "copresentadora",
+   "Pero no derriban casas, MAX. ¡Vamos con más preguntas, familia!"
+  ],
+  "charla40_pr": [
+   "presentador",
+   "¡Paddington viene del Perú! Seguro llegó con mermelada y mucho cariño."
+  ],
+  "charla40_co": [
+   "copresentadora",
+   "Y con sombrero, MAX. Familia, ahora viene la ronda relámpago: ¡cinco segundos por pregunta!"
+  ],
+  "charla45_pr": [
+   "presentador",
+   "¡Cinco preguntas en un parpadeo! Hasta Yoda quedó sin aliento."
+  ],
+  "charla45_co": [
+   "copresentadora",
+   "Qué rapidez, MAX. Quien las acertó todas merece un aplauso gigante."
+  ],
+  "charla50_pr": [
+   "presentador",
+   "¡Ya pasamos la mitad de las preguntas, con los clásicos de siempre!"
+  ],
+  "charla50_co": [
+   "copresentadora",
+   "Y quedan otras cincuenta, MAX. Familia, ¡ánimo, que se pone más difícil!"
+  ]
+ },
+ "fotos_miniatura": [
+  [
+   7,
+   1
+  ],
+  [
+   15,
+   3
+  ],
+  [
+   3,
+   0
+  ],
+  [
+   2,
+   0
+  ]
+ ]
 }
