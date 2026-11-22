@@ -2,7 +2,7 @@
  "id": "ep018",
  "fecha": "2026-11-23",
  "formato": "normal",
- "estado": "en_proceso",
+ "estado": "listo",
  "codigo_sala": "CUENTOS",
  "titulo": "Cuentos, películas y personajes: ¡la noche de los clásicos!",
  "titulo_youtube": "¿Conoces estos cuentos y películas? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
@@ -988,6 +988,1106 @@
    "tp": "¿Qué ave dice la leyenda que lleva a los bebés en un pañal? ¿Cisne, Pelícano, Cigüeña o Garza?",
    "tr": "¡La cigüeña!",
    "td": "Es una historia que se cuenta a los niños en Europa."
+  },
+  {
+   "n": 51,
+   "tema": "cuentos",
+   "p": "¿Qué insecto acompaña a Pinocho como su conciencia?",
+   "o": [
+    "Un saltamontes",
+    "Un grillo",
+    "Una cigarra",
+    "Una hormiga"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "grasshopper",
+     "src": "px"
+    },
+    {
+     "q": "cricket insect",
+     "src": "px"
+    },
+    {
+     "q": "cicada",
+     "src": "px"
+    },
+    {
+     "q": "ant",
+     "src": "px"
+    }
+   ],
+   "d": "Se llama Pepe Grillo y le aconseja a Pinocho portarse bien.",
+   "tp": "¿Qué insecto acompaña a Pinocho como su conciencia? ¿Un saltamontes, Un grillo, Una cigarra o Una hormiga?",
+   "tr": "¡Un grillo!",
+   "td": "Se llama Pepe Grillo y le aconseja a Pinocho portarse bien."
+  },
+  {
+   "n": 52,
+   "tema": "cuentos",
+   "p": "¿Cuál es el alimento favorito de Winnie Pooh?",
+   "o": [
+    "Miel",
+    "Chocolate",
+    "Queso",
+    "Mermelada"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "honey jar",
+     "src": "px"
+    },
+    {
+     "q": "chocolate",
+     "src": "px"
+    },
+    {
+     "q": "cheese",
+     "src": "px"
+    },
+    {
+     "q": "jam jar",
+     "src": "px"
+    }
+   ],
+   "d": "Winnie Pooh guarda su miel en grandes tarros que dicen «Hunny».",
+   "tp": "¿Cuál es el alimento favorito de Winnie Pooh? ¿Miel, Chocolate, Queso o Mermelada?",
+   "tr": "¡La miel!",
+   "td": "Winnie Pooh guarda su miel en grandes tarros que dicen «Hunny»."
+  },
+  {
+   "n": 53,
+   "tema": "cine",
+   "p": "¿Qué ata el viejito de «Up» a su casa para hacerla volar?",
+   "o": [
+    "Cometas",
+    "Paracaídas",
+    "Cohetes",
+    "Globos"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "kite",
+     "src": "px"
+    },
+    {
+     "q": "parachute",
+     "src": "px"
+    },
+    {
+     "q": "rocket",
+     "src": "px"
+    },
+    {
+     "q": "balloons",
+     "src": "px"
+    }
+   ],
+   "d": "Carl usa miles de globos de colores, y la película es de Pixar.",
+   "tp": "¿Qué ata el viejito de «Up» a su casa para hacerla volar? ¿Cometas, Paracaídas, Cohetes o Globos?",
+   "tr": "¡Globos!",
+   "td": "Carl usa miles de globos de colores, y la película es de Pixar."
+  },
+  {
+   "n": 54,
+   "tema": "cuentos",
+   "p": "¿De qué está hecha la casita de la bruja en «Hansel y Gretel»?",
+   "o": [
+    "Paja",
+    "Hielo",
+    "Pan y dulces",
+    "Madera"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "straw hut",
+     "src": "px"
+    },
+    {
+     "q": "igloo",
+     "src": "px"
+    },
+    {
+     "q": "gingerbread house",
+     "src": "px"
+    },
+    {
+     "q": "wooden cabin",
+     "src": "px"
+    }
+   ],
+   "d": "En el cuento, la casa tiene techo de pan de jengibre y ventanas de azúcar.",
+   "tp": "¿De qué está hecha la casita de la bruja en «Hansel y Gretel»? ¿Paja, Hielo, Pan y dulces o Madera?",
+   "tr": "¡De pan y dulces!",
+   "td": "En el cuento, la casa tiene techo de pan de jengibre y ventanas de azúcar."
+  },
+  {
+   "n": 55,
+   "tema": "cine",
+   "p": "¿Cómo se llama el ratón cocinero de «Ratatouille»?",
+   "o": [
+    "Despereaux",
+    "Stuart",
+    "Remy",
+    "Rizzo"
+   ],
+   "c": 2,
+   "d": "Remy sueña con ser un gran chef en un restaurante de París.",
+   "tp": "¿Cómo se llama el ratón cocinero de «Ratatouille»? ¿Despereaux, Stuart, Remy o Rizzo?",
+   "tr": "¡Remy!",
+   "td": "Remy sueña con ser un gran chef en un restaurante de París."
+  },
+  {
+   "n": 56,
+   "tema": "cine",
+   "p": "¿Qué animal es el mejor amigo parlanchín de Shrek?",
+   "o": [
+    "Mula",
+    "Burro",
+    "Caballo",
+    "Cebra"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "mule",
+     "src": "px"
+    },
+    {
+     "q": "donkey",
+     "src": "px"
+    },
+    {
+     "q": "horse",
+     "src": "px"
+    },
+    {
+     "q": "zebra",
+     "src": "px"
+    }
+   ],
+   "d": "En inglés se llama Donkey y no deja de hablar ni un minuto.",
+   "tp": "¿Qué animal es el mejor amigo parlanchín de Shrek? ¿Mula, Burro, Caballo o Cebra?",
+   "tr": "¡Un burro!",
+   "td": "En inglés se llama Donkey y no deja de hablar ni un minuto."
+  },
+  {
+   "n": 57,
+   "tema": "cine",
+   "p": "¿Cómo se llama el dragón de «Cómo entrenar a tu dragón»?",
+   "o": [
+    "Puff",
+    "Smaug",
+    "Drogon",
+    "Chimuelo"
+   ],
+   "c": 3,
+   "d": "Chimuelo es un dragón de la especie Furia Nocturna y se hace amigo de Hipo.",
+   "tp": "¿Cómo se llama el dragón de «Cómo entrenar a tu dragón»? ¿Puff, Smaug, Drogon o Chimuelo?",
+   "tr": "¡Chimuelo!",
+   "td": "Chimuelo es un dragón de la especie Furia Nocturna y se hace amigo de Hipo."
+  },
+  {
+   "n": 58,
+   "tema": "cuentos",
+   "p": "¿Qué animal es el símbolo de Batman?",
+   "o": [
+    "Murciélago",
+    "Pantera",
+    "Zorro",
+    "Lobo"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "bat animal",
+     "src": "px"
+    },
+    {
+     "q": "black panther",
+     "src": "px"
+    },
+    {
+     "q": "fox",
+     "src": "px"
+    },
+    {
+     "q": "wolf",
+     "src": "px"
+    }
+   ],
+   "d": "Bruce Wayne eligió el murciélago porque de niño le daban miedo.",
+   "tp": "¿Qué animal es el símbolo de Batman? ¿Murciélago, Pantera, Zorro o Lobo?",
+   "tr": "¡El murciélago!",
+   "td": "Bruce Wayne eligió el murciélago porque de niño le daban miedo."
+  },
+  {
+   "n": 59,
+   "tema": "videojuegos",
+   "p": "¿Qué tipo de animal es Sonic, el erizo azul de los videojuegos?",
+   "o": [
+    "Conejo",
+    "Erizo",
+    "Zorro",
+    "Ardilla"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "rabbit",
+     "src": "px"
+    },
+    {
+     "q": "hedgehog",
+     "src": "px"
+    },
+    {
+     "q": "red fox",
+     "src": "px"
+    },
+    {
+     "q": "squirrel",
+     "src": "px"
+    }
+   ],
+   "d": "Sonic apareció por primera vez en un videojuego de 1991.",
+   "tp": "¿Qué tipo de animal es Sonic, el erizo azul de los videojuegos? ¿Conejo, Erizo, Zorro o Ardilla?",
+   "tr": "¡Un erizo!",
+   "td": "Sonic apareció por primera vez en un videojuego de mil novecientos noventa y uno."
+  },
+  {
+   "n": 60,
+   "tema": "literatura",
+   "p": "¿Quién escribió «Matilda» y «Charlie y la fábrica de chocolate»?",
+   "o": [
+    "Roald Dahl",
+    "Lewis Carroll",
+    "J. M. Barrie",
+    "Michael Ende"
+   ],
+   "c": 0,
+   "d": "Roald Dahl nació en Gales y escribió muchos libros divertidos para niños.",
+   "tp": "¿Quién escribió «Matilda» y «Charlie y la fábrica de chocolate»? ¿Roald Dahl, Lewis Carroll, J. M. Barrie o Michael Ende?",
+   "tr": "¡Roald Dahl!",
+   "td": "Roald Dahl nació en Gales y escribió muchos libros divertidos para niños."
+  },
+  {
+   "n": 61,
+   "tema": "literatura",
+   "p": "¿De qué país era Antoine de Saint-Exupéry, autor de «El Principito»?",
+   "o": [
+    "Italia",
+    "Suiza",
+    "Bélgica",
+    "Francia"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "flag": "it"
+    },
+    {
+     "flag": "ch"
+    },
+    {
+     "flag": "be"
+    },
+    {
+     "flag": "fr"
+    }
+   ],
+   "d": "El Principito se publicó en 1943 y es uno de los libros más traducidos del mundo.",
+   "tp": "¿De qué país era Antoine de Saint-Exupéry, autor de «El Principito»? ¿Italia, Suiza, Bélgica o Francia?",
+   "tr": "¡Francia!",
+   "td": "El Principito se publicó en mil novecientos cuarenta y tres y es uno de los libros más traducidos del mundo."
+  },
+  {
+   "n": 62,
+   "tema": "literatura",
+   "p": "¿Qué personaje de Julio Verne da la vuelta al mundo en ochenta días?",
+   "o": [
+    "Robinson Crusoe",
+    "Capitán Nemo",
+    "Phileas Fogg",
+    "Sherlock Holmes"
+   ],
+   "c": 2,
+   "d": "Phileas Fogg apuesta con sus amigos que puede lograrlo en tiempo récord.",
+   "tp": "¿Qué personaje de Julio Verne da la vuelta al mundo en ochenta días? ¿Robinson Crusoe, Capitán Nemo, Phileas Fogg o Sherlock Holmes?",
+   "tr": "¡Phileas Fogg!",
+   "td": "Phileas Fogg apuesta con sus amigos que puede lograrlo en tiempo récord."
+  },
+  {
+   "n": 63,
+   "tema": "literatura",
+   "p": "¿Cómo se llama el submarino del capitán Nemo en la novela de Julio Verne?",
+   "o": [
+    "Poseidón",
+    "Argos",
+    "Nautilus",
+    "Tritón"
+   ],
+   "c": 2,
+   "d": "Nautilus también es el nombre de un molusco marino con concha en espiral.",
+   "tp": "¿Cómo se llama el submarino del capitán Nemo en la novela de Julio Verne? ¿Poseidón, Argos, Nautilus o Tritón?",
+   "tr": "¡El Nautilus!",
+   "td": "Nautilus también es el nombre de un molusco marino con concha en espiral."
+  },
+  {
+   "n": 64,
+   "tema": "cine",
+   "p": "¿De qué país es originario Pikachu, el famoso Pokémon amarillo?",
+   "o": [
+    "Corea del Sur",
+    "Japón",
+    "China",
+    "Estados Unidos"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "flag": "kr"
+    },
+    {
+     "flag": "jp"
+    },
+    {
+     "flag": "cn"
+    },
+    {
+     "flag": "us"
+    }
+   ],
+   "d": "Pokémon nació en 1996 como un videojuego japonés.",
+   "tp": "¿De qué país es originario Pikachu, el famoso Pokémon amarillo? ¿Corea del Sur, Japón, China o Estados Unidos?",
+   "tr": "¡Japón!",
+   "td": "Pokémon nació en mil novecientos noventa y seis como un videojuego japonés."
+  },
+  {
+   "n": 65,
+   "tema": "cine",
+   "p": "¿Cuál fue el primer largometraje animado hecho totalmente por computadora?",
+   "o": [
+    "Toy Story",
+    "Bichos",
+    "Shrek",
+    "Monsters, S.A."
+   ],
+   "c": 0,
+   "d": "Pixar la estrenó en 1995 y cambió para siempre el cine de animación.",
+   "tp": "¿Cuál fue el primer largometraje animado hecho totalmente por computadora? ¿Toy Story, Bichos, Shrek o Monsters, S.A.?",
+   "tr": "¡Toy Story!",
+   "td": "Pixar la estrenó en mil novecientos noventa y cinco y cambió para siempre el cine de animación."
+  },
+  {
+   "n": 66,
+   "tema": "cuentos",
+   "ronda": "misteriosa",
+   "p": "¿Qué ave es esta, en la que se convierte el patito feo?",
+   "o": [
+    "Ganso",
+    "Garza",
+    "Pato",
+    "Cisne"
+   ],
+   "c": 3,
+   "img_q": "Mute swan",
+   "img_modo": "pregunta",
+   "d": "El patito feo crece y descubre que siempre fue un hermoso cisne.",
+   "tp": "Miren bien la foto. ¿Qué ave es esta, en la que se convierte el patito feo? ¿Ganso, Garza, Pato o Cisne?",
+   "tr": "¡Un cisne!",
+   "td": "El patito feo crece y descubre que siempre fue un hermoso cisne."
+  },
+  {
+   "n": 67,
+   "tema": "cine",
+   "ronda": "misteriosa",
+   "p": "¿Qué animal es este, como Simba y Mufasa?",
+   "o": [
+    "León",
+    "Leopardo",
+    "Tigre",
+    "Guepardo"
+   ],
+   "c": 0,
+   "img_q": "Lion male Panthera leo",
+   "img_modo": "pregunta",
+   "d": "Los leones viven en grupos familiares llamados manadas.",
+   "tp": "Miren bien la foto. ¿Qué animal es este, como Simba y Mufasa? ¿León, Leopardo, Tigre o Guepardo?",
+   "tr": "¡Un león!",
+   "td": "Los leones viven en grupos familiares llamados manadas."
+  },
+  {
+   "n": 68,
+   "tema": "cuentos",
+   "ronda": "misteriosa",
+   "p": "¿Qué ave rosada usa la Reina de Corazones como mazo de croquet?",
+   "o": [
+    "Ibis",
+    "Flamenco",
+    "Pelícano",
+    "Garza"
+   ],
+   "c": 1,
+   "img_q": "Greater flamingo",
+   "img_modo": "pregunta",
+   "d": "En el cuento, los erizos hacen de pelotas y los flamencos de mazos.",
+   "tp": "Miren bien la foto. ¿Qué ave rosada usa la Reina de Corazones como mazo de croquet? ¿Ibis, Flamenco, Pelícano o Garza?",
+   "tr": "¡El flamenco!",
+   "td": "En el cuento, los erizos hacen de pelotas y los flamencos de mazos."
+  },
+  {
+   "n": 69,
+   "tema": "cuentos",
+   "p": "¿Qué superhéroe usa un escudo redondo con una estrella?",
+   "o": [
+    "Thor",
+    "Hulk",
+    "Capitán América",
+    "Iron Man"
+   ],
+   "c": 2,
+   "d": "El Capitán América nació en los cómics a comienzos de los años cuarenta.",
+   "tp": "¿Qué superhéroe usa un escudo redondo con una estrella? ¿Thor, Hulk, Capitán América o Iron Man?",
+   "tr": "¡El Capitán América!",
+   "td": "El Capitán América nació en los cómics a comienzos de los años cuarenta."
+  },
+  {
+   "n": 70,
+   "tema": "cuentos",
+   "p": "¿Qué animal picó a Peter Parker y le dio sus superpoderes?",
+   "o": [
+    "Una abeja",
+    "Un escorpión",
+    "Una hormiga",
+    "Una araña"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "bee",
+     "src": "px"
+    },
+    {
+     "q": "scorpion",
+     "src": "px"
+    },
+    {
+     "q": "ant",
+     "src": "px"
+    },
+    {
+     "q": "spider",
+     "src": "px"
+    }
+   ],
+   "d": "Spider-Man es un superhéroe de cómics creado en 1962.",
+   "tp": "¿Qué animal picó a Peter Parker y le dio sus superpoderes? ¿Una abeja, Un escorpión, Una hormiga o Una araña?",
+   "tr": "¡Una araña!",
+   "td": "Spider-Man es un superhéroe de cómics creado en mil novecientos sesenta y dos."
+  },
+  {
+   "n": 71,
+   "tema": "Latinoamérica",
+   "p": "¿En qué país se creó «El Chavo del 8», la serie de comedia?",
+   "o": [
+    "Colombia",
+    "México",
+    "Argentina",
+    "Venezuela"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "flag": "co"
+    },
+    {
+     "flag": "mx"
+    },
+    {
+     "flag": "ar"
+    },
+    {
+     "flag": "ve"
+    }
+   ],
+   "d": "Empezó en los años setenta y todavía se ve en toda Latinoamérica.",
+   "tp": "¿En qué país se creó «El Chavo del ocho», la serie de comedia? ¿Colombia, México, Argentina o Venezuela?",
+   "tr": "¡México!",
+   "td": "Empezó en los años setenta y todavía se ve en toda Latinoamérica."
+  },
+  {
+   "n": 72,
+   "tema": "Perú",
+   "p": "¿En qué animal se convierte el emperador Kuzco en «Las locuras del emperador»?",
+   "o": [
+    "Vicuña",
+    "Alpaca",
+    "Cuy",
+    "Llama"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "vicuña",
+     "src": "px"
+    },
+    {
+     "q": "alpaca",
+     "src": "px"
+    },
+    {
+     "q": "guinea pig",
+     "src": "px"
+    },
+    {
+     "q": "llama",
+     "src": "px"
+    }
+   ],
+   "d": "La película de Disney se inspiró en la cultura inca de los Andes.",
+   "tp": "¿En qué animal se convierte el emperador Kuzco en «Las locuras del emperador»? ¿Vicuña, Alpaca, Cuy o Llama?",
+   "tr": "¡En una llama!",
+   "td": "La película de Disney se inspiró en la cultura inca de los Andes."
+  },
+  {
+   "n": 73,
+   "tema": "literatura",
+   "p": "¿Qué poeta chileno escribió «Veinte poemas de amor»?",
+   "o": [
+    "Gabriel García Márquez",
+    "Octavio Paz",
+    "Pablo Neruda",
+    "Jorge Luis Borges"
+   ],
+   "c": 2,
+   "d": "Pablo Neruda ganó el premio Nobel de Literatura en 1971.",
+   "tp": "¿Qué poeta chileno escribió «Veinte poemas de amor»? ¿Gabriel García Márquez, Octavio Paz, Pablo Neruda o Jorge Luis Borges?",
+   "tr": "¡Pablo Neruda!",
+   "td": "Pablo Neruda ganó el premio Nobel de Literatura en mil novecientos setenta y uno."
+  },
+  {
+   "n": 74,
+   "tema": "cuentos",
+   "p": "¿De qué país era Peyo, el dibujante que creó a los Pitufos?",
+   "o": [
+    "Bélgica",
+    "Francia",
+    "Países Bajos",
+    "Suiza"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "flag": "be"
+    },
+    {
+     "flag": "fr"
+    },
+    {
+     "flag": "nl"
+    },
+    {
+     "flag": "ch"
+    }
+   ],
+   "d": "Los Pitufos aparecieron en 1958 en una revista belga.",
+   "tp": "¿De qué país era Peyo, el dibujante que creó a los Pitufos? ¿Bélgica, Francia, Países Bajos o Suiza?",
+   "tr": "¡Bélgica!",
+   "td": "Los Pitufos aparecieron en mil novecientos cincuenta y ocho en una revista belga."
+  },
+  {
+   "n": 75,
+   "tema": "literatura",
+   "p": "¿Cuántos libros tiene la saga principal de Harry Potter?",
+   "o": [
+    "Cinco",
+    "Seis",
+    "Siete",
+    "Nueve"
+   ],
+   "c": 2,
+   "img_q": "Glenfinnan Viaduct",
+   "img_modo": "revela",
+   "d": "J. K. Rowling los publicó entre 1997 y 2007.",
+   "tp": "¿Cuántos libros tiene la saga principal de Harry Potter? ¿Cinco, Seis, Siete o Nueve?",
+   "tr": "¡Siete!",
+   "td": "J. K. Rowling los publicó entre mil novecientos noventa y siete y dos mil siete."
+  },
+  {
+   "n": 76,
+   "tema": "cine",
+   "p": "¿Qué personaje de «El Señor de los Anillos» lleva el anillo hasta Mordor?",
+   "o": [
+    "Aragorn",
+    "Gandalf",
+    "Bilbo",
+    "Frodo"
+   ],
+   "c": 3,
+   "img_q": "Mount Ngauruhoe",
+   "img_modo": "revela",
+   "d": "En las películas, el monte del Destino se grabó en volcanes de Nueva Zelanda.",
+   "tp": "¿Qué personaje de «El Señor de los Anillos» lleva el anillo hasta Mordor? ¿Aragorn, Gandalf, Bilbo o Frodo?",
+   "tr": "¡Frodo!",
+   "td": "En las películas, el monte del Destino se grabó en volcanes de Nueva Zelanda."
+  },
+  {
+   "n": 77,
+   "tema": "videojuegos",
+   "p": "¿Cómo se llama el hermano de Mario, el fontanero que viste de verde?",
+   "o": [
+    "Luigi",
+    "Toad",
+    "Yoshi",
+    "Wario"
+   ],
+   "c": 0,
+   "d": "Mario y Luigi son fontaneros y, según la historia, viven en Brooklyn.",
+   "tp": "¿Cómo se llama el hermano de Mario, el fontanero que viste de verde? ¿Luigi, Toad, Yoshi o Wario?",
+   "tr": "¡Luigi!",
+   "td": "Mario y Luigi son fontaneros y, según la historia, viven en Brooklyn."
+  },
+  {
+   "n": 78,
+   "tema": "literatura",
+   "p": "¿Qué escritor francés publicó «El gato con botas» y «La Bella Durmiente» en 1697?",
+   "o": [
+    "Esopo",
+    "Charles Perrault",
+    "Carlo Collodi",
+    "Hermanos Grimm"
+   ],
+   "c": 1,
+   "d": "Charles Perrault reunió esos cuentos en un libro de 1697.",
+   "tp": "¿Qué escritor francés publicó «El gato con botas» y «La Bella Durmiente» en mil seiscientos noventa y siete? ¿Esopo, Charles Perrault, Carlo Collodi o Hermanos Grimm?",
+   "tr": "¡Charles Perrault!",
+   "td": "Charles Perrault reunió esos cuentos en un libro de mil seiscientos noventa y siete."
+  },
+  {
+   "n": 79,
+   "tema": "Latinoamérica",
+   "p": "¿Qué amiga de Mafalda sueña con casarse y ser mamá?",
+   "o": [
+    "Felipe",
+    "Libertad",
+    "Susanita",
+    "Manolito"
+   ],
+   "c": 2,
+   "d": "Quino, de Argentina, creó a Mafalda y a su pandilla en 1964.",
+   "tp": "¿Qué amiga de Mafalda sueña con casarse y ser mamá? ¿Felipe, Libertad, Susanita o Manolito?",
+   "tr": "¡Susanita!",
+   "td": "Quino, de Argentina, creó a Mafalda y a su pandilla en mil novecientos sesenta y cuatro."
+  },
+  {
+   "n": 80,
+   "tema": "cuentos",
+   "p": "¿Cómo se llama el gato de «Alicia» que aparece y desaparece sonriendo?",
+   "o": [
+    "Félix",
+    "Garfield",
+    "El gato de Cheshire",
+    "Silvestre"
+   ],
+   "c": 2,
+   "d": "Puede desaparecer y dejar solo su enorme sonrisa flotando en el aire.",
+   "tp": "¿Cómo se llama el gato de «Alicia» que aparece y desaparece sonriendo? ¿Félix, Garfield, El gato de Cheshire o Silvestre?",
+   "tr": "¡El gato de Cheshire!",
+   "td": "Puede desaparecer y dejar solo su enorme sonrisa flotando en el aire."
+  },
+  {
+   "n": 81,
+   "tema": "cuentos",
+   "ronda": "vf",
+   "p": "La historia de Mulán se basa en una leyenda china.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Hua Mulan es la heroína de un antiguo poema de China.",
+   "tp": "¿Verdadero o falso? La historia de Mulán se basa en una leyenda china.",
+   "tr": "¡Verdadero! Viene de una leyenda de China.",
+   "td": "Hua Mulan es la heroína de un antiguo poema de China."
+  },
+  {
+   "n": 82,
+   "tema": "cine",
+   "ronda": "vf",
+   "p": "En «El Rey León», Mufasa es el hermano de Simba.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Mufasa es el papá de Simba; Scar es su tío.",
+   "tp": "¿Verdadero o falso? En «El Rey León», Mufasa es el hermano de Simba.",
+   "tr": "¡Falso! Mufasa es su papá.",
+   "td": "Mufasa es el papá de Simba; Scar es su tío."
+  },
+  {
+   "n": 83,
+   "tema": "cuentos",
+   "ronda": "vf",
+   "p": "Pinocho es un cuento de los hermanos Grimm.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Pinocho es del escritor italiano Carlo Collodi.",
+   "tp": "¿Verdadero o falso? Pinocho es un cuento de los hermanos Grimm.",
+   "tr": "¡Falso! Lo escribió Carlo Collodi.",
+   "td": "Pinocho es del escritor italiano Carlo Collodi."
+  },
+  {
+   "n": 84,
+   "tema": "cuentos",
+   "p": "¿Qué animal es Hedwig, la mascota de Harry Potter?",
+   "o": [
+    "Una lechuza",
+    "Un halcón",
+    "Un gato",
+    "Un cuervo"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "snowy owl",
+     "src": "px"
+    },
+    {
+     "q": "falcon",
+     "src": "px"
+    },
+    {
+     "q": "cat",
+     "src": "px"
+    },
+    {
+     "q": "raven",
+     "src": "px"
+    }
+   ],
+   "d": "Hedwig es una lechuza blanca que lleva las cartas de Harry.",
+   "tp": "¿Qué animal es Hedwig, la mascota de Harry Potter? ¿Una lechuza, Un halcón, Un gato o Un cuervo?",
+   "tr": "¡Una lechuza!",
+   "td": "Hedwig es una lechuza blanca que lleva las cartas de Harry."
+  },
+  {
+   "n": 85,
+   "tema": "cuentos",
+   "p": "¿De qué andén sale el tren a Hogwarts?",
+   "o": [
+    "Andén 4",
+    "Andén 7",
+    "Andén 9 y ¾",
+    "Andén 12"
+   ],
+   "c": 2,
+   "d": "Está escondido entre los andenes 9 y 10 de la estación King's Cross.",
+   "tp": "¿De qué andén sale el tren a Hogwarts? ¿andén cuatro, andén siete, andén nueve y tres cuartos o andén doce?",
+   "tr": "¡El andén nueve y tres cuartos!",
+   "td": "Está escondido entre los andenes nueve y diez de la estación King's Cross."
+  },
+  {
+   "n": 86,
+   "tema": "literatura",
+   "p": "¿En qué ciudad italiana empieza la historia de «Romeo y Julieta»?",
+   "o": [
+    "Venecia",
+    "Verona",
+    "Florencia",
+    "Roma"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "Venice Grand Canal",
+     "src": "cm"
+    },
+    {
+     "q": "Verona Arena",
+     "src": "cm"
+    },
+    {
+     "q": "Florence Cathedral Duomo",
+     "src": "cm"
+    },
+    {
+     "q": "Rome Colosseum",
+     "src": "cm"
+    }
+   ],
+   "d": "Shakespeare escribió la obra hace más de 400 años.",
+   "tp": "¿En qué ciudad italiana empieza la historia de «Romeo y Julieta»? ¿Venecia, Verona, Florencia o Roma?",
+   "tr": "¡Verona!",
+   "td": "Shakespeare escribió la obra hace más de cuatrocientos años."
+  },
+  {
+   "n": 87,
+   "tema": "cine",
+   "p": "¿Qué villana de «La Bella Durmiente» se convierte en un dragón?",
+   "o": [
+    "Gastón",
+    "Úrsula",
+    "Cruella de Vil",
+    "Maléfica"
+   ],
+   "c": 3,
+   "d": "Al final de la película, Maléfica se transforma en un dragón enorme.",
+   "tp": "¿Qué villana de «La Bella Durmiente» se convierte en un dragón? ¿Gastón, Úrsula, Cruella de Vil o Maléfica?",
+   "tr": "¡Maléfica!",
+   "td": "Al final de la película, Maléfica se transforma en un dragón enorme."
+  },
+  {
+   "n": 88,
+   "tema": "cine",
+   "p": "¿Cuántos dálmatas aparecen en el título de la película de Disney de 1961?",
+   "o": [
+    "99",
+    "100",
+    "101",
+    "102"
+   ],
+   "c": 2,
+   "d": "Cruella de Vil es la villana de esa película.",
+   "tp": "¿Cuántos dálmatas aparecen en el título de la película de Disney de mil novecientos sesenta y uno? ¿noventa y nueve, cien, ciento uno o ciento dos?",
+   "tr": "¡Ciento uno!",
+   "td": "Cruella de Vil es la villana de esa película."
+  },
+  {
+   "n": 89,
+   "tema": "música",
+   "p": "¿Quién compuso el ballet «El cascanueces», que se baila en Navidad?",
+   "o": [
+    "Mozart",
+    "Beethoven",
+    "Vivaldi",
+    "Chaikovski"
+   ],
+   "c": 3,
+   "d": "Se estrenó en 1892 en San Petersburgo.",
+   "tp": "¿Quién compuso el ballet «El cascanueces», que se baila en Navidad? ¿Mozart, Beethoven, Vivaldi o Chaikovski?",
+   "tr": "¡Chaikovski!",
+   "td": "Se estrenó en mil ochocientos noventa y dos en San Petersburgo."
+  },
+  {
+   "n": 90,
+   "tema": "literatura",
+   "p": "¿Cómo se llama el científico que crea al monstruo en la novela de Mary Shelley?",
+   "o": [
+    "Dr. Jekyll",
+    "Víctor Frankenstein",
+    "Van Helsing",
+    "Dr. Watson"
+   ],
+   "c": 1,
+   "d": "Mary Shelley publicó la novela en 1818, cuando tenía 20 años.",
+   "tp": "¿Cómo se llama el científico que crea al monstruo en la novela de Mary Shelley? ¿Dr. Jekyll, Víctor Frankenstein, Van Helsing o Dr. Watson?",
+   "tr": "¡Víctor Frankenstein!",
+   "td": "Mary Shelley publicó la novela en mil ochocientos dieciocho, cuando tenía veinte años."
+  },
+  {
+   "n": 91,
+   "tema": "literatura",
+   "p": "¿Qué detective creado por Arthur Conan Doyle vive en Baker Street?",
+   "o": [
+    "Sherlock Holmes",
+    "Arsène Lupin",
+    "Auguste Dupin",
+    "Hércules Poirot"
+   ],
+   "c": 0,
+   "img_q": "Sherlock Holmes Museum Baker Street",
+   "img_modo": "revela",
+   "d": "Su dirección inventada es 221B Baker Street, en Londres.",
+   "tp": "¿Qué detective creado por Arthur Conan Doyle vive en Baker Street? ¿Sherlock Holmes, Arsène Lupin, Auguste Dupin o Hércules Poirot?",
+   "tr": "¡Sherlock Holmes!",
+   "td": "Su dirección inventada es doscientos veintiuno B Baker Street, en Londres."
+  },
+  {
+   "n": 92,
+   "tema": "literatura",
+   "p": "¿Cómo se llama el compañero de Robinson Crusoe en la isla?",
+   "o": [
+    "Lunes",
+    "Sábado",
+    "Viernes",
+    "Domingo"
+   ],
+   "c": 2,
+   "d": "Crusoe lo llama así porque se conocieron un viernes.",
+   "tp": "¿Cómo se llama el compañero de Robinson Crusoe en la isla? ¿Lunes, Sábado, Viernes o Domingo?",
+   "tr": "¡Viernes!",
+   "td": "Crusoe lo llama así porque se conocieron un viernes."
+  },
+  {
+   "n": 93,
+   "tema": "cine",
+   "p": "¿Qué película ganó el primer Óscar a mejor película animada?",
+   "o": [
+    "Monsters, S.A.",
+    "Shrek",
+    "Buscando a Nemo",
+    "Toy Story 2"
+   ],
+   "c": 1,
+   "d": "El premio se entregó por primera vez en 2002.",
+   "tp": "¿Qué película ganó el primer Óscar a mejor película animada? ¿Monsters, S. A., Shrek, Buscando a Nemo o Toy Story dos?",
+   "tr": "¡Shrek!",
+   "td": "El premio se entregó por primera vez en dos mil dos."
+  },
+  {
+   "n": 94,
+   "tema": "cine",
+   "p": "¿Cómo se llama la ciudad donde viven Los Simpson?",
+   "o": [
+    "South Park",
+    "Shelbyville",
+    "Quahog",
+    "Springfield"
+   ],
+   "c": 3,
+   "d": "En Estados Unidos hay muchas ciudades llamadas Springfield.",
+   "tp": "¿Cómo se llama la ciudad donde viven Los Simpson? ¿South Park, Shelbyville, Quahog o Springfield?",
+   "tr": "¡Springfield!",
+   "td": "En Estados Unidos hay muchas ciudades llamadas Springfield."
+  },
+  {
+   "n": 95,
+   "tema": "literatura",
+   "p": "¿Cómo se llama el dragón que guarda el tesoro en «El Hobbit»?",
+   "o": [
+    "Smaug",
+    "Fafnir",
+    "Falkor",
+    "Draco"
+   ],
+   "c": 0,
+   "d": "Smaug vive dentro de la Montaña Solitaria.",
+   "tp": "¿Cómo se llama el dragón que guarda el tesoro en «El Hobbit»? ¿Smaug, Fafnir, Falkor o Draco?",
+   "tr": "¡Smaug!",
+   "td": "Smaug vive dentro de la Montaña Solitaria."
+  },
+  {
+   "n": 96,
+   "tema": "cine",
+   "p": "¿Cuál fue el primer cortometraje de Mickey Mouse con sonido?",
+   "o": [
+    "Fantasía",
+    "The Karnival Kid",
+    "Steamboat Willie",
+    "Plane Crazy"
+   ],
+   "c": 2,
+   "d": "Se estrenó en 1928 y lanzó a Mickey a la fama.",
+   "tp": "¿Cuál fue el primer cortometraje de Mickey Mouse con sonido? ¿Fantasía, The Karnival Kid, Steamboat Willie o Plane Crazy?",
+   "tr": "¡Steamboat Willie!",
+   "td": "Se estrenó en mil novecientos veintiocho y lanzó a Mickey a la fama."
+  },
+  {
+   "n": 97,
+   "tema": "cine",
+   "p": "¿Qué usa Mary Poppins para volar por el cielo?",
+   "o": [
+    "Un paraguas",
+    "Una escoba",
+    "Un globo",
+    "Una alfombra"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "umbrella",
+     "src": "px"
+    },
+    {
+     "q": "broom",
+     "src": "px"
+    },
+    {
+     "q": "hot air balloon",
+     "src": "px"
+    },
+    {
+     "q": "carpet rug",
+     "src": "px"
+    }
+   ],
+   "d": "Su bolso mágico no tiene fondo y guarda hasta una lámpara.",
+   "tp": "¿Qué usa Mary Poppins para volar por el cielo? ¿Un paraguas, Una escoba, Un globo o Una alfombra?",
+   "tr": "¡Un paraguas!",
+   "td": "Su bolso mágico no tiene fondo y guarda hasta una lámpara."
+  },
+  {
+   "n": 98,
+   "tema": "cine",
+   "p": "¿Qué película japonesa ganó el Óscar a mejor película animada en 2003?",
+   "o": [
+    "Mi vecino Totoro",
+    "El castillo ambulante",
+    "La princesa Mononoke",
+    "El viaje de Chihiro"
+   ],
+   "c": 3,
+   "d": "Es de Studio Ghibli y cuenta la aventura de una niña en un mundo de espíritus.",
+   "tp": "¿Qué película japonesa ganó el Óscar a mejor película animada en dos mil tres? ¿Mi vecino Totoro, El castillo ambulante, La princesa Mononoke o El viaje de Chihiro?",
+   "tr": "¡El viaje de Chihiro!",
+   "td": "Es de Studio Ghibli y cuenta la aventura de una niña en un mundo de espíritus."
+  },
+  {
+   "n": 99,
+   "tema": "literatura",
+   "p": "¿En qué país se ambienta «Heidi», la niña de las montañas?",
+   "o": [
+    "Noruega",
+    "Suiza",
+    "Austria",
+    "Alemania"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "flag": "no"
+    },
+    {
+     "flag": "ch"
+    },
+    {
+     "flag": "at"
+    },
+    {
+     "flag": "de"
+    }
+   ],
+   "d": "La escritora suiza Johanna Spyri publicó la historia en 1880.",
+   "tp": "¿En qué país se ambienta «Heidi», la niña de las montañas? ¿Noruega, Suiza, Austria o Alemania?",
+   "tr": "¡Suiza!",
+   "td": "La escritora suiza Johanna Spyri publicó la historia en mil ochocientos ochenta."
+  },
+  {
+   "n": 100,
+   "tema": "literatura",
+   "p": "¿Qué libro de 1605, con molinos de viento, se llama la primera novela moderna?",
+   "o": [
+    "La Celestina",
+    "Cien años de soledad",
+    "Don Quijote de la Mancha",
+    "Lazarillo de Tormes"
+   ],
+   "c": 2,
+   "img_q": "Consuegra windmills",
+   "img_modo": "revela",
+   "d": "Miguel de Cervantes lo publicó en 1605 y la segunda parte en 1615.",
+   "tp": "¿Qué libro de mil seiscientos cinco, con molinos de viento, se llama la primera novela moderna? ¿La Celestina, Cien años de soledad, Don Quijote de la Mancha o Lazarillo de Tormes?",
+   "tr": "¡Don Quijote de la Mancha!",
+   "td": "Miguel de Cervantes lo publicó en mil seiscientos cinco y la segunda parte en mil seiscientos quince."
   }
  ],
  "extra_tts": {
@@ -1090,6 +2190,78 @@
   "charla50_co": [
    "copresentadora",
    "Y quedan otras cincuenta, MAX. Familia, ¡ánimo, que se pone más difícil!"
+  ],
+  "charla55_pr": [
+   "presentador",
+   "¡Winnie Pooh y su miel me dieron hambre! Yo solo como electricidad."
+  ],
+  "charla55_co": [
+   "copresentadora",
+   "Qué dieta tan chispeante, MAX. Familia, ¿cómo va su puntaje en el celular?"
+  ],
+  "charla60_pr": [
+   "presentador",
+   "¡Chimuelo es mi dragón favorito! Aunque Sonic corre más rápido que yo."
+  ],
+  "charla60_co": [
+   "copresentadora",
+   "Tú vas a pilas, MAX. Familia, ¡seguimos con más preguntas!"
+  ],
+  "charla65_pr": [
+   "presentador",
+   "¡Un submarino de novela y un ratón cocinero! Qué mezcla deliciosa."
+  ],
+  "charla65_co": [
+   "copresentadora",
+   "Muy bien, capitán MAX. Ahora vienen tres fotos misteriosas. ¡Abran bien los ojos, familia!"
+  ],
+  "charla70_pr": [
+   "presentador",
+   "¡Un cisne, un león y un flamenco! Yo me quedo con el flamenco."
+  ],
+  "charla70_co": [
+   "copresentadora",
+   "Pero el flamenco juega al croquet, MAX. Familia, ¡sigan sumando puntos!"
+  ],
+  "charla75_pr": [
+   "presentador",
+   "¡Una llama emperador y un Chavo muy querido! Qué buena mezcla latinoamericana."
+  ],
+  "charla75_co": [
+   "copresentadora",
+   "Es cierto, MAX. Familia, ¡revisen el ranking del celular!"
+  ],
+  "charla80_pr": [
+   "presentador",
+   "¡Siete libros de Harry Potter! Yo los leería en siete segundos."
+  ],
+  "charla80_co": [
+   "copresentadora",
+   "Y no entenderías ni una página, MAX. Ahora vienen tres afirmaciones: ¿verdadero o falso?"
+  ],
+  "charla85_pr": [
+   "presentador",
+   "¡Falso, falso y verdadero! Casi me engañan con esas afirmaciones."
+  ],
+  "charla85_co": [
+   "copresentadora",
+   "Para eso son los trucos, MAX. Familia, ¡atentos a las que vienen!"
+  ],
+  "charla90_pr": [
+   "presentador",
+   "¡Cruella, Maléfica y compañía! Los villanos siempre tienen el mejor vestuario."
+  ],
+  "charla90_co": [
+   "copresentadora",
+   "Y la peor sonrisa, MAX. Familia, ¡ya casi llegamos al final!"
+  ],
+  "charla95_pr": [
+   "presentador",
+   "¡Sherlock, Viernes y Smaug en una sola ronda! Qué reparto tan variado."
+  ],
+  "charla95_co": [
+   "copresentadora",
+   "Y solo quedan cinco, MAX. Familia, ¡vamos por la pregunta final!"
   ]
  },
  "fotos_miniatura": [

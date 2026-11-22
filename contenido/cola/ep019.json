@@ -19,6 +19,2313 @@
  "reto_miniatura": "¿Llegas a la 100?",
  "objetivo_preguntas": 100,
  "total_anunciado": 100,
- "preguntas": [],
- "extra_tts": {}
+ "preguntas": [
+  {
+   "n": 1,
+   "tema": "animales",
+   "p": "¿Qué animal tiene las orejas más grandes en proporción a su cuerpo?",
+   "o": [
+    "Zorro fénec",
+    "Elefante africano",
+    "Burro",
+    "Conejo"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "fennec fox",
+     "src": "px"
+    },
+    {
+     "q": "african elephant",
+     "src": "px"
+    },
+    {
+     "q": "donkey",
+     "src": "px"
+    },
+    {
+     "q": "rabbit",
+     "src": "px"
+    }
+   ],
+   "d": "El zorro fénec vive en el Sahara y usa sus orejas para soltar el calor.",
+   "tp": "¿Qué animal tiene las orejas más grandes en proporción a su cuerpo? ¿Zorro fénec, Elefante africano, Burro o Conejo?",
+   "tr": "¡El zorro fénec!",
+   "td": "El zorro fénec vive en el Sahara y usa sus orejas para soltar el calor."
+  },
+  {
+   "n": 2,
+   "tema": "animales",
+   "p": "¿Qué animal puede dormir hasta 20 horas al día?",
+   "o": [
+    "Perezoso",
+    "Koala",
+    "Oso pardo",
+    "Gato"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "sloth",
+     "src": "px"
+    },
+    {
+     "q": "koala",
+     "src": "px"
+    },
+    {
+     "q": "brown bear",
+     "src": "px"
+    },
+    {
+     "q": "cat sleeping",
+     "src": "px"
+    }
+   ],
+   "d": "Los koalas comen hojas de eucalipto, que dan poca energía, y duermen mucho.",
+   "tp": "¿Qué animal puede dormir hasta veinte horas al día? ¿Perezoso, Koala, Oso pardo o Gato?",
+   "tr": "¡El koala!",
+   "td": "Los koalas comen hojas de eucalipto, que dan poca energía, y duermen mucho."
+  },
+  {
+   "n": 3,
+   "tema": "animales",
+   "p": "¿Qué animal causa más muertes al año entre las personas?",
+   "o": [
+    "León",
+    "Serpiente",
+    "Mosquito",
+    "Tiburón"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "lion",
+     "src": "px"
+    },
+    {
+     "q": "snake",
+     "src": "px"
+    },
+    {
+     "q": "mosquito",
+     "src": "px"
+    },
+    {
+     "q": "shark",
+     "src": "px"
+    }
+   ],
+   "d": "Los mosquitos transmiten enfermedades como la malaria y el dengue.",
+   "tp": "¿Qué animal causa más muertes al año entre las personas? ¿León, Serpiente, Mosquito o Tiburón?",
+   "tr": "¡El mosquito!",
+   "td": "Los mosquitos transmiten enfermedades como la malaria y el dengue."
+  },
+  {
+   "n": 4,
+   "tema": "animales",
+   "p": "¿Cuál es el pez más lento del mar?",
+   "o": [
+    "Anguila",
+    "Pez globo",
+    "Pez payaso",
+    "Caballito de mar"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "eel",
+     "src": "px"
+    },
+    {
+     "q": "pufferfish",
+     "src": "px"
+    },
+    {
+     "q": "clownfish",
+     "src": "px"
+    },
+    {
+     "q": "seahorse",
+     "src": "px"
+    }
+   ],
+   "d": "El caballito de mar enano avanza apenas unos metros por hora.",
+   "tp": "¿Cuál es el pez más lento del mar? ¿Anguila, Pez globo, Pez payaso o Caballito de mar?",
+   "tr": "¡El caballito de mar!",
+   "td": "El caballito de mar enano avanza apenas unos metros por hora."
+  },
+  {
+   "n": 5,
+   "tema": "espacio",
+   "p": "¿Qué planeta tiene más lunas conocidas?",
+   "o": [
+    "Júpiter",
+    "Saturno",
+    "Neptuno",
+    "Urano"
+   ],
+   "c": 1,
+   "d": "Saturno tiene más de 200 lunas descubiertas.",
+   "tp": "¿Qué planeta tiene más lunas conocidas? ¿Júpiter, Saturno, Neptuno o Urano?",
+   "tr": "¡Saturno!",
+   "td": "Saturno tiene más de doscientas lunas descubiertas."
+  },
+  {
+   "n": 6,
+   "tema": "animales",
+   "p": "¿Qué ave puede batir las alas más de 50 veces por segundo?",
+   "o": [
+    "Gorrión",
+    "Paloma",
+    "Águila",
+    "Colibrí"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "sparrow",
+     "src": "px"
+    },
+    {
+     "q": "pigeon",
+     "src": "px"
+    },
+    {
+     "q": "eagle",
+     "src": "px"
+    },
+    {
+     "q": "hummingbird",
+     "src": "px"
+    }
+   ],
+   "d": "Algunos colibríes mueven las alas entre 50 y 80 veces por segundo.",
+   "tp": "¿Qué ave puede batir las alas más de cincuenta veces por segundo? ¿Gorrión, Paloma, Águila o Colibrí?",
+   "tr": "¡El colibrí!",
+   "td": "Algunos colibríes mueven las alas entre cincuenta y ochenta veces por segundo."
+  },
+  {
+   "n": 7,
+   "tema": "cuerpo humano",
+   "p": "¿Cuál es el órgano interno más grande del cuerpo humano?",
+   "o": [
+    "Hígado",
+    "Pulmón",
+    "Corazón",
+    "Cerebro"
+   ],
+   "c": 0,
+   "d": "El hígado pesa alrededor de 1,5 kilos y limpia la sangre.",
+   "tp": "¿Cuál es el órgano interno más grande del cuerpo humano? ¿Hígado, Pulmón, Corazón o Cerebro?",
+   "tr": "¡El hígado!",
+   "td": "El hígado pesa alrededor de un kilo y medio y limpia la sangre."
+  },
+  {
+   "n": 8,
+   "tema": "idiomas",
+   "p": "¿Qué país tiene más hispanohablantes en el mundo?",
+   "o": [
+    "Argentina",
+    "España",
+    "México",
+    "Colombia"
+   ],
+   "c": 2,
+   "d": "En México viven más de 120 millones de personas.",
+   "tp": "¿Qué país tiene más hispanohablantes en el mundo? ¿Argentina, España, México o Colombia?",
+   "tr": "¡México!",
+   "td": "En México viven más de ciento veinte millones de personas."
+  },
+  {
+   "n": 9,
+   "tema": "animales",
+   "p": "¿Qué tiburón es el más veloz?",
+   "o": [
+    "Tiburón martillo",
+    "Tiburón mako",
+    "Tiburón blanco",
+    "Tiburón tigre"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "hammerhead shark",
+     "src": "px"
+    },
+    {
+     "q": "mako shark",
+     "src": "px"
+    },
+    {
+     "q": "great white shark",
+     "src": "px"
+    },
+    {
+     "q": "tiger shark",
+     "src": "px"
+    }
+   ],
+   "d": "El tiburón mako puede pasar de los 70 kilómetros por hora.",
+   "tp": "¿Qué tiburón es el más veloz? ¿Tiburón martillo, Tiburón mako, Tiburón blanco o Tiburón tigre?",
+   "tr": "¡El tiburón mako!",
+   "td": "El tiburón mako puede pasar de los setenta kilómetros por hora."
+  },
+  {
+   "n": 10,
+   "tema": "espacio",
+   "p": "¿Cuál es el planeta más denso del sistema solar?",
+   "o": [
+    "Mercurio",
+    "Venus",
+    "Marte",
+    "Tierra"
+   ],
+   "c": 3,
+   "d": "Nuestro planeta es rocoso y tiene un núcleo de hierro y níquel.",
+   "tp": "¿Cuál es el planeta más denso del sistema solar? ¿Mercurio, Venus, Marte o Tierra?",
+   "tr": "¡La Tierra!",
+   "td": "Nuestro planeta es rocoso y tiene un núcleo de hierro y níquel."
+  },
+  {
+   "n": 11,
+   "tema": "animales",
+   "ronda": "misteriosa",
+   "p": "¿Qué ave es esta, la más veloz corriendo?",
+   "o": [
+    "Emú",
+    "Gallina",
+    "Avestruz",
+    "Pavo"
+   ],
+   "c": 2,
+   "img_q": "Common ostrich",
+   "img_modo": "pregunta",
+   "d": "Un avestruz puede correr a unos 70 kilómetros por hora.",
+   "tp": "Miren bien la foto. ¿Qué ave es esta, la más veloz corriendo? ¿Emú, Gallina, Avestruz o Pavo?",
+   "tr": "¡El avestruz!",
+   "td": "Un avestruz puede correr a unos setenta kilómetros por hora."
+  },
+  {
+   "n": 12,
+   "tema": "animales",
+   "ronda": "misteriosa",
+   "p": "¿Qué animal es este, con el cuello más largo del mundo?",
+   "o": [
+    "Jirafa",
+    "Llama",
+    "Camello",
+    "Avestruz"
+   ],
+   "c": 0,
+   "img_q": "Giraffe",
+   "img_modo": "pregunta",
+   "d": "Su cuello puede medir cerca de 2 metros.",
+   "tp": "Miren bien la foto. ¿Qué animal es este, con el cuello más largo del mundo? ¿Jirafa, Llama, Camello o Avestruz?",
+   "tr": "¡La jirafa!",
+   "td": "Su cuello puede medir cerca de dos metros."
+  },
+  {
+   "n": 13,
+   "tema": "animales",
+   "ronda": "misteriosa",
+   "p": "¿Qué animal es este, que migra por millones por el Serengeti?",
+   "o": [
+    "Cebra",
+    "Antílope",
+    "Búfalo",
+    "Ñu"
+   ],
+   "c": 3,
+   "img_q": "Blue wildebeest",
+   "img_modo": "pregunta",
+   "d": "Más de un millón de ñus recorren cada año las llanuras de África.",
+   "tp": "Miren bien la foto. ¿Qué animal es este, que migra por millones por el Serengeti? ¿Cebra, Antílope, Búfalo o Ñu?",
+   "tr": "¡El ñu!",
+   "td": "Más de un millón de ñus recorren cada año las llanuras de África."
+  },
+  {
+   "n": 14,
+   "tema": "cuerpo humano",
+   "p": "¿Qué par del cuerpo humano tiene más huesos?",
+   "o": [
+    "Pies",
+    "Manos",
+    "Brazos",
+    "Piernas"
+   ],
+   "c": 1,
+   "d": "Las dos manos tienen 54 huesos, más que los dos pies.",
+   "tp": "¿Qué par del cuerpo humano tiene más huesos? ¿Pies, Manos, Brazos o Piernas?",
+   "tr": "¡Las manos!",
+   "td": "Las dos manos tienen cincuenta y cuatro huesos, más que los dos pies."
+  },
+  {
+   "n": 15,
+   "tema": "animales",
+   "p": "¿Qué animal tiene más patas que ningún otro?",
+   "o": [
+    "Milpiés",
+    "Cangrejo",
+    "Ciempiés",
+    "Araña"
+   ],
+   "c": 0,
+   "d": "Un milpiés de Australia llegó a tener más de 1.000 patas.",
+   "tp": "¿Qué animal tiene más patas que ningún otro? ¿Milpiés, Cangrejo, Ciempiés o Araña?",
+   "tr": "¡El milpiés!",
+   "td": "Un milpiés de Australia llegó a tener más de mil patas."
+  },
+  {
+   "n": 16,
+   "tema": "geografía",
+   "p": "¿Cuál es la montaña más alta de Norteamérica?",
+   "o": [
+    "Monte Whitney",
+    "Monte Logan",
+    "Denali",
+    "Pico de Orizaba"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "Mount Whitney",
+     "src": "cm",
+     "must": "Whitney"
+    },
+    {
+     "q": "Mount Logan",
+     "src": "cm",
+     "must": "Logan"
+    },
+    {
+     "q": "Denali",
+     "src": "cm",
+     "must": "Denali"
+    },
+    {
+     "q": "Pico de Orizaba",
+     "src": "cm",
+     "must": "Orizaba"
+    }
+   ],
+   "d": "El Denali está en Alaska y mide más de 6.000 metros.",
+   "tp": "¿Cuál es la montaña más alta de Norteamérica? ¿Monte Whitney, Monte Logan, Denali o Pico de Orizaba?",
+   "tr": "¡El Denali!",
+   "td": "El Denali está en Alaska y mide más de seis mil metros."
+  },
+  {
+   "n": 17,
+   "tema": "Perú",
+   "p": "¿Cuál es la segunda ciudad más poblada de Perú?",
+   "o": [
+    "Trujillo",
+    "Arequipa",
+    "Cusco",
+    "Chiclayo"
+   ],
+   "c": 1,
+   "d": "Arequipa es conocida como la Ciudad Blanca por su piedra volcánica clara.",
+   "tp": "¿Cuál es la segunda ciudad más poblada de Perú? ¿Trujillo, Arequipa, Cusco o Chiclayo?",
+   "tr": "¡Arequipa!",
+   "td": "Arequipa es conocida como la Ciudad Blanca por su piedra volcánica clara."
+  },
+  {
+   "n": 18,
+   "tema": "inventos",
+   "p": "¿Cuál es el edificio más alto del mundo?",
+   "o": [
+    "Shanghái Tower",
+    "Empire State",
+    "Torre Eiffel",
+    "Burj Khalifa"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "Shanghai Tower",
+     "src": "cm",
+     "must": "Shanghai"
+    },
+    {
+     "q": "Empire State Building",
+     "src": "cm"
+    },
+    {
+     "q": "Eiffel Tower",
+     "src": "cm"
+    },
+    {
+     "q": "Burj Khalifa",
+     "src": "cm",
+     "must": "Burj"
+    }
+   ],
+   "d": "El Burj Khalifa está en Dubái y mide 828 metros.",
+   "tp": "¿Cuál es el edificio más alto del mundo? ¿Shanghái Tower, Empire State, Torre Eiffel o Burj Khalifa?",
+   "tr": "¡El Burj Khalifa!",
+   "td": "El Burj Khalifa está en Dubái y mide ochocientos veintiocho metros."
+  },
+  {
+   "n": 19,
+   "tema": "Latinoamérica",
+   "p": "¿Cuál es la ciudad más grande de Ecuador?",
+   "o": [
+    "Guayaquil",
+    "Ambato",
+    "Cuenca",
+    "Quito"
+   ],
+   "c": 0,
+   "d": "Guayaquil es el principal puerto de Ecuador y está junto al río Guayas.",
+   "tp": "¿Cuál es la ciudad más grande de Ecuador? ¿Guayaquil, Ambato, Cuenca o Quito?",
+   "tr": "¡Guayaquil!",
+   "td": "Guayaquil es el principal puerto de Ecuador y está junto al río Guayas."
+  },
+  {
+   "n": 20,
+   "tema": "Latinoamérica",
+   "p": "¿Cuál es la cascada más alta del mundo?",
+   "o": [
+    "Cataratas del Niágara",
+    "Cataratas del Iguazú",
+    "Salto Ángel",
+    "Cataratas Victoria"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "Niagara Falls",
+     "src": "cm",
+     "must": "Niagara"
+    },
+    {
+     "q": "Iguazu Falls",
+     "src": "cm",
+     "must": "Iguazu"
+    },
+    {
+     "q": "Angel Falls Venezuela",
+     "src": "cm",
+     "must": "Angel"
+    },
+    {
+     "q": "Victoria Falls",
+     "src": "cm",
+     "must": "Victoria"
+    }
+   ],
+   "d": "El Salto Ángel está en Venezuela y cae casi 1.000 metros.",
+   "tp": "¿Cuál es la cascada más alta del mundo? ¿Cataratas del Niágara, Cataratas del Iguazú, Salto Ángel o Cataratas Victoria?",
+   "tr": "¡El Salto Ángel!",
+   "td": "El Salto Ángel está en Venezuela y cae casi mil metros."
+  },
+  {
+   "n": 21,
+   "tema": "Perú",
+   "p": "¿Cuál es el lago navegable más alto del mundo?",
+   "o": [
+    "Nicaragua",
+    "Baikal",
+    "Maracaibo",
+    "Titicaca"
+   ],
+   "c": 3,
+   "img_q": "Lake Titicaca",
+   "img_modo": "revela",
+   "d": "El lago Titicaca, entre Perú y Bolivia, está a unos 3.800 metros de altura.",
+   "tp": "¿Cuál es el lago navegable más alto del mundo? ¿Nicaragua, Baikal, Maracaibo o Titicaca?",
+   "tr": "¡El Titicaca!",
+   "td": "El lago Titicaca, entre Perú y Bolivia, está a unos tres mil ochocientos metros de altura."
+  },
+  {
+   "n": 22,
+   "tema": "inventos",
+   "p": "¿Qué construcción hecha por el ser humano es la más larga del mundo?",
+   "o": [
+    "Canal de Panamá",
+    "Gran Muralla China",
+    "Camino Inca",
+    "Muro de Adriano"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "Panama Canal",
+     "src": "cm",
+     "must": "Panama"
+    },
+    {
+     "q": "Great Wall of China",
+     "src": "cm",
+     "must": "Wall"
+    },
+    {
+     "q": "Inca Trail Machu Picchu",
+     "src": "cm"
+    },
+    {
+     "q": "Hadrian's Wall",
+     "src": "cm",
+     "must": "Hadrian"
+    }
+   ],
+   "d": "Sus tramos suman más de 20.000 kilómetros.",
+   "tp": "¿Qué construcción hecha por el ser humano es la más larga del mundo? ¿Canal de Panamá, Gran Muralla China, Camino Inca o Muro de Adriano?",
+   "tr": "¡La Gran Muralla China!",
+   "td": "Sus tramos suman más de veinte mil kilómetros."
+  },
+  {
+   "n": 23,
+   "tema": "deportes",
+   "p": "¿Cuál es el torneo de tenis más antiguo del mundo?",
+   "o": [
+    "Wimbledon",
+    "Abierto de Australia",
+    "Abierto de EE. UU.",
+    "Roland Garros"
+   ],
+   "c": 0,
+   "d": "Se juega sobre césped desde 1877, en Londres.",
+   "tp": "¿Cuál es el torneo de tenis más antiguo del mundo? ¿Wimbledon, Abierto de Australia, Abierto de Estados Unidos o Roland Garros?",
+   "tr": "¡Wimbledon!",
+   "td": "Se juega sobre césped desde mil ochocientos setenta y siete, en Londres."
+  },
+  {
+   "n": 24,
+   "tema": "animales",
+   "ronda": "vf",
+   "p": "Los elefantes pueden saltar si corren rápido.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Los elefantes son tan pesados que no pueden despegar las cuatro patas del suelo.",
+   "tp": "¿Verdadero o falso? Los elefantes pueden saltar si corren rápido.",
+   "tr": "¡Falso! No pueden saltar.",
+   "td": "Los elefantes son tan pesados que no pueden despegar las cuatro patas del suelo."
+  },
+  {
+   "n": 25,
+   "tema": "geografía",
+   "ronda": "vf",
+   "p": "El Amazonas es el río que lleva más agua del planeta.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Lleva más agua que los siguientes siete ríos del mundo juntos.",
+   "tp": "¿Verdadero o falso? El Amazonas es el río que lleva más agua del planeta.",
+   "tr": "¡Verdadero! Es el más caudaloso.",
+   "td": "Lleva más agua que los siguientes siete ríos del mundo juntos."
+  },
+  {
+   "n": 26,
+   "tema": "geografía",
+   "ronda": "vf",
+   "p": "El polo sur es más frío que el polo norte.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "La Antártida es un continente alto y cubierto de hielo; el Ártico es un océano.",
+   "tp": "¿Verdadero o falso? El polo sur es más frío que el polo norte.",
+   "tr": "¡Verdadero! El sur es más frío.",
+   "td": "La Antártida es un continente alto y cubierto de hielo; el Ártico es un océano."
+  },
+  {
+   "n": 27,
+   "tema": "animales",
+   "p": "¿Cuál es la serpiente más larga del mundo?",
+   "o": [
+    "Anaconda verde",
+    "Boa constrictor",
+    "Pitón reticulada",
+    "Cobra real"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "green anaconda",
+     "src": "px"
+    },
+    {
+     "q": "boa constrictor",
+     "src": "px"
+    },
+    {
+     "q": "reticulated python",
+     "src": "px"
+    },
+    {
+     "q": "king cobra",
+     "src": "px"
+    }
+   ],
+   "d": "La pitón reticulada puede superar los 6 metros de largo.",
+   "tp": "¿Cuál es la serpiente más larga del mundo? ¿Anaconda verde, Boa constrictor, Pitón reticulada o Cobra real?",
+   "tr": "¡La pitón reticulada!",
+   "td": "La pitón reticulada puede superar los seis metros de largo."
+  },
+  {
+   "n": 28,
+   "tema": "animales",
+   "p": "¿Qué país tiene más especies de aves?",
+   "o": [
+    "Indonesia",
+    "Colombia",
+    "Brasil",
+    "Perú"
+   ],
+   "c": 1,
+   "d": "Colombia tiene casi 2.000 especies de aves.",
+   "tp": "¿Qué país tiene más especies de aves? ¿Indonesia, Colombia, Brasil o Perú?",
+   "tr": "¡Colombia!",
+   "td": "Colombia tiene casi dos mil especies de aves."
+  },
+  {
+   "n": 29,
+   "tema": "Perú",
+   "p": "¿Cuál fue el imperio más grande de la América precolombina?",
+   "o": [
+    "Imperio maya",
+    "Imperio olmeca",
+    "Imperio azteca",
+    "Imperio inca"
+   ],
+   "c": 3,
+   "d": "El Imperio inca, o Tahuantinsuyo, tenía su capital en Cusco.",
+   "tp": "¿Cuál fue el imperio más grande de la América precolombina? ¿Imperio maya, Imperio olmeca, Imperio azteca o Imperio inca?",
+   "tr": "¡El Imperio inca!",
+   "td": "El Imperio inca, o Tahuantinsuyo, tenía su capital en Cusco."
+  },
+  {
+   "n": 30,
+   "tema": "historia",
+   "p": "¿Qué imperio fue el más grande de la historia en territorio continuo?",
+   "o": [
+    "Imperio mongol",
+    "Imperio romano",
+    "Imperio otomano",
+    "Imperio inca"
+   ],
+   "c": 0,
+   "d": "En su mejor época se extendía desde China hasta Europa oriental.",
+   "tp": "¿Qué imperio fue el más grande de la historia en territorio continuo? ¿Imperio mongol, Imperio romano, Imperio otomano o Imperio inca?",
+   "tr": "¡El Imperio mongol!",
+   "td": "En su mejor época se extendía desde China hasta Europa oriental."
+  },
+  {
+   "n": 31,
+   "tema": "animales",
+   "p": "¿Cuál es el mamífero más lento del mundo?",
+   "o": [
+    "Oso hormiguero",
+    "Armadillo",
+    "Perezoso",
+    "Koala"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "giant anteater",
+     "src": "px"
+    },
+    {
+     "q": "armadillo",
+     "src": "px"
+    },
+    {
+     "q": "sloth",
+     "src": "px"
+    },
+    {
+     "q": "koala",
+     "src": "px"
+    }
+   ],
+   "d": "Un perezoso se mueve tan despacio que a veces le crecen algas en el pelo.",
+   "tp": "¿Cuál es el mamífero más lento del mundo? ¿Oso hormiguero, Armadillo, Perezoso o Koala?",
+   "tr": "¡El perezoso!",
+   "td": "Un perezoso se mueve tan despacio que a veces le crecen algas en el pelo."
+  },
+  {
+   "n": 32,
+   "tema": "animales",
+   "p": "¿Cuál es el ave más pequeña del mundo?",
+   "o": [
+    "Colibrí abeja",
+    "Canario",
+    "Pinzón",
+    "Gorrión"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "hummingbird",
+     "src": "px"
+    },
+    {
+     "q": "canary",
+     "src": "px"
+    },
+    {
+     "q": "finch",
+     "src": "px"
+    },
+    {
+     "q": "sparrow",
+     "src": "px"
+    }
+   ],
+   "d": "El colibrí abeja vive en Cuba y mide unos 5 centímetros.",
+   "tp": "¿Cuál es el ave más pequeña del mundo? ¿Colibrí abeja, Canario, Pinzón o Gorrión?",
+   "tr": "¡El colibrí abeja!",
+   "td": "El colibrí abeja vive en Cuba y mide unos cinco centímetros."
+  },
+  {
+   "n": 33,
+   "tema": "Perú",
+   "p": "¿De qué alimento tiene Perú más de 3.000 variedades?",
+   "o": [
+    "Maíz",
+    "Quinua",
+    "Tomate",
+    "Papa"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "corn",
+     "src": "px"
+    },
+    {
+     "q": "quinoa",
+     "src": "px"
+    },
+    {
+     "q": "tomato",
+     "src": "px"
+    },
+    {
+     "q": "potato",
+     "src": "px"
+    }
+   ],
+   "d": "Perú guarda miles de variedades nativas de papa, de muchos colores y formas.",
+   "tp": "¿De qué alimento tiene Perú más de tres mil variedades? ¿Maíz, Quinua, Tomate o Papa?",
+   "tr": "¡La papa!",
+   "td": "Perú guarda miles de variedades nativas de papa, de muchos colores y formas."
+  },
+  {
+   "n": 34,
+   "tema": "Latinoamérica",
+   "p": "¿Qué país produce más plata en el mundo?",
+   "o": [
+    "Bolivia",
+    "Perú",
+    "México",
+    "China"
+   ],
+   "c": 2,
+   "d": "Perú también está entre los mayores productores de plata del planeta.",
+   "tp": "¿Qué país produce más plata en el mundo? ¿Bolivia, Perú, México o China?",
+   "tr": "¡México!",
+   "td": "Perú también está entre los mayores productores de plata del planeta."
+  },
+  {
+   "n": 35,
+   "tema": "Latinoamérica",
+   "p": "¿Qué país produce más cobre en el mundo?",
+   "o": [
+    "China",
+    "Chile",
+    "Estados Unidos",
+    "Perú"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "flag": "cn"
+    },
+    {
+     "flag": "cl"
+    },
+    {
+     "flag": "us"
+    },
+    {
+     "flag": "pe"
+    }
+   ],
+   "d": "Chile produce cerca de una cuarta parte del cobre del mundo.",
+   "tp": "¿Qué país produce más cobre en el mundo? ¿China, Chile, Estados Unidos o Perú?",
+   "tr": "¡Chile!",
+   "td": "Chile produce cerca de una cuarta parte del cobre del mundo."
+  },
+  {
+   "n": 36,
+   "tema": "espacio",
+   "p": "¿Cuántos días terrestres dura un año en Mercurio?",
+   "o": [
+    "88 días",
+    "225 días",
+    "365 días",
+    "687 días"
+   ],
+   "c": 0,
+   "d": "Mercurio es el planeta más cercano al Sol y da la vuelta muy rápido.",
+   "tp": "¿Cuántos días terrestres dura un año en Mercurio? ¿ochenta y ocho días, doscientos veinticinco días, trescientos sesenta y cinco días o seiscientos ochenta y siete días?",
+   "tr": "¡Ochenta y ocho días!",
+   "td": "Mercurio es el planeta más cercano al Sol y da la vuelta muy rápido."
+  },
+  {
+   "n": 37,
+   "tema": "espacio",
+   "p": "¿Qué cometa famoso vuelve a verse desde la Tierra cada 76 años?",
+   "o": [
+    "Shoemaker-Levy",
+    "Halley",
+    "Encke",
+    "Hale-Bopp"
+   ],
+   "c": 1,
+   "d": "Su última visita fue en 1986 y volverá en 2061.",
+   "tp": "¿Qué cometa famoso vuelve a verse desde la Tierra cada setenta y seis años? ¿Shoemaker-Levy, Halley, Encke o Hale-Bopp?",
+   "tr": "¡El cometa Halley!",
+   "td": "Su última visita fue en mil novecientos ochenta y seis y volverá en dos mil sesenta y uno."
+  },
+  {
+   "n": 38,
+   "tema": "geografía",
+   "p": "¿Cuál es el río más largo de África?",
+   "o": [
+    "Níger",
+    "Zambeze",
+    "Congo",
+    "Nilo"
+   ],
+   "c": 3,
+   "d": "El Nilo atraviesa Egipto y desemboca en el mar Mediterráneo.",
+   "tp": "¿Cuál es el río más largo de África? ¿Níger, Zambeze, Congo o Nilo?",
+   "tr": "¡El Nilo!",
+   "td": "El Nilo atraviesa Egipto y desemboca en el mar Mediterráneo."
+  },
+  {
+   "n": 39,
+   "tema": "Latinoamérica",
+   "p": "¿Qué país exporta más bananas?",
+   "o": [
+    "Costa Rica",
+    "Filipinas",
+    "Ecuador",
+    "Colombia"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "flag": "cr"
+    },
+    {
+     "flag": "ph"
+    },
+    {
+     "flag": "ec"
+    },
+    {
+     "flag": "co"
+    }
+   ],
+   "d": "Ecuador envía bananas a casi todos los continentes.",
+   "tp": "¿Qué país exporta más bananas? ¿Costa Rica, Filipinas, Ecuador o Colombia?",
+   "tr": "¡Ecuador!",
+   "td": "Ecuador envía bananas a casi todos los continentes."
+  },
+  {
+   "n": 40,
+   "tema": "Latinoamérica",
+   "p": "¿Cuál es el país más grande de Centroamérica?",
+   "o": [
+    "Nicaragua",
+    "Panamá",
+    "Guatemala",
+    "Honduras"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "flag": "ni"
+    },
+    {
+     "flag": "pa"
+    },
+    {
+     "flag": "gt"
+    },
+    {
+     "flag": "hn"
+    }
+   ],
+   "d": "Nicaragua tiene dos grandes lagos: el Cocibolca y el Managua.",
+   "tp": "¿Cuál es el país más grande de Centroamérica? ¿Nicaragua, Panamá, Guatemala o Honduras?",
+   "tr": "¡Nicaragua!",
+   "td": "Nicaragua tiene dos grandes lagos: el Cocibolca y el Managua."
+  },
+  {
+   "n": 41,
+   "tema": "espacio",
+   "ronda": "relampago",
+   "p": "¿Cuál es el planeta más caliente?",
+   "o": [
+    "Marte",
+    "Venus",
+    "Mercurio",
+    "Júpiter"
+   ],
+   "c": 1,
+   "d": "En Venus hace unos 460 grados.",
+   "tp": "¿Cuál es el planeta más caliente? ¿Marte, Venus, Mercurio o Júpiter?",
+   "tr": "¡Venus!",
+   "td": "En Venus hace unos cuatrocientos sesenta grados."
+  },
+  {
+   "n": 42,
+   "tema": "deportes",
+   "ronda": "relampago",
+   "p": "¿Cuál es el deporte con más aficionados?",
+   "o": [
+    "Fútbol",
+    "Básquet",
+    "Béisbol",
+    "Tenis"
+   ],
+   "c": 0,
+   "d": "Se juega en casi todos los países del mundo.",
+   "tp": "¿Cuál es el deporte con más aficionados? ¿Fútbol, Básquet, Béisbol o Tenis?",
+   "tr": "¡El fútbol!",
+   "td": "Se juega en casi todos los países del mundo."
+  },
+  {
+   "n": 43,
+   "tema": "espacio",
+   "ronda": "relampago",
+   "p": "¿Qué planeta está más lejos del Sol?",
+   "o": [
+    "Saturno",
+    "Marte",
+    "Neptuno",
+    "Urano"
+   ],
+   "c": 2,
+   "d": "Neptuno tarda unos 165 años en dar una vuelta al Sol.",
+   "tp": "¿Qué planeta está más lejos del Sol? ¿Saturno, Marte, Neptuno o Urano?",
+   "tr": "¡Neptuno!",
+   "td": "Neptuno tarda unos ciento sesenta y cinco años en dar una vuelta al Sol."
+  },
+  {
+   "n": 44,
+   "tema": "ciencia",
+   "ronda": "relampago",
+   "p": "¿Cuál es el mes más corto del año?",
+   "o": [
+    "Abril",
+    "Junio",
+    "Marzo",
+    "Febrero"
+   ],
+   "c": 3,
+   "d": "Tiene 28 días, o 29 en año bisiesto.",
+   "tp": "¿Cuál es el mes más corto del año? ¿Abril, Junio, Marzo o Febrero?",
+   "tr": "¡Febrero!",
+   "td": "Tiene veintiocho días, o veintinueve en año bisiesto."
+  },
+  {
+   "n": 45,
+   "tema": "animales",
+   "ronda": "relampago",
+   "p": "¿Cuál es el animal más pesado del mundo?",
+   "o": [
+    "Rinoceronte",
+    "Hipopótamo",
+    "Ballena azul",
+    "Elefante"
+   ],
+   "c": 2,
+   "d": "Una ballena azul puede pesar como 25 elefantes.",
+   "tp": "¿Cuál es el animal más pesado del mundo? ¿Rinoceronte, Hipopótamo, Ballena azul o Elefante?",
+   "tr": "¡La ballena azul!",
+   "td": "Una ballena azul puede pesar como veinticinco elefantes."
+  },
+  {
+   "n": 46,
+   "tema": "geografía",
+   "p": "¿Cuál es el país más pequeño de África?",
+   "o": [
+    "Seychelles",
+    "Gambia",
+    "Cabo Verde",
+    "Mauricio"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "flag": "sc"
+    },
+    {
+     "flag": "gm"
+    },
+    {
+     "flag": "cv"
+    },
+    {
+     "flag": "mu"
+    }
+   ],
+   "d": "Seychelles es un archipiélago en el océano Índico.",
+   "tp": "¿Cuál es el país más pequeño de África? ¿Seychelles, Gambia, Cabo Verde o Mauricio?",
+   "tr": "¡Seychelles!",
+   "td": "Seychelles es un archipiélago en el océano Índico."
+  },
+  {
+   "n": 47,
+   "tema": "geografía",
+   "p": "¿Cuál es el lugar más bajo de la superficie terrestre?",
+   "o": [
+    "Mar Caspio",
+    "Mar Muerto",
+    "Valle de la Muerte",
+    "Lago Eyre"
+   ],
+   "c": 1,
+   "img_q": "Dead Sea",
+   "img_modo": "revela",
+   "d": "Su orilla está a más de 400 metros bajo el nivel del mar.",
+   "tp": "¿Cuál es el lugar más bajo de la superficie terrestre? ¿Mar Caspio, Mar Muerto, Valle de la Muerte o Lago Eyre?",
+   "tr": "¡El Mar Muerto!",
+   "td": "Su orilla está a más de cuatrocientos metros bajo el nivel del mar."
+  },
+  {
+   "n": 48,
+   "tema": "animales",
+   "p": "¿Cuál es el anfibio más grande del mundo?",
+   "o": [
+    "Rana goliat",
+    "Ajolote",
+    "Sapo gigante",
+    "Salamandra gigante china"
+   ],
+   "c": 3,
+   "d": "Puede medir casi 2 metros de largo.",
+   "tp": "¿Cuál es el anfibio más grande del mundo? ¿Rana goliat, Ajolote, Sapo gigante o Salamandra gigante china?",
+   "tr": "¡La salamandra gigante china!",
+   "td": "Puede medir casi dos metros de largo."
+  },
+  {
+   "n": 49,
+   "tema": "espacio",
+   "p": "¿Cuál es la luna más grande del sistema solar?",
+   "o": [
+    "Ganímedes",
+    "Titán",
+    "Europa",
+    "Calisto"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "Ganymede moon Galileo",
+     "src": "cm",
+     "must": "Ganymede"
+    },
+    {
+     "q": "Titan moon Cassini",
+     "src": "cm",
+     "must": "Titan"
+    },
+    {
+     "q": "Europa moon Galileo",
+     "src": "cm",
+     "must": "Europa"
+    },
+    {
+     "q": "Callisto moon",
+     "src": "cm",
+     "must": "Callisto"
+    }
+   ],
+   "d": "Ganímedes, luna de Júpiter, es más grande que el planeta Mercurio.",
+   "tp": "¿Cuál es la luna más grande del sistema solar? ¿Ganímedes, Titán, Europa o Calisto?",
+   "tr": "¡Ganímedes!",
+   "td": "Ganímedes, luna de Júpiter, es más grande que el planeta Mercurio."
+  },
+  {
+   "n": 50,
+   "tema": "espacio",
+   "p": "¿Cuál es la estrella más brillante del cielo nocturno?",
+   "o": [
+    "Vega",
+    "Sirio",
+    "Polaris",
+    "Betelgeuse"
+   ],
+   "c": 1,
+   "d": "Sirio está a unos 8,6 años luz de la Tierra.",
+   "tp": "¿Cuál es la estrella más brillante del cielo nocturno? ¿Vega, Sirio, Polaris o Betelgeuse?",
+   "tr": "¡Sirio!",
+   "td": "Sirio está a unos ocho coma seis años luz de la Tierra."
+  },
+  {
+   "n": 51,
+   "tema": "animales",
+   "p": "¿Cuál es el animal carnívoro terrestre más grande del mundo?",
+   "o": [
+    "Tigre",
+    "León",
+    "Lobo",
+    "Oso polar"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "tiger",
+     "src": "px"
+    },
+    {
+     "q": "lion",
+     "src": "px"
+    },
+    {
+     "q": "wolf",
+     "src": "px"
+    },
+    {
+     "q": "polar bear",
+     "src": "px"
+    }
+   ],
+   "d": "Un oso polar macho puede pesar más de 500 kilos.",
+   "tp": "¿Cuál es el animal carnívoro terrestre más grande del mundo? ¿Tigre, León, Lobo o Oso polar?",
+   "tr": "¡El oso polar!",
+   "td": "Un oso polar macho puede pesar más de quinientos kilos."
+  },
+  {
+   "n": 52,
+   "tema": "animales",
+   "p": "¿Cuál es el pingüino más grande del mundo?",
+   "o": [
+    "Pingüino adelia",
+    "Pingüino rey",
+    "Pingüino emperador",
+    "Pingüino de Humboldt"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "adelie penguin",
+     "src": "px"
+    },
+    {
+     "q": "king penguin",
+     "src": "px"
+    },
+    {
+     "q": "emperor penguin",
+     "src": "px"
+    },
+    {
+     "q": "humboldt penguin",
+     "src": "px"
+    }
+   ],
+   "d": "El pingüino emperador mide más de un metro de altura.",
+   "tp": "¿Cuál es el pingüino más grande del mundo? ¿Pingüino adelia, Pingüino rey, Pingüino emperador o Pingüino de Humboldt?",
+   "tr": "¡El pingüino emperador!",
+   "td": "El pingüino emperador mide más de un metro de altura."
+  },
+  {
+   "n": 53,
+   "tema": "Latinoamérica",
+   "p": "¿En qué país está el Árbol del Tule, el árbol vivo de tronco más grueso?",
+   "o": [
+    "Perú",
+    "México",
+    "Brasil",
+    "Costa Rica"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "flag": "pe"
+    },
+    {
+     "flag": "mx"
+    },
+    {
+     "flag": "br"
+    },
+    {
+     "flag": "cr"
+    }
+   ],
+   "d": "El Árbol del Tule es un ahuehuete que tiene más de 1.000 años.",
+   "tp": "¿En qué país está el Árbol del Tule, el árbol vivo de tronco más grueso? ¿Perú, México, Brasil o Costa Rica?",
+   "tr": "¡México!",
+   "td": "El Árbol del Tule es un ahuehuete que tiene más de mil años."
+  },
+  {
+   "n": 54,
+   "tema": "Latinoamérica",
+   "p": "¿Cuál es el país más largo del mundo de norte a sur?",
+   "o": [
+    "Chile",
+    "Noruega",
+    "Argentina",
+    "Brasil"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "flag": "cl"
+    },
+    {
+     "flag": "no"
+    },
+    {
+     "flag": "ar"
+    },
+    {
+     "flag": "br"
+    }
+   ],
+   "d": "Chile mide unos 4.300 kilómetros de largo y es muy angosto.",
+   "tp": "¿Cuál es el país más largo del mundo de norte a sur? ¿Chile, Noruega, Argentina o Brasil?",
+   "tr": "¡Chile!",
+   "td": "Chile mide unos cuatro mil trescientos kilómetros de largo y es muy angosto."
+  },
+  {
+   "n": 55,
+   "tema": "ciencia",
+   "p": "¿Qué metal es el más denso de todos?",
+   "o": [
+    "Platino",
+    "Plomo",
+    "Oro",
+    "Osmio"
+   ],
+   "c": 3,
+   "d": "Es un metal azulado que se usa en puntas de plumas y contactos eléctricos.",
+   "tp": "¿Qué metal es el más denso de todos? ¿Platino, Plomo, Oro o Osmio?",
+   "tr": "¡El osmio!",
+   "td": "Es un metal azulado que se usa en puntas de plumas y contactos eléctricos."
+  },
+  {
+   "n": 56,
+   "tema": "geografía",
+   "p": "¿Cuál es la capital más fría del mundo?",
+   "o": [
+    "Helsinki",
+    "Moscú",
+    "Ulán Bator",
+    "Ottawa"
+   ],
+   "c": 2,
+   "d": "Ulán Bator es la capital de Mongolia y sus inviernos son larguísimos.",
+   "tp": "¿Cuál es la capital más fría del mundo? ¿Helsinki, Moscú, Ulán Bator o Ottawa?",
+   "tr": "¡Ulán Bator!",
+   "td": "Ulán Bator es la capital de Mongolia y sus inviernos son larguísimos."
+  },
+  {
+   "n": 57,
+   "tema": "música",
+   "p": "¿Cuál es el instrumento musical más grande del mundo?",
+   "o": [
+    "Piano",
+    "Arpa",
+    "Contrabajo",
+    "Órgano de tubos"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "piano",
+     "src": "px"
+    },
+    {
+     "q": "harp",
+     "src": "px"
+    },
+    {
+     "q": "double bass",
+     "src": "px"
+    },
+    {
+     "q": "pipe organ",
+     "src": "px"
+    }
+   ],
+   "d": "Un órgano de iglesia puede tener miles de tubos.",
+   "tp": "¿Cuál es el instrumento musical más grande del mundo? ¿Piano, Arpa, Contrabajo o Órgano de tubos?",
+   "tr": "¡El órgano de tubos!",
+   "td": "Un órgano de iglesia puede tener miles de tubos."
+  },
+  {
+   "n": 58,
+   "tema": "animales",
+   "p": "¿Qué animal tiene el corazón más grande del mundo?",
+   "o": [
+    "Ballena azul",
+    "Elefante",
+    "Jirafa",
+    "Cachalote"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "blue whale",
+     "src": "px"
+    },
+    {
+     "q": "elephant",
+     "src": "px"
+    },
+    {
+     "q": "giraffe",
+     "src": "px"
+    },
+    {
+     "q": "sperm whale",
+     "src": "px"
+    }
+   ],
+   "d": "El corazón de una ballena azul es del tamaño de un auto pequeño.",
+   "tp": "¿Qué animal tiene el corazón más grande del mundo? ¿Ballena azul, Elefante, Jirafa o Cachalote?",
+   "tr": "¡La ballena azul!",
+   "td": "El corazón de una ballena azul es del tamaño de un auto pequeño."
+  },
+  {
+   "n": 59,
+   "tema": "comida",
+   "p": "¿Qué alimento puede durar miles de años sin echarse a perder?",
+   "o": [
+    "Pan",
+    "Huevo",
+    "Miel",
+    "Leche"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "bread",
+     "src": "px"
+    },
+    {
+     "q": "egg",
+     "src": "px"
+    },
+    {
+     "q": "honey",
+     "src": "px"
+    },
+    {
+     "q": "milk",
+     "src": "px"
+    }
+   ],
+   "d": "Se encontró miel todavía comestible en tumbas del antiguo Egipto.",
+   "tp": "¿Qué alimento puede durar miles de años sin echarse a perder? ¿Pan, Huevo, Miel o Leche?",
+   "tr": "¡La miel!",
+   "td": "Se encontró miel todavía comestible en tumbas del antiguo Egipto."
+  },
+  {
+   "n": 60,
+   "tema": "Latinoamérica",
+   "p": "¿Cuál es la montaña más alta de Bolivia?",
+   "o": [
+    "Illampu",
+    "Sajama",
+    "Huayna Potosí",
+    "Illimani"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "q": "Illampu",
+     "src": "cm",
+     "must": "Illampu"
+    },
+    {
+     "q": "Sajama volcano",
+     "src": "cm",
+     "must": "Sajama"
+    },
+    {
+     "q": "Huayna Potosi",
+     "src": "cm",
+     "must": "Potosi"
+    },
+    {
+     "q": "Illimani",
+     "src": "cm",
+     "must": "Illimani"
+    }
+   ],
+   "d": "El Sajama es un volcán apagado de más de 6.500 metros.",
+   "tp": "¿Cuál es la montaña más alta de Bolivia? ¿Illampu, Sajama, Huayna Potosí o Illimani?",
+   "tr": "¡El Sajama!",
+   "td": "El Sajama es un volcán apagado de más de seis mil quinientos metros."
+  },
+  {
+   "n": 61,
+   "tema": "espacio",
+   "p": "¿Cuántas Tierras caben dentro del Sol?",
+   "o": [
+    "Unas cien",
+    "Unas mil",
+    "Unas diez mil",
+    "Más de un millón"
+   ],
+   "c": 3,
+   "d": "El Sol es tan grande que dentro cabrían más de un millón de Tierras.",
+   "tp": "¿Cuántas Tierras caben dentro del Sol? ¿Unas cien, Unas mil, Unas diez mil o Más de un millón?",
+   "tr": "¡Más de un millón!",
+   "td": "El Sol es tan grande que dentro cabrían más de un millón de Tierras."
+  },
+  {
+   "n": 62,
+   "tema": "geografía",
+   "p": "¿Qué país tiene la bandera más antigua que sigue en uso?",
+   "o": [
+    "Dinamarca",
+    "Francia",
+    "Suiza",
+    "Perú"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "flag": "dk"
+    },
+    {
+     "flag": "fr"
+    },
+    {
+     "flag": "ch"
+    },
+    {
+     "flag": "pe"
+    }
+   ],
+   "d": "La bandera danesa se usa desde el siglo trece, según la tradición.",
+   "tp": "¿Qué país tiene la bandera más antigua que sigue en uso? ¿Dinamarca, Francia, Suiza o Perú?",
+   "tr": "¡Dinamarca!",
+   "td": "La bandera danesa se usa desde el siglo trece, según la tradición."
+  },
+  {
+   "n": 63,
+   "tema": "animales",
+   "p": "¿Qué animal tiene los ojos más grandes del mundo?",
+   "o": [
+    "Pulpo",
+    "Búho",
+    "Calamar gigante",
+    "Ballena azul"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "octopus",
+     "src": "px"
+    },
+    {
+     "q": "owl",
+     "src": "px"
+    },
+    {
+     "q": "giant squid",
+     "src": "px"
+    },
+    {
+     "q": "blue whale",
+     "src": "px"
+    }
+   ],
+   "d": "Sus ojos miden unos 27 centímetros, como un plato.",
+   "tp": "¿Qué animal tiene los ojos más grandes del mundo? ¿Pulpo, Búho, Calamar gigante o Ballena azul?",
+   "tr": "¡El calamar gigante!",
+   "td": "Sus ojos miden unos veintisiete centímetros, como un plato."
+  },
+  {
+   "n": 64,
+   "tema": "animales",
+   "p": "¿Qué ave nada más rápido que cualquier otra?",
+   "o": [
+    "Cisne",
+    "Pingüino papúa",
+    "Pingüino emperador",
+    "Pato"
+   ],
+   "c": 1,
+   "d": "El pingüino papúa nada a unos 35 kilómetros por hora.",
+   "tp": "¿Qué ave nada más rápido que cualquier otra? ¿Cisne, Pingüino papúa, Pingüino emperador o Pato?",
+   "tr": "¡El pingüino papúa!",
+   "td": "El pingüino papúa nada a unos treinta y cinco kilómetros por hora."
+  },
+  {
+   "n": 65,
+   "tema": "animales",
+   "p": "¿Cuál se considera el pez más veloz del mar?",
+   "o": [
+    "Pez espada",
+    "Atún rojo",
+    "Tiburón blanco",
+    "Pez vela"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "swordfish",
+     "src": "px"
+    },
+    {
+     "q": "bluefin tuna",
+     "src": "px"
+    },
+    {
+     "q": "great white shark",
+     "src": "px"
+    },
+    {
+     "q": "sailfish",
+     "src": "px"
+    }
+   ],
+   "d": "Se calcula que el pez vela nada a unos 100 kilómetros por hora.",
+   "tp": "¿Cuál se considera el pez más veloz del mar? ¿Pez espada, Atún rojo, Tiburón blanco o Pez vela?",
+   "tr": "¡El pez vela!",
+   "td": "Se calcula que el pez vela nada a unos cien kilómetros por hora."
+  },
+  {
+   "n": 66,
+   "tema": "animales",
+   "ronda": "misteriosa",
+   "p": "¿Qué animal es este, que da saltos de más de ocho metros?",
+   "o": [
+    "Canguro",
+    "Conejo",
+    "Rana",
+    "Saltamontes"
+   ],
+   "c": 0,
+   "img_q": "Red kangaroo",
+   "img_modo": "pregunta",
+   "d": "Un canguro rojo puede saltar hasta 9 metros de un solo brinco.",
+   "tp": "Miren bien la foto. ¿Qué animal es este, que da saltos de más de ocho metros? ¿Canguro, Conejo, Rana o Saltamontes?",
+   "tr": "¡El canguro!",
+   "td": "Un canguro rojo puede saltar hasta nueve metros de un solo brinco."
+  },
+  {
+   "n": 67,
+   "tema": "naturaleza",
+   "ronda": "misteriosa",
+   "p": "¿Qué flor es esta, la flor individual más grande del mundo?",
+   "o": [
+    "Orquídea",
+    "Loto",
+    "Girasol",
+    "Rafflesia"
+   ],
+   "c": 3,
+   "img_q": "Rafflesia arnoldii",
+   "img_modo": "pregunta",
+   "d": "Puede medir casi un metro de ancho y huele muy mal.",
+   "tp": "Miren bien la foto. ¿Qué flor es esta, la flor individual más grande del mundo? ¿Orquídea, Loto, Girasol o Rafflesia?",
+   "tr": "¡La rafflesia!",
+   "td": "Puede medir casi un metro de ancho y huele muy mal."
+  },
+  {
+   "n": 68,
+   "tema": "Perú",
+   "ronda": "misteriosa",
+   "p": "¿Qué ciudadela inca es esta, maravilla del mundo moderno?",
+   "o": [
+    "Choquequirao",
+    "Sacsayhuamán",
+    "Machu Picchu",
+    "Ollantaytambo"
+   ],
+   "c": 2,
+   "img_q": "Machu Picchu",
+   "img_modo": "pregunta",
+   "d": "Fue elegida maravilla del mundo moderno en 2007.",
+   "tp": "Miren bien la foto. ¿Qué ciudadela inca es esta, maravilla del mundo moderno? ¿Choquequirao, Sacsayhuamán, Machu Picchu o Ollantaytambo?",
+   "tr": "¡Machu Picchu!",
+   "td": "Fue elegida maravilla del mundo moderno en dos mil siete."
+  },
+  {
+   "n": 69,
+   "tema": "espacio",
+   "p": "¿Qué astro es el más brillante del cielo, después del Sol y la Luna?",
+   "o": [
+    "Júpiter",
+    "Venus",
+    "Marte",
+    "Sirio"
+   ],
+   "c": 1,
+   "d": "Se ve tan brillante que a veces se le llama «lucero del alba».",
+   "tp": "¿Qué astro es el más brillante del cielo, después del Sol y la Luna? ¿Júpiter, Venus, Marte o Sirio?",
+   "tr": "¡Venus!",
+   "td": "Se ve tan brillante que a veces se le llama «lucero del alba»."
+  },
+  {
+   "n": 70,
+   "tema": "geografía",
+   "p": "¿Cuál es la isla más poblada del mundo?",
+   "o": [
+    "Luzón",
+    "Honshu",
+    "Java",
+    "Gran Bretaña"
+   ],
+   "c": 2,
+   "d": "Java es una isla de Indonesia y allí vive más de la mitad de su población.",
+   "tp": "¿Cuál es la isla más poblada del mundo? ¿Luzón, Honshu, Java o Gran Bretaña?",
+   "tr": "¡Java!",
+   "td": "Java es una isla de Indonesia y allí vive más de la mitad de su población."
+  },
+  {
+   "n": 71,
+   "tema": "Latinoamérica",
+   "p": "¿Qué pirámide tiene el mayor volumen del mundo?",
+   "o": [
+    "Gran Pirámide de Cholula",
+    "Pirámide de Keops",
+    "Pirámide del Sol",
+    "Pirámide de Caral"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "Great Pyramid of Cholula",
+     "src": "cm",
+     "must": "Cholula"
+    },
+    {
+     "q": "Great Pyramid of Giza",
+     "src": "cm",
+     "must": "Giza"
+    },
+    {
+     "q": "Pyramid of the Sun Teotihuacan",
+     "src": "cm",
+     "must": "Sun"
+    },
+    {
+     "q": "Caral pyramid Peru",
+     "src": "cm",
+     "must": "Caral"
+    }
+   ],
+   "d": "Está en México y parece un cerro con una iglesia encima.",
+   "tp": "¿Qué pirámide tiene el mayor volumen del mundo? ¿Gran Pirámide de Cholula, Pirámide de Keops, Pirámide del Sol o Pirámide de Caral?",
+   "tr": "¡La Gran Pirámide de Cholula!",
+   "td": "Está en México y parece un cerro con una iglesia encima."
+  },
+  {
+   "n": 72,
+   "tema": "Perú",
+   "p": "¿Cuál es el lugar habitado más alto del mundo?",
+   "o": [
+    "Cerro de Pasco",
+    "El Alto",
+    "Potosí",
+    "La Rinconada"
+   ],
+   "c": 3,
+   "d": "La Rinconada está en Perú, a unos 5.100 metros de altura.",
+   "tp": "¿Cuál es el lugar habitado más alto del mundo? ¿Cerro de Pasco, El Alto, Potosí o La Rinconada?",
+   "tr": "¡La Rinconada, en Perú!",
+   "td": "La Rinconada está en Perú, a unos cinco mil cien metros de altura."
+  },
+  {
+   "n": 73,
+   "tema": "idiomas",
+   "p": "¿Qué país tiene más idiomas distintos en el mundo?",
+   "o": [
+    "India",
+    "Papúa Nueva Guinea",
+    "Nigeria",
+    "Indonesia"
+   ],
+   "c": 1,
+   "o_fotos": [
+    {
+     "flag": "in"
+    },
+    {
+     "flag": "pg"
+    },
+    {
+     "flag": "ng"
+    },
+    {
+     "flag": "id"
+    }
+   ],
+   "d": "En Papúa Nueva Guinea se hablan más de 800 idiomas.",
+   "tp": "¿Qué país tiene más idiomas distintos en el mundo? ¿India, Papúa Nueva Guinea, Nigeria o Indonesia?",
+   "tr": "¡Papúa Nueva Guinea!",
+   "td": "En Papúa Nueva Guinea se hablan más de ochocientos idiomas."
+  },
+  {
+   "n": 74,
+   "tema": "idiomas",
+   "p": "¿Qué idioma es oficial en más países del mundo?",
+   "o": [
+    "Español",
+    "Francés",
+    "Árabe",
+    "Inglés"
+   ],
+   "c": 3,
+   "d": "El inglés es idioma oficial en unos 60 países.",
+   "tp": "¿Qué idioma es oficial en más países del mundo? ¿Español, Francés, Árabe o Inglés?",
+   "tr": "¡El inglés!",
+   "td": "El inglés es idioma oficial en unos sesenta países."
+  },
+  {
+   "n": 75,
+   "tema": "animales",
+   "p": "¿Qué mamífero puede vivir más de 200 años?",
+   "o": [
+    "Orca",
+    "Ballena de Groenlandia",
+    "Elefante africano",
+    "Ser humano"
+   ],
+   "c": 1,
+   "d": "Algunas ballenas de Groenlandia pudieron nacer hace más de 200 años.",
+   "tp": "¿Qué mamífero puede vivir más de doscientos años? ¿Orca, Ballena de Groenlandia, Elefante africano o Ser humano?",
+   "tr": "¡La ballena de Groenlandia!",
+   "td": "Algunas ballenas de Groenlandia pudieron nacer hace más de doscientos años."
+  },
+  {
+   "n": 76,
+   "tema": "geografía",
+   "p": "¿Cuál es el volcán activo más grande del mundo?",
+   "o": [
+    "Mauna Loa",
+    "Fuji",
+    "Etna",
+    "Cotopaxi"
+   ],
+   "c": 0,
+   "d": "El Mauna Loa está en Hawái y mide más de 4.000 metros sobre el mar.",
+   "tp": "¿Cuál es el volcán activo más grande del mundo? ¿Mauna Loa, Fuji, Etna o Cotopaxi?",
+   "tr": "¡El Mauna Loa!",
+   "td": "El Mauna Loa está en Hawái y mide más de cuatro mil metros sobre el mar."
+  },
+  {
+   "n": 77,
+   "tema": "historia",
+   "p": "¿Qué país tiene más pirámides antiguas en su territorio?",
+   "o": [
+    "Egipto",
+    "México",
+    "Sudán",
+    "Perú"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "flag": "eg"
+    },
+    {
+     "flag": "mx"
+    },
+    {
+     "flag": "sd"
+    },
+    {
+     "flag": "pe"
+    }
+   ],
+   "d": "Se cree que Sudán tiene más de 200 pirámides, aunque son más pequeñas que las de Egipto.",
+   "tp": "¿Qué país tiene más pirámides antiguas en su territorio? ¿Egipto, México, Sudán o Perú?",
+   "tr": "¡Sudán!",
+   "td": "Se cree que Sudán tiene más de doscientas pirámides, aunque son más pequeñas que las de Egipto."
+  },
+  {
+   "n": 78,
+   "tema": "Latinoamérica",
+   "p": "¿Qué rana de Colombia es una de las más venenosas del mundo?",
+   "o": [
+    "Rana dardo dorada",
+    "Rana verde",
+    "Rana de ojos rojos",
+    "Rana toro"
+   ],
+   "c": 0,
+   "o_fotos": [
+    {
+     "q": "Phyllobates terribilis golden poison frog",
+     "src": "cm"
+    },
+    {
+     "q": "European green tree frog",
+     "src": "cm"
+    },
+    {
+     "q": "Red-eyed tree frog",
+     "src": "cm"
+    },
+    {
+     "q": "American bullfrog",
+     "src": "cm"
+    }
+   ],
+   "d": "Su piel tiene un veneno tan fuerte que los emberá lo usaban en sus dardos.",
+   "tp": "¿Qué rana de Colombia es una de las más venenosas del mundo? ¿Rana dardo dorada, Rana verde, Rana de ojos rojos o Rana toro?",
+   "tr": "¡La rana dardo dorada!",
+   "td": "Su piel tiene un veneno tan fuerte que los emberá lo usaban en sus dardos."
+  },
+  {
+   "n": 79,
+   "tema": "naturaleza",
+   "p": "¿Cuál es el arrecife de coral más grande del mundo?",
+   "o": [
+    "Atolón de Bikini",
+    "Arrecife de Ningaloo",
+    "Arrecife Mesoamericano",
+    "Gran Barrera de Coral"
+   ],
+   "c": 3,
+   "o_fotos": [
+    {
+     "q": "Bikini Atoll",
+     "src": "cm",
+     "must": "Bikini"
+    },
+    {
+     "q": "Ningaloo Reef",
+     "src": "cm",
+     "must": "Ningaloo"
+    },
+    {
+     "q": "Mesoamerican Barrier Reef",
+     "src": "cm"
+    },
+    {
+     "q": "Great Barrier Reef",
+     "src": "cm",
+     "must": "Barrier"
+    }
+   ],
+   "d": "La Gran Barrera de Coral, en Australia, mide más de 2.000 kilómetros.",
+   "tp": "¿Cuál es el arrecife de coral más grande del mundo? ¿Atolón de Bikini, Arrecife de Ningaloo, Arrecife Mesoamericano o Gran Barrera de Coral?",
+   "tr": "¡La Gran Barrera de Coral!",
+   "td": "La Gran Barrera de Coral, en Australia, mide más de dos mil kilómetros."
+  },
+  {
+   "n": 80,
+   "tema": "animales",
+   "p": "¿Qué ave tiene la mayor envergadura, de unos 3 metros y medio?",
+   "o": [
+    "Cóndor andino",
+    "Águila real",
+    "Albatros errante",
+    "Pelícano"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "q": "andean condor",
+     "src": "px"
+    },
+    {
+     "q": "golden eagle",
+     "src": "px"
+    },
+    {
+     "q": "wandering albatross",
+     "src": "px"
+    },
+    {
+     "q": "pelican",
+     "src": "px"
+    }
+   ],
+   "d": "Su envergadura es casi tan ancha como una camioneta es larga.",
+   "tp": "¿Qué ave tiene la mayor envergadura, de unos tres metros y medio? ¿Cóndor andino, Águila real, Albatros errante o Pelícano?",
+   "tr": "¡El albatros errante!",
+   "td": "Su envergadura es casi tan ancha como una camioneta es larga."
+  },
+  {
+   "n": 81,
+   "tema": "ciencia",
+   "ronda": "vf",
+   "p": "El sonido viaja más rápido que la luz.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "La luz es muchísimo más veloz: por eso vemos el rayo antes de oír el trueno.",
+   "tp": "¿Verdadero o falso? El sonido viaja más rápido que la luz.",
+   "tr": "¡Falso! La luz es más veloz.",
+   "td": "La luz es muchísimo más veloz: por eso vemos el rayo antes de oír el trueno."
+  },
+  {
+   "n": 82,
+   "tema": "geografía",
+   "ronda": "vf",
+   "p": "Hace miles de años el Sahara tenía lagos y praderas.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Hace unos 6.000 años gran parte del Sahara era verde.",
+   "tp": "¿Verdadero o falso? Hace miles de años el Sahara tenía lagos y praderas.",
+   "tr": "¡Verdadero! Antes era verde.",
+   "td": "Hace unos seis mil años gran parte del Sahara era verde."
+  },
+  {
+   "n": 83,
+   "tema": "animales",
+   "ronda": "vf",
+   "p": "Un canguro puede saltar hacia atrás con facilidad.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Por su cola y sus patas, a un canguro le cuesta mucho moverse hacia atrás.",
+   "tp": "¿Verdadero o falso? Un canguro puede saltar hacia atrás con facilidad.",
+   "tr": "¡Falso! Casi no puede.",
+   "td": "Por su cola y sus patas, a un canguro le cuesta mucho moverse hacia atrás."
+  },
+  {
+   "n": 84,
+   "tema": "ciencia",
+   "p": "¿Cuál es el metal más abundante en la corteza terrestre?",
+   "o": [
+    "Cobre",
+    "Aluminio",
+    "Hierro",
+    "Oro"
+   ],
+   "c": 1,
+   "d": "Casi no se encuentra puro: se obtiene de una roca llamada bauxita.",
+   "tp": "¿Cuál es el metal más abundante en la corteza terrestre? ¿Cobre, Aluminio, Hierro o Oro?",
+   "tr": "¡El aluminio!",
+   "td": "Casi no se encuentra puro: se obtiene de una roca llamada bauxita."
+  },
+  {
+   "n": 85,
+   "tema": "Latinoamérica",
+   "p": "¿Qué país tiene más idiomas oficiales en el mundo?",
+   "o": [
+    "India",
+    "Sudáfrica",
+    "Bolivia",
+    "Suiza"
+   ],
+   "c": 2,
+   "o_fotos": [
+    {
+     "flag": "in"
+    },
+    {
+     "flag": "za"
+    },
+    {
+     "flag": "bo"
+    },
+    {
+     "flag": "ch"
+    }
+   ],
+   "d": "Bolivia reconoce 37 idiomas oficiales, entre ellos el quechua y el aimara.",
+   "tp": "¿Qué país tiene más idiomas oficiales en el mundo? ¿India, Sudáfrica, Bolivia o Suiza?",
+   "tr": "¡Bolivia!",
+   "td": "Bolivia reconoce treinta y siete idiomas oficiales, entre ellos el quechua y el aimara."
+  },
+  {
+   "n": 86,
+   "tema": "historia",
+   "p": "¿Qué maravilla del mundo antiguo sigue en pie?",
+   "o": [
+    "Coloso de Rodas",
+    "Faro de Alejandría",
+    "Jardines Colgantes",
+    "Gran Pirámide de Guiza"
+   ],
+   "c": 3,
+   "d": "Se construyó hace unos 4.500 años, en Egipto.",
+   "tp": "¿Qué maravilla del mundo antiguo sigue en pie? ¿Coloso de Rodas, Faro de Alejandría, Jardines Colgantes o Gran Pirámide de Guiza?",
+   "tr": "¡La Gran Pirámide de Guiza!",
+   "td": "Se construyó hace unos cuatro mil quinientos años, en Egipto."
+  },
+  {
+   "n": 87,
+   "tema": "Latinoamérica",
+   "p": "¿Cuál es la isla más grande de Sudamérica?",
+   "o": [
+    "Tierra del Fuego",
+    "Isla Margarita",
+    "Chiloé",
+    "Marajó"
+   ],
+   "c": 0,
+   "img_q": "Tierra del Fuego",
+   "img_modo": "revela",
+   "d": "Tierra del Fuego se reparte entre Chile y Argentina.",
+   "tp": "¿Cuál es la isla más grande de Sudamérica? ¿Tierra del Fuego, Isla Margarita, Chiloé o Marajó?",
+   "tr": "¡Tierra del Fuego!",
+   "td": "Tierra del Fuego se reparte entre Chile y Argentina."
+  },
+  {
+   "n": 88,
+   "tema": "naturaleza",
+   "p": "¿Qué árbol puede vivir casi 5.000 años?",
+   "o": [
+    "Secuoya gigante",
+    "Pino longevo",
+    "Baobab",
+    "Ahuehuete"
+   ],
+   "c": 1,
+   "d": "Algunos pinos longevos de California tienen casi 5.000 años.",
+   "tp": "¿Qué árbol puede vivir casi cinco mil años? ¿Secuoya gigante, Pino longevo, Baobab o Ahuehuete?",
+   "tr": "¡El pino longevo!",
+   "td": "Algunos pinos longevos de California tienen casi cinco mil años."
+  },
+  {
+   "n": 89,
+   "tema": "animales",
+   "p": "¿Qué mamífero tiene el récord de buceo sin respirar: más de tres horas?",
+   "o": [
+    "Ballena azul",
+    "Foca de Weddell",
+    "Zifio de Cuvier",
+    "Cachalote"
+   ],
+   "c": 2,
+   "img_q": "Cuvier's beaked whale",
+   "img_modo": "revela",
+   "d": "Un zifio de Cuvier aguantó 3 horas y 42 minutos bajo el agua.",
+   "tp": "¿Qué mamífero tiene el récord de buceo sin respirar: más de tres horas? ¿Ballena azul, Foca de Weddell, Zifio de Cuvier o Cachalote?",
+   "tr": "¡El zifio de Cuvier!",
+   "td": "Un zifio de Cuvier aguantó tres horas y cuarenta y dos minutos bajo el agua."
+  },
+  {
+   "n": 90,
+   "tema": "idiomas",
+   "p": "¿Qué idioma hablan más personas en total, como lengua nativa o segunda?",
+   "o": [
+    "Inglés",
+    "Español",
+    "Chino mandarín",
+    "Hindi"
+   ],
+   "c": 0,
+   "d": "Lo hablan más de 1.000 millones de personas en el mundo.",
+   "tp": "¿Qué idioma hablan más personas en total, como lengua nativa o segunda? ¿Inglés, Español, Chino mandarín o Hindi?",
+   "tr": "¡El inglés!",
+   "td": "Lo hablan más de mil millones de personas en el mundo."
+  }
+ ],
+ "extra_tts": {
+  "an_tema": [
+   "anunciador",
+   "Hoy jugamos: ¡récords del mundo! Lo más grande, lo más rápido y lo más alto del planeta."
+  ],
+  "pr_intro": [
+   "presentador",
+   "¡Hola, familia! Hoy les traigo cien preguntas sobre récords del mundo. ¿Quién llegará hasta la última sin fallar?"
+  ],
+  "co_intro": [
+   "copresentadora",
+   "Hoy vamos a descubrir lo más alto, lo más veloz y lo más raro del planeta. ¡Prepárense para asombrarse!"
+  ],
+  "co_fama": [
+   "copresentadora",
+   "Antes de empezar, un aplauso para los mejores jugadores del episodio anterior. ¡Sus nombres brillan en pantalla!"
+  ],
+  "pr_cierre": [
+   "presentador",
+   "¡Terminamos los récords del mundo, familia! Cuéntennos en los comentarios cuántas respondieron bien y cuál fue su puntaje. ¡Gracias por jugar!"
+  ],
+  "charla05_pr": [
+   "presentador",
+   "¡Cinco récords y yo ya me siento campeón! El mío es ser el robot más simpático."
+  ],
+  "charla05_co": [
+   "copresentadora",
+   "Ese récord solo lo tienes tú, MAX. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla10_pr": [
+   "presentador",
+   "¡Un jaguar, un colibrí y una tortuga que vive más de un siglo! Qué zoológico."
+  ],
+  "charla10_co": [
+   "copresentadora",
+   "Y ahora vienen tres fotos misteriosas, MAX. ¡Atentos, familia!"
+  ],
+  "charla15_pr": [
+   "presentador",
+   "¡Un búho que gira la cabeza casi entera! Yo giro solo la antena."
+  ],
+  "charla15_co": [
+   "copresentadora",
+   "Qué elegancia, MAX. Familia, ¿cómo va su puntaje?"
+  ],
+  "charla20_pr": [
+   "presentador",
+   "¡Un edificio de ochocientos metros! Yo me mareo con una escalera."
+  ],
+  "charla20_co": [
+   "copresentadora",
+   "Con una escalera de dos peldaños, MAX. Familia, ¡sigan sumando!"
+  ],
+  "charla25_pr": [
+   "presentador",
+   "¡Dos verdaderos o falsos y ya me confundí! Falta uno más."
+  ],
+  "charla25_co": [
+   "copresentadora",
+   "Sin trampas, MAX. Familia, ¡piensen bien la última afirmación!"
+  ],
+  "charla30_pr": [
+   "presentador",
+   "¡Un imperio que llegó de China a Europa! Yo apenas llego hasta la cocina del estudio."
+  ],
+  "charla30_co": [
+   "copresentadora",
+   "Qué viaje tan corto, MAX. Familia, ¡vamos con más récords!"
+  ],
+  "charla35_pr": [
+   "presentador",
+   "¡El perezoso nos ganó en lentitud! Hasta yo parezco veloz a su lado."
+  ],
+  "charla35_co": [
+   "copresentadora",
+   "Y la luz no te va a esperar, MAX. Familia, ¡sigan jugando!"
+  ],
+  "charla40_pr": [
+   "presentador",
+   "¡Del Nilo a Nicaragua, pasando por Surinam! Qué vuelta por el mapa."
+  ],
+  "charla40_co": [
+   "copresentadora",
+   "Gran viaje, MAX. Familia, ahora viene la ronda relámpago: ¡cinco segundos por pregunta!"
+  ],
+  "charla45_pr": [
+   "presentador",
+   "¡Cinco récords en un parpadeo! Hasta mi reloj interno se aceleró."
+  ],
+  "charla45_co": [
+   "copresentadora",
+   "Qué rapidez, MAX. Quien las acertó todas merece un aplauso gigante."
+  ],
+  "charla50_pr": [
+   "presentador",
+   "¡Llegamos a la mitad! Hasta ahora, récords de mares, montañas y estrellas."
+  ],
+  "charla50_co": [
+   "copresentadora",
+   "Y quedan otros cincuenta, MAX. Familia, ¡revisen el ranking del celular!"
+  ],
+  "charla55_pr": [
+   "presentador",
+   "¡Un pingüino emperador y un árbol de más de mil años! Qué variedad."
+  ],
+  "charla55_co": [
+   "copresentadora",
+   "Y un país larguísimo, MAX. Familia, ¡sigan sumando puntos!"
+  ],
+  "charla60_pr": [
+   "presentador",
+   "¡Machu Picchu y un Sol donde caben más de un millón de Tierras! Qué contrastes."
+  ],
+  "charla60_co": [
+   "copresentadora",
+   "Muy cierto, MAX. Familia, ¿cómo va su puntaje?"
+  ],
+  "charla65_pr": [
+   "presentador",
+   "¡Un calamar con ojos como platos! Yo me conformo con mis dos pantallitas."
+  ],
+  "charla65_co": [
+   "copresentadora",
+   "Menos mal, MAX. Ahora vienen tres fotos misteriosas: ¡atentos, familia!"
+  ],
+  "charla70_pr": [
+   "presentador",
+   "¡Un canguro, una flor gigante y una ciudad rosada! Qué mezcla."
+  ],
+  "charla70_co": [
+   "copresentadora",
+   "Y la isla de Java, MAX. Familia, ¡sigan así!"
+  ],
+  "charla75_pr": [
+   "presentador",
+   "¡Papúa Nueva Guinea tiene más de ochocientos idiomas! Yo apenas sé español."
+  ],
+  "charla75_co": [
+   "copresentadora",
+   "Y lo hablas bastante bien, MAX. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla80_pr": [
+   "presentador",
+   "¡Del volcán Mauna Loa al albatros gigante! Qué viaje, familia."
+  ],
+  "charla80_co": [
+   "copresentadora",
+   "Ahora vienen tres afirmaciones, MAX: ¿verdadero o falso? ¡Atentos!"
+  ],
+  "charla85_pr": [
+   "presentador",
+   "¡Casi me engañan con el sonido y la luz! Pero el canguro no retrocede."
+  ],
+  "charla85_co": [
+   "copresentadora",
+   "Qué buen resumen, MAX. Familia, ¡ya falta poco para el final!"
+  ],
+  "charla90_pr": [
+   "presentador",
+   "¡Un zifio que aguanta tres horas bajo el agua! Yo aguanto un minuto sin enchufe."
+  ],
+  "charla90_co": [
+   "copresentadora",
+   "Qué dramático, MAX. Familia, ¡quedan diez preguntas para el gran final!"
+  ]
+ },
+ "fotos_miniatura": [
+  [
+   1,
+   0
+  ],
+  [
+   9,
+   1
+  ],
+  [
+   52,
+   2
+  ],
+  [
+   31,
+   2
+  ],
+  [
+   3,
+   2
+  ]
+ ]
 }
