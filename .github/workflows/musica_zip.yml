@@ -1,0 +1,17 @@
+name: Música de Navidad en zip (para Luis)
+on: workflow_dispatch
+jobs:
+  zip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { sparse-checkout: assets/musica_navidad.enc, sparse-checkout-cone-mode: false }
+      - name: Descifrar y comprimir
+        env: { MUSICA_NAVIDAD_CLAVE: "${{ secrets.MUSICA_NAVIDAD_CLAVE }}" }
+        run: |
+          mkdir -p musica_navidad
+          printf '%s' "$MUSICA_NAVIDAD_CLAVE" | tr -d '[:space:]' > /tmp/clave
+          openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -pass file:/tmp/clave -in assets/musica_navidad.enc | tar -x -C musica_navidad
+          rm -f /tmp/clave; find musica_navidad -type f | sort; du -sh musica_navidad
+      - uses: actions/upload-artifact@v4
+        with: { name: musica_navidad, path: musica_navidad, retention-days: 2, compression-level: 0 }
