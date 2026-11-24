@@ -1,0 +1,24 @@
+{
+ "id": "ep023",
+ "fecha": "2026-11-28",
+ "formato": "maraton",
+ "estado": "en_proceso",
+ "codigo_sala": "MARATON3",
+ "titulo": "Tercera gran maratón de 3 horas: 370 preguntas para toda la familia",
+ "titulo_youtube": "MARATÓN de 3 HORAS: 370 preguntas para jugar en familia, ¿Cuántas aciertas? | ¿Quién Sabe Más?",
+ "descripcion": "La tercera gran maratón de tres horas de ¿Quién Sabe Más?: 370 preguntas de geografía, ciencia, historia, animales, comida, deportes, música y mucho más para jugar en familia frente a la tele. Con imágenes misteriosas, verdadero o falso y rondas relámpago. ¿Llegas hasta la 370? ¡Cuéntanos tu puntaje en los comentarios!",
+ "tags": [
+  "maratón",
+  "trivia en familia",
+  "preguntas y respuestas",
+  "cultura general",
+  "juego para la tele",
+  "3 horas"
+ ],
+ "tema_miniatura": "MARATÓN 3 HORAS",
+ "reto_miniatura": "¿Llegas a la 370?",
+ "objetivo_preguntas": 370,
+ "total_anunciado": 370,
+ "preguntas": [],
+ "extra_tts": {}
+}

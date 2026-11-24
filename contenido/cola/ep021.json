@@ -20,6 +20,697 @@
  "reto_miniatura": "¿Llegas a la 100?",
  "objetivo_preguntas": 100,
  "total_anunciado": 100,
- "preguntas": [],
+ "preguntas": [
+  {
+   "n": 1,
+   "tema": "ciencia",
+   "p": "¿Sobre qué corre un tren?",
+   "o": [
+    "Rieles",
+    "Cables",
+    "Cintas",
+    "Rodillos"
+   ],
+   "c": 0,
+   "d": "Los rieles de acero guían las ruedas del tren y lo mantienen en su camino.",
+   "tp": "¿Sobre qué corre un tren? ¿Rieles, Cables, Cintas o Rodillos?",
+   "tr": "¡Sobre rieles!",
+   "td": "Los rieles de acero guían las ruedas del tren y lo mantienen en su camino."
+  },
+  {
+   "n": 2,
+   "tema": "inventos",
+   "p": "¿Qué usa un velero para moverse gracias al viento?",
+   "o": [
+    "Velas",
+    "Hélices",
+    "Ruedas",
+    "Remos"
+   ],
+   "c": 0,
+   "d": "Las velas atrapan el viento y empujan el barco sin necesidad de motor.",
+   "tp": "¿Qué usa un velero para moverse gracias al viento? ¿Velas, Hélices, Ruedas o Remos?",
+   "tr": "¡Las velas!",
+   "td": "Las velas atrapan el viento y empujan el barco sin necesidad de motor."
+  },
+  {
+   "n": 3,
+   "tema": "inventos",
+   "p": "¿Cómo se llama el lugar donde despegan y aterrizan los aviones?",
+   "o": [
+    "Estación",
+    "Puerto",
+    "Aeropuerto",
+    "Terminal de buses"
+   ],
+   "c": 2,
+   "d": "En los aeropuertos grandes despega un avión cada pocos minutos.",
+   "tp": "¿Cómo se llama el lugar donde despegan y aterrizan los aviones? ¿Estación, Puerto, Aeropuerto o Terminal de buses?",
+   "tr": "¡El aeropuerto!",
+   "td": "En los aeropuertos grandes despega un avión cada pocos minutos.",
+   "o_fotos": [
+    {
+     "q": "railway station train",
+     "src": "px"
+    },
+    {
+     "q": "harbor port ships",
+     "src": "px"
+    },
+    {
+     "q": "airport runway airplane",
+     "src": "px"
+    },
+    {
+     "q": "bus station",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "tema": "inventos",
+   "p": "¿Cómo se llama el lugar donde los pasajeros suben al tren?",
+   "o": [
+    "Estación",
+    "Aeropuerto",
+    "Puerto",
+    "Mercado"
+   ],
+   "c": 0,
+   "d": "Algunas estaciones tienen techos enormes de hierro y cristal.",
+   "tp": "¿Cómo se llama el lugar donde los pasajeros suben al tren? ¿Estación, Aeropuerto, Puerto o Mercado?",
+   "tr": "¡La estación!",
+   "td": "Algunas estaciones tienen techos enormes de hierro y cristal.",
+   "o_fotos": [
+    {
+     "q": "railway station platform",
+     "src": "px"
+    },
+    {
+     "q": "airport terminal",
+     "src": "px"
+    },
+    {
+     "q": "harbor port",
+     "src": "px"
+    },
+    {
+     "q": "market stalls",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "tema": "inventos",
+   "p": "¿Cómo se llama el lugar donde los barcos atracan y descargan?",
+   "o": [
+    "Estación",
+    "Puerto",
+    "Aeropuerto",
+    "Taller"
+   ],
+   "c": 1,
+   "d": "Los puertos más grandes mueven millones de contenedores al año.",
+   "tp": "¿Cómo se llama el lugar donde los barcos atracan y descargan? ¿Estación, Puerto, Aeropuerto o Taller?",
+   "tr": "¡El puerto!",
+   "td": "Los puertos más grandes mueven millones de contenedores al año.",
+   "o_fotos": [
+    {
+     "q": "railway station",
+     "src": "px"
+    },
+    {
+     "q": "container port ships",
+     "src": "px"
+    },
+    {
+     "q": "airport",
+     "src": "px"
+    },
+    {
+     "q": "car workshop garage",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "tema": "inventos",
+   "p": "¿Cómo se llama la parte delantera de un barco?",
+   "o": [
+    "Popa",
+    "Quilla",
+    "Proa",
+    "Timón"
+   ],
+   "c": 2,
+   "d": "La parte trasera se llama popa, y la de abajo, quilla.",
+   "tp": "¿Cómo se llama la parte delantera de un barco? ¿Popa, Quilla, Proa o Timón?",
+   "tr": "¡La proa!",
+   "td": "La parte trasera se llama popa, y la de abajo, quilla."
+  },
+  {
+   "n": 7,
+   "tema": "inventos",
+   "p": "¿Cómo se llama la persona que conduce un tren?",
+   "o": [
+    "Capitán",
+    "Piloto",
+    "Cochero",
+    "Maquinista"
+   ],
+   "c": 3,
+   "d": "El maquinista maneja la locomotora y vigila las señales del camino.",
+   "tp": "¿Cómo se llama la persona que conduce un tren? ¿Capitán, Piloto, Cochero o Maquinista?",
+   "tr": "¡El maquinista!",
+   "td": "El maquinista maneja la locomotora y vigila las señales del camino."
+  },
+  {
+   "n": 8,
+   "tema": "inventos",
+   "p": "¿Qué barco abre paso entre el hielo en los mares polares?",
+   "o": [
+    "Velero",
+    "Crucero",
+    "Remolcador",
+    "Rompehielos"
+   ],
+   "c": 3,
+   "d": "Un rompehielos tiene el casco muy reforzado y sube sobre el hielo para romperlo.",
+   "tp": "¿Qué barco abre paso entre el hielo en los mares polares? ¿Velero, Crucero, Remolcador o Rompehielos?",
+   "tr": "¡El rompehielos!",
+   "td": "Un rompehielos tiene el casco muy reforzado y sube sobre el hielo para romperlo.",
+   "o_fotos": [
+    {
+     "q": "sailboat",
+     "src": "px"
+    },
+    {
+     "q": "cruise ship",
+     "src": "px"
+    },
+    {
+     "q": "tugboat",
+     "src": "px"
+    },
+    {
+     "q": "icebreaker ship",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "tema": "inventos",
+   "p": "¿Cómo se llama el tren que recorre la ciudad por túneles bajo tierra?",
+   "o": [
+    "Teleférico",
+    "Metro",
+    "Tranvía",
+    "Funicular"
+   ],
+   "c": 1,
+   "d": "El primer metro del mundo se inauguró en Londres en 1863.",
+   "tp": "¿Cómo se llama el tren que recorre la ciudad por túneles bajo tierra? ¿Teleférico, Metro, Tranvía o Funicular?",
+   "tr": "¡El metro!",
+   "td": "El primer metro del mundo se inauguró en Londres en mil ochocientos sesenta y tres."
+  },
+  {
+   "n": 10,
+   "tema": "inventos",
+   "p": "¿Qué usa un paracaidista para caer despacio?",
+   "o": [
+    "Paraguas",
+    "Cometa",
+    "Globo",
+    "Paracaídas"
+   ],
+   "c": 3,
+   "d": "Un paracaídas abierto aumenta el aire que frena la caída.",
+   "tp": "¿Qué usa un paracaidista para caer despacio? ¿Paraguas, Cometa, Globo o Paracaídas?",
+   "tr": "¡Un paracaídas!",
+   "td": "Un paracaídas abierto aumenta el aire que frena la caída.",
+   "o_fotos": [
+    {
+     "q": "umbrella",
+     "src": "px"
+    },
+    {
+     "q": "kite",
+     "src": "px"
+    },
+    {
+     "q": "balloon",
+     "src": "px"
+    },
+    {
+     "q": "parachute skydiving",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "tema": "inventos",
+   "ronda": "misteriosa",
+   "p": "¿Qué vehículo es este, que corre sobre un solo riel elevado?",
+   "o": [
+    "Monorriel",
+    "Tranvía",
+    "Funicular",
+    "Tren bala"
+   ],
+   "c": 0,
+   "img_q": "Monorail",
+   "img_modo": "pregunta",
+   "d": "Un monorriel va por una sola viga elevada y se ve en ciudades como Tokio.",
+   "tp": "Miren bien la foto. ¿Qué vehículo es este, que corre sobre un solo riel elevado? ¿Monorriel, Tranvía, Funicular o Tren bala?",
+   "tr": "¡El monorriel!",
+   "td": "Un monorriel va por una sola viga elevada y se ve en ciudades como Tokio."
+  },
+  {
+   "n": 12,
+   "tema": "inventos",
+   "ronda": "misteriosa",
+   "p": "¿Qué embarcación típica de Venecia es esta?",
+   "o": [
+    "Trajinera",
+    "Piragua",
+    "Góndola",
+    "Catamarán"
+   ],
+   "c": 2,
+   "img_q": "Gondola Venice",
+   "img_modo": "pregunta",
+   "d": "Las góndolas venecianas se mueven con un solo remo largo.",
+   "tp": "Miren bien la foto. ¿Qué embarcación típica de Venecia es esta? ¿Trajinera, Piragua, Góndola o Catamarán?",
+   "tr": "¡La góndola!",
+   "td": "Las góndolas venecianas se mueven con un solo remo largo."
+  },
+  {
+   "n": 13,
+   "tema": "espacio",
+   "ronda": "misteriosa",
+   "p": "¿Qué nave es esta, que despegaba como cohete y aterrizaba como avión?",
+   "o": [
+    "Cápsula Apolo",
+    "Transbordador espacial",
+    "Sputnik",
+    "Estación espacial"
+   ],
+   "c": 1,
+   "img_q": "Space Shuttle Discovery",
+   "img_modo": "pregunta",
+   "d": "Los transbordadores espaciales de la NASA volaron al espacio más de cien veces.",
+   "tp": "Miren bien la foto. ¿Qué nave es esta, que despegaba como cohete y aterrizaba como avión? ¿Cápsula Apolo, Transbordador espacial, Sputnik o Estación espacial?",
+   "tr": "¡El transbordador espacial!",
+   "td": "Los transbordadores espaciales de la NASA volaron al espacio más de cien veces."
+  },
+  {
+   "n": 14,
+   "tema": "Perú",
+   "p": "¿A qué lugar famoso de Perú lleva el tren que sale de Ollantaytambo?",
+   "o": [
+    "Lago Titicaca",
+    "Cañón del Colca",
+    "Machu Picchu",
+    "Líneas de Nazca"
+   ],
+   "c": 2,
+   "d": "El tren llega al pueblo de Aguas Calientes, al pie de Machu Picchu.",
+   "tp": "¿A qué lugar famoso de Perú lleva el tren que sale de Ollantaytambo? ¿Lago Titicaca, Cañón del Colca, Machu Picchu o Líneas de Nazca?",
+   "tr": "¡A Machu Picchu!",
+   "td": "El tren llega al pueblo de Aguas Calientes, al pie de Machu Picchu.",
+   "o_fotos": [
+    {
+     "q": "Lake Titicaca",
+     "src": "cm"
+    },
+    {
+     "q": "Colca Canyon",
+     "src": "cm"
+    },
+    {
+     "q": "Machu Picchu",
+     "src": "cm"
+    },
+    {
+     "q": "Nazca Lines",
+     "src": "cm"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "tema": "geografía",
+   "p": "¿Qué ciudad europea es famosa por sus tranvías amarillos que suben colinas?",
+   "o": [
+    "Roma",
+    "Viena",
+    "Ámsterdam",
+    "Lisboa"
+   ],
+   "c": 3,
+   "img_q": "Lisbon tram 28",
+   "img_modo": "revela",
+   "d": "El tranvía 28 de Lisboa recorre calles estrechas y empinadas.",
+   "tp": "¿Qué ciudad europea es famosa por sus tranvías amarillos que suben colinas? ¿Roma, Viena, Ámsterdam o Lisboa?",
+   "tr": "¡Lisboa!",
+   "td": "El tranvía veintiocho de Lisboa recorre calles estrechas y empinadas."
+  },
+  {
+   "n": 16,
+   "tema": "geografía",
+   "p": "¿De qué país es el tren bala Shinkansen?",
+   "o": [
+    "Japón",
+    "China",
+    "Corea del Sur",
+    "Francia"
+   ],
+   "c": 0,
+   "d": "El Shinkansen empezó a funcionar en 1964, justo antes de los Juegos Olímpicos de Tokio.",
+   "tp": "¿De qué país es el tren bala Shinkansen? ¿Japón, China, Corea del Sur o Francia?",
+   "tr": "¡Japón!",
+   "td": "El Shinkansen empezó a funcionar en mil novecientos sesenta y cuatro, justo antes de los Juegos Olímpicos de Tokio.",
+   "o_fotos": [
+    {
+     "flag": "jp"
+    },
+    {
+     "flag": "cn"
+    },
+    {
+     "flag": "kr"
+    },
+    {
+     "flag": "fr"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "tema": "Latinoamérica",
+   "p": "¿Qué ciudad tiene el metro más antiguo de Latinoamérica, llamado «subte»?",
+   "o": [
+    "Buenos Aires",
+    "Ciudad de México",
+    "Santiago",
+    "Lima"
+   ],
+   "c": 0,
+   "img_q": "Buenos Aires Subte",
+   "img_modo": "revela",
+   "d": "La primera línea del subte de Buenos Aires abrió en 1913.",
+   "tp": "¿Qué ciudad tiene el metro más antiguo de Latinoamérica, llamado «subte»? ¿Buenos Aires, Ciudad de México, Santiago o Lima?",
+   "tr": "¡Buenos Aires!",
+   "td": "La primera línea del subte de Buenos Aires abrió en mil novecientos trece."
+  },
+  {
+   "n": 18,
+   "tema": "inventos",
+   "p": "¿Cuál es el avión de pasajeros más grande del mundo, con dos pisos?",
+   "o": [
+    "Boeing 747",
+    "Boeing 737",
+    "Airbus A380",
+    "Concorde"
+   ],
+   "c": 2,
+   "d": "El A380 puede llevar a más de 500 pasajeros.",
+   "tp": "¿Cuál es el avión de pasajeros más grande del mundo, con dos pisos? ¿Boeing setecientos cuarenta y siete, Boeing setecientos treinta y siete, Airbus A trescientos ochenta o Concorde?",
+   "tr": "¡El Airbus A380!",
+   "td": "El A trescientos ochenta puede llevar a más de quinientos pasajeros.",
+   "o_fotos": [
+    {
+     "q": "Boeing 747",
+     "src": "cm"
+    },
+    {
+     "q": "Boeing 737",
+     "src": "cm"
+    },
+    {
+     "q": "Airbus A380",
+     "src": "cm"
+    },
+    {
+     "q": "Concorde",
+     "src": "cm"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "tema": "inventos",
+   "p": "¿Qué avión de pasajeros cruzaba el Atlántico en poco más de tres horas?",
+   "o": [
+    "Boeing 747",
+    "Concorde",
+    "Airbus A320",
+    "Cessna"
+   ],
+   "c": 1,
+   "d": "El Concorde volaba a más del doble de la velocidad del sonido.",
+   "tp": "¿Qué avión de pasajeros cruzaba el Atlántico en poco más de tres horas? ¿Boeing 747, Concorde, Airbus A320 o Cessna?",
+   "tr": "¡El Concorde!",
+   "td": "El Concorde volaba a más del doble de la velocidad del sonido."
+  },
+  {
+   "n": 20,
+   "tema": "Perú",
+   "p": "¿Cómo se llama la embarcación de totora que usan los pescadores en el norte del Perú?",
+   "o": [
+    "Trajinera",
+    "Caballito de totora",
+    "Góndola",
+    "Piragua"
+   ],
+   "c": 1,
+   "d": "Los pescadores de Huanchaco usan caballitos de totora desde hace siglos.",
+   "tp": "¿Cómo se llama la embarcación de totora que usan los pescadores en el norte del Perú? ¿Trajinera, Caballito de totora, Góndola o Piragua?",
+   "tr": "¡El caballito de totora!",
+   "td": "Los pescadores de Huanchaco usan caballitos de totora desde hace siglos.",
+   "o_fotos": [
+    {
+     "q": "trajinera Xochimilco",
+     "src": "cm"
+    },
+    {
+     "q": "caballito de totora Huanchaco",
+     "src": "cm"
+    },
+    {
+     "q": "Venice gondola",
+     "src": "cm"
+    },
+    {
+     "q": "piragua canoe",
+     "src": "cm"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "tema": "inventos",
+   "p": "¿Qué vehículo, tirado por perros, se desliza sobre la nieve?",
+   "o": [
+    "Bicicleta",
+    "Canoa",
+    "Trineo",
+    "Patineta"
+   ],
+   "c": 2,
+   "d": "Los trineos de perros se usan en el Ártico desde hace cientos de años.",
+   "tp": "¿Qué vehículo, tirado por perros, se desliza sobre la nieve? ¿Bicicleta, Canoa, Trineo o Patineta?",
+   "tr": "¡Un trineo!",
+   "td": "Los trineos de perros se usan en el Ártico desde hace cientos de años.",
+   "o_fotos": [
+    {
+     "q": "bicycle",
+     "src": "px"
+    },
+    {
+     "q": "canoe",
+     "src": "px"
+    },
+    {
+     "q": "dog sled",
+     "src": "px"
+    },
+    {
+     "q": "skateboard",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "tema": "inventos",
+   "p": "¿Cómo se llama el vehículo que cuelga de cables para subir montañas?",
+   "o": [
+    "Teleférico",
+    "Funicular",
+    "Monorriel",
+    "Tranvía"
+   ],
+   "c": 0,
+   "d": "Los teleféricos llevan esquiadores y turistas a lo alto de las montañas.",
+   "tp": "¿Cómo se llama el vehículo que cuelga de cables para subir montañas? ¿Teleférico, Funicular, Monorriel o Tranvía?",
+   "tr": "¡El teleférico!",
+   "td": "Los teleféricos llevan esquiadores y turistas a lo alto de las montañas."
+  },
+  {
+   "n": 23,
+   "tema": "Latinoamérica",
+   "p": "¿Qué ciudad boliviana usa teleféricos como transporte público de todos los días?",
+   "o": [
+    "Sucre",
+    "Cochabamba",
+    "Santa Cruz",
+    "La Paz"
+   ],
+   "c": 3,
+   "img_q": "Mi Teleferico La Paz",
+   "img_modo": "revela",
+   "d": "La Paz tiene una de las redes de teleféricos urbanos más grandes del mundo.",
+   "tp": "¿Qué ciudad boliviana usa teleféricos como transporte público de todos los días? ¿Sucre, Cochabamba, Santa Cruz o La Paz?",
+   "tr": "¡La Paz!",
+   "td": "La Paz tiene una de las redes de teleféricos urbanos más grandes del mundo."
+  },
+  {
+   "n": 24,
+   "tema": "inventos",
+   "ronda": "vf",
+   "p": "Un avión de pasajeros común vuela más rápido que el sonido.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Vuelan a unos 900 kilómetros por hora, y el sonido va a unos 1.200.",
+   "tp": "¿Verdadero o falso? Un avión de pasajeros común vuela más rápido que el sonido.",
+   "tr": "¡Falso! Van más lento que el sonido.",
+   "td": "Vuelan a unos novecientos kilómetros por hora, y el sonido va a unos mil doscientos."
+  },
+  {
+   "n": 25,
+   "tema": "inventos",
+   "ronda": "vf",
+   "p": "Una locomotora de vapor funciona calentando agua.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "El vapor del agua hirviendo empuja unos pistones que mueven las ruedas.",
+   "tp": "¿Verdadero o falso? Una locomotora de vapor funciona calentando agua.",
+   "tr": "¡Verdadero! Con vapor de agua.",
+   "td": "El vapor del agua hirviendo empuja unos pistones que mueven las ruedas."
+  },
+  {
+   "n": 26,
+   "tema": "ciencia",
+   "ronda": "vf",
+   "p": "Un barco de acero puede flotar aunque el acero, solo, se hunde.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Su forma hueca desplaza mucha agua, y por eso el barco flota.",
+   "tp": "¿Verdadero o falso? Un barco de acero puede flotar aunque el acero, solo, se hunde.",
+   "tr": "¡Verdadero! Por su forma hueca.",
+   "td": "Su forma hueca desplaza mucha agua, y por eso el barco flota."
+  },
+  {
+   "n": 27,
+   "tema": "inventos",
+   "p": "¿Qué energía movía las primeras locomotoras de los trenes?",
+   "o": [
+    "Electricidad",
+    "Vapor",
+    "Gasolina",
+    "Viento"
+   ],
+   "c": 1,
+   "d": "En 1804 una locomotora de vapor arrastró por primera vez vagones sobre rieles.",
+   "tp": "¿Qué energía movía las primeras locomotoras de los trenes? ¿Electricidad, Vapor, Gasolina o Viento?",
+   "tr": "¡El vapor!",
+   "td": "En mil ochocientos cuatro una locomotora de vapor arrastró por primera vez vagones sobre rieles."
+  },
+  {
+   "n": 28,
+   "tema": "espacio",
+   "p": "¿Qué país lanzó el primer satélite artificial, el Sputnik, en 1957?",
+   "o": [
+    "Estados Unidos",
+    "Unión Soviética",
+    "Alemania",
+    "China"
+   ],
+   "c": 1,
+   "img_q": "Sputnik 1",
+   "img_modo": "revela",
+   "d": "El Sputnik 1 era una bola metálica que daba una vuelta a la Tierra en unos 96 minutos.",
+   "tp": "¿Qué país lanzó el primer satélite artificial, el Sputnik, en mil novecientos cincuenta y siete? ¿Estados Unidos, Unión Soviética, Alemania o China?",
+   "tr": "¡La Unión Soviética!",
+   "td": "El Sputnik uno era una bola metálica que daba una vuelta a la Tierra en unos noventa y seis minutos."
+  },
+  {
+   "n": 29,
+   "tema": "espacio",
+   "p": "¿Qué vehículo usaron los astronautas para pasear por la Luna en las últimas misiones?",
+   "o": [
+    "Un trineo",
+    "Una moto",
+    "Una carreta",
+    "Un rover eléctrico"
+   ],
+   "c": 3,
+   "img_q": "Lunar Roving Vehicle",
+   "img_modo": "revela",
+   "d": "El vehículo lunar se plegaba para viajar y alcanzaba unos 13 kilómetros por hora.",
+   "tp": "¿Qué vehículo usaron los astronautas para pasear por la Luna en las últimas misiones? ¿Un trineo, Una moto, Una carreta o Un rover eléctrico?",
+   "tr": "¡Un rover eléctrico!",
+   "td": "El vehículo lunar se plegaba para viajar y alcanzaba unos trece kilómetros por hora."
+  },
+  {
+   "n": 30,
+   "tema": "inventos",
+   "p": "¿Cómo se llamaban los gigantes inflados con gas que cruzaban el Atlántico en los años 30?",
+   "o": [
+    "Globos de fiesta",
+    "Helicópteros",
+    "Zepelines",
+    "Aviones de hélice"
+   ],
+   "c": 2,
+   "d": "Los zepelines eran más largos que dos campos de fútbol.",
+   "tp": "¿Cómo se llamaban los gigantes inflados con gas que cruzaban el Atlántico en los años treinta? ¿Globos de fiesta, Helicópteros, Zepelines o Aviones de hélice?",
+   "tr": "¡Los zepelines!",
+   "td": "Los zepelines eran más largos que dos campos de fútbol.",
+   "o_fotos": [
+    {
+     "q": "party balloons",
+     "src": "cm"
+    },
+    {
+     "q": "helicopter",
+     "src": "cm"
+    },
+    {
+     "q": "zeppelin airship",
+     "src": "cm"
+    },
+    {
+     "q": "propeller airplane",
+     "src": "cm"
+    }
+   ]
+  }
+ ],
  "extra_tts": {}
 }

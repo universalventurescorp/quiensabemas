@@ -2,7 +2,7 @@
  "id": "ep019",
  "fecha": "2026-11-24",
  "formato": "normal",
- "estado": "en_proceso",
+ "estado": "listo",
  "codigo_sala": "RECORDS",
  "titulo": "Récords del mundo: lo más grande, rápido y alto",
  "titulo_youtube": "¿Qué tanto sabes de RÉCORDS? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
@@ -2138,6 +2138,170 @@
    "tp": "¿Qué idioma hablan más personas en total, como lengua nativa o segunda? ¿Inglés, Español, Chino mandarín o Hindi?",
    "tr": "¡El inglés!",
    "td": "Lo hablan más de mil millones de personas en el mundo."
+  },
+  {
+   "n": 91,
+   "tema": "geografía",
+   "p": "¿Cuál es el país más joven del mundo reconocido por la ONU, independiente desde 2011?",
+   "o": [
+    "Kosovo",
+    "Timor Oriental",
+    "Sudán del Sur",
+    "Montenegro"
+   ],
+   "c": 2,
+   "d": "Sudán del Sur se independizó de Sudán en 2011 y es el país reconocido más reciente.",
+   "tp": "¿Cuál es el país más joven del mundo reconocido por la ONU, independiente desde dos mil once? ¿Kosovo, Timor Oriental, Sudán del Sur o Montenegro?",
+   "tr": "¡Sudán del Sur!",
+   "td": "Sudán del Sur se independizó de Sudán en dos mil once y es el país reconocido más reciente."
+  },
+  {
+   "n": 92,
+   "tema": "Latinoamérica",
+   "p": "¿Cuál es la carretera más larga del mundo, que recorre América de norte a sur?",
+   "o": [
+    "Ruta 66",
+    "Transcanadiense",
+    "Camino Real",
+    "Carretera Panamericana"
+   ],
+   "c": 3,
+   "d": "La Panamericana mide unos 30.000 kilómetros, de Alaska hasta el sur de Argentina.",
+   "tp": "¿Cuál es la carretera más larga del mundo, que recorre América de norte a sur? ¿Ruta 66, Transcanadiense, Camino Real o Carretera Panamericana?",
+   "tr": "¡La Carretera Panamericana!",
+   "td": "La Panamericana mide unos treinta mil kilómetros, de Alaska hasta el sur de Argentina."
+  },
+  {
+   "n": 93,
+   "tema": "animales",
+   "p": "¿Qué ave tiene un pico más largo que todo su cuerpo, sin contar la cola?",
+   "o": [
+    "Tucán",
+    "Colibrí pico de espada",
+    "Pelícano",
+    "Flamenco"
+   ],
+   "c": 1,
+   "img_q": "Sword-billed hummingbird",
+   "img_modo": "revela",
+   "d": "El colibrí pico de espada vive en los Andes y usa su pico larguísimo para beber néctar.",
+   "tp": "¿Qué ave tiene un pico más largo que todo su cuerpo, sin contar la cola? ¿Tucán, Colibrí pico de espada, Pelícano o Flamenco?",
+   "tr": "¡El colibrí pico de espada!",
+   "td": "El colibrí pico de espada vive en los Andes y usa su pico larguísimo para beber néctar."
+  },
+  {
+   "n": 94,
+   "tema": "animales",
+   "p": "¿Cuál es la serpiente venenosa más larga del mundo?",
+   "o": [
+    "Mamba negra",
+    "Taipán",
+    "Víbora",
+    "Cobra real"
+   ],
+   "c": 3,
+   "d": "La cobra real puede medir más de 5 metros de largo.",
+   "tp": "¿Cuál es la serpiente venenosa más larga del mundo? ¿Mamba negra, Taipán, Víbora o Cobra real?",
+   "tr": "¡La cobra real!",
+   "td": "La cobra real puede medir más de cinco metros de largo."
+  },
+  {
+   "n": 95,
+   "tema": "espacio",
+   "p": "¿Qué planeta es tan poco denso que flotaría en el agua, si existiera un océano gigante?",
+   "o": [
+    "Júpiter",
+    "Neptuno",
+    "Saturno",
+    "Urano"
+   ],
+   "c": 2,
+   "d": "Saturno es el planeta menos denso: está hecho sobre todo de gas.",
+   "tp": "¿Qué planeta es tan poco denso que flotaría en el agua, si existiera un océano gigante? ¿Júpiter, Neptuno, Saturno o Urano?",
+   "tr": "¡Saturno!",
+   "td": "Saturno es el planeta menos denso: está hecho sobre todo de gas."
+  },
+  {
+   "n": 96,
+   "tema": "animales",
+   "p": "¿Qué animal marino se considera el más venenoso del mundo?",
+   "o": [
+    "Pez globo",
+    "Pulpo de anillos azules",
+    "Avispa de mar",
+    "Pez piedra"
+   ],
+   "c": 2,
+   "d": "La avispa de mar es una medusa de las costas de Australia y su veneno es muy peligroso.",
+   "tp": "¿Qué animal marino se considera el más venenoso del mundo? ¿Pez globo, Pulpo de anillos azules, Avispa de mar o Pez piedra?",
+   "tr": "¡La avispa de mar!",
+   "td": "La avispa de mar es una medusa de las costas de Australia y su veneno es muy peligroso."
+  },
+  {
+   "n": 97,
+   "tema": "ciencia",
+   "p": "¿A cuántos grados Celsius está la temperatura más baja que puede existir?",
+   "o": [
+    "−100 °C",
+    "−180 °C",
+    "−500 °C",
+    "−273 °C"
+   ],
+   "c": 3,
+   "d": "A −273 grados casi todo deja de moverse: es el llamado cero absoluto.",
+   "tp": "¿A cuántos grados Celsius está la temperatura más baja que puede existir? ¿menos cien grados, menos ciento ochenta grados, menos quinientos grados o menos doscientos setenta y tres grados?",
+   "tr": "¡Menos 273 grados!",
+   "td": "A menos doscientos setenta y tres grados casi todo deja de moverse: es el llamado cero absoluto."
+  },
+  {
+   "n": 98,
+   "tema": "animales",
+   "p": "¿Qué mamífero volador es el más grande del mundo, con alas de más de metro y medio?",
+   "o": [
+    "Murciélago vampiro",
+    "Zorro volador",
+    "Murciélago de herradura",
+    "Murciélago común"
+   ],
+   "c": 1,
+   "d": "Los zorros voladores son murciélagos gigantes que comen frutas y viven en Asia y Oceanía.",
+   "tp": "¿Qué mamífero volador es el más grande del mundo, con alas de más de metro y medio? ¿Murciélago vampiro, Zorro volador, Murciélago de herradura o Murciélago común?",
+   "tr": "¡El zorro volador!",
+   "td": "Los zorros voladores son murciélagos gigantes que comen frutas y viven en Asia y Oceanía."
+  },
+  {
+   "n": 99,
+   "tema": "geografía",
+   "p": "¿Cuál es el segundo país más pequeño del mundo, después del Vaticano?",
+   "o": [
+    "San Marino",
+    "Liechtenstein",
+    "Nauru",
+    "Mónaco"
+   ],
+   "c": 3,
+   "d": "Mónaco mide unos 2 kilómetros cuadrados y está junto al mar Mediterráneo.",
+   "tp": "¿Cuál es el segundo país más pequeño del mundo, después del Vaticano? ¿San Marino, Liechtenstein, Nauru o Mónaco?",
+   "tr": "¡Mónaco!",
+   "td": "Mónaco mide unos dos kilómetros cuadrados y está junto al mar Mediterráneo."
+  },
+  {
+   "n": 100,
+   "tema": "espacio",
+   "p": "¿Cuántas Tierras caben, más o menos, dentro de Júpiter?",
+   "o": [
+    "Unas 13",
+    "Unas 130",
+    "Más de 1.000",
+    "Más de 100.000"
+   ],
+   "c": 2,
+   "img_q": "Jupiter",
+   "img_modo": "revela",
+   "d": "Júpiter es tan grande que caben más de 1.000 Tierras en su interior.",
+   "tp": "¿Cuántas Tierras caben, más o menos, dentro de Júpiter? ¿Unas trece, Unas ciento treinta, Más de mil o Más de cien mil?",
+   "tr": "¡Más de mil Tierras!",
+   "td": "Júpiter es tan grande que caben más de mil Tierras en su interior."
   }
  ],
  "extra_tts": {
@@ -2304,6 +2468,14 @@
   "charla90_co": [
    "copresentadora",
    "Qué dramático, MAX. Familia, ¡quedan diez preguntas para el gran final!"
+  ],
+  "charla95_pr": [
+   "presentador",
+   "¡Del Atacama a las Marianas, y un Venus que gira como tortuga! Qué final de aventura."
+  ],
+  "charla95_co": [
+   "copresentadora",
+   "Y el bambú crece más rápido que tú, MAX. Familia, ¡falta solo la última pregunta!"
   ]
  },
  "fotos_miniatura": [

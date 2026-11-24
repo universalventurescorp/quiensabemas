@@ -2,7 +2,7 @@
  "id": "ep020",
  "fecha": "2026-11-25",
  "formato": "normal",
- "estado": "en_proceso",
+ "estado": "listo",
  "codigo_sala": "CASTILLO",
  "titulo": "Castillos, caballeros y piratas: aventuras de la historia",
  "titulo_youtube": "¿Sabes de CASTILLOS, CABALLEROS y PIRATAS? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
@@ -19,6 +19,2162 @@
  "reto_miniatura": "¿Llegas a la 100?",
  "objetivo_preguntas": 100,
  "total_anunciado": 100,
- "preguntas": [],
- "extra_tts": {}
+ "preguntas": [
+  {
+   "n": 1,
+   "tema": "historia",
+   "p": "¿Cómo se llama la famosa bandera pirata con una calavera?",
+   "o": [
+    "Union Jack",
+    "Estandarte real",
+    "Jolly Roger",
+    "Blue Peter"
+   ],
+   "c": 2,
+   "d": "La bandera negra con calavera y huesos cruzados se conoce como «Jolly Roger».",
+   "tp": "¿Cómo se llama la famosa bandera pirata con una calavera? ¿Union Jack, Estandarte real, Jolly Roger o Blue Peter?",
+   "tr": "¡La Jolly Roger!",
+   "td": "La bandera negra con calavera y huesos cruzados se conoce como Jolly Roger."
+  },
+  {
+   "n": 2,
+   "tema": "animales",
+   "p": "¿Qué animal suele acompañar al pirata de los cuentos, sobre su hombro?",
+   "o": [
+    "Un loro",
+    "Un gato",
+    "Un mono",
+    "Un cuervo"
+   ],
+   "c": 0,
+   "d": "Los loros eran muy apreciados por los marinos y se vendían en los puertos.",
+   "tp": "¿Qué animal suele acompañar al pirata de los cuentos, sobre su hombro? ¿Un loro, Un gato, Un mono o Un cuervo?",
+   "tr": "¡Un loro!",
+   "td": "Los loros eran muy apreciados por los marinos y se vendían en los puertos.",
+   "o_fotos": [
+    {
+     "q": "parrot",
+     "src": "px"
+    },
+    {
+     "q": "cat",
+     "src": "px"
+    },
+    {
+     "q": "monkey",
+     "src": "px"
+    },
+    {
+     "q": "crow",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "tema": "historia",
+   "p": "¿Qué lleva en el ojo el pirata de las películas?",
+   "o": [
+    "Unas gafas",
+    "Un parche",
+    "Un monóculo",
+    "Una venda blanca"
+   ],
+   "c": 1,
+   "d": "Se dice que el parche ayudaba a ver en la oscuridad bajo cubierta al quitárselo.",
+   "tp": "¿Qué lleva en el ojo el pirata de las películas? ¿Unas gafas, Un parche, Un monóculo o Una venda blanca?",
+   "tr": "¡Un parche!",
+   "td": "Se dice que el parche ayudaba a ver en la oscuridad bajo cubierta al quitárselo.",
+   "o_fotos": [
+    {
+     "q": "eyeglasses",
+     "src": "px"
+    },
+    {
+     "q": "pirate eye patch",
+     "src": "px"
+    },
+    {
+     "q": "monocle",
+     "src": "px"
+    },
+    {
+     "q": "eye bandage",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "tema": "historia",
+   "p": "¿Cómo se llama el gran hueco lleno de agua que rodeaba muchos castillos?",
+   "o": [
+    "Estanque",
+    "Canal",
+    "Pozo",
+    "Foso"
+   ],
+   "c": 3,
+   "d": "El foso dificultaba que los enemigos llegaran hasta las murallas.",
+   "tp": "¿Cómo se llama el gran hueco lleno de agua que rodeaba muchos castillos? ¿Estanque, Canal, Pozo o Foso?",
+   "tr": "¡El foso!",
+   "td": "El foso dificultaba que los enemigos llegaran hasta las murallas."
+  },
+  {
+   "n": 5,
+   "tema": "historia",
+   "p": "¿Qué se levantaba con cadenas para cerrar la entrada de un castillo?",
+   "o": [
+    "Escalera de cuerda",
+    "Torre móvil",
+    "Puente levadizo",
+    "Portón de madera"
+   ],
+   "c": 2,
+   "d": "El puente levadizo se subía con cadenas para que nadie cruzara el foso.",
+   "tp": "¿Qué se levantaba con cadenas para cerrar la entrada de un castillo? ¿Escalera de cuerda, Torre móvil, Puente levadizo o Portón de madera?",
+   "tr": "¡El puente levadizo!",
+   "td": "El puente levadizo se subía con cadenas para que nadie cruzara el foso."
+  },
+  {
+   "n": 6,
+   "tema": "historia",
+   "p": "¿Qué usaban los caballeros para protegerse el cuerpo en la batalla?",
+   "o": [
+    "Una armadura",
+    "Un chaleco",
+    "Un poncho",
+    "Un delantal"
+   ],
+   "c": 0,
+   "d": "Las armaduras de placas se hacían a medida de cada caballero.",
+   "tp": "¿Qué usaban los caballeros para protegerse el cuerpo en la batalla? ¿Una armadura, Un chaleco, Un poncho o Un delantal?",
+   "tr": "¡Una armadura!",
+   "td": "Las armaduras de placas se hacían a medida de cada caballero.",
+   "o_fotos": [
+    {
+     "q": "medieval knight armor",
+     "src": "px"
+    },
+    {
+     "q": "vest clothing",
+     "src": "px"
+    },
+    {
+     "q": "poncho",
+     "src": "px"
+    },
+    {
+     "q": "apron",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "tema": "historia",
+   "p": "¿Cómo se llamaba el joven que ayudaba al caballero y cuidaba su escudo y su caballo?",
+   "o": [
+    "Juglar",
+    "Herrero",
+    "Bufón",
+    "Escudero"
+   ],
+   "c": 3,
+   "d": "Un escudero aprendía el oficio de las armas para llegar a ser caballero.",
+   "tp": "¿Cómo se llamaba el joven que ayudaba al caballero y cuidaba su escudo y su caballo? ¿Juglar, Herrero, Bufón o Escudero?",
+   "tr": "¡El escudero!",
+   "td": "Un escudero aprendía el oficio de las armas para llegar a ser caballero."
+  },
+  {
+   "n": 8,
+   "tema": "música",
+   "p": "¿Cómo se llamaba el artista que viajaba cantando historias de castillo en castillo?",
+   "o": [
+    "Escudero",
+    "Alquimista",
+    "Heraldo",
+    "Juglar"
+   ],
+   "c": 3,
+   "d": "Los juglares cantaban, recitaban y hacían malabares para divertir a los nobles.",
+   "tp": "¿Cómo se llamaba el artista que viajaba cantando historias de castillo en castillo? ¿Escudero, Alquimista, Heraldo o Juglar?",
+   "tr": "¡El juglar!",
+   "td": "Los juglares cantaban, recitaban y hacían malabares para divertir a los nobles."
+  },
+  {
+   "n": 9,
+   "tema": "historia",
+   "p": "¿Cómo se llamaba la torre más alta y fuerte de un castillo?",
+   "o": [
+    "Torre de marfil",
+    "Torre del homenaje",
+    "Torre del reloj",
+    "Torre de control"
+   ],
+   "c": 1,
+   "d": "Era el último refugio del castillo cuando el enemigo entraba al patio.",
+   "tp": "¿Cómo se llamaba la torre más alta y fuerte de un castillo? ¿Torre de marfil, Torre del homenaje, Torre del reloj o Torre de control?",
+   "tr": "¡La torre del homenaje!",
+   "td": "Era el último refugio del castillo cuando el enemigo entraba al patio."
+  },
+  {
+   "n": 10,
+   "tema": "historia",
+   "p": "¿Para qué servía una catapulta?",
+   "o": [
+    "Subir agua del foso",
+    "Cruzar ríos",
+    "Encender fuego",
+    "Lanzar piedras a los muros"
+   ],
+   "c": 3,
+   "d": "Las catapultas podían lanzar piedras de decenas de kilos contra las murallas.",
+   "tp": "¿Para qué servía una catapulta? ¿Subir agua del foso, Cruzar ríos, Encender fuego o Lanzar piedras a los muros?",
+   "tr": "¡Para lanzar piedras!",
+   "td": "Las catapultas podían lanzar piedras de decenas de kilos contra las murallas."
+  },
+  {
+   "n": 11,
+   "tema": "geografía",
+   "ronda": "misteriosa",
+   "p": "¿En qué país está esta abadía fortificada que queda rodeada por el mar con la marea alta?",
+   "o": [
+    "Francia",
+    "Italia",
+    "España",
+    "Irlanda"
+   ],
+   "c": 0,
+   "img_q": "Mont-Saint-Michel",
+   "img_modo": "pregunta",
+   "d": "El Mont-Saint-Michel es una isla con abadía en el norte de Francia.",
+   "tp": "Miren bien la foto. ¿En qué país está esta abadía fortificada que queda rodeada por el mar con la marea alta? ¿Francia, Italia, España o Irlanda?",
+   "tr": "¡Francia! Es el Mont-Saint-Michel.",
+   "td": "El Mont-Saint-Michel es una isla con abadía en el norte de Francia."
+  },
+  {
+   "n": 12,
+   "tema": "historia",
+   "ronda": "misteriosa",
+   "p": "¿Qué arma es esta, que dispara flechas con un gatillo?",
+   "o": [
+    "Honda",
+    "Lanza",
+    "Maza",
+    "Ballesta"
+   ],
+   "c": 3,
+   "img_q": "Crossbow",
+   "img_modo": "pregunta",
+   "d": "La ballesta dispara flechas cortas y no exige tanta fuerza como un arco.",
+   "tp": "Miren bien la foto. ¿Qué arma es esta, que dispara flechas con un gatillo? ¿Honda, Lanza, Maza o Ballesta?",
+   "tr": "¡La ballesta!",
+   "td": "La ballesta dispara flechas cortas y no exige tanta fuerza como un arco."
+  },
+  {
+   "n": 13,
+   "tema": "geografía",
+   "ronda": "misteriosa",
+   "p": "¿En qué país está este castillo, sobre una roca de origen volcánico?",
+   "o": [
+    "Escocia",
+    "Irlanda",
+    "Gales",
+    "Noruega"
+   ],
+   "c": 0,
+   "img_q": "Edinburgh Castle",
+   "img_modo": "pregunta",
+   "d": "El castillo de Edimburgo se alza sobre una roca volcánica en el centro de la ciudad.",
+   "tp": "Miren bien la foto. ¿En qué país está este castillo, sobre una roca de origen volcánico? ¿Escocia, Irlanda, Gales o Noruega?",
+   "tr": "¡Escocia! Es el castillo de Edimburgo.",
+   "td": "El castillo de Edimburgo se alza sobre una roca volcánica en el centro de la ciudad."
+  },
+  {
+   "n": 14,
+   "tema": "historia",
+   "p": "¿Cómo se llama el dibujo de colores y animales que identificaba a cada familia noble?",
+   "o": [
+    "Tatuaje",
+    "Escudo de armas",
+    "Sello postal",
+    "Mapa"
+   ],
+   "c": 1,
+   "d": "Los escudos de armas decoraban banderas, armaduras y puertas de castillos.",
+   "tp": "¿Cómo se llama el dibujo de colores y animales que identificaba a cada familia noble? ¿Tatuaje, Escudo de armas, Sello postal o Mapa?",
+   "tr": "¡El escudo de armas!",
+   "td": "Los escudos de armas decoraban banderas, armaduras y puertas de castillos."
+  },
+  {
+   "n": 15,
+   "tema": "literatura",
+   "p": "¿Qué rey de leyenda tenía una Mesa Redonda con sus caballeros?",
+   "o": [
+    "Ricardo",
+    "Carlomagno",
+    "Arturo",
+    "Alfredo"
+   ],
+   "c": 2,
+   "d": "En la Mesa Redonda nadie estaba a la cabecera: todos los caballeros eran iguales.",
+   "tp": "¿Qué rey de leyenda tenía una Mesa Redonda con sus caballeros? ¿Ricardo, Carlomagno, Arturo o Alfredo?",
+   "tr": "¡El rey Arturo!",
+   "td": "En la Mesa Redonda nadie estaba a la cabecera: todos los caballeros eran iguales."
+  },
+  {
+   "n": 16,
+   "tema": "literatura",
+   "p": "¿Cómo se llama la espada mágica del rey Arturo?",
+   "o": [
+    "Durandal",
+    "Excalibur",
+    "Tizona",
+    "Colada"
+   ],
+   "c": 1,
+   "d": "En algunas leyendas, Arturo saca la espada de una piedra; en otras, la recibe de una dama del lago.",
+   "tp": "¿Cómo se llama la espada mágica del rey Arturo? ¿Durandal, Excalibur, Tizona o Colada?",
+   "tr": "¡Excalibur!",
+   "td": "En algunas leyendas, Arturo saca la espada de una piedra; en otras, la recibe de una dama del lago."
+  },
+  {
+   "n": 17,
+   "tema": "historia",
+   "p": "¿Qué famoso pirata del Caribe, de barba negra, aterrorizó las costas hace 300 años?",
+   "o": [
+    "Barbarroja",
+    "Barbanegra",
+    "Barbablanca",
+    "Barbaverde"
+   ],
+   "c": 1,
+   "d": "Barbanegra se hacía mechas humeantes en la barba para parecer más temible.",
+   "tp": "¿Qué famoso pirata del Caribe, de barba negra, aterrorizó las costas hace trescientos años? ¿Barbarroja, Barbanegra, Barbablanca o Barbaverde?",
+   "tr": "¡Barbanegra!",
+   "td": "Barbanegra se hacía mechas humeantes en la barba para parecer más temible."
+  },
+  {
+   "n": 18,
+   "tema": "geografía",
+   "p": "¿En qué mar actuaron muchos piratas entre los siglos XVII y XVIII?",
+   "o": [
+    "Mar Báltico",
+    "Mar Negro",
+    "Mar Caribe",
+    "Mar Rojo"
+   ],
+   "c": 2,
+   "d": "Los galeones cargados de oro y plata cruzaban el Caribe rumbo a España.",
+   "tp": "¿En qué mar actuaron muchos piratas entre los siglos diecisiete y dieciocho? ¿Mar Báltico, Mar Negro, Mar Caribe o Mar Rojo?",
+   "tr": "¡El mar Caribe!",
+   "td": "Los galeones cargados de oro y plata cruzaban el Caribe rumbo a España."
+  },
+  {
+   "n": 19,
+   "tema": "Perú",
+   "p": "¿Qué corsario inglés atacó el puerto del Callao, en Perú, en 1579?",
+   "o": [
+    "Henry Morgan",
+    "Barbanegra",
+    "Francis Drake",
+    "Walter Raleigh"
+   ],
+   "c": 2,
+   "d": "Drake llegó al Pacífico por el estrecho de Magallanes y asaltó barcos españoles.",
+   "tp": "¿Qué corsario inglés atacó el puerto del Callao, en Perú, en mil quinientos setenta y nueve? ¿Henry Morgan, Barbanegra, Francis Drake o Walter Raleigh?",
+   "tr": "¡Francis Drake!",
+   "td": "Drake llegó al Pacífico por el estrecho de Magallanes y asaltó barcos españoles."
+  },
+  {
+   "n": 20,
+   "tema": "Latinoamérica",
+   "p": "¿En qué ciudad de Puerto Rico está el castillo San Felipe del Morro?",
+   "o": [
+    "Ponce",
+    "Mayagüez",
+    "Arecibo",
+    "San Juan"
+   ],
+   "c": 3,
+   "img_q": "Castillo San Felipe del Morro",
+   "img_modo": "revela",
+   "d": "El Morro vigiló la bahía de San Juan durante siglos contra piratas y flotas enemigas.",
+   "tp": "¿En qué ciudad de Puerto Rico está el castillo San Felipe del Morro? ¿Ponce, Mayagüez, Arecibo o San Juan?",
+   "tr": "¡San Juan!",
+   "td": "El Morro vigiló la bahía de San Juan durante siglos contra piratas y flotas enemigas."
+  },
+  {
+   "n": 21,
+   "tema": "Perú",
+   "p": "¿Qué fortaleza del Callao, del siglo XVIII, defendía el puerto y lleva nombre de rey?",
+   "o": [
+    "Real Felipe",
+    "Paramonga",
+    "Sacsayhuamán",
+    "Pukapukara"
+   ],
+   "c": 0,
+   "d": "La fortaleza del Real Felipe hoy es museo y se ubica junto al mar, en el Callao.",
+   "tp": "¿Qué fortaleza del Callao, del siglo dieciocho, defendía el puerto y lleva nombre de rey? ¿Real Felipe, Paramonga, Sacsayhuamán o Pukapukara?",
+   "tr": "¡El Real Felipe!",
+   "td": "La fortaleza del Real Felipe hoy es museo y se ubica junto al mar, en el Callao."
+  },
+  {
+   "n": 22,
+   "tema": "historia",
+   "p": "¿Cuál es el castillo habitado más grande del mundo?",
+   "o": [
+    "Chambord",
+    "Windsor",
+    "Hohenzollern",
+    "Alcázar de Segovia"
+   ],
+   "c": 1,
+   "d": "El castillo de Windsor, en Inglaterra, es residencia de la familia real británica desde hace casi mil años.",
+   "tp": "¿Cuál es el castillo habitado más grande del mundo? ¿Chambord, Windsor, Hohenzollern o Alcázar de Segovia?",
+   "tr": "¡El castillo de Windsor!",
+   "td": "El castillo de Windsor, en Inglaterra, es residencia de la familia real británica desde hace casi mil años.",
+   "o_fotos": [
+    {
+     "q": "Chambord castle",
+     "src": "cm",
+     "must": "Windsor"
+    },
+    {
+     "q": "Windsor Castle",
+     "src": "cm",
+     "must": "Chambord"
+    },
+    {
+     "q": "Hohenzollern castle",
+     "src": "cm",
+     "must": "Hohenzollern"
+    },
+    {
+     "q": "Alcázar of Segovia",
+     "src": "cm",
+     "must": "Segovia"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "tema": "geografía",
+   "p": "¿En qué país está el castillo de Bran, ligado a la leyenda de Drácula?",
+   "o": [
+    "Hungría",
+    "Bulgaria",
+    "Polonia",
+    "Rumania"
+   ],
+   "c": 3,
+   "d": "El castillo de Bran, en Transilvania, atrae visitantes por la leyenda de Drácula.",
+   "tp": "¿En qué país está el castillo de Bran, ligado a la leyenda de Drácula? ¿Hungría, Bulgaria, Polonia o Rumania?",
+   "tr": "¡Rumania!",
+   "td": "El castillo de Bran, en Transilvania, atrae visitantes por la leyenda de Drácula.",
+   "o_fotos": [
+    {
+     "flag": "hu"
+    },
+    {
+     "flag": "bg"
+    },
+    {
+     "flag": "pl"
+    },
+    {
+     "flag": "ro"
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "tema": "historia",
+   "ronda": "vf",
+   "p": "Con una armadura puesta, un caballero no podía levantarse del suelo.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Falso: una armadura pesaba unos 25 kilos repartidos, y los caballeros se movían con soltura.",
+   "tp": "¿Verdadero o falso? Con una armadura puesta, un caballero no podía levantarse del suelo.",
+   "tr": "¡Falso! Se movían con soltura.",
+   "td": "Falso: una armadura pesaba unos veinticinco kilos repartidos, y los caballeros se movían con soltura."
+  },
+  {
+   "n": 25,
+   "tema": "historia",
+   "ronda": "vf",
+   "p": "Los piratas hacían caminar a sus prisioneros por una tabla hasta el mar.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Casi no hay pruebas: el castigo de la tabla es más cosa de novelas y películas.",
+   "tp": "¿Verdadero o falso? Los piratas hacían caminar a sus prisioneros por una tabla hasta el mar.",
+   "tr": "¡Falso! Eso salió de las novelas.",
+   "td": "Casi no hay pruebas: el castigo de la tabla es más cosa de novelas y películas."
+  },
+  {
+   "n": 26,
+   "tema": "historia",
+   "ronda": "vf",
+   "p": "Los castillos tenían baños que desaguaban directamente hacia el foso o el exterior.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Se llamaban letrinas o «necesarias»: eran pequeños cuartos colgados sobre la muralla.",
+   "tp": "¿Verdadero o falso? Los castillos tenían baños que desaguaban directamente hacia el foso o el exterior.",
+   "tr": "¡Verdadero! Eran letrinas en la muralla.",
+   "td": "Se llamaban letrinas o necesarias: eran pequeños cuartos colgados sobre la muralla."
+  },
+  {
+   "n": 27,
+   "tema": "historia",
+   "p": "¿De qué metal se hacían la mayoría de las armaduras de los caballeros?",
+   "o": [
+    "Aluminio",
+    "Acero",
+    "Cobre",
+    "Oro"
+   ],
+   "c": 1,
+   "d": "El acero era más resistente que el hierro y se trabajaba golpeándolo al rojo vivo.",
+   "tp": "¿De qué metal se hacían la mayoría de las armaduras de los caballeros? ¿Aluminio, Acero, Cobre o Oro?",
+   "tr": "¡El acero!",
+   "td": "El acero era más resistente que el hierro y se trabajaba golpeándolo al rojo vivo."
+  },
+  {
+   "n": 28,
+   "tema": "historia",
+   "p": "¿Cuánto pesaba, más o menos, una armadura completa de caballero?",
+   "o": [
+    "Unos 100 kilos",
+    "Menos de un kilo",
+    "Unos 200 kilos",
+    "Unos 25 kilos"
+   ],
+   "c": 3,
+   "d": "Pesaba entre 20 y 25 kilos, repartidos por todo el cuerpo.",
+   "tp": "¿Cuánto pesaba, más o menos, una armadura completa de caballero? ¿Unos cien kilos, Menos de un kilo, Unos doscientos kilos o Unos veinticinco kilos?",
+   "tr": "¡Unos veinticinco kilos!",
+   "td": "Pesaba entre veinte y veinticinco kilos, repartidos por todo el cuerpo."
+  },
+  {
+   "n": 29,
+   "tema": "historia",
+   "p": "¿En qué consistía una justa medieval?",
+   "o": [
+    "Una carrera de barcos",
+    "Un concurso de cocina",
+    "Combates a caballo con lanzas",
+    "Un baile de salón"
+   ],
+   "c": 2,
+   "d": "Las justas eran espectáculos donde los caballeros demostraban su valentía.",
+   "tp": "¿En qué consistía una justa medieval? ¿Una carrera de barcos, Un concurso de cocina, Combates a caballo con lanzas o Un baile de salón?",
+   "tr": "¡Combates a caballo con lanzas!",
+   "td": "Las justas eran espectáculos donde los caballeros demostraban su valentía."
+  },
+  {
+   "n": 30,
+   "tema": "historia",
+   "p": "¿Qué explorador español cruzó el istmo de Panamá y vio el océano Pacífico en 1513?",
+   "o": [
+    "Hernán Cortés",
+    "Francisco Pizarro",
+    "Vasco Núñez de Balboa",
+    "Diego de Almagro"
+   ],
+   "c": 2,
+   "d": "Balboa llamó al nuevo océano «Mar del Sur».",
+   "tp": "¿Qué explorador español cruzó el istmo de Panamá y vio el océano Pacífico en mil quinientos trece? ¿Hernán Cortés, Francisco Pizarro, Vasco Núñez de Balboa o Diego de Almagro?",
+   "tr": "¡Vasco Núñez de Balboa!",
+   "td": "Balboa llamó al nuevo océano Mar del Sur."
+  },
+  {
+   "n": 31,
+   "tema": "historia",
+   "p": "¿Qué explorador español bajó por el Amazonas desde los Andes hasta el Atlántico?",
+   "o": [
+    "Pedro de Valdivia",
+    "Pedro de Alvarado",
+    "Gonzalo Pizarro",
+    "Francisco de Orellana"
+   ],
+   "c": 3,
+   "d": "Orellana recorrió el río en 1541 y 1542 en barcos que construyó en plena selva.",
+   "tp": "¿Qué explorador español bajó por el Amazonas desde los Andes hasta el Atlántico? ¿Pedro de Valdivia, Pedro de Alvarado, Gonzalo Pizarro o Francisco de Orellana?",
+   "tr": "¡Francisco de Orellana!",
+   "td": "Orellana recorrió el río en mil quinientos cuarenta y uno y cuarenta y dos en barcos que construyó en plena selva."
+  },
+  {
+   "n": 32,
+   "tema": "Perú",
+   "p": "¿Qué conquistador fundó la ciudad de Lima en 1535?",
+   "o": [
+    "Hernán Cortés",
+    "Diego de Almagro",
+    "Francisco Pizarro",
+    "Pedro de Valdivia"
+   ],
+   "c": 2,
+   "d": "Pizarro la fundó el 18 de enero como «Ciudad de los Reyes».",
+   "tp": "¿Qué conquistador fundó la ciudad de Lima en mil quinientos treinta y cinco? ¿Hernán Cortés, Diego de Almagro, Francisco Pizarro o Pedro de Valdivia?",
+   "tr": "¡Francisco Pizarro!",
+   "td": "Pizarro la fundó el dieciocho de enero como Ciudad de los Reyes."
+  },
+  {
+   "n": 33,
+   "tema": "historia",
+   "p": "¿Qué navegante vikingo llegó a América hacia el año 1000, casi 500 años antes de Colón?",
+   "o": [
+    "Ragnar Lodbrok",
+    "Harald Hardrada",
+    "Canuto el Grande",
+    "Leif Erikson"
+   ],
+   "c": 3,
+   "d": "Los vikingos se instalaron brevemente en Terranova, en el actual Canadá.",
+   "tp": "¿Qué navegante vikingo llegó a América hacia el año mil, casi quinientos años antes de Colón? ¿Ragnar Lodbrok, Harald Hardrada, Canuto el Grande o Leif Erikson?",
+   "tr": "¡Leif Erikson!",
+   "td": "Los vikingos se instalaron brevemente en Terranova, en el actual Canadá."
+  },
+  {
+   "n": 34,
+   "tema": "historia",
+   "p": "¿Cómo se llamaban las monedas de oro españolas típicas de los tesoros piratas?",
+   "o": [
+    "Doblones",
+    "Dracmas",
+    "Denarios",
+    "Florines"
+   ],
+   "c": 0,
+   "d": "Un doblón de oro valía mucho más que una moneda de plata.",
+   "tp": "¿Cómo se llamaban las monedas de oro españolas típicas de los tesoros piratas? ¿Doblones, Dracmas, Denarios o Florines?",
+   "tr": "¡Los doblones!",
+   "td": "Un doblón de oro valía mucho más que una moneda de plata."
+  },
+  {
+   "n": 35,
+   "tema": "historia",
+   "p": "¿Cómo se llamaban los grandes barcos españoles que traían oro y plata de América?",
+   "o": [
+    "Canoas",
+    "Vapores",
+    "Galeones",
+    "Catamaranes"
+   ],
+   "c": 2,
+   "d": "Los galeones viajaban en flotas para protegerse de los piratas.",
+   "tp": "¿Cómo se llamaban los grandes barcos españoles que traían oro y plata de América? ¿Canoas, Vapores, Galeones o Catamaranes?",
+   "tr": "¡Los galeones!",
+   "td": "Los galeones viajaban en flotas para protegerse de los piratas.",
+   "o_fotos": [
+    {
+     "q": "canoe",
+     "src": "px"
+    },
+    {
+     "q": "steamship",
+     "src": "px"
+    },
+    {
+     "q": "Spanish galleon ship",
+     "src": "cm",
+     "must": "galleon"
+    },
+    {
+     "q": "catamaran",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "tema": "historia",
+   "p": "¿En qué país está el castillo de Malbork, el mayor castillo de ladrillo del mundo?",
+   "o": [
+    "Chequia",
+    "Polonia",
+    "Hungría",
+    "Lituania"
+   ],
+   "c": 1,
+   "img_q": "Malbork Castle",
+   "img_modo": "revela",
+   "d": "Malbork fue construido por los caballeros teutónicos y es Patrimonio de la Humanidad.",
+   "tp": "¿En qué país está el castillo de Malbork, el mayor castillo de ladrillo del mundo? ¿Chequia, Polonia, Hungría o Lituania?",
+   "tr": "¡Polonia!",
+   "td": "Malbork fue construido por los caballeros teutónicos y es Patrimonio de la Humanidad.",
+   "o_fotos": [
+    {
+     "flag": "cz"
+    },
+    {
+     "flag": "pl"
+    },
+    {
+     "flag": "hu"
+    },
+    {
+     "flag": "lt"
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "tema": "geografía",
+   "p": "¿En qué país está el castillo de Himeji, llamado «de la garza blanca»?",
+   "o": [
+    "Japón",
+    "China",
+    "Corea del Sur",
+    "Tailandia"
+   ],
+   "c": 0,
+   "img_q": "Himeji Castle",
+   "img_modo": "revela",
+   "d": "Himeji tiene paredes blancas y se parece a un ave con las alas abiertas.",
+   "tp": "¿En qué país está el castillo de Himeji, llamado «de la garza blanca»? ¿Japón, China, Corea del Sur o Tailandia?",
+   "tr": "¡Japón!",
+   "td": "Himeji tiene paredes blancas y se parece a un ave con las alas abiertas.",
+   "o_fotos": [
+    {
+     "flag": "jp"
+    },
+    {
+     "flag": "cn"
+    },
+    {
+     "flag": "kr"
+    },
+    {
+     "flag": "th"
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "tema": "historia",
+   "p": "¿Qué ciudad de España conserva completas sus murallas medievales de granito?",
+   "o": [
+    "Madrid",
+    "Ávila",
+    "Valencia",
+    "Sevilla"
+   ],
+   "c": 1,
+   "d": "Las murallas de Ávila tienen unos 2.500 metros y más de 80 torres.",
+   "tp": "¿Qué ciudad de España conserva completas sus murallas medievales de granito? ¿Madrid, Ávila, Valencia o Sevilla?",
+   "tr": "¡Ávila!",
+   "td": "Las murallas de Ávila tienen unos dos mil quinientos metros y más de ochenta torres."
+  },
+  {
+   "n": 39,
+   "tema": "literatura",
+   "p": "¿Quién escribió «La isla del tesoro»?",
+   "o": [
+    "Julio Verne",
+    "Mark Twain",
+    "Charles Dickens",
+    "Robert Louis Stevenson"
+   ],
+   "c": 3,
+   "d": "Stevenson creó al pirata Long John Silver, con su pata de palo y su loro.",
+   "tp": "¿Quién escribió «La isla del tesoro»? ¿Julio Verne, Mark Twain, Charles Dickens o Robert Louis Stevenson?",
+   "tr": "¡Robert Louis Stevenson!",
+   "td": "Stevenson creó al pirata Long John Silver, con su pata de palo y su loro."
+  },
+  {
+   "n": 40,
+   "tema": "historia",
+   "p": "¿Cómo se llama la plataforma en lo alto del mástil donde se sube el vigía?",
+   "o": [
+    "Cofa",
+    "Proa",
+    "Popa",
+    "Quilla"
+   ],
+   "c": 0,
+   "d": "Desde la cofa, el vigía avisaba al capitán cuando veía tierra u otro barco.",
+   "tp": "¿Cómo se llama la plataforma en lo alto del mástil donde se sube el vigía? ¿Cofa, Proa, Popa o Quilla?",
+   "tr": "¡La cofa!",
+   "td": "Desde la cofa, el vigía avisaba al capitán cuando veía tierra u otro barco."
+  },
+  {
+   "n": 41,
+   "tema": "historia",
+   "ronda": "relampago",
+   "p": "¿Quién manda en un barco?",
+   "o": [
+    "Cocinero",
+    "Grumete",
+    "Capitán",
+    "Pasajero"
+   ],
+   "c": 2,
+   "d": "El capitán manda a bordo.",
+   "tp": "¿Quién manda en un barco? ¿Cocinero, Grumete, Capitán o Pasajero?",
+   "tr": "¡El capitán!",
+   "td": "El capitán manda a bordo."
+  },
+  {
+   "n": 42,
+   "tema": "historia",
+   "ronda": "relampago",
+   "p": "¿Qué lleva el caballero en el brazo?",
+   "o": [
+    "Escudo",
+    "Paraguas",
+    "Guitarra",
+    "Bandera"
+   ],
+   "c": 0,
+   "d": "Con el escudo se protege.",
+   "tp": "¿Qué lleva el caballero en el brazo? ¿Escudo, Paraguas, Guitarra o Bandera?",
+   "tr": "¡El escudo!",
+   "td": "Con el escudo se protege."
+  },
+  {
+   "n": 43,
+   "tema": "historia",
+   "ronda": "relampago",
+   "p": "¿Qué disparan los arqueros?",
+   "o": [
+    "Balas",
+    "Piedras",
+    "Cohetes",
+    "Flechas"
+   ],
+   "c": 3,
+   "d": "Las flechas van con arco.",
+   "tp": "¿Qué disparan los arqueros? ¿Balas, Piedras, Cohetes o Flechas?",
+   "tr": "¡Flechas!",
+   "td": "Las flechas van con arco."
+  },
+  {
+   "n": 44,
+   "tema": "historia",
+   "ronda": "relampago",
+   "p": "¿Dónde vivía un rey?",
+   "o": [
+    "Cabaña",
+    "Castillo",
+    "Barco",
+    "Cueva"
+   ],
+   "c": 1,
+   "d": "Los reyes vivían en castillos.",
+   "tp": "¿Dónde vivía un rey? ¿Cabaña, Castillo, Barco o Cueva?",
+   "tr": "¡En un castillo!",
+   "td": "Los reyes vivían en castillos."
+  },
+  {
+   "n": 45,
+   "tema": "historia",
+   "ronda": "relampago",
+   "p": "¿Qué buscan los piratas?",
+   "o": [
+    "Setas",
+    "Libros",
+    "Tesoros",
+    "Flores"
+   ],
+   "c": 2,
+   "d": "Y los guardan en cofres.",
+   "tp": "¿Qué buscan los piratas? ¿Setas, Libros, Tesoros o Flores?",
+   "tr": "¡Tesoros!",
+   "td": "Y los guardan en cofres."
+  },
+  {
+   "n": 46,
+   "tema": "historia",
+   "p": "¿Qué rey inglés, apodado «Corazón de León», luchó en las Cruzadas?",
+   "o": [
+    "Eduardo I",
+    "Enrique V",
+    "Ricardo I",
+    "Guillermo I"
+   ],
+   "c": 2,
+   "d": "Ricardo I pasó muy poco tiempo en Inglaterra durante su reinado.",
+   "tp": "¿Qué rey inglés, apodado «Corazón de León», luchó en las Cruzadas? ¿Eduardo I, Enrique V, Ricardo I o Guillermo I?",
+   "tr": "¡Ricardo I!",
+   "td": "Ricardo primero pasó muy poco tiempo en Inglaterra durante su reinado."
+  },
+  {
+   "n": 47,
+   "tema": "historia",
+   "p": "¿Qué reina de Castilla apoyó el primer viaje de Colón a América?",
+   "o": [
+    "Juana la Loca",
+    "Catalina de Aragón",
+    "Isabel I",
+    "Leonor de Aquitania"
+   ],
+   "c": 2,
+   "d": "Isabel y su esposo Fernando recibieron a Colón tras su regreso en 1493.",
+   "tp": "¿Qué reina de Castilla apoyó el primer viaje de Colón a América? ¿Juana la Loca, Catalina de Aragón, Isabel I o Leonor de Aquitania?",
+   "tr": "¡Isabel la Católica!",
+   "td": "Isabel y su esposo Fernando recibieron a Colón tras su regreso en mil cuatrocientos noventa y tres."
+  },
+  {
+   "n": 48,
+   "tema": "historia",
+   "p": "¿Cómo se llamaba el gran arco de los arqueros ingleses en la guerra de los Cien Años?",
+   "o": [
+    "Ballesta",
+    "Honda",
+    "Cerbatana",
+    "Arco largo"
+   ],
+   "c": 3,
+   "d": "Con el arco largo, de casi dos metros, un arquero disparaba varias flechas por minuto.",
+   "tp": "¿Cómo se llamaba el gran arco de los arqueros ingleses en la guerra de los Cien Años? ¿Ballesta, Honda, Cerbatana o Arco largo?",
+   "tr": "¡El arco largo!",
+   "td": "Con el arco largo, de casi dos metros, un arquero disparaba varias flechas por minuto."
+  },
+  {
+   "n": 49,
+   "tema": "historia",
+   "p": "¿Qué caballeros monjes, de manto blanco y cruz roja, protegían a los peregrinos?",
+   "o": [
+    "Teutones",
+    "Hospitalarios",
+    "Templarios",
+    "Cartujos"
+   ],
+   "c": 2,
+   "d": "La Orden del Temple nació hacia 1119 para custodiar los caminos a Jerusalén.",
+   "tp": "¿Qué caballeros monjes, de manto blanco y cruz roja, protegían a los peregrinos? ¿Teutones, Hospitalarios, Templarios o Cartujos?",
+   "tr": "¡Los templarios!",
+   "td": "La Orden del Temple nació hacia mil ciento diecinueve para custodiar los caminos a Jerusalén."
+  },
+  {
+   "n": 50,
+   "tema": "Latinoamérica",
+   "p": "¿En qué ciudad está el Castillo de la Real Fuerza, que defendía el puerto de los piratas?",
+   "o": [
+    "La Habana",
+    "Cartagena de Indias",
+    "Veracruz",
+    "Santo Domingo"
+   ],
+   "c": 0,
+   "d": "El castillo de la Real Fuerza, en La Habana, se construyó en el siglo XVI.",
+   "tp": "¿En qué ciudad está el Castillo de la Real Fuerza, que defendía el puerto de los piratas? ¿La Habana, Cartagena de Indias, Veracruz o Santo Domingo?",
+   "tr": "¡La Habana!",
+   "td": "El castillo de la Real Fuerza, en La Habana, se construyó en el siglo dieciséis."
+  },
+  {
+   "n": 51,
+   "tema": "historia",
+   "p": "¿De qué país era Ching Shih, una de las piratas más poderosas de la historia?",
+   "o": [
+    "China",
+    "Inglaterra",
+    "Irlanda",
+    "España"
+   ],
+   "c": 0,
+   "d": "Ching Shih comandó una enorme flota pirata en el mar de China en el siglo XIX.",
+   "tp": "¿De qué país era Ching Shih, una de las piratas más poderosas de la historia? ¿China, Inglaterra, Irlanda o España?",
+   "tr": "¡China!",
+   "td": "Ching Shih comandó una enorme flota pirata en el mar de China en el siglo diecinueve."
+  },
+  {
+   "n": 52,
+   "tema": "inventos",
+   "p": "¿Qué instrumento, inventado en los Países Bajos hacia 1608, permitía ver barcos lejanos?",
+   "o": [
+    "Microscopio",
+    "Catalejo",
+    "Periscopio",
+    "Binoculares"
+   ],
+   "c": 1,
+   "d": "Poco después Galileo lo mejoró y lo apuntó al cielo.",
+   "tp": "¿Qué instrumento, inventado en los Países Bajos hacia mil seiscientos ocho, permitía ver barcos lejanos? ¿Microscopio, Catalejo, Periscopio o Binoculares?",
+   "tr": "¡El catalejo!",
+   "td": "Poco después Galileo lo mejoró y lo apuntó al cielo.",
+   "o_fotos": [
+    {
+     "q": "microscope",
+     "src": "px"
+    },
+    {
+     "q": "spyglass brass telescope",
+     "src": "px"
+    },
+    {
+     "q": "periscope submarine",
+     "src": "px"
+    },
+    {
+     "q": "binoculars",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 53,
+   "tema": "historia",
+   "p": "¿Qué galeón español, hundido en 1708 frente a Cartagena de Indias, llevaba oro y plata?",
+   "o": [
+    "Santa Rosa",
+    "La Pinta",
+    "San José",
+    "Nuestra Señora"
+   ],
+   "c": 2,
+   "d": "Fue hallado en 2015 y su tesoro se estima en miles de millones de dólares.",
+   "tp": "¿Qué galeón español, hundido en mil setecientos ocho frente a Cartagena de Indias, llevaba oro y plata? ¿Santa Rosa, La Pinta, San José o Nuestra Señora?",
+   "tr": "¡El galeón San José!",
+   "td": "Fue hallado en dos mil quince y su tesoro se estima en miles de millones de dólares."
+  },
+  {
+   "n": 54,
+   "tema": "Perú",
+   "p": "¿Por qué Lima construyó una muralla alrededor de la ciudad en el siglo XVII?",
+   "o": [
+    "Para cobrar peajes",
+    "Por las inundaciones",
+    "Por moda",
+    "Para defenderse de piratas"
+   ],
+   "c": 3,
+   "d": "La muralla de Lima se levantó hacia 1685 por el miedo a ataques de corsarios.",
+   "tp": "¿Por qué Lima construyó una muralla alrededor de la ciudad en el siglo diecisiete? ¿Para cobrar peajes, Por las inundaciones, Por moda o Para defenderse de piratas?",
+   "tr": "¡Para defenderse de piratas!",
+   "td": "La muralla de Lima se levantó hacia mil seiscientos ochenta y cinco por el miedo a ataques de corsarios."
+  },
+  {
+   "n": 55,
+   "tema": "Latinoamérica",
+   "p": "¿Qué isla del Caribe tuvo la ciudad pirata de Port Royal?",
+   "o": [
+    "Cuba",
+    "Puerto Rico",
+    "Jamaica",
+    "Haití"
+   ],
+   "c": 2,
+   "d": "Port Royal fue un refugio de corsarios ingleses en el siglo XVII.",
+   "tp": "¿Qué isla del Caribe tuvo la ciudad pirata de Port Royal? ¿Cuba, Puerto Rico, Jamaica o Haití?",
+   "tr": "¡Jamaica!",
+   "td": "Port Royal fue un refugio de corsarios ingleses en el siglo diecisiete."
+  },
+  {
+   "n": 56,
+   "tema": "animales",
+   "p": "¿Qué animal da nombre a la isla caribeña, cerca de Haití, que fue guarida de piratas?",
+   "o": [
+    "Delfín",
+    "Cangrejo",
+    "Pelícano",
+    "Tortuga"
+   ],
+   "c": 3,
+   "d": "La isla de la Tortuga tiene forma de caparazón vista desde lejos.",
+   "tp": "¿Qué animal da nombre a la isla caribeña, cerca de Haití, que fue guarida de piratas? ¿Delfín, Cangrejo, Pelícano o Tortuga?",
+   "tr": "¡La tortuga!",
+   "td": "La isla de la Tortuga tiene forma de caparazón vista desde lejos.",
+   "o_fotos": [
+    {
+     "q": "dolphin",
+     "src": "px"
+    },
+    {
+     "q": "crab",
+     "src": "px"
+    },
+    {
+     "q": "pelican",
+     "src": "px"
+    },
+    {
+     "q": "sea turtle",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 57,
+   "tema": "historia",
+   "p": "¿Qué famoso caballero medieval español era llamado «el Cid»?",
+   "o": [
+    "Pelayo",
+    "Rodrigo Díaz de Vivar",
+    "Fernando III",
+    "Don Quijote"
+   ],
+   "c": 1,
+   "d": "«Cid» viene de una palabra árabe que significa «señor».",
+   "tp": "¿Qué famoso caballero medieval español era llamado «el Cid»? ¿Pelayo, Rodrigo Díaz de Vivar, Fernando III o Don Quijote?",
+   "tr": "¡Rodrigo Díaz de Vivar!",
+   "td": "Cid viene de una palabra árabe que significa señor."
+  },
+  {
+   "n": 58,
+   "tema": "historia",
+   "p": "¿Qué gran máquina de asedio lanzaba piedras enormes con un contrapeso?",
+   "o": [
+    "Trabuco",
+    "Ariete",
+    "Torre de asedio",
+    "Ballesta"
+   ],
+   "c": 0,
+   "d": "Un trabuco gigante podía lanzar piedras de más de 100 kilos.",
+   "tp": "¿Qué gran máquina de asedio lanzaba piedras enormes con un contrapeso? ¿Trabuco, Ariete, Torre de asedio o Ballesta?",
+   "tr": "¡El trabuco!",
+   "td": "Un trabuco gigante podía lanzar piedras de más de cien kilos.",
+   "o_fotos": [
+    {
+     "q": "trebuchet",
+     "src": "cm"
+    },
+    {
+     "q": "battering ram",
+     "src": "cm"
+    },
+    {
+     "q": "siege tower",
+     "src": "cm"
+    },
+    {
+     "q": "crossbow",
+     "src": "cm"
+    }
+   ]
+  },
+  {
+   "n": 59,
+   "tema": "historia",
+   "p": "¿Qué almirante chino de la dinastía Ming dirigió enormes flotas hasta África?",
+   "o": [
+    "Kublai Kan",
+    "Sun Tzu",
+    "Zheng He",
+    "Confucio"
+   ],
+   "c": 2,
+   "d": "Zheng He navegó en el siglo XV con cientos de barcos, muchos antes que Colón.",
+   "tp": "¿Qué almirante chino de la dinastía Ming dirigió enormes flotas hasta África? ¿Kublai Kan, Sun Tzu, Zheng He o Confucio?",
+   "tr": "¡Zheng He!",
+   "td": "Zheng He navegó en el siglo quince con cientos de barcos, muchos antes que Colón."
+  },
+  {
+   "n": 60,
+   "tema": "geografía",
+   "p": "¿Qué cabo del sur de Chile temían los marinos por sus tormentas?",
+   "o": [
+    "Cabo Verde",
+    "Cabo Norte",
+    "Cabo Cañaveral",
+    "Cabo de Hornos"
+   ],
+   "c": 3,
+   "d": "El cabo de Hornos es el extremo sur de Sudamérica, con olas y vientos feroces.",
+   "tp": "¿Qué cabo del sur de Chile temían los marinos por sus tormentas? ¿Cabo Verde, Cabo Norte, Cabo Cañaveral o Cabo de Hornos?",
+   "tr": "¡El cabo de Hornos!",
+   "td": "El cabo de Hornos es el extremo sur de Sudamérica, con olas y vientos feroces.",
+   "o_fotos": [
+    {
+     "q": "Cape Verde islands",
+     "src": "cm"
+    },
+    {
+     "q": "North Cape Norway",
+     "src": "cm"
+    },
+    {
+     "q": "Cape Canaveral",
+     "src": "cm"
+    },
+    {
+     "q": "Cape Horn Chile",
+     "src": "cm"
+    }
+   ]
+  },
+  {
+   "n": 61,
+   "tema": "Perú",
+   "p": "¿Qué explorador noruego zarpó del Callao en 1947 en la balsa Kon-Tiki?",
+   "o": [
+    "Roald Amundsen",
+    "Thor Heyerdahl",
+    "Fridtjof Nansen",
+    "Jacques Cousteau"
+   ],
+   "c": 1,
+   "img_q": "Kon-Tiki raft",
+   "img_modo": "revela",
+   "d": "La balsa de troncos Kon-Tiki cruzó el Pacífico durante 101 días hasta la Polinesia.",
+   "tp": "¿Qué explorador noruego zarpó del Callao en mil novecientos cuarenta y siete en la balsa Kon-Tiki? ¿Roald Amundsen, Thor Heyerdahl, Fridtjof Nansen o Jacques Cousteau?",
+   "tr": "¡Thor Heyerdahl!",
+   "td": "La balsa de troncos Kon-Tiki cruzó el Pacífico durante ciento un días hasta la Polinesia."
+  },
+  {
+   "n": 62,
+   "tema": "Latinoamérica",
+   "p": "¿Qué ciudad perdida de Colombia, en la Sierra Nevada, es más antigua que Machu Picchu?",
+   "o": [
+    "San Agustín",
+    "Ciudad Perdida",
+    "Tierradentro",
+    "Pance"
+   ],
+   "c": 1,
+   "d": "Ciudad Perdida, o Teyuna, la construyeron los tayrona hacia el año 800.",
+   "tp": "¿Qué ciudad perdida de Colombia, en la Sierra Nevada, es más antigua que Machu Picchu? ¿San Agustín, Ciudad Perdida, Tierradentro o Pance?",
+   "tr": "¡Ciudad Perdida!",
+   "td": "Ciudad Perdida, o Teyuna, la construyeron los tayrona hacia el año ochocientos."
+  },
+  {
+   "n": 63,
+   "tema": "historia",
+   "p": "¿Qué diferencia a un corsario de un pirata?",
+   "o": [
+    "Era más pequeño",
+    "Usaba loro",
+    "Tenía permiso de un rey",
+    "No tenía barco"
+   ],
+   "c": 2,
+   "d": "El corsario atacaba barcos enemigos con una «patente de corso» oficial.",
+   "tp": "¿Qué diferencia a un corsario de un pirata? ¿Era más pequeño, Usaba loro, Tenía permiso de un rey o No tenía barco?",
+   "tr": "¡Tenía permiso de un rey!",
+   "td": "El corsario atacaba barcos enemigos con una patente de corso oficial."
+  },
+  {
+   "n": 64,
+   "tema": "Latinoamérica",
+   "p": "¿En qué ciudad está el castillo de Chapultepec, donde vivió el emperador Maximiliano?",
+   "o": [
+    "Ciudad de México",
+    "Puebla",
+    "Guadalajara",
+    "Monterrey"
+   ],
+   "c": 0,
+   "img_q": "Chapultepec Castle",
+   "img_modo": "revela",
+   "d": "Hoy el castillo de Chapultepec es sede del Museo Nacional de Historia.",
+   "tp": "¿En qué ciudad está el castillo de Chapultepec, donde vivió el emperador Maximiliano? ¿Ciudad de México, Puebla, Guadalajara o Monterrey?",
+   "tr": "¡La Ciudad de México!",
+   "td": "Hoy el castillo de Chapultepec es sede del Museo Nacional de Historia."
+  },
+  {
+   "n": 65,
+   "tema": "historia",
+   "p": "¿Quién llegó a la cima del Everest en 1953 junto al sherpa Tenzing Norgay?",
+   "o": [
+    "George Mallory",
+    "Edmund Hillary",
+    "Reinhold Messner",
+    "Robert Peary"
+   ],
+   "c": 1,
+   "d": "Hillary, de Nueva Zelanda, y Tenzing fueron los primeros en confirmarlo.",
+   "tp": "¿Quién llegó a la cima del Everest en mil novecientos cincuenta y tres junto al sherpa Tenzing Norgay? ¿George Mallory, Edmund Hillary, Reinhold Messner o Robert Peary?",
+   "tr": "¡Edmund Hillary!",
+   "td": "Hillary, de Nueva Zelanda, y Tenzing fueron los primeros en confirmarlo."
+  },
+  {
+   "n": 66,
+   "tema": "geografía",
+   "ronda": "misteriosa",
+   "p": "¿En qué país está esta ciudad amurallada junto al mar Adriático?",
+   "o": [
+    "Grecia",
+    "Croacia",
+    "Portugal",
+    "Eslovenia"
+   ],
+   "c": 1,
+   "img_q": "Dubrovnik old town walls",
+   "img_modo": "pregunta",
+   "d": "Dubrovnik conserva murallas de más de 1.900 metros de largo.",
+   "tp": "Miren bien la foto. ¿En qué país está esta ciudad amurallada junto al mar Adriático? ¿Grecia, Croacia, Portugal o Eslovenia?",
+   "tr": "¡Croacia! Es Dubrovnik.",
+   "td": "Dubrovnik conserva murallas de más de mil novecientos metros de largo."
+  },
+  {
+   "n": 67,
+   "tema": "inventos",
+   "ronda": "misteriosa",
+   "p": "¿Qué instrumento es este, que usaban los marinos para medir la altura de las estrellas?",
+   "o": [
+    "Sextante",
+    "Telescopio",
+    "Astrolabio",
+    "Reloj de sol"
+   ],
+   "c": 2,
+   "img_q": "Astrolabe",
+   "img_modo": "pregunta",
+   "d": "El astrolabio ayudaba a calcular la posición del barco en el mar.",
+   "tp": "Miren bien la foto. ¿Qué instrumento es este, que usaban los marinos para medir la altura de las estrellas? ¿Sextante, Telescopio, Astrolabio o Reloj de sol?",
+   "tr": "¡El astrolabio!",
+   "td": "El astrolabio ayudaba a calcular la posición del barco en el mar."
+  },
+  {
+   "n": 68,
+   "tema": "Perú",
+   "ronda": "misteriosa",
+   "p": "¿Qué cultura construyó esta fortaleza de piedra en las montañas de Amazonas, en Perú?",
+   "o": [
+    "Moche",
+    "Chachapoyas",
+    "Nazca",
+    "Chimú"
+   ],
+   "c": 1,
+   "img_q": "Kuelap",
+   "img_modo": "pregunta",
+   "d": "Kuélap está a unos 3.000 metros de altura y tenía cientos de casas redondas.",
+   "tp": "Miren bien la foto. ¿Qué cultura construyó esta fortaleza de piedra en las montañas de Amazonas, en Perú? ¿Moche, Chachapoyas, Nazca o Chimú?",
+   "tr": "¡Los chachapoyas! Es Kuélap.",
+   "td": "Kuélap está a unos tres mil metros de altura y tenía cientos de casas redondas."
+  },
+  {
+   "n": 69,
+   "tema": "historia",
+   "p": "¿En qué año se firmó la Carta Magna en Inglaterra, que limitó el poder del rey?",
+   "o": [
+    "1066",
+    "1215",
+    "1348",
+    "1492"
+   ],
+   "c": 1,
+   "d": "La Carta Magna se firmó bajo presión de los nobles ante el rey Juan.",
+   "tp": "¿En qué año se firmó la Carta Magna en Inglaterra, que limitó el poder del rey? ¿mil sesenta y seis, mil doscientos quince, mil trescientos cuarenta y ocho o mil cuatrocientos noventa y dos?",
+   "tr": "¡En 1215!",
+   "td": "La Carta Magna se firmó bajo presión de los nobles ante el rey Juan."
+  },
+  {
+   "n": 70,
+   "tema": "historia",
+   "p": "¿Qué batalla de 1066 cambió la historia de Inglaterra?",
+   "o": [
+    "Batalla de Waterloo",
+    "Batalla de Trafalgar",
+    "Batalla de Hastings",
+    "Batalla de Agincourt"
+   ],
+   "c": 2,
+   "d": "Allí ganó Guillermo el Conquistador y empezó a reinar en Inglaterra.",
+   "tp": "¿Qué batalla de mil sesenta y seis cambió la historia de Inglaterra? ¿Batalla de Waterloo, Batalla de Trafalgar, Batalla de Hastings o Batalla de Agincourt?",
+   "tr": "¡La batalla de Hastings!",
+   "td": "Allí ganó Guillermo el Conquistador y empezó a reinar en Inglaterra."
+  },
+  {
+   "n": 71,
+   "tema": "historia",
+   "p": "¿A qué país quiso atacar España con la «Armada Invencible» en 1588?",
+   "o": [
+    "Francia",
+    "Portugal",
+    "Inglaterra",
+    "Países Bajos"
+   ],
+   "c": 2,
+   "d": "La flota fue dispersada por tormentas y por la táctica inglesa.",
+   "tp": "¿A qué país quiso atacar España con la Armada Invencible en mil quinientos ochenta y ocho? ¿Francia, Portugal, Inglaterra o Países Bajos?",
+   "tr": "¡A Inglaterra!",
+   "td": "La flota fue dispersada por tormentas y por la táctica inglesa."
+  },
+  {
+   "n": 72,
+   "tema": "historia",
+   "p": "¿Cómo se llamaba el barco con el que Drake dio la vuelta al mundo?",
+   "o": [
+    "Mary Rose",
+    "Victory",
+    "Revenge",
+    "Golden Hind"
+   ],
+   "c": 3,
+   "d": "Drake terminó su viaje en 1580 con un cargamento enorme de especias y plata.",
+   "tp": "¿Cómo se llamaba el barco con el que Drake dio la vuelta al mundo? ¿Mary Rose, Victory, Revenge o Golden Hind?",
+   "tr": "¡El Golden Hind!",
+   "td": "Drake terminó su viaje en mil quinientos ochenta con un cargamento enorme de especias y plata."
+  },
+  {
+   "n": 73,
+   "tema": "historia",
+   "p": "¿Qué barco del rey Enrique VIII se hundió en 1545 y fue sacado del mar en 1982?",
+   "o": [
+    "Mary Rose",
+    "Golden Hind",
+    "Santa María",
+    "Victory"
+   ],
+   "c": 0,
+   "d": "Se conservó tantos siglos bajo el fango que hoy se exhibe en un museo.",
+   "tp": "¿Qué barco del rey Enrique ocho se hundió en mil quinientos cuarenta y cinco y fue sacado del mar en mil novecientos ochenta y dos? ¿Mary Rose, Golden Hind, Santa María o Victory?",
+   "tr": "¡El Mary Rose!",
+   "td": "Se conservó tantos siglos bajo el fango que hoy se exhibe en un museo."
+  },
+  {
+   "n": 74,
+   "tema": "Perú",
+   "p": "¿En qué ciudad capturó Pizarro al inca Atahualpa en 1532?",
+   "o": [
+    "Cusco",
+    "Tumbes",
+    "Cajamarca",
+    "Huánuco"
+   ],
+   "c": 2,
+   "d": "Cajamarca conserva aún el «Cuarto del Rescate», visitado por turistas.",
+   "tp": "¿En qué ciudad capturó Pizarro al inca Atahualpa en mil quinientos treinta y dos? ¿Cusco, Tumbes, Cajamarca o Huánuco?",
+   "tr": "¡Cajamarca!",
+   "td": "Cajamarca conserva aún el Cuarto del Rescate, visitado por turistas."
+  },
+  {
+   "n": 75,
+   "tema": "Latinoamérica",
+   "p": "¿Qué antigua ciudad maya, con un castillo sobre un acantilado, mira al mar Caribe en México?",
+   "o": [
+    "Palenque",
+    "Uxmal",
+    "Calakmul",
+    "Tulum"
+   ],
+   "c": 3,
+   "img_q": "Tulum ruins",
+   "img_modo": "revela",
+   "d": "Tulum significa «muralla» en maya y estaba rodeada por un muro de piedra.",
+   "tp": "¿Qué antigua ciudad maya, con un castillo sobre un acantilado, mira al mar Caribe en México? ¿Palenque, Uxmal, Calakmul o Tulum?",
+   "tr": "¡Tulum!",
+   "td": "Tulum significa muralla en maya y estaba rodeada por un muro de piedra."
+  },
+  {
+   "n": 76,
+   "tema": "Latinoamérica",
+   "p": "¿Cómo se llaman las enormes estatuas de piedra de la Isla de Pascua, en Chile?",
+   "o": [
+    "Tótems",
+    "Esfinges",
+    "Moáis",
+    "Menhires"
+   ],
+   "c": 2,
+   "d": "Hay casi 900 moáis; el más alto que se terminó mide unos 10 metros.",
+   "tp": "¿Cómo se llaman las enormes estatuas de piedra de la Isla de Pascua, en Chile? ¿Tótems, Esfinges, Moáis o Menhires?",
+   "tr": "¡Los moáis!",
+   "td": "Hay casi novecientos moáis; el más alto que se terminó mide unos diez metros.",
+   "o_fotos": [
+    {
+     "q": "totem pole",
+     "src": "cm"
+    },
+    {
+     "q": "Sphinx Giza",
+     "src": "cm"
+    },
+    {
+     "q": "Moai Easter Island",
+     "src": "cm"
+    },
+    {
+     "q": "menhir",
+     "src": "cm"
+    }
+   ]
+  },
+  {
+   "n": 77,
+   "tema": "historia",
+   "p": "¿Qué fortaleza junto al río Támesis guarda las joyas de la corona británica?",
+   "o": [
+    "Torre de Londres",
+    "Castillo de Dover",
+    "Castillo de Warwick",
+    "Castillo de Leeds"
+   ],
+   "c": 0,
+   "d": "La Torre de Londres tiene más de 900 años y es una de las atracciones más visitadas.",
+   "tp": "¿Qué fortaleza junto al río Támesis guarda las joyas de la corona británica? ¿Torre de Londres, Castillo de Dover, Castillo de Warwick o Castillo de Leeds?",
+   "tr": "¡La Torre de Londres!",
+   "td": "La Torre de Londres tiene más de novecientos años y es una de las atracciones más visitadas.",
+   "o_fotos": [
+    {
+     "q": "Tower of London",
+     "src": "cm",
+     "must": "Tower"
+    },
+    {
+     "q": "Dover Castle",
+     "src": "cm",
+     "must": "Dover"
+    },
+    {
+     "q": "Warwick Castle",
+     "src": "cm",
+     "must": "Warwick"
+    },
+    {
+     "q": "Leeds Castle",
+     "src": "cm",
+     "must": "Leeds"
+    }
+   ]
+  },
+  {
+   "n": 78,
+   "tema": "geografía",
+   "p": "¿Qué estrecho entre Alaska y Siberia lleva el nombre de un explorador danés?",
+   "o": [
+    "Estrecho de Bering",
+    "Estrecho de Magallanes",
+    "Estrecho de Gibraltar",
+    "Canal de la Mancha"
+   ],
+   "c": 0,
+   "d": "Vitus Bering lo cruzó en 1728; dos continentes casi se tocan allí.",
+   "tp": "¿Qué estrecho entre Alaska y Siberia lleva el nombre de un explorador danés? ¿Estrecho de Bering, Estrecho de Magallanes, Estrecho de Gibraltar o Canal de la Mancha?",
+   "tr": "¡El estrecho de Bering!",
+   "td": "Vitus Bering lo cruzó en mil setecientos veintiocho; dos continentes casi se tocan allí."
+  },
+  {
+   "n": 79,
+   "tema": "inventos",
+   "p": "¿Qué inventó John Harrison en el siglo XVIII para ubicar los barcos en el mar?",
+   "o": [
+    "Una brújula nueva",
+    "Un telescopio",
+    "Un mapa del cielo",
+    "Un reloj muy preciso"
+   ],
+   "c": 3,
+   "d": "Su cronómetro marino resolvió el problema de calcular la longitud en alta mar.",
+   "tp": "¿Qué inventó John Harrison en el siglo dieciocho para ubicar los barcos en el mar? ¿Una brújula nueva, Un telescopio, Un mapa del cielo o Un reloj muy preciso?",
+   "tr": "¡Un reloj muy preciso!",
+   "td": "Su cronómetro marino resolvió el problema de calcular la longitud en alta mar."
+  },
+  {
+   "n": 80,
+   "tema": "historia",
+   "p": "¿Qué explorador escocés dio nombre a las cataratas Victoria, en África, en 1855?",
+   "o": [
+    "Henry Stanley",
+    "Mungo Park",
+    "David Livingstone",
+    "James Bruce"
+   ],
+   "c": 2,
+   "d": "Las cataratas se llaman así en honor a la reina Victoria.",
+   "tp": "¿Qué explorador escocés dio nombre a las cataratas Victoria, en África, en mil ochocientos cincuenta y cinco? ¿Henry Stanley, Mungo Park, David Livingstone o James Bruce?",
+   "tr": "¡David Livingstone!",
+   "td": "Las cataratas se llaman así en honor a la reina Victoria."
+  },
+  {
+   "n": 81,
+   "tema": "historia",
+   "ronda": "vf",
+   "p": "Los piratas enterraban sus tesoros y dibujaban mapas con una X.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Casi ninguno enterraba tesoros: gastaban rápido el botín. Los mapas con X vienen de las novelas.",
+   "tp": "¿Verdadero o falso? Los piratas enterraban sus tesoros y dibujaban mapas con una X.",
+   "tr": "¡Falso! Eso es cosa de novelas.",
+   "td": "Casi ninguno enterraba tesoros: gastaban rápido el botín. Los mapas con equis vienen de las novelas."
+  },
+  {
+   "n": 82,
+   "tema": "Perú",
+   "ronda": "vf",
+   "p": "Los conquistadores españoles nunca llegaron a encontrar Machu Picchu.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Machu Picchu no aparece en los documentos coloniales y quedó escondida entre las montañas.",
+   "tp": "¿Verdadero o falso? Los conquistadores españoles nunca llegaron a encontrar Machu Picchu.",
+   "tr": "¡Verdadero! Nunca la encontraron.",
+   "td": "Machu Picchu no aparece en los documentos coloniales y quedó escondida entre las montañas."
+  },
+  {
+   "n": 83,
+   "tema": "historia",
+   "ronda": "vf",
+   "p": "En la época de Colón, los sabios ya sabían que la Tierra es redonda.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Los griegos lo sabían hace más de 2.000 años; Colón discutía sobre el tamaño, no sobre la forma.",
+   "tp": "¿Verdadero o falso? En la época de Colón, los sabios ya sabían que la Tierra es redonda.",
+   "tr": "¡Verdadero! Lo sabían desde hace siglos.",
+   "td": "Los griegos lo sabían hace más de dos mil años; Colón discutía sobre el tamaño, no sobre la forma."
+  },
+  {
+   "n": 84,
+   "tema": "historia",
+   "p": "¿Qué dinastía construyó la Alhambra de Granada, en España?",
+   "o": [
+    "Omeya",
+    "Nazarí",
+    "Abasí",
+    "Almohade"
+   ],
+   "c": 1,
+   "d": "La Alhambra se levantó sobre todo en los siglos XIII y XIV.",
+   "tp": "¿Qué dinastía construyó la Alhambra de Granada, en España? ¿Omeya, Nazarí, Abasí o Almohade?",
+   "tr": "¡La dinastía nazarí!",
+   "td": "La Alhambra se levantó sobre todo en los siglos trece y catorce."
+  },
+  {
+   "n": 85,
+   "tema": "Latinoamérica",
+   "p": "¿Qué ciudad de Panamá, hoy en ruinas, destruyó el pirata Henry Morgan en 1671?",
+   "o": [
+    "Portobelo",
+    "Panamá la Vieja",
+    "Colón",
+    "David"
+   ],
+   "c": 1,
+   "d": "Panamá la Vieja fue refundada en otro lugar, donde hoy está el casco antiguo.",
+   "tp": "¿Qué ciudad de Panamá, hoy en ruinas, destruyó el pirata Henry Morgan en mil seiscientos setenta y uno? ¿Portobelo, Panamá la Vieja, Colón o David?",
+   "tr": "¡Panamá la Vieja!",
+   "td": "Panamá la Vieja fue refundada en otro lugar, donde hoy está el casco antiguo."
+  },
+  {
+   "n": 86,
+   "tema": "historia",
+   "p": "¿Qué tratado de 1494 repartió las tierras nuevas entre España y Portugal?",
+   "o": [
+    "Tratado de Utrecht",
+    "Tratado de Versalles",
+    "Paz de Westfalia",
+    "Tratado de Tordesillas"
+   ],
+   "c": 3,
+   "d": "Por eso Brasil habla portugués y casi toda América habla español.",
+   "tp": "¿Qué tratado de mil cuatrocientos noventa y cuatro repartió las tierras nuevas entre España y Portugal? ¿Tratado de Utrecht, Tratado de Versalles, Paz de Westfalia o Tratado de Tordesillas?",
+   "tr": "¡El Tratado de Tordesillas!",
+   "td": "Por eso Brasil habla portugués y casi toda América habla español."
+  },
+  {
+   "n": 87,
+   "tema": "Latinoamérica",
+   "p": "¿Qué laguna de Colombia inspiró la leyenda de El Dorado?",
+   "o": [
+    "Guatavita",
+    "Titicaca",
+    "Maracaibo",
+    "Nicaragua"
+   ],
+   "c": 0,
+   "d": "Los muiscas hacían allí ceremonias y arrojaban ofrendas de oro al agua.",
+   "tp": "¿Qué laguna de Colombia inspiró la leyenda de El Dorado? ¿Guatavita, Titicaca, Maracaibo o Nicaragua?",
+   "tr": "¡La laguna de Guatavita!",
+   "td": "Los muiscas hacían allí ceremonias y arrojaban ofrendas de oro al agua.",
+   "o_fotos": [
+    {
+     "q": "Lake Guatavita",
+     "src": "cm",
+     "must": "Guatavita"
+    },
+    {
+     "q": "Lake Titicaca",
+     "src": "cm",
+     "must": "Titicaca"
+    },
+    {
+     "q": "Lake Maracaibo",
+     "src": "cm",
+     "must": "Maracaibo"
+    },
+    {
+     "q": "Lake Nicaragua",
+     "src": "cm",
+     "must": "Nicaragua"
+    }
+   ]
+  },
+  {
+   "n": 88,
+   "tema": "historia",
+   "p": "¿Qué pueblo del Pacífico cruzaba el mar en canoas de doble casco, guiado por las estrellas?",
+   "o": [
+    "Los mayas",
+    "Los fenicios",
+    "Los inuit",
+    "Los polinesios"
+   ],
+   "c": 3,
+   "d": "Los polinesios poblaron islas separadas por miles de kilómetros de mar.",
+   "tp": "¿Qué pueblo del Pacífico cruzaba el mar en canoas de doble casco, guiado por las estrellas? ¿Los mayas, Los fenicios, Los inuit o Los polinesios?",
+   "tr": "¡Los polinesios!",
+   "td": "Los polinesios poblaron islas separadas por miles de kilómetros de mar."
+  },
+  {
+   "n": 89,
+   "tema": "historia",
+   "p": "¿Qué tipo de barco eran La Pinta y La Niña, de Colón?",
+   "o": [
+    "Trirremes",
+    "Drakkares",
+    "Balsas",
+    "Carabelas"
+   ],
+   "c": 3,
+   "d": "La Santa María era una nao, más grande y pesada que las carabelas.",
+   "tp": "¿Qué tipo de barco eran La Pinta y La Niña, de Colón? ¿Trirremes, Drakkares, Balsas o Carabelas?",
+   "tr": "¡Carabelas!",
+   "td": "La Santa María era una nao, más grande y pesada que las carabelas."
+  },
+  {
+   "n": 90,
+   "tema": "historia",
+   "p": "¿Qué navegante portugués dobló el cabo de Buena Esperanza en 1488?",
+   "o": [
+    "Bartolomeu Dias",
+    "Vasco da Gama",
+    "Pedro Álvares Cabral",
+    "Enrique el Navegante"
+   ],
+   "c": 0,
+   "d": "Dias demostró que se podía llegar al océano Índico rodeando África.",
+   "tp": "¿Qué navegante portugués dobló el cabo de Buena Esperanza en mil cuatrocientos ochenta y ocho? ¿Bartolomeu Dias, Vasco da Gama, Pedro Álvares Cabral o Enrique el Navegante?",
+   "tr": "¡Bartolomeu Dias!",
+   "td": "Dias demostró que se podía llegar al océano Índico rodeando África."
+  },
+  {
+   "n": 91,
+   "tema": "ciencia",
+   "p": "¿Cómo se llaman los vientos constantes que empujaban los barcos de España hacia América?",
+   "o": [
+    "Alisios",
+    "Monzones",
+    "Siroco",
+    "Huracanes"
+   ],
+   "c": 0,
+   "d": "Colón aprovechó los alisios en la ida, y los vientos del oeste en el regreso.",
+   "tp": "¿Cómo se llaman los vientos constantes que empujaban los barcos de España hacia América? ¿Alisios, Monzones, Siroco o Huracanes?",
+   "tr": "¡Los vientos alisios!",
+   "td": "Colón aprovechó los alisios en la ida, y los vientos del oeste en el regreso."
+  },
+  {
+   "n": 92,
+   "tema": "ciencia",
+   "p": "¿Qué fruta llevaban los marinos británicos para evitar el escorbuto?",
+   "o": [
+    "Plátanos",
+    "Uvas",
+    "Limones",
+    "Cocos"
+   ],
+   "c": 2,
+   "d": "La vitamina C de los cítricos previene el escorbuto; por eso los llamaban «limeys».",
+   "tp": "¿Qué fruta llevaban los marinos británicos para evitar el escorbuto? ¿Plátanos, Uvas, Limones o Cocos?",
+   "tr": "¡Los limones!",
+   "td": "La vitamina C de los cítricos previene el escorbuto; por eso los llamaban limeys.",
+   "o_fotos": [
+    {
+     "q": "bananas",
+     "src": "px"
+    },
+    {
+     "q": "grapes",
+     "src": "px"
+    },
+    {
+     "q": "lemons",
+     "src": "px"
+    },
+    {
+     "q": "coconut",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 93,
+   "tema": "geografía",
+   "p": "¿En qué país está el castillo de Predjama, construido dentro de una cueva?",
+   "o": [
+    "Austria",
+    "Eslovenia",
+    "Croacia",
+    "Eslovaquia"
+   ],
+   "c": 1,
+   "img_q": "Predjama Castle",
+   "img_modo": "revela",
+   "d": "Predjama está encajado en la boca de una cueva, en una pared de roca de unos 120 metros.",
+   "tp": "¿En qué país está el castillo de Predjama, construido dentro de una cueva? ¿Austria, Eslovenia, Croacia o Eslovaquia?",
+   "tr": "¡Eslovenia!",
+   "td": "Predjama está encajado en la boca de una cueva, en una pared de roca de unos ciento veinte metros.",
+   "o_fotos": [
+    {
+     "flag": "at"
+    },
+    {
+     "flag": "si"
+    },
+    {
+     "flag": "hr"
+    },
+    {
+     "flag": "sk"
+    }
+   ]
+  },
+  {
+   "n": 94,
+   "tema": "historia",
+   "p": "¿Qué batalla naval de 1571 detuvo a los otomanos en el Mediterráneo?",
+   "o": [
+    "Lepanto",
+    "Trafalgar",
+    "Actium",
+    "Salamina"
+   ],
+   "c": 0,
+   "d": "En Lepanto luchó Miguel de Cervantes y perdió el uso de la mano izquierda.",
+   "tp": "¿Qué batalla naval de mil quinientos setenta y uno detuvo a los otomanos en el Mediterráneo? ¿Lepanto, Trafalgar, Actium o Salamina?",
+   "tr": "¡Lepanto!",
+   "td": "En Lepanto luchó Miguel de Cervantes y perdió el uso de la mano izquierda."
+  },
+  {
+   "n": 95,
+   "tema": "historia",
+   "p": "¿Quién bautizó «Pacífico» al océano, porque lo halló muy tranquilo?",
+   "o": [
+    "Balboa",
+    "Drake",
+    "James Cook",
+    "Magallanes"
+   ],
+   "c": 3,
+   "d": "Magallanes lo cruzó en 1520 y encontró aguas calmas tras las tormentas del estrecho.",
+   "tp": "¿Quién bautizó «Pacífico» al océano, porque lo halló muy tranquilo? ¿Balboa, Drake, James Cook o Magallanes?",
+   "tr": "¡Magallanes!",
+   "td": "Magallanes lo cruzó en mil quinientos veinte y encontró aguas calmas tras las tormentas del estrecho."
+  },
+  {
+   "n": 96,
+   "tema": "Perú",
+   "p": "¿En qué fortaleza inca derrotó Manco Inca a los conquistadores en una famosa batalla?",
+   "o": [
+    "Sacsayhuamán",
+    "Pisac",
+    "Kuélap",
+    "Ollantaytambo"
+   ],
+   "c": 3,
+   "d": "Los incas inundaron el valle y atacaron desde las terrazas de piedra.",
+   "tp": "¿En qué fortaleza inca derrotó Manco Inca a los conquistadores en una famosa batalla? ¿Sacsayhuamán, Pisac, Kuélap o Ollantaytambo?",
+   "tr": "¡Ollantaytambo!",
+   "td": "Los incas inundaron el valle y atacaron desde las terrazas de piedra.",
+   "o_fotos": [
+    {
+     "q": "Sacsayhuaman",
+     "src": "cm",
+     "must": "Ollantaytambo"
+    },
+    {
+     "q": "Pisac",
+     "src": "cm",
+     "must": "Sacsayhuam"
+    },
+    {
+     "q": "Kuelap",
+     "src": "cm",
+     "must": "Pisac"
+    },
+    {
+     "q": "Ollantaytambo",
+     "src": "cm",
+     "must": "Kuelap"
+    }
+   ]
+  },
+  {
+   "n": 97,
+   "tema": "historia",
+   "p": "¿En qué ciudad está la Torre de Belém, fortaleza del siglo XVI a orillas del río?",
+   "o": [
+    "Oporto",
+    "Lisboa",
+    "Sevilla",
+    "Cádiz"
+   ],
+   "c": 1,
+   "img_q": "Belem Tower",
+   "img_modo": "revela",
+   "d": "La Torre de Belém vigilaba la entrada del río Tajo.",
+   "tp": "¿En qué ciudad está la Torre de Belém, fortaleza del siglo dieciséis a orillas del río? ¿Oporto, Lisboa, Sevilla o Cádiz?",
+   "tr": "¡Lisboa!",
+   "td": "La Torre de Belém vigilaba la entrada del río Tajo."
+  },
+  {
+   "n": 98,
+   "tema": "historia",
+   "p": "¿Qué república marinera italiana dominó el comercio del Mediterráneo en la Edad Media?",
+   "o": [
+    "Venecia",
+    "Florencia",
+    "Milán",
+    "Roma"
+   ],
+   "c": 0,
+   "d": "Venecia llegó a construir barcos en serie en su gran Arsenal.",
+   "tp": "¿Qué república marinera italiana dominó el comercio del Mediterráneo en la Edad Media? ¿Venecia, Florencia, Milán o Roma?",
+   "tr": "¡Venecia!",
+   "td": "Venecia llegó a construir barcos en serie en su gran Arsenal."
+  },
+  {
+   "n": 99,
+   "tema": "historia",
+   "p": "¿Qué ciudad fortificada de Francia tiene 52 torres y es Patrimonio de la Humanidad?",
+   "o": [
+    "Aviñón",
+    "Lyon",
+    "Marsella",
+    "Carcasona"
+   ],
+   "c": 3,
+   "img_q": "Carcassonne",
+   "img_modo": "revela",
+   "d": "La Cité de Carcasona tiene dos murallas concéntricas y unos 3 kilómetros de muros.",
+   "tp": "¿Qué ciudad fortificada de Francia tiene cincuenta y dos torres y es Patrimonio de la Humanidad? ¿Aviñón, Lyon, Marsella o Carcasona?",
+   "tr": "¡Carcasona!",
+   "td": "La Cité de Carcasona tiene dos murallas concéntricas y unos tres kilómetros de muros."
+  },
+  {
+   "n": 100,
+   "tema": "historia",
+   "p": "¿Qué barco de Shackleton, hundido en 1915, fue hallado en 2022 a 3.000 metros de hondura?",
+   "o": [
+    "Discovery",
+    "Nimrod",
+    "Terra Nova",
+    "Endurance"
+   ],
+   "c": 3,
+   "d": "Encontraron el Endurance en excelente estado, más de 100 años después.",
+   "tp": "¿Qué barco de Shackleton, hundido en mil novecientos quince, fue hallado en dos mil veintidós a tres mil metros de hondura? ¿Discovery, Nimrod, Terra Nova o Endurance?",
+   "tr": "¡El Endurance!",
+   "td": "Encontraron el Endurance en excelente estado, más de cien años después."
+  }
+ ],
+ "extra_tts": {
+  "an_tema": [
+   "anunciador",
+   "Hoy jugamos: ¡castillos, caballeros y piratas! Aventuras de la historia para toda la familia."
+  ],
+  "pr_intro": [
+   "presentador",
+   "¡Hola, familia! Hoy zarpamos con cien preguntas de castillos, caballeros y piratas. ¿Quién llegará al tesoro final sin fallar?"
+  ],
+  "co_intro": [
+   "copresentadora",
+   "Prepárense para cruzar puentes levadizos y navegar por el Caribe. ¡Hasta MAX trajo su parche, aunque no sabe dónde ponérselo!"
+  ],
+  "co_fama": [
+   "copresentadora",
+   "Un aplauso gigante para los mejores jugadores del episodio anterior. ¡Sus nombres brillan en pantalla!"
+  ],
+  "pr_cierre": [
+   "presentador",
+   "¡Llegamos al tesoro, familia! Cuéntennos en los comentarios cuántas respondieron bien y cuál fue su puntaje. ¡Gracias por jugar!"
+  ],
+  "charla05_pr": [
+   "presentador",
+   "¡Un loro, un parche y un foso! Yo ya me siento capitán de barco."
+  ],
+  "charla05_co": [
+   "copresentadora",
+   "Capitán de la cocina, MAX. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla10_pr": [
+   "presentador",
+   "¡Armadura, juglar y catapulta! Yo sería un juglar, pero canto con voz de robot."
+  ],
+  "charla10_co": [
+   "copresentadora",
+   "Ahora vienen tres fotos misteriosas, MAX. ¡Atentos, familia, que se aclaran con el reloj!"
+  ],
+  "charla15_pr": [
+   "presentador",
+   "¡Una abadía en el mar y un rey con mesa redonda! Qué lugares tan raros."
+  ],
+  "charla15_co": [
+   "copresentadora",
+   "Y tú todavía no encuentras tu silla, MAX. Familia, ¿cómo va su puntaje?"
+  ],
+  "charla20_pr": [
+   "presentador",
+   "¡Excalibur, Barbanegra y el Morro! Mi espada favorita es el destornillador."
+  ],
+  "charla20_co": [
+   "copresentadora",
+   "Muy valiente, MAX. Familia, ¡sigan sumando puntos!"
+  ],
+  "charla25_pr": [
+   "presentador",
+   "¡Dos afirmaciones y ya dudo hasta de mi sombra! Falta una más."
+  ],
+  "charla25_co": [
+   "copresentadora",
+   "Sin trampas, MAX. Familia, ¡piensen bien la última afirmación!"
+  ],
+  "charla30_pr": [
+   "presentador",
+   "¿Baños en la muralla? ¡Qué castillos tan ventosos! Prefiero mi estudio."
+  ],
+  "charla30_co": [
+   "copresentadora",
+   "Qué dato tan rico, MAX. Familia, ¡vamos con más aventuras!"
+  ],
+  "charla35_pr": [
+   "presentador",
+   "¡Doblones de oro y galeones llenos de plata! Yo solo tengo monedas de chocolate."
+  ],
+  "charla35_co": [
+   "copresentadora",
+   "Y se las comes antes de contarlas, MAX. Familia, ¡sigan jugando!"
+  ],
+  "charla40_pr": [
+   "presentador",
+   "¡De Bolivia a Japón, y hasta una isla del tesoro! Qué vueltón por el mundo."
+  ],
+  "charla40_co": [
+   "copresentadora",
+   "Ahora viene la ronda relámpago, MAX: ¡cinco segundos por pregunta! ¡Atentos, familia!"
+  ],
+  "charla45_pr": [
+   "presentador",
+   "¡Cinco preguntas en un parpadeo! Mi cabeza humea de tanta velocidad."
+  ],
+  "charla45_co": [
+   "copresentadora",
+   "Quien acertó todas merece un aplauso gigante. ¡Sigamos, familia!"
+  ],
+  "charla50_pr": [
+   "presentador",
+   "¡Ya vamos por la mitad, de castillos a Templarios! Qué tripulación tan valiente."
+  ],
+  "charla50_co": [
+   "copresentadora",
+   "Quedan otros cincuenta, MAX. Familia, ¡revisen el ranking del celular!"
+  ],
+  "charla55_pr": [
+   "presentador",
+   "¡Una pirata china, un galeón con tesoro y Port Royal! Qué mar de historias."
+  ],
+  "charla55_co": [
+   "copresentadora",
+   "Yo me quedo con el catalejo, MAX. Familia, ¡sigan sumando puntos!"
+  ],
+  "charla60_pr": [
+   "presentador",
+   "¡Una isla con forma de tortuga y un trabuco gigante! Yo solo lanzo bromas."
+  ],
+  "charla60_co": [
+   "copresentadora",
+   "Y las lanzas muy lejos, MAX. Familia, ¿cómo va su puntaje?"
+  ],
+  "charla65_pr": [
+   "presentador",
+   "¡Una balsa desde el Callao y el castillo de Chapultepec! Qué viajes."
+  ],
+  "charla65_co": [
+   "copresentadora",
+   "Ahora vienen tres fotos misteriosas, MAX. ¡Atentos, familia!"
+  ],
+  "charla70_pr": [
+   "presentador",
+   "¡Dubrovnik, Kuélap y la Carta Magna! Me aprendí todo menos cómo dar vueltas."
+  ],
+  "charla70_co": [
+   "copresentadora",
+   "Qué exagerado, MAX. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla75_pr": [
+   "presentador",
+   "¡Un barco que estuvo siglos bajo el fango y una ciudad maya frente al mar!"
+  ],
+  "charla75_co": [
+   "copresentadora",
+   "Qué buena memoria, MAX. Familia, ¡sigan sumando puntos!"
+  ],
+  "charla80_pr": [
+   "presentador",
+   "¡Moáis, relojes marinos y cataratas de África! Ya me mareé de tanto viaje."
+  ],
+  "charla80_co": [
+   "copresentadora",
+   "Ahora vienen tres afirmaciones, MAX: ¿verdadero o falso? ¡Atentos, familia!"
+  ],
+  "charla85_pr": [
+   "presentador",
+   "¡Los mapas con una X eran un mito! Casi me tiro a buscar tesoros."
+  ],
+  "charla85_co": [
+   "copresentadora",
+   "Mejor sigue concursando, MAX. Familia, ¡ya falta poco para el final!"
+  ],
+  "charla90_pr": [
+   "presentador",
+   "¡Tordesillas, El Dorado y carabelas! Hoy aprendí por qué Brasil habla portugués."
+  ],
+  "charla90_co": [
+   "copresentadora",
+   "Muy buen alumno, MAX. Familia, ¡quedan diez preguntas para el gran final!"
+  ],
+  "charla95_pr": [
+   "presentador",
+   "¡Alisios, limones y un castillo dentro de una cueva! Qué final tan aventurero."
+  ],
+  "charla95_co": [
+   "copresentadora",
+   "Quedan cinco preguntas, MAX. Familia, ¡concentración total!"
+  ]
+ },
+ "fotos_miniatura": [
+  [
+   2,
+   0
+  ],
+  [
+   56,
+   3
+  ],
+  [
+   22,
+   1
+  ],
+  [
+   76,
+   2
+  ],
+  [
+   92,
+   2
+  ]
+ ]
 }
