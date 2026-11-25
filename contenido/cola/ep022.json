@@ -19,6 +19,1383 @@
  "reto_miniatura": "¿Llegas a la 100?",
  "objetivo_preguntas": 100,
  "total_anunciado": 100,
- "preguntas": [],
+ "preguntas": [
+  {
+   "n": 1,
+   "tema": "ciencia",
+   "p": "¿Cómo se llaman los restos de animales muy antiguos que se volvieron piedra?",
+   "o": [
+    "Minerales",
+    "Cristales",
+    "Cenizas",
+    "Fósiles"
+   ],
+   "c": 3,
+   "d": "Los fósiles nos cuentan cómo eran los animales que vivieron hace millones de años.",
+   "tp": "¿Cómo se llaman los restos de animales muy antiguos que se volvieron piedra? ¿Minerales, Cristales, Cenizas o Fósiles?",
+   "tr": "¡Los fósiles!",
+   "td": "Los fósiles nos cuentan cómo eran los animales que vivieron hace millones de años."
+  },
+  {
+   "n": 2,
+   "tema": "ciencia",
+   "p": "¿Qué herramienta pequeña usan para limpiar el polvo de un fósil delicado?",
+   "o": [
+    "Un hacha",
+    "Una pala grande",
+    "Un pincel",
+    "Una aspiradora"
+   ],
+   "c": 2,
+   "d": "Los paleontólogos trabajan con pinceles para no romper los huesos antiguos.",
+   "tp": "¿Qué herramienta pequeña usan para limpiar el polvo de un fósil delicado? ¿Un hacha, Una pala grande, Un pincel o Una aspiradora?",
+   "tr": "¡Un pincel!",
+   "td": "Los paleontólogos trabajan con pinceles para no romper los huesos antiguos."
+  },
+  {
+   "n": 3,
+   "tema": "dinosaurios",
+   "p": "¿Qué dinosaurio tenía tres cuernos en la cara y una gran gola en el cuello?",
+   "o": [
+    "Triceratops",
+    "Estegosaurio",
+    "Velociraptor",
+    "Diplodocus"
+   ],
+   "c": 0,
+   "d": "El nombre Triceratops significa «cara de tres cuernos».",
+   "tp": "¿Qué dinosaurio tenía tres cuernos en la cara y una gran gola en el cuello? ¿Triceratops, Estegosaurio, Velociraptor o Diplodocus?",
+   "tr": "¡Triceratops!",
+   "td": "El nombre Triceratops significa «cara de tres cuernos».",
+   "o_fotos": [
+    {
+     "q": "Triceratops skeleton",
+     "src": "cm"
+    },
+    {
+     "q": "Stegosaurus skeleton",
+     "src": "cm"
+    },
+    {
+     "q": "Velociraptor",
+     "src": "cm"
+    },
+    {
+     "q": "Diplodocus skeleton",
+     "src": "cm"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "tema": "dinosaurios",
+   "p": "¿Qué dinosaurio tenía placas grandes en la espalda y púas en la cola?",
+   "o": [
+    "Tiranosaurio",
+    "Estegosaurio",
+    "Iguanodon",
+    "Oviraptor"
+   ],
+   "c": 1,
+   "d": "Sus placas quizá le servían para regular la temperatura o para exhibirse.",
+   "tp": "¿Qué dinosaurio tenía placas grandes en la espalda y púas en la cola? ¿Tiranosaurio, Estegosaurio, Iguanodon o Oviraptor?",
+   "tr": "¡El Estegosaurio!",
+   "td": "Sus placas quizá le servían para regular la temperatura o para exhibirse.",
+   "o_fotos": [
+    {
+     "q": "Tyrannosaurus rex skeleton",
+     "src": "cm"
+    },
+    {
+     "q": "Stegosaurus skeleton",
+     "src": "cm"
+    },
+    {
+     "q": "Iguanodon",
+     "src": "cm"
+    },
+    {
+     "q": "Oviraptor",
+     "src": "cm"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "tema": "dinosaurios",
+   "p": "¿Qué comían los dinosaurios herbívoros?",
+   "o": [
+    "Carne",
+    "Plantas",
+    "Peces",
+    "Insectos"
+   ],
+   "c": 1,
+   "d": "Algunos comían hojas de árboles muy altos, y otros plantas bajitas.",
+   "tp": "¿Qué comían los dinosaurios herbívoros? ¿Carne, Plantas, Peces o Insectos?",
+   "tr": "¡Plantas!",
+   "td": "Algunos comían hojas de árboles muy altos, y otros plantas bajitas."
+  },
+  {
+   "n": 6,
+   "tema": "dinosaurios",
+   "p": "¿Cómo nacían la mayoría de los dinosaurios?",
+   "o": [
+    "De semillas",
+    "De capullos",
+    "De huevos",
+    "De burbujas"
+   ],
+   "c": 2,
+   "d": "Hallaron nidos fósiles con muchos huevos, ¡y hasta con crías adentro!",
+   "tp": "¿Cómo nacían la mayoría de los dinosaurios? ¿De semillas, De capullos, De huevos o De burbujas?",
+   "tr": "¡De huevos!",
+   "td": "Hallaron nidos fósiles con muchos huevos, ¡y hasta con crías adentro!"
+  },
+  {
+   "n": 7,
+   "tema": "dinosaurios",
+   "p": "¿Qué dinosaurio de cuello larguísimo comía hojas de las copas de los árboles?",
+   "o": [
+    "Braquiosaurio",
+    "Tiranosaurio",
+    "Velociraptor",
+    "Oviraptor"
+   ],
+   "c": 0,
+   "d": "El Braquiosaurio podía alzar la cabeza a unos 12 metros de altura.",
+   "tp": "¿Qué dinosaurio de cuello larguísimo comía hojas de las copas de los árboles? ¿Braquiosaurio, Tiranosaurio, Velociraptor o Oviraptor?",
+   "tr": "¡El Braquiosaurio!",
+   "td": "El Braquiosaurio podía alzar la cabeza a unos doce metros de altura.",
+   "o_fotos": [
+    {
+     "q": "Brachiosaurus skeleton",
+     "src": "cm"
+    },
+    {
+     "q": "Tyrannosaurus rex skeleton",
+     "src": "cm"
+    },
+    {
+     "q": "Velociraptor",
+     "src": "cm"
+    },
+    {
+     "q": "Oviraptor",
+     "src": "cm"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "tema": "prehistoria",
+   "p": "¿Qué animal peludo con colmillos curvos y larguísimos vivió en tiempos de mucho frío?",
+   "o": [
+    "Rinoceronte",
+    "Foca elefante",
+    "Bisonte",
+    "Mamut"
+   ],
+   "c": 3,
+   "d": "Los mamuts lanudos se parecían a los elefantes, pero tenían pelo largo para el frío.",
+   "tp": "¿Qué animal peludo con colmillos curvos y larguísimos vivió en tiempos de mucho frío? ¿Rinoceronte, Foca elefante, Bisonte o Mamut?",
+   "tr": "¡El mamut!",
+   "td": "Los mamuts lanudos se parecían a los elefantes, pero tenían pelo largo para el frío.",
+   "o_fotos": [
+    {
+     "q": "rhinoceros",
+     "src": "px"
+    },
+    {
+     "q": "elephant seal",
+     "src": "px"
+    },
+    {
+     "q": "bison",
+     "src": "px"
+    },
+    {
+     "q": "woolly mammoth",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "tema": "cine",
+   "p": "¿Cómo se llama el dinosaurio mascota de la familia Picapiedra?",
+   "o": [
+    "Rex",
+    "Dino",
+    "Barney",
+    "Yoshi"
+   ],
+   "c": 1,
+   "d": "En los dibujos animados, Dino ladra y mueve la cola como un perrito.",
+   "tp": "¿Cómo se llama el dinosaurio mascota de la familia Picapiedra? ¿Rex, Dino, Barney o Yoshi?",
+   "tr": "¡Dino!",
+   "td": "En los dibujos animados, Dino ladra y mueve la cola como un perrito."
+  },
+  {
+   "n": 10,
+   "tema": "ciencia",
+   "p": "¿Qué cayó del cielo y, según los científicos, acabó con los dinosaurios?",
+   "o": [
+    "Un huracán",
+    "Una nevada gigante",
+    "Una ola de calor",
+    "Un asteroide"
+   ],
+   "c": 3,
+   "d": "Chocó contra la Tierra hace unos 66 millones de años y levantó nubes de polvo.",
+   "tp": "¿Qué cayó del cielo y, según los científicos, acabó con los dinosaurios? ¿Un huracán, Una nevada gigante, Una ola de calor o Un asteroide?",
+   "tr": "¡Un asteroide!",
+   "td": "Chocó contra la Tierra hace unos sesenta y seis millones de años y levantó nubes de polvo."
+  },
+  {
+   "n": 11,
+   "tema": "dinosaurios",
+   "ronda": "misteriosa",
+   "p": "¿Qué dinosaurio es este, famoso por su cola larguísima, como un látigo?",
+   "o": [
+    "Diplodocus",
+    "Allosaurus",
+    "Gallimimus",
+    "Iguanodon"
+   ],
+   "c": 0,
+   "img_q": "Diplodocus skeleton",
+   "img_modo": "pregunta",
+   "d": "El Diplodocus medía unos 25 metros, más que dos autobuses juntos.",
+   "tp": "Miren bien la foto. ¿Qué dinosaurio es este, famoso por su cola larguísima, como un látigo? ¿Diplodocus, Allosaurus, Gallimimus o Iguanodon?",
+   "tr": "¡Diplodocus!",
+   "td": "El Diplodocus medía unos veinticinco metros, más que dos autobuses juntos."
+  },
+  {
+   "n": 12,
+   "tema": "prehistoria",
+   "ronda": "misteriosa",
+   "p": "¿Qué animal prehistórico es este, con enormes colmillos en forma de sable?",
+   "o": [
+    "Oso de las cavernas",
+    "Lobo gigante",
+    "Smilodon",
+    "Rinoceronte lanudo"
+   ],
+   "c": 2,
+   "img_q": "Smilodon skeleton",
+   "img_modo": "pregunta",
+   "d": "El Smilodon, el tigre dientes de sable, vivió también en Sudamérica.",
+   "tp": "Miren bien la foto. ¿Qué animal prehistórico es este, con enormes colmillos en forma de sable? ¿Oso de las cavernas, Lobo gigante, Smilodon o Rinoceronte lanudo?",
+   "tr": "¡Smilodon!",
+   "td": "El Smilodon, el tigre dientes de sable, vivió también en Sudamérica."
+  },
+  {
+   "n": 13,
+   "tema": "ciencia",
+   "ronda": "misteriosa",
+   "p": "¿Qué es esta piedra dorada que guarda insectos atrapados hace millones de años?",
+   "o": [
+    "Cuarzo",
+    "Ópalo",
+    "Azabache",
+    "Ámbar"
+   ],
+   "c": 3,
+   "img_q": "Amber insect inclusion",
+   "img_modo": "pregunta",
+   "d": "El ámbar es resina de árbol endurecida durante millones de años.",
+   "tp": "Miren bien la foto. ¿Qué es esta piedra dorada que guarda insectos atrapados hace millones de años? ¿Cuarzo, Ópalo, Azabache o Ámbar?",
+   "tr": "¡Ámbar!",
+   "td": "El ámbar es resina de árbol endurecida durante millones de años."
+  },
+  {
+   "n": 14,
+   "tema": "dinosaurios",
+   "p": "¿En qué país se halló el Patagotitan, uno de los dinosaurios más grandes?",
+   "o": [
+    "Perú",
+    "Argentina",
+    "Chile",
+    "Brasil"
+   ],
+   "c": 1,
+   "d": "Medía más de 30 metros y se descubrió en la Patagonia.",
+   "tp": "¿En qué país se halló el Patagotitan, uno de los dinosaurios más grandes? ¿Perú, Argentina, Chile o Brasil?",
+   "tr": "¡Argentina!",
+   "td": "Medía más de treinta metros y se descubrió en la Patagonia.",
+   "o_fotos": [
+    {
+     "flag": "pe"
+    },
+    {
+     "flag": "ar"
+    },
+    {
+     "flag": "cl"
+    },
+    {
+     "flag": "br"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "tema": "dinosaurios",
+   "p": "¿Qué dinosaurio carnívoro tenía una gran vela en el lomo y cazaba cerca del agua?",
+   "o": [
+    "Espinosaurio",
+    "Alosaurio",
+    "Giganotosaurio",
+    "Albertosaurio"
+   ],
+   "c": 0,
+   "d": "El Espinosaurio pudo medir más de 12 metros, ¡más que un T. rex!",
+   "tp": "¿Qué dinosaurio carnívoro tenía una gran vela en el lomo y cazaba cerca del agua? ¿Espinosaurio, Alosaurio, Giganotosaurio o Albertosaurio?",
+   "tr": "¡El Espinosaurio!",
+   "td": "El Espinosaurio pudo medir más de doce metros, ¡más que un T. rex!",
+   "o_fotos": [
+    {
+     "q": "Spinosaurus skeleton",
+     "src": "cm"
+    },
+    {
+     "q": "Allosaurus skeleton",
+     "src": "cm"
+    },
+    {
+     "q": "Giganotosaurus",
+     "src": "cm"
+    },
+    {
+     "q": "Albertosaurus",
+     "src": "cm"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "tema": "dinosaurios",
+   "p": "¿Cómo eran los brazos del Tiranosaurio rex, comparados con su enorme cuerpo?",
+   "o": [
+    "Larguísimos",
+    "Con alas",
+    "Muy pequeños",
+    "Con aletas"
+   ],
+   "c": 2,
+   "d": "Aunque cortos, sus brazos eran muy fuertes y tenían dos dedos con garras.",
+   "tp": "¿Cómo eran los brazos del Tiranosaurio rex, comparados con su enorme cuerpo? ¿Larguísimos, Con alas, Muy pequeños o Con aletas?",
+   "tr": "¡Muy pequeños!",
+   "td": "Aunque cortos, sus brazos eran muy fuertes y tenían dos dedos con garras."
+  },
+  {
+   "n": 17,
+   "tema": "dinosaurios",
+   "p": "¿Qué dinosaurio de pico de pato tenía una cresta hueca en forma de tubo?",
+   "o": [
+    "Parasaurolophus",
+    "Iguanodon",
+    "Maiasaura",
+    "Oviraptor"
+   ],
+   "c": 0,
+   "d": "Quizá la cresta servía para hacer sonidos graves, como una trompeta.",
+   "tp": "¿Qué dinosaurio de pico de pato tenía una cresta hueca en forma de tubo? ¿Parasaurolophus, Iguanodon, Maiasaura o Oviraptor?",
+   "tr": "¡Parasaurolophus!",
+   "td": "Quizá la cresta servía para hacer sonidos graves, como una trompeta.",
+   "o_fotos": [
+    {
+     "q": "Parasaurolophus",
+     "src": "cm"
+    },
+    {
+     "q": "Iguanodon",
+     "src": "cm"
+    },
+    {
+     "q": "Maiasaura",
+     "src": "cm"
+    },
+    {
+     "q": "Oviraptor",
+     "src": "cm"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "tema": "dinosaurios",
+   "p": "¿Qué eran los pterosaurios, como el pterodáctilo?",
+   "o": [
+    "Aves actuales",
+    "Peces con alas",
+    "Insectos gigantes",
+    "Reptiles voladores"
+   ],
+   "c": 3,
+   "d": "No eran dinosaurios, pero vivieron en la misma época y dominaban el cielo.",
+   "tp": "¿Qué eran los pterosaurios, como el pterodáctilo? ¿Aves actuales, Peces con alas, Insectos gigantes o Reptiles voladores?",
+   "tr": "¡Reptiles voladores!",
+   "td": "No eran dinosaurios, pero vivieron en la misma época y dominaban el cielo."
+  },
+  {
+   "n": 19,
+   "tema": "prehistoria",
+   "p": "¿Qué reptil marino de la época de los dinosaurios se parecía a un delfín?",
+   "o": [
+    "Mosasaurio",
+    "Pliosaurio",
+    "Ictiosaurio",
+    "Elasmosaurio"
+   ],
+   "c": 2,
+   "d": "Los ictiosaurios respiraban aire y sus crías nacían ya en el agua.",
+   "tp": "¿Qué reptil marino de la época de los dinosaurios se parecía a un delfín? ¿Mosasaurio, Pliosaurio, Ictiosaurio o Elasmosaurio?",
+   "tr": "¡El Ictiosaurio!",
+   "td": "Los ictiosaurios respiraban aire y sus crías nacían ya en el agua."
+  },
+  {
+   "n": 20,
+   "tema": "prehistoria",
+   "p": "¿A qué reptil marino prehistórico se parece el monstruo del lago Ness en los dibujos?",
+   "o": [
+    "Tortuga gigante",
+    "Plesiosaurio",
+    "Cocodrilo",
+    "Anguila gigante"
+   ],
+   "c": 1,
+   "d": "El plesiosaurio tenía cuello larguísimo y aletas para nadar en el mar.",
+   "tp": "¿A qué reptil marino prehistórico se parece el monstruo del lago Ness en los dibujos? ¿Tortuga gigante, Plesiosaurio, Cocodrilo o Anguila gigante?",
+   "tr": "¡El Plesiosaurio!",
+   "td": "El plesiosaurio tenía cuello larguísimo y aletas para nadar en el mar."
+  },
+  {
+   "n": 21,
+   "tema": "geografía",
+   "p": "¿En qué ciudad de Bolivia hay una pared con más de 5.000 huellas de dinosaurios?",
+   "o": [
+    "La Paz",
+    "Sucre",
+    "Cochabamba",
+    "Potosí"
+   ],
+   "c": 1,
+   "d": "La pared mide más de un kilómetro de largo y las huellas tienen unos 68 millones de años.",
+   "tp": "¿En qué ciudad de Bolivia hay una pared con más de cinco mil huellas de dinosaurios? ¿La Paz, Sucre, Cochabamba o Potosí?",
+   "tr": "¡Sucre!",
+   "td": "La pared mide más de un kilómetro de largo y las huellas tienen unos sesenta y ocho millones de años."
+  },
+  {
+   "n": 22,
+   "tema": "geografía",
+   "p": "¿Qué región del Perú tiene en su desierto fósiles de ballenas y tiburones gigantes?",
+   "o": [
+    "Cusco",
+    "Puno",
+    "Amazonas",
+    "Ica"
+   ],
+   "c": 3,
+   "d": "Hace millones de años esa zona estaba cubierta por el mar.",
+   "tp": "¿Qué región del Perú tiene en su desierto fósiles de ballenas y tiburones gigantes? ¿Cusco, Puno, Amazonas o Ica?",
+   "tr": "¡Ica!",
+   "td": "Hace millones de años esa zona estaba cubierta por el mar."
+  },
+  {
+   "n": 23,
+   "tema": "prehistoria",
+   "p": "¿Qué tiburón gigante extinto tenía dientes tan grandes como una mano?",
+   "o": [
+    "Tiburón blanco",
+    "Tiburón ballena",
+    "Megalodón",
+    "Tiburón martillo"
+   ],
+   "c": 2,
+   "d": "El megalodón pudo medir unos 15 metros, más del doble que un tiburón blanco.",
+   "tp": "¿Qué tiburón gigante extinto tenía dientes tan grandes como una mano? ¿Tiburón blanco, Tiburón ballena, Megalodón o Tiburón martillo?",
+   "tr": "¡El megalodón!",
+   "td": "El megalodón pudo medir unos quince metros, más del doble que un tiburón blanco.",
+   "o_fotos": [
+    {
+     "q": "great white shark",
+     "src": "px"
+    },
+    {
+     "q": "whale shark",
+     "src": "px"
+    },
+    {
+     "q": "megalodon tooth",
+     "src": "cm"
+    },
+    {
+     "q": "hammerhead shark",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "tema": "dinosaurios",
+   "ronda": "vf",
+   "p": "El Tiranosaurio rex vivió más cerca de nuestra época que del Estegosaurio.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "El Estegosaurio vivió hace unos 150 millones de años y el T. rex, hace unos 68.",
+   "tp": "¿Verdadero o falso? El Tiranosaurio rex vivió más cerca de nuestra época que del Estegosaurio.",
+   "tr": "¡Verdadero! Entre el Estegosaurio y el T. rex pasaron más de ochenta millones de años.",
+   "td": "El Estegosaurio vivió hace unos ciento cincuenta millones de años y el T. rex, hace unos sesenta y ocho."
+  },
+  {
+   "n": 25,
+   "tema": "dinosaurios",
+   "ronda": "vf",
+   "p": "Los seres humanos y los dinosaurios vivieron en la misma época.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Los primeros humanos aparecieron hace cerca de 300.000 años.",
+   "tp": "¿Verdadero o falso? Los seres humanos y los dinosaurios vivieron en la misma época.",
+   "tr": "¡Falso! Los separan unos sesenta y seis millones de años.",
+   "td": "Los primeros humanos aparecieron hace cerca de trescientos mil años."
+  },
+  {
+   "n": 26,
+   "tema": "prehistoria",
+   "ronda": "vf",
+   "p": "Aún había mamuts vivos cuando se construían las pirámides de Egipto.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Los últimos mamuts vivían en la isla Wrangel, en Siberia, hace unos 4.000 años.",
+   "tp": "¿Verdadero o falso? Aún había mamuts vivos cuando se construían las pirámides de Egipto.",
+   "tr": "¡Verdadero! Los últimos mamuts vivían en una isla de Siberia.",
+   "td": "Los últimos mamuts vivían en la isla Wrangel, en Siberia, hace unos cuatro mil años."
+  },
+  {
+   "n": 27,
+   "tema": "cine",
+   "p": "¿Quién dirigió «Parque Jurásico», la película de dinosaurios de 1993?",
+   "o": [
+    "George Lucas",
+    "Steven Spielberg",
+    "James Cameron",
+    "Tim Burton"
+   ],
+   "c": 1,
+   "d": "Para crear los dinosaurios mezcló robots enormes con efectos digitales.",
+   "tp": "¿Quién dirigió «Parque Jurásico», la película de dinosaurios de mil novecientos noventa y tres? ¿George Lucas, Steven Spielberg, James Cameron o Tim Burton?",
+   "tr": "¡Steven Spielberg!",
+   "td": "Para crear los dinosaurios mezcló robots enormes con efectos digitales."
+  },
+  {
+   "n": 28,
+   "tema": "cine",
+   "p": "En «Parque Jurásico», ¿qué insecto atrapado en ámbar guardaba sangre de dinosaurio?",
+   "o": [
+    "Una abeja",
+    "Una hormiga",
+    "Un mosquito",
+    "Una mariposa"
+   ],
+   "c": 2,
+   "d": "En la película extraen ADN de la sangre guardada en el mosquito.",
+   "tp": "En «Parque Jurásico», ¿qué insecto atrapado en ámbar guardaba sangre de dinosaurio? ¿Una abeja, Una hormiga, Un mosquito o Una mariposa?",
+   "tr": "¡Un mosquito!",
+   "td": "En la película extraen ADN de la sangre guardada en el mosquito."
+  },
+  {
+   "n": 29,
+   "tema": "ciencia",
+   "p": "¿Qué sorprendió a los científicos al hallarlo en fósiles de dinosaurios de China?",
+   "o": [
+    "Pelo largo",
+    "Escamas de pez",
+    "Caparazón",
+    "Plumas"
+   ],
+   "c": 3,
+   "d": "Hoy sabemos que muchos dinosaurios tenían plumas, como las aves.",
+   "tp": "¿Qué sorprendió a los científicos al hallarlo en fósiles de dinosaurios de China? ¿Pelo largo, Escamas de pez, Caparazón o Plumas?",
+   "tr": "¡Plumas!",
+   "td": "Hoy sabemos que muchos dinosaurios tenían plumas, como las aves."
+  },
+  {
+   "n": 30,
+   "tema": "dinosaurios",
+   "p": "¿De qué tamaño era, más o menos, el Velociraptor real?",
+   "o": [
+    "Como un caballo",
+    "Como un autobús",
+    "Como un pavo",
+    "Como un elefante"
+   ],
+   "c": 2,
+   "d": "En la película es enorme, pero el real pesaba unos 15 kilos.",
+   "tp": "¿De qué tamaño era, más o menos, el Velociraptor real? ¿Como un caballo, Como un autobús, Como un pavo o Como un elefante?",
+   "tr": "¡Como un pavo!",
+   "td": "En la película es enorme, pero el real pesaba unos quince kilos."
+  },
+  {
+   "n": 31,
+   "tema": "dinosaurios",
+   "p": "¿Qué dinosaurio acorazado tenía una cola con forma de maza?",
+   "o": [
+    "Anquilosaurio",
+    "Tiranosaurio",
+    "Triceratops",
+    "Diplodocus"
+   ],
+   "c": 0,
+   "d": "Con un golpe de su cola podía romper los huesos de otros dinosaurios.",
+   "tp": "¿Qué dinosaurio acorazado tenía una cola con forma de maza? ¿Anquilosaurio, Tiranosaurio, Triceratops o Diplodocus?",
+   "tr": "¡El Anquilosaurio!",
+   "td": "Con un golpe de su cola podía romper los huesos de otros dinosaurios.",
+   "o_fotos": [
+    {
+     "q": "Ankylosaurus",
+     "src": "cm"
+    },
+    {
+     "q": "Tyrannosaurus rex skeleton",
+     "src": "cm"
+    },
+    {
+     "q": "Triceratops skeleton",
+     "src": "cm"
+    },
+    {
+     "q": "Diplodocus skeleton",
+     "src": "cm"
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "tema": "prehistoria",
+   "p": "¿Qué animal prehistórico de Sudamérica era un armadillo gigante, con caparazón de placas?",
+   "o": [
+    "Toxodonte",
+    "Gliptodonte",
+    "Macrauquenia",
+    "Mastodonte"
+   ],
+   "c": 1,
+   "d": "Algunos gliptodontes eran casi tan grandes como un auto pequeño.",
+   "tp": "¿Qué animal prehistórico de Sudamérica era un armadillo gigante, con caparazón de placas? ¿Toxodonte, Gliptodonte, Macrauquenia o Mastodonte?",
+   "tr": "¡El gliptodonte!",
+   "td": "Algunos gliptodontes eran casi tan grandes como un auto pequeño."
+  },
+  {
+   "n": 33,
+   "tema": "prehistoria",
+   "p": "¿Qué enorme perezoso terrestre de Sudamérica podía medir cerca de seis metros?",
+   "o": [
+    "Oso de las cavernas",
+    "Mastodonte",
+    "Toxodonte",
+    "Megaterio"
+   ],
+   "c": 3,
+   "d": "Se levantaba sobre sus patas traseras para alcanzar las hojas de los árboles.",
+   "tp": "¿Qué enorme perezoso terrestre de Sudamérica podía medir cerca de seis metros? ¿Oso de las cavernas, Mastodonte, Toxodonte o Megaterio?",
+   "tr": "¡El megaterio!",
+   "td": "Se levantaba sobre sus patas traseras para alcanzar las hojas de los árboles."
+  },
+  {
+   "n": 34,
+   "tema": "dinosaurios",
+   "p": "¿En qué museo de Chicago está «Sue», uno de los esqueletos de T. rex más completos?",
+   "o": [
+    "Museo Británico",
+    "Museo Field",
+    "Museo del Louvre",
+    "Museo del Prado"
+   ],
+   "c": 1,
+   "d": "Sue mide unos 12 metros de largo y tiene más de 200 huesos.",
+   "tp": "¿En qué museo de Chicago está «Sue», uno de los esqueletos de T. rex más completos? ¿Museo Británico, Museo Field, Museo del Louvre o Museo del Prado?",
+   "tr": "¡El Museo Field!",
+   "td": "Sue mide unos doce metros de largo y tiene más de doscientos huesos."
+  },
+  {
+   "n": 35,
+   "tema": "geografía",
+   "p": "¿En qué país latino cayó el asteroide que acabó con los dinosaurios?",
+   "o": [
+    "Perú",
+    "Colombia",
+    "México",
+    "Cuba"
+   ],
+   "c": 2,
+   "d": "El cráter de Chicxulub, en Yucatán, mide unos 180 kilómetros de ancho.",
+   "tp": "¿En qué país latino cayó el asteroide que acabó con los dinosaurios? ¿Perú, Colombia, México o Cuba?",
+   "tr": "¡México!",
+   "td": "El cráter de Chicxulub, en Yucatán, mide unos ciento ochenta kilómetros de ancho.",
+   "o_fotos": [
+    {
+     "flag": "pe"
+    },
+    {
+     "flag": "co"
+    },
+    {
+     "flag": "mx"
+    },
+    {
+     "flag": "cu"
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "tema": "ciencia",
+   "p": "¿Hace cuántos años, más o menos, se extinguieron los dinosaurios no voladores?",
+   "o": [
+    "Hace 6.000 años",
+    "Hace 1 millón de años",
+    "Hace 66 millones de años",
+    "Hace 500 millones de años"
+   ],
+   "c": 2,
+   "d": "Las aves, sus descendientes, sí sobrevivieron y hoy llenan el cielo.",
+   "tp": "¿Hace cuántos años, más o menos, se extinguieron los dinosaurios no voladores? ¿Hace seis mil años, Hace uno millón de años, Hace sesenta y seis millones de años o Hace quinientos millones de años?",
+   "tr": "¡Hace sesenta y seis millones de años!",
+   "td": "Las aves, sus descendientes, sí sobrevivieron y hoy llenan el cielo."
+  },
+  {
+   "n": 37,
+   "tema": "ciencia",
+   "p": "¿Cómo se llama el periodo de los dinosaurios entre el Triásico y el Cretácico?",
+   "o": [
+    "Cámbrico",
+    "Devónico",
+    "Pérmico",
+    "Jurásico"
+   ],
+   "c": 3,
+   "d": "El Jurásico duró desde hace unos 200 hasta hace unos 145 millones de años.",
+   "tp": "¿Cómo se llama el periodo de los dinosaurios entre el Triásico y el Cretácico? ¿Cámbrico, Devónico, Pérmico o Jurásico?",
+   "tr": "¡El Jurásico!",
+   "td": "El Jurásico duró desde hace unos doscientos hasta hace unos ciento cuarenta y cinco millones de años."
+  },
+  {
+   "n": 38,
+   "tema": "dinosaurios",
+   "p": "¿Qué tragaban algunos dinosaurios para triturar la comida en el estómago?",
+   "o": [
+    "Piedras",
+    "Arena",
+    "Madera",
+    "Conchas"
+   ],
+   "c": 0,
+   "d": "Esas piedras pulidas se llaman gastrolitos y las usan también algunas aves.",
+   "tp": "¿Qué tragaban algunos dinosaurios para triturar la comida en el estómago? ¿Piedras, Arena, Madera o Conchas?",
+   "tr": "¡Piedras!",
+   "td": "Esas piedras pulidas se llaman gastrolitos y las usan también algunas aves."
+  },
+  {
+   "n": 39,
+   "tema": "animales",
+   "p": "¿Qué pez, que se creía extinto, apareció vivo en 1938 frente a Sudáfrica?",
+   "o": [
+    "Pez luna",
+    "Celacanto",
+    "Pez payaso",
+    "Pez espada"
+   ],
+   "c": 1,
+   "d": "El celacanto es casi igual a sus parientes de hace cientos de millones de años.",
+   "tp": "¿Qué pez, que se creía extinto, apareció vivo en mil novecientos treinta y ocho frente a Sudáfrica? ¿Pez luna, Celacanto, Pez payaso o Pez espada?",
+   "tr": "¡El celacanto!",
+   "td": "El celacanto es casi igual a sus parientes de hace cientos de millones de años."
+  },
+  {
+   "n": 40,
+   "tema": "dinosaurios",
+   "p": "¿Qué tamaño podían tener los dientes más grandes del T. rex, contando la raíz?",
+   "o": [
+    "Como un lápiz",
+    "Hasta un metro",
+    "Hasta 30 centímetros",
+    "Como un grano de arroz"
+   ],
+   "c": 2,
+   "d": "Eran gruesos como bananas y podían quebrar huesos.",
+   "tp": "¿Qué tamaño podían tener los dientes más grandes del T. rex, contando la raíz? ¿Como un lápiz, Hasta un metro, Hasta treinta centímetros o Como un grano de arroz?",
+   "tr": "¡Hasta treinta centímetros!",
+   "td": "Eran gruesos como bananas y podían quebrar huesos."
+  },
+  {
+   "n": 41,
+   "tema": "dinosaurios",
+   "ronda": "relampago",
+   "p": "¿Cómo se llama un dinosaurio que come carne?",
+   "o": [
+    "Herbívoro",
+    "Vegetariano",
+    "Carnívoro",
+    "Insectívoro"
+   ],
+   "c": 2,
+   "d": "Carnívoro significa que come carne.",
+   "tp": "¿Cómo se llama un dinosaurio que come carne? ¿Herbívoro, Vegetariano, Carnívoro o Insectívoro?",
+   "tr": "¡Carnívoro!",
+   "td": "Carnívoro significa que come carne."
+  },
+  {
+   "n": 42,
+   "tema": "dinosaurios",
+   "ronda": "relampago",
+   "p": "¿Cuántas patas usaba el T. rex para caminar?",
+   "o": [
+    "Dos",
+    "Cuatro",
+    "Seis",
+    "Ocho"
+   ],
+   "c": 0,
+   "d": "El T. rex caminaba sobre dos patas.",
+   "tp": "¿Cuántas patas usaba el T. rex para caminar? ¿Dos, Cuatro, Seis o Ocho?",
+   "tr": "¡Dos!",
+   "td": "El T. rex caminaba sobre dos patas."
+  },
+  {
+   "n": 43,
+   "tema": "dinosaurios",
+   "ronda": "relampago",
+   "p": "¿Qué tenía un T. rex en la boca?",
+   "o": [
+    "Pico",
+    "Dientes",
+    "Bigotes",
+    "Trompa"
+   ],
+   "c": 1,
+   "d": "Sus dientes eran enormes y filosos.",
+   "tp": "¿Qué tenía un T. rex en la boca? ¿Pico, Dientes, Bigotes o Trompa?",
+   "tr": "¡Dientes!",
+   "td": "Sus dientes eran enormes y filosos."
+  },
+  {
+   "n": 44,
+   "tema": "ciencia",
+   "ronda": "relampago",
+   "p": "¿Quién estudia los fósiles?",
+   "o": [
+    "Astrónomo",
+    "Pastelero",
+    "Piloto",
+    "Paleontólogo"
+   ],
+   "c": 3,
+   "d": "Los paleontólogos buscan huesos y huellas antiguas.",
+   "tp": "¿Quién estudia los fósiles? ¿Astrónomo, Pastelero, Piloto o Paleontólogo?",
+   "tr": "¡El paleontólogo!",
+   "td": "Los paleontólogos buscan huesos y huellas antiguas."
+  },
+  {
+   "n": 45,
+   "tema": "prehistoria",
+   "ronda": "relampago",
+   "p": "¿Quién vivió primero?",
+   "o": [
+    "Faraones",
+    "Incas",
+    "Romanos",
+    "Dinosaurios"
+   ],
+   "c": 3,
+   "d": "Los dinosaurios vivieron mucho antes que cualquier civilización.",
+   "tp": "¿Quién vivió primero? ¿Faraones, Incas, Romanos o Dinosaurios?",
+   "tr": "¡Los dinosaurios!",
+   "td": "Los dinosaurios vivieron mucho antes que cualquier civilización."
+  },
+  {
+   "n": 46,
+   "tema": "geografía",
+   "p": "¿En qué desierto de Asia se hallaron nidos con huevos de dinosaurio en los años 1920?",
+   "o": [
+    "Gobi",
+    "Sahara",
+    "Atacama",
+    "Arabia"
+   ],
+   "c": 0,
+   "d": "Los hallazgos del Gobi mostraron que los dinosaurios ponían huevos, como las aves.",
+   "tp": "¿En qué desierto de Asia se hallaron nidos con huevos de dinosaurio en los años mil novecientos veinte? ¿Gobi, Sahara, Atacama o Arabia?",
+   "tr": "¡El Gobi!",
+   "td": "Los hallazgos del Gobi mostraron que los dinosaurios ponían huevos, como las aves."
+  },
+  {
+   "n": 47,
+   "tema": "dinosaurios",
+   "p": "¿Qué animal con plumas y dientes, hallado en Alemania, une dinosaurios y aves?",
+   "o": [
+    "Pterodáctilo",
+    "Arqueopterix",
+    "Dodo",
+    "Compsognathus"
+   ],
+   "c": 1,
+   "d": "Vivió hace unos 150 millones de años y es una de las primeras aves conocidas.",
+   "tp": "¿Qué animal con plumas y dientes, hallado en Alemania, une dinosaurios y aves? ¿Pterodáctilo, Arqueopterix, Dodo o Compsognathus?",
+   "tr": "¡El Arqueopterix!",
+   "td": "Vivió hace unos ciento cincuenta millones de años y es una de las primeras aves conocidas."
+  },
+  {
+   "n": 48,
+   "tema": "dinosaurios",
+   "p": "¿Qué enorme reptil volador lleva el nombre del dios azteca Quetzalcóatl?",
+   "o": [
+    "Pteranodon",
+    "Dimorphodon",
+    "Quetzalcoatlus",
+    "Rhamphorhynchus"
+   ],
+   "c": 2,
+   "d": "Con las alas abiertas medía cerca de diez metros, como una avioneta.",
+   "tp": "¿Qué enorme reptil volador lleva el nombre del dios azteca Quetzalcóatl? ¿Pteranodon, Dimorphodon, Quetzalcoatlus o Rhamphorhynchus?",
+   "tr": "¡Quetzalcoatlus!",
+   "td": "Con las alas abiertas medía cerca de diez metros, como una avioneta."
+  },
+  {
+   "n": 49,
+   "tema": "animales",
+   "p": "¿Qué animal vivo es más grande que cualquier dinosaurio conocido?",
+   "o": [
+    "Elefante africano",
+    "Jirafa",
+    "Ballena azul",
+    "Tiburón ballena"
+   ],
+   "c": 2,
+   "d": "La ballena azul puede pesar unas 150 toneladas, ¡el peso de muchos dinosaurios juntos!",
+   "tp": "¿Qué animal vivo es más grande que cualquier dinosaurio conocido? ¿Elefante africano, Jirafa, Ballena azul o Tiburón ballena?",
+   "tr": "¡La ballena azul!",
+   "td": "La ballena azul puede pesar unas ciento cincuenta toneladas, ¡el peso de muchos dinosaurios juntos!",
+   "o_fotos": [
+    {
+     "q": "african elephant",
+     "src": "px"
+    },
+    {
+     "q": "giraffe",
+     "src": "px"
+    },
+    {
+     "q": "blue whale",
+     "src": "px"
+    },
+    {
+     "q": "whale shark",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "tema": "geografía",
+   "p": "¿En qué país está Villa de Leyva, donde hallaron un gran reptil marino, el Kronosaurio?",
+   "o": [
+    "Chile",
+    "Colombia",
+    "Panamá",
+    "Ecuador"
+   ],
+   "c": 1,
+   "d": "Allí, en plena cordillera, hace millones de años había un mar lleno de reptiles gigantes.",
+   "tp": "¿En qué país está Villa de Leyva, donde hallaron un gran reptil marino, el Kronosaurio? ¿Chile, Colombia, Panamá o Ecuador?",
+   "tr": "¡Colombia!",
+   "td": "Allí, en plena cordillera, hace millones de años había un mar lleno de reptiles gigantes.",
+   "o_fotos": [
+    {
+     "flag": "cl"
+    },
+    {
+     "flag": "co"
+    },
+    {
+     "flag": "pa"
+    },
+    {
+     "flag": "ec"
+    }
+   ]
+  },
+  {
+   "n": 51,
+   "tema": "prehistoria",
+   "p": "¿Qué animales marinos de cuerpo en tres partes vivieron antes que los dinosaurios?",
+   "o": [
+    "Trilobites",
+    "Cangrejos",
+    "Dodos",
+    "Mamuts"
+   ],
+   "c": 0,
+   "d": "Los trilobites aparecieron hace más de 500 millones de años.",
+   "tp": "¿Qué animales marinos de cuerpo en tres partes vivieron antes que los dinosaurios? ¿Trilobites, Cangrejos, Dodos o Mamuts?",
+   "tr": "¡Los trilobites!",
+   "td": "Los trilobites aparecieron hace más de quinientos millones de años.",
+   "o_fotos": [
+    {
+     "q": "trilobite fossil",
+     "src": "px"
+    },
+    {
+     "q": "crab",
+     "src": "px"
+    },
+    {
+     "q": "dodo bird",
+     "src": "px"
+    },
+    {
+     "q": "woolly mammoth",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "tema": "ciencia",
+   "p": "¿Qué supercontinente unía todas las tierras cuando aparecieron los dinosaurios?",
+   "o": [
+    "Gondwana",
+    "Atlántida",
+    "Laurasia",
+    "Pangea"
+   ],
+   "c": 3,
+   "d": "Con el tiempo se partió y sus pedazos formaron los continentes de hoy.",
+   "tp": "¿Qué supercontinente unía todas las tierras cuando aparecieron los dinosaurios? ¿Gondwana, Atlántida, Laurasia o Pangea?",
+   "tr": "¡Pangea!",
+   "td": "Con el tiempo se partió y sus pedazos formaron los continentes de hoy."
+  },
+  {
+   "n": 53,
+   "tema": "cine",
+   "p": "¿Cómo se llama la isla del parque de dinosaurios de la película «Parque Jurásico»?",
+   "o": [
+    "Isla Sorna",
+    "Isla Negra",
+    "Isla del Tesoro",
+    "Isla Nublar"
+   ],
+   "c": 3,
+   "d": "En la novela, la isla queda frente a las costas de Costa Rica.",
+   "tp": "¿Cómo se llama la isla del parque de dinosaurios de la película «Parque Jurásico»? ¿Isla Sorna, Isla Negra, Isla del Tesoro o Isla Nublar?",
+   "tr": "¡Isla Nublar!",
+   "td": "En la novela, la isla queda frente a las costas de Costa Rica."
+  },
+  {
+   "n": 54,
+   "tema": "ciencia",
+   "p": "¿Qué científico inglés inventó la palabra «dinosaurio» en 1842?",
+   "o": [
+    "Charles Darwin",
+    "Thomas Huxley",
+    "Richard Owen",
+    "Alfred Wallace"
+   ],
+   "c": 2,
+   "d": "Dinosaurio significa «lagarto terrible» en griego.",
+   "tp": "¿Qué científico inglés inventó la palabra «dinosaurio» en mil ochocientos cuarenta y dos? ¿Charles Darwin, Thomas Huxley, Richard Owen o Alfred Wallace?",
+   "tr": "¡Richard Owen!",
+   "td": "Dinosaurio significa «lagarto terrible» en griego."
+  },
+  {
+   "n": 55,
+   "tema": "historia",
+   "p": "¿Qué niña inglesa halló un esqueleto de ictiosaurio con solo 12 años?",
+   "o": [
+    "Marie Curie",
+    "Mary Anning",
+    "Jane Goodall",
+    "Rosalind Franklin"
+   ],
+   "c": 1,
+   "d": "Mary Anning buscaba fósiles en los acantilados de Lyme Regis, en Inglaterra.",
+   "tp": "¿Qué niña inglesa halló un esqueleto de ictiosaurio con solo doce años? ¿Marie Curie, Mary Anning, Jane Goodall o Rosalind Franklin?",
+   "tr": "¡Mary Anning!",
+   "td": "Mary Anning buscaba fósiles en los acantilados de Lyme Regis, en Inglaterra."
+  },
+  {
+   "n": 56,
+   "tema": "geografía",
+   "p": "¿De qué montañas, entre Francia y Suiza, viene el nombre del periodo Jurásico?",
+   "o": [
+    "Montes Jura",
+    "Alpes",
+    "Pirineos",
+    "Cárpatos"
+   ],
+   "c": 0,
+   "d": "Allí hallaron rocas de esa edad llenas de fósiles.",
+   "tp": "¿De qué montañas, entre Francia y Suiza, viene el nombre del periodo Jurásico? ¿Montes Jura, Alpes, Pirineos o Cárpatos?",
+   "tr": "¡Los montes Jura!",
+   "td": "Allí hallaron rocas de esa edad llenas de fósiles."
+  },
+  {
+   "n": 57,
+   "tema": "prehistoria",
+   "p": "¿Qué perezoso gigante da nombre a una famosa cueva de la Patagonia chilena?",
+   "o": [
+    "Milodón",
+    "Mamut",
+    "Oso hormiguero",
+    "Capibara"
+   ],
+   "c": 0,
+   "d": "En esa cueva se hallaron restos de piel y pelo de milodón de hace miles de años.",
+   "tp": "¿Qué perezoso gigante da nombre a una famosa cueva de la Patagonia chilena? ¿Milodón, Mamut, Oso hormiguero o Capibara?",
+   "tr": "¡El milodón!",
+   "td": "En esa cueva se hallaron restos de piel y pelo de milodón de hace miles de años."
+  },
+  {
+   "n": 58,
+   "tema": "geografía",
+   "p": "¿En qué país está el Parque Provincial de los Dinosaurios, Patrimonio de la Humanidad?",
+   "o": [
+    "Brasil",
+    "Canadá",
+    "Italia",
+    "Egipto"
+   ],
+   "c": 1,
+   "d": "En Alberta se han hallado más de 40 especies de dinosaurios.",
+   "tp": "¿En qué país está el Parque Provincial de los Dinosaurios, Patrimonio de la Humanidad? ¿Brasil, Canadá, Italia o Egipto?",
+   "tr": "¡Canadá!",
+   "td": "En Alberta se han hallado más de cuarenta especies de dinosaurios.",
+   "o_fotos": [
+    {
+     "flag": "br"
+    },
+    {
+     "flag": "ca"
+    },
+    {
+     "flag": "it"
+    },
+    {
+     "flag": "eg"
+    }
+   ]
+  },
+  {
+   "n": 59,
+   "tema": "dinosaurios",
+   "p": "¿Cómo se llaman los dinosaurios carnívoros que caminaban sobre dos patas, como el T. rex?",
+   "o": [
+    "Saurópodos",
+    "Cetáceos",
+    "Marsupiales",
+    "Terópodos"
+   ],
+   "c": 3,
+   "d": "Los terópodos incluyen a los antepasados de las aves de hoy.",
+   "tp": "¿Cómo se llaman los dinosaurios carnívoros que caminaban sobre dos patas, como el T. rex? ¿Saurópodos, Cetáceos, Marsupiales o Terópodos?",
+   "tr": "¡Los terópodos!",
+   "td": "Los terópodos incluyen a los antepasados de las aves de hoy."
+  },
+  {
+   "n": 60,
+   "tema": "dinosaurios",
+   "p": "¿Qué dinosaurio argentino, de unas 70 toneladas, es de los más pesados que se conocen?",
+   "o": [
+    "Tiranosaurio",
+    "Triceratops",
+    "Argentinosaurio",
+    "Velociraptor"
+   ],
+   "c": 2,
+   "d": "Su nombre significa «lagarto de Argentina».",
+   "tp": "¿Qué dinosaurio argentino, de unas setenta toneladas, es de los más pesados que se conocen? ¿Tiranosaurio, Triceratops, Argentinosaurio o Velociraptor?",
+   "tr": "¡El Argentinosaurio!",
+   "td": "Su nombre significa «lagarto de Argentina»."
+  },
+  {
+   "n": 61,
+   "tema": "prehistoria",
+   "p": "¿Cuál es el pariente vivo más cercano del mamut?",
+   "o": [
+    "Rinoceronte",
+    "Elefante asiático",
+    "Hipopótamo",
+    "Elefante africano"
+   ],
+   "c": 1,
+   "d": "Los científicos lo supieron al estudiar el ADN de mamuts congelados.",
+   "tp": "¿Cuál es el pariente vivo más cercano del mamut? ¿Rinoceronte, Elefante asiático, Hipopótamo o Elefante africano?",
+   "tr": "¡El elefante asiático!",
+   "td": "Los científicos lo supieron al estudiar el ADN de mamuts congelados."
+  },
+  {
+   "n": 62,
+   "tema": "prehistoria",
+   "p": "¿Cómo se llama el famoso esqueleto de una antepasada humana hallado en Etiopía en 1974?",
+   "o": [
+    "Lucy",
+    "Eva",
+    "Sue",
+    "Ana"
+   ],
+   "c": 0,
+   "d": "Lucy vivió hace unos 3 millones de años y caminaba sobre dos piernas.",
+   "tp": "¿Cómo se llama el famoso esqueleto de una antepasada humana hallado en Etiopía en mil novecientos setenta y cuatro? ¿Lucy, Eva, Sue o Ana?",
+   "tr": "¡Lucy!",
+   "td": "Lucy vivió hace unos tres millones de años y caminaba sobre dos piernas."
+  },
+  {
+   "n": 63,
+   "tema": "animales",
+   "p": "¿Qué ave gigante sin alas de Nueva Zelanda, de hasta tres metros, se extinguió?",
+   "o": [
+    "Kiwi",
+    "Dodo",
+    "Moa",
+    "Emú"
+   ],
+   "c": 2,
+   "d": "Los moas desaparecieron hace unos 600 años, tras ser cazados.",
+   "tp": "¿Qué ave gigante sin alas de Nueva Zelanda, de hasta tres metros, se extinguió? ¿Kiwi, Dodo, Moa o Emú?",
+   "tr": "¡El moa!",
+   "td": "Los moas desaparecieron hace unos seiscientos años, tras ser cazados."
+  },
+  {
+   "n": 64,
+   "tema": "prehistoria",
+   "p": "¿Cómo se llamó la larga época fría en que vivían los mamuts y los tigres dientes de sable?",
+   "o": [
+    "Edad Media",
+    "Edad del Bronce",
+    "Era Espacial",
+    "Edad de Hielo"
+   ],
+   "c": 3,
+   "d": "La última glaciación terminó hace unos 11.000 años.",
+   "tp": "¿Cómo se llamó la larga época fría en que vivían los mamuts y los tigres dientes de sable? ¿Edad Media, Edad del Bronce, Era Espacial o Edad de Hielo?",
+   "tr": "¡La Edad de Hielo!",
+   "td": "La última glaciación terminó hace unos once mil años."
+  },
+  {
+   "n": 65,
+   "tema": "ciencia",
+   "p": "¿Qué es un coprolito, que tanto interesa a los paleontólogos?",
+   "o": [
+    "Un excremento fósil",
+    "Un huevo fósil",
+    "Un diente fósil",
+    "Una huella fósil"
+   ],
+   "c": 0,
+   "d": "Dentro se pueden hallar restos de lo que comía el animal.",
+   "tp": "¿Qué es un coprolito, que tanto interesa a los paleontólogos? ¿Un excremento fósil, Un huevo fósil, Un diente fósil o Una huella fósil?",
+   "tr": "¡Un excremento fósil!",
+   "td": "Dentro se pueden hallar restos de lo que comía el animal."
+  },
+  {
+   "n": 66,
+   "tema": "prehistoria",
+   "ronda": "misteriosa",
+   "p": "¿Qué es este fósil con forma de espiral, de un molusco marino extinto?",
+   "o": [
+    "Caracol de jardín",
+    "Ammonite",
+    "Concha de playa",
+    "Cuerno de carnero"
+   ],
+   "c": 1,
+   "img_q": "Ammonite fossil",
+   "img_modo": "pregunta",
+   "d": "Los ammonites vivieron en los mares y desaparecieron junto con los dinosaurios.",
+   "tp": "Miren bien la foto. ¿Qué es este fósil con forma de espiral, de un molusco marino extinto? ¿Caracol de jardín, Ammonite, Concha de playa o Cuerno de carnero?",
+   "tr": "¡Un ammonite!",
+   "td": "Los ammonites vivieron en los mares y desaparecieron junto con los dinosaurios."
+  },
+  {
+   "n": 67,
+   "tema": "animales",
+   "ronda": "misteriosa",
+   "p": "¿Qué reptil actual es este, el lagarto más grande del mundo?",
+   "o": [
+    "Iguana verde",
+    "Camaleón",
+    "Cocodrilo",
+    "Dragón de Komodo"
+   ],
+   "c": 3,
+   "img_q": "Komodo dragon",
+   "img_modo": "pregunta",
+   "d": "El dragón de Komodo vive en islas de Indonesia y puede medir tres metros.",
+   "tp": "Miren bien la foto. ¿Qué reptil actual es este, el lagarto más grande del mundo? ¿Iguana verde, Camaleón, Cocodrilo o Dragón de Komodo?",
+   "tr": "¡El dragón de Komodo!",
+   "td": "El dragón de Komodo vive en islas de Indonesia y puede medir tres metros."
+  },
+  {
+   "n": 68,
+   "tema": "animales",
+   "ronda": "misteriosa",
+   "p": "¿Qué ave actual es esta, que no vuela y corre rápido sobre dos patas?",
+   "o": [
+    "Pavo",
+    "Gallina",
+    "Avestruz",
+    "Flamenco"
+   ],
+   "c": 2,
+   "img_q": "Ostrich",
+   "img_modo": "pregunta",
+   "d": "El avestruz corre a unos 70 kilómetros por hora y se parece a los dinosaurios corredores.",
+   "tp": "Miren bien la foto. ¿Qué ave actual es esta, que no vuela y corre rápido sobre dos patas? ¿Pavo, Gallina, Avestruz o Flamenco?",
+   "tr": "¡El avestruz!",
+   "td": "El avestruz corre a unos setenta kilómetros por hora y se parece a los dinosaurios corredores."
+  },
+  {
+   "n": 69,
+   "tema": "dinosaurios",
+   "p": "¿Qué dinosaurio argentino, «toro carnívoro», tenía dos cuernitos sobre los ojos?",
+   "o": [
+    "Tiranosaurio",
+    "Carnotauro",
+    "Albertosaurio",
+    "Alosaurio"
+   ],
+   "c": 1,
+   "d": "Tenía brazos aún más cortos que los del T. rex.",
+   "tp": "¿Qué dinosaurio argentino, «toro carnívoro», tenía dos cuernitos sobre los ojos? ¿Tiranosaurio, Carnotauro, Albertosaurio o Alosaurio?",
+   "tr": "¡El Carnotauro!",
+   "td": "Tenía brazos aún más cortos que los del T. rex."
+  },
+  {
+   "n": 70,
+   "tema": "dinosaurios",
+   "p": "¿Cómo se llama el dinosaurio cuyo nombre significa «garra terrible»?",
+   "o": [
+    "Deinonychus",
+    "Velociraptor",
+    "Giganotosaurio",
+    "Iguanodon"
+   ],
+   "c": 0,
+   "d": "Cazaba con una gran garra curva en cada pie.",
+   "tp": "¿Cómo se llama el dinosaurio cuyo nombre significa «garra terrible»? ¿Deinonychus, Velociraptor, Giganotosaurio o Iguanodon?",
+   "tr": "¡Deinonychus!",
+   "td": "Cazaba con una gran garra curva en cada pie."
+  }
+ ],
  "extra_tts": {}
 }

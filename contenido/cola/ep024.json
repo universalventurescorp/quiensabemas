@@ -1,0 +1,24 @@
+{
+ "id": "ep024",
+ "fecha": "2026-11-30",
+ "formato": "normal",
+ "estado": "en_proceso",
+ "codigo_sala": "CUERPO",
+ "titulo": "El cuerpo humano: huesos, órganos y sentidos",
+ "titulo_youtube": "¿Cuánto sabes de tu CUERPO? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
+ "descripcion": "Cien preguntas sobre el cuerpo humano, los huesos, el corazón, el cerebro y los cinco sentidos, para jugar en familia frente a la tele. Con imágenes misteriosas, verdadero o falso y una ronda relámpago. ¿Llegas a la 100? ¡Cuéntanos tu puntaje en los comentarios!",
+ "tags": [
+  "cuerpo humano",
+  "ciencia",
+  "salud",
+  "trivia en familia",
+  "preguntas y respuestas",
+  "juego para la tele"
+ ],
+ "tema_miniatura": "EL CUERPO HUMANO",
+ "reto_miniatura": "¿Llegas a la 100?",
+ "objetivo_preguntas": 100,
+ "total_anunciado": 100,
+ "preguntas": [],
+ "extra_tts": {}
+}

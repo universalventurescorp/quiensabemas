@@ -2,7 +2,7 @@
  "id": "ep021",
  "fecha": "2026-11-26",
  "formato": "normal",
- "estado": "en_proceso",
+ "estado": "listo",
  "codigo_sala": "VIAJES",
  "titulo": "Trenes, barcos, aviones y cohetes: ¡viaja con las preguntas!",
  "titulo_youtube": "¿Cuánto sabes de trenes, aviones y cohetes? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
@@ -710,7 +710,1591 @@
      "src": "cm"
     }
    ]
+  },
+  {
+   "n": 31,
+   "tema": "transporte",
+   "p": "¿Qué transporte flota en el aire con una canasta colgada de un gran globo?",
+   "o": [
+    "Globo aerostático",
+    "Parapente",
+    "Helicóptero",
+    "Cohete"
+   ],
+   "c": 0,
+   "d": "Los hermanos Montgolfier lo inventaron en Francia, hace más de 240 años.",
+   "tp": "¿Qué transporte flota en el aire con una canasta colgada de un gran globo? ¿Globo aerostático, Parapente, Helicóptero o Cohete?",
+   "tr": "¡Un globo aerostático!",
+   "td": "Los hermanos Montgolfier lo inventaron en Francia, hace más de doscientos cuarenta años.",
+   "o_fotos": [
+    {
+     "q": "hot air balloon",
+     "src": "px"
+    },
+    {
+     "q": "paraglider",
+     "src": "px"
+    },
+    {
+     "q": "helicopter",
+     "src": "px"
+    },
+    {
+     "q": "rocket launch",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "tema": "transporte",
+   "p": "¿Qué vehículo rojo de dos pisos es un símbolo de la ciudad de Londres?",
+   "o": [
+    "Tranvía",
+    "Taxi",
+    "Autobús",
+    "Funicular"
+   ],
+   "c": 2,
+   "d": "Los autobuses rojos de dos pisos recorren Londres desde hace más de 100 años.",
+   "tp": "¿Qué vehículo rojo de dos pisos es un símbolo de la ciudad de Londres? ¿Tranvía, Taxi, Autobús o Funicular?",
+   "tr": "¡Un autobús!",
+   "td": "Los autobuses rojos de dos pisos recorren Londres desde hace más de cien años.",
+   "o_fotos": [
+    {
+     "q": "tram",
+     "src": "px"
+    },
+    {
+     "q": "taxi",
+     "src": "px"
+    },
+    {
+     "q": "london red double decker bus",
+     "src": "px"
+    },
+    {
+     "q": "funicular",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "tema": "aviación",
+   "p": "¿Qué avión puede despegar y aterrizar sobre el agua?",
+   "o": [
+    "Planeador",
+    "Dirigible",
+    "Caza a reacción",
+    "Hidroavión"
+   ],
+   "c": 3,
+   "d": "Los hidroaviones llevan flotadores y llegan a lagos y ríos que no tienen pista.",
+   "tp": "¿Qué avión puede despegar y aterrizar sobre el agua? ¿Planeador, Dirigible, Caza a reacción o Hidroavión?",
+   "tr": "¡El hidroavión!",
+   "td": "Los hidroaviones llevan flotadores y llegan a lagos y ríos que no tienen pista.",
+   "o_fotos": [
+    {
+     "q": "glider aircraft",
+     "src": "px"
+    },
+    {
+     "q": "airship",
+     "src": "px"
+    },
+    {
+     "q": "fighter jet",
+     "src": "px"
+    },
+    {
+     "q": "seaplane",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "tema": "aviación",
+   "p": "¿Qué vehículo despega en vertical gracias a sus grandes aspas giratorias?",
+   "o": [
+    "Avión de pasajeros",
+    "Helicóptero",
+    "Velero",
+    "Tren"
+   ],
+   "c": 1,
+   "d": "Un helicóptero puede quedarse quieto en el aire y hasta volar hacia atrás.",
+   "tp": "¿Qué vehículo despega en vertical gracias a sus grandes aspas giratorias? ¿Avión de pasajeros, Helicóptero, Velero o Tren?",
+   "tr": "¡El helicóptero!",
+   "td": "Un helicóptero puede quedarse quieto en el aire y hasta volar hacia atrás."
+  },
+  {
+   "n": 35,
+   "tema": "barcos",
+   "p": "¿Qué barco grande lleva autos y pasajeros de una orilla a otra?",
+   "o": [
+    "Submarino",
+    "Velero",
+    "Remolcador",
+    "Ferri"
+   ],
+   "c": 3,
+   "d": "Un ferri repite el mismo recorrido varias veces al día, como un autobús del mar.",
+   "tp": "¿Qué barco grande lleva autos y pasajeros de una orilla a otra? ¿Submarino, Velero, Remolcador o Ferri?",
+   "tr": "¡El ferri!",
+   "td": "Un ferri repite el mismo recorrido varias veces al día, como un autobús del mar.",
+   "o_fotos": [
+    {
+     "q": "submarine",
+     "src": "px"
+    },
+    {
+     "q": "sailboat",
+     "src": "px"
+    },
+    {
+     "q": "tugboat",
+     "src": "px"
+    },
+    {
+     "q": "car ferry",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "tema": "barcos",
+   "p": "¿Qué pieza pesada tiran al fondo del mar para que un barco no se mueva?",
+   "o": [
+    "Ancla",
+    "Hélice",
+    "Vela",
+    "Mástil"
+   ],
+   "c": 0,
+   "d": "Las anclas se agarran al fondo y mantienen quieto al barco.",
+   "tp": "¿Qué pieza pesada tiran al fondo del mar para que un barco no se mueva? ¿Ancla, Hélice, Vela o Mástil?",
+   "tr": "¡El ancla!",
+   "td": "Las anclas se agarran al fondo y mantienen quieto al barco.",
+   "o_fotos": [
+    {
+     "q": "ship anchor",
+     "src": "px"
+    },
+    {
+     "q": "ship propeller",
+     "src": "px"
+    },
+    {
+     "q": "sail",
+     "src": "px"
+    },
+    {
+     "q": "ship mast",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "tema": "transporte",
+   "p": "¿Qué vehículo con un gran brazo levanta cargas pesadas en una obra?",
+   "o": [
+    "Triciclo",
+    "Grúa",
+    "Carroza",
+    "Góndola"
+   ],
+   "c": 1,
+   "d": "Las grúas torre levantan varias toneladas a decenas de metros de altura.",
+   "tp": "¿Qué vehículo con un gran brazo levanta cargas pesadas en una obra? ¿Triciclo, Grúa, Carroza o Góndola?",
+   "tr": "¡La grúa!",
+   "td": "Las grúas torre levantan varias toneladas a decenas de metros de altura.",
+   "o_fotos": [
+    {
+     "q": "tricycle",
+     "src": "px"
+    },
+    {
+     "q": "construction crane",
+     "src": "px"
+    },
+    {
+     "q": "horse carriage",
+     "src": "px"
+    },
+    {
+     "q": "gondola",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "tema": "barcos",
+   "p": "¿Cómo se llama el lado derecho de un barco, mirando hacia la proa?",
+   "o": [
+    "Babor",
+    "Popa",
+    "Estribor",
+    "Quilla"
+   ],
+   "c": 2,
+   "d": "El lado izquierdo se llama babor, y de noche lo marca una luz roja.",
+   "tp": "¿Cómo se llama el lado derecho de un barco, mirando hacia la proa? ¿Babor, Popa, Estribor o Quilla?",
+   "tr": "¡Estribor!",
+   "td": "El lado izquierdo se llama babor, y de noche lo marca una luz roja."
+  },
+  {
+   "n": 39,
+   "tema": "barcos",
+   "p": "¿En qué unidad se mide la velocidad de los barcos?",
+   "o": [
+    "Vatios",
+    "Nudos",
+    "Pulgadas",
+    "Grados"
+   ],
+   "c": 1,
+   "d": "Un nudo es una milla marina por hora, casi 1,85 km por hora.",
+   "tp": "¿En qué unidad se mide la velocidad de los barcos? ¿Vatios, Nudos, Pulgadas o Grados?",
+   "tr": "¡Nudos!",
+   "td": "Un nudo es una milla marina por hora, casi uno coma ochenta y cinco kilómetros por hora."
+  },
+  {
+   "n": 40,
+   "tema": "transporte",
+   "p": "¿Qué vehículo, con sirena y luces, lleva a los enfermos al hospital?",
+   "o": [
+    "Ambulancia",
+    "Grúa",
+    "Patrulla",
+    "Camión cisterna"
+   ],
+   "c": 0,
+   "d": "Las sirenas avisan a los demás conductores que deben abrirle paso.",
+   "tp": "¿Qué vehículo, con sirena y luces, lleva a los enfermos al hospital? ¿Ambulancia, Grúa, Patrulla o Camión cisterna?",
+   "tr": "¡La ambulancia!",
+   "td": "Las sirenas avisan a los demás conductores que deben abrirle paso.",
+   "o_fotos": [
+    {
+     "q": "ambulance",
+     "src": "px"
+    },
+    {
+     "q": "tow truck",
+     "src": "px"
+    },
+    {
+     "q": "police car",
+     "src": "px"
+    },
+    {
+     "q": "tanker truck",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "tema": "aviación",
+   "ronda": "relampago",
+   "p": "¿Cuántas alas tiene un avión común?",
+   "o": [
+    "Una",
+    "Cuatro",
+    "Dos",
+    "Seis"
+   ],
+   "c": 2,
+   "d": "Algunos aviones muy antiguos tenían cuatro alas.",
+   "tp": "¿Cuántas alas tiene un avión común? ¿Una, Cuatro, Dos o Seis?",
+   "tr": "¡Dos!",
+   "td": "Algunos aviones muy antiguos tenían cuatro alas."
+  },
+  {
+   "n": 42,
+   "tema": "aviación",
+   "ronda": "relampago",
+   "p": "¿Qué vuela con alas de metal?",
+   "o": [
+    "Barco",
+    "Tren",
+    "Moto",
+    "Avión"
+   ],
+   "c": 3,
+   "d": "Un avión grande pesa cientos de toneladas.",
+   "tp": "¿Qué vuela con alas de metal? ¿Barco, Tren, Moto o Avión?",
+   "tr": "¡Avión!",
+   "td": "Un avión grande pesa cientos de toneladas."
+  },
+  {
+   "n": 43,
+   "tema": "transporte",
+   "ronda": "relampago",
+   "p": "¿Qué pedalea un ciclista?",
+   "o": [
+    "Canoa",
+    "Tren",
+    "Carreta",
+    "Bicicleta"
+   ],
+   "c": 3,
+   "d": "Una bicicleta no necesita gasolina.",
+   "tp": "¿Qué pedalea un ciclista? ¿Canoa, Tren, Carreta o Bicicleta?",
+   "tr": "¡Bicicleta!",
+   "td": "Una bicicleta no necesita gasolina."
+  },
+  {
+   "n": 44,
+   "tema": "transporte",
+   "ronda": "relampago",
+   "p": "¿Quién conduce un autobús?",
+   "o": [
+    "Piloto",
+    "Capitán",
+    "Conductor",
+    "Maquinista"
+   ],
+   "c": 2,
+   "d": "El conductor lleva a muchos pasajeros a su destino.",
+   "tp": "¿Quién conduce un autobús? ¿Piloto, Capitán, Conductor o Maquinista?",
+   "tr": "¡El conductor!",
+   "td": "El conductor lleva a muchos pasajeros a su destino."
+  },
+  {
+   "n": 45,
+   "tema": "espacio",
+   "ronda": "relampago",
+   "p": "¿Qué viaja al espacio?",
+   "o": [
+    "Cohete",
+    "Triciclo",
+    "Velero",
+    "Carreta"
+   ],
+   "c": 0,
+   "d": "Los cohetes despegan con fuego y muchísima fuerza.",
+   "tp": "¿Qué viaja al espacio? ¿Cohete, Triciclo, Velero o Carreta?",
+   "tr": "¡Un cohete!",
+   "td": "Los cohetes despegan con fuego y muchísima fuerza."
+  },
+  {
+   "n": 46,
+   "tema": "trenes",
+   "p": "¿Cómo se llamaba la famosa locomotora de vapor de George Stephenson, de 1829?",
+   "o": [
+    "Mallard",
+    "Rocket",
+    "Flying Scotsman",
+    "Puffing Billy"
+   ],
+   "c": 1,
+   "d": "La Rocket alcanzó unos 48 km por hora, ¡muy veloz para su época!",
+   "tp": "¿Cómo se llamaba la famosa locomotora de vapor de George Stephenson, de mil ochocientos veintinueve? ¿Mallard, Rocket, Flying Scotsman o Puffing Billy?",
+   "tr": "¡La Rocket!",
+   "td": "La Rocket alcanzó unos cuarenta y ocho kilómetros por hora, ¡muy veloz para su época!"
+  },
+  {
+   "n": 47,
+   "tema": "trenes",
+   "p": "¿Qué ferrocarril de Rusia, de más de 9.000 kilómetros, es el más largo del mundo?",
+   "o": [
+    "Transiberiano",
+    "Ghan",
+    "Tren Azul",
+    "Rocky Mountaineer"
+   ],
+   "c": 0,
+   "d": "Une Moscú con Vladivostok, dos ciudades con siete horas de diferencia en el reloj.",
+   "tp": "¿Qué ferrocarril de Rusia, de más de nueve mil kilómetros, es el más largo del mundo? ¿Transiberiano, Ghan, Tren Azul o Rocky Mountaineer?",
+   "tr": "¡El Transiberiano!",
+   "td": "Une Moscú con Vladivostok, dos ciudades con siete horas de diferencia en el reloj."
+  },
+  {
+   "n": 48,
+   "tema": "trenes",
+   "p": "¿Qué tren de lujo une París con Estambul y es famoso por una novela de misterio?",
+   "o": [
+    "Tren Azul",
+    "Orient Express",
+    "Glacier Express",
+    "Rocky Mountaineer"
+   ],
+   "c": 1,
+   "d": "Fue el escenario de una novela de misterio de Agatha Christie, publicada en 1934.",
+   "tp": "¿Qué tren de lujo une París con Estambul y es famoso por una novela de misterio? ¿Tren Azul, Orient Express, Glacier Express o Rocky Mountaineer?",
+   "tr": "¡El Orient Express!",
+   "td": "Fue el escenario de una novela de misterio de Agatha Christie, publicada en mil novecientos treinta y cuatro."
+  },
+  {
+   "n": 49,
+   "tema": "trenes",
+   "p": "¿En qué país está el «Tren a las Nubes», que cruza el viaducto La Polvorilla?",
+   "o": [
+    "Chile",
+    "Bolivia",
+    "Perú",
+    "Argentina"
+   ],
+   "c": 3,
+   "d": "El viaducto La Polvorilla está a unos 4.220 metros de altura sobre el nivel del mar.",
+   "tp": "¿En qué país está el «Tren a las Nubes», que cruza el viaducto La Polvorilla? ¿Chile, Bolivia, Perú o Argentina?",
+   "tr": "¡Argentina!",
+   "td": "El viaducto La Polvorilla está a unos cuatro mil doscientos veinte metros de altura sobre el nivel del mar.",
+   "o_fotos": [
+    {
+     "flag": "cl"
+    },
+    {
+     "flag": "bo"
+    },
+    {
+     "flag": "pe"
+    },
+    {
+     "flag": "ar"
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "tema": "trenes",
+   "p": "¿Qué ferrocarril del Perú sube a más de 4.700 metros, entre los más altos del mundo?",
+   "o": [
+    "Tren de Machu Picchu",
+    "Tren Tacna–Arica",
+    "Ferrocarril Central",
+    "Tren Lima–Callao"
+   ],
+   "c": 2,
+   "d": "Sube desde Lima hasta unos 4.800 metros de altura, cerca del abra de Ticlio.",
+   "tp": "¿Qué ferrocarril del Perú sube a más de cuatro mil setecientos metros, entre los más altos del mundo? ¿Tren de Machu Picchu, Tren Tacna–Arica, Ferrocarril Central o Tren Lima–Callao?",
+   "tr": "¡El Ferrocarril Central!",
+   "td": "Sube desde Lima hasta unos cuatro mil ochocientos metros de altura, cerca del abra de Ticlio."
+  },
+  {
+   "n": 51,
+   "tema": "aviación",
+   "p": "¿Qué aviador peruano da su nombre al aeropuerto internacional de Lima?",
+   "o": [
+    "Miguel Grau",
+    "Jorge Chávez",
+    "Elmer Faucett",
+    "José Quiñones"
+   ],
+   "c": 1,
+   "d": "Jorge Chávez cruzó los Alpes en avión en 1910, una hazaña que asombró al mundo.",
+   "tp": "¿Qué aviador peruano da su nombre al aeropuerto internacional de Lima? ¿Miguel Grau, Jorge Chávez, Elmer Faucett o José Quiñones?",
+   "tr": "¡Jorge Chávez!",
+   "td": "Jorge Chávez cruzó los Alpes en avión en mil novecientos diez, una hazaña que asombró al mundo."
+  },
+  {
+   "n": 52,
+   "tema": "aviación",
+   "p": "¿Qué aviadora cruzó sola el océano Atlántico en avión, en 1932?",
+   "o": [
+    "Bessie Coleman",
+    "Valentina Tereshkova",
+    "Amelia Earhart",
+    "Jacqueline Cochran"
+   ],
+   "c": 2,
+   "d": "Voló unas 15 horas desde la isla de Terranova hasta Irlanda del Norte.",
+   "tp": "¿Qué aviadora cruzó sola el océano Atlántico en avión, en mil novecientos treinta y dos? ¿Bessie Coleman, Valentina Tereshkova, Amelia Earhart o Jacqueline Cochran?",
+   "tr": "¡Amelia Earhart!",
+   "td": "Voló unas quince horas desde la isla de Terranova hasta Irlanda del Norte."
+  },
+  {
+   "n": 53,
+   "tema": "aviación",
+   "p": "¿De qué color es en realidad la «caja negra» de un avión?",
+   "o": [
+    "Negro",
+    "Rojo",
+    "Blanco",
+    "Naranja"
+   ],
+   "c": 3,
+   "d": "Es de color naranja brillante para que sea fácil de encontrar.",
+   "tp": "¿De qué color es en realidad la «caja negra» de un avión? ¿Negro, Rojo, Blanco o Naranja?",
+   "tr": "¡Naranja!",
+   "td": "Es de color naranja brillante para que sea fácil de encontrar."
+  },
+  {
+   "n": 54,
+   "tema": "aviación",
+   "p": "¿Qué idioma usan los pilotos y las torres de control en todo el mundo?",
+   "o": [
+    "Inglés",
+    "Francés",
+    "Español",
+    "Esperanto"
+   ],
+   "c": 0,
+   "d": "Así, un piloto puede hablar con una torre de control de cualquier país.",
+   "tp": "¿Qué idioma usan los pilotos y las torres de control en todo el mundo? ¿Inglés, Francés, Español o Esperanto?",
+   "tr": "¡El inglés!",
+   "td": "Así, un piloto puede hablar con una torre de control de cualquier país."
+  },
+  {
+   "n": 55,
+   "tema": "autos",
+   "p": "¿Qué auto de Ford, hecho en cadena desde 1913, llegó a millones de familias?",
+   "o": [
+    "Mustang",
+    "Escarabajo",
+    "Jeep",
+    "Ford Modelo T"
+   ],
+   "c": 3,
+   "d": "Se fabricaron más de 15 millones de unidades de este auto.",
+   "tp": "¿Qué auto de Ford, hecho en cadena desde mil novecientos trece, llegó a millones de familias? ¿Mustang, Escarabajo, Jeep o Ford Modelo T?",
+   "tr": "¡El Ford Modelo T!",
+   "td": "Se fabricaron más de quince millones de unidades de este auto.",
+   "o_fotos": [
+    {
+     "q": "Ford Mustang",
+     "src": "px"
+    },
+    {
+     "q": "Volkswagen Beetle",
+     "src": "px"
+    },
+    {
+     "q": "Jeep",
+     "src": "px"
+    },
+    {
+     "q": "Ford Model T",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 56,
+   "tema": "transporte",
+   "p": "¿Qué país europeo tiene más bicicletas que habitantes?",
+   "o": [
+    "Países Bajos",
+    "Dinamarca",
+    "Bélgica",
+    "Alemania"
+   ],
+   "c": 0,
+   "d": "Allí hay más de 35.000 kilómetros de ciclovías.",
+   "tp": "¿Qué país europeo tiene más bicicletas que habitantes? ¿Países Bajos, Dinamarca, Bélgica o Alemania?",
+   "tr": "¡Países Bajos!",
+   "td": "Allí hay más de treinta y cinco mil kilómetros de ciclovías.",
+   "o_fotos": [
+    {
+     "flag": "nl"
+    },
+    {
+     "flag": "dk"
+    },
+    {
+     "flag": "be"
+    },
+    {
+     "flag": "de"
+    }
+   ]
+  },
+  {
+   "n": 57,
+   "tema": "transporte",
+   "p": "¿Qué ciudad de Colombia cierra muchas calles los domingos para pasear en bici, desde 1974?",
+   "o": [
+    "Medellín",
+    "Cali",
+    "Bogotá",
+    "Cartagena"
+   ],
+   "c": 2,
+   "d": "Esa jornada se llama Ciclovía y la disfrutan millones de personas.",
+   "tp": "¿Qué ciudad de Colombia cierra muchas calles los domingos para pasear en bici, desde mil novecientos setenta y cuatro? ¿Medellín, Cali, Bogotá o Cartagena?",
+   "tr": "¡Bogotá!",
+   "td": "Esa jornada se llama Ciclovía y la disfrutan millones de personas."
+  },
+  {
+   "n": 58,
+   "tema": "trenes",
+   "p": "¿Qué ciudad tiene un metro famoso por estaciones que parecen palacios con candelabros?",
+   "o": [
+    "Berlín",
+    "Moscú",
+    "Toronto",
+    "Singapur"
+   ],
+   "c": 1,
+   "d": "El metro de Moscú se inauguró en 1935 y es uno de los más hermosos.",
+   "tp": "¿Qué ciudad tiene un metro famoso por estaciones que parecen palacios con candelabros? ¿Berlín, Moscú, Toronto o Singapur?",
+   "tr": "¡Moscú!",
+   "td": "El metro de Moscú se inauguró en mil novecientos treinta y cinco y es uno de los más hermosos."
+  },
+  {
+   "n": 59,
+   "tema": "trenes",
+   "p": "¿Qué tiene cada estación del metro de la Ciudad de México para reconocerla sin leer?",
+   "o": [
+    "Un ícono dibujado",
+    "Un color de techo",
+    "Un número gigante",
+    "Un sonido"
+   ],
+   "c": 0,
+   "d": "Los íconos se crearon en 1969 para que todos pudieran reconocer su estación.",
+   "tp": "¿Qué tiene cada estación del metro de la Ciudad de México para reconocerla sin leer? ¿Un ícono dibujado, Un color de techo, Un número gigante o Un sonido?",
+   "tr": "¡Un ícono dibujado!",
+   "td": "Los íconos se crearon en mil novecientos sesenta y nueve para que todos pudieran reconocer su estación."
+  },
+  {
+   "n": 60,
+   "tema": "transporte",
+   "p": "¿Qué ciudad chilena es famosa por los ascensores que suben sus cerros?",
+   "o": [
+    "Santiago",
+    "Valparaíso",
+    "Antofagasta",
+    "Concepción"
+   ],
+   "c": 1,
+   "d": "Valparaíso tiene ascensores históricos, algunos con más de 100 años.",
+   "tp": "¿Qué ciudad chilena es famosa por los ascensores que suben sus cerros? ¿Santiago, Valparaíso, Antofagasta o Concepción?",
+   "tr": "¡Valparaíso!",
+   "td": "Valparaíso tiene ascensores históricos, algunos con más de cien años."
+  },
+  {
+   "n": 61,
+   "tema": "transporte",
+   "p": "¿Cómo se llama el colorido autobús abierto de madera típico del campo colombiano?",
+   "o": [
+    "Guagua",
+    "Colectivo",
+    "Chiva",
+    "Trolebús"
+   ],
+   "c": 2,
+   "d": "Las chivas se pintan con muchos colores y llevan gente, equipaje y hasta gallinas.",
+   "tp": "¿Cómo se llama el colorido autobús abierto de madera típico del campo colombiano? ¿Guagua, Colectivo, Chiva o Trolebús?",
+   "tr": "¡La chiva!",
+   "td": "Las chivas se pintan con muchos colores y llevan gente, equipaje y hasta gallinas."
+  },
+  {
+   "n": 62,
+   "tema": "historia",
+   "p": "¿Cómo se llamaban los corredores que llevaban mensajes por los caminos del Imperio inca?",
+   "o": [
+    "Amautas",
+    "Curacas",
+    "Quipucamayocs",
+    "Chasquis"
+   ],
+   "c": 3,
+   "d": "Los chasquis se turnaban en postas y recorrían cientos de kilómetros en pocos días.",
+   "tp": "¿Cómo se llamaban los corredores que llevaban mensajes por los caminos del Imperio inca? ¿Amautas, Curacas, Quipucamayocs o Chasquis?",
+   "tr": "¡Los chasquis!",
+   "td": "Los chasquis se turnaban en postas y recorrían cientos de kilómetros en pocos días."
+  },
+  {
+   "n": 63,
+   "tema": "barcos",
+   "p": "¿Qué barco de vapor, armado en el lago Titicaca en el siglo XIX, aún se conserva en Puno?",
+   "o": [
+    "Huáscar",
+    "Unión",
+    "Yavarí",
+    "Atahualpa"
+   ],
+   "c": 2,
+   "d": "Sus piezas llegaron de Inglaterra y subieron a lomo de mula hasta el lago.",
+   "tp": "¿Qué barco de vapor, armado en el lago Titicaca en el siglo XIX, aún se conserva en Puno? ¿Huáscar, Unión, Yavarí o Atahualpa?",
+   "tr": "¡El Yavarí!",
+   "td": "Sus piezas llegaron de Inglaterra y subieron a lomo de mula hasta el lago."
+  },
+  {
+   "n": 64,
+   "tema": "espacio",
+   "p": "¿Qué astronauta fue el primer estadounidense en orbitar la Tierra, en 1962?",
+   "o": [
+    "Alan Shepard",
+    "John Glenn",
+    "Neil Armstrong",
+    "Gus Grissom"
+   ],
+   "c": 1,
+   "d": "Glenn dio tres vueltas a la Tierra en casi cinco horas.",
+   "tp": "¿Qué astronauta fue el primer estadounidense en orbitar la Tierra, en mil novecientos sesenta y dos? ¿Alan Shepard, John Glenn, Neil Armstrong o Gus Grissom?",
+   "tr": "¡John Glenn!",
+   "td": "Glenn dio tres vueltas a la Tierra en casi cinco horas."
+  },
+  {
+   "n": 65,
+   "tema": "transporte",
+   "p": "¿Qué ciudad de Brasil estrenó en 1974 un autobús rápido con carriles propios?",
+   "o": [
+    "Curitiba",
+    "São Paulo",
+    "Brasilia",
+    "Río de Janeiro"
+   ],
+   "c": 0,
+   "d": "Sus buses suben pasajeros en estaciones con forma de tubo de vidrio.",
+   "tp": "¿Qué ciudad de Brasil estrenó en mil novecientos setenta y cuatro un autobús rápido con carriles propios? ¿Curitiba, São Paulo, Brasilia o Río de Janeiro?",
+   "tr": "¡Curitiba!",
+   "td": "Sus buses suben pasajeros en estaciones con forma de tubo de vidrio."
+  },
+  {
+   "n": 66,
+   "tema": "transporte",
+   "ronda": "misteriosa",
+   "p": "¿En qué ciudad circula este tranvía de cable que sube colinas empinadas?",
+   "o": [
+    "Nueva York",
+    "Chicago",
+    "Seattle",
+    "San Francisco"
+   ],
+   "c": 3,
+   "img_q": "San Francisco cable car",
+   "img_modo": "pregunta",
+   "d": "Los cable cars de San Francisco funcionan desde 1873.",
+   "tp": "Miren bien la foto. ¿En qué ciudad circula este tranvía de cable que sube colinas empinadas? ¿Nueva York, Chicago, Seattle o San Francisco?",
+   "tr": "¡San Francisco!",
+   "td": "Los cable cars de San Francisco funcionan desde mil ochocientos setenta y tres."
+  },
+  {
+   "n": 67,
+   "tema": "aviación",
+   "ronda": "misteriosa",
+   "p": "¿En qué país vuelan globos sobre estas «chimeneas de hadas» de roca?",
+   "o": [
+    "Egipto",
+    "Turquía",
+    "Marruecos",
+    "México"
+   ],
+   "c": 1,
+   "img_q": "Cappadocia hot air balloons",
+   "img_modo": "pregunta",
+   "d": "Capadocia recibe cada mañana cientos de globos aerostáticos.",
+   "tp": "Miren bien la foto. ¿En qué país vuelan globos sobre estas «chimeneas de hadas» de roca? ¿Egipto, Turquía, Marruecos o México?",
+   "tr": "¡Turquía! Es Capadocia.",
+   "td": "Capadocia recibe cada mañana cientos de globos aerostáticos."
+  },
+  {
+   "n": 68,
+   "tema": "espacio",
+   "ronda": "misteriosa",
+   "p": "¿Qué vehículo con ruedas es este, que explora Marte y manda fotos a la Tierra?",
+   "o": [
+    "Un rover",
+    "Un tractor",
+    "Un submarino",
+    "Una grúa"
+   ],
+   "c": 0,
+   "img_q": "Curiosity rover Mars",
+   "img_modo": "pregunta",
+   "d": "Los rovers de la NASA se manejan a control remoto desde la Tierra.",
+   "tp": "Miren bien la foto. ¿Qué vehículo con ruedas es este, que explora Marte y manda fotos a la Tierra? ¿Un rover, Un tractor, Un submarino o Una grúa?",
+   "tr": "¡Un rover!",
+   "td": "Los rovers de la NASA se manejan a control remoto desde la Tierra."
+  },
+  {
+   "n": 69,
+   "tema": "barcos",
+   "p": "¿Qué barco completó la primera vuelta al mundo, entre 1519 y 1522?",
+   "o": [
+    "Trinidad",
+    "Concepción",
+    "Victoria",
+    "Santiago"
+   ],
+   "c": 2,
+   "d": "De cinco barcos que zarparon, solo la nao Victoria regresó a España.",
+   "tp": "¿Qué barco completó la primera vuelta al mundo, entre mil quinientos diecinueve y mil quinientos veintidós? ¿Trinidad, Concepción, Victoria o Santiago?",
+   "tr": "¡La nao Victoria!",
+   "td": "De cinco barcos que zarparon, solo la nao Victoria regresó a España."
+  },
+  {
+   "n": 70,
+   "tema": "espacio",
+   "p": "¿Qué científico peruano es recordado como pionero de los cohetes de combustible líquido?",
+   "o": [
+    "Santiago Antúnez de Mayolo",
+    "Julio C. Tello",
+    "Federico Villarreal",
+    "Pedro Paulet"
+   ],
+   "c": 3,
+   "d": "Pedro Paulet, nacido en Arequipa, diseñó motores de cohete hace más de 100 años.",
+   "tp": "¿Qué científico peruano es recordado como pionero de los cohetes de combustible líquido? ¿Santiago Antúnez de Mayolo, Julio C. Tello, Federico Villarreal o Pedro Paulet?",
+   "tr": "¡Pedro Paulet!",
+   "td": "Pedro Paulet, nacido en Arequipa, diseñó motores de cohete hace más de cien años."
+  },
+  {
+   "n": 71,
+   "tema": "trenes",
+   "p": "¿Qué dos países une el túnel ferroviario que cruza bajo el canal de la Mancha?",
+   "o": [
+    "España y Marruecos",
+    "Francia y Reino Unido",
+    "Dinamarca y Suecia",
+    "Italia y Suiza"
+   ],
+   "c": 1,
+   "d": "El túnel mide unos 50 kilómetros y casi 38 van bajo el mar.",
+   "tp": "¿Qué dos países une el túnel ferroviario que cruza bajo el canal de la Mancha? ¿España y Marruecos, Francia y Reino Unido, Dinamarca y Suecia o Italia y Suiza?",
+   "tr": "¡Francia y el Reino Unido!",
+   "td": "El túnel mide unos cincuenta kilómetros y casi treinta y ocho van bajo el mar."
+  },
+  {
+   "n": 72,
+   "tema": "trenes",
+   "p": "¿Qué tren flota sobre la vía, sin tocarla, gracias a imanes?",
+   "o": [
+    "Tren a vapor",
+    "Funicular",
+    "Tranvía",
+    "Tren maglev"
+   ],
+   "c": 3,
+   "d": "El maglev de Shanghái, de 2004, alcanza unos 430 km por hora.",
+   "tp": "¿Qué tren flota sobre la vía, sin tocarla, gracias a imanes? ¿Tren a vapor, Funicular, Tranvía o Tren maglev?",
+   "tr": "¡El tren maglev!",
+   "td": "El maglev de Shanghái, de dos mil cuatro, alcanza unos cuatrocientos treinta kilómetros por hora.",
+   "o_fotos": [
+    {
+     "q": "steam locomotive",
+     "src": "px"
+    },
+    {
+     "q": "funicular railway",
+     "src": "px"
+    },
+    {
+     "q": "tram",
+     "src": "px"
+    },
+    {
+     "q": "maglev train",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 73,
+   "tema": "trenes",
+   "p": "¿En qué año empezó a correr el primer tren bala del mundo, el Shinkansen de Japón?",
+   "o": [
+    "1944",
+    "1954",
+    "1964",
+    "1974"
+   ],
+   "c": 2,
+   "d": "Se inauguró justo antes de los Juegos Olímpicos de Tokio.",
+   "tp": "¿En qué año empezó a correr el primer tren bala del mundo, el Shinkansen de Japón? ¿mil novecientos cuarenta y cuatro, mil novecientos cincuenta y cuatro, mil novecientos sesenta y cuatro o mil novecientos setenta y cuatro?",
+   "tr": "¡Mil novecientos sesenta y cuatro!",
+   "td": "Se inauguró justo antes de los Juegos Olímpicos de Tokio."
+  },
+  {
+   "n": 74,
+   "tema": "espacio",
+   "p": "¿Qué astronauta fue el segundo en pisar la Luna, justo después de Armstrong?",
+   "o": [
+    "Michael Collins",
+    "Alan Shepard",
+    "Buzz Aldrin",
+    "Pete Conrad"
+   ],
+   "c": 2,
+   "d": "Aldrin y Armstrong caminaron unas dos horas y media por la Luna.",
+   "tp": "¿Qué astronauta fue el segundo en pisar la Luna, justo después de Armstrong? ¿Michael Collins, Alan Shepard, Buzz Aldrin o Pete Conrad?",
+   "tr": "¡Buzz Aldrin!",
+   "td": "Aldrin y Armstrong caminaron unas dos horas y media por la Luna."
+  },
+  {
+   "n": 75,
+   "tema": "espacio",
+   "p": "¿Cómo se llamó el módulo lunar del Apolo 11 que posó a dos astronautas en la Luna?",
+   "o": [
+    "Columbia",
+    "Águila",
+    "Odisea",
+    "Intrépido"
+   ],
+   "c": 1,
+   "d": "El módulo de mando «Columbia» esperó en órbita, con Michael Collins a bordo.",
+   "tp": "¿Cómo se llamó el módulo lunar del Apolo once que posó a dos astronautas en la Luna? ¿Columbia, Águila, Odisea o Intrépido?",
+   "tr": "¡El Águila!",
+   "td": "El módulo de mando «Columbia» esperó en órbita, con Michael Collins a bordo."
+  },
+  {
+   "n": 76,
+   "tema": "espacio",
+   "p": "¿Cada cuánto, más o menos, da una vuelta a la Tierra la Estación Espacial Internacional?",
+   "o": [
+    "Cada 24 horas",
+    "Cada semana",
+    "Cada 90 minutos",
+    "Cada 6 horas"
+   ],
+   "c": 2,
+   "d": "Los astronautas ven unos 16 amaneceres cada día.",
+   "tp": "¿Cada cuánto, más o menos, da una vuelta a la Tierra la Estación Espacial Internacional? ¿Cada veinticuatro horas, Cada semana, Cada noventa minutos o Cada seis horas?",
+   "tr": "¡Cada noventa minutos!",
+   "td": "Los astronautas ven unos dieciséis amaneceres cada día."
+  },
+  {
+   "n": 77,
+   "tema": "barcos",
+   "p": "¿Qué explorador francés recorrió los mares con el barco Calypso?",
+   "o": [
+    "Thor Heyerdahl",
+    "Jules Verne",
+    "Marco Polo",
+    "Jacques Cousteau"
+   ],
+   "c": 3,
+   "d": "Cousteau filmó el mundo submarino y ayudó a crear el equipo para respirar bajo el agua.",
+   "tp": "¿Qué explorador francés recorrió los mares con el barco Calypso? ¿Thor Heyerdahl, Jules Verne, Marco Polo o Jacques Cousteau?",
+   "tr": "¡Jacques Cousteau!",
+   "td": "Cousteau filmó el mundo submarino y ayudó a crear el equipo para respirar bajo el agua."
+  },
+  {
+   "n": 78,
+   "tema": "barcos",
+   "p": "¿Cómo suben los barcos por las esclusas del Canal de Panamá?",
+   "o": [
+    "Llenando cámaras de agua",
+    "Con grúas gigantes",
+    "Con enormes bombas",
+    "Sobre rieles"
+   ],
+   "c": 0,
+   "d": "El agua viene del lago Gatún y fluye por gravedad, sin bombas.",
+   "tp": "¿Cómo suben los barcos por las esclusas del Canal de Panamá? ¿Llenando cámaras de agua, Con grúas gigantes, Con enormes bombas o Sobre rieles?",
+   "tr": "¡Con agua que llena las cámaras!",
+   "td": "El agua viene del lago Gatún y fluye por gravedad, sin bombas."
+  },
+  {
+   "n": 79,
+   "tema": "aviación",
+   "p": "¿Qué animales fueron los primeros pasajeros de un globo aerostático, en 1783?",
+   "o": [
+    "Perro, gato y loro",
+    "Caballo, vaca y cerdo",
+    "Oveja, pato y gallo",
+    "Conejo, rata y paloma"
+   ],
+   "c": 2,
+   "d": "El vuelo duró unos ocho minutos y los animales bajaron sanos y salvos.",
+   "tp": "¿Qué animales fueron los primeros pasajeros de un globo aerostático, en mil setecientos ochenta y tres? ¿Perro, gato y loro, Caballo, vaca y cerdo, Oveja, pato y gallo o Conejo, rata y paloma?",
+   "tr": "¡Una oveja, un pato y un gallo!",
+   "td": "El vuelo duró unos ocho minutos y los animales bajaron sanos y salvos."
+  },
+  {
+   "n": 80,
+   "tema": "aviación",
+   "p": "¿Quién fue el primero en cruzar en avión el canal de la Mancha, en 1909?",
+   "o": [
+    "Charles Lindbergh",
+    "Louis Blériot",
+    "Orville Wright",
+    "Henri Farman"
+   ],
+   "c": 1,
+   "d": "Blériot tardó unos 36 minutos en cruzar el canal.",
+   "tp": "¿Quién fue el primero en cruzar en avión el canal de la Mancha, en mil novecientos nueve? ¿Charles Lindbergh, Louis Blériot, Orville Wright o Henri Farman?",
+   "tr": "¡Louis Blériot!",
+   "td": "Blériot tardó unos treinta y seis minutos en cruzar el canal."
+  },
+  {
+   "n": 81,
+   "tema": "espacio",
+   "ronda": "vf",
+   "p": "Un cohete puede moverse en el espacio, aunque allí no haya aire.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Un cohete avanza empujando gases hacia atrás, y para eso no necesita aire.",
+   "tp": "¿Verdadero o falso? Un cohete puede moverse en el espacio, aunque allí no haya aire.",
+   "tr": "¡Verdadero! Empuja gases hacia atrás y avanza, sin necesitar aire.",
+   "td": "Un cohete avanza empujando gases hacia atrás, y para eso no necesita aire."
+  },
+  {
+   "n": 82,
+   "tema": "aviación",
+   "ronda": "vf",
+   "p": "Los aviones de pasajeros llevan un paracaídas para cada persona.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Los aviones comerciales vuelan a gran altura y están hechos para aterrizar con seguridad.",
+   "tp": "¿Verdadero o falso? Los aviones de pasajeros llevan un paracaídas para cada persona.",
+   "tr": "¡Falso! Los aviones de pasajeros no llevan paracaídas.",
+   "td": "Los aviones comerciales vuelan a gran altura y están hechos para aterrizar con seguridad."
+  },
+  {
+   "n": 83,
+   "tema": "espacio",
+   "ronda": "vf",
+   "p": "La bandera que plantaron en la Luna ondeaba por el viento lunar.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "La bandera tenía una barra horizontal para que se viera extendida.",
+   "tp": "¿Verdadero o falso? La bandera que plantaron en la Luna ondeaba por el viento lunar.",
+   "tr": "¡Falso! En la Luna no hay viento.",
+   "td": "La bandera tenía una barra horizontal para que se viera extendida."
+  },
+  {
+   "n": 84,
+   "tema": "geografía",
+   "p": "¿Qué gran río llevan los barcos hasta Iquitos, ciudad de la selva peruana sin carreteras?",
+   "o": [
+    "Amazonas",
+    "Orinoco",
+    "Paraná",
+    "Magdalena"
+   ],
+   "c": 0,
+   "d": "Iquitos es de las ciudades más grandes del mundo a la que no llegan carreteras.",
+   "tp": "¿Qué gran río llevan los barcos hasta Iquitos, ciudad de la selva peruana sin carreteras? ¿Amazonas, Orinoco, Paraná o Magdalena?",
+   "tr": "¡El Amazonas!",
+   "td": "Iquitos es de las ciudades más grandes del mundo a la que no llegan carreteras."
+  },
+  {
+   "n": 85,
+   "tema": "geografía",
+   "p": "¿Qué estrecho del sur de Chile lleva el nombre de un navegante portugués?",
+   "o": [
+    "Canal Beagle",
+    "Estrecho de Magallanes",
+    "Estrecho de Gibraltar",
+    "Canal de Panamá"
+   ],
+   "c": 1,
+   "d": "Magallanes lo cruzó en 1520 y es una ruta natural entre el Atlántico y el Pacífico.",
+   "tp": "¿Qué estrecho del sur de Chile lleva el nombre de un navegante portugués? ¿Canal Beagle, Estrecho de Magallanes, Estrecho de Gibraltar o Canal de Panamá?",
+   "tr": "¡El estrecho de Magallanes!",
+   "td": "Magallanes lo cruzó en mil quinientos veinte y es una ruta natural entre el Atlántico y el Pacífico."
+  },
+  {
+   "n": 86,
+   "tema": "trenes",
+   "p": "¿Qué ciudad se unió con Lima por el primer ferrocarril del Perú, inaugurado en 1851?",
+   "o": [
+    "Chorrillos",
+    "Ancón",
+    "Huacho",
+    "Callao"
+   ],
+   "c": 3,
+   "d": "Ese tren unió la capital con su principal puerto.",
+   "tp": "¿Qué ciudad se unió con Lima por el primer ferrocarril del Perú, inaugurado en mil ochocientos cincuenta y uno? ¿Chorrillos, Ancón, Huacho o Callao?",
+   "tr": "¡El Callao!",
+   "td": "Ese tren unió la capital con su principal puerto."
+  },
+  {
+   "n": 87,
+   "tema": "autos",
+   "p": "¿Qué ingeniero alemán inventó el motor que lleva su apellido, usado en camiones y trenes?",
+   "o": [
+    "Karl Benz",
+    "Nikolaus Otto",
+    "Gottlieb Daimler",
+    "Rudolf Diesel"
+   ],
+   "c": 3,
+   "d": "Diesel patentó su motor en 1892 y hoy mueve camiones, barcos y trenes.",
+   "tp": "¿Qué ingeniero alemán inventó el motor que lleva su apellido, usado en camiones y trenes? ¿Karl Benz, Nikolaus Otto, Gottlieb Daimler o Rudolf Diesel?",
+   "tr": "¡Rudolf Diesel!",
+   "td": "Diesel patentó su motor en mil ochocientos noventa y dos y hoy mueve camiones, barcos y trenes."
+  },
+  {
+   "n": 88,
+   "tema": "espacio",
+   "p": "¿Qué estación espacial rusa, cuyo nombre significa «paz», orbitó hasta 2001?",
+   "o": [
+    "Mir",
+    "Salyut",
+    "Skylab",
+    "Tiangong"
+   ],
+   "c": 0,
+   "d": "Mir orbitó la Tierra durante 15 años.",
+   "tp": "¿Qué estación espacial rusa, cuyo nombre significa «paz», orbitó hasta dos mil uno? ¿Mir, Salyut, Skylab o Tiangong?",
+   "tr": "¡La estación Mir!",
+   "td": "Mir orbitó la Tierra durante quince años."
+  },
+  {
+   "n": 89,
+   "tema": "transporte",
+   "p": "¿En qué ciudad de Venezuela empieza el teleférico que sube a más de 4.700 metros?",
+   "o": [
+    "Maracaibo",
+    "Valencia",
+    "Mérida",
+    "Barquisimeto"
+   ],
+   "c": 2,
+   "d": "Llega hasta el pico Espejo, en la Sierra Nevada, en cuatro tramos.",
+   "tp": "¿En qué ciudad de Venezuela empieza el teleférico que sube a más de cuatro mil setecientos metros? ¿Maracaibo, Valencia, Mérida o Barquisimeto?",
+   "tr": "¡Mérida!",
+   "td": "Llega hasta el pico Espejo, en la Sierra Nevada, en cuatro tramos."
+  },
+  {
+   "n": 90,
+   "tema": "trenes",
+   "p": "¿En qué país está la «Nariz del Diablo», tramo de tren que sube la montaña en zigzag?",
+   "o": [
+    "Perú",
+    "Ecuador",
+    "Bolivia",
+    "Colombia"
+   ],
+   "c": 1,
+   "d": "El tren avanza y retrocede en zigzag para subir una pared casi vertical.",
+   "tp": "¿En qué país está la «Nariz del Diablo», tramo de tren que sube la montaña en zigzag? ¿Perú, Ecuador, Bolivia o Colombia?",
+   "tr": "¡Ecuador!",
+   "td": "El tren avanza y retrocede en zigzag para subir una pared casi vertical.",
+   "o_fotos": [
+    {
+     "flag": "pe"
+    },
+    {
+     "flag": "ec"
+    },
+    {
+     "flag": "bo"
+    },
+    {
+     "flag": "co"
+    }
+   ]
+  },
+  {
+   "n": 91,
+   "tema": "trenes",
+   "p": "¿Qué lugar de Bolivia tiene un «cementerio de trenes» junto a un gran salar?",
+   "o": [
+    "Sucre",
+    "Uyuni",
+    "Copacabana",
+    "Oruro"
+   ],
+   "c": 1,
+   "d": "Allí quedaron locomotoras antiguas que hoy visitan turistas de todo el mundo.",
+   "tp": "¿Qué lugar de Bolivia tiene un «cementerio de trenes» junto a un gran salar? ¿Sucre, Uyuni, Copacabana o Oruro?",
+   "tr": "¡Uyuni!",
+   "td": "Allí quedaron locomotoras antiguas que hoy visitan turistas de todo el mundo."
+  },
+  {
+   "n": 92,
+   "tema": "autos",
+   "p": "¿En qué ciudad del Caribe circulan todavía muchos autos de la década de 1950?",
+   "o": [
+    "San Juan",
+    "Santo Domingo",
+    "La Habana",
+    "Kingston"
+   ],
+   "c": 2,
+   "d": "Los llaman «almendrones» y los cuidan con mucho cariño desde hace décadas.",
+   "tp": "¿En qué ciudad del Caribe circulan todavía muchos autos de la década de mil novecientos cincuenta? ¿San Juan, Santo Domingo, La Habana o Kingston?",
+   "tr": "¡La Habana!",
+   "td": "Los llaman «almendrones» y los cuidan con mucho cariño desde hace décadas."
+  },
+  {
+   "n": 93,
+   "tema": "aviación",
+   "p": "¿Cómo se llama el fuerte estruendo de un avión al superar la velocidad del sonido?",
+   "o": [
+    "Estampido sónico",
+    "Eco",
+    "Rebote",
+    "Zumbido"
+   ],
+   "c": 0,
+   "d": "El primer piloto en superar la velocidad del sonido fue Chuck Yeager, en 1947.",
+   "tp": "¿Cómo se llama el fuerte estruendo de un avión al superar la velocidad del sonido? ¿Estampido sónico, Eco, Rebote o Zumbido?",
+   "tr": "¡El estampido sónico!",
+   "td": "El primer piloto en superar la velocidad del sonido fue Chuck Yeager, en mil novecientos cuarenta y siete."
+  },
+  {
+   "n": 94,
+   "tema": "autos",
+   "p": "¿Qué país tiene autopistas «Autobahn» con tramos sin límite de velocidad?",
+   "o": [
+    "Austria",
+    "Suiza",
+    "Países Bajos",
+    "Alemania"
+   ],
+   "c": 3,
+   "d": "Aun así, se recomienda no pasar de 130 kilómetros por hora.",
+   "tp": "¿Qué país tiene autopistas «Autobahn» con tramos sin límite de velocidad? ¿Austria, Suiza, Países Bajos o Alemania?",
+   "tr": "¡Alemania!",
+   "td": "Aun así, se recomienda no pasar de ciento treinta kilómetros por hora.",
+   "o_fotos": [
+    {
+     "flag": "at"
+    },
+    {
+     "flag": "ch"
+    },
+    {
+     "flag": "nl"
+    },
+    {
+     "flag": "de"
+    }
+   ]
+  },
+  {
+   "n": 95,
+   "tema": "barcos",
+   "p": "¿Qué tiene un catamarán, que lo distingue de otros barcos?",
+   "o": [
+    "Un solo casco",
+    "Cuatro ruedas",
+    "Un motor de vapor",
+    "Dos cascos paralelos"
+   ],
+   "c": 3,
+   "d": "Con dos cascos, un catamarán es muy estable y navega rápido.",
+   "tp": "¿Qué tiene un catamarán, que lo distingue de otros barcos? ¿Un solo casco, Cuatro ruedas, Un motor de vapor o Dos cascos paralelos?",
+   "tr": "¡Dos cascos paralelos!",
+   "td": "Con dos cascos, un catamarán es muy estable y navega rápido."
+  },
+  {
+   "n": 96,
+   "tema": "barcos",
+   "p": "¿Qué usa un barco para «ver» el fondo del mar con ondas de sonido?",
+   "o": [
+    "Radar",
+    "Brújula",
+    "Sonar",
+    "Faro"
+   ],
+   "c": 2,
+   "d": "El sonar mide cuánto tarda el eco en volver y así calcula la profundidad.",
+   "tp": "¿Qué usa un barco para «ver» el fondo del mar con ondas de sonido? ¿Radar, Brújula, Sonar o Faro?",
+   "tr": "¡El sonar!",
+   "td": "El sonar mide cuánto tarda el eco en volver y así calcula la profundidad."
+  },
+  {
+   "n": 97,
+   "tema": "espacio",
+   "p": "¿Cuántas personas han caminado sobre la Luna?",
+   "o": [
+    "Doce",
+    "Seis",
+    "Veinte",
+    "Tres"
+   ],
+   "c": 0,
+   "d": "Las doce personas viajaron entre 1969 y 1972 en las misiones Apolo.",
+   "tp": "¿Cuántas personas han caminado sobre la Luna? ¿Doce, Seis, Veinte o Tres?",
+   "tr": "¡Doce!",
+   "td": "Las doce personas viajaron entre mil novecientos sesenta y nueve y mil novecientos setenta y dos en las misiones Apolo."
+  },
+  {
+   "n": 98,
+   "tema": "espacio",
+   "p": "¿Cuánto tarda, más o menos, una nave en viajar de la Tierra a Marte?",
+   "o": [
+    "Dos días",
+    "Unos siete meses",
+    "Tres semanas",
+    "Diez años"
+   ],
+   "c": 1,
+   "d": "La nave Perseverance tardó unos seis meses y medio en llegar, en 2021.",
+   "tp": "¿Cuánto tarda, más o menos, una nave en viajar de la Tierra a Marte? ¿Dos días, Unos siete meses, Tres semanas o Diez años?",
+   "tr": "¡Unos siete meses!",
+   "td": "La nave Perseverance tardó unos seis meses y medio en llegar, en dos mil veintiuno."
+  },
+  {
+   "n": 99,
+   "tema": "inventos",
+   "p": "¿Qué medio de transporte vertical perfeccionó Elisha Otis con un freno, en 1854?",
+   "o": [
+    "Escalera mecánica",
+    "Teleférico",
+    "Funicular",
+    "Ascensor"
+   ],
+   "c": 3,
+   "d": "Gracias al freno de seguridad, la gente confió en los ascensores y crecieron los rascacielos.",
+   "tp": "¿Qué medio de transporte vertical perfeccionó Elisha Otis con un freno, en mil ochocientos cincuenta y cuatro? ¿Escalera mecánica, Teleférico, Funicular o Ascensor?",
+   "tr": "¡El ascensor!",
+   "td": "Gracias al freno de seguridad, la gente confió en los ascensores y crecieron los rascacielos.",
+   "o_fotos": [
+    {
+     "q": "escalator",
+     "src": "px"
+    },
+    {
+     "q": "cable car",
+     "src": "px"
+    },
+    {
+     "q": "funicular railway",
+     "src": "px"
+    },
+    {
+     "q": "elevator",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 100,
+   "tema": "espacio",
+   "p": "¿Qué sonda de 1977, con un disco de oro, es lo más lejano que ha enviado la humanidad?",
+   "o": [
+    "Pioneer 10",
+    "Voyager 1",
+    "Cassini",
+    "Galileo"
+   ],
+   "c": 1,
+   "d": "El disco lleva saludos en 55 idiomas, música y sonidos de la Tierra.",
+   "tp": "¿Qué sonda de mil novecientos setenta y siete, con un disco de oro, es lo más lejano que ha enviado la humanidad? ¿Pioneer diez, Voyager uno, Cassini o Galileo?",
+   "tr": "¡La Voyager uno!",
+   "td": "El disco lleva saludos en cincuenta y cinco idiomas, música y sonidos de la Tierra.",
+   "o_fotos": [
+    {
+     "q": "Pioneer 10 spacecraft",
+     "src": "cm",
+     "must": "Pioneer"
+    },
+    {
+     "q": "Voyager spacecraft",
+     "src": "cm",
+     "must": "Voyager"
+    },
+    {
+     "q": "Cassini spacecraft",
+     "src": "cm",
+     "must": "Cassini"
+    },
+    {
+     "q": "Galileo spacecraft",
+     "src": "cm",
+     "must": "Galileo"
+    }
+   ]
   }
  ],
- "extra_tts": {}
+ "extra_tts": {
+  "an_tema": [
+   "anunciador",
+   "Hoy jugamos: ¡trenes, barcos, aviones y cohetes! Viajes de aventura para toda la familia."
+  ],
+  "pr_intro": [
+   "presentador",
+   "¡Hola, familia! Hoy viajamos con cien preguntas de trenes, barcos, aviones y cohetes. ¿Quién llegará a la última estación sin fallar?"
+  ],
+  "co_intro": [
+   "copresentadora",
+   "Abróchense los cinturones, que hoy hay de todo: tranvías, globos y hasta cohetes. ¡MAX ya compró su boleto, pero lo perdió!"
+  ],
+  "co_fama": [
+   "copresentadora",
+   "¡Un aplauso para los mejores jugadores del episodio anterior! Sus nombres brillan en pantalla."
+  ],
+  "charla05_pr": [
+   "presentador",
+   "¡Rieles, velas y aeropuertos! Ya me siento maquinista de tren."
+  ],
+  "charla05_co": [
+   "copresentadora",
+   "Con gorra y todo, MAX. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla10_pr": [
+   "presentador",
+   "¡Un rompehielos y un paracaídas! Yo me lanzaría, pero con casco."
+  ],
+  "charla10_co": [
+   "copresentadora",
+   "Primero el casco, MAX. Ahora vienen tres fotos misteriosas, ¡atentos, familia, que se aclaran con el reloj!"
+  ],
+  "charla15_pr": [
+   "presentador",
+   "¡Un monorriel, una góndola y un transbordador espacial! Qué mezcla de viajes."
+  ],
+  "charla15_co": [
+   "copresentadora",
+   "Y el tren a Machu Picchu fue mi favorito. Familia, ¿cómo va su puntaje?"
+  ],
+  "charla20_pr": [
+   "presentador",
+   "¡Del tren bala al caballito de totora! Yo prefiero el Concorde."
+  ],
+  "charla20_co": [
+   "copresentadora",
+   "Pero ya no vuela, MAX. Familia, ¡sigan sumando puntos!"
+  ],
+  "charla25_pr": [
+   "presentador",
+   "¡Dos afirmaciones y mi cabeza echa vapor! Falta una más."
+  ],
+  "charla25_co": [
+   "copresentadora",
+   "Hablando de vapor, MAX, ¡piensen bien la última afirmación, familia, que puede engañar!"
+  ],
+  "charla30_pr": [
+   "presentador",
+   "¡Un auto en la Luna y zepelines en el cielo! Yo quiero uno de cada uno."
+  ],
+  "charla30_co": [
+   "copresentadora",
+   "Pide espacio en el garaje, MAX. Familia, ¡sigan jugando!"
+  ],
+  "charla35_pr": [
+   "presentador",
+   "¡Globos, helicópteros y un ferri con autos! Hoy no me quedo en tierra."
+  ],
+  "charla35_co": [
+   "copresentadora",
+   "Ni en tierra ni en el agua, MAX. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla40_pr": [
+   "presentador",
+   "¡Ancla, grúa y ambulancia! Yo solo manejo el control remoto."
+  ],
+  "charla40_co": [
+   "copresentadora",
+   "Ahora viene la ronda relámpago, MAX: ¡cinco segundos por pregunta! ¡Atentos, familia!"
+  ],
+  "charla45_pr": [
+   "presentador",
+   "¡Cinco preguntas en un parpadeo! Mis tuercas todavía están girando."
+  ],
+  "charla45_co": [
+   "copresentadora",
+   "Quien acertó todas merece un aplauso gigante. ¡Sigamos, familia!"
+  ],
+  "charla50_pr": [
+   "presentador",
+   "¡Ya vamos por la mitad, con trenes de lujo y trenes a las nubes! Qué viaje."
+  ],
+  "charla50_co": [
+   "copresentadora",
+   "Quedan otras cincuenta, MAX. Familia, ¡revisen el ranking del celular!"
+  ],
+  "charla55_pr": [
+   "presentador",
+   "¡Jorge Chávez cruzó los Alpes y la caja negra resultó naranja! Qué sorpresa."
+  ],
+  "charla55_co": [
+   "copresentadora",
+   "Y tú creías que era negra, MAX. Familia, ¡sigan sumando puntos!"
+  ],
+  "charla60_pr": [
+   "presentador",
+   "¡Más bicicletas que personas, ascensores en los cerros y íconos en el metro!"
+  ],
+  "charla60_co": [
+   "copresentadora",
+   "Qué ciudades tan ingeniosas, MAX. Familia, ¿cómo va su puntaje?"
+  ],
+  "charla65_pr": [
+   "presentador",
+   "¡Chasquis, un vapor en el Titicaca y buses con carriles propios! Qué historias."
+  ],
+  "charla65_co": [
+   "copresentadora",
+   "Ahora vienen tres fotos misteriosas, MAX. ¡Atentos, familia!"
+  ],
+  "charla70_pr": [
+   "presentador",
+   "¡Un rover en Marte, una nao y un pionero peruano de los cohetes! Qué viaje."
+  ],
+  "charla70_co": [
+   "copresentadora",
+   "Quedan treinta, MAX. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla75_pr": [
+   "presentador",
+   "¡Un túnel bajo el mar, un tren que flota y un Águila en la Luna!"
+  ],
+  "charla75_co": [
+   "copresentadora",
+   "Yo me quedo con el tren que flota, MAX. Familia, ¡sigan sumando puntos!"
+  ],
+  "charla80_pr": [
+   "presentador",
+   "¡Una oveja, un pato y un gallo viajando en globo! Qué tripulación."
+  ],
+  "charla80_co": [
+   "copresentadora",
+   "Ahora vienen tres afirmaciones, MAX: ¿verdadero o falso? ¡Atentos, familia!"
+  ],
+  "charla85_pr": [
+   "presentador",
+   "¡Cohetes sin aire y barcos hasta la selva! Yo navego en la bañera."
+  ],
+  "charla85_co": [
+   "copresentadora",
+   "Con tu patito de hule, MAX. Familia, ¿cómo va su puntaje?"
+  ],
+  "charla90_pr": [
+   "presentador",
+   "¡Un teleférico venezolano y un tren en zigzag! Me mareé de tanto subir."
+  ],
+  "charla90_co": [
+   "copresentadora",
+   "Quedan diez, MAX. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla95_pr": [
+   "presentador",
+   "¡Estampido sónico, autopistas sin límite y catamaranes! Qué velocidad."
+  ],
+  "charla95_co": [
+   "copresentadora",
+   "Quedan cinco preguntas, MAX. Familia, ¡concentración total para el final!"
+  ],
+  "pr_cierre": [
+   "presentador",
+   "¡Llegamos a la estación final, familia! Cuéntennos en los comentarios cuántas respondieron bien y cuál fue su puntaje. ¡Gracias por jugar!"
+  ]
+ },
+ "fotos_miniatura": [
+  [
+   31,
+   0
+  ],
+  [
+   32,
+   2
+  ],
+  [
+   18,
+   2
+  ],
+  [
+   55,
+   3
+  ],
+  [
+   100,
+   1
+  ]
+ ]
 }
