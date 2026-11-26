@@ -2,7 +2,7 @@
  "id": "ep022",
  "fecha": "2026-11-27",
  "formato": "normal",
- "estado": "en_proceso",
+ "estado": "listo",
  "codigo_sala": "DINOS",
  "titulo": "Dinosaurios, fósiles y vida prehistórica",
  "titulo_youtube": "¿Sabes de DINOSAURIOS? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
@@ -1395,7 +1395,773 @@
    "tp": "¿Cómo se llama el dinosaurio cuyo nombre significa «garra terrible»? ¿Deinonychus, Velociraptor, Giganotosaurio o Iguanodon?",
    "tr": "¡Deinonychus!",
    "td": "Cazaba con una gran garra curva en cada pie."
+  },
+  {
+   "n": 71,
+   "tema": "ciencia",
+   "p": "¿Qué partes de un dinosaurio se hallan más seguido como fósiles?",
+   "o": [
+    "Huesos y dientes",
+    "Piel y pelo",
+    "Ojos y orejas",
+    "Sangre y plumas"
+   ],
+   "c": 0,
+   "d": "Los huesos y los dientes son duros, por eso se conservan mejor que la piel.",
+   "tp": "¿Qué partes de un dinosaurio se hallan más seguido como fósiles? ¿Huesos y dientes, Piel y pelo, Ojos y orejas o Sangre y plumas?",
+   "tr": "¡Huesos y dientes!",
+   "td": "Los huesos y los dientes son duros, por eso se conservan mejor que la piel."
+  },
+  {
+   "n": 72,
+   "tema": "ciencia",
+   "p": "¿Qué dejaron los dinosaurios en el barro al caminar, que hoy vemos hechas piedra?",
+   "o": [
+    "Huellas",
+    "Plumas",
+    "Nidos",
+    "Escamas"
+   ],
+   "c": 0,
+   "d": "Las huellas fosilizadas se llaman icnitas y cuentan cómo caminaban y corrían.",
+   "tp": "¿Qué dejaron los dinosaurios en el barro al caminar, que hoy vemos hechas piedra? ¿Huellas, Plumas, Nidos o Escamas?",
+   "tr": "¡Huellas!",
+   "td": "Las huellas fosilizadas se llaman icnitas y cuentan cómo caminaban y corrían."
+  },
+  {
+   "n": 73,
+   "tema": "televisión",
+   "p": "¿Qué dinosaurio morado y simpático canta en un programa infantil?",
+   "o": [
+    "Garfield",
+    "Snoopy",
+    "Bob Esponja",
+    "Barney"
+   ],
+   "c": 3,
+   "d": "Barney salió en televisión en los años 90 y enseñó canciones a millones de niños.",
+   "tp": "¿Qué dinosaurio morado y simpático canta en un programa infantil? ¿Garfield, Snoopy, Bob Esponja o Barney?",
+   "tr": "¡Barney!",
+   "td": "Barney salió en televisión en los años noventa y enseñó canciones a millones de niños."
+  },
+  {
+   "n": 74,
+   "tema": "ciencia",
+   "p": "¿Con qué se cubre pronto un animal muerto para poder volverse fósil?",
+   "o": [
+    "Con hojas secas",
+    "Con barro o arena",
+    "Con hielo seco",
+    "Con sal"
+   ],
+   "c": 1,
+   "d": "Si lo cubren rápido, los huesos quedan protegidos y con los años se vuelven piedra.",
+   "tp": "¿Con qué se cubre pronto un animal muerto para poder volverse fósil? ¿Con hojas secas, Con barro o arena, Con hielo seco o Con sal?",
+   "tr": "¡Con barro o arena!",
+   "td": "Si lo cubren rápido, los huesos quedan protegidos y con los años se vuelven piedra."
+  },
+  {
+   "n": 75,
+   "tema": "animales",
+   "p": "¿Qué animal actual, con caparazón de placas, es pariente del gliptodonte?",
+   "o": [
+    "Capibara",
+    "Llama",
+    "Tapir",
+    "Armadillo"
+   ],
+   "c": 3,
+   "d": "Los armadillos viven en América y su caparazón se parece al del gigante gliptodonte.",
+   "tp": "¿Qué animal actual, con caparazón de placas, es pariente del gliptodonte? ¿Capibara, Llama, Tapir o Armadillo?",
+   "tr": "¡El armadillo!",
+   "td": "Los armadillos viven en América y su caparazón se parece al del gigante gliptodonte.",
+   "o_fotos": [
+    {
+     "q": "capybara",
+     "src": "px"
+    },
+    {
+     "q": "llama",
+     "src": "px"
+    },
+    {
+     "q": "tapir",
+     "src": "px"
+    },
+    {
+     "q": "armadillo",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 76,
+   "tema": "geografía",
+   "p": "¿En qué región del Perú está la cueva de Toquepala, con pinturas de cazadores antiguos?",
+   "o": [
+    "Piura",
+    "Tacna",
+    "Loreto",
+    "Junín"
+   ],
+   "c": 1,
+   "d": "Sus pinturas muestran escenas de caza y tienen miles de años de antigüedad.",
+   "tp": "¿En qué región del Perú está la cueva de Toquepala, con pinturas de cazadores antiguos? ¿Piura, Tacna, Loreto o Junín?",
+   "tr": "¡Tacna!",
+   "td": "Sus pinturas muestran escenas de caza y tienen miles de años de antigüedad."
+  },
+  {
+   "n": 77,
+   "tema": "dinosaurios",
+   "p": "¿Cuánto medía de largo un T. rex adulto, más o menos?",
+   "o": [
+    "Unos 2 metros",
+    "Unos 12 metros",
+    "Unos 5 metros",
+    "Unos 40 metros"
+   ],
+   "c": 1,
+   "d": "Medía unos 12 metros, tanto como un autobús escolar.",
+   "tp": "¿Cuánto medía de largo un T. rex adulto, más o menos? ¿Unos dos metros, Unos doce metros, Unos cinco metros o Unos cuarenta metros?",
+   "tr": "¡Unos doce metros!",
+   "td": "Medía unos doce metros, tanto como un autobús escolar."
+  },
+  {
+   "n": 78,
+   "tema": "dinosaurios",
+   "p": "¿Qué dinosaurio tenía el cráneo muy grueso, en forma de cúpula, como un casco?",
+   "o": [
+    "Compsognathus",
+    "Paquicefalosaurio",
+    "Diplodocus",
+    "Estegosaurio"
+   ],
+   "c": 1,
+   "d": "Su cráneo tenía más de 20 cm de hueso macizo, ideal para dar cabezazos.",
+   "tp": "¿Qué dinosaurio tenía el cráneo muy grueso, en forma de cúpula, como un casco? ¿Compsognathus, Paquicefalosaurio, Diplodocus o Estegosaurio?",
+   "tr": "¡El Paquicefalosaurio!",
+   "td": "Su cráneo tenía más de veinte centímetros de hueso macizo, ideal para dar cabezazos.",
+   "o_fotos": [
+    {
+     "q": "Compsognathus",
+     "src": "cm",
+     "must": "Compsognathus"
+    },
+    {
+     "q": "Pachycephalosaurus",
+     "src": "cm",
+     "must": "Pachycephalosaurus"
+    },
+    {
+     "q": "Diplodocus skeleton",
+     "src": "cm",
+     "must": "Diplodocus"
+    },
+    {
+     "q": "Stegosaurus skeleton",
+     "src": "cm",
+     "must": "Stegosaurus"
+    }
+   ]
+  },
+  {
+   "n": 79,
+   "tema": "cine",
+   "p": "En «Parque Jurásico», ¿qué dinosaurio escupía veneno?",
+   "o": [
+    "Gallimimus",
+    "Triceratops",
+    "Dilofosaurio",
+    "Velociraptor"
+   ],
+   "c": 2,
+   "d": "En la vida real no escupía veneno ni tenía gola: ¡eso lo inventó la película!",
+   "tp": "En «Parque Jurásico», ¿qué dinosaurio escupía veneno? ¿Gallimimus, Triceratops, Dilofosaurio o Velociraptor?",
+   "tr": "¡El Dilofosaurio!",
+   "td": "En la vida real no escupía veneno ni tenía gola: ¡eso lo inventó la película!"
+  },
+  {
+   "n": 80,
+   "tema": "ciencia",
+   "p": "¿Cómo se llama la era geológica en que vivieron los dinosaurios?",
+   "o": [
+    "Mesozoica",
+    "Paleozoica",
+    "Cenozoica",
+    "Precámbrica"
+   ],
+   "c": 0,
+   "d": "La Mesozoica incluye tres periodos: Triásico, Jurásico y Cretácico.",
+   "tp": "¿Cómo se llama la era geológica en que vivieron los dinosaurios? ¿Mesozoica, Paleozoica, Cenozoica o Precámbrica?",
+   "tr": "¡La era Mesozoica!",
+   "td": "La Mesozoica incluye tres periodos: Triásico, Jurásico y Cretácico."
+  },
+  {
+   "n": 81,
+   "tema": "dinosaurios",
+   "ronda": "vf",
+   "p": "Los cocodrilos ya existían cuando vivían los dinosaurios.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Los antepasados de los cocodrilos ya vivían junto a los dinosaurios y sobrevivieron al asteroide.",
+   "tp": "¿Verdadero o falso? Los cocodrilos ya existían cuando vivían los dinosaurios.",
+   "tr": "¡Verdadero! Los cocodrilos son sobrevivientes de esa época.",
+   "td": "Los antepasados de los cocodrilos ya vivían junto a los dinosaurios y sobrevivieron al asteroide."
+  },
+  {
+   "n": 82,
+   "tema": "dinosaurios",
+   "ronda": "vf",
+   "p": "El Tiranosaurio rex vivió en lo que hoy es Sudamérica.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Sus fósiles se han hallado en América del Norte, en Estados Unidos y Canadá.",
+   "tp": "¿Verdadero o falso? El Tiranosaurio rex vivió en lo que hoy es Sudamérica.",
+   "tr": "¡Falso! Vivió en América del Norte.",
+   "td": "Sus fósiles se han hallado en América del Norte, en Estados Unidos y Canadá."
+  },
+  {
+   "n": 83,
+   "tema": "dinosaurios",
+   "ronda": "vf",
+   "p": "Los dinosaurios más grandes eran carnívoros.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Los gigantes, como el Patagotitan, comían plantas; los carnívoros eran más pequeños.",
+   "tp": "¿Verdadero o falso? Los dinosaurios más grandes eran carnívoros.",
+   "tr": "¡Falso! Los gigantes comían plantas.",
+   "td": "Los gigantes, como el Patagotitan, comían plantas; los carnívoros eran más pequeños."
+  },
+  {
+   "n": 84,
+   "tema": "animales",
+   "p": "¿Qué reptil de las islas Galápagos, con caparazón enorme, puede vivir más de 100 años?",
+   "o": [
+    "Iguana marina",
+    "Tortuga gigante",
+    "Cocodrilo americano",
+    "Lagartija de lava"
+   ],
+   "c": 1,
+   "d": "Las tortugas gigantes de Galápagos pueden pasar de 100 años de vida.",
+   "tp": "¿Qué reptil de las islas Galápagos, con caparazón enorme, puede vivir más de cien años? ¿Iguana marina, Tortuga gigante, Cocodrilo americano o Lagartija de lava?",
+   "tr": "¡La tortuga gigante!",
+   "td": "Las tortugas gigantes de Galápagos pueden pasar de cien años de vida.",
+   "o_fotos": [
+    {
+     "q": "marine iguana",
+     "src": "px"
+    },
+    {
+     "q": "Galapagos giant tortoise",
+     "src": "px"
+    },
+    {
+     "q": "american crocodile",
+     "src": "px"
+    },
+    {
+     "q": "lava lizard",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 85,
+   "tema": "ciencia",
+   "p": "¿Cuánto duró, más o menos, la era de los dinosaurios?",
+   "o": [
+    "Unos 5 millones de años",
+    "Unos 20 millones de años",
+    "Unos 1.000 millones de años",
+    "Más de 160 millones de años"
+   ],
+   "c": 3,
+   "d": "Aparecieron hace unos 230 millones de años y se extinguieron hace 66 millones.",
+   "tp": "¿Cuánto duró, más o menos, la era de los dinosaurios? ¿Unos cinco millones de años, Unos veinte millones de años, Unos mil millones de años o Más de ciento sesenta millones de años?",
+   "tr": "¡Más de 160 millones de años!",
+   "td": "Aparecieron hace unos doscientos treinta millones de años y se extinguieron hace sesenta y seis millones."
+  },
+  {
+   "n": 86,
+   "tema": "geografía",
+   "p": "¿En qué región muy fría se han hallado mamuts congelados con pelo y piel?",
+   "o": [
+    "Siberia",
+    "Sahara",
+    "Amazonía",
+    "Patagonia"
+   ],
+   "c": 0,
+   "d": "El hielo eterno, o permafrost, ha guardado mamuts casi intactos durante miles de años.",
+   "tp": "¿En qué región muy fría se han hallado mamuts congelados con pelo y piel? ¿Siberia, Sahara, Amazonía o Patagonia?",
+   "tr": "¡En Siberia!",
+   "td": "El hielo eterno, o permafrost, ha guardado mamuts casi intactos durante miles de años."
+  },
+  {
+   "n": 87,
+   "tema": "naturaleza",
+   "p": "¿Qué árbol, que ya existía con los dinosaurios, es llamado «fósil viviente»?",
+   "o": [
+    "Roble",
+    "Sauce llorón",
+    "Ginkgo",
+    "Cerezo"
+   ],
+   "c": 2,
+   "d": "Su linaje tiene más de 200 millones de años y sus hojas parecen abanicos.",
+   "tp": "¿Qué árbol, que ya existía con los dinosaurios, es llamado «fósil viviente»? ¿Roble, Sauce llorón, Ginkgo o Cerezo?",
+   "tr": "¡El ginkgo!",
+   "td": "Su linaje tiene más de doscientos millones de años y sus hojas parecen abanicos.",
+   "o_fotos": [
+    {
+     "q": "oak tree",
+     "src": "px"
+    },
+    {
+     "q": "weeping willow",
+     "src": "px"
+    },
+    {
+     "q": "ginkgo leaves",
+     "src": "px"
+    },
+    {
+     "q": "cherry blossom tree",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 88,
+   "tema": "ciencia",
+   "p": "¿Qué insecto prehistórico, parecido a una libélula, medía unos 70 cm de ala a ala?",
+   "o": [
+    "Arthropleura",
+    "Meganeura",
+    "Anomalocaris",
+    "Dunkleosteus"
+   ],
+   "c": 1,
+   "d": "La Meganeura voló hace unos 300 millones de años, antes que los dinosaurios.",
+   "tp": "¿Qué insecto prehistórico, parecido a una libélula, medía unos setenta centímetros de ala a ala? ¿Arthropleura, Meganeura, Anomalocaris o Dunkleosteus?",
+   "tr": "¡La Meganeura!",
+   "td": "La Meganeura voló hace unos trescientos millones de años, antes que los dinosaurios."
+  },
+  {
+   "n": 89,
+   "tema": "geografía",
+   "p": "¿En qué continente helado hallaron fósiles de dinosaurios, aunque hoy no vive ninguno?",
+   "o": [
+    "Europa",
+    "Asia",
+    "África",
+    "Antártida"
+   ],
+   "c": 3,
+   "d": "La Antártida estuvo unida a otras tierras y tenía un clima templado, con bosques.",
+   "tp": "¿En qué continente helado hallaron fósiles de dinosaurios, aunque hoy no vive ninguno? ¿Europa, Asia, África o Antártida?",
+   "tr": "¡En la Antártida!",
+   "td": "La Antártida estuvo unida a otras tierras y tenía un clima templado, con bosques."
+  },
+  {
+   "n": 90,
+   "tema": "dinosaurios",
+   "p": "¿Qué pequeño dinosaurio chino tenía plumas en brazos y patas, como cuatro alas?",
+   "o": [
+    "Compsognathus",
+    "Gallimimus",
+    "Microraptor",
+    "Oviraptor"
+   ],
+   "c": 2,
+   "d": "El Microraptor medía menos de un metro y probablemente planeaba entre los árboles.",
+   "tp": "¿Qué pequeño dinosaurio chino tenía plumas en brazos y patas, como cuatro alas? ¿Compsognathus, Gallimimus, Microraptor o Oviraptor?",
+   "tr": "¡El Microraptor!",
+   "td": "El Microraptor medía menos de un metro y probablemente planeaba entre los árboles."
+  },
+  {
+   "n": 91,
+   "tema": "dinosaurios",
+   "p": "¿Qué dinosaurio tenía garras de cerca de medio metro en cada mano?",
+   "o": [
+    "Terizinosaurio",
+    "Gallimimus",
+    "Protoceratops",
+    "Iguanodon"
+   ],
+   "c": 0,
+   "d": "Era herbívoro: usaba sus enormes garras para jalar ramas, no para cazar.",
+   "tp": "¿Qué dinosaurio tenía garras de cerca de medio metro en cada mano? ¿Terizinosaurio, Gallimimus, Protoceratops o Iguanodon?",
+   "tr": "¡El Terizinosaurio!",
+   "td": "Era herbívoro: usaba sus enormes garras para jalar ramas, no para cazar."
+  },
+  {
+   "n": 92,
+   "tema": "dinosaurios",
+   "p": "¿Qué dinosaurio, cuyo nombre significa «buena madre lagarto», cuidaba a sus crías?",
+   "o": [
+    "Alosaurio",
+    "Maiasaura",
+    "Velociraptor",
+    "Estegosaurio"
+   ],
+   "c": 1,
+   "d": "En Montana, Estados Unidos, hallaron nidos con crías y por eso creen que las cuidaba.",
+   "tp": "¿Qué dinosaurio, cuyo nombre significa «buena madre lagarto», cuidaba a sus crías? ¿Alosaurio, Maiasaura, Velociraptor o Estegosaurio?",
+   "tr": "¡La Maiasaura!",
+   "td": "En Montana, Estados Unidos, hallaron nidos con crías y por eso creen que las cuidaba."
+  },
+  {
+   "n": 93,
+   "tema": "dinosaurios",
+   "p": "¿Qué dinosaurio recibió, sin merecerlo, el nombre de «ladrón de huevos»?",
+   "o": [
+    "Oviraptor",
+    "Triceratops",
+    "Alosaurio",
+    "Iguanodon"
+   ],
+   "c": 0,
+   "d": "Lo hallaron sobre un nido y creyeron que robaba, pero era su propio nido.",
+   "tp": "¿Qué dinosaurio recibió, sin merecerlo, el nombre de «ladrón de huevos»? ¿Oviraptor, Triceratops, Alosaurio o Iguanodon?",
+   "tr": "¡El Oviraptor!",
+   "td": "Lo hallaron sobre un nido y creyeron que robaba, pero era su propio nido."
+  },
+  {
+   "n": 94,
+   "tema": "prehistoria",
+   "p": "¿Qué pariente gigante del rinoceronte fue uno de los mamíferos terrestres más grandes?",
+   "o": [
+    "Mastodonte",
+    "Megaterio",
+    "Mamut lanudo",
+    "Paraceratherium"
+   ],
+   "c": 3,
+   "d": "Vivió en Asia, medía unos 5 metros de alto y pesaba más de 10 toneladas.",
+   "tp": "¿Qué pariente gigante del rinoceronte fue uno de los mamíferos terrestres más grandes? ¿Mastodonte, Megaterio, Mamut lanudo o Paraceratherium?",
+   "tr": "¡El Paraceratherium!",
+   "td": "Vivió en Asia, medía unos cinco metros de alto y pesaba más de diez toneladas."
+  },
+  {
+   "n": 95,
+   "tema": "literatura",
+   "p": "¿Quién escribió la novela «Parque Jurásico», en la que se basa la película?",
+   "o": [
+    "Stephen King",
+    "Julio Verne",
+    "Roald Dahl",
+    "Michael Crichton"
+   ],
+   "c": 3,
+   "d": "Michael Crichton publicó la novela en 1990 y Spielberg la filmó tres años después.",
+   "tp": "¿Quién escribió la novela «Parque Jurásico», en la que se basa la película? ¿Stephen King, Julio Verne, Roald Dahl o Michael Crichton?",
+   "tr": "¡Michael Crichton!",
+   "td": "Michael Crichton publicó la novela en mil novecientos noventa y Spielberg la filmó tres años después."
+  },
+  {
+   "n": 96,
+   "tema": "ciencia",
+   "p": "¿Qué metal raro, hallado en una capa de arcilla, delató el choque del asteroide?",
+   "o": [
+    "Iridio",
+    "Oro",
+    "Cobre",
+    "Plata"
+   ],
+   "c": 0,
+   "d": "Esa capa con iridio aparece en muchos países y es la huella del asteroide de hace 66 millones de años.",
+   "tp": "¿Qué metal raro, hallado en una capa de arcilla, delató el choque del asteroide? ¿Iridio, Oro, Cobre o Plata?",
+   "tr": "¡El iridio!",
+   "td": "Esa capa con iridio aparece en muchos países y es la huella del asteroide de hace sesenta y seis millones de años."
+  },
+  {
+   "n": 97,
+   "tema": "ciencia",
+   "p": "¿Qué significa «Tyrannosaurus rex» en español?",
+   "o": [
+    "Lagarto de tres cuernos",
+    "Rey de los lagartos tiranos",
+    "Lagarto de cuello largo",
+    "Rey de los mares"
+   ],
+   "c": 1,
+   "d": "Tyrannosaurus rex significa «rey de los lagartos tiranos» y lo nombró Henry Osborn en 1905.",
+   "tp": "¿Qué significa «Tyrannosaurus rex» en español? ¿Lagarto de tres cuernos, Rey de los lagartos tiranos, Lagarto de cuello largo o Rey de los mares?",
+   "tr": "¡Rey de los lagartos tiranos!",
+   "td": "Tyrannosaurus rex significa «rey de los lagartos tiranos» y lo nombró Henry Osborn en mil novecientos cinco."
+  },
+  {
+   "n": 98,
+   "tema": "ciencia",
+   "p": "¿Cuánto medía de ancho, más o menos, el asteroide que cayó en Chicxulub?",
+   "o": [
+    "Unos 10 kilómetros",
+    "Unos 10 metros",
+    "Unos 100 metros",
+    "Unos 10.000 kilómetros"
+   ],
+   "c": 0,
+   "d": "Medía unos 10 km, como una gran montaña, y dejó un cráter de más de 150 km.",
+   "tp": "¿Cuánto medía de ancho, más o menos, el asteroide que cayó en Chicxulub? ¿Unos diez kilómetros, Unos diez metros, Unos cien metros o Unos diez mil kilómetros?",
+   "tr": "¡Unos diez kilómetros!",
+   "td": "Medía unos diez kilómetros, como una gran montaña, y dejó un cráter de más de ciento cincuenta kilómetros."
+  },
+  {
+   "n": 99,
+   "tema": "animales",
+   "p": "¿Qué enorme ave cazadora sin vuelo, apodada «ave del terror», vivió en Sudamérica?",
+   "o": [
+    "Moa",
+    "Dodo",
+    "Emú",
+    "Forusrácido"
+   ],
+   "c": 3,
+   "d": "Los forusrácidos medían hasta unos 3 metros de alto y corrían rápido para cazar.",
+   "tp": "¿Qué enorme ave cazadora sin vuelo, apodada «ave del terror», vivió en Sudamérica? ¿Moa, Dodo, Emú o Forusrácido?",
+   "tr": "¡El forusrácido!",
+   "td": "Los forusrácidos medían hasta unos tres metros de alto y corrían rápido para cazar."
+  },
+  {
+   "n": 100,
+   "tema": "animales",
+   "p": "¿Cuál de estos animales actuales es, en realidad, un dinosaurio?",
+   "o": [
+    "Cocodrilo",
+    "Iguana",
+    "Tortuga",
+    "Paloma"
+   ],
+   "c": 3,
+   "d": "Las aves descienden de los dinosaurios terópodos: ¡una paloma es un dinosaurio vivo!",
+   "tp": "¿Cuál de estos animales actuales es, en realidad, un dinosaurio? ¿Cocodrilo, Iguana, Tortuga o Paloma?",
+   "tr": "¡La paloma! Las aves son dinosaurios.",
+   "td": "Las aves descienden de los dinosaurios terópodos: ¡una paloma es un dinosaurio vivo!",
+   "o_fotos": [
+    {
+     "q": "crocodile",
+     "src": "px"
+    },
+    {
+     "q": "green iguana",
+     "src": "px"
+    },
+    {
+     "q": "turtle",
+     "src": "px"
+    },
+    {
+     "q": "pigeon",
+     "src": "px"
+    }
+   ]
   }
  ],
- "extra_tts": {}
+ "extra_tts": {
+  "an_tema": [
+   "anunciador",
+   "Hoy jugamos: ¡dinosaurios, fósiles y vida prehistórica! Un viaje de millones de años."
+  ],
+  "pr_intro": [
+   "presentador",
+   "¡Hola, familia! Hoy viajamos al tiempo de los dinosaurios con cien preguntas rugientes. ¿Quién llegará a la última sin fallar?"
+  ],
+  "co_intro": [
+   "copresentadora",
+   "Hay de todo: tiranos, gigantes de cuello largo y hasta mamuts. ¡MAX ya se puso su sombrero de explorador, aunque lo tiene al revés!"
+  ],
+  "co_fama": [
+   "copresentadora",
+   "¡Un aplauso para los mejores jugadores del episodio anterior! Sus nombres brillan en pantalla."
+  ],
+  "charla05_pr": [
+   "presentador",
+   "¡Fósiles, pinceles y un Triceratops con tres cuernos! Ya me siento un gran paleontólogo."
+  ],
+  "charla05_co": [
+   "copresentadora",
+   "Con casco y todo, MAX. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla10_pr": [
+   "presentador",
+   "¡Un mamut peludo y el Dino de los Picapiedra! Yo quiero a Dino de mascota."
+  ],
+  "charla10_co": [
+   "copresentadora",
+   "Cuidado con el asteroide, MAX. Ahora vienen tres fotos misteriosas, ¡atentos, familia!"
+  ],
+  "charla15_pr": [
+   "presentador",
+   "¡Un tigre dientes de sable y ámbar con insectos adentro! Qué tesoros."
+  ],
+  "charla15_co": [
+   "copresentadora",
+   "Y un Patagotitan enorme, MAX. Familia, ¿cómo va su puntaje?"
+  ],
+  "charla20_pr": [
+   "presentador",
+   "¡Los bracitos del T. rex son tan chiquitos que no me alcanzan ni para aplaudir!"
+  ],
+  "charla20_co": [
+   "copresentadora",
+   "Para aplaudir tú tienes motor, MAX. Familia, ¡sigan sumando puntos!"
+  ],
+  "charla25_pr": [
+   "presentador",
+   "¡Dos afirmaciones y ya estoy dudando! Falta una más."
+  ],
+  "charla25_co": [
+   "copresentadora",
+   "Piénsalo bien, MAX. Familia, ¿verdadero o falso? ¡Atentos!"
+  ],
+  "charla30_pr": [
+   "presentador",
+   "¡Un mosquito en ámbar y un Velociraptor del tamaño de un pavo! Qué sorpresa."
+  ],
+  "charla30_co": [
+   "copresentadora",
+   "Menos mal, MAX, ya no da tanto miedo. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla35_pr": [
+   "presentador",
+   "¡Un perezoso de seis metros! Ya no puedo dormir la siesta tranquilo."
+  ],
+  "charla35_co": [
+   "copresentadora",
+   "Él era vegetariano, MAX. Familia, ¡sigan sumando puntos!"
+  ],
+  "charla40_pr": [
+   "presentador",
+   "¡Dinosaurios que tragaban piedras! Yo solo trago tuercas."
+  ],
+  "charla40_co": [
+   "copresentadora",
+   "Ahora viene la ronda relámpago, MAX: ¡cinco segundos por pregunta! ¡Atentos, familia!"
+  ],
+  "charla45_pr": [
+   "presentador",
+   "¡Cinco preguntas en un parpadeo! Mis circuitos todavía echan humo."
+  ],
+  "charla45_co": [
+   "copresentadora",
+   "Quien acertó todas merece un aplauso gigante. ¡Sigamos, familia!"
+  ],
+  "charla50_pr": [
+   "presentador",
+   "¡Nidos en el desierto de Gobi y un reptil volador con nombre azteca! Qué viaje en el tiempo."
+  ],
+  "charla50_co": [
+   "copresentadora",
+   "Ya vamos por la mitad, MAX. Familia, ¡revisen el ranking del celular!"
+  ],
+  "charla55_pr": [
+   "presentador",
+   "¡Trilobites, Pangea y una niña de doce años que halló un ictiosaurio! Qué valentía."
+  ],
+  "charla55_co": [
+   "copresentadora",
+   "Una gran cazadora de fósiles, MAX. Familia, ¿cómo va su puntaje?"
+  ],
+  "charla60_pr": [
+   "presentador",
+   "¡Los montes Jura, el milodón de la Patagonia y un argentinosaurio de setenta toneladas!"
+  ],
+  "charla60_co": [
+   "copresentadora",
+   "Pesa mucho más que tú, MAX. Familia, ¡sigan sumando puntos!"
+  ],
+  "charla65_pr": [
+   "presentador",
+   "¡Lucy, el moa y hasta un coprolito! Esa fue la pregunta más rara de todas."
+  ],
+  "charla65_co": [
+   "copresentadora",
+   "Ahora vienen tres fotos misteriosas, MAX. ¡Atentos, familia, que se aclaran con el reloj!"
+  ],
+  "charla70_pr": [
+   "presentador",
+   "¡Un ammonite, un dragón de Komodo y un avestruz! Hoy el zoológico llegó al estudio."
+  ],
+  "charla70_co": [
+   "copresentadora",
+   "Quedan treinta, MAX. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla75_pr": [
+   "presentador",
+   "¡Huellas de piedra, un Barney morado y un armadillo con parientes gigantes! Qué mezcla."
+  ],
+  "charla75_co": [
+   "copresentadora",
+   "Y todo sin salir del estudio, MAX. Familia, ¡sigan sumando puntos!"
+  ],
+  "charla80_pr": [
+   "presentador",
+   "¡Un T. rex de doce metros y un dinosaurio que escupe veneno solo en el cine!"
+  ],
+  "charla80_co": [
+   "copresentadora",
+   "Ahora vienen tres afirmaciones, MAX: ¿verdadero o falso? ¡Atentos, familia!"
+  ],
+  "charla85_pr": [
+   "presentador",
+   "¡Tortugas de cien años y cocodrilos que vieron a los dinosaurios! Qué abuelitos."
+  ],
+  "charla85_co": [
+   "copresentadora",
+   "Y todavía andan por ahí, MAX. Familia, ¿cómo va su puntaje?"
+  ],
+  "charla90_pr": [
+   "presentador",
+   "¡Un mamut congelado, un árbol fósil viviente y una libélula gigante!"
+  ],
+  "charla90_co": [
+   "copresentadora",
+   "Quedan diez, MAX. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla95_pr": [
+   "presentador",
+   "¡Garras enormes, una buena madre lagarto y un ladrón de huevos inocente!"
+  ],
+  "charla95_co": [
+   "copresentadora",
+   "Quedan cinco, MAX. Familia, ¡concentración total para el final!"
+  ],
+  "pr_cierre": [
+   "presentador",
+   "¡Llegamos al final de la era de los dinosaurios, familia! Cuéntennos en los comentarios cuántas respondieron bien y cuál fue su puntaje. ¡Gracias por jugar!"
+  ]
+ },
+ "fotos_miniatura": [
+  [
+   8,
+   3
+  ],
+  [
+   49,
+   2
+  ],
+  [
+   84,
+   1
+  ],
+  [
+   87,
+   2
+  ],
+  [
+   100,
+   3
+  ]
+ ]
 }

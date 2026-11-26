@@ -2,7 +2,7 @@
  "id": "ep024",
  "fecha": "2026-11-30",
  "formato": "normal",
- "estado": "en_proceso",
+ "estado": "listo",
  "codigo_sala": "CUERPO",
  "titulo": "El cuerpo humano: huesos, órganos y sentidos",
  "titulo_youtube": "¿Cuánto sabes de tu CUERPO? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
@@ -19,6 +19,2089 @@
  "reto_miniatura": "¿Llegas a la 100?",
  "objetivo_preguntas": 100,
  "total_anunciado": 100,
- "preguntas": [],
- "extra_tts": {}
+ "preguntas": [
+  {
+   "n": 1,
+   "tema": "cuerpo",
+   "p": "¿Qué parte del cuerpo usamos para hablar y comer?",
+   "o": [
+    "Rodilla",
+    "Codo",
+    "Boca",
+    "Oreja"
+   ],
+   "c": 2,
+   "d": "En la boca están los dientes, la lengua y las glándulas que producen saliva.",
+   "tp": "¿Qué parte del cuerpo usamos para hablar y comer? ¿Rodilla, Codo, Boca o Oreja?",
+   "tr": "¡La boca!",
+   "td": "En la boca están los dientes, la lengua y las glándulas que producen saliva."
+  },
+  {
+   "n": 2,
+   "tema": "cuerpo",
+   "p": "¿Qué parte del cuerpo usamos para masticar la comida?",
+   "o": [
+    "Uñas",
+    "Cejas",
+    "Orejas",
+    "Dientes"
+   ],
+   "c": 3,
+   "d": "Un adulto tiene 32 dientes, y cada tipo corta, desgarra o muele.",
+   "tp": "¿Qué parte del cuerpo usamos para masticar la comida? ¿Uñas, Cejas, Orejas o Dientes?",
+   "tr": "¡Los dientes!",
+   "td": "Un adulto tiene treinta y dos dientes, y cada tipo corta, desgarra o muele."
+  },
+  {
+   "n": 3,
+   "tema": "cuerpo",
+   "p": "¿Con qué sentido saboreamos una fruta?",
+   "o": [
+    "Gusto",
+    "Vista",
+    "Oído",
+    "Tacto"
+   ],
+   "c": 0,
+   "d": "La lengua tiene miles de papilas que detectan los sabores.",
+   "tp": "¿Con qué sentido saboreamos una fruta? ¿Gusto, Vista, Oído o Tacto?",
+   "tr": "¡El gusto!",
+   "td": "La lengua tiene miles de papilas que detectan los sabores."
+  },
+  {
+   "n": 4,
+   "tema": "cuerpo",
+   "p": "¿A qué órgano llega la comida después de pasar por el esófago?",
+   "o": [
+    "Pulmón",
+    "Estómago",
+    "Cerebro",
+    "Riñón"
+   ],
+   "c": 1,
+   "d": "El estómago mezcla la comida con jugos que la van deshaciendo.",
+   "tp": "¿A qué órgano llega la comida después de pasar por el esófago? ¿Pulmón, Estómago, Cerebro o Riñón?",
+   "tr": "¡Al estómago!",
+   "td": "El estómago mezcla la comida con jugos que la van deshaciendo."
+  },
+  {
+   "n": 5,
+   "tema": "cuerpo",
+   "p": "¿Qué parte del ojo tiene color, como marrón, azul o verde?",
+   "o": [
+    "Pupila",
+    "Párpado",
+    "Iris",
+    "Pestaña"
+   ],
+   "c": 2,
+   "d": "El iris es un músculo circular que abre y cierra la pupila.",
+   "tp": "¿Qué parte del ojo tiene color, como marrón, azul o verde? ¿Pupila, Párpado, Iris o Pestaña?",
+   "tr": "¡El iris!",
+   "td": "El iris es un músculo circular que abre y cierra la pupila."
+  },
+  {
+   "n": 6,
+   "tema": "cuerpo",
+   "p": "¿Qué parte del brazo se dobla en el medio?",
+   "o": [
+    "Muñeca",
+    "Hombro",
+    "Dedo",
+    "Codo"
+   ],
+   "c": 3,
+   "d": "El codo es una articulación que funciona como una bisagra.",
+   "tp": "¿Qué parte del brazo se dobla en el medio? ¿Muñeca, Hombro, Dedo o Codo?",
+   "tr": "¡El codo!",
+   "td": "El codo es una articulación que funciona como una bisagra."
+  },
+  {
+   "n": 7,
+   "tema": "cuerpo",
+   "p": "¿Qué parte del cuerpo usamos para patear un balón?",
+   "o": [
+    "Pie",
+    "Codo",
+    "Oreja",
+    "Cuello"
+   ],
+   "c": 0,
+   "d": "Cada pie tiene 26 huesos y 33 articulaciones, ¡por eso es tan ágil!",
+   "tp": "¿Qué parte del cuerpo usamos para patear un balón? ¿Pie, Codo, Oreja o Cuello?",
+   "tr": "¡El pie!",
+   "td": "Cada pie tiene veintiséis huesos y treinta y tres articulaciones, ¡por eso es tan ágil!"
+  },
+  {
+   "n": 8,
+   "tema": "cuerpo",
+   "p": "¿Qué sale de los ojos cuando lloramos?",
+   "o": [
+    "Sudor",
+    "Lágrimas",
+    "Saliva",
+    "Sangre"
+   ],
+   "c": 1,
+   "d": "Las lágrimas también limpian y protegen los ojos todos los días.",
+   "tp": "¿Qué sale de los ojos cuando lloramos? ¿Sudor, Lágrimas, Saliva o Sangre?",
+   "tr": "¡Lágrimas!",
+   "td": "Las lágrimas también limpian y protegen los ojos todos los días."
+  },
+  {
+   "n": 9,
+   "tema": "cuerpo",
+   "p": "¿Qué parte del cuerpo une la cabeza con el resto del cuerpo?",
+   "o": [
+    "Rodilla",
+    "Codo",
+    "Cuello",
+    "Tobillo"
+   ],
+   "c": 2,
+   "d": "El cuello tiene 7 huesos y sostiene una cabeza de unos 5 kilos.",
+   "tp": "¿Qué parte del cuerpo une la cabeza con el resto del cuerpo? ¿Rodilla, Codo, Cuello o Tobillo?",
+   "tr": "¡El cuello!",
+   "td": "El cuello tiene siete huesos y sostiene una cabeza de unos cinco kilos."
+  },
+  {
+   "n": 10,
+   "tema": "cuerpo",
+   "p": "¿Qué dedo de la mano está junto al meñique?",
+   "o": [
+    "Índice",
+    "Pulgar",
+    "Medio",
+    "Anular"
+   ],
+   "c": 3,
+   "d": "El anular es el dedo donde muchos llevan el anillo de matrimonio.",
+   "tp": "¿Qué dedo de la mano está junto al meñique? ¿Índice, Pulgar, Medio o Anular?",
+   "tr": "¡El anular!",
+   "td": "El anular es el dedo donde muchos llevan el anillo de matrimonio."
+  },
+  {
+   "n": 11,
+   "tema": "cuerpo",
+   "ronda": "misteriosa",
+   "p": "¿Qué es esto que sostiene nuestro cuerpo y protege los órganos?",
+   "o": [
+    "Esqueleto",
+    "Armadura",
+    "Andamio",
+    "Jaula"
+   ],
+   "c": 0,
+   "d": "Un esqueleto adulto tiene 206 huesos y pesa solo unos 10 kilos.",
+   "tp": "¿Qué es esto que sostiene nuestro cuerpo y protege los órganos? ¿Esqueleto, Armadura, Andamio o Jaula?",
+   "tr": "¡El esqueleto!",
+   "td": "Un esqueleto adulto tiene doscientos seis huesos y pesa solo unos diez kilos.",
+   "img_q": "human skeleton anatomical model",
+   "img_modo": "pregunta"
+  },
+  {
+   "n": 12,
+   "tema": "cuerpo",
+   "ronda": "misteriosa",
+   "p": "¿Qué órgano es este, el centro de mando de todo el cuerpo?",
+   "o": [
+    "Pulmón",
+    "Cerebro",
+    "Estómago",
+    "Hígado"
+   ],
+   "c": 1,
+   "d": "El cerebro pesa más o menos 1,4 kilos y nunca descansa.",
+   "tp": "¿Qué órgano es este, el centro de mando de todo el cuerpo? ¿Pulmón, Cerebro, Estómago o Hígado?",
+   "tr": "¡El cerebro!",
+   "td": "El cerebro pesa más o menos un kilo y cuatrocientos gramos y nunca descansa.",
+   "img_q": "human brain anatomical model",
+   "img_modo": "pregunta"
+  },
+  {
+   "n": 13,
+   "tema": "cuerpo",
+   "ronda": "misteriosa",
+   "p": "¿Cómo se llama este objeto que ayuda a ver mejor?",
+   "o": [
+    "Binoculares",
+    "Lupa",
+    "Anteojos",
+    "Brújula"
+   ],
+   "c": 2,
+   "d": "Los primeros anteojos se inventaron en Italia hace más de 700 años.",
+   "tp": "¿Cómo se llama este objeto que ayuda a ver mejor? ¿Binoculares, Lupa, Anteojos o Brújula?",
+   "tr": "¡Los anteojos!",
+   "td": "Los primeros anteojos se inventaron en Italia hace más de setecientos años.",
+   "img_q": "eyeglasses",
+   "img_modo": "pregunta"
+  },
+  {
+   "n": 14,
+   "tema": "cuerpo",
+   "p": "¿Cuál de estos alimentos tiene más calcio, bueno para los huesos?",
+   "o": [
+    "Naranja",
+    "Arroz",
+    "Plátano",
+    "Leche"
+   ],
+   "c": 3,
+   "d": "El calcio fortalece los huesos y los dientes; también está en el queso y el yogur.",
+   "tp": "¿Cuál de estos alimentos tiene más calcio, bueno para los huesos? ¿Naranja, Arroz, Plátano o Leche?",
+   "tr": "¡La leche!",
+   "td": "El calcio fortalece los huesos y los dientes; también está en el queso y el yogur.",
+   "o_fotos": [
+    {
+     "q": "glass of milk",
+     "src": "px"
+    },
+    {
+     "q": "orange fruit",
+     "src": "px"
+    },
+    {
+     "q": "rice grains",
+     "src": "px"
+    },
+    {
+     "q": "banana",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "tema": "cuerpo",
+   "p": "¿Qué tubo lleva el aire desde la garganta a los pulmones?",
+   "o": [
+    "Tráquea",
+    "Esófago",
+    "Intestino",
+    "Vena"
+   ],
+   "c": 0,
+   "d": "La tráquea tiene anillos de cartílago que la mantienen siempre abierta.",
+   "tp": "¿Qué tubo lleva el aire desde la garganta a los pulmones? ¿Tráquea, Esófago, Intestino o Vena?",
+   "tr": "¡La tráquea!",
+   "td": "La tráquea tiene anillos de cartílago que la mantienen siempre abierta."
+  },
+  {
+   "n": 16,
+   "tema": "cuerpo",
+   "p": "¿Cómo se llama el hueso de la espinilla, entre la rodilla y el pie?",
+   "o": [
+    "Cúbito",
+    "Tibia",
+    "Clavícula",
+    "Mandíbula"
+   ],
+   "c": 1,
+   "d": "La tibia es el segundo hueso más largo del cuerpo, después del fémur.",
+   "tp": "¿Cómo se llama el hueso de la espinilla, entre la rodilla y el pie? ¿Cúbito, Tibia, Clavícula o Mandíbula?",
+   "tr": "¡La tibia!",
+   "td": "La tibia es el segundo hueso más largo del cuerpo, después del fémur."
+  },
+  {
+   "n": 17,
+   "tema": "cuerpo",
+   "p": "¿Qué tubo lleva la comida desde la boca hasta el estómago?",
+   "o": [
+    "Tráquea",
+    "Arteria",
+    "Esófago",
+    "Uretra"
+   ],
+   "c": 2,
+   "d": "El esófago empuja la comida con movimientos, ¡aunque estés de cabeza!",
+   "tp": "¿Qué tubo lleva la comida desde la boca hasta el estómago? ¿Tráquea, Arteria, Esófago o Uretra?",
+   "tr": "¡El esófago!",
+   "td": "El esófago empuja la comida con movimientos, ¡aunque estés de cabeza!"
+  },
+  {
+   "n": 18,
+   "tema": "cuerpo",
+   "p": "¿Qué hacen los glóbulos blancos de la sangre?",
+   "o": [
+    "Llevan el oxígeno",
+    "Digieren la comida",
+    "Mueven los huesos",
+    "Combaten los gérmenes"
+   ],
+   "c": 3,
+   "d": "Los glóbulos blancos son el ejército que defiende al cuerpo de las infecciones.",
+   "tp": "¿Qué hacen los glóbulos blancos de la sangre? ¿Llevan el oxígeno, Digieren la comida, Mueven los huesos o Combaten los gérmenes?",
+   "tr": "¡Combaten los gérmenes!",
+   "td": "Los glóbulos blancos son el ejército que defiende al cuerpo de las infecciones."
+  },
+  {
+   "n": 19,
+   "tema": "cuerpo",
+   "p": "¿Cómo se llama el hueso largo de la parte alta del brazo?",
+   "o": [
+    "Húmero",
+    "Fémur",
+    "Tibia",
+    "Costilla"
+   ],
+   "c": 0,
+   "d": "El húmero va del hombro al codo y es el hueso largo del brazo.",
+   "tp": "¿Cómo se llama el hueso largo de la parte alta del brazo? ¿Húmero, Fémur, Tibia o Costilla?",
+   "tr": "¡El húmero!",
+   "td": "El húmero va del hombro al codo y es el hueso largo del brazo."
+  },
+  {
+   "n": 20,
+   "tema": "cuerpo",
+   "p": "¿Qué sale de la piel cuando hacemos mucho ejercicio o hace calor?",
+   "o": [
+    "Saliva",
+    "Sudor",
+    "Lágrimas",
+    "Bilis"
+   ],
+   "c": 1,
+   "d": "El sudor se evapora y refresca el cuerpo.",
+   "tp": "¿Qué sale de la piel cuando hacemos mucho ejercicio o hace calor? ¿Saliva, Sudor, Lágrimas o Bilis?",
+   "tr": "¡Sudor!",
+   "td": "El sudor se evapora y refresca el cuerpo."
+  },
+  {
+   "n": 21,
+   "tema": "cuerpo",
+   "p": "¿Qué parte del ojo es la ventana transparente que cubre el iris y la pupila?",
+   "o": [
+    "Retina",
+    "Párpado",
+    "Córnea",
+    "Pestaña"
+   ],
+   "c": 2,
+   "d": "La córnea es transparente, no tiene vasos sanguíneos y se cura muy rápido.",
+   "tp": "¿Qué parte del ojo es la ventana transparente que cubre el iris y la pupila? ¿Retina, Párpado, Córnea o Pestaña?",
+   "tr": "¡La córnea!",
+   "td": "La córnea es transparente, no tiene vasos sanguíneos y se cura muy rápido."
+  },
+  {
+   "n": 22,
+   "tema": "cuerpo",
+   "p": "¿Qué hueso forma la cadera?",
+   "o": [
+    "Cráneo",
+    "Tibia",
+    "Esternón",
+    "Pelvis"
+   ],
+   "c": 3,
+   "d": "La pelvis sostiene la columna y protege órganos del abdomen.",
+   "tp": "¿Qué hueso forma la cadera? ¿Cráneo, Tibia, Esternón o Pelvis?",
+   "tr": "¡La pelvis!",
+   "td": "La pelvis sostiene la columna y protege órganos del abdomen."
+  },
+  {
+   "n": 23,
+   "tema": "cuerpo",
+   "p": "¿Qué sentido nos permite sentir el calor, el frío y las cosquillas?",
+   "o": [
+    "Tacto",
+    "Gusto",
+    "Olfato",
+    "Vista"
+   ],
+   "c": 0,
+   "d": "El tacto funciona gracias a terminaciones nerviosas por toda la piel.",
+   "tp": "¿Qué sentido nos permite sentir el calor, el frío y las cosquillas? ¿Tacto, Gusto, Olfato o Vista?",
+   "tr": "¡El tacto!",
+   "td": "El tacto funciona gracias a terminaciones nerviosas por toda la piel."
+  },
+  {
+   "n": 24,
+   "tema": "cuerpo",
+   "ronda": "vf",
+   "p": "El corazón se detiene cuando dormimos.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "El corazón late toda la vida, incluso dormidos, solo que más despacio.",
+   "tp": "¿Verdadero o falso? El corazón se detiene cuando dormimos.",
+   "tr": "¡Falso! Late sin parar, también al dormir.",
+   "td": "El corazón late toda la vida, incluso dormidos, solo que más despacio."
+  },
+  {
+   "n": 25,
+   "tema": "cuerpo",
+   "ronda": "vf",
+   "p": "Los bebés nacen con más huesos que los adultos.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Un bebé nace con unos 300 huesos; muchos se unen y quedan 206.",
+   "tp": "¿Verdadero o falso? Los bebés nacen con más huesos que los adultos.",
+   "tr": "¡Verdadero! Muchos huesos se van uniendo al crecer.",
+   "td": "Un bebé nace con unos trescientos huesos; muchos se unen y quedan doscientos seis."
+  },
+  {
+   "n": 26,
+   "tema": "cuerpo",
+   "ronda": "vf",
+   "p": "La lengua está formada por músculos.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "La lengua tiene ocho músculos y se mueve sin ningún hueso.",
+   "tp": "¿Verdadero o falso? La lengua está formada por músculos.",
+   "tr": "¡Verdadero! Es puro músculo.",
+   "td": "La lengua tiene ocho músculos y se mueve sin ningún hueso."
+  },
+  {
+   "n": 27,
+   "tema": "cuerpo",
+   "p": "¿Qué sentimos cuando el cuerpo necesita agua?",
+   "o": [
+    "Hipo",
+    "Sed",
+    "Cosquillas",
+    "Sueño"
+   ],
+   "c": 1,
+   "d": "Cuando perdemos agua, el cerebro nos avisa con la sensación de sed.",
+   "tp": "¿Qué sentimos cuando el cuerpo necesita agua? ¿Hipo, Sed, Cosquillas o Sueño?",
+   "tr": "¡Sed!",
+   "td": "Cuando perdemos agua, el cerebro nos avisa con la sensación de sed."
+  },
+  {
+   "n": 28,
+   "tema": "cuerpo",
+   "p": "¿Cómo se llama el hueso de la barbilla, que mueve la boca al comer?",
+   "o": [
+    "Clavícula",
+    "Mandíbula",
+    "Rótula",
+    "Omóplato"
+   ],
+   "c": 1,
+   "d": "La mandíbula es el único hueso de la cara que se mueve.",
+   "tp": "¿Cómo se llama el hueso de la barbilla, que mueve la boca al comer? ¿Clavícula, Mandíbula, Rótula o Omóplato?",
+   "tr": "¡La mandíbula!",
+   "td": "La mandíbula es el único hueso de la cara que se mueve."
+  },
+  {
+   "n": 29,
+   "tema": "cuerpo",
+   "p": "¿Dónde se fabrican los glóbulos rojos de la sangre?",
+   "o": [
+    "Estómago",
+    "Piel",
+    "Médula ósea",
+    "Oído"
+   ],
+   "c": 2,
+   "d": "La médula ósea está dentro de los huesos y fabrica millones de células cada día.",
+   "tp": "¿Dónde se fabrican los glóbulos rojos de la sangre? ¿Estómago, Piel, Médula ósea o Oído?",
+   "tr": "¡En la médula ósea!",
+   "td": "La médula ósea está dentro de los huesos y fabrica millones de células cada día."
+  },
+  {
+   "n": 30,
+   "tema": "cuerpo",
+   "p": "¿Cómo se llaman los músculos del vientre que se marcan como «tableta de chocolate»?",
+   "o": [
+    "Bíceps",
+    "Gemelos",
+    "Deltoides",
+    "Abdominales"
+   ],
+   "c": 3,
+   "d": "Todos tenemos abdominales; se ven más cuando hay menos grasa encima.",
+   "tp": "¿Cómo se llaman los músculos del vientre que se marcan como «tableta de chocolate»? ¿Bíceps, Gemelos, Deltoides o Abdominales?",
+   "tr": "¡Los abdominales!",
+   "td": "Todos tenemos abdominales; se ven más cuando hay menos grasa encima."
+  },
+  {
+   "n": 31,
+   "tema": "cuerpo",
+   "p": "¿Qué músculo del brazo se marca cuando lo doblamos y mostramos fuerza?",
+   "o": [
+    "Bíceps",
+    "Tríceps",
+    "Deltoides",
+    "Pectoral"
+   ],
+   "c": 0,
+   "d": "El bíceps dobla el brazo y el tríceps lo estira.",
+   "tp": "¿Qué músculo del brazo se marca cuando lo doblamos y mostramos fuerza? ¿Bíceps, Tríceps, Deltoides o Pectoral?",
+   "tr": "¡El bíceps!",
+   "td": "El bíceps dobla el brazo y el tríceps lo estira."
+  },
+  {
+   "n": 32,
+   "tema": "cuerpo",
+   "p": "¿Qué hacen las cuerdas vocales?",
+   "o": [
+    "Mueven el cuello",
+    "Producen la voz",
+    "Digieren la comida",
+    "Filtran el aire"
+   ],
+   "c": 1,
+   "d": "Al vibrar el aire en las cuerdas vocales, se forma nuestra voz.",
+   "tp": "¿Qué hacen las cuerdas vocales? ¿Mueven el cuello, Producen la voz, Digieren la comida o Filtran el aire?",
+   "tr": "¡Producen la voz!",
+   "td": "Al vibrar el aire en las cuerdas vocales, se forma nuestra voz."
+  },
+  {
+   "n": 33,
+   "tema": "cuerpo",
+   "p": "¿Qué instrumento usan los médicos para medir la presión de la sangre?",
+   "o": [
+    "Termómetro",
+    "Balanza",
+    "Tensiómetro",
+    "Lupa"
+   ],
+   "c": 2,
+   "d": "El tensiómetro mide la fuerza con que la sangre empuja las arterias.",
+   "tp": "¿Qué instrumento usan los médicos para medir la presión de la sangre? ¿Termómetro, Balanza, Tensiómetro o Lupa?",
+   "tr": "¡El tensiómetro!",
+   "td": "El tensiómetro mide la fuerza con que la sangre empuja las arterias."
+  },
+  {
+   "n": 34,
+   "tema": "cuerpo",
+   "p": "¿Qué alimento naranja, con vitamina A, ayuda a ver bien?",
+   "o": [
+    "Papa",
+    "Coliflor",
+    "Pepino",
+    "Zanahoria"
+   ],
+   "c": 3,
+   "d": "La vitamina A de la zanahoria cuida los ojos y la piel.",
+   "tp": "¿Qué alimento naranja, con vitamina A, ayuda a ver bien? ¿Papa, Coliflor, Pepino o Zanahoria?",
+   "tr": "¡La zanahoria!",
+   "td": "La vitamina A de la zanahoria cuida los ojos y la piel.",
+   "o_fotos": [
+    {
+     "q": "carrot",
+     "src": "px"
+    },
+    {
+     "q": "potato",
+     "src": "px"
+    },
+    {
+     "q": "cauliflower",
+     "src": "px"
+    },
+    {
+     "q": "cucumber",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "tema": "cuerpo",
+   "p": "¿Cuál de estos alimentos tiene más proteínas, buenas para los músculos?",
+   "o": [
+    "Huevo",
+    "Manzana",
+    "Lechuga",
+    "Pepino"
+   ],
+   "c": 0,
+   "d": "Un huevo tiene unos 6 gramos de proteínas y vitaminas importantes.",
+   "tp": "¿Cuál de estos alimentos tiene más proteínas, buenas para los músculos? ¿Huevo, Manzana, Lechuga o Pepino?",
+   "tr": "¡El huevo!",
+   "td": "Un huevo tiene unos seis gramos de proteínas y vitaminas importantes.",
+   "o_fotos": [
+    {
+     "q": "eggs",
+     "src": "px"
+    },
+    {
+     "q": "apple",
+     "src": "px"
+    },
+    {
+     "q": "lettuce",
+     "src": "px"
+    },
+    {
+     "q": "cucumber",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "tema": "animales",
+   "p": "¿Qué animal puede mover cada ojo en una dirección distinta?",
+   "o": [
+    "Perro",
+    "Camaleón",
+    "Gato",
+    "Caballo"
+   ],
+   "c": 1,
+   "d": "El camaleón mira hacia dos lados a la vez para vigilar todo a su alrededor.",
+   "tp": "¿Qué animal puede mover cada ojo en una dirección distinta? ¿Perro, Camaleón, Gato o Caballo?",
+   "tr": "¡El camaleón!",
+   "td": "El camaleón mira hacia dos lados a la vez para vigilar todo a su alrededor.",
+   "o_fotos": [
+    {
+     "q": "chameleon",
+     "src": "px"
+    },
+    {
+     "q": "dog",
+     "src": "px"
+    },
+    {
+     "q": "cat",
+     "src": "px"
+    },
+    {
+     "q": "horse",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "tema": "animales",
+   "p": "¿Qué animal puede hacer que le vuelva a crecer la cola si la pierde?",
+   "o": [
+    "Gato",
+    "Perro",
+    "Lagartija",
+    "Conejo"
+   ],
+   "c": 2,
+   "d": "Muchas lagartijas sueltan la cola para escapar, ¡y les crece otra!",
+   "tp": "¿Qué animal puede hacer que le vuelva a crecer la cola si la pierde? ¿Gato, Perro, Lagartija o Conejo?",
+   "tr": "¡La lagartija!",
+   "td": "Muchas lagartijas sueltan la cola para escapar, ¡y les crece otra!",
+   "o_fotos": [
+    {
+     "q": "lizard",
+     "src": "px"
+    },
+    {
+     "q": "cat",
+     "src": "px"
+    },
+    {
+     "q": "dog",
+     "src": "px"
+    },
+    {
+     "q": "rabbit",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "tema": "comida",
+   "p": "¿Qué fruta amarilla tiene mucho potasio y ayuda a evitar calambres?",
+   "o": [
+    "Fresa",
+    "Uva",
+    "Sandía",
+    "Plátano"
+   ],
+   "c": 3,
+   "d": "El potasio ayuda a que los músculos y el corazón funcionen bien.",
+   "tp": "¿Qué fruta amarilla tiene mucho potasio y ayuda a evitar calambres? ¿Fresa, Uva, Sandía o Plátano?",
+   "tr": "¡El plátano!",
+   "td": "El potasio ayuda a que los músculos y el corazón funcionen bien.",
+   "o_fotos": [
+    {
+     "q": "banana",
+     "src": "px"
+    },
+    {
+     "q": "strawberry",
+     "src": "px"
+    },
+    {
+     "q": "grapes",
+     "src": "px"
+    },
+    {
+     "q": "watermelon",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "tema": "cuerpo",
+   "p": "¿Cómo se llaman las células del cerebro que envían mensajes eléctricos?",
+   "o": [
+    "Neuronas",
+    "Plaquetas",
+    "Glóbulos",
+    "Fibras"
+   ],
+   "c": 0,
+   "d": "Las neuronas se comunican con señales eléctricas más rápido que un parpadeo.",
+   "tp": "¿Cómo se llaman las células del cerebro que envían mensajes eléctricos? ¿Neuronas, Plaquetas, Glóbulos o Fibras?",
+   "tr": "¡Las neuronas!",
+   "td": "Las neuronas se comunican con señales eléctricas más rápido que un parpadeo."
+  },
+  {
+   "n": 40,
+   "tema": "animales",
+   "p": "¿Qué animal usa una lengua larguísima para atrapar hormigas?",
+   "o": [
+    "Pingüino",
+    "Oso hormiguero",
+    "Conejo",
+    "Tortuga"
+   ],
+   "c": 1,
+   "d": "La lengua del oso hormiguero mide hasta 60 cm y se mueve unas 150 veces por minuto.",
+   "tp": "¿Qué animal usa una lengua larguísima para atrapar hormigas? ¿Pingüino, Oso hormiguero, Conejo o Tortuga?",
+   "tr": "¡El oso hormiguero!",
+   "td": "La lengua del oso hormiguero mide hasta sesenta centímetros y se mueve unas ciento cincuenta veces por minuto.",
+   "o_fotos": [
+    {
+     "q": "giant anteater",
+     "src": "px"
+    },
+    {
+     "q": "penguin",
+     "src": "px"
+    },
+    {
+     "q": "rabbit",
+     "src": "px"
+    },
+    {
+     "q": "tortoise",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "tema": "cuerpo",
+   "ronda": "relampago",
+   "p": "¿Qué usamos para saludar?",
+   "o": [
+    "Oreja",
+    "Rodilla",
+    "Mano",
+    "Ceja"
+   ],
+   "c": 2,
+   "d": "Al dar la mano, tocamos a otra persona con muchas terminaciones nerviosas.",
+   "tp": "¿Qué usamos para saludar? ¿Oreja, Rodilla, Mano o Ceja?",
+   "tr": "¡La mano!",
+   "td": "Al dar la mano, tocamos a otra persona con muchas terminaciones nerviosas."
+  },
+  {
+   "n": 42,
+   "tema": "cuerpo",
+   "ronda": "relampago",
+   "p": "¿Con qué oímos?",
+   "o": [
+    "Pies",
+    "Manos",
+    "Codos",
+    "Orejas"
+   ],
+   "c": 3,
+   "d": "Las orejas también ayudan a mantener el equilibrio.",
+   "tp": "¿Con qué oímos? ¿Pies, Manos, Codos o Orejas?",
+   "tr": "¡Orejas!",
+   "td": "Las orejas también ayudan a mantener el equilibrio."
+  },
+  {
+   "n": 43,
+   "tema": "cuerpo",
+   "ronda": "relampago",
+   "p": "¿Qué late en el pecho?",
+   "o": [
+    "Corazón",
+    "Hígado",
+    "Codo",
+    "Bazo"
+   ],
+   "c": 0,
+   "d": "El corazón late unas cien mil veces al día.",
+   "tp": "¿Qué late en el pecho? ¿Corazón, Hígado, Codo o Bazo?",
+   "tr": "¡El corazón!",
+   "td": "El corazón late unas cien mil veces al día."
+  },
+  {
+   "n": 44,
+   "tema": "cuerpo",
+   "ronda": "relampago",
+   "p": "¿Qué usamos para caminar?",
+   "o": [
+    "Orejas",
+    "Piernas",
+    "Cejas",
+    "Codos"
+   ],
+   "c": 1,
+   "d": "Las piernas tienen los huesos y músculos más fuertes del cuerpo.",
+   "tp": "¿Qué usamos para caminar? ¿Orejas, Piernas, Cejas o Codos?",
+   "tr": "¡Piernas!",
+   "td": "Las piernas tienen los huesos y músculos más fuertes del cuerpo."
+  },
+  {
+   "n": 45,
+   "tema": "cuerpo",
+   "ronda": "relampago",
+   "p": "¿Con qué parte del cuerpo olemos?",
+   "o": [
+    "Rodilla",
+    "Codo",
+    "Nariz",
+    "Pie"
+   ],
+   "c": 2,
+   "d": "La nariz distingue miles de olores diferentes.",
+   "tp": "¿Con qué parte del cuerpo olemos? ¿Rodilla, Codo, Nariz o Pie?",
+   "tr": "¡La nariz!",
+   "td": "La nariz distingue miles de olores diferentes."
+  },
+  {
+   "n": 46,
+   "tema": "cuerpo",
+   "p": "¿Qué mineral transporta el oxígeno en los glóbulos rojos?",
+   "o": [
+    "Oro",
+    "Cobre",
+    "Sodio",
+    "Hierro"
+   ],
+   "c": 3,
+   "d": "La falta de hierro causa cansancio; lo hay en lentejas y carnes.",
+   "tp": "¿Qué mineral transporta el oxígeno en los glóbulos rojos? ¿Oro, Cobre, Sodio o Hierro?",
+   "tr": "¡El hierro!",
+   "td": "La falta de hierro causa cansancio; lo hay en lentejas y carnes."
+  },
+  {
+   "n": 47,
+   "tema": "cuerpo",
+   "p": "¿Cómo se llama la membrana del oído que vibra con los sonidos?",
+   "o": [
+    "Tímpano",
+    "Cóclea",
+    "Yunque",
+    "Pabellón"
+   ],
+   "c": 0,
+   "d": "El tímpano es más delgado que una hoja de papel y vibra con cada sonido.",
+   "tp": "¿Cómo se llama la membrana del oído que vibra con los sonidos? ¿Tímpano, Cóclea, Yunque o Pabellón?",
+   "tr": "¡El tímpano!",
+   "td": "El tímpano es más delgado que una hoja de papel y vibra con cada sonido."
+  },
+  {
+   "n": 48,
+   "tema": "cuerpo",
+   "p": "¿En qué parte del ojo se forma la imagen de lo que vemos?",
+   "o": [
+    "Córnea",
+    "Retina",
+    "Pupila",
+    "Iris"
+   ],
+   "c": 1,
+   "d": "La retina manda la imagen al cerebro, ¡y la ve al derecho!",
+   "tp": "¿En qué parte del ojo se forma la imagen de lo que vemos? ¿Córnea, Retina, Pupila o Iris?",
+   "tr": "¡En la retina!",
+   "td": "La retina manda la imagen al cerebro, ¡y la ve al derecho!"
+  },
+  {
+   "n": 49,
+   "tema": "cuerpo",
+   "p": "¿Qué hormona nos da sueño cuando llega la noche?",
+   "o": [
+    "Adrenalina",
+    "Insulina",
+    "Melatonina",
+    "Oxitocina"
+   ],
+   "c": 2,
+   "d": "La luz del día frena la melatonina; por eso conviene apagar pantallas antes de dormir.",
+   "tp": "¿Qué hormona nos da sueño cuando llega la noche? ¿Adrenalina, Insulina, Melatonina o Oxitocina?",
+   "tr": "¡La melatonina!",
+   "td": "La luz del día frena la melatonina; por eso conviene apagar pantallas antes de dormir."
+  },
+  {
+   "n": 50,
+   "tema": "cuerpo",
+   "p": "¿Qué hormona nos acelera el corazón cuando sentimos miedo o emoción?",
+   "o": [
+    "Melatonina",
+    "Insulina",
+    "Oxitocina",
+    "Adrenalina"
+   ],
+   "c": 3,
+   "d": "La adrenalina prepara al cuerpo para correr o defenderse.",
+   "tp": "¿Qué hormona nos acelera el corazón cuando sentimos miedo o emoción? ¿Melatonina, Insulina, Oxitocina o Adrenalina?",
+   "tr": "¡La adrenalina!",
+   "td": "La adrenalina prepara al cuerpo para correr o defenderse."
+  },
+  {
+   "n": 51,
+   "tema": "cuerpo",
+   "p": "¿Qué órgano del lado izquierdo del abdomen filtra la sangre y ayuda a defendernos?",
+   "o": [
+    "Bazo",
+    "Hígado",
+    "Vejiga",
+    "Páncreas"
+   ],
+   "c": 0,
+   "d": "El bazo recicla glóbulos rojos viejos y guarda glóbulos blancos.",
+   "tp": "¿Qué órgano del lado izquierdo del abdomen filtra la sangre y ayuda a defendernos? ¿Bazo, Hígado, Vejiga o Páncreas?",
+   "tr": "¡El bazo!",
+   "td": "El bazo recicla glóbulos rojos viejos y guarda glóbulos blancos."
+  },
+  {
+   "n": 52,
+   "tema": "comida",
+   "p": "¿Qué verdura verde, con forma de arbolito, tiene mucha vitamina C y fibra?",
+   "o": [
+    "Zanahoria",
+    "Brócoli",
+    "Papa",
+    "Cebolla"
+   ],
+   "c": 1,
+   "d": "Gramo por gramo, el brócoli tiene más vitamina C que una naranja.",
+   "tp": "¿Qué verdura verde, con forma de arbolito, tiene mucha vitamina C y fibra? ¿Zanahoria, Brócoli, Papa o Cebolla?",
+   "tr": "¡El brócoli!",
+   "td": "Gramo por gramo, el brócoli tiene más vitamina C que una naranja.",
+   "o_fotos": [
+    {
+     "q": "broccoli",
+     "src": "px"
+    },
+    {
+     "q": "carrot",
+     "src": "px"
+    },
+    {
+     "q": "potato",
+     "src": "px"
+    },
+    {
+     "q": "onion",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 53,
+   "tema": "animales",
+   "p": "¿Qué animal usa sus enormes orejas para refrescarse?",
+   "o": [
+    "Conejo",
+    "Búho",
+    "Elefante",
+    "Oso"
+   ],
+   "c": 2,
+   "d": "Por las orejas del elefante pasa mucha sangre, y al agitarlas se enfría.",
+   "tp": "¿Qué animal usa sus enormes orejas para refrescarse? ¿Conejo, Búho, Elefante o Oso?",
+   "tr": "¡El elefante!",
+   "td": "Por las orejas del elefante pasa mucha sangre, y al agitarlas se enfría.",
+   "o_fotos": [
+    {
+     "q": "african elephant",
+     "src": "px"
+    },
+    {
+     "q": "rabbit",
+     "src": "px"
+    },
+    {
+     "q": "owl",
+     "src": "px"
+    },
+    {
+     "q": "bear",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 54,
+   "tema": "cuerpo",
+   "p": "¿Cuántas veces late, más o menos, el corazón de un adulto en un minuto en reposo?",
+   "o": [
+    "Unas 10 veces",
+    "Unas 70 veces",
+    "Unas 200 veces",
+    "Unas 500 veces"
+   ],
+   "c": 1,
+   "d": "Entre 60 y 100 latidos por minuto es lo normal en reposo.",
+   "tp": "¿Cuántas veces late, más o menos, el corazón de un adulto en un minuto en reposo? ¿Unas diez veces, Unas setenta veces, Unas doscientas veces o Unas quinientas veces?",
+   "tr": "¡Unas setenta!",
+   "td": "Entre sesenta y cien latidos por minuto es lo normal en reposo."
+  },
+  {
+   "n": 55,
+   "tema": "cuerpo",
+   "p": "¿Cuánto del cuerpo humano es agua, más o menos?",
+   "o": [
+    "Casi nada",
+    "Una cuarta parte",
+    "Más de la mitad",
+    "Todo"
+   ],
+   "c": 2,
+   "d": "El agua es cerca del 60 % del cuerpo de un adulto.",
+   "tp": "¿Cuánto del cuerpo humano es agua, más o menos? ¿Casi nada, Una cuarta parte, Más de la mitad o Todo?",
+   "tr": "¡Más de la mitad!",
+   "td": "El agua es cerca del sesenta por ciento del cuerpo de un adulto."
+  },
+  {
+   "n": 56,
+   "tema": "Perú",
+   "p": "¿Cómo se llama el mal de altura que sentimos en los Andes por falta de oxígeno?",
+   "o": [
+    "Hipo",
+    "Resfrío",
+    "Empacho",
+    "Soroche"
+   ],
+   "c": 3,
+   "d": "En Cusco o La Paz muchos sienten soroche; ayuda descansar, tomar agua y mate.",
+   "tp": "¿Cómo se llama el mal de altura que sentimos en los Andes por falta de oxígeno? ¿Hipo, Resfrío, Empacho o Soroche?",
+   "tr": "¡El soroche!",
+   "td": "En Cusco o La Paz muchos sienten soroche; ayuda descansar, tomar agua y mate."
+  },
+  {
+   "n": 57,
+   "tema": "cuerpo",
+   "p": "¿Qué cubre los dientes y es lo más duro del cuerpo humano?",
+   "o": [
+    "Esmalte",
+    "Encía",
+    "Lengua",
+    "Saliva"
+   ],
+   "c": 0,
+   "d": "El esmalte es más duro que los huesos, pero no se regenera si se rompe.",
+   "tp": "¿Qué cubre los dientes y es lo más duro del cuerpo humano? ¿Esmalte, Encía, Lengua o Saliva?",
+   "tr": "¡El esmalte!",
+   "td": "El esmalte es más duro que los huesos, pero no se regenera si se rompe."
+  },
+  {
+   "n": 58,
+   "tema": "cuerpo",
+   "p": "¿Para qué sirven las pestañas?",
+   "o": [
+    "Oler mejor",
+    "Oír mejor",
+    "Sentir el frío",
+    "Proteger los ojos del polvo"
+   ],
+   "c": 3,
+   "d": "Las pestañas atrapan el polvo y avisan con un parpadeo si algo se acerca.",
+   "tp": "¿Para qué sirven las pestañas? ¿Oler mejor, Oír mejor, Sentir el frío o Proteger los ojos del polvo?",
+   "tr": "¡Para proteger los ojos!",
+   "td": "Las pestañas atrapan el polvo y avisan con un parpadeo si algo se acerca."
+  },
+  {
+   "n": 59,
+   "tema": "cuerpo",
+   "p": "¿Qué proteína forma las uñas y el cabello?",
+   "o": [
+    "Queratina",
+    "Insulina",
+    "Colágeno",
+    "Hemoglobina"
+   ],
+   "c": 0,
+   "d": "Las uñas crecen unos 3 milímetros al mes, ¡más rápido que las de los pies!",
+   "tp": "¿Qué proteína forma las uñas y el cabello? ¿Queratina, Insulina, Colágeno o Hemoglobina?",
+   "tr": "¡La queratina!",
+   "td": "Las uñas crecen unos tres milímetros al mes, ¡más rápido que las de los pies!"
+  },
+  {
+   "n": 60,
+   "tema": "cuerpo",
+   "p": "¿Cuántas horas necesita dormir, más o menos, un niño de edad escolar?",
+   "o": [
+    "Unas 4 horas",
+    "Unas 10 horas",
+    "Unas 16 horas",
+    "Unas 20 horas"
+   ],
+   "c": 1,
+   "d": "Dormir bien ayuda a crecer, aprender y recordar.",
+   "tp": "¿Cuántas horas necesita dormir, más o menos, un niño de edad escolar? ¿Unas cuatro horas, Unas diez horas, Unas dieciséis horas o Unas veinte horas?",
+   "tr": "¡Unas diez horas!",
+   "td": "Dormir bien ayuda a crecer, aprender y recordar."
+  },
+  {
+   "n": 61,
+   "tema": "cuerpo",
+   "p": "¿Qué músculo bajo los pulmones se contrae y nos produce el hipo?",
+   "o": [
+    "Bíceps",
+    "Glúteo",
+    "Diafragma",
+    "Esófago"
+   ],
+   "c": 2,
+   "d": "El hipo es un espasmo del diafragma; el sonido viene de las cuerdas vocales.",
+   "tp": "¿Qué músculo bajo los pulmones se contrae y nos produce el hipo? ¿Bíceps, Glúteo, Diafragma o Esófago?",
+   "tr": "¡El diafragma!",
+   "td": "El hipo es un espasmo del diafragma; el sonido viene de las cuerdas vocales."
+  },
+  {
+   "n": 62,
+   "tema": "cuerpo",
+   "p": "¿Qué parte del cuerpo golpea el médico con un martillito para probar los reflejos?",
+   "o": [
+    "Codo",
+    "Hombro",
+    "Tobillo",
+    "Rodilla"
+   ],
+   "c": 3,
+   "d": "El reflejo de la rodilla es involuntario: la pierna salta sola.",
+   "tp": "¿Qué parte del cuerpo golpea el médico con un martillito para probar los reflejos? ¿Codo, Hombro, Tobillo o Rodilla?",
+   "tr": "¡La rodilla!",
+   "td": "El reflejo de la rodilla es involuntario: la pierna salta sola."
+  },
+  {
+   "n": 63,
+   "tema": "Latinoamérica",
+   "p": "¿Qué grano es la base de las tortillas mexicanas?",
+   "o": [
+    "Maíz",
+    "Trigo",
+    "Arroz",
+    "Avena"
+   ],
+   "c": 0,
+   "d": "Los pueblos de México cultivan maíz desde hace unos 9.000 años.",
+   "tp": "¿Qué grano es la base de las tortillas mexicanas? ¿Maíz, Trigo, Arroz o Avena?",
+   "tr": "¡El maíz!",
+   "td": "Los pueblos de México cultivan maíz desde hace unos nueve mil años.",
+   "o_fotos": [
+    {
+     "q": "corn cob",
+     "src": "px"
+    },
+    {
+     "q": "wheat",
+     "src": "px"
+    },
+    {
+     "q": "rice",
+     "src": "px"
+    },
+    {
+     "q": "oats",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 64,
+   "tema": "comida",
+   "p": "¿Qué pescado graso tiene omega 3, bueno para el cerebro y el corazón?",
+   "o": [
+    "Papa",
+    "Salmón",
+    "Pan",
+    "Manzana"
+   ],
+   "c": 1,
+   "d": "Los pescados grasos, como el salmón, aportan omega 3.",
+   "tp": "¿Qué pescado graso tiene omega tres, bueno para el cerebro y el corazón? ¿Papa, Salmón, Pan o Manzana?",
+   "tr": "¡El salmón!",
+   "td": "Los pescados grasos, como el salmón, aportan omega tres.",
+   "o_fotos": [
+    {
+     "q": "salmon fish",
+     "src": "px"
+    },
+    {
+     "q": "potato",
+     "src": "px"
+    },
+    {
+     "q": "bread",
+     "src": "px"
+    },
+    {
+     "q": "apple",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 65,
+   "tema": "animales",
+   "p": "¿Qué animal vuela de noche guiándose con ecos?",
+   "o": [
+    "Búho",
+    "Colibrí",
+    "Murciélago",
+    "Mariposa"
+   ],
+   "c": 2,
+   "d": "El murciélago emite chillidos y escucha el eco para saber dónde están los obstáculos.",
+   "tp": "¿Qué animal vuela de noche guiándose con ecos? ¿Búho, Colibrí, Murciélago o Mariposa?",
+   "tr": "¡El murciélago!",
+   "td": "El murciélago emite chillidos y escucha el eco para saber dónde están los obstáculos.",
+   "o_fotos": [
+    {
+     "q": "bat flying",
+     "src": "px"
+    },
+    {
+     "q": "owl",
+     "src": "px"
+    },
+    {
+     "q": "hummingbird",
+     "src": "px"
+    },
+    {
+     "q": "butterfly",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 66,
+   "tema": "cuerpo",
+   "ronda": "misteriosa",
+   "p": "¿Cómo se llama este objeto que ayuda a caminar cuando duele una pierna?",
+   "o": [
+    "Bastones de esquí",
+    "Remos",
+    "Zancos",
+    "Muletas"
+   ],
+   "c": 3,
+   "d": "Las muletas se apoyan en las axilas o en los antebrazos.",
+   "tp": "¿Cómo se llama este objeto que ayuda a caminar cuando duele una pierna? ¿Bastones de esquí, Remos, Zancos o Muletas?",
+   "tr": "¡Las muletas!",
+   "td": "Las muletas se apoyan en las axilas o en los antebrazos.",
+   "img_q": "crutches",
+   "img_modo": "pregunta"
+  },
+  {
+   "n": 67,
+   "tema": "cuerpo",
+   "ronda": "misteriosa",
+   "p": "¿Qué es esta marca única de cada persona en la punta de los dedos?",
+   "o": [
+    "Huella dactilar",
+    "Cicatriz",
+    "Tatuaje",
+    "Lunar"
+   ],
+   "c": 0,
+   "d": "Ninguna persona tiene la misma huella dactilar, ¡ni siquiera los gemelos!",
+   "tp": "¿Qué es esta marca única de cada persona en la punta de los dedos? ¿Huella dactilar, Cicatriz, Tatuaje o Lunar?",
+   "tr": "¡La huella dactilar!",
+   "td": "Ninguna persona tiene la misma huella dactilar, ¡ni siquiera los gemelos!",
+   "img_q": "fingerprint",
+   "img_modo": "pregunta"
+  },
+  {
+   "n": 68,
+   "tema": "cuerpo",
+   "ronda": "misteriosa",
+   "p": "¿Cómo se llama este objeto para cuidar los dientes todos los días?",
+   "o": [
+    "Peine",
+    "Cepillo de dientes",
+    "Esponja",
+    "Cepillo de ropa"
+   ],
+   "c": 1,
+   "d": "Hay que cepillarse los dientes por lo menos dos veces al día.",
+   "tp": "¿Cómo se llama este objeto para cuidar los dientes todos los días? ¿Peine, Cepillo de dientes, Esponja o Cepillo de ropa?",
+   "tr": "¡El cepillo de dientes!",
+   "td": "Hay que cepillarse los dientes por lo menos dos veces al día.",
+   "img_q": "toothbrush",
+   "img_modo": "pregunta"
+  },
+  {
+   "n": 69,
+   "tema": "cuerpo",
+   "p": "¿Qué parte del cerebro, con nombre de caballito de mar, ayuda a formar recuerdos?",
+   "o": [
+    "Cerebelo",
+    "Bulbo",
+    "Hipocampo",
+    "Corteza"
+   ],
+   "c": 2,
+   "d": "Hipocampo viene del griego y significa «caballito de mar».",
+   "tp": "¿Qué parte del cerebro, con nombre de caballito de mar, ayuda a formar recuerdos? ¿Cerebelo, Bulbo, Hipocampo o Corteza?",
+   "tr": "¡El hipocampo!",
+   "td": "Hipocampo viene del griego y significa «caballito de mar»."
+  },
+  {
+   "n": 70,
+   "tema": "cuerpo",
+   "p": "¿Cuál es el único hueso del cuerpo que no se une a otro hueso, en la garganta?",
+   "o": [
+    "Rótula",
+    "Esternón",
+    "Coxis",
+    "Hioides"
+   ],
+   "c": 3,
+   "d": "El hioides sostiene la lengua y flota entre músculos del cuello.",
+   "tp": "¿Cuál es el único hueso del cuerpo que no se une a otro hueso, en la garganta? ¿Rótula, Esternón, Coxis o Hioides?",
+   "tr": "¡El hioides!",
+   "td": "El hioides sostiene la lengua y flota entre músculos del cuello."
+  },
+  {
+   "n": 71,
+   "tema": "cuerpo",
+   "p": "¿Cuántos huesos tiene cada pie?",
+   "o": [
+    "10",
+    "18",
+    "26",
+    "40"
+   ],
+   "c": 2,
+   "d": "Entre los dos pies hay 52 huesos: ¡una cuarta parte de todos los del cuerpo!",
+   "tp": "¿Cuántos huesos tiene cada pie? ¿diez, dieciocho, veintiséis o cuarenta?",
+   "tr": "¡Veintiséis!",
+   "td": "Entre los dos pies hay cincuenta y dos huesos: ¡una cuarta parte de todos los del cuerpo!"
+  },
+  {
+   "n": 72,
+   "tema": "cuerpo",
+   "p": "¿Qué parte del intestino absorbe casi todos los nutrientes de la comida?",
+   "o": [
+    "Intestino delgado",
+    "Intestino grueso",
+    "Apéndice",
+    "Esófago"
+   ],
+   "c": 0,
+   "d": "Es el tramo más largo del sistema digestivo y está lleno de pliegues diminutos.",
+   "tp": "¿Qué parte del intestino absorbe casi todos los nutrientes de la comida? ¿Intestino delgado, Intestino grueso, Apéndice o Esófago?",
+   "tr": "¡El intestino delgado!",
+   "td": "Es el tramo más largo del sistema digestivo y está lleno de pliegues diminutos."
+  },
+  {
+   "n": 73,
+   "tema": "cuerpo",
+   "p": "¿Qué pequeña bolsa bajo el hígado guarda la bilis?",
+   "o": [
+    "Vejiga",
+    "Bazo",
+    "Útero",
+    "Vesícula"
+   ],
+   "c": 3,
+   "d": "La bilis ayuda a digerir las grasas y se guarda en la vesícula biliar.",
+   "tp": "¿Qué pequeña bolsa bajo el hígado guarda la bilis? ¿Vejiga, Bazo, Útero o Vesícula?",
+   "tr": "¡La vesícula!",
+   "td": "La bilis ayuda a digerir las grasas y se guarda en la vesícula biliar."
+  },
+  {
+   "n": 74,
+   "tema": "cuerpo",
+   "p": "¿Contra qué enfermedad creó Louis Pasteur una famosa vacuna en 1885?",
+   "o": [
+    "Rabia",
+    "Polio",
+    "Viruela",
+    "Malaria"
+   ],
+   "c": 0,
+   "d": "La vacuna de Pasteur contra la rabia salvó a un niño, Joseph Meister.",
+   "tp": "¿Contra qué enfermedad creó Louis Pasteur una famosa vacuna en mil ochocientos ochenta y cinco? ¿Rabia, Polio, Viruela o Malaria?",
+   "tr": "¡La rabia!",
+   "td": "La vacuna de Pasteur contra la rabia salvó a un niño llamado Joseph Meister."
+  },
+  {
+   "n": 75,
+   "tema": "cuerpo",
+   "p": "¿Qué médico inglés explicó en 1628 que la sangre circula por todo el cuerpo?",
+   "o": [
+    "Hipócrates",
+    "William Harvey",
+    "Galeno",
+    "Edward Jenner"
+   ],
+   "c": 1,
+   "d": "Antes de Harvey se creía que el hígado fabricaba la sangre y que se consumía.",
+   "tp": "¿Qué médico inglés explicó en mil seiscientos veintiocho que la sangre circula por todo el cuerpo? ¿Hipócrates, William Harvey, Galeno o Edward Jenner?",
+   "tr": "¡William Harvey!",
+   "td": "Antes de Harvey se creía que el hígado fabricaba la sangre y que se consumía."
+  },
+  {
+   "n": 76,
+   "tema": "arte",
+   "p": "¿Qué artista italiano dibujó el «Hombre de Vitruvio» y estudió el cuerpo humano?",
+   "o": [
+    "Miguel Ángel",
+    "Leonardo da Vinci",
+    "Rafael",
+    "Botticelli"
+   ],
+   "c": 1,
+   "d": "Leonardo disecó cuerpos para dibujar músculos y huesos con gran detalle.",
+   "tp": "¿Qué artista italiano dibujó el «Hombre de Vitruvio» y estudió el cuerpo humano? ¿Miguel Ángel, Leonardo da Vinci, Rafael o Botticelli?",
+   "tr": "¡Leonardo da Vinci!",
+   "td": "Leonardo disecó cuerpos para dibujar músculos y huesos con gran detalle."
+  },
+  {
+   "n": 77,
+   "tema": "cuerpo",
+   "p": "¿Qué dos científicos describieron la doble hélice del ADN en 1953?",
+   "o": [
+    "Curie y Pasteur",
+    "Mendel y Darwin",
+    "Watson y Crick",
+    "Fleming y Jenner"
+   ],
+   "c": 2,
+   "d": "El ADN tiene forma de escalera en espiral; ahí están las instrucciones del cuerpo.",
+   "tp": "¿Qué dos científicos describieron la doble hélice del ADN en mil novecientos cincuenta y tres? ¿Curie y Pasteur, Mendel y Darwin, Watson y Crick o Fleming y Jenner?",
+   "tr": "¡Watson y Crick!",
+   "td": "El ADN tiene forma de escalera en espiral; ahí están las instrucciones del cuerpo."
+  },
+  {
+   "n": 78,
+   "tema": "Latinoamérica",
+   "p": "¿Quién fue el primer latinoamericano en ganar un Nobel de ciencias, en Medicina en 1947?",
+   "o": [
+    "Luis Leloir",
+    "Alexander Fleming",
+    "Santiago Ramón y Cajal",
+    "Bernardo Houssay"
+   ],
+   "c": 3,
+   "d": "El argentino Bernardo Houssay estudió cómo las hormonas controlan el azúcar en la sangre.",
+   "tp": "¿Quién fue el primer latinoamericano en ganar un Nobel de ciencias, en Medicina en mil novecientos cuarenta y siete? ¿Luis Leloir, Alexander Fleming, Santiago Ramón y Cajal o Bernardo Houssay?",
+   "tr": "¡Bernardo Houssay, de Argentina!",
+   "td": "El argentino Bernardo Houssay estudió cómo las hormonas controlan el azúcar en la sangre."
+  },
+  {
+   "n": 79,
+   "tema": "Latinoamérica",
+   "p": "¿Qué cirujano argentino perfeccionó el bypass del corazón en Estados Unidos?",
+   "o": [
+    "René Favaloro",
+    "Bernardo Houssay",
+    "Carlos Finlay",
+    "Christiaan Barnard"
+   ],
+   "c": 0,
+   "d": "René Favaloro fue pionero del bypass coronario y luego volvió a trabajar a Argentina.",
+   "tp": "¿Qué cirujano argentino perfeccionó el bypass del corazón en Estados Unidos? ¿René Favaloro, Bernardo Houssay, Carlos Finlay o Christiaan Barnard?",
+   "tr": "¡René Favaloro, de Argentina!",
+   "td": "René Favaloro fue pionero del bypass coronario y luego volvió a trabajar a Argentina."
+  },
+  {
+   "n": 80,
+   "tema": "Perú",
+   "p": "¿Qué estudiante peruano de medicina se inoculó la verruga peruana en 1885?",
+   "o": [
+    "Hipólito Unanue",
+    "Daniel Alcides Carrión",
+    "Cayetano Heredia",
+    "Antonio Raimondi"
+   ],
+   "c": 1,
+   "d": "Su sacrificio probó que la verruga y la fiebre de la Oroya eran la misma enfermedad.",
+   "tp": "¿Qué estudiante peruano de medicina se inoculó la verruga peruana en mil ochocientos ochenta y cinco? ¿Hipólito Unanue, Daniel Alcides Carrión, Cayetano Heredia o Antonio Raimondi?",
+   "tr": "¡Daniel Alcides Carrión!",
+   "td": "Su sacrificio probó que la verruga y la fiebre de la Oroya eran la misma enfermedad."
+  },
+  {
+   "n": 81,
+   "tema": "cuerpo",
+   "ronda": "vf",
+   "p": "Tragar un chicle hace que tarde siete años en digerirse.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "El chicle no se digiere, pero sale del cuerpo en pocos días.",
+   "tp": "¿Verdadero o falso? Tragar un chicle hace que tarde siete años en digerirse.",
+   "tr": "¡Falso! Sale en pocos días.",
+   "td": "El chicle no se digiere, pero sale del cuerpo en pocos días."
+  },
+  {
+   "n": 82,
+   "tema": "cuerpo",
+   "ronda": "vf",
+   "p": "Si pones los ojos bizcos mucho rato, se quedan así para siempre.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Es un mito: los músculos de los ojos se relajan y vuelven a su lugar.",
+   "tp": "¿Verdadero o falso? Si pones los ojos bizcos mucho rato, se quedan así para siempre.",
+   "tr": "¡Falso! Es solo un mito.",
+   "td": "Es un mito: los músculos de los ojos se relajan y vuelven a su lugar."
+  },
+  {
+   "n": 83,
+   "tema": "cuerpo",
+   "ronda": "vf",
+   "p": "Los pulmones derecho e izquierdo no tienen el mismo tamaño.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "El pulmón izquierdo es más pequeño para dejar espacio al corazón.",
+   "tp": "¿Verdadero o falso? Los pulmones derecho e izquierdo no tienen el mismo tamaño.",
+   "tr": "¡Verdadero! El izquierdo es más pequeño.",
+   "td": "El pulmón izquierdo es más pequeño para dejar espacio al corazón."
+  },
+  {
+   "n": 84,
+   "tema": "animales",
+   "p": "¿Qué animal duerme con la mitad del cerebro despierto para seguir nadando?",
+   "o": [
+    "Perro",
+    "Gato",
+    "Delfín",
+    "Caballo"
+   ],
+   "c": 2,
+   "d": "Así el delfín puede salir a respirar y vigilar a los tiburones mientras descansa.",
+   "tp": "¿Qué animal duerme con la mitad del cerebro despierto para seguir nadando? ¿Perro, Gato, Delfín o Caballo?",
+   "tr": "¡El delfín!",
+   "td": "Así el delfín puede salir a respirar y vigilar a los tiburones mientras descansa.",
+   "o_fotos": [
+    {
+     "q": "dolphin",
+     "src": "px"
+    },
+    {
+     "q": "dog",
+     "src": "px"
+    },
+    {
+     "q": "cat",
+     "src": "px"
+    },
+    {
+     "q": "horse",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 85,
+   "tema": "animales",
+   "p": "¿Qué animal puede respirar en parte por su piel húmeda?",
+   "o": [
+    "Lagarto",
+    "Gato",
+    "Pájaro",
+    "Rana"
+   ],
+   "c": 3,
+   "d": "Las ranas absorben oxígeno por la piel, además de usar sus pulmones.",
+   "tp": "¿Qué animal puede respirar en parte por su piel húmeda? ¿Lagarto, Gato, Pájaro o Rana?",
+   "tr": "¡La rana!",
+   "td": "Las ranas absorben oxígeno por la piel, además de usar sus pulmones.",
+   "o_fotos": [
+    {
+     "q": "frog",
+     "src": "px"
+    },
+    {
+     "q": "lizard",
+     "src": "px"
+    },
+    {
+     "q": "cat",
+     "src": "px"
+    },
+    {
+     "q": "bird",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 86,
+   "tema": "espacio",
+   "p": "¿Qué les pasa a los astronautas cuando están un tiempo en el espacio?",
+   "o": [
+    "Crecen unos centímetros",
+    "Pierden el pelo",
+    "Cambian de color",
+    "Se encogen mucho"
+   ],
+   "c": 0,
+   "d": "Sin gravedad, la columna se estira y crecen unos 3 centímetros, pero luego vuelven a su altura.",
+   "tp": "¿Qué les pasa a los astronautas cuando están un tiempo en el espacio? ¿Crecen unos centímetros, Pierden el pelo, Cambian de color o Se encogen mucho?",
+   "tr": "¡Crecen unos centímetros!",
+   "td": "Sin gravedad, la columna se estira y crecen unos tres centímetros, pero luego vuelven a su altura."
+  },
+  {
+   "n": 87,
+   "tema": "cuerpo",
+   "p": "¿Qué órgano tiene forma de frijol y limpia la sangre?",
+   "o": [
+    "Riñón",
+    "Hígado",
+    "Estómago",
+    "Pulmón"
+   ],
+   "c": 0,
+   "d": "Tenemos dos riñones y filtran unos 180 litros de sangre al día.",
+   "tp": "¿Qué órgano tiene forma de frijol y limpia la sangre? ¿Riñón, Hígado, Estómago o Pulmón?",
+   "tr": "¡El riñón!",
+   "td": "Tenemos dos riñones y filtran unos ciento ochenta litros de sangre al día.",
+   "o_fotos": [
+    {
+     "q": "human kidney anatomy",
+     "src": "cm",
+     "must": "kidney"
+    },
+    {
+     "q": "human liver anatomy",
+     "src": "cm",
+     "must": "liver"
+    },
+    {
+     "q": "human stomach anatomy",
+     "src": "cm",
+     "must": "stomach"
+    },
+    {
+     "q": "human lungs anatomy",
+     "src": "cm",
+     "must": "lung"
+    }
+   ]
+  },
+  {
+   "n": 88,
+   "tema": "cuerpo",
+   "p": "¿Cuántos músculos tiene el cuerpo humano, más o menos?",
+   "o": [
+    "Unos 60",
+    "Unos 600",
+    "Unos 6.000",
+    "Unos 60.000"
+   ],
+   "c": 1,
+   "d": "Tenemos más de 600 músculos; los más pequeños están en el oído.",
+   "tp": "¿Cuántos músculos tiene el cuerpo humano, más o menos? ¿Unos sesenta, Unos seiscientos, Unos seis mil o Unos sesenta mil?",
+   "tr": "¡Unos seiscientos!",
+   "td": "Tenemos más de seiscientos músculos; los más pequeños están en el oído."
+  },
+  {
+   "n": 89,
+   "tema": "cuerpo",
+   "p": "¿Cómo se llama la capa externa de la piel, la que vemos?",
+   "o": [
+    "Dermis",
+    "Hipodermis",
+    "Epidermis",
+    "Cutícula"
+   ],
+   "c": 2,
+   "d": "La epidermis se renueva siempre: perdemos millones de células cada día.",
+   "tp": "¿Cómo se llama la capa externa de la piel, la que vemos? ¿Dermis, Hipodermis, Epidermis o Cutícula?",
+   "tr": "¡La epidermis!",
+   "td": "La epidermis se renueva siempre: perdemos millones de células cada día."
+  },
+  {
+   "n": 90,
+   "tema": "cuerpo",
+   "p": "¿Cómo se llama el hueso plano y triangular de la espalda, a cada lado?",
+   "o": [
+    "Esternón",
+    "Rótula",
+    "Mandíbula",
+    "Omóplato"
+   ],
+   "c": 3,
+   "d": "El omóplato permite mover el hombro en todas direcciones.",
+   "tp": "¿Cómo se llama el hueso plano y triangular de la espalda, a cada lado? ¿Esternón, Rótula, Mandíbula o Omóplato?",
+   "tr": "¡El omóplato!",
+   "td": "El omóplato permite mover el hombro en todas direcciones."
+  },
+  {
+   "n": 91,
+   "tema": "cuerpo",
+   "p": "¿Cuántos huesos tiene el cuello humano, las vértebras cervicales?",
+   "o": [
+    "Siete",
+    "Cinco",
+    "Nueve",
+    "Doce"
+   ],
+   "c": 0,
+   "d": "Hasta la jirafa tiene siete, ¡pero muchísimo más largas!",
+   "tp": "¿Cuántos huesos tiene el cuello humano, las vértebras cervicales? ¿Siete, Cinco, Nueve o Doce?",
+   "tr": "¡Siete!",
+   "td": "Hasta la jirafa tiene siete, ¡pero muchísimo más largas!"
+  },
+  {
+   "n": 92,
+   "tema": "cuerpo",
+   "p": "¿Qué examen registra la actividad eléctrica del corazón?",
+   "o": [
+    "Radiografía",
+    "Electrocardiograma",
+    "Audiometría",
+    "Espirometría"
+   ],
+   "c": 1,
+   "d": "En el electrocardiograma se pegan sensores en el pecho y se dibuja una línea con picos.",
+   "tp": "¿Qué examen registra la actividad eléctrica del corazón? ¿Radiografía, Electrocardiograma, Audiometría o Espirometría?",
+   "tr": "¡El electrocardiograma!",
+   "td": "En el electrocardiograma se pegan sensores en el pecho y se dibuja una línea con picos."
+  },
+  {
+   "n": 93,
+   "tema": "cuerpo",
+   "p": "¿Cuánto tarda, más o menos, en renovarse la capa externa de la piel?",
+   "o": [
+    "Un día",
+    "Una semana",
+    "Cerca de un mes",
+    "Diez años"
+   ],
+   "c": 2,
+   "d": "La piel renueva su capa externa más o menos cada cuatro semanas.",
+   "tp": "¿Cuánto tarda, más o menos, en renovarse la capa externa de la piel? ¿Un día, Una semana, Cerca de un mes o Diez años?",
+   "tr": "¡Cerca de un mes!",
+   "td": "La piel renueva su capa externa más o menos cada cuatro semanas."
+  },
+  {
+   "n": 94,
+   "tema": "cuerpo",
+   "p": "¿Qué enfermedad sufrían los marineros por falta de vitamina C?",
+   "o": [
+    "Sarampión",
+    "Gripe",
+    "Varicela",
+    "Escorbuto"
+   ],
+   "c": 3,
+   "d": "Los marineros se curaban con limones y naranjas.",
+   "tp": "¿Qué enfermedad sufrían los marineros por falta de vitamina C? ¿Sarampión, Gripe, Varicela o Escorbuto?",
+   "tr": "¡El escorbuto!",
+   "td": "Los marineros se curaban con limones y naranjas."
+  },
+  {
+   "n": 95,
+   "tema": "cuerpo",
+   "p": "¿Qué holandés fue de los primeros en ver bacterias con un microscopio, en 1676?",
+   "o": [
+    "Antonie van Leeuwenhoek",
+    "Louis Pasteur",
+    "Robert Koch",
+    "Isaac Newton"
+   ],
+   "c": 0,
+   "d": "Leeuwenhoek llamó «animalículos» a esos seres diminutos.",
+   "tp": "¿Qué holandés fue de los primeros en ver bacterias con un microscopio, en mil seiscientos setenta y seis? ¿Antonie van Leeuwenhoek, Louis Pasteur, Robert Koch o Isaac Newton?",
+   "tr": "¡Leeuwenhoek!",
+   "td": "Leeuwenhoek llamó «animalículos» a esos seres diminutos."
+  },
+  {
+   "n": 96,
+   "tema": "cuerpo",
+   "p": "¿Qué científica tomó la «Foto 51», clave para descubrir la forma del ADN?",
+   "o": [
+    "Marie Curie",
+    "Rosalind Franklin",
+    "Ada Lovelace",
+    "Florence Nightingale"
+   ],
+   "c": 1,
+   "d": "La foto mostraba la huella en X de la doble hélice del ADN.",
+   "tp": "¿Qué científica tomó la «Foto cincuenta y uno», clave para descubrir la forma del ADN? ¿Marie Curie, Rosalind Franklin, Ada Lovelace o Florence Nightingale?",
+   "tr": "¡Rosalind Franklin!",
+   "td": "La foto mostraba la huella en X de la doble hélice del ADN."
+  },
+  {
+   "n": 97,
+   "tema": "cuerpo",
+   "p": "¿Qué enfermedad contagiosa fue declarada erradicada del mundo en 1980?",
+   "o": [
+    "Sarampión",
+    "Polio",
+    "Viruela",
+    "Gripe"
+   ],
+   "c": 2,
+   "d": "Gracias a las vacunas, la viruela fue la primera enfermedad humana erradicada.",
+   "tp": "¿Qué enfermedad contagiosa fue declarada erradicada del mundo en mil novecientos ochenta? ¿Sarampión, Polio, Viruela o Gripe?",
+   "tr": "¡La viruela!",
+   "td": "Gracias a las vacunas, la viruela fue la primera enfermedad humana erradicada."
+  },
+  {
+   "n": 98,
+   "tema": "cuerpo",
+   "p": "¿Qué tendón une el músculo de la pantorrilla con el talón?",
+   "o": [
+    "Ligamento",
+    "Cartílago",
+    "Nervio",
+    "Tendón de Aquiles"
+   ],
+   "c": 3,
+   "d": "Su nombre viene del héroe griego Aquiles, vulnerable solo en el talón.",
+   "tp": "¿Qué tendón une el músculo de la pantorrilla con el talón? ¿Ligamento, Cartílago, Nervio o Tendón de Aquiles?",
+   "tr": "¡El tendón de Aquiles!",
+   "td": "Su nombre viene del héroe griego Aquiles, vulnerable solo en el talón."
+  },
+  {
+   "n": 99,
+   "tema": "cuerpo",
+   "p": "¿Cuál es el nervio más largo del cuerpo humano, que baja por la pierna?",
+   "o": [
+    "Ciático",
+    "Óptico",
+    "Vago",
+    "Radial"
+   ],
+   "c": 0,
+   "d": "El nervio ciático va desde la espalda baja hasta el pie.",
+   "tp": "¿Cuál es el nervio más largo del cuerpo humano, que baja por la pierna? ¿Ciático, Óptico, Vago o Radial?",
+   "tr": "¡El ciático!",
+   "td": "El nervio ciático va desde la espalda baja hasta el pie."
+  },
+  {
+   "n": 100,
+   "tema": "cuerpo",
+   "p": "¿Cuántos kilómetros de vasos sanguíneos tiene el cuerpo de un adulto, más o menos?",
+   "o": [
+    "Unos 100 km",
+    "Unos 1.000 km",
+    "Unos 100.000 km",
+    "Unos 10 millones de km"
+   ],
+   "c": 2,
+   "d": "¡Alcanzan para dar más de dos vueltas a la Tierra!",
+   "tp": "¿Cuántos kilómetros de vasos sanguíneos tiene el cuerpo de un adulto, más o menos? ¿Unos cien kilómetros, Unos mil kilómetros, Unos cien mil kilómetros o Unos diez millones de kilómetros?",
+   "tr": "¡Unos cien mil kilómetros!",
+   "td": "¡Alcanzan para dar más de dos vueltas a la Tierra!"
+  }
+ ],
+ "extra_tts": {
+  "an_tema": [
+   "anunciador",
+   "Hoy jugamos: ¡el cuerpo humano! Huesos, órganos y sentidos, para toda la familia."
+  ],
+  "pr_intro": [
+   "presentador",
+   "¡Hola, familia! Hoy exploramos el cuerpo humano con cien preguntas de huesos, órganos y sentidos. ¿Quién llegará a la última sin fallar?"
+  ],
+  "co_intro": [
+   "copresentadora",
+   "Corazón, cerebro y hasta un tendón con nombre de héroe griego. ¡MAX dice que él tiene el cuerpo más resistente, porque es de metal!"
+  ],
+  "co_fama": [
+   "copresentadora",
+   "¡Un aplauso para los mejores jugadores del episodio anterior! Sus nombres brillan en pantalla."
+  ],
+  "charla05_pr": [
+   "presentador",
+   "¡Bocas, dientes y estómagos! Mi cuerpo de robot solo tiene tuercas."
+  ],
+  "charla05_co": [
+   "copresentadora",
+   "Pero tienes mucho humor, MAX. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla10_pr": [
+   "presentador",
+   "¡Del codo al anular, pasando por el cuello! Mis articulaciones hacen clic."
+  ],
+  "charla10_co": [
+   "copresentadora",
+   "Ahora vienen tres fotos misteriosas, MAX. ¡Atentos, familia, que se aclaran con el reloj!"
+  ],
+  "charla15_pr": [
+   "presentador",
+   "¡Un esqueleto y un cerebro misterioso! Qué susto con tantos huesos."
+  ],
+  "charla15_co": [
+   "copresentadora",
+   "Y un vaso de leche para fortalecerlos, MAX. Familia, ¿cómo va su puntaje?"
+  ],
+  "charla20_pr": [
+   "presentador",
+   "¡Glóbulos blancos que defienden el cuerpo! Son como guardias en la puerta."
+  ],
+  "charla20_co": [
+   "copresentadora",
+   "Y tú sin sudar, MAX. Familia, ¡sigan sumando puntos!"
+  ],
+  "charla25_pr": [
+   "presentador",
+   "¡Dos afirmaciones y ya dudo hasta de mi corazón! Falta una más."
+  ],
+  "charla25_co": [
+   "copresentadora",
+   "Piénsalo bien, MAX. Familia, ¿verdadero o falso? ¡Atentos!"
+  ],
+  "charla30_pr": [
+   "presentador",
+   "¡Abdominales, mandíbula y una lengua toda de músculos! Yo solo tengo cables."
+  ],
+  "charla30_co": [
+   "copresentadora",
+   "Cables muy fuertes, MAX. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla35_pr": [
+   "presentador",
+   "¡Bíceps de campeón, zanahorias y huevos! Ya me siento un superhéroe."
+  ],
+  "charla35_co": [
+   "copresentadora",
+   "Con capa y todo, MAX. Familia, ¡sigan sumando puntos!"
+  ],
+  "charla40_pr": [
+   "presentador",
+   "¡Un camaleón con ojos a lo loco y un oso hormiguero con lengua larguísima!"
+  ],
+  "charla40_co": [
+   "copresentadora",
+   "Ahora viene la ronda relámpago, MAX: ¡cinco segundos por pregunta! ¡Atentos, familia!"
+  ],
+  "charla45_pr": [
+   "presentador",
+   "¡Cinco preguntas en un parpadeo! Mis ojos todavía giran como los del camaleón."
+  ],
+  "charla45_co": [
+   "copresentadora",
+   "Quien acertó todas merece un aplauso gigante. ¡Sigamos, familia!"
+  ],
+  "charla50_pr": [
+   "presentador",
+   "¡Cuánta adrenalina! Mi corazón de robot late a mil por hora."
+  ],
+  "charla50_co": [
+   "copresentadora",
+   "Ya vamos por la mitad, MAX. Familia, ¡revisen el ranking del celular!"
+  ],
+  "charla55_pr": [
+   "presentador",
+   "¡Un elefante que se refresca con las orejas! Yo me enfrío con un ventilador."
+  ],
+  "charla55_co": [
+   "copresentadora",
+   "Qué práctico, MAX. Familia, ¿cómo va su puntaje?"
+  ],
+  "charla60_pr": [
+   "presentador",
+   "¡El soroche de los Andes! Yo casi lo siento subiendo a la azotea."
+  ],
+  "charla60_co": [
+   "copresentadora",
+   "Respira hondo, MAX. Familia, ¡sigan sumando puntos!"
+  ],
+  "charla65_pr": [
+   "presentador",
+   "¡Un murciélago que ve con ecos! Yo solo veo con mis cámaras."
+  ],
+  "charla65_co": [
+   "copresentadora",
+   "Ahora vienen tres fotos misteriosas, MAX. ¡Atentos, familia, que se aclaran con el reloj!"
+  ],
+  "charla70_pr": [
+   "presentador",
+   "¡Un caballito de mar dentro del cerebro! Yo creía que vivía en el océano."
+  ],
+  "charla70_co": [
+   "copresentadora",
+   "Es solo el nombre, MAX. Quedan treinta, familia: ¡abran el ranking del celular!"
+  ],
+  "charla75_pr": [
+   "presentador",
+   "¡Pasteur, Harvey y la vesícula! Hoy el estudio parece un hospital."
+  ],
+  "charla75_co": [
+   "copresentadora",
+   "Pero sin batas, MAX. Familia, ¡sigan sumando puntos!"
+  ],
+  "charla80_pr": [
+   "presentador",
+   "¡Médicos de Argentina y del Perú que cambiaron la historia!"
+  ],
+  "charla80_co": [
+   "copresentadora",
+   "Ahora vienen tres afirmaciones, MAX: ¿verdadero o falso? ¡Atentos, familia!"
+  ],
+  "charla85_pr": [
+   "presentador",
+   "¡Un delfín que duerme con medio cerebro despierto! Yo duermo con los dos apagados."
+  ],
+  "charla85_co": [
+   "copresentadora",
+   "Se nota, MAX. Familia, ¿cómo va su puntaje?"
+  ],
+  "charla90_pr": [
+   "presentador",
+   "¡Astronautas que crecen en el espacio! Yo quiero crecer un poquito."
+  ],
+  "charla90_co": [
+   "copresentadora",
+   "Quedan diez, MAX. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla95_pr": [
+   "presentador",
+   "¡Marineros con escorbuto y un holandés con microscopio! Qué historias."
+  ],
+  "charla95_co": [
+   "copresentadora",
+   "Quedan cinco, MAX. Familia, ¡concentración total para el final!"
+  ],
+  "pr_cierre": [
+   "presentador",
+   "¡Llegamos al final del cuerpo humano, familia! Cuéntennos en los comentarios cuántas respondieron bien y cuál fue su puntaje. ¡Gracias por jugar!"
+  ]
+ },
+ "fotos_miniatura": [
+  [
+   36,
+   1
+  ],
+  [
+   34,
+   3
+  ],
+  [
+   38,
+   3
+  ],
+  [
+   53,
+   2
+  ]
+ ]
 }

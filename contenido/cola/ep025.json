@@ -1,0 +1,23 @@
+{
+ "id": "ep025",
+ "fecha": "2026-12-01",
+ "formato": "normal",
+ "estado": "en_proceso",
+ "codigo_sala": "MARES",
+ "titulo": "Océanos, mares y vida marina",
+ "titulo_youtube": "¿Cuánto sabes del MAR? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
+ "descripcion": "Cien preguntas sobre océanos, ballenas, corales, tiburones y los misterios del fondo del mar, para jugar en familia frente a la tele. Con imágenes misteriosas, verdadero o falso y una ronda relámpago. ¿Llegas a la 100? ¡Cuéntanos tu puntaje en los comentarios!",
+ "tags": [
+  "océanos",
+  "vida marina",
+  "animales del mar",
+  "trivia en familia",
+  "preguntas y respuestas",
+  "juego para la tele"
+ ],
+ "tema_miniatura": "OCÉANOS Y VIDA MARINA",
+ "reto_miniatura": "¿Llegas a la 100?",
+ "objetivo_preguntas": 100,
+ "total_anunciado": 100,
+ "extra_tts": {}
+}
