@@ -2,7 +2,7 @@
  "id": "ep025",
  "fecha": "2026-12-01",
  "formato": "normal",
- "estado": "en_proceso",
+ "estado": "listo",
  "codigo_sala": "MARES",
  "titulo": "Océanos, mares y vida marina",
  "titulo_youtube": "¿Cuánto sabes del MAR? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
@@ -19,5 +19,2346 @@
  "reto_miniatura": "¿Llegas a la 100?",
  "objetivo_preguntas": 100,
  "total_anunciado": 100,
- "extra_tts": {}
+ "extra_tts": {
+  "an_tema": [
+   "anunciador",
+   "Hoy jugamos: ¡océanos, mares y vida marina! Un viaje desde la orilla hasta el fondo del mar."
+  ],
+  "pr_intro": [
+   "presentador",
+   "¡Hola, familia! Hoy nos sumergimos en el mar con cien preguntas. ¿Quién llegará a la última sin hundirse?"
+  ],
+  "co_intro": [
+   "copresentadora",
+   "Hay ballenas, faros y hasta una luna con océano. ¡MAX ya se puso su traje de buzo, al revés!"
+  ],
+  "co_fama": [
+   "copresentadora",
+   "¡Un aplauso para los mejores jugadores del episodio anterior! Sus nombres brillan en pantalla."
+  ],
+  "charla05_pr": [
+   "presentador",
+   "¡Un tiburón, branquias y un cangrejo que camina de lado! Yo camino de lado cuando me falta aceite."
+  ],
+  "charla05_co": [
+   "copresentadora",
+   "Eso se arregla con una gota de aceite, MAX. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla10_pr": [
+   "presentador",
+   "¡Una medusa que es casi puro agua! Yo soy casi puro cable."
+  ],
+  "charla10_co": [
+   "copresentadora",
+   "Ahora vienen tres fotos misteriosas, MAX. ¡Atentos, familia, que se aclaran con el reloj!"
+  ],
+  "charla15_pr": [
+   "presentador",
+   "¡Un pez globo que se infla y una ostra con perla! Yo me inflo de orgullo con cada acierto."
+  ],
+  "charla15_co": [
+   "copresentadora",
+   "Cuidado no explotes, MAX. Familia, ¿cómo va su puntaje?"
+  ],
+  "charla20_pr": [
+   "presentador",
+   "¡El submarino amarillo de los Beatles! Yo quiero uno para mi casa."
+  ],
+  "charla20_co": [
+   "copresentadora",
+   "Primero uno sin óxido, MAX. Familia, ¡sigan sumando puntos!"
+  ],
+  "charla25_pr": [
+   "presentador",
+   "¡Dos afirmaciones y ya dudo! ¿Los tiburones con huesos? ¡Qué enredo!"
+  ],
+  "charla25_co": [
+   "copresentadora",
+   "Falta una más, MAX. Familia, ¿verdadero o falso? ¡Atentos!"
+  ],
+  "charla30_pr": [
+   "presentador",
+   "¡Ariel, Bob Esponja y Pinocho en la panza de una ballena! Qué fiesta bajo el mar."
+  ],
+  "charla30_co": [
+   "copresentadora",
+   "Mucho cine, MAX. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla35_pr": [
+   "presentador",
+   "¡Un calamar con ojos gigantes y el pututu de los Andes! Yo prefiero el pututu."
+  ],
+  "charla35_co": [
+   "copresentadora",
+   "Y yo prefiero que no te acerques al calamar, MAX. Familia, ¿cómo va su puntaje?"
+  ],
+  "charla40_pr": [
+   "presentador",
+   "¡Cousteau, las Maldivas y sushi! Me dieron ganas de bucear y de almorzar."
+  ],
+  "charla40_co": [
+   "copresentadora",
+   "Antes viene la ronda relámpago, MAX: ¡cinco segundos por pregunta! ¡Atentos, familia!"
+  ],
+  "charla45_pr": [
+   "presentador",
+   "¡Cinco preguntas en un parpadeo! Hasta mi circuito de buceo se mareó."
+  ],
+  "charla45_co": [
+   "copresentadora",
+   "Quien acertó todas merece un aplauso gigante. ¡Sigamos, familia!"
+  ],
+  "charla50_pr": [
+   "presentador",
+   "¡Un piquero de patas azules y un cachalote con cerebro enorme! Ya vamos por la mitad."
+  ],
+  "charla50_co": [
+   "copresentadora",
+   "Y sigues entero, MAX. Familia, ¡revisen el ranking del celular!"
+  ],
+  "charla55_pr": [
+   "presentador",
+   "¡Una marea roja y la Cartagena de las murallas! Qué mar tan colorido."
+  ],
+  "charla55_co": [
+   "copresentadora",
+   "Y con piratas, MAX. Familia, ¡sigan sumando puntos!"
+  ],
+  "charla60_pr": [
+   "presentador",
+   "¡Un iceberg esconde casi todo bajo el agua! Yo escondo mis cables bajo la tapa."
+  ],
+  "charla60_co": [
+   "copresentadora",
+   "Atento, MAX: ¡vienen tres fotos misteriosas! Familia, ¡adivinen antes de que se aclaren!"
+  ],
+  "charla65_pr": [
+   "presentador",
+   "¡Un pez león, un pez luna, un faro y una balsa que cruzó el Pacífico!"
+  ],
+  "charla65_co": [
+   "copresentadora",
+   "Salió del Callao, MAX. Familia, ¿cómo va su puntaje?"
+  ],
+  "charla70_pr": [
+   "presentador",
+   "¡Un lenguado con los dos ojos del mismo lado! Yo también miro a todos lados."
+  ],
+  "charla70_co": [
+   "copresentadora",
+   "Por eso te tropiezas, MAX. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla75_pr": [
+   "presentador",
+   "¡Una tortuga laúd de media tonelada y los caballitos de totora de Huanchaco!"
+  ],
+  "charla75_co": [
+   "copresentadora",
+   "Ahora vienen tres afirmaciones, MAX: ¿verdadero o falso? ¡Atentos, familia!"
+  ],
+  "charla80_pr": [
+   "presentador",
+   "¡Tres afirmaciones y el mar Rojo no es rojo! Qué engaño tan grande."
+  ],
+  "charla80_co": [
+   "copresentadora",
+   "Y el estrecho de Bering casi une dos continentes, MAX. Familia, ¡sigan sumando puntos!"
+  ],
+  "charla85_pr": [
+   "presentador",
+   "¡Atlas, las salinas de Maras y el caldillo de Neruda! Qué mezcla deliciosa."
+  ],
+  "charla85_co": [
+   "copresentadora",
+   "Mucha cultura, MAX. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla90_pr": [
+   "presentador",
+   "¡Una surfista campeona del mundo y ballenas que viajan desde Alaska!"
+  ],
+  "charla90_co": [
+   "copresentadora",
+   "Y una iguana que come algas bajo el mar, MAX. Familia, ¿cómo va su puntaje?"
+  ],
+  "charla95_pr": [
+   "presentador",
+   "¡Una luna de Júpiter con un océano bajo el hielo! Yo quiero ir a bucear ahí."
+  ],
+  "charla95_co": [
+   "copresentadora",
+   "Llévate un abrigo, MAX. Familia, ¡faltan solo cinco preguntas!"
+  ],
+  "pr_cierre": [
+   "presentador",
+   "¡Eso fue todo, familia! Cuéntennos en los comentarios cuántas respuestas acertaron y desafíen a toda la familia a superarlas."
+  ]
+ },
+ "preguntas": [
+  {
+   "n": 1,
+   "tema": "animales",
+   "p": "¿Qué animal marino tiene una aleta triangular en el lomo y dientes afilados?",
+   "o": [
+    "Medusa",
+    "Tiburón",
+    "Foca",
+    "Caballito de mar"
+   ],
+   "c": 1,
+   "d": "Hay más de 500 especies de tiburones y la mayoría no es peligrosa para las personas.",
+   "tp": "¿Qué animal marino tiene una aleta triangular en el lomo y dientes afilados? ¿Medusa, Tiburón, Foca o Caballito de mar?",
+   "tr": "¡Tiburón!",
+   "td": "Hay más de quinientos especies de tiburones y la mayoría no es peligrosa para las personas.",
+   "o_fotos": [
+    {
+     "q": "jellyfish",
+     "src": "px"
+    },
+    {
+     "q": "shark fin",
+     "src": "px"
+    },
+    {
+     "q": "seal",
+     "src": "px"
+    },
+    {
+     "q": "seahorse",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "tema": "animales",
+   "p": "¿Qué ave blanca vuela sobre las playas y roba papas fritas a los turistas?",
+   "o": [
+    "Gallina",
+    "Búho",
+    "Gaviota",
+    "Loro"
+   ],
+   "c": 2,
+   "d": "Las gaviotas pueden beber agua salada: tienen glándulas que sacan la sal de su cuerpo.",
+   "tp": "¿Qué ave blanca vuela sobre las playas y roba papas fritas a los turistas? ¿Gallina, Búho, Gaviota o Loro?",
+   "tr": "¡Gaviota!",
+   "td": "Las gaviotas pueden beber agua salada: tienen glándulas que sacan la sal de su cuerpo.",
+   "o_fotos": [
+    {
+     "q": "hen",
+     "src": "px"
+    },
+    {
+     "q": "owl",
+     "src": "px"
+    },
+    {
+     "q": "seagull",
+     "src": "px"
+    },
+    {
+     "q": "parrot",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "tema": "animales",
+   "p": "¿Con qué órganos respiran los peces bajo el agua?",
+   "o": [
+    "Branquias",
+    "Orejas",
+    "Aletas",
+    "Pulmones"
+   ],
+   "c": 0,
+   "d": "Las branquias sacan el oxígeno que está disuelto en el agua.",
+   "tp": "¿Con qué órganos respiran los peces bajo el agua? ¿Branquias, Orejas, Aletas o Pulmones?",
+   "tr": "¡Branquias!",
+   "td": "Las branquias sacan el oxígeno que está disuelto en el agua."
+  },
+  {
+   "n": 4,
+   "tema": "animales",
+   "p": "¿Qué animal marino tiene caparazón, pinzas y camina de lado?",
+   "o": [
+    "Medusa",
+    "Delfín",
+    "Pulpo",
+    "Cangrejo"
+   ],
+   "c": 3,
+   "d": "Los cangrejos caminan de lado porque sus patas se doblan hacia los costados.",
+   "tp": "¿Qué animal marino tiene caparazón, pinzas y camina de lado? ¿Medusa, Delfín, Pulpo o Cangrejo?",
+   "tr": "¡Cangrejo!",
+   "td": "Los cangrejos caminan de lado porque sus patas se doblan hacia los costados.",
+   "o_fotos": [
+    {
+     "q": "jellyfish",
+     "src": "px"
+    },
+    {
+     "q": "dolphin",
+     "src": "px"
+    },
+    {
+     "q": "octopus",
+     "src": "px"
+    },
+    {
+     "q": "crab",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "tema": "animales",
+   "p": "¿Cómo respiran las ballenas?",
+   "o": [
+    "Con pulmones",
+    "Por las aletas",
+    "Por la piel",
+    "Con branquias"
+   ],
+   "c": 0,
+   "d": "Las ballenas son mamíferos: salen a la superficie a tomar aire por un orificio en la cabeza.",
+   "tp": "¿Cómo respiran las ballenas? ¿Con pulmones, Por las aletas, Por la piel o Con branquias?",
+   "tr": "¡Con pulmones!",
+   "td": "Las ballenas son mamíferos: salen a la superficie a tomar aire por un orificio en la cabeza."
+  },
+  {
+   "n": 6,
+   "tema": "animales",
+   "p": "¿Qué animal marino redondo, cubierto de púas, vive entre las rocas?",
+   "o": [
+    "Anémona",
+    "Erizo de mar",
+    "Pepino de mar",
+    "Esponja"
+   ],
+   "c": 1,
+   "d": "Los erizos de mar usan sus púas para defenderse y mover su cuerpo por el fondo.",
+   "tp": "¿Qué animal marino redondo, cubierto de púas, vive entre las rocas? ¿Anémona, Erizo de mar, Pepino de mar o Esponja?",
+   "tr": "¡Erizo de mar!",
+   "td": "Los erizos de mar usan sus púas para defenderse y mover su cuerpo por el fondo.",
+   "o_fotos": [
+    {
+     "q": "sea anemone",
+     "src": "px"
+    },
+    {
+     "q": "sea urchin",
+     "src": "px"
+    },
+    {
+     "q": "sea cucumber",
+     "src": "px"
+    },
+    {
+     "q": "sea sponge",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "tema": "animales",
+   "p": "¿Qué animal transparente, con tentáculos, flota en el mar como una campana?",
+   "o": [
+    "Langosta",
+    "Raya",
+    "Foca",
+    "Medusa"
+   ],
+   "c": 3,
+   "d": "Las medusas están hechas de casi un 95 % de agua y no tienen cerebro ni corazón.",
+   "tp": "¿Qué animal transparente, con tentáculos, flota en el mar como una campana? ¿Langosta, Raya, Foca o Medusa?",
+   "tr": "¡Medusa!",
+   "td": "Las medusas están hechas de casi un noventa y cinco por ciento de agua y no tienen cerebro ni corazón.",
+   "o_fotos": [
+    {
+     "q": "lobster",
+     "src": "px"
+    },
+    {
+     "q": "stingray",
+     "src": "px"
+    },
+    {
+     "q": "seal",
+     "src": "px"
+    },
+    {
+     "q": "jellyfish",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "tema": "ciencia",
+   "p": "¿Qué lleva a la espalda un buceador para respirar bajo el agua?",
+   "o": [
+    "Linterna",
+    "Brújula",
+    "Tanque de aire",
+    "Paracaídas"
+   ],
+   "c": 2,
+   "d": "Con ese tanque, un buceador puede explorar el fondo del mar sin salir a respirar.",
+   "tp": "¿Qué lleva a la espalda un buceador para respirar bajo el agua? ¿Linterna, Brújula, Tanque de aire o Paracaídas?",
+   "tr": "¡Tanque de aire!",
+   "td": "Con ese tanque, un buceador puede explorar el fondo del mar sin salir a respirar.",
+   "o_fotos": [
+    {
+     "q": "flashlight",
+     "src": "px"
+    },
+    {
+     "q": "compass",
+     "src": "px"
+    },
+    {
+     "q": "scuba diving tank",
+     "src": "px"
+    },
+    {
+     "q": "parachute",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "tema": "animales",
+   "p": "¿Qué pez plano parece «volar» bajo el agua moviendo sus enormes aletas?",
+   "o": [
+    "Lenguado",
+    "Atún",
+    "Pez luna",
+    "Manta raya"
+   ],
+   "c": 3,
+   "d": "Algunas mantas gigantes miden más de 6 metros de punta a punta de aleta.",
+   "tp": "¿Qué pez plano parece «volar» bajo el agua moviendo sus enormes aletas? ¿Lenguado, Atún, Pez luna o Manta raya?",
+   "tr": "¡Manta raya!",
+   "td": "Algunas mantas gigantes miden más de seis metros de punta a punta de aleta.",
+   "o_fotos": [
+    {
+     "q": "flatfish flounder",
+     "src": "px"
+    },
+    {
+     "q": "tuna fish",
+     "src": "px"
+    },
+    {
+     "q": "sunfish mola mola",
+     "src": "cm"
+    },
+    {
+     "q": "manta ray",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "tema": "animales",
+   "p": "¿Qué animal marino pequeño y rosado se come en cocteles y en ceviches?",
+   "o": [
+    "Foca",
+    "Delfín",
+    "Camarón",
+    "Ballena"
+   ],
+   "c": 2,
+   "d": "Cuando se asustan, los camarones escapan dando un salto hacia atrás con la cola.",
+   "tp": "¿Qué animal marino pequeño y rosado se come en cocteles y en ceviches? ¿Foca, Delfín, Camarón o Ballena?",
+   "tr": "¡Camarón!",
+   "td": "Cuando se asustan, los camarones escapan dando un salto hacia atrás con la cola.",
+   "o_fotos": [
+    {
+     "q": "seal",
+     "src": "px"
+    },
+    {
+     "q": "dolphin",
+     "src": "px"
+    },
+    {
+     "q": "shrimp",
+     "src": "px"
+    },
+    {
+     "q": "whale",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "tema": "animales",
+   "ronda": "misteriosa",
+   "p": "¿Qué pez es este, que se infla como una pelota cuando se asusta?",
+   "o": [
+    "Pez luna",
+    "Pez globo",
+    "Pez sapo",
+    "Pez ángel"
+   ],
+   "c": 1,
+   "img_q": "pufferfish inflated",
+   "img_modo": "pregunta",
+   "d": "El pez globo se llena de agua para parecer más grande, y muchas especies son venenosas.",
+   "tp": "Miren bien la foto. ¿Qué pez es este, que se infla como una pelota cuando se asusta? ¿Pez luna, Pez globo, Pez sapo o Pez ángel?",
+   "tr": "¡Pez globo!",
+   "td": "El pez globo se llena de agua para parecer más grande, y muchas especies son venenosas."
+  },
+  {
+   "n": 12,
+   "tema": "animales",
+   "ronda": "misteriosa",
+   "p": "¿Qué pez es este, con un «pico» largo y puntiagudo como una espada?",
+   "o": [
+    "Pez espada",
+    "Mero",
+    "Atún",
+    "Barracuda"
+   ],
+   "c": 0,
+   "img_q": "swordfish",
+   "img_modo": "pregunta",
+   "d": "El pez espada es de los peces más veloces del mar y usa su «espada» para golpear a sus presas.",
+   "tp": "Miren bien la foto. ¿Qué pez es este, con un «pico» largo y puntiagudo como una espada? ¿Pez espada, Mero, Atún o Barracuda?",
+   "tr": "¡Pez espada!",
+   "td": "El pez espada es de los peces más veloces del mar y usa su «espada» para golpear a sus presas."
+  },
+  {
+   "n": 13,
+   "tema": "animales",
+   "ronda": "misteriosa",
+   "p": "¿Qué animal del Ártico es este, con dos grandes colmillos?",
+   "o": [
+    "León marino",
+    "Morsa",
+    "Elefante marino",
+    "Foca"
+   ],
+   "c": 1,
+   "img_q": "walrus tusks",
+   "img_modo": "pregunta",
+   "d": "Un macho adulto de morsa puede pesar más de una tonelada.",
+   "tp": "Miren bien la foto. ¿Qué animal del Ártico es este, con dos grandes colmillos? ¿León marino, Morsa, Elefante marino o Foca?",
+   "tr": "¡Morsa!",
+   "td": "Un macho adulto de morsa puede pesar más de una tonelada."
+  },
+  {
+   "n": 14,
+   "tema": "animales",
+   "p": "¿Qué molusco vive dentro de dos conchas y puede crear perlas?",
+   "o": [
+    "Ostra",
+    "Pulpo",
+    "Cangrejo",
+    "Medusa"
+   ],
+   "c": 0,
+   "d": "Una perla se forma cuando un granito entra en la ostra y ella lo cubre de nácar.",
+   "tp": "¿Qué molusco vive dentro de dos conchas y puede crear perlas? ¿Ostra, Pulpo, Cangrejo o Medusa?",
+   "tr": "¡Ostra!",
+   "td": "Una perla se forma cuando un granito entra en la ostra y ella lo cubre de nácar.",
+   "o_fotos": [
+    {
+     "q": "oyster pearl",
+     "src": "px"
+    },
+    {
+     "q": "octopus",
+     "src": "px"
+    },
+    {
+     "q": "crab",
+     "src": "px"
+    },
+    {
+     "q": "jellyfish",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "tema": "ciencia",
+   "p": "¿Qué queda en las salinas cuando el agua del mar se evapora?",
+   "o": [
+    "Cal",
+    "Arena",
+    "Azúcar",
+    "Sal"
+   ],
+   "c": 3,
+   "d": "La sal que usamos en la cocina se ha sacado del mar durante miles de años.",
+   "tp": "¿Qué queda en las salinas cuando el agua del mar se evapora? ¿Cal, Arena, Azúcar o Sal?",
+   "tr": "¡Sal!",
+   "td": "La sal que usamos en la cocina se ha sacado del mar durante miles de años.",
+   "o_fotos": [
+    {
+     "q": "lime",
+     "src": "px"
+    },
+    {
+     "q": "sand",
+     "src": "px"
+    },
+    {
+     "q": "sugar",
+     "src": "px"
+    },
+    {
+     "q": "sea salt",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "tema": "geografía",
+   "p": "¿Qué país europeo es famoso por ganarle tierra al mar con diques y pólderes?",
+   "o": [
+    "Dinamarca",
+    "Polonia",
+    "Países Bajos",
+    "Grecia"
+   ],
+   "c": 2,
+   "d": "Una cuarta parte del territorio de los Países Bajos está bajo el nivel del mar.",
+   "tp": "¿Qué país europeo es famoso por ganarle tierra al mar con diques y pólderes? ¿Dinamarca, Polonia, Países Bajos o Grecia?",
+   "tr": "¡Países Bajos!",
+   "td": "Una cuarta parte del territorio de los Países Bajos está bajo el nivel del mar.",
+   "o_fotos": [
+    {
+     "flag": "dk"
+    },
+    {
+     "flag": "pl"
+    },
+    {
+     "flag": "nl"
+    },
+    {
+     "flag": "gr"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "tema": "Perú",
+   "p": "¿Qué ciudad del norte del Perú es famosa por sus playas y sus olas para surfear?",
+   "o": [
+    "Puno",
+    "Máncora",
+    "Huaraz",
+    "Cusco"
+   ],
+   "c": 1,
+   "d": "En Máncora el mar es cálido casi todo el año, y por eso es un destino de playa muy querido.",
+   "tp": "¿Qué ciudad del norte del Perú es famosa por sus playas y sus olas para surfear? ¿Puno, Máncora, Huaraz o Cusco?",
+   "tr": "¡Máncora!",
+   "td": "En Máncora el mar es cálido casi todo el año, y por eso es un destino de playa muy querido."
+  },
+  {
+   "n": 18,
+   "tema": "geografía",
+   "p": "¿Qué parte de la superficie de la Tierra cubre el agua de los océanos?",
+   "o": [
+    "Cerca de 30 %",
+    "Cerca de 10 %",
+    "Cerca de 50 %",
+    "Cerca de 70 %"
+   ],
+   "c": 3,
+   "d": "Por eso la Tierra es llamada «el planeta azul».",
+   "tp": "¿Qué parte de la superficie de la Tierra cubre el agua de los océanos? ¿Cerca de treinta por ciento, Cerca de diez por ciento, Cerca de cincuenta por ciento o Cerca de setenta por ciento?",
+   "tr": "¡Cerca de setenta por ciento!",
+   "td": "Por eso la Tierra es llamada «el planeta azul»."
+  },
+  {
+   "n": 19,
+   "tema": "animales",
+   "p": "¿Qué gran pez plateado se vende en lata y se come en ensaladas y sándwiches?",
+   "o": [
+    "Trucha",
+    "Pez globo",
+    "Atún",
+    "Lenguado"
+   ],
+   "c": 2,
+   "d": "Los atunes nadan casi sin parar y pueden recorrer miles de kilómetros por el océano.",
+   "tp": "¿Qué gran pez plateado se vende en lata y se come en ensaladas y sándwiches? ¿Trucha, Pez globo, Atún o Lenguado?",
+   "tr": "¡Atún!",
+   "td": "Los atunes nadan casi sin parar y pueden recorrer miles de kilómetros por el océano.",
+   "o_fotos": [
+    {
+     "q": "rainbow trout",
+     "src": "px"
+    },
+    {
+     "q": "pufferfish",
+     "src": "px"
+    },
+    {
+     "q": "tuna fish",
+     "src": "px"
+    },
+    {
+     "q": "flatfish flounder",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "tema": "música",
+   "p": "¿De qué color es el submarino de una famosa canción de los Beatles?",
+   "o": [
+    "Amarillo",
+    "Verde",
+    "Azul",
+    "Rojo"
+   ],
+   "c": 0,
+   "d": "«Yellow Submarine» salió en 1966 y después tuvo su propia película animada.",
+   "tp": "¿De qué color es el submarino de una famosa canción de los Beatles? ¿Amarillo, Verde, Azul o Rojo?",
+   "tr": "¡Amarillo!",
+   "td": "«Yellow Submarine» salió en mil novecientos sesenta y seis y después tuvo su propia película animada."
+  },
+  {
+   "n": 21,
+   "tema": "historia",
+   "p": "¿Cómo se llama el dios griego de los mares, que lleva un tridente?",
+   "o": [
+    "Hades",
+    "Apolo",
+    "Zeus",
+    "Poseidón"
+   ],
+   "c": 3,
+   "d": "Para los romanos, el dios del mar era Neptuno.",
+   "tp": "¿Cómo se llama el dios griego de los mares, que lleva un tridente? ¿Hades, Apolo, Zeus o Poseidón?",
+   "tr": "¡Poseidón!",
+   "td": "Para los romanos, el dios del mar era Neptuno."
+  },
+  {
+   "n": 22,
+   "tema": "animales",
+   "p": "¿Qué tiburón tiene la cabeza plana y ancha, en forma de martillo?",
+   "o": [
+    "Tiburón martillo",
+    "Tiburón toro",
+    "Tiburón tigre",
+    "Tiburón blanco"
+   ],
+   "c": 0,
+   "d": "Su cabeza en forma de martillo le da una visión muy amplia del fondo.",
+   "tp": "¿Qué tiburón tiene la cabeza plana y ancha, en forma de martillo? ¿Tiburón martillo, Tiburón toro, Tiburón tigre o Tiburón blanco?",
+   "tr": "¡Tiburón martillo!",
+   "td": "Su cabeza en forma de martillo le da una visión muy amplia del fondo.",
+   "o_fotos": [
+    {
+     "q": "hammerhead shark",
+     "src": "cm"
+    },
+    {
+     "q": "bull shark",
+     "src": "cm"
+    },
+    {
+     "q": "tiger shark",
+     "src": "cm"
+    },
+    {
+     "q": "great white shark",
+     "src": "cm"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "tema": "ciencia",
+   "p": "¿Cómo se llama la capacidad de algunos animales del mar de producir luz propia?",
+   "o": [
+    "Camuflaje",
+    "Hibernación",
+    "Bioluminiscencia",
+    "Fotosíntesis"
+   ],
+   "c": 2,
+   "d": "En las profundidades, donde no llega el sol, muchos animales brillan para cazar o escapar.",
+   "tp": "¿Cómo se llama la capacidad de algunos animales del mar de producir luz propia? ¿Camuflaje, Hibernación, Bioluminiscencia o Fotosíntesis?",
+   "tr": "¡Bioluminiscencia!",
+   "td": "En las profundidades, donde no llega el sol, muchos animales brillan para cazar o escapar."
+  },
+  {
+   "n": 24,
+   "tema": "animales",
+   "ronda": "vf",
+   "p": "Los tiburones tienen un esqueleto de huesos, igual que otros peces.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "El esqueleto de los tiburones y las rayas es de cartílago, un material más ligero y flexible que el hueso.",
+   "tp": "¿Verdadero o falso? Los tiburones tienen un esqueleto de huesos, igual que otros peces.",
+   "tr": "¡Falso! Su esqueleto es de cartílago, como el de tu oreja.",
+   "td": "El esqueleto de los tiburones y las rayas es de cartílago, un material más ligero y flexible que el hueso."
+  },
+  {
+   "n": 25,
+   "tema": "animales",
+   "ronda": "vf",
+   "p": "Los cangrejos ermitaños viven dentro de conchas vacías de caracol.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Los cangrejos ermitaños usan conchas vacías de caracol como casa y cambian a una más grande cuando crecen.",
+   "tp": "¿Verdadero o falso? Los cangrejos ermitaños viven dentro de conchas vacías de caracol.",
+   "tr": "¡Verdadero! Cuando crecen, se mudan a una concha más grande.",
+   "td": "Los cangrejos ermitaños usan conchas vacías de caracol como casa y cambian a una más grande cuando crecen."
+  },
+  {
+   "n": 26,
+   "tema": "ciencia",
+   "ronda": "vf",
+   "p": "Las algas del mar producen gran parte del oxígeno que respiramos.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "El fitoplancton y las algas producen una parte enorme del oxígeno del planeta, quizá la mitad.",
+   "tp": "¿Verdadero o falso? Las algas del mar producen gran parte del oxígeno que respiramos.",
+   "tr": "¡Verdadero! El mar es un pulmón del planeta.",
+   "td": "El fitoplancton y las algas producen una parte enorme del oxígeno del planeta, quizá la mitad."
+  },
+  {
+   "n": 27,
+   "tema": "cine",
+   "p": "¿Qué personaje de Disney es una sirena de cabello rojo?",
+   "o": [
+    "Elsa",
+    "Rapunzel",
+    "Ariel",
+    "Bella"
+   ],
+   "c": 2,
+   "d": "«La sirenita» se estrenó en 1989 y se basa en un cuento de Hans Christian Andersen.",
+   "tp": "¿Qué personaje de Disney es una sirena de cabello rojo? ¿Elsa, Rapunzel, Ariel o Bella?",
+   "tr": "¡Ariel!",
+   "td": "«La sirenita» se estrenó en mil novecientos ochenta y nueve y se basa en un cuento de Hans Christian Andersen."
+  },
+  {
+   "n": 28,
+   "tema": "cine",
+   "p": "¿Qué esponja amarilla de caricatura vive en una piña bajo el mar?",
+   "o": [
+    "Patricio",
+    "Bob Esponja",
+    "Calamardo",
+    "Don Cangrejo"
+   ],
+   "c": 1,
+   "d": "Fondo de Bikini es la ciudad submarina donde vive Bob Esponja.",
+   "tp": "¿Qué esponja amarilla de caricatura vive en una piña bajo el mar? ¿Patricio, Bob Esponja, Calamardo o Don Cangrejo?",
+   "tr": "¡Bob Esponja!",
+   "td": "Fondo de Bikini es la ciudad submarina donde vive Bob Esponja."
+  },
+  {
+   "n": 29,
+   "tema": "cine",
+   "p": "¿En qué película de Disney un muñeco de madera es tragado por una gran ballena?",
+   "o": [
+    "Pinocho",
+    "Dumbo",
+    "Peter Pan",
+    "Bambi"
+   ],
+   "c": 0,
+   "d": "La ballena Monstruo es una de las villanas más famosas de Disney.",
+   "tp": "¿En qué película de Disney un muñeco de madera es tragado por una gran ballena? ¿Pinocho, Dumbo, Peter Pan o Bambi?",
+   "tr": "¡Pinocho!",
+   "td": "La ballena Monstruo es una de las villanas más famosas de Disney."
+  },
+  {
+   "n": 30,
+   "tema": "deportes",
+   "p": "¿Qué estilo de natación se nada boca arriba?",
+   "o": [
+    "Crol",
+    "Espalda",
+    "Pecho",
+    "Mariposa"
+   ],
+   "c": 1,
+   "d": "Es el único estilo olímpico que empieza con el nadador dentro del agua.",
+   "tp": "¿Qué estilo de natación se nada boca arriba? ¿Crol, Espalda, Pecho o Mariposa?",
+   "tr": "¡Espalda!",
+   "td": "Es el único estilo olímpico que empieza con el nadador dentro del agua."
+  },
+  {
+   "n": 31,
+   "tema": "historia",
+   "p": "¿Cómo se llamaba la nave más grande del primer viaje de Colón?",
+   "o": [
+    "La Victoria",
+    "La Niña",
+    "Santa María",
+    "La Pinta"
+   ],
+   "c": 2,
+   "d": "La Santa María era una nao; la Pinta y la Niña eran carabelas más pequeñas.",
+   "tp": "¿Cómo se llamaba la nave más grande del primer viaje de Colón? ¿La Victoria, La Niña, Santa María o La Pinta?",
+   "tr": "¡Santa María!",
+   "td": "La Santa María era una nao; la Pinta y la Niña eran carabelas más pequeñas."
+  },
+  {
+   "n": 32,
+   "tema": "ciencia",
+   "p": "¿Qué se pone un buceador en los pies para nadar más rápido?",
+   "o": [
+    "Zapatillas",
+    "Botas",
+    "Patines",
+    "Aletas"
+   ],
+   "c": 3,
+   "d": "Las aletas hacen que cada patada empuje más agua y avance más.",
+   "tp": "¿Qué se pone un buceador en los pies para nadar más rápido? ¿Zapatillas, Botas, Patines o Aletas?",
+   "tr": "¡Aletas!",
+   "td": "Las aletas hacen que cada patada empuje más agua y avance más.",
+   "o_fotos": [
+    {
+     "q": "sneakers",
+     "src": "px"
+    },
+    {
+     "q": "boots",
+     "src": "px"
+    },
+    {
+     "q": "roller skates",
+     "src": "px"
+    },
+    {
+     "q": "diving fins",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "tema": "ciencia",
+   "p": "¿Cómo se llama la gran ola que provoca un terremoto bajo el mar?",
+   "o": [
+    "Remolino",
+    "Tsunami",
+    "Marejada",
+    "Huracán"
+   ],
+   "c": 1,
+   "d": "Tsunami es una palabra japonesa que significa «ola de puerto».",
+   "tp": "¿Cómo se llama la gran ola que provoca un terremoto bajo el mar? ¿Remolino, Tsunami, Marejada o Huracán?",
+   "tr": "¡Tsunami!",
+   "td": "Tsunami es una palabra japonesa que significa «ola de puerto»."
+  },
+  {
+   "n": 34,
+   "tema": "animales",
+   "p": "¿Qué gran animal de tentáculos, de las profundidades, inspiró leyendas de monstruos?",
+   "o": [
+    "Pulpo común",
+    "Raya",
+    "Medusa",
+    "Calamar gigante"
+   ],
+   "c": 3,
+   "d": "Sus ojos, de más de 25 centímetros, son los más grandes del reino animal.",
+   "tp": "¿Qué gran animal de tentáculos, de las profundidades, inspiró leyendas de monstruos? ¿Pulpo común, Raya, Medusa o Calamar gigante?",
+   "tr": "¡Calamar gigante!",
+   "td": "Sus ojos, de más de veinticinco centímetros, son los más grandes del reino animal."
+  },
+  {
+   "n": 35,
+   "tema": "música",
+   "p": "¿Cómo se llama la trompeta andina hecha con una gran caracola marina?",
+   "o": [
+    "Zampoña",
+    "Charango",
+    "Pututu",
+    "Quena"
+   ],
+   "c": 2,
+   "d": "En los Andes, el pututu se tocaba para llamar a la gente a reunirse.",
+   "tp": "¿Cómo se llama la trompeta andina hecha con una gran caracola marina? ¿Zampoña, Charango, Pututu o Quena?",
+   "tr": "¡Pututu!",
+   "td": "En los Andes, el pututu se tocaba para llamar a la gente a reunirse.",
+   "o_fotos": [
+    {
+     "q": "panpipes zampona",
+     "src": "px"
+    },
+    {
+     "q": "charango",
+     "src": "px"
+    },
+    {
+     "q": "pututu conch trumpet",
+     "src": "px"
+    },
+    {
+     "q": "quena flute",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "tema": "ciencia",
+   "p": "¿Qué gran corriente cálida sale del Caribe y suaviza el clima del norte de Europa?",
+   "o": [
+    "Corriente del Golfo",
+    "Corriente de Benguela",
+    "Kuroshio",
+    "Corriente de Humboldt"
+   ],
+   "c": 0,
+   "d": "La Corriente del Golfo hace que en Europa occidental haga menos frío que en otros lugares a la misma latitud.",
+   "tp": "¿Qué gran corriente cálida sale del Caribe y suaviza el clima del norte de Europa? ¿Corriente del Golfo, Corriente de Benguela, Kuroshio o Corriente de Humboldt?",
+   "tr": "¡Corriente del Golfo!",
+   "td": "La Corriente del Golfo hace que en Europa occidental haga menos frío que en otros lugares a la misma latitud."
+  },
+  {
+   "n": 37,
+   "tema": "animales",
+   "p": "¿Qué hacen los delfines para dormir sin ahogarse?",
+   "o": [
+    "Duermen en el fondo",
+    "No duermen nunca",
+    "Duermen con medio cerebro",
+    "Duermen boca abajo"
+   ],
+   "c": 2,
+   "d": "Mientras un lado del cerebro descansa, el otro vigila para que el delfín siga subiendo a respirar.",
+   "tp": "¿Qué hacen los delfines para dormir sin ahogarse? ¿Duermen en el fondo, No duermen nunca, Duermen con medio cerebro o Duermen boca abajo?",
+   "tr": "¡Duermen con medio cerebro!",
+   "td": "Mientras un lado del cerebro descansa, el otro vigila para que el delfín siga subiendo a respirar."
+  },
+  {
+   "n": 38,
+   "tema": "geografía",
+   "p": "¿Qué país del océano Índico está formado por más de 1.000 islas de coral?",
+   "o": [
+    "Maldivas",
+    "Seychelles",
+    "Bahamas",
+    "Fiyi"
+   ],
+   "c": 0,
+   "d": "Las Maldivas son el país más bajo del mundo: casi todo está a pocos metros sobre el mar.",
+   "tp": "¿Qué país del océano Índico está formado por más de mil islas de coral? ¿Maldivas, Seychelles, Bahamas o Fiyi?",
+   "tr": "¡Maldivas!",
+   "td": "Las Maldivas son el país más bajo del mundo: casi todo está a pocos metros sobre el mar.",
+   "o_fotos": [
+    {
+     "flag": "mv"
+    },
+    {
+     "flag": "sc"
+    },
+    {
+     "flag": "bs"
+    },
+    {
+     "flag": "fj"
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "tema": "arte",
+   "p": "¿Qué pintor francés pintó «Impresión, sol naciente», un puerto al amanecer?",
+   "o": [
+    "Paul Cézanne",
+    "Claude Monet",
+    "Edgar Degas",
+    "Pierre-Auguste Renoir"
+   ],
+   "c": 1,
+   "d": "De esta obra viene el nombre del impresionismo.",
+   "tp": "¿Qué pintor francés pintó «Impresión, sol naciente», un puerto al amanecer? ¿Paul Cézanne, Claude Monet, Edgar Degas o Pierre-Auguste Renoir?",
+   "tr": "¡Claude Monet!",
+   "td": "De esta obra viene el nombre del impresionismo."
+  },
+  {
+   "n": 40,
+   "tema": "comida",
+   "p": "¿Qué plato japonés lleva arroz con vinagre y suele llevar pescado crudo?",
+   "o": [
+    "Takoyaki",
+    "Tempura",
+    "Ramen",
+    "Sushi"
+   ],
+   "c": 3,
+   "d": "La palabra sushi se refiere al arroz sazonado, no al pescado.",
+   "tp": "¿Qué plato japonés lleva arroz con vinagre y suele llevar pescado crudo? ¿Takoyaki, Tempura, Ramen o Sushi?",
+   "tr": "¡Sushi!",
+   "td": "La palabra sushi se refiere al arroz sazonado, no al pescado.",
+   "o_fotos": [
+    {
+     "q": "takoyaki",
+     "src": "px"
+    },
+    {
+     "q": "tempura",
+     "src": "px"
+    },
+    {
+     "q": "ramen",
+     "src": "px"
+    },
+    {
+     "q": "sushi",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "tema": "animales",
+   "ronda": "relampago",
+   "p": "¿Cuál es un mamífero marino?",
+   "o": [
+    "Foca",
+    "Cangrejo",
+    "Atún",
+    "Pulpo"
+   ],
+   "c": 0,
+   "d": "Las focas respiran aire, tienen pelo y alimentan a sus crías con leche.",
+   "tp": "¿Cuál es un mamífero marino? ¿Foca, Cangrejo, Atún o Pulpo?",
+   "tr": "¡Foca!",
+   "td": "Las focas respiran aire, tienen pelo y alimentan a sus crías con leche."
+  },
+  {
+   "n": 42,
+   "tema": "geografía",
+   "ronda": "relampago",
+   "p": "¿Cómo se llama el movimiento del agua que llega a la playa?",
+   "o": [
+    "Truenos",
+    "Rayos",
+    "Nubes",
+    "Olas"
+   ],
+   "c": 3,
+   "d": "Las olas nacen sobre todo por el viento.",
+   "tp": "¿Cómo se llama el movimiento del agua que llega a la playa? ¿Truenos, Rayos, Nubes o Olas?",
+   "tr": "¡Olas!",
+   "td": "Las olas nacen sobre todo por el viento."
+  },
+  {
+   "n": 43,
+   "tema": "animales",
+   "ronda": "relampago",
+   "p": "¿Cuál NO vive en el mar?",
+   "o": [
+    "Delfín",
+    "Pulpo",
+    "Vaca",
+    "Tiburón"
+   ],
+   "c": 2,
+   "d": "Las vacas viven en tierra firme.",
+   "tp": "¿Cuál NO vive en el mar? ¿Delfín, Pulpo, Vaca o Tiburón?",
+   "tr": "¡La vaca!",
+   "td": "Las vacas viven en tierra firme."
+  },
+  {
+   "n": 44,
+   "tema": "geografía",
+   "ronda": "relampago",
+   "p": "¿Qué mar baña Cancún?",
+   "o": [
+    "Muerto",
+    "Caribe",
+    "Negro",
+    "Rojo"
+   ],
+   "c": 1,
+   "d": "Cancún está en la costa del mar Caribe.",
+   "tp": "¿Qué mar baña Cancún? ¿Muerto, Caribe, Negro o Rojo?",
+   "tr": "¡El Caribe!",
+   "td": "Cancún está en la costa del mar Caribe."
+  },
+  {
+   "n": 45,
+   "tema": "ciencia",
+   "ronda": "relampago",
+   "p": "¿Qué usa un buzo en la cara?",
+   "o": [
+    "Bufanda",
+    "Zapato",
+    "Máscara",
+    "Corbata"
+   ],
+   "c": 2,
+   "d": "La máscara le deja ver con claridad bajo el agua.",
+   "tp": "¿Qué usa un buzo en la cara? ¿Bufanda, Zapato, Máscara o Corbata?",
+   "tr": "¡Máscara!",
+   "td": "La máscara le deja ver con claridad bajo el agua."
+  },
+  {
+   "n": 46,
+   "tema": "ciencia",
+   "p": "¿Cómo se llama la parte más alta de una ola?",
+   "o": [
+    "Raíz",
+    "Cresta",
+    "Valle",
+    "Ceja"
+   ],
+   "c": 1,
+   "d": "La distancia entre dos crestas se llama longitud de onda.",
+   "tp": "¿Cómo se llama la parte más alta de una ola? ¿Raíz, Cresta, Valle o Ceja?",
+   "tr": "¡Cresta!",
+   "td": "La distancia entre dos crestas se llama longitud de onda."
+  },
+  {
+   "n": 47,
+   "tema": "geografía",
+   "p": "¿En qué país está el balneario de Punta del Este, famoso por su escultura «La Mano»?",
+   "o": [
+    "Chile",
+    "Argentina",
+    "Brasil",
+    "Uruguay"
+   ],
+   "c": 3,
+   "d": "La Mano, de cinco dedos gigantes, sale de la arena de la playa Brava.",
+   "tp": "¿En qué país está el balneario de Punta del Este, famoso por su escultura «La Mano»? ¿Chile, Argentina, Brasil o Uruguay?",
+   "tr": "¡Uruguay!",
+   "td": "La Mano, de cinco dedos gigantes, sale de la arena de la playa Brava.",
+   "o_fotos": [
+    {
+     "flag": "cl"
+    },
+    {
+     "flag": "ar"
+    },
+    {
+     "flag": "br"
+    },
+    {
+     "flag": "uy"
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "tema": "Perú",
+   "p": "¿Cuál es el principal puerto del Perú, junto a Lima?",
+   "o": [
+    "Callao",
+    "Paita",
+    "Ilo",
+    "Matarani"
+   ],
+   "c": 0,
+   "d": "Por el puerto del Callao pasa la mayor parte del comercio marítimo del país.",
+   "tp": "¿Cuál es el principal puerto del Perú, junto a Lima? ¿Callao, Paita, Ilo o Matarani?",
+   "tr": "¡Callao!",
+   "td": "Por el puerto del Callao pasa la mayor parte del comercio marítimo del país."
+  },
+  {
+   "n": 49,
+   "tema": "animales",
+   "p": "¿Qué ave de las islas Galápagos es famosa por sus patas azules?",
+   "o": [
+    "Flamenco",
+    "Piquero de patas azules",
+    "Gaviota",
+    "Cormorán"
+   ],
+   "c": 1,
+   "d": "Los machos bailan levantando sus patas azules para conquistar a las hembras.",
+   "tp": "¿Qué ave de las islas Galápagos es famosa por sus patas azules? ¿Flamenco, Piquero de patas azules, Gaviota o Cormorán?",
+   "tr": "¡Piquero de patas azules!",
+   "td": "Los machos bailan levantando sus patas azules para conquistar a las hembras.",
+   "o_fotos": [
+    {
+     "q": "flamingo",
+     "src": "px"
+    },
+    {
+     "q": "blue-footed booby",
+     "src": "cm"
+    },
+    {
+     "q": "seagull",
+     "src": "px"
+    },
+    {
+     "q": "cormorant",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "tema": "animales",
+   "p": "¿Qué gran ballena dentada se alimenta de calamares en las profundidades?",
+   "o": [
+    "Ballena azul",
+    "Ballena jorobada",
+    "Ballena franca",
+    "Cachalote"
+   ],
+   "c": 3,
+   "d": "El cachalote tiene el cerebro más grande de todos los animales.",
+   "tp": "¿Qué gran ballena dentada se alimenta de calamares en las profundidades? ¿Ballena azul, Ballena jorobada, Ballena franca o Cachalote?",
+   "tr": "¡Cachalote!",
+   "td": "El cachalote tiene el cerebro más grande de todos los animales."
+  },
+  {
+   "n": 51,
+   "tema": "geografía",
+   "p": "¿En qué océano está el llamado «Triángulo de las Bermudas»?",
+   "o": [
+    "Índico",
+    "Ártico",
+    "Atlántico",
+    "Pacífico"
+   ],
+   "c": 2,
+   "d": "Los científicos dicen que allí no ocurren más accidentes que en otros mares muy transitados.",
+   "tp": "¿En qué océano está el llamado «Triángulo de las Bermudas»? ¿Índico, Ártico, Atlántico o Pacífico?",
+   "tr": "¡Atlántico!",
+   "td": "Los científicos dicen que allí no ocurren más accidentes que en otros mares muy transitados."
+  },
+  {
+   "n": 52,
+   "tema": "ciencia",
+   "p": "¿Qué gas disuelto en el agua necesitan los peces para vivir?",
+   "o": [
+    "Oxígeno",
+    "Hidrógeno",
+    "Neón",
+    "Helio"
+   ],
+   "c": 0,
+   "d": "Cuando el agua se calienta, tiene menos oxígeno disuelto.",
+   "tp": "¿Qué gas disuelto en el agua necesitan los peces para vivir? ¿Oxígeno, Hidrógeno, Neón o Helio?",
+   "tr": "¡Oxígeno!",
+   "td": "Cuando el agua se calienta, tiene menos oxígeno disuelto."
+  },
+  {
+   "n": 53,
+   "tema": "ciencia",
+   "p": "¿Cómo se llama el fenómeno en que algunas algas enrojecen el agua del mar?",
+   "o": [
+    "Marea alta",
+    "Marea roja",
+    "Marea negra",
+    "Marea baja"
+   ],
+   "c": 1,
+   "d": "Algunas mareas rojas producen toxinas que dañan a los peces y a los mariscos.",
+   "tp": "¿Cómo se llama el fenómeno en que algunas algas enrojecen el agua del mar? ¿Marea alta, Marea roja, Marea negra o Marea baja?",
+   "tr": "¡Marea roja!",
+   "td": "Algunas mareas rojas producen toxinas que dañan a los peces y a los mariscos."
+  },
+  {
+   "n": 54,
+   "tema": "geografía",
+   "p": "¿En qué país está Valparaíso, un puerto de cerros coloridos y casas de colores?",
+   "o": [
+    "Colombia",
+    "Uruguay",
+    "Ecuador",
+    "Chile"
+   ],
+   "c": 3,
+   "d": "El centro histórico de Valparaíso es Patrimonio de la Humanidad desde 2003.",
+   "tp": "¿En qué país está Valparaíso, un puerto de cerros coloridos y casas de colores? ¿Colombia, Uruguay, Ecuador o Chile?",
+   "tr": "¡Chile!",
+   "td": "El centro histórico de Valparaíso es Patrimonio de la Humanidad desde dos mil tres",
+   "o_fotos": [
+    {
+     "flag": "co"
+    },
+    {
+     "flag": "uy"
+    },
+    {
+     "flag": "ec"
+    },
+    {
+     "flag": "cl"
+    }
+   ]
+  },
+  {
+   "n": 55,
+   "tema": "geografía",
+   "p": "¿Qué ciudad colombiana amurallada, junto al mar Caribe, es Patrimonio de la Humanidad?",
+   "o": [
+    "Medellín",
+    "Cali",
+    "Cartagena de Indias",
+    "Bogotá"
+   ],
+   "c": 2,
+   "d": "Sus murallas protegieron la ciudad de los ataques de los piratas.",
+   "tp": "¿Qué ciudad colombiana amurallada, junto al mar Caribe, es Patrimonio de la Humanidad? ¿Medellín, Cali, Cartagena de Indias o Bogotá?",
+   "tr": "¡Cartagena de Indias!",
+   "td": "Sus murallas protegieron la ciudad de los ataques de los piratas."
+  },
+  {
+   "n": 56,
+   "tema": "animales",
+   "p": "¿Qué pez de aguas profundas usa una luz en la cabeza como señuelo?",
+   "o": [
+    "Pez pescador",
+    "Pez cirujano",
+    "Pez león",
+    "Pez luna"
+   ],
+   "c": 0,
+   "d": "La luz del señuelo la producen bacterias que viven dentro de él.",
+   "tp": "¿Qué pez de aguas profundas usa una luz en la cabeza como señuelo? ¿Pez pescador, Pez cirujano, Pez león o Pez luna?",
+   "tr": "¡Pez pescador!",
+   "td": "La luz del señuelo la producen bacterias que viven dentro de él.",
+   "o_fotos": [
+    {
+     "q": "anglerfish",
+     "src": "cm"
+    },
+    {
+     "q": "surgeonfish",
+     "src": "px"
+    },
+    {
+     "q": "lionfish",
+     "src": "px"
+    },
+    {
+     "q": "sunfish mola mola",
+     "src": "cm"
+    }
+   ]
+  },
+  {
+   "n": 57,
+   "tema": "ciencia",
+   "p": "¿Qué produce la mayoría de las olas del mar?",
+   "o": [
+    "La sal",
+    "El viento",
+    "Las nubes",
+    "Los peces"
+   ],
+   "c": 1,
+   "d": "Mientras más fuerte y largo sopla el viento, más grandes son las olas.",
+   "tp": "¿Qué produce la mayoría de las olas del mar? ¿La sal, El viento, Las nubes o Los peces?",
+   "tr": "¡El viento!",
+   "td": "Mientras más fuerte y largo sopla el viento, más grandes son las olas."
+  },
+  {
+   "n": 58,
+   "tema": "animales",
+   "p": "¿Qué tipo de ser vivo es una esponja de mar?",
+   "o": [
+    "Una planta",
+    "Una roca",
+    "Un alga",
+    "Un animal"
+   ],
+   "c": 3,
+   "d": "Las esponjas son animales sin cerebro ni órganos, que filtran el agua para comer.",
+   "tp": "¿Qué tipo de ser vivo es una esponja de mar? ¿Una planta, Una roca, Un alga o Un animal?",
+   "tr": "¡Un animal!",
+   "td": "Las esponjas son animales sin cerebro ni órganos, que filtran el agua para comer."
+  },
+  {
+   "n": 59,
+   "tema": "geografía",
+   "p": "¿En qué ciudad está la playa de Copacabana?",
+   "o": [
+    "Salvador",
+    "São Paulo",
+    "Río de Janeiro",
+    "Brasilia"
+   ],
+   "c": 2,
+   "d": "En Copacabana se celebra una de las fiestas de Año Nuevo más grandes del mundo.",
+   "tp": "¿En qué ciudad está la playa de Copacabana? ¿Salvador, São Paulo, Río de Janeiro o Brasilia?",
+   "tr": "¡Río de Janeiro!",
+   "td": "En Copacabana se celebra una de las fiestas de Año Nuevo más grandes del mundo."
+  },
+  {
+   "n": 60,
+   "tema": "ciencia",
+   "p": "¿Cómo se llama un enorme bloque de hielo que flota en el mar?",
+   "o": [
+    "Iceberg",
+    "Granizo",
+    "Escarcha",
+    "Estalactita"
+   ],
+   "c": 0,
+   "d": "Solo asoma sobre el agua cerca de una décima parte de su volumen.",
+   "tp": "¿Cómo se llama un enorme bloque de hielo que flota en el mar? ¿Iceberg, Granizo, Escarcha o Estalactita?",
+   "tr": "¡Iceberg!",
+   "td": "Solo asoma sobre el agua cerca de una décima parte de su volumen.",
+   "o_fotos": [
+    {
+     "q": "iceberg",
+     "src": "px"
+    },
+    {
+     "q": "hailstones",
+     "src": "px"
+    },
+    {
+     "q": "frost on leaf",
+     "src": "px"
+    },
+    {
+     "q": "stalactite cave",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 61,
+   "tema": "animales",
+   "ronda": "misteriosa",
+   "p": "¿Qué pez de rayas y espinas venenosas es este?",
+   "o": [
+    "Pez ángel",
+    "Pez león",
+    "Pez payaso",
+    "Pez mariposa"
+   ],
+   "c": 1,
+   "img_q": "lionfish",
+   "img_modo": "pregunta",
+   "d": "El pez león vive en arrecifes y sus espinas protegen su cuerpo.",
+   "tp": "Miren bien la foto. ¿Qué pez de rayas y espinas venenosas es este? ¿Pez ángel, Pez león, Pez payaso o Pez mariposa?",
+   "tr": "¡Pez león!",
+   "td": "El pez león vive en arrecifes y sus espinas protegen su cuerpo."
+  },
+  {
+   "n": 62,
+   "tema": "animales",
+   "ronda": "misteriosa",
+   "p": "¿Qué pez es este, de cuerpo redondo y plano, que parece una cabeza nadando?",
+   "o": [
+    "Pez luna",
+    "Pez espada",
+    "Pez globo",
+    "Pez ángel"
+   ],
+   "c": 0,
+   "img_q": "Mola mola sunfish",
+   "img_modo": "pregunta",
+   "d": "El pez luna pone cientos de millones de huevos de una sola vez.",
+   "tp": "Miren bien la foto. ¿Qué pez es este, de cuerpo redondo y plano, que parece una cabeza nadando? ¿Pez luna, Pez espada, Pez globo o Pez ángel?",
+   "tr": "¡Pez luna!",
+   "td": "El pez luna pone cientos de millones de huevos de una sola vez."
+  },
+  {
+   "n": 63,
+   "tema": "ciencia",
+   "ronda": "misteriosa",
+   "p": "¿Qué torre junto al mar guía a los barcos con su luz?",
+   "o": [
+    "Chimenea",
+    "Torre de agua",
+    "Faro",
+    "Campanario"
+   ],
+   "c": 2,
+   "img_q": "lighthouse",
+   "img_modo": "pregunta",
+   "d": "Los faros llevan miles de años ayudando a que los barcos no choquen contra las rocas.",
+   "tp": "Miren bien la foto. ¿Qué torre junto al mar guía a los barcos con su luz? ¿Chimenea, Torre de agua, Faro o Campanario?",
+   "tr": "¡Faro!",
+   "td": "Los faros llevan miles de años ayudando a que los barcos no choquen contra las rocas."
+  },
+  {
+   "n": 64,
+   "tema": "historia",
+   "p": "¿Qué capitán inglés exploró el Pacífico en el siglo XVIII y llegó a las islas Hawái?",
+   "o": [
+    "Horatio Nelson",
+    "Francis Drake",
+    "Walter Raleigh",
+    "James Cook"
+   ],
+   "c": 3,
+   "d": "Cook fue el primer europeo en llegar a las islas Hawái, en 1778.",
+   "tp": "¿Qué capitán inglés exploró el Pacífico en el siglo XVIII y llegó a las islas Hawái? ¿Horatio Nelson, Francis Drake, Walter Raleigh o James Cook?",
+   "tr": "¡James Cook!",
+   "td": "Cook fue el primer europeo en llegar a las islas Hawái, en mil setecientos setenta y ocho"
+  },
+  {
+   "n": 65,
+   "tema": "arte",
+   "p": "¿Quién escribió la novela «El viejo y el mar»?",
+   "o": [
+    "Ernest Hemingway",
+    "Gabriel García Márquez",
+    "Pablo Neruda",
+    "Jorge Luis Borges"
+   ],
+   "c": 0,
+   "d": "Hemingway ganó el premio Pulitzer con esta novela en 1953.",
+   "tp": "¿Quién escribió la novela «El viejo y el mar»? ¿Ernest Hemingway, Gabriel García Márquez, Pablo Neruda o Jorge Luis Borges?",
+   "tr": "¡Ernest Hemingway!",
+   "td": "Hemingway ganó el premio Pulitzer con esta novela en mil novecientos cincuenta y tres"
+  },
+  {
+   "n": 66,
+   "tema": "arte",
+   "p": "¿Qué pintor español es famoso por sus cuadros de playas llenas de luz?",
+   "o": [
+    "Francisco Goya",
+    "Salvador Dalí",
+    "Joaquín Sorolla",
+    "Diego Velázquez"
+   ],
+   "c": 2,
+   "d": "A Sorolla lo llaman «el pintor de la luz».",
+   "tp": "¿Qué pintor español es famoso por sus cuadros de playas llenas de luz? ¿Francisco Goya, Salvador Dalí, Joaquín Sorolla o Diego Velázquez?",
+   "tr": "¡Joaquín Sorolla!",
+   "td": "A Sorolla lo llaman «el pintor de la luz»."
+  },
+  {
+   "n": 67,
+   "tema": "animales",
+   "p": "¿Qué pez plano tiene los dos ojos del mismo lado de la cabeza?",
+   "o": [
+    "Atún",
+    "Lenguado",
+    "Sardina",
+    "Trucha"
+   ],
+   "c": 1,
+   "d": "Nace con un ojo a cada lado, pero uno viaja al otro lado cuando crece.",
+   "tp": "¿Qué pez plano tiene los dos ojos del mismo lado de la cabeza? ¿Atún, Lenguado, Sardina o Trucha?",
+   "tr": "¡Lenguado!",
+   "td": "Nace con un ojo a cada lado, pero uno viaja al otro lado cuando crece.",
+   "o_fotos": [
+    {
+     "q": "tuna fish",
+     "src": "px"
+    },
+    {
+     "q": "flatfish flounder",
+     "src": "px"
+    },
+    {
+     "q": "sardines fish",
+     "src": "px"
+    },
+    {
+     "q": "rainbow trout",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 68,
+   "tema": "animales",
+   "p": "¿Cómo se llaman las láminas con que algunas ballenas filtran su alimento?",
+   "o": [
+    "Dientes",
+    "Colmillos",
+    "Aletas",
+    "Barbas"
+   ],
+   "c": 3,
+   "d": "Las ballenas con barbas filtran el agua para atrapar krill y peces pequeños.",
+   "tp": "¿Cómo se llaman las láminas con que algunas ballenas filtran su alimento? ¿Dientes, Colmillos, Aletas o Barbas?",
+   "tr": "¡Barbas!",
+   "td": "Las ballenas con barbas filtran el agua para atrapar krill y peces pequeños."
+  },
+  {
+   "n": 69,
+   "tema": "Perú",
+   "p": "¿Qué enorme geoglifo, visible desde el mar, hay en la bahía de Paracas?",
+   "o": [
+    "La Araña",
+    "El Mono",
+    "El Candelabro",
+    "El Colibrí"
+   ],
+   "c": 2,
+   "d": "El Candelabro mide más de 150 metros y su origen aún es un misterio.",
+   "tp": "¿Qué enorme geoglifo, visible desde el mar, hay en la bahía de Paracas? ¿La Araña, El Mono, El Candelabro o El Colibrí?",
+   "tr": "¡El Candelabro!",
+   "td": "El Candelabro mide más de ciento cincuenta metros y su origen aún es un misterio."
+  },
+  {
+   "n": 70,
+   "tema": "literatura",
+   "p": "¿Cómo se llama el capitán que persigue a la ballena blanca en «Moby Dick»?",
+   "o": [
+    "Nemo",
+    "Ahab",
+    "Garfio",
+    "Sparrow"
+   ],
+   "c": 1,
+   "d": "Moby Dick es un cachalote blanco, y la novela se publicó en 1851.",
+   "tp": "¿Cómo se llama el capitán que persigue a la ballena blanca en «Moby Dick»? ¿Nemo, Ahab, Garfio o Sparrow?",
+   "tr": "¡Ahab!",
+   "td": "Moby Dick es un cachalote blanco, y la novela se publicó en mil ochocientos cincuenta y uno"
+  },
+  {
+   "n": 71,
+   "tema": "animales",
+   "p": "¿Qué foca gigante tiene una nariz en forma de trompa?",
+   "o": [
+    "Elefante marino",
+    "Manatí",
+    "Foca común",
+    "Morsa"
+   ],
+   "c": 0,
+   "d": "Los machos pueden pesar más de 3 toneladas.",
+   "tp": "¿Qué foca gigante tiene una nariz en forma de trompa? ¿Elefante marino, Manatí, Foca común o Morsa?",
+   "tr": "¡Elefante marino!",
+   "td": "Los machos pueden pesar más de tres toneladas.",
+   "o_fotos": [
+    {
+     "q": "elephant seal",
+     "src": "cm"
+    },
+    {
+     "q": "manatee",
+     "src": "px"
+    },
+    {
+     "q": "harbor seal",
+     "src": "px"
+    },
+    {
+     "q": "walrus",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 72,
+   "tema": "idiomas",
+   "p": "¿De qué idioma viene la palabra «almirante», jefe de la marina?",
+   "o": [
+    "Griego",
+    "Latín",
+    "Quechua",
+    "Árabe"
+   ],
+   "c": 3,
+   "d": "Viene de «amir al-bahr», que significa «jefe del mar».",
+   "tp": "¿De qué idioma viene la palabra «almirante», jefe de la marina? ¿Griego, Latín, Quechua o Árabe?",
+   "tr": "¡Árabe!",
+   "td": "Viene de «amir al-bahr», que significa «jefe del mar»."
+  },
+  {
+   "n": 73,
+   "tema": "animales",
+   "p": "¿Qué tortuga marina es la más grande del mundo?",
+   "o": [
+    "Tortuga boba",
+    "Tortuga laúd",
+    "Tortuga carey",
+    "Tortuga verde"
+   ],
+   "c": 1,
+   "d": "Puede pesar más de 500 kilos y bucear a más de mil metros.",
+   "tp": "¿Qué tortuga marina es la más grande del mundo? ¿Tortuga boba, Tortuga laúd, Tortuga carey o Tortuga verde?",
+   "tr": "¡Tortuga laúd!",
+   "td": "Puede pesar más de quinientos kilos y bucear a más de mil metros."
+  },
+  {
+   "n": 74,
+   "tema": "ciencia",
+   "p": "¿Cómo se llama el material brillante con el que se forma una perla?",
+   "o": [
+    "Marfil",
+    "Ámbar",
+    "Cuarzo",
+    "Nácar"
+   ],
+   "c": 3,
+   "d": "El nácar también cubre el interior de muchas conchas.",
+   "tp": "¿Cómo se llama el material brillante con el que se forma una perla? ¿Marfil, Ámbar, Cuarzo o Nácar?",
+   "tr": "¡Nácar!",
+   "td": "El nácar también cubre el interior de muchas conchas.",
+   "o_fotos": [
+    {
+     "q": "ivory",
+     "src": "px"
+    },
+    {
+     "q": "amber",
+     "src": "px"
+    },
+    {
+     "q": "quartz crystal",
+     "src": "px"
+    },
+    {
+     "q": "mother of pearl",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 75,
+   "tema": "comida",
+   "p": "¿Qué marisco se usa en los «choritos a la chalaca», típicos del Callao?",
+   "o": [
+    "Mejillones",
+    "Langostinos",
+    "Erizos",
+    "Cangrejos"
+   ],
+   "c": 0,
+   "d": "Los choritos son mejillones peruanos y se sirven con cebolla, tomate y limón.",
+   "tp": "¿Qué marisco se usa en los «choritos a la chalaca», típicos del Callao? ¿Mejillones, Langostinos, Erizos o Cangrejos?",
+   "tr": "¡Mejillones!",
+   "td": "Los choritos son mejillones peruanos y se sirven con cebolla, tomate y limón."
+  },
+  {
+   "n": 76,
+   "tema": "animales",
+   "ronda": "vf",
+   "p": "Los peces nunca duermen.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Los peces no tienen párpados, pero sí descansan: muchos se quedan quietos y reducen su actividad.",
+   "tp": "¿Verdadero o falso? Los peces nunca duermen.",
+   "tr": "¡Falso! Descansan, aunque no cierran los ojos.",
+   "td": "Los peces no tienen párpados, pero sí descansan: muchos se quedan quietos y reducen su actividad."
+  },
+  {
+   "n": 77,
+   "tema": "animales",
+   "ronda": "vf",
+   "p": "Los caballitos de mar son peces, aunque no lo parezcan.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Los caballitos de mar son peces óseos que respiran con branquias.",
+   "tp": "¿Verdadero o falso? Los caballitos de mar son peces, aunque no lo parezcan.",
+   "tr": "¡Verdadero! Respiran con branquias.",
+   "td": "Los caballitos de mar son peces óseos que respiran con branquias."
+  },
+  {
+   "n": 78,
+   "tema": "geografía",
+   "ronda": "vf",
+   "p": "El mar Rojo es de color rojo.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "El mar Rojo es azul verdoso; su nombre tiene varios posibles orígenes.",
+   "tp": "¿Verdadero o falso? El mar Rojo es de color rojo.",
+   "tr": "¡Falso! Sus aguas son azules y verdosas.",
+   "td": "El mar Rojo es azul verdoso; su nombre tiene varios posibles orígenes."
+  },
+  {
+   "n": 79,
+   "tema": "naturaleza",
+   "p": "¿Qué les pasa a los corales cuando el agua se calienta demasiado?",
+   "o": [
+    "Crecen más rápido",
+    "Se blanquean",
+    "Se hunden en la arena",
+    "Se vuelven rojos"
+   ],
+   "c": 1,
+   "d": "Se llama blanqueamiento: los corales expulsan las algas que les dan color.",
+   "tp": "¿Qué les pasa a los corales cuando el agua se calienta demasiado? ¿Crecen más rápido, Se blanquean, Se hunden en la arena o Se vuelven rojos?",
+   "tr": "¡Se blanquean!",
+   "td": "Se llama blanqueamiento: los corales expulsan las algas que les dan color."
+  },
+  {
+   "n": 80,
+   "tema": "geografía",
+   "p": "¿Qué país insular del Atlántico norte es famoso por sus géiseres y volcanes?",
+   "o": [
+    "Cuba",
+    "Irlanda",
+    "Malta",
+    "Islandia"
+   ],
+   "c": 3,
+   "d": "En español, Islandia significa «tierra de hielo».",
+   "tp": "¿Qué país insular del Atlántico norte es famoso por sus géiseres y volcanes? ¿Cuba, Irlanda, Malta o Islandia?",
+   "tr": "¡Islandia!",
+   "td": "En español, Islandia significa «tierra de hielo».",
+   "o_fotos": [
+    {
+     "flag": "cu"
+    },
+    {
+     "flag": "ie"
+    },
+    {
+     "flag": "mt"
+    },
+    {
+     "flag": "is"
+    }
+   ]
+  },
+  {
+   "n": 81,
+   "tema": "animales",
+   "p": "¿Qué molusco gigante de los arrecifes puede pesar más de 200 kilos?",
+   "o": [
+    "Vieira",
+    "Mejillón",
+    "Almeja gigante",
+    "Ostra perlera"
+   ],
+   "c": 2,
+   "d": "Una almeja gigante puede vivir más de 100 años.",
+   "tp": "¿Qué molusco gigante de los arrecifes puede pesar más de doscientos kilos? ¿Vieira, Mejillón, Almeja gigante o Ostra perlera?",
+   "tr": "¡Almeja gigante!",
+   "td": "Una almeja gigante puede vivir más de cien años.",
+   "o_fotos": [
+    {
+     "q": "scallop shell",
+     "src": "px"
+    },
+    {
+     "q": "mussels",
+     "src": "px"
+    },
+    {
+     "q": "giant clam Tridacna",
+     "src": "cm"
+    },
+    {
+     "q": "pearl oyster",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 82,
+   "tema": "historia",
+   "p": "¿Qué titán de la mitología griega da nombre al océano Atlántico?",
+   "o": [
+    "Helios",
+    "Cronos",
+    "Prometeo",
+    "Atlas"
+   ],
+   "c": 3,
+   "d": "Según el mito, Atlas sostenía el cielo sobre sus hombros.",
+   "tp": "¿Qué titán de la mitología griega da nombre al océano Atlántico? ¿Helios, Cronos, Prometeo o Atlas?",
+   "tr": "¡Atlas!",
+   "td": "Según el mito, Atlas sostenía el cielo sobre sus hombros."
+  },
+  {
+   "n": 83,
+   "tema": "Perú",
+   "p": "¿Qué salinas del Cusco sacan sal de un manantial desde hace siglos?",
+   "o": [
+    "Moray",
+    "Maras",
+    "Chinchero",
+    "Ollantaytambo"
+   ],
+   "c": 1,
+   "d": "Las salinas de Maras tienen unas 3.000 pozas de sal.",
+   "tp": "¿Qué salinas del Cusco sacan sal de un manantial desde hace siglos? ¿Moray, Maras, Chinchero o Ollantaytambo?",
+   "tr": "¡Maras!",
+   "td": "Las salinas de Maras tienen unas tres mil pozas de sal.",
+   "o_fotos": [
+    {
+     "q": "Moray Inca terraces",
+     "src": "cm",
+     "must": "Moray"
+    },
+    {
+     "q": "Salinas de Maras",
+     "src": "cm",
+     "must": "Maras"
+    },
+    {
+     "q": "Chinchero Peru",
+     "src": "cm"
+    },
+    {
+     "q": "Ollantaytambo ruins",
+     "src": "cm",
+     "must": "Ollantaytambo"
+    }
+   ]
+  },
+  {
+   "n": 84,
+   "tema": "idiomas",
+   "p": "¿Cómo se llama el idioma original de la isla de Pascua?",
+   "o": [
+    "Rapa Nui",
+    "Maorí",
+    "Tahitiano",
+    "Hawaiano"
+   ],
+   "c": 0,
+   "d": "Rapa Nui es también el nombre que los isleños dan a su isla.",
+   "tp": "¿Cómo se llama el idioma original de la isla de Pascua? ¿Rapa Nui, Maorí, Tahitiano o Hawaiano?",
+   "tr": "¡Rapa Nui!",
+   "td": "Rapa Nui es también el nombre que los isleños dan a su isla."
+  },
+  {
+   "n": 85,
+   "tema": "comida",
+   "p": "¿Qué pescado da nombre al caldillo que cantó Pablo Neruda en una oda?",
+   "o": [
+    "Corvina",
+    "Congrio",
+    "Reineta",
+    "Merluza"
+   ],
+   "c": 1,
+   "d": "Neruda escribió la «Oda al caldillo de congrio».",
+   "tp": "¿Qué pescado da nombre al caldillo que cantó Pablo Neruda en una oda? ¿Corvina, Congrio, Reineta o Merluza?",
+   "tr": "¡Congrio!",
+   "td": "Neruda escribió la «Oda al caldillo de congrio»."
+  },
+  {
+   "n": 86,
+   "tema": "deportes",
+   "p": "¿Qué surfista peruana fue campeona mundial de surf en 2004?",
+   "o": [
+    "Sofía Mulánovich",
+    "Kina Malpartida",
+    "Gladys Tejeda",
+    "Cecilia Tait"
+   ],
+   "c": 0,
+   "d": "Sofía Mulánovich es una de las mejores surfistas de la historia del Perú.",
+   "tp": "¿Qué surfista peruana fue campeona mundial de surf en dos mil cuatro? ¿Sofía Mulánovich, Kina Malpartida, Gladys Tejeda o Cecilia Tait?",
+   "tr": "¡Sofía Mulánovich!",
+   "td": "Sofía Mulánovich es una de las mejores surfistas de la historia del Perú."
+  },
+  {
+   "n": 87,
+   "tema": "geografía",
+   "p": "¿Qué isla colombiana del Caribe es famosa por su «mar de siete colores»?",
+   "o": [
+    "Cozumel",
+    "Margarita",
+    "San Andrés",
+    "Roatán"
+   ],
+   "c": 2,
+   "d": "San Andrés está muy cerca de Nicaragua, pero pertenece a Colombia.",
+   "tp": "¿Qué isla colombiana del Caribe es famosa por su «mar de siete colores»? ¿Cozumel, Margarita, San Andrés o Roatán?",
+   "tr": "¡San Andrés!",
+   "td": "San Andrés está muy cerca de Nicaragua, pero pertenece a Colombia."
+  },
+  {
+   "n": 88,
+   "tema": "animales",
+   "p": "¿A qué península mexicana viajan las ballenas grises para tener sus crías?",
+   "o": [
+    "Nicoya",
+    "Yucatán",
+    "Florida",
+    "Baja California"
+   ],
+   "c": 3,
+   "d": "Recorren miles de kilómetros desde Alaska hasta las lagunas de Baja California.",
+   "tp": "¿A qué península mexicana viajan las ballenas grises para tener sus crías? ¿Nicoya, Yucatán, Florida o Baja California?",
+   "tr": "¡Baja California!",
+   "td": "Recorren miles de kilómetros desde Alaska hasta las lagunas de Baja California."
+  },
+  {
+   "n": 89,
+   "tema": "animales",
+   "p": "¿Qué ballena visita cada año Península Valdés, en la Patagonia argentina?",
+   "o": [
+    "Ballena gris",
+    "Ballena franca",
+    "Ballena azul",
+    "Cachalote"
+   ],
+   "c": 1,
+   "d": "Llegan a las aguas calmas de Valdés para tener a sus crías.",
+   "tp": "¿Qué ballena visita cada año Península Valdés, en la Patagonia argentina? ¿Ballena gris, Ballena franca, Ballena azul o Cachalote?",
+   "tr": "¡Ballena franca!",
+   "td": "Llegan a las aguas calmas de Valdés para tener a sus crías."
+  },
+  {
+   "n": 90,
+   "tema": "animales",
+   "p": "¿Qué reptil de las Galápagos se zambulle en el mar para comer algas?",
+   "o": [
+    "Lagartija de lava",
+    "Tortuga terrestre",
+    "Iguana marina",
+    "Iguana terrestre"
+   ],
+   "c": 2,
+   "d": "Es el único lagarto del mundo que se alimenta en el mar.",
+   "tp": "¿Qué reptil de las Galápagos se zambulle en el mar para comer algas? ¿Lagartija de lava, Tortuga terrestre, Iguana marina o Iguana terrestre?",
+   "tr": "¡Iguana marina!",
+   "td": "Es el único lagarto del mundo que se alimenta en el mar."
+  },
+  {
+   "n": 91,
+   "tema": "ciencia",
+   "p": "¿Qué sabio griego descubrió por qué flotan los barcos, según la leyenda, en la bañera?",
+   "o": [
+    "Pitágoras",
+    "Platón",
+    "Aristóteles",
+    "Arquímedes"
+   ],
+   "c": 3,
+   "d": "La leyenda dice que gritó «¡Eureka!» al descubrirlo.",
+   "tp": "¿Qué sabio griego descubrió por qué flotan los barcos, según la leyenda, en la bañera? ¿Pitágoras, Platón, Aristóteles o Arquímedes?",
+   "tr": "¡Arquímedes!",
+   "td": "La leyenda dice que gritó «¡Eureka!» al descubrirlo."
+  },
+  {
+   "n": 92,
+   "tema": "arte",
+   "p": "¿En qué ciudad está la famosa estatua de La Sirenita, inspirada en un cuento de Andersen?",
+   "o": [
+    "Copenhague",
+    "Helsinki",
+    "Oslo",
+    "Estocolmo"
+   ],
+   "c": 0,
+   "d": "Mide poco más de un metro y está junto al agua desde 1913.",
+   "tp": "¿En qué ciudad está la famosa estatua de La Sirenita, inspirada en un cuento de Andersen? ¿Copenhague, Helsinki, Oslo o Estocolmo?",
+   "tr": "¡Copenhague!",
+   "td": "Mide poco más de un metro y está junto al agua desde mil novecientos trece"
+  },
+  {
+   "n": 93,
+   "tema": "espacio",
+   "p": "¿Qué luna de Júpiter, con nombre de continente, tiene un océano bajo su hielo?",
+   "o": [
+    "Ío",
+    "Europa",
+    "Titán",
+    "Triton"
+   ],
+   "c": 1,
+   "d": "Los científicos creen que ese océano esconde más agua que todos los mares de la Tierra.",
+   "tp": "¿Qué luna de Júpiter, con nombre de continente, tiene un océano bajo su hielo? ¿Ío, Europa, Titán o Triton?",
+   "tr": "¡Europa!",
+   "td": "Los científicos creen que ese océano esconde más agua que todos los mares de la Tierra.",
+   "o_fotos": [
+    {
+     "q": "Io moon Galileo",
+     "src": "cm",
+     "must": "Io"
+    },
+    {
+     "q": "Europa moon Galileo",
+     "src": "cm",
+     "must": "Europa"
+    },
+    {
+     "q": "Titan moon Cassini",
+     "src": "cm",
+     "must": "Titan"
+    },
+    {
+     "q": "Triton moon Voyager",
+     "src": "cm",
+     "must": "Triton"
+    }
+   ]
+  },
+  {
+   "n": 94,
+   "tema": "geografía",
+   "p": "¿Qué mar baña Rumania, Bulgaria, Ucrania y Turquía?",
+   "o": [
+    "Mar Amarillo",
+    "Mar Rojo",
+    "Mar Negro",
+    "Mar Blanco"
+   ],
+   "c": 2,
+   "d": "Sus aguas profundas casi no tienen oxígeno, por eso allí viven pocos animales.",
+   "tp": "¿Qué mar baña Rumania, Bulgaria, Ucrania y Turquía? ¿Mar Amarillo, Mar Rojo, Mar Negro o Mar Blanco?",
+   "tr": "¡Mar Negro!",
+   "td": "Sus aguas profundas casi no tienen oxígeno, por eso allí viven pocos animales."
+  },
+  {
+   "n": 95,
+   "tema": "geografía",
+   "p": "¿Cómo se llama el océano que rodea la Antártida?",
+   "o": [
+    "Océano Ártico",
+    "Océano Pacífico",
+    "Océano Índico",
+    "Océano Austral"
+   ],
+   "c": 3,
+   "d": "Allí circula la corriente oceánica más grande del planeta.",
+   "tp": "¿Cómo se llama el océano que rodea la Antártida? ¿Océano Ártico, Océano Pacífico, Océano Índico o Océano Austral?",
+   "tr": "¡Océano Austral!",
+   "td": "Allí circula la corriente oceánica más grande del planeta."
+  },
+  {
+   "n": 96,
+   "tema": "comida",
+   "p": "¿Qué plato de Arequipa se prepara con camarones de río, papas y queso?",
+   "o": [
+    "Chupe de camarones",
+    "Rocoto relleno",
+    "Ocopa",
+    "Adobo"
+   ],
+   "c": 0,
+   "d": "Es un caldo espeso muy querido en la ciudad blanca.",
+   "tp": "¿Qué plato de Arequipa se prepara con camarones de río, papas y queso? ¿Chupe de camarones, Rocoto relleno, Ocopa o Adobo?",
+   "tr": "¡Chupe de camarones!",
+   "td": "Es un caldo espeso muy querido en la ciudad blanca."
+  },
+  {
+   "n": 97,
+   "tema": "comida",
+   "p": "¿Qué marisco peruano, de concha en forma de abanico, se sirve a la parmesana?",
+   "o": [
+    "Cangrejos",
+    "Almejas",
+    "Erizos",
+    "Conchas de abanico"
+   ],
+   "c": 3,
+   "d": "Se cría sobre todo en bahías como la de Paracas.",
+   "tp": "¿Qué marisco peruano, de concha en forma de abanico, se sirve a la parmesana? ¿Cangrejos, Almejas, Erizos o Conchas de abanico?",
+   "tr": "¡Conchas de abanico!",
+   "td": "Se cría sobre todo en bahías como la de Paracas.",
+   "o_fotos": [
+    {
+     "q": "crab",
+     "src": "px"
+    },
+    {
+     "q": "clams",
+     "src": "px"
+    },
+    {
+     "q": "sea urchin",
+     "src": "px"
+    },
+    {
+     "q": "scallop shell",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 98,
+   "tema": "Perú",
+   "p": "¿Qué héroe naval peruano, llamado «Caballero de los Mares», comandaba el monitor Huáscar?",
+   "o": [
+    "Francisco Bolognesi",
+    "Andrés Cáceres",
+    "Miguel Grau",
+    "José de San Martín"
+   ],
+   "c": 2,
+   "d": "Grau es tan respetado que el mar peruano se llama «Mar de Grau».",
+   "tp": "¿Qué héroe naval peruano, llamado «Caballero de los Mares», comandaba el monitor Huáscar? ¿Francisco Bolognesi, Andrés Cáceres, Miguel Grau o José de San Martín?",
+   "tr": "¡Miguel Grau!",
+   "td": "Grau es tan respetado que el mar peruano se llama «Mar de Grau»."
+  },
+  {
+   "n": 99,
+   "tema": "geografía",
+   "p": "¿Qué archipiélago volcánico del Pacífico es el estado número cincuenta de Estados Unidos?",
+   "o": [
+    "Hawái",
+    "Tahití",
+    "Samoa",
+    "Fiyi"
+   ],
+   "c": 0,
+   "d": "Hawái tiene volcanes activos y playas famosas por sus olas gigantes.",
+   "tp": "¿Qué archipiélago volcánico del Pacífico es el estado número cincuenta de Estados Unidos? ¿Hawái, Tahití, Samoa o Fiyi?",
+   "tr": "¡Hawái!",
+   "td": "Hawái tiene volcanes activos y playas famosas por sus olas gigantes."
+  },
+  {
+   "n": 100,
+   "tema": "animales",
+   "p": "¿Cuál es el animal más pesado que ha existido, dinosaurios incluidos?",
+   "o": [
+    "Cachalote",
+    "Ballena azul",
+    "Argentinosaurio",
+    "Megalodón"
+   ],
+   "c": 1,
+   "d": "Una ballena azul puede pesar más de 100 toneladas: ¡más que cualquier dinosaurio conocido!",
+   "tp": "¿Cuál es el animal más pesado que ha existido, dinosaurios incluidos? ¿Cachalote, Ballena azul, Argentinosaurio o Megalodón?",
+   "tr": "¡La ballena azul! Todavía vive en nuestros mares.",
+   "td": "Una ballena azul puede pesar más de cien toneladas: ¡más que cualquier dinosaurio conocido!"
+  }
+ ],
+ "fotos_miniatura": [
+  [
+   22,
+   0
+  ],
+  [
+   49,
+   1
+  ],
+  [
+   56,
+   0
+  ],
+  [
+   9,
+   3
+  ],
+  [
+   40,
+   3
+  ]
+ ]
 }

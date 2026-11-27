@@ -19,6 +19,743 @@
  "reto_miniatura": "¿Llegas a la 370?",
  "objetivo_preguntas": 370,
  "total_anunciado": 370,
- "preguntas": [],
+ "preguntas": [
+  {
+   "n": 1,
+   "tema": "arte",
+   "p": "¿Qué pintor es famoso por pintar a «La Gioconda», con su sonrisa misteriosa?",
+   "o": [
+    "Rafael",
+    "Leonardo da Vinci",
+    "Miguel Ángel",
+    "Botticelli"
+   ],
+   "c": 1,
+   "d": "La Gioconda está en el museo del Louvre, en París.",
+   "tp": "¿Qué pintor es famoso por pintar a «La Gioconda», con su sonrisa misteriosa? ¿Rafael, Leonardo da Vinci, Miguel Ángel o Botticelli?",
+   "tr": "¡Leonardo da Vinci!",
+   "td": "La Gioconda está en el museo del Louvre, en París."
+  },
+  {
+   "n": 2,
+   "tema": "deportes",
+   "p": "¿Cuántas medallas se dan en el podio olímpico?",
+   "o": [
+    "Cinco",
+    "Dos",
+    "Cuatro",
+    "Tres"
+   ],
+   "c": 3,
+   "d": "Son de oro, plata y bronce.",
+   "tp": "¿Cuántas medallas se dan en el podio olímpico? ¿Cinco, Dos, Cuatro o Tres?",
+   "tr": "¡Tres!",
+   "td": "Son de oro, plata y bronce."
+  },
+  {
+   "n": 3,
+   "tema": "cine",
+   "p": "¿Qué muñeco de madera de Disney cambia de nariz cuando miente?",
+   "o": [
+    "Pinocho",
+    "Dumbo",
+    "Woody",
+    "Buzz"
+   ],
+   "c": 0,
+   "d": "La nariz de Pinocho crece cada vez que dice una mentira.",
+   "tp": "¿Qué muñeco de madera de Disney cambia de nariz cuando miente? ¿Pinocho, Dumbo, Woody o Buzz?",
+   "tr": "¡Pinocho!",
+   "td": "La nariz de Pinocho crece cada vez que dice una mentira."
+  },
+  {
+   "n": 4,
+   "tema": "comida",
+   "p": "¿Qué comida mexicana es una tortilla doblada con carne, verduras y salsa?",
+   "o": [
+    "Pupusa",
+    "Arepa",
+    "Taco",
+    "Empanada"
+   ],
+   "c": 2,
+   "d": "Hay tacos de muchos tipos, como al pastor y de carnitas.",
+   "tp": "¿Qué comida mexicana es una tortilla doblada con carne, verduras y salsa? ¿Pupusa, Arepa, Taco o Empanada?",
+   "tr": "¡Taco!",
+   "td": "Hay tacos de muchos tipos, como al pastor y de carnitas.",
+   "o_fotos": [
+    {
+     "q": "pupusa",
+     "src": "px"
+    },
+    {
+     "q": "arepa",
+     "src": "px"
+    },
+    {
+     "q": "tacos",
+     "src": "px"
+    },
+    {
+     "q": "empanadas",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "tema": "inventos",
+   "p": "¿Qué inventaron los hermanos Lumière en Francia, en 1895?",
+   "o": [
+    "El cine",
+    "La fotografía",
+    "El teléfono",
+    "La radio"
+   ],
+   "c": 0,
+   "d": "En 1895 proyectaron en París una de las primeras películas de la historia.",
+   "tp": "¿Qué inventaron los hermanos Lumière en Francia, en mil ochocientos noventa y cinco? ¿El cine, La fotografía, El teléfono o La radio?",
+   "tr": "¡El cine!",
+   "td": "En mil ochocientos noventa y cinco proyectaron en París una de las primeras películas de la historia."
+  },
+  {
+   "n": 6,
+   "tema": "cine",
+   "p": "¿Qué león de Disney es el príncipe de las Tierras del Reino?",
+   "o": [
+    "Mufasa",
+    "Scar",
+    "Nala",
+    "Simba"
+   ],
+   "c": 3,
+   "d": "«El rey león» se estrenó en 1994 y es de las películas más queridas de Disney.",
+   "tp": "¿Qué león de Disney es el príncipe de las Tierras del Reino? ¿Mufasa, Scar, Nala o Simba?",
+   "tr": "¡Simba!",
+   "td": "«El rey león» se estrenó en mil novecientos noventa y cuatro y es de las películas más queridas de Disney."
+  },
+  {
+   "n": 7,
+   "tema": "comida",
+   "p": "¿Qué verdura naranja se parece a la forma de un cono y la comen los conejos?",
+   "o": [
+    "Camote",
+    "Zanahoria",
+    "Yuca",
+    "Calabaza"
+   ],
+   "c": 1,
+   "d": "Las zanahorias antiguas eran moradas y blancas.",
+   "tp": "¿Qué verdura naranja se parece a la forma de un cono y la comen los conejos? ¿Camote, Zanahoria, Yuca o Calabaza?",
+   "tr": "¡Zanahoria!",
+   "td": "Las zanahorias antiguas eran moradas y blancas."
+  },
+  {
+   "n": 8,
+   "tema": "música",
+   "p": "¿Cómo se llama el baile argentino de pareja que nació en Buenos Aires?",
+   "o": [
+    "Cumbia",
+    "Salsa",
+    "Tango",
+    "Marinera"
+   ],
+   "c": 2,
+   "d": "El tango es Patrimonio Cultural Inmaterial de la Humanidad desde 2009.",
+   "tp": "¿Cómo se llama el baile argentino de pareja que nació en Buenos Aires? ¿Cumbia, Salsa, Tango o Marinera?",
+   "tr": "¡Tango!",
+   "td": "El tango es Patrimonio Cultural Inmaterial de la Humanidad desde dos mil nueve"
+  },
+  {
+   "n": 9,
+   "tema": "geografía",
+   "p": "¿Qué país tiene la bandera con un círculo rojo sobre fondo blanco?",
+   "o": [
+    "Polonia",
+    "Japón",
+    "Canadá",
+    "Suiza"
+   ],
+   "c": 1,
+   "d": "La bandera de Japón se llama «Hinomaru», el círculo del sol.",
+   "tp": "¿Qué país tiene la bandera con un círculo rojo sobre fondo blanco? ¿Polonia, Japón, Canadá o Suiza?",
+   "tr": "¡Japón!",
+   "td": "La bandera de Japón se llama «Hinomaru», el círculo del sol."
+  },
+  {
+   "n": 10,
+   "tema": "cuerpo humano",
+   "p": "¿Cuántos dedos tienen dos manos?",
+   "o": [
+    "Doce",
+    "Cinco",
+    "Ocho",
+    "Diez"
+   ],
+   "c": 3,
+   "d": "Contar con los dedos hizo que usemos un sistema numérico de base 10.",
+   "tp": "¿Cuántos dedos tienen dos manos? ¿Doce, Cinco, Ocho o Diez?",
+   "tr": "¡Diez!",
+   "td": "Contar con los dedos hizo que usemos un sistema numérico de base diez"
+  },
+  {
+   "n": 11,
+   "tema": "arte",
+   "ronda": "misteriosa",
+   "p": "¿Qué monumento blanco de la India es este?",
+   "o": [
+    "Taj Mahal",
+    "Partenón",
+    "Alhambra",
+    "Coliseo"
+   ],
+   "c": 0,
+   "img_q": "Taj Mahal",
+   "img_modo": "pregunta",
+   "d": "El Taj Mahal se construyó en el siglo XVII como un homenaje de amor.",
+   "tp": "Miren bien la foto. ¿Qué monumento blanco de la India es este? ¿Taj Mahal, Partenón, Alhambra o Coliseo?",
+   "tr": "¡Taj Mahal!",
+   "td": "El Taj Mahal se construyó en el siglo XVII como un homenaje de amor."
+  },
+  {
+   "n": 12,
+   "tema": "comida",
+   "ronda": "misteriosa",
+   "p": "¿Qué plato español es este, de arroz amarillo con mariscos?",
+   "o": [
+    "Risotto",
+    "Arroz con leche",
+    "Paella",
+    "Arroz chaufa"
+   ],
+   "c": 2,
+   "img_q": "paella",
+   "img_modo": "pregunta",
+   "d": "La paella nació en Valencia, y su nombre viene de la sartén en que se cocina.",
+   "tp": "Miren bien la foto. ¿Qué plato español es este, de arroz amarillo con mariscos? ¿Risotto, Arroz con leche, Paella o Arroz chaufa?",
+   "tr": "¡Paella!",
+   "td": "La paella nació en Valencia, y su nombre viene de la sartén en que se cocina."
+  },
+  {
+   "n": 13,
+   "tema": "animales",
+   "ronda": "misteriosa",
+   "p": "¿Qué felino de manchas es este?",
+   "o": [
+    "Leopardo",
+    "Ocelote",
+    "Guepardo",
+    "Jaguar"
+   ],
+   "c": 3,
+   "img_q": "jaguar",
+   "img_modo": "pregunta",
+   "d": "El jaguar es el felino más grande de América.",
+   "tp": "Miren bien la foto. ¿Qué felino de manchas es este? ¿Leopardo, Ocelote, Guepardo o Jaguar?",
+   "tr": "¡Jaguar!",
+   "td": "El jaguar es el felino más grande de América."
+  },
+  {
+   "n": 14,
+   "tema": "inventos",
+   "p": "¿Qué herramienta usa un carpintero para clavar clavos?",
+   "o": [
+    "Martillo",
+    "Pinza",
+    "Sierra",
+    "Taladro"
+   ],
+   "c": 0,
+   "d": "El martillo es una de las herramientas más antiguas de la humanidad.",
+   "tp": "¿Qué herramienta usa un carpintero para clavar clavos? ¿Martillo, Pinza, Sierra o Taladro?",
+   "tr": "¡Martillo!",
+   "td": "El martillo es una de las herramientas más antiguas de la humanidad.",
+   "o_fotos": [
+    {
+     "q": "hammer",
+     "src": "px"
+    },
+    {
+     "q": "pliers",
+     "src": "px"
+    },
+    {
+     "q": "hand saw",
+     "src": "px"
+    },
+    {
+     "q": "power drill",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "tema": "Perú",
+   "p": "¿Cuál es el ave nacional del Perú, de color rojo vivo?",
+   "o": [
+    "Colibrí",
+    "Gallito de las rocas",
+    "Cóndor",
+    "Guacamayo"
+   ],
+   "c": 1,
+   "d": "Los machos del gallito de las rocas bailan para atraer a las hembras.",
+   "tp": "¿Cuál es el ave nacional del Perú, de color rojo vivo? ¿Colibrí, Gallito de las rocas, Cóndor o Guacamayo?",
+   "tr": "¡Gallito de las rocas!",
+   "td": "Los machos del gallito de las rocas bailan para atraer a las hembras."
+  },
+  {
+   "n": 16,
+   "tema": "animales",
+   "p": "¿Qué animal salta con una bolsa en la barriga para llevar a sus crías?",
+   "o": [
+    "Zorro",
+    "Conejo",
+    "Canguro",
+    "Mapache"
+   ],
+   "c": 2,
+   "d": "Un bebé canguro nace del tamaño de una gominola y sube a la bolsa de su madre.",
+   "tp": "¿Qué animal salta con una bolsa en la barriga para llevar a sus crías? ¿Zorro, Conejo, Canguro o Mapache?",
+   "tr": "¡Canguro!",
+   "td": "Un bebé canguro nace del tamaño de una gominola y sube a la bolsa de su madre.",
+   "o_fotos": [
+    {
+     "q": "fox",
+     "src": "px"
+    },
+    {
+     "q": "rabbit",
+     "src": "px"
+    },
+    {
+     "q": "kangaroo",
+     "src": "px"
+    },
+    {
+     "q": "raccoon",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "tema": "animales",
+   "p": "¿Qué animal es la «oveja» de los Andes, con lana larga y cuello largo, que sirve de carga?",
+   "o": [
+    "Llama",
+    "Alpaca",
+    "Cabra",
+    "Oveja"
+   ],
+   "c": 0,
+   "d": "Las llamas llevaron cargas por los caminos del imperio inca.",
+   "tp": "¿Qué animal es la «oveja» de los Andes, con lana larga y cuello largo, que sirve de carga? ¿Llama, Alpaca, Cabra o Oveja?",
+   "tr": "¡Llama!",
+   "td": "Las llamas llevaron cargas por los caminos del imperio inca."
+  },
+  {
+   "n": 18,
+   "tema": "deportes",
+   "p": "¿Qué deporte olímpico se practica sobre hielo con cuchillas en los pies?",
+   "o": [
+    "Ciclismo",
+    "Remo",
+    "Esgrima",
+    "Patinaje"
+   ],
+   "c": 3,
+   "d": "En el patinaje artístico hay saltos de varias vueltas en el aire.",
+   "tp": "¿Qué deporte olímpico se practica sobre hielo con cuchillas en los pies? ¿Ciclismo, Remo, Esgrima o Patinaje?",
+   "tr": "¡Patinaje!",
+   "td": "En el patinaje artístico hay saltos de varias vueltas en el aire."
+  },
+  {
+   "n": 19,
+   "tema": "animales",
+   "p": "¿Qué animal de rayas blancas y negras vive en la sabana africana?",
+   "o": [
+    "Hiena",
+    "Tigre",
+    "Cebra",
+    "Panda"
+   ],
+   "c": 2,
+   "d": "Cada cebra tiene un dibujo de rayas único, como una huella digital.",
+   "tp": "¿Qué animal de rayas blancas y negras vive en la sabana africana? ¿Hiena, Tigre, Cebra o Panda?",
+   "tr": "¡Cebra!",
+   "td": "Cada cebra tiene un dibujo de rayas único, como una huella digital.",
+   "o_fotos": [
+    {
+     "q": "hyena",
+     "src": "px"
+    },
+    {
+     "q": "tiger",
+     "src": "px"
+    },
+    {
+     "q": "zebra",
+     "src": "px"
+    },
+    {
+     "q": "giant panda",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "tema": "cuerpo humano",
+   "p": "¿Qué usamos para masticar los alimentos?",
+   "o": [
+    "Los dedos",
+    "Los dientes",
+    "Las pestañas",
+    "Las uñas"
+   ],
+   "c": 1,
+   "d": "Los adultos tenemos 32 dientes; los niños, 20 de leche.",
+   "tp": "¿Qué usamos para masticar los alimentos? ¿Los dedos, Los dientes, Las pestañas o Las uñas?",
+   "tr": "¡Los dientes!",
+   "td": "Los adultos tenemos treinta y dos dientes; los niños, veinte de leche."
+  },
+  {
+   "n": 21,
+   "tema": "animales",
+   "p": "¿Qué animal de la selva se mueve tan despacio que le crece musgo en el pelo?",
+   "o": [
+    "Mono",
+    "Tapir",
+    "Perezoso",
+    "Jaguar"
+   ],
+   "c": 2,
+   "d": "El perezoso baja del árbol solo una vez por semana, más o menos.",
+   "tp": "¿Qué animal de la selva se mueve tan despacio que le crece musgo en el pelo? ¿Mono, Tapir, Perezoso o Jaguar?",
+   "tr": "¡Perezoso!",
+   "td": "El perezoso baja del árbol solo una vez por semana, más o menos.",
+   "o_fotos": [
+    {
+     "q": "monkey",
+     "src": "px"
+    },
+    {
+     "q": "tapir",
+     "src": "px"
+    },
+    {
+     "q": "sloth",
+     "src": "px"
+    },
+    {
+     "q": "jaguar",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "tema": "inventos",
+   "p": "¿Qué inventó Thomas Edison que da luz en las casas?",
+   "o": [
+    "La radio",
+    "La bombilla",
+    "La vela",
+    "El fósforo"
+   ],
+   "c": 1,
+   "d": "Edison probó miles de materiales hasta encontrar el filamento adecuado.",
+   "tp": "¿Qué inventó Thomas Edison que da luz en las casas? ¿La radio, La bombilla, La vela o El fósforo?",
+   "tr": "¡La bombilla!",
+   "td": "Edison probó miles de materiales hasta encontrar el filamento adecuado."
+  },
+  {
+   "n": 23,
+   "tema": "ciencia",
+   "p": "¿Qué se usa para ver las estrellas con mayor detalle?",
+   "o": [
+    "Microscopio",
+    "Periscopio",
+    "Termómetro",
+    "Telescopio"
+   ],
+   "c": 3,
+   "d": "El telescopio lo perfeccionó Galileo en 1609.",
+   "tp": "¿Qué se usa para ver las estrellas con mayor detalle? ¿Microscopio, Periscopio, Termómetro o Telescopio?",
+   "tr": "¡Telescopio!",
+   "td": "El telescopio lo perfeccionó Galileo en mil seiscientos nueve"
+  },
+  {
+   "n": 24,
+   "tema": "historia",
+   "ronda": "vf",
+   "p": "Los antiguos romanos ya usaban un tipo de calefacción bajo el suelo.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Los romanos calentaban sus casas con el hipocausto, un sistema de aire caliente bajo el suelo.",
+   "tp": "¿Verdadero o falso? Los antiguos romanos ya usaban un tipo de calefacción bajo el suelo.",
+   "tr": "¡Verdadero! Se llamaba hipocausto.",
+   "td": "Los romanos calentaban sus casas con el hipocausto, un sistema de aire caliente bajo el suelo."
+  },
+  {
+   "n": 25,
+   "tema": "ciencia",
+   "ronda": "vf",
+   "p": "Los diamantes están hechos de carbono.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Los diamantes se forman cuando el carbono recibe una presión y un calor enormes bajo la tierra.",
+   "tp": "¿Verdadero o falso? Los diamantes están hechos de carbono.",
+   "tr": "¡Verdadero! El carbono se transforma en diamante con calor y presión enormes.",
+   "td": "Los diamantes se forman cuando el carbono recibe una presión y un calor enormes bajo la tierra."
+  },
+  {
+   "n": 26,
+   "tema": "ciencia",
+   "ronda": "vf",
+   "p": "Los rayos caen a veces dos veces en el mismo lugar.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Los rayos caen muchas veces en el mismo sitio, como el edificio Empire State, que recibe unos 20 al año.",
+   "tp": "¿Verdadero o falso? Los rayos caen a veces dos veces en el mismo lugar.",
+   "tr": "¡Verdadero! El rayo no evita lugares ya alcanzados.",
+   "td": "Los rayos caen muchas veces en el mismo sitio, como el edificio Empire State, que recibe unos veinte al año."
+  },
+  {
+   "n": 27,
+   "tema": "matemáticas",
+   "p": "¿Qué figura tiene cuatro lados iguales y cuatro ángulos rectos?",
+   "o": [
+    "Rombo",
+    "Cuadrado",
+    "Triángulo",
+    "Trapecio"
+   ],
+   "c": 1,
+   "d": "El cuadrado es un rectángulo especial con todos los lados iguales.",
+   "tp": "¿Qué figura tiene cuatro lados iguales y cuatro ángulos rectos? ¿Rombo, Cuadrado, Triángulo o Trapecio?",
+   "tr": "¡Cuadrado!",
+   "td": "El cuadrado es un rectángulo especial con todos los lados iguales."
+  },
+  {
+   "n": 28,
+   "tema": "deportes",
+   "p": "¿Cuántos jugadores hay en un equipo de voleibol en la cancha?",
+   "o": [
+    "Cuatro",
+    "Siete",
+    "Cinco",
+    "Seis"
+   ],
+   "c": 3,
+   "d": "El voleibol se inventó en 1895.",
+   "tp": "¿Cuántos jugadores hay en un equipo de voleibol en la cancha? ¿Cuatro, Siete, Cinco o Seis?",
+   "tr": "¡Seis!",
+   "td": "El voleibol se inventó en mil ochocientos noventa y cinco"
+  },
+  {
+   "n": 29,
+   "tema": "animales",
+   "p": "¿Qué animal es el rey de la selva en los cuentos, con una gran melena?",
+   "o": [
+    "Tigre",
+    "Oso",
+    "León",
+    "Lobo"
+   ],
+   "c": 2,
+   "d": "En realidad los leones viven en la sabana, no en la selva.",
+   "tp": "¿Qué animal es el rey de la selva en los cuentos, con una gran melena? ¿Tigre, Oso, León o Lobo?",
+   "tr": "¡León!",
+   "td": "En realidad los leones viven en la sabana, no en la selva."
+  },
+  {
+   "n": 30,
+   "tema": "animales",
+   "p": "¿Qué animal de China come bambú y es blanco y negro?",
+   "o": [
+    "Oso panda",
+    "Mapache",
+    "Lobo",
+    "Koala"
+   ],
+   "c": 0,
+   "d": "Un oso panda puede comer más de 10 kilos de bambú al día.",
+   "tp": "¿Qué animal de China come bambú y es blanco y negro? ¿Oso panda, Mapache, Lobo o Koala?",
+   "tr": "¡Oso panda!",
+   "td": "Un oso panda puede comer más de diez kilos de bambú al día."
+  },
+  {
+   "n": 31,
+   "tema": "geografía",
+   "p": "¿En qué ciudad está el reloj Big Ben?",
+   "o": [
+    "Roma",
+    "Londres",
+    "París",
+    "Berlín"
+   ],
+   "c": 1,
+   "d": "Big Ben es en realidad el nombre de la campana, no de la torre.",
+   "tp": "¿En qué ciudad está el reloj Big Ben? ¿Roma, Londres, París o Berlín?",
+   "tr": "¡Londres!",
+   "td": "Big Ben es en realidad el nombre de la campana, no de la torre."
+  },
+  {
+   "n": 32,
+   "tema": "animales",
+   "p": "¿Qué insecto vive en una colonia con una reina y hace panales de cera?",
+   "o": [
+    "Mosca",
+    "Escarabajo",
+    "Hormiga",
+    "Abeja"
+   ],
+   "c": 3,
+   "d": "Una colmena puede tener decenas de miles de abejas.",
+   "tp": "¿Qué insecto vive en una colonia con una reina y hace panales de cera? ¿Mosca, Escarabajo, Hormiga o Abeja?",
+   "tr": "¡Abeja!",
+   "td": "Una colmena puede tener decenas de miles de abejas."
+  },
+  {
+   "n": 33,
+   "tema": "historia",
+   "p": "¿Qué antiguo pueblo construyó las pirámides de Egipto?",
+   "o": [
+    "Los griegos",
+    "Los persas",
+    "Los egipcios",
+    "Los romanos"
+   ],
+   "c": 2,
+   "d": "La pirámide de Keops tiene más de 4.500 años.",
+   "tp": "¿Qué antiguo pueblo construyó las pirámides de Egipto? ¿Los griegos, Los persas, Los egipcios o Los romanos?",
+   "tr": "¡Los egipcios!",
+   "td": "La pirámide de Keops tiene más de cuatro mil quinientos años."
+  },
+  {
+   "n": 34,
+   "tema": "música",
+   "p": "¿Qué instrumento mexicano tiene seis cuerdas, es grande y grave, y suena en el mariachi?",
+   "o": [
+    "Acordeón",
+    "Arpa",
+    "Charango",
+    "Guitarrón"
+   ],
+   "c": 3,
+   "d": "El guitarrón da los bajos del mariachi.",
+   "tp": "¿Qué instrumento mexicano tiene seis cuerdas, es grande y grave, y suena en el mariachi? ¿Acordeón, Arpa, Charango o Guitarrón?",
+   "tr": "¡Guitarrón!",
+   "td": "El guitarrón da los bajos del mariachi."
+  },
+  {
+   "n": 35,
+   "tema": "geografía",
+   "p": "¿Qué enorme estatua con los brazos abiertos vigila la ciudad de Río de Janeiro?",
+   "o": [
+    "Cristo Redentor",
+    "La Esfinge",
+    "El Pensador",
+    "La Libertad"
+   ],
+   "c": 0,
+   "d": "El Cristo Redentor mide 30 metros y está sobre el cerro del Corcovado.",
+   "tp": "¿Qué enorme estatua con los brazos abiertos vigila la ciudad de Río de Janeiro? ¿Cristo Redentor, La Esfinge, El Pensador o La Libertad?",
+   "tr": "¡Cristo Redentor!",
+   "td": "El Cristo Redentor mide treinta metros y está sobre el cerro del Corcovado."
+  },
+  {
+   "n": 36,
+   "tema": "comida",
+   "p": "¿Qué comida venezolana y colombiana es una masa de maíz rellena de queso o carne?",
+   "o": [
+    "Taco",
+    "Arepa",
+    "Sushi",
+    "Pizza"
+   ],
+   "c": 1,
+   "d": "Las arepas se comen desde hace siglos en Venezuela y Colombia.",
+   "tp": "¿Qué comida venezolana y colombiana es una masa de maíz rellena de queso o carne? ¿Taco, Arepa, Sushi o Pizza?",
+   "tr": "¡Arepa!",
+   "td": "Las arepas se comen desde hace siglos en Venezuela y Colombia."
+  },
+  {
+   "n": 37,
+   "tema": "idiomas",
+   "p": "¿Qué idioma andino hablaban los incas y todavía se habla en el Perú?",
+   "o": [
+    "Guaraní",
+    "Náhuatl",
+    "Maya",
+    "Quechua"
+   ],
+   "c": 3,
+   "d": "Más de 7 millones de personas hablan quechua hoy.",
+   "tp": "¿Qué idioma andino hablaban los incas y todavía se habla en el Perú? ¿Guaraní, Náhuatl, Maya o Quechua?",
+   "tr": "¡Quechua!",
+   "td": "Más de siete millones de personas hablan quechua hoy."
+  },
+  {
+   "n": 38,
+   "tema": "matemáticas",
+   "p": "¿Cuántas horas tiene un día completo?",
+   "o": [
+    "24",
+    "30",
+    "12",
+    "20"
+   ],
+   "c": 0,
+   "d": "Un día es lo que tarda la Tierra en girar una vez sobre sí misma.",
+   "tp": "¿Cuántas horas tiene un día completo? ¿Veinticuatro, treinta, doce o veinte?",
+   "tr": "¡Veinticuatro!",
+   "td": "Un día es lo que tarda la Tierra en girar una vez sobre sí misma."
+  },
+  {
+   "n": 39,
+   "tema": "música",
+   "p": "¿Qué instrumento musical peruano tiene forma de armadillo pequeño y 10 cuerdas?",
+   "o": [
+    "Banjo",
+    "Mandolina",
+    "Charango",
+    "Arpa"
+   ],
+   "c": 2,
+   "d": "Antes los charangos se hacían con caparazón de armadillo.",
+   "tp": "¿Qué instrumento musical peruano tiene forma de armadillo pequeño y diez cuerdas? ¿Banjo, Mandolina, Charango o Arpa?",
+   "tr": "¡Charango!",
+   "td": "Antes los charangos se hacían con caparazón de armadillo."
+  },
+  {
+   "n": 40,
+   "tema": "ciencia",
+   "p": "¿Qué se forma cuando una nube suelta agua?",
+   "o": [
+    "Hielo",
+    "Lluvia",
+    "Niebla",
+    "Nieve"
+   ],
+   "c": 1,
+   "d": "La lluvia nace de gotitas que se juntan dentro de las nubes.",
+   "tp": "¿Qué se forma cuando una nube suelta agua? ¿Hielo, Lluvia, Niebla o Nieve?",
+   "tr": "¡Lluvia!",
+   "td": "La lluvia nace de gotitas que se juntan dentro de las nubes."
+  }
+ ],
  "extra_tts": {}
 }
