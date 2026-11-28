@@ -2,7 +2,7 @@
  "id": "ep026",
  "fecha": "2026-12-02",
  "formato": "normal",
- "estado": "en_proceso",
+ "estado": "listo",
  "codigo_sala": "FIESTAS",
  "titulo": "Fiestas, tradiciones y celebraciones del mundo",
  "titulo_youtube": "¿Cuánto sabes de FIESTAS del mundo? 100 preguntas para jugar en familia | ¿Quién Sabe Más?",
@@ -19,6 +19,2291 @@
  "reto_miniatura": "¿Llegas a la 100?",
  "objetivo_preguntas": 100,
  "total_anunciado": 100,
- "preguntas": [],
- "extra_tts": {}
+ "preguntas": [
+  {
+   "n": 1,
+   "tema": "fiestas",
+   "p": "¿Qué fiesta celebramos una vez al año, el día en que nacimos?",
+   "o": [
+    "Cumpleaños",
+    "Carnaval",
+    "Navidad",
+    "Pascua"
+   ],
+   "c": 0,
+   "d": "En muchos países se canta una canción y se sopla una vela para pedir un deseo.",
+   "tp": "¿Qué fiesta celebramos una vez al año, el día en que nacimos? ¿Cumpleaños, Carnaval, Navidad o Pascua?",
+   "tr": "¡El cumpleaños!",
+   "td": "En muchos países se canta una canción y se sopla una vela para pedir un deseo."
+  },
+  {
+   "n": 2,
+   "tema": "fiestas",
+   "p": "¿Quién trae los regalos en Navidad en muchos países?",
+   "o": [
+    "Papá Noel",
+    "El Ratoncito Pérez",
+    "El Hada Madrina",
+    "El Hombre de Arena"
+   ],
+   "c": 0,
+   "d": "Papá Noel se viste de rojo y, según el cuento, viaja en un trineo.",
+   "tp": "¿Quién trae los regalos en Navidad en muchos países? ¿Papá Noel, El Ratoncito Pérez, El Hada Madrina o El Hombre de Arena?",
+   "tr": "¡Papá Noel!",
+   "td": "Papá Noel se viste de rojo y, según el cuento, viaja en un trineo."
+  },
+  {
+   "n": 3,
+   "tema": "fiestas",
+   "p": "¿Qué animal es símbolo de la Pascua y trae huevos de chocolate?",
+   "o": [
+    "Gallo",
+    "Pato",
+    "Cordero",
+    "Conejo"
+   ],
+   "c": 3,
+   "d": "En muchos países los niños buscan huevos de chocolate escondidos en el jardín.",
+   "tp": "¿Qué animal es símbolo de la Pascua y trae huevos de chocolate? ¿Gallo, Pato, Cordero o Conejo?",
+   "tr": "¡El conejo!",
+   "td": "En muchos países los niños buscan huevos de chocolate escondidos en el jardín.",
+   "o_fotos": [
+    {
+     "q": "rooster",
+     "src": "px"
+    },
+    {
+     "q": "duck",
+     "src": "px"
+    },
+    {
+     "q": "lamb",
+     "src": "px"
+    },
+    {
+     "q": "rabbit",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "tema": "fiestas",
+   "p": "¿Qué colorido objeto lleno de dulces se rompe con un palo en las fiestas mexicanas?",
+   "o": [
+    "Piñata",
+    "Farol",
+    "Pandero",
+    "Maraca"
+   ],
+   "c": 0,
+   "d": "Las piñatas clásicas tienen forma de estrella de siete picos y muchos colores.",
+   "tp": "¿Qué colorido objeto lleno de dulces se rompe con un palo en las fiestas mexicanas? ¿Piñata, Farol, Pandero o Maraca?",
+   "tr": "¡La piñata!",
+   "td": "Las piñatas clásicas tienen forma de estrella de siete picos y muchos colores.",
+   "o_fotos": [
+    {
+     "q": "pinata",
+     "src": "px"
+    },
+    {
+     "q": "paper lantern",
+     "src": "px"
+    },
+    {
+     "q": "tambourine",
+     "src": "px"
+    },
+    {
+     "q": "maracas",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "tema": "fiestas",
+   "p": "¿Qué cantamos en grupo en Navidad, con letras alegres?",
+   "o": [
+    "Himnos",
+    "Rancheras",
+    "Villancicos",
+    "Boleros"
+   ],
+   "c": 2,
+   "d": "En muchos países los villancicos se cantan alrededor del árbol o del nacimiento.",
+   "tp": "¿Qué cantamos en grupo en Navidad, con letras alegres? ¿Himnos, Rancheras, Villancicos o Boleros?",
+   "tr": "¡Villancicos!",
+   "td": "En muchos países los villancicos se cantan alrededor del árbol o del nacimiento."
+  },
+  {
+   "n": 6,
+   "tema": "fiestas",
+   "p": "¿En qué fiesta los niños piden «dulce o truco» de casa en casa?",
+   "o": [
+    "Navidad",
+    "Halloween",
+    "Carnaval",
+    "Año Nuevo"
+   ],
+   "c": 1,
+   "d": "Halloween se celebra cada 31 de octubre y los niños van disfrazados.",
+   "tp": "¿En qué fiesta los niños piden «dulce o truco» de casa en casa? ¿Navidad, Halloween, Carnaval o Año Nuevo?",
+   "tr": "¡Halloween!",
+   "td": "Halloween se celebra cada treinta y uno de octubre y los niños van disfrazados."
+  },
+  {
+   "n": 7,
+   "tema": "fiestas",
+   "p": "¿Cuántas uvas se comen en España en Nochevieja, una con cada campanada?",
+   "o": [
+    "Seis",
+    "Doce",
+    "Nueve",
+    "Veinte"
+   ],
+   "c": 1,
+   "d": "Cada uva trae un deseo para uno de los 12 meses del año que llega.",
+   "tp": "¿Cuántas uvas se comen en España en Nochevieja, una con cada campanada? ¿Seis, Doce, Nueve o Veinte?",
+   "tr": "¡Doce!",
+   "td": "Cada uva trae un deseo para uno de los doce meses del año que llega."
+  },
+  {
+   "n": 8,
+   "tema": "perú",
+   "p": "¿Con qué juegan en los carnavales del Perú, como en Cajamarca, mojándose?",
+   "o": [
+    "Arena",
+    "Nieve",
+    "Harina",
+    "Agua"
+   ],
+   "c": 3,
+   "d": "El carnaval de Cajamarca es famoso por los juegos con agua, pintura y cantos.",
+   "tp": "¿Con qué juegan en los carnavales del Perú, como en Cajamarca, mojándose? ¿Arena, Nieve, Harina o Agua?",
+   "tr": "¡Con agua!",
+   "td": "El carnaval de Cajamarca es famoso por los juegos con agua, pintura y cantos."
+  },
+  {
+   "n": 9,
+   "tema": "perú",
+   "p": "¿En qué mes se celebran las Fiestas Patrias del Perú?",
+   "o": [
+    "Enero",
+    "Marzo",
+    "Octubre",
+    "Julio"
+   ],
+   "c": 3,
+   "d": "La independencia del Perú se proclamó el 28 de julio de 1821.",
+   "tp": "¿En qué mes se celebran las Fiestas Patrias del Perú? ¿Enero, Marzo, Octubre o Julio?",
+   "tr": "¡Julio!",
+   "td": "La independencia del Perú se proclamó el veintiocho de julio de mil ochocientos veintiuno."
+  },
+  {
+   "n": 10,
+   "tema": "fiestas",
+   "p": "¿Cómo se llama la última noche del año, el 31 de diciembre?",
+   "o": [
+    "Nochevieja",
+    "Nochebuena",
+    "Carnaval",
+    "Pascua"
+   ],
+   "c": 0,
+   "d": "En esa noche se espera la medianoche para brindar con jugo o con sidra.",
+   "tp": "¿Cómo se llama la última noche del año, el treinta y uno de diciembre? ¿Nochevieja, Nochebuena, Carnaval o Pascua?",
+   "tr": "¡Nochevieja!",
+   "td": "En esa noche se espera la medianoche para brindar con jugo o con sidra."
+  },
+  {
+   "n": 11,
+   "tema": "fiestas",
+   "ronda": "misteriosa",
+   "p": "¿En qué ciudad de Italia se hacen estas máscaras de carnaval?",
+   "o": [
+    "Venecia",
+    "Roma",
+    "Milán",
+    "Florencia"
+   ],
+   "c": 0,
+   "img_q": "Venetian carnival mask",
+   "img_modo": "pregunta",
+   "d": "El carnaval de Venecia es famoso por sus máscaras y sus trajes elegantes.",
+   "tp": "¿En qué ciudad de Italia se hacen estas máscaras de carnaval? ¿Venecia, Roma, Milán o Florencia?",
+   "tr": "¡Venecia!",
+   "td": "El carnaval de Venecia es famoso por sus máscaras y sus trajes elegantes."
+  },
+  {
+   "n": 12,
+   "tema": "fiestas",
+   "ronda": "misteriosa",
+   "p": "¿Qué fiesta mexicana es esta, con calaveras de azúcar y altares?",
+   "o": [
+    "Carnaval",
+    "Día de Muertos",
+    "Navidad",
+    "Semana Santa"
+   ],
+   "c": 1,
+   "img_q": "sugar skull Day of the Dead",
+   "img_modo": "pregunta",
+   "d": "Las calaveras de azúcar llevan escrito el nombre de la persona recordada.",
+   "tp": "¿Qué fiesta mexicana es esta, con calaveras de azúcar y altares? ¿Carnaval, Día de Muertos, Navidad o Semana Santa?",
+   "tr": "¡El Día de Muertos!",
+   "td": "Las calaveras de azúcar llevan escrito el nombre de la persona recordada."
+  },
+  {
+   "n": 13,
+   "tema": "fiestas",
+   "ronda": "misteriosa",
+   "p": "¿En qué ciudad se ve este famoso espectáculo de fuegos de Año Nuevo?",
+   "o": [
+    "Dubái",
+    "Toronto",
+    "Sídney",
+    "Moscú"
+   ],
+   "c": 2,
+   "img_q": "Sydney New Year fireworks Harbour Bridge",
+   "img_modo": "pregunta",
+   "d": "Sídney recibe el año con fuegos sobre su bahía, junto a la Ópera y el puente.",
+   "tp": "¿En qué ciudad se ve este famoso espectáculo de fuegos de Año Nuevo? ¿Dubái, Toronto, Sídney o Moscú?",
+   "tr": "¡Sídney!",
+   "td": "Sídney recibe el año con fuegos sobre su bahía, junto a la Ópera y el puente."
+  },
+  {
+   "n": 14,
+   "tema": "fiestas",
+   "p": "¿Qué fiesta de Brasil es famosa por sus desfiles de samba en Río de Janeiro?",
+   "o": [
+    "Oktoberfest",
+    "Pascua",
+    "Halloween",
+    "Carnaval"
+   ],
+   "c": 3,
+   "d": "Los grandes desfiles del Carnaval de Río se hacen en el Sambódromo.",
+   "tp": "¿Qué fiesta de Brasil es famosa por sus desfiles de samba en Río de Janeiro? ¿Oktoberfest, Pascua, Halloween o Carnaval?",
+   "tr": "¡El Carnaval!",
+   "td": "Los grandes desfiles del Carnaval de Río se hacen en el Sambódromo."
+  },
+  {
+   "n": 15,
+   "tema": "fiestas",
+   "p": "¿Qué antigua fiesta de los celtas dio origen a Halloween?",
+   "o": [
+    "Hanukkah",
+    "Holi",
+    "Samhain",
+    "Diwali"
+   ],
+   "c": 2,
+   "d": "Los celtas creían que en esa noche los espíritus visitaban la Tierra.",
+   "tp": "¿Qué antigua fiesta de los celtas dio origen a Halloween? ¿Hanukkah, Holi, Samhain o Diwali?",
+   "tr": "¡Samhain!",
+   "td": "Los celtas creían que en esa noche los espíritus visitaban la Tierra."
+  },
+  {
+   "n": 16,
+   "tema": "fiestas",
+   "p": "¿Qué color se usa en el Año Nuevo chino para atraer la buena suerte?",
+   "o": [
+    "Negro",
+    "Rojo",
+    "Gris",
+    "Marrón"
+   ],
+   "c": 1,
+   "d": "Se regalan sobres rojos con dinero y se cuelgan faroles rojos en las calles.",
+   "tp": "¿Qué color se usa en el Año Nuevo chino para atraer la buena suerte? ¿Negro, Rojo, Gris o Marrón?",
+   "tr": "¡El rojo!",
+   "td": "Se regalan sobres rojos con dinero y se cuelgan faroles rojos en las calles."
+  },
+  {
+   "n": 17,
+   "tema": "fiestas",
+   "p": "¿Qué fiesta de la India se celebra lanzándose polvos de colores?",
+   "o": [
+    "Diwali",
+    "Oktoberfest",
+    "Carnaval",
+    "Holi"
+   ],
+   "c": 3,
+   "d": "Holi anuncia la llegada de la primavera y es una fiesta de alegría.",
+   "tp": "¿Qué fiesta de la India se celebra lanzándose polvos de colores? ¿Diwali, Oktoberfest, Carnaval o Holi?",
+   "tr": "¡Holi!",
+   "td": "Holi anuncia la llegada de la primavera y es una fiesta de alegría."
+  },
+  {
+   "n": 18,
+   "tema": "fiestas",
+   "p": "¿En qué país se celebra el Oktoberfest, la famosa fiesta de Múnich?",
+   "o": [
+    "Austria",
+    "Suiza",
+    "Alemania",
+    "Países Bajos"
+   ],
+   "c": 2,
+   "d": "El Oktoberfest empieza en septiembre y termina a comienzos de octubre.",
+   "tp": "¿En qué país se celebra el Oktoberfest, la famosa fiesta de Múnich? ¿Austria, Suiza, Alemania o Países Bajos?",
+   "tr": "¡Alemania!",
+   "td": "El Oktoberfest empieza en septiembre y termina a comienzos de octubre.",
+   "o_fotos": [
+    {
+     "flag": "at"
+    },
+    {
+     "flag": "ch"
+    },
+    {
+     "flag": "de"
+    },
+    {
+     "flag": "nl"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "tema": "perú",
+   "p": "¿A qué astro honra el Inti Raymi, la fiesta inca del Cusco?",
+   "o": [
+    "Al Sol",
+    "A la Luna",
+    "Al Rayo",
+    "Al Mar"
+   ],
+   "c": 0,
+   "d": "«Inti Raymi» significa «fiesta del Sol» en quechua y se celebra cada 24 de junio.",
+   "tp": "¿A qué astro honra el Inti Raymi, la fiesta inca del Cusco? ¿Al Sol, A la Luna, Al Rayo o Al Mar?",
+   "tr": "¡Al Sol!",
+   "td": "«Inti Raymi» significa «fiesta del Sol» en quechua y se celebra cada veinticuatro de junio.",
+   "o_fotos": [
+    {
+     "q": "sun sky",
+     "src": "px"
+    },
+    {
+     "q": "full moon",
+     "src": "px"
+    },
+    {
+     "q": "lightning storm",
+     "src": "px"
+    },
+    {
+     "q": "ocean waves",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "tema": "latinoamérica",
+   "p": "¿Qué flor naranja adorna los altares del Día de Muertos en México?",
+   "o": [
+    "Rosa",
+    "Girasol",
+    "Cempasúchil",
+    "Orquídea"
+   ],
+   "c": 2,
+   "d": "Se cree que su color y su aroma guían a las almas de regreso a casa.",
+   "tp": "¿Qué flor naranja adorna los altares del Día de Muertos en México? ¿Rosa, Girasol, Cempasúchil o Orquídea?",
+   "tr": "¡La flor de cempasúchil!",
+   "td": "Se cree que su color y su aroma guían a las almas de regreso a casa.",
+   "o_fotos": [
+    {
+     "q": "rose flower",
+     "src": "px"
+    },
+    {
+     "q": "sunflower",
+     "src": "px"
+    },
+    {
+     "q": "marigold flower",
+     "src": "px"
+    },
+    {
+     "q": "orchid flower",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "tema": "perú",
+   "p": "¿Qué bebida caliente de chocolate se reparte a los niños en Navidad en el Perú?",
+   "o": [
+    "Chicha morada",
+    "Emoliente",
+    "Chocolatada",
+    "Mate de coca"
+   ],
+   "c": 2,
+   "d": "Es tradición compartir chocolatadas con vecinos y niños en las fiestas navideñas.",
+   "tp": "¿Qué bebida caliente de chocolate se reparte a los niños en Navidad en el Perú? ¿Chicha morada, Emoliente, Chocolatada o Mate de coca?",
+   "tr": "¡La chocolatada!",
+   "td": "Es tradición compartir chocolatadas con vecinos y niños en las fiestas navideñas."
+  },
+  {
+   "n": 22,
+   "tema": "comida",
+   "p": "¿De qué país es originario el panetón, el pan dulce de Navidad?",
+   "o": [
+    "Perú",
+    "España",
+    "Francia",
+    "Italia"
+   ],
+   "c": 3,
+   "d": "El panetón nació en Italia y en el Perú se come cada Navidad.",
+   "tp": "¿De qué país es originario el panetón, el pan dulce de Navidad? ¿Perú, España, Francia o Italia?",
+   "tr": "¡Italia!",
+   "td": "El panetón nació en Italia y en el Perú se come cada Navidad.",
+   "o_fotos": [
+    {
+     "flag": "pe"
+    },
+    {
+     "flag": "es"
+    },
+    {
+     "flag": "fr"
+    },
+    {
+     "flag": "it"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "tema": "fiestas",
+   "p": "¿Qué país celebra el Día de Acción de Gracias con pavo, el cuarto jueves de noviembre?",
+   "o": [
+    "México",
+    "Argentina",
+    "Estados Unidos",
+    "Francia"
+   ],
+   "c": 2,
+   "d": "El plato estrella de esa cena familiar es el pavo asado.",
+   "tp": "¿Qué país celebra el Día de Acción de Gracias con pavo, el cuarto jueves de noviembre? ¿México, Argentina, Estados Unidos o Francia?",
+   "tr": "¡Estados Unidos!",
+   "td": "El plato estrella de esa cena familiar es el pavo asado.",
+   "o_fotos": [
+    {
+     "flag": "mx"
+    },
+    {
+     "flag": "ar"
+    },
+    {
+     "flag": "us"
+    },
+    {
+     "flag": "fr"
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "tema": "fiestas",
+   "ronda": "vf",
+   "p": "El Año Nuevo chino cae siempre el mismo día del calendario.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Cambia cada año, entre fines de enero y febrero, porque sigue el calendario lunar.",
+   "tp": "¿Verdadero o falso? El Año Nuevo chino cae siempre el mismo día del calendario.",
+   "tr": "¡Falso! Cambia cada año, porque sigue la Luna.",
+   "td": "Cambia cada año, entre fines de enero y febrero, porque sigue el calendario lunar."
+  },
+  {
+   "n": 25,
+   "tema": "ciencia",
+   "ronda": "vf",
+   "p": "Los fuegos artificiales se inventaron en China hace más de mil años.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "En China se usó la pólvora para hacer los primeros fuegos hace más de 1.000 años.",
+   "tp": "¿Verdadero o falso? Los fuegos artificiales se inventaron en China hace más de mil años.",
+   "tr": "¡Verdadero! Nacieron en China con la pólvora.",
+   "td": "En China se usó la pólvora para hacer los primeros fuegos hace más de mil años."
+  },
+  {
+   "n": 26,
+   "tema": "fiestas",
+   "ronda": "vf",
+   "p": "Según la tradición, Papá Noel vive en el Polo Sur.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "La tradición dice que vive en el Polo Norte; en Finlandia dicen que vive en Laponia.",
+   "tp": "¿Verdadero o falso? Según la tradición, Papá Noel vive en el Polo Sur.",
+   "tr": "¡Falso! Vive en el Polo Norte, según el cuento.",
+   "td": "La tradición dice que vive en el Polo Norte; en Finlandia dicen que vive en Laponia."
+  },
+  {
+   "n": 27,
+   "tema": "fiestas",
+   "p": "¿En qué país se celebra La Tomatina, donde la gente se lanza tomates?",
+   "o": [
+    "Italia",
+    "España",
+    "México",
+    "Perú"
+   ],
+   "c": 1,
+   "d": "Se celebra en Buñol, Valencia, el último miércoles de agosto.",
+   "tp": "¿En qué país se celebra La Tomatina, donde la gente se lanza tomates? ¿Italia, España, México o Perú?",
+   "tr": "¡España!",
+   "td": "Se celebra en Buñol, Valencia, el último miércoles de agosto.",
+   "o_fotos": [
+    {
+     "flag": "it"
+    },
+    {
+     "flag": "es"
+    },
+    {
+     "flag": "mx"
+    },
+    {
+     "flag": "pe"
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "tema": "fiestas",
+   "p": "¿En qué país se celebra el Carnaval de Quebec, con un muñeco de nieve gigante?",
+   "o": [
+    "Brasil",
+    "Perú",
+    "Canadá",
+    "Egipto"
+   ],
+   "c": 2,
+   "d": "Su mascota es Bonhomme, un muñeco de nieve que saluda a todos en las calles.",
+   "tp": "¿En qué país se celebra el Carnaval de Quebec, con un muñeco de nieve gigante? ¿Brasil, Perú, Canadá o Egipto?",
+   "tr": "¡Canadá!",
+   "td": "Su mascota es Bonhomme, un muñeco de nieve que saluda a todos en las calles."
+  },
+  {
+   "n": 29,
+   "tema": "fiestas",
+   "p": "¿En qué ciudad de España se queman enormes figuras de cartón llamadas fallas?",
+   "o": [
+    "Valencia",
+    "Pamplona",
+    "Madrid",
+    "Bilbao"
+   ],
+   "c": 0,
+   "d": "Las Fallas son cada marzo y la UNESCO las reconoció como patrimonio en 2016.",
+   "tp": "¿En qué ciudad de España se queman enormes figuras de cartón llamadas fallas? ¿Valencia, Pamplona, Madrid o Bilbao?",
+   "tr": "¡Valencia!",
+   "td": "Las Fallas son cada marzo y la UNESCO las reconoció como patrimonio en dos mil dieciséis."
+  },
+  {
+   "n": 30,
+   "tema": "perú",
+   "p": "¿Cómo se llama octubre en Lima, por la procesión del Señor de los Milagros?",
+   "o": [
+    "Mes Verde",
+    "Mes Rojo",
+    "Mes Blanco",
+    "Mes Morado"
+   ],
+   "c": 3,
+   "d": "Miles de personas visten de morado y acompañan la procesión por las calles de Lima.",
+   "tp": "¿Cómo se llama octubre en Lima, por la procesión del Señor de los Milagros? ¿Mes Verde, Mes Rojo, Mes Blanco o Mes Morado?",
+   "tr": "¡El Mes Morado!",
+   "td": "Miles de personas visten de morado y acompañan la procesión por las calles de Lima."
+  },
+  {
+   "n": 31,
+   "tema": "perú",
+   "p": "¿Qué baile peruano se baila con pañuelos blancos y elegancia?",
+   "o": [
+    "Cumbia",
+    "Samba",
+    "Bachata",
+    "Marinera"
+   ],
+   "c": 3,
+   "d": "Cada año se hace el Concurso Nacional de Marinera en Trujillo.",
+   "tp": "¿Qué baile peruano se baila con pañuelos blancos y elegancia? ¿Cumbia, Samba, Bachata o Marinera?",
+   "tr": "¡La marinera!",
+   "td": "Cada año se hace el Concurso Nacional de Marinera en Trujillo."
+  },
+  {
+   "n": 32,
+   "tema": "perú",
+   "p": "¿Qué ciudad peruana es famosa por la Fiesta de la Candelaria y sus cientos de danzas?",
+   "o": [
+    "Puno",
+    "Tacna",
+    "Piura",
+    "Iquitos"
+   ],
+   "c": 0,
+   "d": "Se celebra en febrero, junto al lago Titicaca, con trajes llenos de color.",
+   "tp": "¿Qué ciudad peruana es famosa por la Fiesta de la Candelaria y sus cientos de danzas? ¿Puno, Tacna, Piura o Iquitos?",
+   "tr": "¡Puno!",
+   "td": "Se celebra en febrero, junto al lago Titicaca, con trajes llenos de color."
+  },
+  {
+   "n": 33,
+   "tema": "latinoamérica",
+   "p": "¿En qué país se celebra el Carnaval de Oruro, famoso por la diablada?",
+   "o": [
+    "Paraguay",
+    "Bolivia",
+    "Chile",
+    "Ecuador"
+   ],
+   "c": 1,
+   "d": "La UNESCO lo reconoció como patrimonio y su danza estrella es la diablada.",
+   "tp": "¿En qué país se celebra el Carnaval de Oruro, famoso por la diablada? ¿Paraguay, Bolivia, Chile o Ecuador?",
+   "tr": "¡Bolivia!",
+   "td": "La UNESCO lo reconoció como patrimonio y su danza estrella es la diablada.",
+   "o_fotos": [
+    {
+     "flag": "py"
+    },
+    {
+     "flag": "bo"
+    },
+    {
+     "flag": "cl"
+    },
+    {
+     "flag": "ec"
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "tema": "latinoamérica",
+   "p": "¿En qué país se celebra el famoso Carnaval de Barranquilla?",
+   "o": [
+    "Venezuela",
+    "Colombia",
+    "Cuba",
+    "Panamá"
+   ],
+   "c": 1,
+   "d": "Es uno de los carnavales más grandes de Latinoamérica y es patrimonio de la UNESCO.",
+   "tp": "¿En qué país se celebra el famoso Carnaval de Barranquilla? ¿Venezuela, Colombia, Cuba o Panamá?",
+   "tr": "¡Colombia!",
+   "td": "Es uno de los carnavales más grandes de Latinoamérica y es patrimonio de la UNESCO.",
+   "o_fotos": [
+    {
+     "flag": "ve"
+    },
+    {
+     "flag": "co"
+    },
+    {
+     "flag": "cu"
+    },
+    {
+     "flag": "pa"
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "tema": "latinoamérica",
+   "p": "¿Cómo se llama la fiesta que celebra los 15 años de una joven en Latinoamérica?",
+   "o": [
+    "Bautizo",
+    "Graduación",
+    "Aniversario",
+    "Quinceañera"
+   ],
+   "c": 3,
+   "d": "Suele incluir un vestido especial, un vals y muchos invitados.",
+   "tp": "¿Cómo se llama la fiesta que celebra los quince años de una joven en Latinoamérica? ¿Bautizo, Graduación, Aniversario o Quinceañera?",
+   "tr": "¡La quinceañera!",
+   "td": "Suele incluir un vestido especial, un vals y muchos invitados."
+  },
+  {
+   "n": 36,
+   "tema": "comida",
+   "p": "¿Qué dulce navideño rojo y blanco tiene forma de bastón?",
+   "o": [
+    "Caramelo bastón",
+    "Paleta",
+    "Chicle",
+    "Barra de chocolate"
+   ],
+   "c": 0,
+   "d": "Se usa también para decorar el árbol de Navidad.",
+   "tp": "¿Qué dulce navideño rojo y blanco tiene forma de bastón? ¿Caramelo bastón, Paleta, Chicle o Barra de chocolate?",
+   "tr": "¡El caramelo bastón!",
+   "td": "Se usa también para decorar el árbol de Navidad.",
+   "o_fotos": [
+    {
+     "q": "candy cane",
+     "src": "px"
+    },
+    {
+     "q": "lollipop",
+     "src": "px"
+    },
+    {
+     "q": "bubble gum",
+     "src": "px"
+    },
+    {
+     "q": "chocolate bar",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "tema": "comida",
+   "p": "¿Qué comida de masa de maíz envuelta en hojas se prepara en Navidad en México?",
+   "o": [
+    "Tamales",
+    "Sushi",
+    "Pizza",
+    "Hamburguesas"
+   ],
+   "c": 0,
+   "d": "Hay tamales dulces y salados, de pollo, cerdo, rajas o frutas.",
+   "tp": "¿Qué comida de masa de maíz envuelta en hojas se prepara en Navidad en México? ¿Tamales, Sushi, Pizza o Hamburguesas?",
+   "tr": "¡Los tamales!",
+   "td": "Hay tamales dulces y salados, de pollo, cerdo, rajas o frutas.",
+   "o_fotos": [
+    {
+     "q": "tamales",
+     "src": "px"
+    },
+    {
+     "q": "sushi",
+     "src": "px"
+    },
+    {
+     "q": "pizza",
+     "src": "px"
+    },
+    {
+     "q": "hamburger",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "tema": "fiestas",
+   "p": "¿Cómo se llama la planta de hojas rojas que decora la Navidad?",
+   "o": [
+    "Margarita",
+    "Tulipán",
+    "Nochebuena",
+    "Lirio"
+   ],
+   "c": 2,
+   "d": "Es originaria de México y se conoce en inglés como poinsettia.",
+   "tp": "¿Cómo se llama la planta de hojas rojas que decora la Navidad? ¿Margarita, Tulipán, Nochebuena o Lirio?",
+   "tr": "¡La nochebuena!",
+   "td": "Es originaria de México y se conoce en inglés como poinsettia.",
+   "o_fotos": [
+    {
+     "q": "daisy flower",
+     "src": "px"
+    },
+    {
+     "q": "tulip",
+     "src": "px"
+    },
+    {
+     "q": "poinsettia",
+     "src": "px"
+    },
+    {
+     "q": "lily flower",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "tema": "fiestas",
+   "p": "¿Qué país celebra el Día de San Patricio vistiéndose de verde, cada 17 de marzo?",
+   "o": [
+    "Francia",
+    "Italia",
+    "Alemania",
+    "Irlanda"
+   ],
+   "c": 3,
+   "d": "Hasta el río de Chicago se tiñe de verde ese día.",
+   "tp": "¿Qué país celebra el Día de San Patricio vistiéndose de verde, cada diecisiete de marzo? ¿Francia, Italia, Alemania o Irlanda?",
+   "tr": "¡Irlanda!",
+   "td": "Hasta el río de Chicago se tiñe de verde ese día.",
+   "o_fotos": [
+    {
+     "flag": "fr"
+    },
+    {
+     "flag": "it"
+    },
+    {
+     "flag": "de"
+    },
+    {
+     "flag": "ie"
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "tema": "fiestas",
+   "p": "¿En qué país se sueltan faroles sobre el agua en la fiesta Loy Krathong?",
+   "o": [
+    "Japón",
+    "Tailandia",
+    "India",
+    "Corea del Sur"
+   ],
+   "c": 1,
+   "d": "En esa fiesta se agradece al agua con pequeñas ofrendas flotantes de flores y velas.",
+   "tp": "¿En qué país se sueltan faroles sobre el agua en la fiesta Loy Krathong? ¿Japón, Tailandia, India o Corea del Sur?",
+   "tr": "¡Tailandia!",
+   "td": "En esa fiesta se agradece al agua con pequeñas ofrendas flotantes de flores y velas.",
+   "o_fotos": [
+    {
+     "flag": "jp"
+    },
+    {
+     "flag": "th"
+    },
+    {
+     "flag": "in"
+    },
+    {
+     "flag": "kr"
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "tema": "fiestas",
+   "ronda": "relampago",
+   "p": "¿Qué se sopla en un pastel?",
+   "o": [
+    "Pan",
+    "Velas",
+    "Sal",
+    "Sopa"
+   ],
+   "c": 1,
+   "d": "Se pide un deseo antes de soplarlas.",
+   "tp": "¿Qué se sopla en un pastel? ¿Pan, Velas, Sal o Sopa?",
+   "tr": "¡Velas!",
+   "td": "Se pide un deseo antes de soplarlas."
+  },
+  {
+   "n": 42,
+   "tema": "fiestas",
+   "ronda": "relampago",
+   "p": "¿Qué cubre la cara en un baile de disfraces?",
+   "o": [
+    "Guante",
+    "Bufanda",
+    "Zapato",
+    "Máscara"
+   ],
+   "c": 3,
+   "d": "Las máscaras de carnaval pueden ser de papel, tela o plumas.",
+   "tp": "¿Qué cubre la cara en un baile de disfraces? ¿Guante, Bufanda, Zapato o Máscara?",
+   "tr": "¡Máscara!",
+   "td": "Las máscaras de carnaval pueden ser de papel, tela o plumas."
+  },
+  {
+   "n": 43,
+   "tema": "fiestas",
+   "ronda": "relampago",
+   "p": "¿Qué explota en colores en Año Nuevo?",
+   "o": [
+    "Fuegos artificiales",
+    "Zapatos",
+    "Mesas",
+    "Pelotas"
+   ],
+   "c": 0,
+   "d": "Suben al cielo y se ven desde muy lejos.",
+   "tp": "¿Qué explota en colores en Año Nuevo? ¿Fuegos artificiales, Zapatos, Mesas o Pelotas?",
+   "tr": "¡Fuegos artificiales!",
+   "td": "Suben al cielo y se ven desde muy lejos."
+  },
+  {
+   "n": 44,
+   "tema": "fiestas",
+   "ronda": "relampago",
+   "p": "¿Qué se talla en Halloween?",
+   "o": [
+    "Piña",
+    "Pera",
+    "Papa",
+    "Calabaza"
+   ],
+   "c": 3,
+   "d": "Se le hace una cara y se le pone una vela dentro.",
+   "tp": "¿Qué se talla en Halloween? ¿Piña, Pera, Papa o Calabaza?",
+   "tr": "¡Calabaza!",
+   "td": "Se le hace una cara y se le pone una vela dentro."
+  },
+  {
+   "n": 45,
+   "tema": "fiestas",
+   "ronda": "relampago",
+   "p": "¿Qué va en lo alto del árbol de Navidad?",
+   "o": [
+    "Zapato",
+    "Estrella",
+    "Sombrero",
+    "Pelota"
+   ],
+   "c": 1,
+   "d": "La estrella suele ser lo último que se coloca.",
+   "tp": "¿Qué va en lo alto del árbol de Navidad? ¿Zapato, Estrella, Sombrero o Pelota?",
+   "tr": "¡Estrella!",
+   "td": "La estrella suele ser lo último que se coloca."
+  },
+  {
+   "n": 46,
+   "tema": "comida",
+   "p": "¿Qué pan decorado con huesitos se come en México para el Día de Muertos?",
+   "o": [
+    "Churros",
+    "Baguette",
+    "Rosca",
+    "Pan de muerto"
+   ],
+   "c": 3,
+   "d": "Es un pan dulce, redondo, con tiras de masa que parecen huesos.",
+   "tp": "¿Qué pan decorado con huesitos se come en México para el Día de Muertos? ¿Churros, Baguette, Rosca o Pan de muerto?",
+   "tr": "¡El pan de muerto!",
+   "td": "Es un pan dulce, redondo, con tiras de masa que parecen huesos.",
+   "o_fotos": [
+    {
+     "q": "churros",
+     "src": "px"
+    },
+    {
+     "q": "baguette",
+     "src": "px"
+    },
+    {
+     "q": "sweet bread ring",
+     "src": "px"
+    },
+    {
+     "q": "pan de muerto",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "tema": "fiestas",
+   "p": "¿Qué país celebra el Hanami, mirando los cerezos en flor?",
+   "o": [
+    "Japón",
+    "Perú",
+    "Canadá",
+    "Noruega"
+   ],
+   "c": 0,
+   "d": "Hanami significa «mirar las flores» y se hace en primavera, con picnics bajo los árboles.",
+   "tp": "¿Qué país celebra el Hanami, mirando los cerezos en flor? ¿Japón, Perú, Canadá o Noruega?",
+   "tr": "¡Japón!",
+   "td": "Hanami significa «mirar las flores» y se hace en primavera, con picnics bajo los árboles.",
+   "o_fotos": [
+    {
+     "flag": "jp"
+    },
+    {
+     "flag": "pe"
+    },
+    {
+     "flag": "ca"
+    },
+    {
+     "flag": "no"
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "tema": "fiestas",
+   "p": "¿Cuántos animales tiene el zodiaco chino?",
+   "o": [
+    "Seis",
+    "Ocho",
+    "Diez",
+    "Doce"
+   ],
+   "c": 3,
+   "d": "Entre ellos hay rata, buey, tigre, conejo, dragón y serpiente.",
+   "tp": "¿Cuántos animales tiene el zodiaco chino? ¿Seis, Ocho, Diez o Doce?",
+   "tr": "¡Doce!",
+   "td": "Entre ellos hay rata, buey, tigre, conejo, dragón y serpiente."
+  },
+  {
+   "n": 49,
+   "tema": "fiestas",
+   "p": "¿De qué país se popularizó la costumbre de adornar un árbol de Navidad?",
+   "o": [
+    "Alemania",
+    "Italia",
+    "México",
+    "Japón"
+   ],
+   "c": 0,
+   "d": "Esa costumbre se difundió desde Alemania por Europa y América.",
+   "tp": "¿De qué país se popularizó la costumbre de adornar un árbol de Navidad? ¿Alemania, Italia, México o Japón?",
+   "tr": "¡Alemania!",
+   "td": "Esa costumbre se difundió desde Alemania por Europa y América.",
+   "o_fotos": [
+    {
+     "flag": "de"
+    },
+    {
+     "flag": "it"
+    },
+    {
+     "flag": "mx"
+    },
+    {
+     "flag": "jp"
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "tema": "fiestas",
+   "p": "¿Cómo se llama el Festival de las Luces de la India, con lámparas de aceite?",
+   "o": [
+    "Holi",
+    "Hanami",
+    "Diwali",
+    "Tomatina"
+   ],
+   "c": 2,
+   "d": "Durante Diwali se encienden luces y velas en casas y calles.",
+   "tp": "¿Cómo se llama el Festival de las Luces de la India, con lámparas de aceite? ¿Holi, Hanami, Diwali o Tomatina?",
+   "tr": "¡Diwali!",
+   "td": "Durante Diwali se encienden luces y velas en casas y calles."
+  },
+  {
+   "n": 51,
+   "tema": "fiestas",
+   "p": "¿En qué ciudad cae cada Año Nuevo una gran bola de cristal a la medianoche?",
+   "o": [
+    "Miami",
+    "Los Ángeles",
+    "Chicago",
+    "Nueva York"
+   ],
+   "c": 3,
+   "d": "La bola cae en Times Square y la miran millones de personas por la tele.",
+   "tp": "¿En qué ciudad cae cada Año Nuevo una gran bola de cristal a la medianoche? ¿Miami, Los Ángeles, Chicago o Nueva York?",
+   "tr": "¡Nueva York!",
+   "td": "La bola cae en Times Square y la miran millones de personas por la tele."
+  },
+  {
+   "n": 52,
+   "tema": "comida",
+   "p": "¿Qué pan en forma de corona se parte el 6 de enero, con una figurita escondida?",
+   "o": [
+    "Panetón",
+    "Pan de muerto",
+    "Rosca de Reyes",
+    "Baguette"
+   ],
+   "c": 2,
+   "d": "En México, a quien le toca la figurita le toca invitar los tamales el 2 de febrero.",
+   "tp": "¿Qué pan en forma de corona se parte el seis de enero, con una figurita escondida? ¿Panetón, Pan de muerto, Rosca de Reyes o Baguette?",
+   "tr": "¡La rosca de Reyes!",
+   "td": "En México, a quien le toca la figurita le toca invitar los tamales el dos de febrero."
+  },
+  {
+   "n": 53,
+   "tema": "latinoamérica",
+   "p": "¿En qué país se elevan los barriletes gigantes de Sumpango cada 1 de noviembre?",
+   "o": [
+    "Perú",
+    "Cuba",
+    "Honduras",
+    "Guatemala"
+   ],
+   "c": 3,
+   "d": "Son cometas enormes, de colores, que se elevan el Día de Todos los Santos.",
+   "tp": "¿En qué país se elevan los barriletes gigantes de Sumpango cada uno de noviembre? ¿Perú, Cuba, Honduras o Guatemala?",
+   "tr": "¡Guatemala!",
+   "td": "Son cometas enormes, de colores, que se elevan el Día de Todos los Santos.",
+   "o_fotos": [
+    {
+     "flag": "pe"
+    },
+    {
+     "flag": "cu"
+    },
+    {
+     "flag": "hn"
+    },
+    {
+     "flag": "gt"
+    }
+   ]
+  },
+  {
+   "n": 54,
+   "tema": "latinoamérica",
+   "p": "¿En qué ciudad de Argentina se celebra la Fiesta de la Vendimia cada marzo?",
+   "o": [
+    "Mendoza",
+    "Salta",
+    "Rosario",
+    "Ushuaia"
+   ],
+   "c": 0,
+   "d": "La fiesta agradece la cosecha de la uva y elige una reina de la vendimia.",
+   "tp": "¿En qué ciudad de Argentina se celebra la Fiesta de la Vendimia cada marzo? ¿Mendoza, Salta, Rosario o Ushuaia?",
+   "tr": "¡Mendoza!",
+   "td": "La fiesta agradece la cosecha de la uva y elige una reina de la vendimia."
+  },
+  {
+   "n": 55,
+   "tema": "latinoamérica",
+   "p": "¿Cuántos días dura la novena de Navidad en Colombia?",
+   "o": [
+    "Siete",
+    "Nueve",
+    "Doce",
+    "Quince"
+   ],
+   "c": 1,
+   "d": "Se reza y se canta del 16 al 24 de diciembre, con buñuelos y natilla.",
+   "tp": "¿Cuántos días dura la novena de Navidad en Colombia? ¿Siete, Nueve, Doce o Quince?",
+   "tr": "¡Nueve!",
+   "td": "Se reza y se canta del dieciséis al veinticuatro de diciembre, con buñuelos y natilla."
+  },
+  {
+   "n": 56,
+   "tema": "música",
+   "p": "¿Qué instrumento andino de varias cañas se toca en las fiestas del Perú?",
+   "o": [
+    "Zampoña",
+    "Violín",
+    "Trompeta",
+    "Piano"
+   ],
+   "c": 0,
+   "d": "La zampoña, o siku, se toca en fiestas de los Andes desde hace siglos.",
+   "tp": "¿Qué instrumento andino de varias cañas se toca en las fiestas del Perú? ¿Zampoña, Violín, Trompeta o Piano?",
+   "tr": "¡La zampoña!",
+   "td": "La zampoña, o siku, se toca en fiestas de los Andes desde hace siglos.",
+   "o_fotos": [
+    {
+     "q": "Zampoña panpipes Andean",
+     "src": "cm"
+    },
+    {
+     "q": "violin",
+     "src": "px"
+    },
+    {
+     "q": "trumpet",
+     "src": "px"
+    },
+    {
+     "q": "piano",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 57,
+   "tema": "perú",
+   "p": "¿Qué usan los bailarines de la Danza de las Tijeras, de los Andes?",
+   "o": [
+    "Pañuelos",
+    "Sonajas",
+    "Bastones",
+    "Tijeras de metal"
+   ],
+   "c": 3,
+   "d": "La UNESCO declaró esta danza patrimonio inmaterial de la humanidad en 2010.",
+   "tp": "¿Qué usan los bailarines de la Danza de las Tijeras, de los Andes? ¿Pañuelos, Sonajas, Bastones o Tijeras de metal?",
+   "tr": "¡Tijeras de metal!",
+   "td": "La UNESCO declaró esta danza patrimonio inmaterial de la humanidad en dos mil diez."
+  },
+  {
+   "n": 58,
+   "tema": "fiestas",
+   "p": "¿Qué país europeo celebra el Midsommar, bailando alrededor de un palo con flores?",
+   "o": [
+    "España",
+    "Portugal",
+    "Suecia",
+    "Grecia"
+   ],
+   "c": 2,
+   "d": "Se celebra en el día más largo del año, a fines de junio.",
+   "tp": "¿Qué país europeo celebra el Midsommar, bailando alrededor de un palo con flores? ¿España, Portugal, Suecia o Grecia?",
+   "tr": "¡Suecia!",
+   "td": "Se celebra en el día más largo del año, a fines de junio.",
+   "o_fotos": [
+    {
+     "flag": "es"
+    },
+    {
+     "flag": "pt"
+    },
+    {
+     "flag": "se"
+    },
+    {
+     "flag": "gr"
+    }
+   ]
+  },
+  {
+   "n": 59,
+   "tema": "latinoamérica",
+   "p": "¿En qué mes celebra México el Grito de Independencia?",
+   "o": [
+    "Marzo",
+    "Junio",
+    "Septiembre",
+    "Diciembre"
+   ],
+   "c": 2,
+   "d": "Cada noche del 15 de septiembre se grita «¡Viva México!» desde el balcón del Palacio Nacional.",
+   "tp": "¿En qué mes celebra México el Grito de Independencia? ¿Marzo, Junio, Septiembre o Diciembre?",
+   "tr": "¡Septiembre!",
+   "td": "Cada noche del quince de septiembre se grita «¡Viva México!» desde el balcón del Palacio Nacional."
+  },
+  {
+   "n": 60,
+   "tema": "música",
+   "p": "¿Qué canción mexicana se canta a quien cumple años, a veces al amanecer?",
+   "o": [
+    "Cielito lindo",
+    "Las mañanitas",
+    "La bamba",
+    "Guantanamera"
+   ],
+   "c": 1,
+   "d": "Muchas familias la cantan con guitarras o con mariachis.",
+   "tp": "¿Qué canción mexicana se canta a quien cumple años, a veces al amanecer? ¿Cielito lindo, Las mañanitas, La bamba o Guantanamera?",
+   "tr": "¡Las mañanitas!",
+   "td": "Muchas familias la cantan con guitarras o con mariachis."
+  },
+  {
+   "n": 61,
+   "tema": "comida",
+   "p": "¿Qué pasteles redondos se comen en China en la fiesta de la luna llena de otoño?",
+   "o": [
+    "Pasteles de luna",
+    "Tamales",
+    "Buñuelos",
+    "Churros"
+   ],
+   "c": 0,
+   "d": "Se comen en la fiesta del Medio Otoño, cuando la luna está más redonda.",
+   "tp": "¿Qué pasteles redondos se comen en China en la fiesta de la luna llena de otoño? ¿Pasteles de luna, Tamales, Buñuelos o Churros?",
+   "tr": "¡Pasteles de luna!",
+   "td": "Se comen en la fiesta del Medio Otoño, cuando la luna está más redonda.",
+   "o_fotos": [
+    {
+     "q": "mooncake",
+     "src": "px"
+    },
+    {
+     "q": "tamales",
+     "src": "px"
+    },
+    {
+     "q": "fritters",
+     "src": "px"
+    },
+    {
+     "q": "churros",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 62,
+   "tema": "perú",
+   "p": "¿A quién se le agradece con ofrendas cada agosto en los Andes?",
+   "o": [
+    "Al Sol",
+    "A la Pachamama",
+    "A la Luna",
+    "Al Viento"
+   ],
+   "c": 1,
+   "d": "«Pachamama» significa «Madre Tierra» en quechua.",
+   "tp": "¿A quién se le agradece con ofrendas cada agosto en los Andes? ¿Al Sol, A la Pachamama, A la Luna o Al Viento?",
+   "tr": "¡A la Pachamama!",
+   "td": "«Pachamama» significa «Madre Tierra» en quechua."
+  },
+  {
+   "n": 63,
+   "tema": "perú",
+   "p": "¿De qué color es la ropa que se usa en el Perú en Nochevieja para atraer la suerte?",
+   "o": [
+    "Negro",
+    "Gris",
+    "Amarillo",
+    "Marrón"
+   ],
+   "c": 2,
+   "d": "Muchas personas visten algo amarillo para recibir el año con buena suerte.",
+   "tp": "¿De qué color es la ropa que se usa en el Perú en Nochevieja para atraer la suerte? ¿Negro, Gris, Amarillo o Marrón?",
+   "tr": "¡Amarillo!",
+   "td": "Muchas personas visten algo amarillo para recibir el año con buena suerte."
+  },
+  {
+   "n": 64,
+   "tema": "latinoamérica",
+   "p": "¿Qué llevan algunos, dando la vuelta a la manzana, para tener viajes en el año nuevo?",
+   "o": [
+    "Una maleta",
+    "Un paraguas",
+    "Una escoba",
+    "Una guitarra"
+   ],
+   "c": 0,
+   "d": "Es una costumbre de Nochevieja en varios países de Latinoamérica.",
+   "tp": "¿Qué llevan algunos, dando la vuelta a la manzana, para tener viajes en el año nuevo? ¿Una maleta, Un paraguas, Una escoba o Una guitarra?",
+   "tr": "¡Una maleta!",
+   "td": "Es una costumbre de Nochevieja en varios países de Latinoamérica.",
+   "o_fotos": [
+    {
+     "q": "suitcase",
+     "src": "px"
+    },
+    {
+     "q": "umbrella",
+     "src": "px"
+    },
+    {
+     "q": "broom",
+     "src": "px"
+    },
+    {
+     "q": "guitar",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 65,
+   "tema": "perú",
+   "p": "¿Qué plato de arroz en hoja de bijao se come en la fiesta de San Juan en la selva?",
+   "o": [
+    "Tacacho",
+    "Juane",
+    "Ceviche",
+    "Anticucho"
+   ],
+   "c": 1,
+   "d": "San Juan se celebra el 24 de junio en ciudades de la selva peruana.",
+   "tp": "¿Qué plato de arroz en hoja de bijao se come en la fiesta de San Juan en la selva? ¿Tacacho, Juane, Ceviche o Anticucho?",
+   "tr": "¡El juane!",
+   "td": "San Juan se celebra el veinticuatro de junio en ciudades de la selva peruana."
+  },
+  {
+   "n": 66,
+   "tema": "comida",
+   "ronda": "misteriosa",
+   "p": "¿Qué pan dulce navideño es este, con frutas confitadas?",
+   "o": [
+    "Baguette",
+    "Rosca",
+    "Panetón",
+    "Bizcocho"
+   ],
+   "c": 2,
+   "img_q": "panettone",
+   "img_modo": "pregunta",
+   "d": "En el Perú se come con chocolate caliente en Navidad.",
+   "tp": "¿Qué pan dulce navideño es este, con frutas confitadas? ¿Baguette, Rosca, Panetón o Bizcocho?",
+   "tr": "¡El panetón!",
+   "td": "En el Perú se come con chocolate caliente en Navidad."
+  },
+  {
+   "n": 67,
+   "tema": "fiestas",
+   "ronda": "misteriosa",
+   "p": "¿Qué adornos rojos son estos que cuelgan en el Año Nuevo chino?",
+   "o": [
+    "Globos",
+    "Paraguas",
+    "Faroles",
+    "Banderas"
+   ],
+   "c": 2,
+   "img_q": "red lanterns Chinese New Year",
+   "img_modo": "pregunta",
+   "d": "Los faroles rojos simbolizan la suerte y la felicidad.",
+   "tp": "¿Qué adornos rojos son estos que cuelgan en el Año Nuevo chino? ¿Globos, Paraguas, Faroles o Banderas?",
+   "tr": "¡Los faroles!",
+   "td": "Los faroles rojos simbolizan la suerte y la felicidad."
+  },
+  {
+   "n": 68,
+   "tema": "comida",
+   "ronda": "misteriosa",
+   "p": "¿Qué pan con forma de nudo se come en el Oktoberfest?",
+   "o": [
+    "Baguette",
+    "Pretzel",
+    "Pan de molde",
+    "Cruasán"
+   ],
+   "c": 1,
+   "img_q": "soft pretzel",
+   "img_modo": "pregunta",
+   "d": "En alemán se llama «Brezel» y se come con sal gruesa.",
+   "tp": "¿Qué pan con forma de nudo se come en el Oktoberfest? ¿Baguette, Pretzel, Pan de molde o Cruasán?",
+   "tr": "¡El pretzel!",
+   "td": "En alemán se llama «Brezel» y se come con sal gruesa."
+  },
+  {
+   "n": 69,
+   "tema": "historia",
+   "p": "¿Qué se celebró en la primera Oktoberfest, en 1810?",
+   "o": [
+    "Una cosecha",
+    "Una boda real",
+    "Una victoria",
+    "Un cumpleaños"
+   ],
+   "c": 1,
+   "d": "Fue la boda del príncipe Luis de Baviera con Teresa, en Múnich.",
+   "tp": "¿Qué se celebró en la primera Oktoberfest, en mil ochocientos diez? ¿Una cosecha, Una boda real, Una victoria o Un cumpleaños?",
+   "tr": "¡Una boda real!",
+   "td": "Fue la boda del príncipe Luis de Baviera con Teresa, en Múnich."
+  },
+  {
+   "n": 70,
+   "tema": "fiestas",
+   "p": "¿Qué ciudad de Estados Unidos es famosa por su gran fiesta de Mardi Gras?",
+   "o": [
+    "Boston",
+    "Seattle",
+    "Nueva Orleans",
+    "Denver"
+   ],
+   "c": 2,
+   "d": "«Mardi Gras» significa «martes gordo» en francés.",
+   "tp": "¿Qué ciudad de Estados Unidos es famosa por su gran fiesta de Mardi Gras? ¿Boston, Seattle, Nueva Orleans o Denver?",
+   "tr": "¡Nueva Orleans!",
+   "td": "«Mardi Gras» significa «martes gordo» en francés."
+  },
+  {
+   "n": 71,
+   "tema": "fiestas",
+   "p": "¿Cómo se llama la fiesta de Año Nuevo en Escocia?",
+   "o": [
+    "Beltane",
+    "Samhain",
+    "Hogmanay",
+    "Oktoberfest"
+   ],
+   "c": 2,
+   "d": "Dura varios días y en Edimburgo hay fuegos artificiales y desfiles.",
+   "tp": "¿Cómo se llama la fiesta de Año Nuevo en Escocia? ¿Beltane, Samhain, Hogmanay o Oktoberfest?",
+   "tr": "¡Hogmanay!",
+   "td": "Dura varios días y en Edimburgo hay fuegos artificiales y desfiles."
+  },
+  {
+   "n": 72,
+   "tema": "latinoamérica",
+   "p": "¿Cómo se llaman las fiestas mexicanas de nueve noches antes de Navidad?",
+   "o": [
+    "Los carnavales",
+    "Las posadas",
+    "Las ferias",
+    "Los mariachis"
+   ],
+   "c": 1,
+   "d": "Se hacen del 16 al 24 de diciembre, con cantos, piñata y ponche.",
+   "tp": "¿Cómo se llaman las fiestas mexicanas de nueve noches antes de Navidad? ¿Los carnavales, Las posadas, Las ferias o Los mariachis?",
+   "tr": "¡Las posadas!",
+   "td": "Se hacen del dieciséis al veinticuatro de diciembre, con cantos, piñata y ponche."
+  },
+  {
+   "n": 73,
+   "tema": "latinoamérica",
+   "p": "¿Qué ciudad de Brasil, además de Río, es famosa por su carnaval con «trios eléctricos»?",
+   "o": [
+    "Brasilia",
+    "Curitiba",
+    "Salvador",
+    "Manaos"
+   ],
+   "c": 2,
+   "d": "Los trios eléctricos son camiones con música y escenario que recorren las calles.",
+   "tp": "¿Qué ciudad de Brasil, además de Río, es famosa por su carnaval con «trios eléctricos»? ¿Brasilia, Curitiba, Salvador o Manaos?",
+   "tr": "¡Salvador!",
+   "td": "Los trios eléctricos son camiones con música y escenario que recorren las calles."
+  },
+  {
+   "n": 74,
+   "tema": "perú",
+   "p": "¿Qué ciudad peruana celebra la Fiesta de la Vendimia, con pisadores de uva?",
+   "o": [
+    "Tumbes",
+    "Ica",
+    "Huaraz",
+    "Cusco"
+   ],
+   "c": 1,
+   "d": "La Vendimia de Ica se celebra cada marzo, con desfiles y la elección de una reina.",
+   "tp": "¿Qué ciudad peruana celebra la Fiesta de la Vendimia, con pisadores de uva? ¿Tumbes, Ica, Huaraz o Cusco?",
+   "tr": "¡Ica!",
+   "td": "La Vendimia de Ica se celebra cada marzo, con desfiles y la elección de una reina."
+  },
+  {
+   "n": 75,
+   "tema": "perú",
+   "p": "¿Qué día se celebra en el Perú el Día de la Canción Criolla?",
+   "o": [
+    "28 de julio",
+    "25 de diciembre",
+    "1 de enero",
+    "31 de octubre"
+   ],
+   "c": 3,
+   "d": "La música criolla incluye valses peruanos, polcas y festejos.",
+   "tp": "¿Qué día se celebra en el Perú el Día de la Canción Criolla? ¿veintiocho de julio, veinticinco de diciembre, uno de enero o treinta y uno de octubre?",
+   "tr": "¡El treinta y uno de octubre!",
+   "td": "La música criolla incluye valses peruanos, polcas y festejos."
+  },
+  {
+   "n": 76,
+   "tema": "latinoamérica",
+   "p": "¿En qué estado de México se celebra la Guelaguetza, una gran fiesta de danzas?",
+   "o": [
+    "Yucatán",
+    "Sonora",
+    "Jalisco",
+    "Oaxaca"
+   ],
+   "c": 3,
+   "d": "Se celebra en julio, en el cerro del Fortín, con danzas de las regiones del estado.",
+   "tp": "¿En qué estado de México se celebra la Guelaguetza, una gran fiesta de danzas? ¿Yucatán, Sonora, Jalisco o Oaxaca?",
+   "tr": "¡Oaxaca!",
+   "td": "Se celebra en julio, en el cerro del Fortín, con danzas de las regiones del estado."
+  },
+  {
+   "n": 77,
+   "tema": "latinoamérica",
+   "p": "¿Qué ciudad de Colombia es famosa por la Feria de las Flores y sus silleteros?",
+   "o": [
+    "Cali",
+    "Cartagena",
+    "Medellín",
+    "Bogotá"
+   ],
+   "c": 2,
+   "d": "Los silleteros llevan en la espalda enormes arreglos de flores durante un desfile.",
+   "tp": "¿Qué ciudad de Colombia es famosa por la Feria de las Flores y sus silleteros? ¿Cali, Cartagena, Medellín o Bogotá?",
+   "tr": "¡Medellín!",
+   "td": "Los silleteros llevan en la espalda enormes arreglos de flores durante un desfile."
+  },
+  {
+   "n": 78,
+   "tema": "música",
+   "p": "¿Qué ritmo de tambores es el alma del carnaval de Uruguay, patrimonio de la UNESCO?",
+   "o": [
+    "Cueca",
+    "Joropo",
+    "Candombe",
+    "Bomba"
+   ],
+   "c": 2,
+   "d": "La UNESCO reconoció el candombe como patrimonio inmaterial en 2009.",
+   "tp": "¿Qué ritmo de tambores es el alma del carnaval de Uruguay, patrimonio de la UNESCO? ¿Cueca, Joropo, Candombe o Bomba?",
+   "tr": "¡El candombe!",
+   "td": "La UNESCO reconoció el candombe como patrimonio inmaterial en dos mil nueve."
+  },
+  {
+   "n": 79,
+   "tema": "fiestas",
+   "p": "¿Qué cuelgan los japoneses en ramas de bambú en la fiesta de Tanabata?",
+   "o": [
+    "Deseos en papelitos",
+    "Calcetines",
+    "Frutas",
+    "Campanas"
+   ],
+   "c": 0,
+   "d": "Tanabata se celebra el 7 de julio y se escriben deseos en tiras de colores.",
+   "tp": "¿Qué cuelgan los japoneses en ramas de bambú en la fiesta de Tanabata? ¿Deseos en papelitos, Calcetines, Frutas o Campanas?",
+   "tr": "¡Deseos en papelitos!",
+   "td": "Tanabata se celebra el siete de julio y se escriben deseos en tiras de colores."
+  },
+  {
+   "n": 80,
+   "tema": "fiestas",
+   "p": "¿Qué ciudad alemana es famosa por su mercado navideño, el Christkindlesmarkt?",
+   "o": [
+    "Hamburgo",
+    "Berlín",
+    "Bonn",
+    "Núremberg"
+   ],
+   "c": 3,
+   "d": "Es uno de los mercados de Navidad más famosos y antiguos de Alemania.",
+   "tp": "¿Qué ciudad alemana es famosa por su mercado navideño, el Christkindlesmarkt? ¿Hamburgo, Berlín, Bonn o Núremberg?",
+   "tr": "¡Núremberg!",
+   "td": "Es uno de los mercados de Navidad más famosos y antiguos de Alemania."
+  },
+  {
+   "n": 81,
+   "tema": "latinoamérica",
+   "ronda": "vf",
+   "p": "En Caracas es tradición ir en patines a las misas de madrugada de diciembre.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Es una tradición caraqueña: la gente rueda en patines hacia las misas de diciembre.",
+   "tp": "¿Verdadero o falso? En Caracas es tradición ir en patines a las misas de madrugada de diciembre.",
+   "tr": "¡Verdadero! En Caracas se va en patines.",
+   "td": "Es una tradición caraqueña: la gente rueda en patines hacia las misas de diciembre."
+  },
+  {
+   "n": 82,
+   "tema": "fiestas",
+   "ronda": "vf",
+   "p": "En España, los regalos de los Reyes Magos llegan el 25 de diciembre.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Los Reyes Magos traen los regalos el 6 de enero, no en Navidad.",
+   "tp": "¿Verdadero o falso? En España, los regalos de los Reyes Magos llegan el veinticinco de diciembre.",
+   "tr": "¡Falso! Llegan el seis de enero.",
+   "td": "Los Reyes Magos traen los regalos el seis de enero, no en Navidad."
+  },
+  {
+   "n": 83,
+   "tema": "fiestas",
+   "ronda": "vf",
+   "p": "En Japón es tradición comer pollo frito de KFC en Navidad.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Desde 1974 muchas familias japonesas reservan su pollo frito para Navidad.",
+   "tp": "¿Verdadero o falso? En Japón es tradición comer pollo frito de KFC en Navidad.",
+   "tr": "¡Verdadero! En Japón es una costumbre famosa.",
+   "td": "Desde mil novecientos setenta y cuatro muchas familias japonesas reservan su pollo frito para Navidad."
+  },
+  {
+   "n": 84,
+   "tema": "historia",
+   "p": "¿De qué país dice la tradición holandesa que llega en barco Sinterklaas?",
+   "o": [
+    "Finlandia",
+    "Italia",
+    "Turquía",
+    "España"
+   ],
+   "c": 3,
+   "d": "Llega cada noviembre en barco y trae regalos a los niños de los Países Bajos.",
+   "tp": "¿De qué país dice la tradición holandesa que llega en barco Sinterklaas? ¿Finlandia, Italia, Turquía o España?",
+   "tr": "¡España!",
+   "td": "Llega cada noviembre en barco y trae regalos a los niños de los Países Bajos.",
+   "o_fotos": [
+    {
+     "flag": "fi"
+    },
+    {
+     "flag": "it"
+    },
+    {
+     "flag": "tr"
+    },
+    {
+     "flag": "es"
+    }
+   ]
+  },
+  {
+   "n": 85,
+   "tema": "fiestas",
+   "p": "¿Qué regalan los islandeses en Nochebuena y leen esa misma noche?",
+   "o": [
+    "Libros",
+    "Calcetines",
+    "Pelotas",
+    "Plantas"
+   ],
+   "c": 0,
+   "d": "Esa tradición se llama «Jólabókaflóð», es decir, «el aluvión de libros de Navidad».",
+   "tp": "¿Qué regalan los islandeses en Nochebuena y leen esa misma noche? ¿Libros, Calcetines, Pelotas o Plantas?",
+   "tr": "¡Libros!",
+   "td": "Esa tradición se llama «Jólabókaflóð», es decir, «el aluvión de libros de Navidad».",
+   "o_fotos": [
+    {
+     "q": "books",
+     "src": "px"
+    },
+    {
+     "q": "socks",
+     "src": "px"
+    },
+    {
+     "q": "ball",
+     "src": "px"
+    },
+    {
+     "q": "plant pot",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 86,
+   "tema": "latinoamérica",
+   "p": "¿Qué verdura tallan en Oaxaca el 23 de diciembre en la Noche de Rábanos?",
+   "o": [
+    "Calabaza",
+    "Rábano",
+    "Zanahoria",
+    "Papa"
+   ],
+   "c": 1,
+   "d": "Los artistas tallan rábanos enormes para hacer escenas de Navidad.",
+   "tp": "¿Qué verdura tallan en Oaxaca el veintitrés de diciembre en la Noche de Rábanos? ¿Calabaza, Rábano, Zanahoria o Papa?",
+   "tr": "¡El rábano!",
+   "td": "Los artistas tallan rábanos enormes para hacer escenas de Navidad.",
+   "o_fotos": [
+    {
+     "q": "pumpkin",
+     "src": "px"
+    },
+    {
+     "q": "radish",
+     "src": "px"
+    },
+    {
+     "q": "carrot",
+     "src": "px"
+    },
+    {
+     "q": "potato",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 87,
+   "tema": "latinoamérica",
+   "p": "¿Qué se vende en la feria de Alasitas de La Paz, para atraer la abundancia?",
+   "o": [
+    "Flores secas",
+    "Zapatos viejos",
+    "Objetos en miniatura",
+    "Cometas"
+   ],
+   "c": 2,
+   "d": "Se celebra el 24 de enero y se pide un deseo a un muñeco llamado Ekeko.",
+   "tp": "¿Qué se vende en la feria de Alasitas de La Paz, para atraer la abundancia? ¿Flores secas, Zapatos viejos, Objetos en miniatura o Cometas?",
+   "tr": "¡Objetos en miniatura!",
+   "td": "Se celebra el veinticuatro de enero y se pide un deseo a un muñeco llamado Ekeko."
+  },
+  {
+   "n": 88,
+   "tema": "latinoamérica",
+   "p": "¿Qué queman en Ecuador la noche de Año Nuevo para dejar atrás lo malo?",
+   "o": [
+    "Árboles",
+    "Muñecos de año viejo",
+    "Sombreros",
+    "Zapatos"
+   ],
+   "c": 1,
+   "d": "Los muñecos se llaman monigotes y se queman a medianoche.",
+   "tp": "¿Qué queman en Ecuador la noche de Año Nuevo para dejar atrás lo malo? ¿Árboles, Muñecos de año viejo, Sombreros o Zapatos?",
+   "tr": "¡Los muñecos de año viejo!",
+   "td": "Los muñecos se llaman monigotes y se queman a medianoche."
+  },
+  {
+   "n": 89,
+   "tema": "fiestas",
+   "p": "¿En qué estación del año comienza el Nowruz, el Año Nuevo persa?",
+   "o": [
+    "Primavera",
+    "Verano",
+    "Otoño",
+    "Invierno"
+   ],
+   "c": 0,
+   "d": "Se celebra en el equinoccio de primavera, con una mesa de objetos simbólicos.",
+   "tp": "¿En qué estación del año comienza el Nowruz, el Año Nuevo persa? ¿Primavera, Verano, Otoño o Invierno?",
+   "tr": "¡En primavera!",
+   "td": "Se celebra en el equinoccio de primavera, con una mesa de objetos simbólicos."
+  },
+  {
+   "n": 90,
+   "tema": "latinoamérica",
+   "p": "¿Qué día se celebran las fiestas patrias de Chile, con empanadas y cueca?",
+   "o": [
+    "18 de septiembre",
+    "28 de julio",
+    "9 de julio",
+    "16 de septiembre"
+   ],
+   "c": 0,
+   "d": "La cueca es el baile nacional de Chile y se baila con pañuelos.",
+   "tp": "¿Qué día se celebran las fiestas patrias de Chile, con empanadas y cueca? ¿dieciocho de septiembre, veintiocho de julio, nueve de julio o dieciséis de septiembre?",
+   "tr": "¡El dieciocho de septiembre!",
+   "td": "La cueca es el baile nacional de Chile y se baila con pañuelos."
+  },
+  {
+   "n": 91,
+   "tema": "fiestas",
+   "p": "¿Qué fiesta de Corea se celebra con la luna llena del otoño?",
+   "o": [
+    "Hanami",
+    "Holi",
+    "Songkran",
+    "Chuseok"
+   ],
+   "c": 3,
+   "d": "Se comen songpyeon, pastelitos de arroz rellenos, y se agradece la cosecha.",
+   "tp": "¿Qué fiesta de Corea se celebra con la luna llena del otoño? ¿Hanami, Holi, Songkran o Chuseok?",
+   "tr": "¡Chuseok!",
+   "td": "Se comen songpyeon, pastelitos de arroz rellenos, y se agradece la cosecha."
+  },
+  {
+   "n": 92,
+   "tema": "latinoamérica",
+   "p": "¿Qué días se celebra el Día de Muertos en México?",
+   "o": [
+    "5 y 6 de enero",
+    "1 y 2 de noviembre",
+    "14 y 15 de febrero",
+    "15 y 16 de septiembre"
+   ],
+   "c": 1,
+   "d": "El primer día se recuerda a los niños y el segundo, a los adultos.",
+   "tp": "¿Qué días se celebra el Día de Muertos en México? ¿cinco y seis de enero, uno y dos de noviembre, catorce y quince de febrero o quince y dieciséis de septiembre?",
+   "tr": "¡El uno y dos de noviembre!",
+   "td": "El primer día se recuerda a los niños y el segundo, a los adultos."
+  },
+  {
+   "n": 93,
+   "tema": "fiestas",
+   "p": "¿En qué país se hace el Carnaval de Binche, donde los Gilles lanzan naranjas?",
+   "o": [
+    "Perú",
+    "Bélgica",
+    "Japón",
+    "Polonia"
+   ],
+   "c": 1,
+   "d": "Los Gilles bailan con grandes sombreros de plumas y lanzan naranjas a la gente.",
+   "tp": "¿En qué país se hace el Carnaval de Binche, donde los Gilles lanzan naranjas? ¿Perú, Bélgica, Japón o Polonia?",
+   "tr": "¡Bélgica!",
+   "td": "Los Gilles bailan con grandes sombreros de plumas y lanzan naranjas a la gente.",
+   "o_fotos": [
+    {
+     "flag": "pe"
+    },
+    {
+     "flag": "be"
+    },
+    {
+     "flag": "jp"
+    },
+    {
+     "flag": "pl"
+    }
+   ]
+  },
+  {
+   "n": 94,
+   "tema": "música",
+   "p": "¿En qué país se celebra cada febrero el Festival de la Canción de Viña del Mar?",
+   "o": [
+    "Chile",
+    "Perú",
+    "Cuba",
+    "España"
+   ],
+   "c": 0,
+   "d": "Es uno de los festivales de música más famosos de Latinoamérica.",
+   "tp": "¿En qué país se celebra cada febrero el Festival de la Canción de Viña del Mar? ¿Chile, Perú, Cuba o España?",
+   "tr": "¡Chile!",
+   "td": "Es uno de los festivales de música más famosos de Latinoamérica."
+  },
+  {
+   "n": 95,
+   "tema": "perú",
+   "p": "¿Qué fecha marca el Año Nuevo Andino, junto al solsticio de invierno en el sur?",
+   "o": [
+    "1 de enero",
+    "24 de diciembre",
+    "1 de mayo",
+    "21 de junio"
+   ],
+   "c": 3,
+   "d": "Para muchas culturas andinas, ese día el Sol «renace» y empieza un nuevo ciclo.",
+   "tp": "¿Qué fecha marca el Año Nuevo Andino, junto al solsticio de invierno en el sur? ¿uno de enero, veinticuatro de diciembre, uno de mayo o veintiuno de junio?",
+   "tr": "¡El veintiuno de junio!",
+   "td": "Para muchas culturas andinas, ese día el Sol «renace» y empieza un nuevo ciclo."
+  },
+  {
+   "n": 96,
+   "tema": "fiestas",
+   "p": "¿En qué país asiático la temporada de Navidad empieza en septiembre?",
+   "o": [
+    "Japón",
+    "Filipinas",
+    "India",
+    "Mongolia"
+   ],
+   "c": 1,
+   "d": "Es famosa por ser una de las temporadas navideñas más largas del mundo.",
+   "tp": "¿En qué país asiático la temporada de Navidad empieza en septiembre? ¿Japón, Filipinas, India o Mongolia?",
+   "tr": "¡Filipinas!",
+   "td": "Es famosa por ser una de las temporadas navideñas más largas del mundo.",
+   "o_fotos": [
+    {
+     "flag": "jp"
+    },
+    {
+     "flag": "ph"
+    },
+    {
+     "flag": "in"
+    },
+    {
+     "flag": "mn"
+    }
+   ]
+  },
+  {
+   "n": 97,
+   "tema": "historia",
+   "p": "¿En qué país actual nació San Nicolás, el santo que inspiró a Papá Noel?",
+   "o": [
+    "Turquía",
+    "Finlandia",
+    "Alemania",
+    "Estados Unidos"
+   ],
+   "c": 0,
+   "d": "San Nicolás nació hace unos 1.700 años en Patara, hoy parte de Turquía.",
+   "tp": "¿En qué país actual nació San Nicolás, el santo que inspiró a Papá Noel? ¿Turquía, Finlandia, Alemania o Estados Unidos?",
+   "tr": "¡Turquía!",
+   "td": "San Nicolás nació hace unos mil setecientos años en Patara, hoy parte de Turquía.",
+   "o_fotos": [
+    {
+     "flag": "tr"
+    },
+    {
+     "flag": "fi"
+    },
+    {
+     "flag": "de"
+    },
+    {
+     "flag": "us"
+    }
+   ]
+  },
+  {
+   "n": 98,
+   "tema": "música",
+   "p": "¿De qué país es la canción «Noche de paz»?",
+   "o": [
+    "Alemania",
+    "Estados Unidos",
+    "México",
+    "Austria"
+   ],
+   "c": 3,
+   "d": "Se cantó por primera vez en 1818, en una iglesia de la ciudad de Oberndorf.",
+   "tp": "¿De qué país es la canción «Noche de paz»? ¿Alemania, Estados Unidos, México o Austria?",
+   "tr": "¡Austria!",
+   "td": "Se cantó por primera vez en mil ochocientos dieciocho, en una iglesia de la ciudad de Oberndorf.",
+   "o_fotos": [
+    {
+     "flag": "de"
+    },
+    {
+     "flag": "us"
+    },
+    {
+     "flag": "mx"
+    },
+    {
+     "flag": "at"
+    }
+   ]
+  },
+  {
+   "n": 99,
+   "tema": "historia",
+   "p": "¿Qué antigua fiesta romana de diciembre tenía banquetes y regalos, como la Navidad?",
+   "o": [
+    "Lupercales",
+    "Bacanales",
+    "Saturnales",
+    "Olimpiadas"
+   ],
+   "c": 2,
+   "d": "En las Saturnales de la antigua Roma había banquetes, regalos y juegos.",
+   "tp": "¿Qué antigua fiesta romana de diciembre tenía banquetes y regalos, como la Navidad? ¿Lupercales, Bacanales, Saturnales o Olimpiadas?",
+   "tr": "¡Las Saturnales!",
+   "td": "En las Saturnales de la antigua Roma había banquetes, regalos y juegos."
+  },
+  {
+   "n": 100,
+   "tema": "perú",
+   "p": "¿En qué año volvió a representarse el Inti Raymi en el Cusco, tras siglos sin celebrarse?",
+   "o": [
+    "1821",
+    "1960",
+    "1944",
+    "1900"
+   ],
+   "c": 2,
+   "d": "Los españoles lo prohibieron hace más de 400 años y se recreó de nuevo en 1944.",
+   "tp": "¿En qué año volvió a representarse el Inti Raymi en el Cusco, tras siglos sin celebrarse? ¿mil ochocientos veintiuno, mil novecientos sesenta, mil novecientos cuarenta y cuatro o mil novecientos?",
+   "tr": "¡En mil novecientos cuarenta y cuatro!",
+   "td": "Los españoles lo prohibieron hace más de cuatrocientos años y se recreó de nuevo en mil novecientos cuarenta y cuatro."
+  }
+ ],
+ "extra_tts": {
+  "an_tema": [
+   "anunciador",
+   "Hoy jugamos: ¡fiestas, tradiciones y celebraciones del mundo!"
+  ],
+  "pr_intro": [
+   "presentador",
+   "¡Hola, familia! Hoy viajamos por las fiestas del mundo con cien preguntas de carnavales, comidas y tradiciones. ¿Llegarán a la última sin perder el ritmo?"
+  ],
+  "co_intro": [
+   "copresentadora",
+   "Hay piñatas, fuegos artificiales y hasta un pan con forma de corona. ¡MAX quiere ir a todas las fiestas, pero sin mojarse!"
+  ],
+  "co_fama": [
+   "copresentadora",
+   "¡Un aplauso para los mejores jugadores del episodio anterior! Sus nombres brillan en pantalla."
+  ],
+  "charla05_pr": [
+   "presentador",
+   "¡Un conejo con huevos de chocolate y una piñata llena de dulces! Yo me quedo con la piñata."
+  ],
+  "charla05_co": [
+   "copresentadora",
+   "Pero sin palo, MAX. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla10_pr": [
+   "presentador",
+   "¡Doce uvas en doce campanadas! Yo me atraganto solo de pensarlo."
+  ],
+  "charla10_co": [
+   "copresentadora",
+   "Despacito, MAX. Ahora vienen tres fotos misteriosas, que se aclaran con el reloj. ¡Atentos, familia!"
+  ],
+  "charla15_pr": [
+   "presentador",
+   "¡Venecia, Sídney y Río en un ratito! Mi pasaporte de robot ya está lleno."
+  ],
+  "charla15_co": [
+   "copresentadora",
+   "Y sin salir del estudio, MAX. Familia, ¿cómo va su puntaje?"
+  ],
+  "charla20_pr": [
+   "presentador",
+   "¡Polvos de colores y flores naranjas! Hoy hasta mis tornillos se sienten de fiesta."
+  ],
+  "charla20_co": [
+   "copresentadora",
+   "Cuidado con ensuciarte, MAX. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla25_pr": [
+   "presentador",
+   "¡Dos afirmaciones y los fuegos artificiales de China! Yo dudo hasta de mi sombra."
+  ],
+  "charla25_co": [
+   "copresentadora",
+   "Queda una más, MAX. Familia, ¿verdadero o falso? ¡Atentos!"
+  ],
+  "charla30_pr": [
+   "presentador",
+   "¡Tomates volando en España y figuras de cartón en llamas! Yo me escondo."
+  ],
+  "charla30_co": [
+   "copresentadora",
+   "Tranquilo, MAX, es solo una fiesta. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla35_pr": [
+   "presentador",
+   "¡Marinera, diablada y carnaval de Barranquilla! Se me mueven hasta los engranajes."
+  ],
+  "charla35_co": [
+   "copresentadora",
+   "Entonces baila, MAX. Familia, ¿cómo va su puntaje?"
+  ],
+  "charla40_pr": [
+   "presentador",
+   "¡Tamales, caramelos y faroles flotando en el agua! Qué banquete de ideas."
+  ],
+  "charla40_co": [
+   "copresentadora",
+   "Ahora viene la ronda relámpago, MAX: ¡cinco segundos por pregunta! ¡Atentos, familia!"
+  ],
+  "charla45_pr": [
+   "presentador",
+   "¡Cinco preguntas en un abrir y cerrar de ojos! Mis circuitos echan chispas."
+  ],
+  "charla45_co": [
+   "copresentadora",
+   "Quien acertó todas merece un aplauso gigante. ¡Sigamos, familia!"
+  ],
+  "charla50_pr": [
+   "presentador",
+   "¡Cerezos en flor y doce animales del zodiaco! Yo sería el robot del año."
+  ],
+  "charla50_co": [
+   "copresentadora",
+   "Ya vamos por la mitad, MAX. Familia, ¡revisen el ranking del celular!"
+  ],
+  "charla55_pr": [
+   "presentador",
+   "¡Una bola de cristal que cae y cometas gigantes de Guatemala!"
+  ],
+  "charla55_co": [
+   "copresentadora",
+   "Y quedan cuarenta y cinco, MAX. Familia, ¿cómo va su puntaje?"
+  ],
+  "charla60_pr": [
+   "presentador",
+   "¡Una zampoña, una danza con tijeras y las mañanitas! Hoy sí hay música."
+  ],
+  "charla60_co": [
+   "copresentadora",
+   "Y suena muy bien, MAX. Familia, ¡sigan sumando puntos!"
+  ],
+  "charla65_pr": [
+   "presentador",
+   "¡Ropa amarilla, maletas y pasteles de luna! Yo me voy de viaje."
+  ],
+  "charla65_co": [
+   "copresentadora",
+   "Primero pasa por tres fotos misteriosas, MAX. ¡Atentos, familia, que se aclaran con el reloj!"
+  ],
+  "charla70_pr": [
+   "presentador",
+   "¡Un pretzel, un panetón y una boda real en Múnich! Tengo hambre de datos."
+  ],
+  "charla70_co": [
+   "copresentadora",
+   "Quedan treinta, MAX. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla75_pr": [
+   "presentador",
+   "¡Posadas, vendimia en Ica y la canción criolla! Qué fiestas más sabrosas."
+  ],
+  "charla75_co": [
+   "copresentadora",
+   "Y bastante difíciles, MAX. Familia, ¿cómo va su puntaje?"
+  ],
+  "charla80_pr": [
+   "presentador",
+   "¡Silleteros con flores y un mercado de Navidad en Núremberg!"
+  ],
+  "charla80_co": [
+   "copresentadora",
+   "Ahora vienen tres afirmaciones, MAX: ¿verdadero o falso? ¡Atentos, familia!"
+  ],
+  "charla85_pr": [
+   "presentador",
+   "¡Patines en Caracas, pollo frito en Japón y libros en Islandia! Qué costumbres más originales."
+  ],
+  "charla85_co": [
+   "copresentadora",
+   "Algunas rarísimas, MAX. Familia, ¿cómo va su puntaje?"
+  ],
+  "charla90_pr": [
+   "presentador",
+   "¡Rábanos tallados y muñecos que se queman! Qué creativos son en el mundo."
+  ],
+  "charla90_co": [
+   "copresentadora",
+   "Quedan diez, MAX. Familia, ¡abran el ranking del celular!"
+  ],
+  "charla95_pr": [
+   "presentador",
+   "¡Naranjas voladoras en Bélgica! Yo prefiero atraparlas con mis manos de robot."
+  ],
+  "charla95_co": [
+   "copresentadora",
+   "Quedan cinco, MAX. Familia, ¡concentración total para el final!"
+  ],
+  "pr_cierre": [
+   "presentador",
+   "¡Llegamos al final de las fiestas del mundo, familia! Cuéntennos en los comentarios cuántas respondieron bien y cuál fue su puntaje. ¡Gracias por jugar!"
+  ]
+ },
+ "fotos_miniatura": [
+  [
+   4,
+   0
+  ],
+  [
+   20,
+   2
+  ],
+  [
+   38,
+   2
+  ],
+  [
+   3,
+   3
+  ],
+  [
+   36,
+   0
+  ]
+ ]
 }

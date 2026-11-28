@@ -755,6 +755,735 @@
    "tp": "¿Qué se forma cuando una nube suelta agua? ¿Hielo, Lluvia, Niebla o Nieve?",
    "tr": "¡Lluvia!",
    "td": "La lluvia nace de gotitas que se juntan dentro de las nubes."
+  },
+  {
+   "n": 41,
+   "tema": "geografía",
+   "ronda": "relampago",
+   "p": "¿Qué continente tiene más países?",
+   "o": [
+    "Asia",
+    "África",
+    "Europa",
+    "América"
+   ],
+   "c": 1,
+   "d": "África tiene más de 50 países.",
+   "tp": "¿Qué continente tiene más países? ¿Asia, África, Europa o América?",
+   "tr": "¡África!",
+   "td": "África tiene más de cincuenta países."
+  },
+  {
+   "n": 42,
+   "tema": "ciencia",
+   "ronda": "relampago",
+   "p": "¿Qué planeta tenemos bajo los pies?",
+   "o": [
+    "Marte",
+    "Tierra",
+    "Venus",
+    "Júpiter"
+   ],
+   "c": 1,
+   "d": "La Tierra es el tercer planeta desde el Sol.",
+   "tp": "¿Qué planeta tenemos bajo los pies? ¿Marte, Tierra, Venus o Júpiter?",
+   "tr": "¡La Tierra!",
+   "td": "La Tierra es el tercer planeta desde el Sol."
+  },
+  {
+   "n": 43,
+   "tema": "deportes",
+   "ronda": "relampago",
+   "p": "¿Qué deporte usa raqueta y red?",
+   "o": [
+    "Fútbol",
+    "Natación",
+    "Boxeo",
+    "Tenis"
+   ],
+   "c": 3,
+   "d": "En el tenis se juega con una pelota amarilla.",
+   "tp": "¿Qué deporte usa raqueta y red? ¿Fútbol, Natación, Boxeo o Tenis?",
+   "tr": "¡Tenis!",
+   "td": "En el tenis se juega con una pelota amarilla."
+  },
+  {
+   "n": 44,
+   "tema": "animales",
+   "ronda": "relampago",
+   "p": "¿Qué animal dice «cuac»?",
+   "o": [
+    "Gato",
+    "Pato",
+    "Vaca",
+    "Caballo"
+   ],
+   "c": 1,
+   "d": "Los patos tienen plumas que repelen el agua.",
+   "tp": "¿Qué animal dice «cuac»? ¿Gato, Pato, Vaca o Caballo?",
+   "tr": "¡El pato!",
+   "td": "Los patos tienen plumas que repelen el agua."
+  },
+  {
+   "n": 45,
+   "tema": "comida",
+   "ronda": "relampago",
+   "p": "¿De qué fruta vienen las pasas?",
+   "o": [
+    "Pera",
+    "Fresa",
+    "Limón",
+    "Uva"
+   ],
+   "c": 3,
+   "d": "Las pasas son uvas secadas al sol.",
+   "tp": "¿De qué fruta vienen las pasas? ¿Pera, Fresa, Limón o Uva?",
+   "tr": "¡La uva!",
+   "td": "Las pasas son uvas secadas al sol."
+  },
+  {
+   "n": 46,
+   "tema": "geografía",
+   "p": "¿En qué continente está el desierto de Gobi?",
+   "o": [
+    "África",
+    "América",
+    "Asia",
+    "Oceanía"
+   ],
+   "c": 2,
+   "d": "El Gobi está entre Mongolia y China.",
+   "tp": "¿En qué continente está el desierto de Gobi? ¿África, América, Asia o Oceanía?",
+   "tr": "¡En Asia!",
+   "td": "El Gobi está entre Mongolia y China."
+  },
+  {
+   "n": 47,
+   "tema": "historia",
+   "p": "¿Qué navegante llegó a América en 1492 con tres carabelas?",
+   "o": [
+    "Cristóbal Colón",
+    "Magallanes",
+    "Marco Polo",
+    "Vasco da Gama"
+   ],
+   "c": 0,
+   "d": "Sus tres barcos fueron la Pinta, la Niña y la Santa María.",
+   "tp": "¿Qué navegante llegó a América en mil cuatrocientos noventa y dos con tres carabelas? ¿Cristóbal Colón, Magallanes, Marco Polo o Vasco da Gama?",
+   "tr": "¡Cristóbal Colón!",
+   "td": "Sus tres barcos fueron la Pinta, la Niña y la Santa María."
+  },
+  {
+   "n": 48,
+   "tema": "animales",
+   "p": "¿Cuántos pares de patas tiene un cangrejo?",
+   "o": [
+    "Dos",
+    "Tres",
+    "Cuatro",
+    "Cinco"
+   ],
+   "c": 3,
+   "d": "Entre sus cinco pares de patas están las dos pinzas.",
+   "tp": "¿Cuántos pares de patas tiene un cangrejo? ¿Dos, Tres, Cuatro o Cinco?",
+   "tr": "¡Cinco!",
+   "td": "Entre sus cinco pares de patas están las dos pinzas."
+  },
+  {
+   "n": 49,
+   "tema": "animales",
+   "p": "¿Qué ave grande no vuela, pero corre muy rápido?",
+   "o": [
+    "Gallina",
+    "Avestruz",
+    "Pingüino",
+    "Pato"
+   ],
+   "c": 1,
+   "d": "El avestruz puede correr a unos 70 kilómetros por hora.",
+   "tp": "¿Qué ave grande no vuela, pero corre muy rápido? ¿Gallina, Avestruz, Pingüino o Pato?",
+   "tr": "¡El avestruz!",
+   "td": "El avestruz puede correr a unos setenta kilómetros por hora.",
+   "o_fotos": [
+    {
+     "q": "hen",
+     "src": "px"
+    },
+    {
+     "q": "ostrich",
+     "src": "px"
+    },
+    {
+     "q": "penguin",
+     "src": "px"
+    },
+    {
+     "q": "duck",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "tema": "música",
+   "p": "¿Cuántas notas tiene la escala: do, re, mi, fa, sol, la, si?",
+   "o": [
+    "Cinco",
+    "Seis",
+    "Siete",
+    "Nueve"
+   ],
+   "c": 2,
+   "d": "Después de «si» la escala vuelve a empezar con otro «do».",
+   "tp": "¿Cuántas notas tiene la escala: do, re, mi, fa, sol, la, si? ¿Cinco, Seis, Siete o Nueve?",
+   "tr": "¡Siete!",
+   "td": "Después de «si» la escala vuelve a empezar con otro «do»."
+  },
+  {
+   "n": 51,
+   "tema": "inventos",
+   "p": "¿Qué aparato inventado por Alexander Graham Bell nos permite hablar a distancia?",
+   "o": [
+    "Martillo",
+    "Teléfono",
+    "Tijera",
+    "Reloj"
+   ],
+   "c": 1,
+   "d": "Bell patentó el teléfono en 1876.",
+   "tp": "¿Qué aparato inventado por Alexander Graham Bell nos permite hablar a distancia? ¿Martillo, Teléfono, Tijera o Reloj?",
+   "tr": "¡El teléfono!",
+   "td": "Bell patentó el teléfono en mil ochocientos setenta y seis."
+  },
+  {
+   "n": 52,
+   "tema": "geografía",
+   "p": "¿Qué país europeo tiene como capital a Lisboa?",
+   "o": [
+    "España",
+    "Grecia",
+    "Portugal",
+    "Polonia"
+   ],
+   "c": 2,
+   "d": "Lisboa está junto a la desembocadura del río Tajo.",
+   "tp": "¿Qué país europeo tiene como capital a Lisboa? ¿España, Grecia, Portugal o Polonia?",
+   "tr": "¡Portugal!",
+   "td": "Lisboa está junto a la desembocadura del río Tajo.",
+   "o_fotos": [
+    {
+     "flag": "es"
+    },
+    {
+     "flag": "gr"
+    },
+    {
+     "flag": "pt"
+    },
+    {
+     "flag": "pl"
+    }
+   ]
+  },
+  {
+   "n": 53,
+   "tema": "deportes",
+   "p": "¿Qué deporte se juega golpeando una pelota con palos para meterla en hoyos?",
+   "o": [
+    "Golf",
+    "Polo",
+    "Críquet",
+    "Hockey"
+   ],
+   "c": 0,
+   "d": "Un campo de golf suele tener 18 hoyos.",
+   "tp": "¿Qué deporte se juega golpeando una pelota con palos para meterla en hoyos? ¿Golf, Polo, Críquet o Hockey?",
+   "tr": "¡El golf!",
+   "td": "Un campo de golf suele tener dieciocho hoyos."
+  },
+  {
+   "n": 54,
+   "tema": "idiomas",
+   "p": "¿Qué idioma se habla en Egipto?",
+   "o": [
+    "Turco",
+    "Persa",
+    "Árabe",
+    "Hebreo"
+   ],
+   "c": 2,
+   "d": "El árabe se escribe de derecha a izquierda.",
+   "tp": "¿Qué idioma se habla en Egipto? ¿Turco, Persa, Árabe o Hebreo?",
+   "tr": "¡Árabe!",
+   "td": "El árabe se escribe de derecha a izquierda."
+  },
+  {
+   "n": 55,
+   "tema": "espacio",
+   "p": "¿Qué planeta de anillos muy visibles es el sexto desde el Sol?",
+   "o": [
+    "Saturno",
+    "Júpiter",
+    "Urano",
+    "Neptuno"
+   ],
+   "c": 0,
+   "d": "Los anillos de Saturno están hechos de hielo y rocas.",
+   "tp": "¿Qué planeta de anillos muy visibles es el sexto desde el Sol? ¿Saturno, Júpiter, Urano o Neptuno?",
+   "tr": "¡Saturno!",
+   "td": "Los anillos de Saturno están hechos de hielo y rocas."
+  },
+  {
+   "n": 56,
+   "tema": "ciencia",
+   "p": "¿Qué gas respiramos para vivir?",
+   "o": [
+    "Helio",
+    "Oxígeno",
+    "Hidrógeno",
+    "Dióxido de carbono"
+   ],
+   "c": 1,
+   "d": "El oxígeno es más o menos una quinta parte del aire que respiramos.",
+   "tp": "¿Qué gas respiramos para vivir? ¿Helio, Oxígeno, Hidrógeno o Dióxido de carbono?",
+   "tr": "¡El oxígeno!",
+   "td": "El oxígeno es más o menos una quinta parte del aire que respiramos."
+  },
+  {
+   "n": 57,
+   "tema": "arte",
+   "p": "¿Qué escritor español creó a Don Quijote de la Mancha?",
+   "o": [
+    "Lope de Vega",
+    "Miguel de Cervantes",
+    "Pablo Neruda",
+    "Gabriel García Márquez"
+   ],
+   "c": 1,
+   "d": "La primera parte de Don Quijote se publicó en 1605.",
+   "tp": "¿Qué escritor español creó a Don Quijote de la Mancha? ¿Lope de Vega, Miguel de Cervantes, Pablo Neruda o Gabriel García Márquez?",
+   "tr": "¡Miguel de Cervantes!",
+   "td": "La primera parte de Don Quijote se publicó en mil seiscientos cinco."
+  },
+  {
+   "n": 58,
+   "tema": "arte",
+   "p": "¿Qué pintor español pintó el cuadro «Guernica»?",
+   "o": [
+    "Salvador Dalí",
+    "Francisco de Goya",
+    "Diego Velázquez",
+    "Pablo Picasso"
+   ],
+   "c": 3,
+   "d": "Guernica se pintó en 1937 y mide casi 8 metros de ancho.",
+   "tp": "¿Qué pintor español pintó el cuadro «Guernica»? ¿Salvador Dalí, Francisco de Goya, Diego Velázquez o Pablo Picasso?",
+   "tr": "¡Pablo Picasso!",
+   "td": "Guernica se pintó en mil novecientos treinta y siete y mide casi ocho metros de ancho."
+  },
+  {
+   "n": 59,
+   "tema": "matemáticas",
+   "p": "¿Cuántos lados tiene un octágono, como la señal de PARE?",
+   "o": [
+    "Cinco",
+    "Seis",
+    "Ocho",
+    "Diez"
+   ],
+   "c": 2,
+   "d": "En muchos países la señal de pare tiene forma de octágono.",
+   "tp": "¿Cuántos lados tiene un octágono, como la señal de PARE? ¿Cinco, Seis, Ocho o Diez?",
+   "tr": "¡Ocho!",
+   "td": "En muchos países la señal de pare tiene forma de octágono."
+  },
+  {
+   "n": 60,
+   "tema": "animales",
+   "p": "¿Qué animal tiene una lengua larguísima de color azul oscuro?",
+   "o": [
+    "Elefante",
+    "Rinoceronte",
+    "Jirafa",
+    "Camello"
+   ],
+   "c": 2,
+   "d": "Con su lengua de casi 50 centímetros la jirafa agarra hojas de las acacias.",
+   "tp": "¿Qué animal tiene una lengua larguísima de color azul oscuro? ¿Elefante, Rinoceronte, Jirafa o Camello?",
+   "tr": "¡La jirafa!",
+   "td": "Con su lengua de casi cincuenta centímetros la jirafa agarra hojas de las acacias.",
+   "o_fotos": [
+    {
+     "q": "elephant",
+     "src": "px"
+    },
+    {
+     "q": "rhinoceros",
+     "src": "px"
+    },
+    {
+     "q": "giraffe",
+     "src": "px"
+    },
+    {
+     "q": "camel",
+     "src": "px"
+    }
+   ]
+  },
+  {
+   "n": 61,
+   "tema": "geografía",
+   "ronda": "misteriosa",
+   "p": "¿En qué ciudad de España está esta famosa basílica de Gaudí?",
+   "o": [
+    "Madrid",
+    "Sevilla",
+    "Valencia",
+    "Barcelona"
+   ],
+   "c": 3,
+   "img_q": "Sagrada Familia Barcelona",
+   "img_modo": "pregunta",
+   "d": "Su construcción empezó en 1882 y Gaudí trabajó en ella más de 40 años.",
+   "tp": "¿En qué ciudad de España está esta famosa basílica de Gaudí? ¿Madrid, Sevilla, Valencia o Barcelona?",
+   "tr": "¡Barcelona!",
+   "td": "Su construcción empezó en mil ochocientos ochenta y dos y Gaudí trabajó en ella más de cuarenta años."
+  },
+  {
+   "n": 62,
+   "tema": "animales",
+   "ronda": "misteriosa",
+   "p": "¿Qué animal de Australia es este, que come hojas de eucalipto?",
+   "o": [
+    "Panda",
+    "Perezoso",
+    "Koala",
+    "Mono"
+   ],
+   "c": 2,
+   "img_q": "koala eucalyptus tree",
+   "img_modo": "pregunta",
+   "d": "Un koala puede dormir unas 20 horas al día.",
+   "tp": "¿Qué animal de Australia es este, que come hojas de eucalipto? ¿Panda, Perezoso, Koala o Mono?",
+   "tr": "¡El koala!",
+   "td": "Un koala puede dormir unas veinte horas al día."
+  },
+  {
+   "n": 63,
+   "tema": "comida",
+   "ronda": "misteriosa",
+   "p": "¿Qué dulce español frito es este, que se moja en chocolate?",
+   "o": [
+    "Donas",
+    "Panqueques",
+    "Churros",
+    "Galletas"
+   ],
+   "c": 2,
+   "img_q": "churros chocolate",
+   "img_modo": "pregunta",
+   "d": "En España se comen con chocolate caliente espeso.",
+   "tp": "¿Qué dulce español frito es este, que se moja en chocolate? ¿Donas, Panqueques, Churros o Galletas?",
+   "tr": "¡Los churros!",
+   "td": "En España se comen con chocolate caliente espeso."
+  },
+  {
+   "n": 64,
+   "tema": "geografía",
+   "p": "¿Cuál es la capital de Uruguay?",
+   "o": [
+    "Montevideo",
+    "Asunción",
+    "Lima",
+    "Quito"
+   ],
+   "c": 0,
+   "d": "Montevideo está junto al Río de la Plata.",
+   "tp": "¿Cuál es la capital de Uruguay? ¿Montevideo, Asunción, Lima o Quito?",
+   "tr": "¡Montevideo!",
+   "td": "Montevideo está junto al Río de la Plata."
+  },
+  {
+   "n": 65,
+   "tema": "historia",
+   "p": "¿Qué ciudad de Brasil recibió los Juegos Olímpicos de 2016?",
+   "o": [
+    "São Paulo",
+    "Brasilia",
+    "Salvador",
+    "Río de Janeiro"
+   ],
+   "c": 3,
+   "d": "Fueron los primeros Juegos Olímpicos celebrados en Sudamérica.",
+   "tp": "¿Qué ciudad de Brasil recibió los Juegos Olímpicos de dos mil dieciséis? ¿São Paulo, Brasilia, Salvador o Río de Janeiro?",
+   "tr": "¡Río de Janeiro!",
+   "td": "Fueron los primeros Juegos Olímpicos celebrados en Sudamérica."
+  },
+  {
+   "n": 66,
+   "tema": "ciencia",
+   "p": "¿Qué inventor serbio trabajó con la corriente alterna y da nombre a una unidad?",
+   "o": [
+    "Nikola Tesla",
+    "Thomas Edison",
+    "Alexander Bell",
+    "Guglielmo Marconi"
+   ],
+   "c": 0,
+   "d": "La unidad del campo magnético se llama tesla en su honor.",
+   "tp": "¿Qué inventor serbio trabajó con la corriente alterna y da nombre a una unidad? ¿Nikola Tesla, Thomas Edison, Alexander Bell o Guglielmo Marconi?",
+   "tr": "¡Nikola Tesla!",
+   "td": "La unidad del campo magnético se llama tesla en su honor."
+  },
+  {
+   "n": 67,
+   "tema": "geografía",
+   "p": "¿Cuál es el río más largo de Sudamérica?",
+   "o": [
+    "Orinoco",
+    "Paraná",
+    "Amazonas",
+    "Magdalena"
+   ],
+   "c": 2,
+   "d": "El Amazonas atraviesa Perú, Colombia y Brasil.",
+   "tp": "¿Cuál es el río más largo de Sudamérica? ¿Orinoco, Paraná, Amazonas o Magdalena?",
+   "tr": "¡El Amazonas!",
+   "td": "El Amazonas atraviesa Perú, Colombia y Brasil."
+  },
+  {
+   "n": 68,
+   "tema": "deportes",
+   "p": "¿En qué país se escribieron las primeras reglas del fútbol moderno, en 1863?",
+   "o": [
+    "Inglaterra",
+    "Brasil",
+    "Alemania",
+    "Italia"
+   ],
+   "c": 0,
+   "d": "La Asociación de Fútbol se fundó en Londres en 1863.",
+   "tp": "¿En qué país se escribieron las primeras reglas del fútbol moderno, en mil ochocientos sesenta y tres? ¿Inglaterra, Brasil, Alemania o Italia?",
+   "tr": "¡Inglaterra!",
+   "td": "La Asociación de Fútbol se fundó en Londres en mil ochocientos sesenta y tres.",
+   "o_fotos": [
+    {
+     "flag": "gb"
+    },
+    {
+     "flag": "br"
+    },
+    {
+     "flag": "de"
+    },
+    {
+     "flag": "it"
+    }
+   ]
+  },
+  {
+   "n": 69,
+   "tema": "comida",
+   "p": "¿De qué región del mundo viene el cacao, con el que se hace el chocolate?",
+   "o": [
+    "Europa",
+    "Asia",
+    "América",
+    "Oceanía"
+   ],
+   "c": 2,
+   "d": "Los mayas y los aztecas ya preparaban bebidas de cacao hace siglos.",
+   "tp": "¿De qué región del mundo viene el cacao, con el que se hace el chocolate? ¿Europa, Asia, América o Oceanía?",
+   "tr": "¡De América!",
+   "td": "Los mayas y los aztecas ya preparaban bebidas de cacao hace siglos."
+  },
+  {
+   "n": 70,
+   "tema": "cuerpo",
+   "p": "¿Cuántos dientes definitivos tiene un adulto, con las muelas del juicio?",
+   "o": [
+    "20",
+    "28",
+    "32",
+    "36"
+   ],
+   "c": 2,
+   "d": "Los niños tienen 20 dientes de leche.",
+   "tp": "¿Cuántos dientes definitivos tiene un adulto, con las muelas del juicio? ¿veinte, veintiocho, treinta y dos o treinta y seis?",
+   "tr": "¡Treinta y dos!",
+   "td": "Los niños tienen veinte dientes de leche."
+  },
+  {
+   "n": 71,
+   "tema": "geografía",
+   "p": "¿Qué mar separa Europa de África?",
+   "o": [
+    "Caribe",
+    "Rojo",
+    "Negro",
+    "Mediterráneo"
+   ],
+   "c": 3,
+   "d": "«Mediterráneo» significa «en medio de las tierras».",
+   "tp": "¿Qué mar separa Europa de África? ¿Caribe, Rojo, Negro o Mediterráneo?",
+   "tr": "¡El Mediterráneo!",
+   "td": "«Mediterráneo» significa «en medio de las tierras»."
+  },
+  {
+   "n": 72,
+   "tema": "arte",
+   "p": "¿Quién escribió «El Principito»?",
+   "o": [
+    "Antoine de Saint-Exupéry",
+    "Julio Verne",
+    "Víctor Hugo",
+    "Hans Christian Andersen"
+   ],
+   "c": 0,
+   "d": "Se publicó en 1943 y se ha traducido a cientos de lenguas.",
+   "tp": "¿Quién escribió «El Principito»? ¿Antoine de Saint-Exupéry, Julio Verne, Víctor Hugo o Hans Christian Andersen?",
+   "tr": "¡Antoine de Saint-Exupéry!",
+   "td": "Se publicó en mil novecientos cuarenta y tres y se ha traducido a cientos de lenguas."
+  },
+  {
+   "n": 73,
+   "tema": "idiomas",
+   "p": "¿Qué lengua andina, además del quechua, se habla cerca del lago Titicaca?",
+   "o": [
+    "Guaraní",
+    "Maya",
+    "Náhuatl",
+    "Aimara"
+   ],
+   "c": 3,
+   "d": "El aimara se habla en los Andes de Perú, Bolivia y Chile.",
+   "tp": "¿Qué lengua andina, además del quechua, se habla cerca del lago Titicaca? ¿Guaraní, Maya, Náhuatl o Aimara?",
+   "tr": "¡El aimara!",
+   "td": "El aimara se habla en los Andes de Perú, Bolivia y Chile."
+  },
+  {
+   "n": 74,
+   "tema": "animales",
+   "ronda": "vf",
+   "p": "Los gatos no pueden ver nada en la oscuridad.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Ven mucho mejor que las personas con poca luz, aunque no en oscuridad total.",
+   "tp": "¿Verdadero o falso? Los gatos no pueden ver nada en la oscuridad.",
+   "tr": "¡Falso! Ven bien con poca luz.",
+   "td": "Ven mucho mejor que las personas con poca luz, aunque no en oscuridad total."
+  },
+  {
+   "n": 75,
+   "tema": "animales",
+   "ronda": "vf",
+   "p": "Los koalas tienen huellas dactilares parecidas a las de las personas.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 0,
+   "d": "Sus huellas son tan parecidas a las humanas que pueden confundirse al microscopio.",
+   "tp": "¿Verdadero o falso? Los koalas tienen huellas dactilares parecidas a las de las personas.",
+   "tr": "¡Verdadero! Se parecen a las nuestras.",
+   "td": "Sus huellas son tan parecidas a las humanas que pueden confundirse al microscopio."
+  },
+  {
+   "n": 76,
+   "tema": "animales",
+   "ronda": "vf",
+   "p": "Los pingüinos viven en el Polo Norte.",
+   "o": [
+    "Verdadero",
+    "Falso"
+   ],
+   "c": 1,
+   "d": "Viven sobre todo en el sur del planeta; hay uno incluso en las islas Galápagos.",
+   "tp": "¿Verdadero o falso? Los pingüinos viven en el Polo Norte.",
+   "tr": "¡Falso! Viven en el hemisferio sur.",
+   "td": "Viven sobre todo en el sur del planeta; hay uno incluso en las islas Galápagos."
+  },
+  {
+   "n": 77,
+   "tema": "geografía",
+   "p": "¿Qué país sudamericano es famoso por su café y su Eje Cafetero?",
+   "o": [
+    "Colombia",
+    "Bolivia",
+    "Chile",
+    "Uruguay"
+   ],
+   "c": 0,
+   "d": "El Paisaje Cultural Cafetero de Colombia es patrimonio de la UNESCO.",
+   "tp": "¿Qué país sudamericano es famoso por su café y su Eje Cafetero? ¿Colombia, Bolivia, Chile o Uruguay?",
+   "tr": "¡Colombia!",
+   "td": "El Paisaje Cultural Cafetero de Colombia es patrimonio de la UNESCO.",
+   "o_fotos": [
+    {
+     "flag": "co"
+    },
+    {
+     "flag": "bo"
+    },
+    {
+     "flag": "cl"
+    },
+    {
+     "flag": "uy"
+    }
+   ]
+  },
+  {
+   "n": 78,
+   "tema": "espacio",
+   "p": "¿Cómo se llamaba la perrita que viajó al espacio en el Sputnik 2, en 1957?",
+   "o": [
+    "Laika",
+    "Belka",
+    "Luna",
+    "Dolly"
+   ],
+   "c": 0,
+   "d": "El Sputnik 2 fue un satélite soviético lanzado en noviembre de 1957.",
+   "tp": "¿Cómo se llamaba la perrita que viajó al espacio en el Sputnik dos, en mil novecientos cincuenta y siete? ¿Laika, Belka, Luna o Dolly?",
+   "tr": "¡Laika!",
+   "td": "El Sputnik dos fue un satélite soviético lanzado en noviembre de mil novecientos cincuenta y siete."
+  },
+  {
+   "n": 79,
+   "tema": "geografía",
+   "p": "¿Qué animales aparecen en el escudo de armas de Australia?",
+   "o": [
+    "Koala y loro",
+    "Oveja y vaca",
+    "León y águila",
+    "Canguro y emú"
+   ],
+   "c": 3,
+   "d": "Se dice que simbolizan avanzar, porque ninguno camina hacia atrás con facilidad.",
+   "tp": "¿Qué animales aparecen en el escudo de armas de Australia? ¿Koala y loro, Oveja y vaca, León y águila o Canguro y emú?",
+   "tr": "¡El canguro y el emú!",
+   "td": "Se dice que simbolizan avanzar, porque ninguno camina hacia atrás con facilidad."
+  },
+  {
+   "n": 80,
+   "tema": "música",
+   "p": "¿Qué músico alemán compuso la «Novena Sinfonía» siendo sordo?",
+   "o": [
+    "Mozart",
+    "Bach",
+    "Chopin",
+    "Ludwig van Beethoven"
+   ],
+   "c": 3,
+   "d": "Esa sinfonía incluye el famoso «Himno a la alegría».",
+   "tp": "¿Qué músico alemán compuso la «Novena Sinfonía» siendo sordo? ¿Mozart, Bach, Chopin o Ludwig van Beethoven?",
+   "tr": "¡Beethoven!",
+   "td": "Esa sinfonía incluye el famoso «Himno a la alegría»."
   }
  ],
  "extra_tts": {}
